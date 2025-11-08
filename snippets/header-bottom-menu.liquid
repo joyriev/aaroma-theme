@@ -1,0 +1,59 @@
+<!-- Mobile Nav Buttons -->
+{% assign menu = linklists[menu] %}
+
+  {% if menu and menu.links.size > 0 %}
+    <div class="mobile-nav-buttons page-width">
+      {% for link in menu.links %}
+        <a href="{{ link.url }}"  class="mobile-btn{% if link.active %} active{% endif %}">
+          {{ link.title }}
+        </a>
+      {% endfor %}
+    </div>
+  {% endif %}
+<style>
+/* Hide on desktop, show only on mobile */
+.mobile-nav-buttons {
+  display: none;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.mobile-btn {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid #d1cfcf;
+  border-radius: 8px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #333;
+  background: #fff;
+  transition: all 0.2s ease;
+}
+
+.mobile-btn:hover {
+  background: #f5f5f5;
+}
+
+/* Show only on mobile */
+@media (max-width: 768px) {
+  .mobile-nav-buttons {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .mobile-nav-buttons a{
+    width: fit-content;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1;
+    text-align: center;
+    letter-spacing: -.4px;
+    color: #000;
+    padding: 6px 12px;
+    border: 1px solid #ded5c9;
+    border-radius: 8px;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+}
+</style>

@@ -1,0 +1,278 @@
+<div class="desc-product-tabs">
+    <div class="accordions">
+      {% if block.settings.accordion_name1 != blank %}
+        <button class="tab-btn active" data-tab="notes">{{ block.settings.accordion_name1 }}</button>
+      {% endif %}
+      {% if block.settings.accordion_name2 != blank %}
+        <button class="tab-btn" data-tab="about">{{ block.settings.accordion_name2 }}</button>
+      {% endif %}
+      {% if block.settings.accordion_name3 != blank %}
+        <button class="tab-btn" data-tab="extraits">{{ block.settings.accordion_name3 }}</button>
+      {% endif %}
+      {% if block.settings.accordion_name4 != blank %}
+        <button class="tab-btn" data-tab="faq">{{ block.settings.accordion_name4 }}</button>
+      {% endif %}
+    </div>
+
+    <div id="notes" class="tab-content active">
+       {% assign metaobj = product.metafields.custom.notes_ingredients.value %}
+        <h4>Highlight Notes:</h4>
+        <div class="highlight-notes">
+           {{ metaobj.highlight_notes }}
+            {% comment %} <div class="note-item">
+            <img src="https://cdn.shopify.com/s/files/1/0665/7130/5147/files/icon-note-pineapple_150x_1f7e5525-7dbc-4e8f-8a09-414401a0107f.png?v=1759520967" alt="Pineapple">
+            <div>Pineapple</div>
+            </div>
+            <div class="note-item">
+            <img src="https://cdn.shopify.com/s/files/1/0665/7130/5147/files/icon-note-bergamot_150x_3084ecf2-ec54-4dff-b5d1-ea1b291d6cff.png?v=1759520968" alt="Bergamot">
+            <div>Bergamot</div>
+            </div>
+            <div class="note-item">
+            <img src="https://cdn.shopify.com/s/files/1/0665/7130/5147/files/icon-note-ambroxan_150x_76d40dd4-f756-4fd7-bd75-5b67529fb714.png?v=1759520966" alt="Ambroxan">
+            <div>Ambroxan</div>
+            </div>
+            <div class="note-item">
+            <img src="https://cdn.shopify.com/s/files/1/0665/7130/5147/files/icon-note-patchouli_150x_a9c160db-31f1-4e2e-a90d-dcfd19aca4a6.png?v=1759520968" alt="Patchouli">
+            <div>Patchouli</div>
+            </div> {% endcomment %}
+        </div>
+        {% if metaobj.top_notes != blank %}
+          <h4>Top Notes:</h4>
+          <p>{{ metaobj.top_notes }}</p>
+        {% endif %}
+
+        {% if metaobj.heart_notes != blank %}
+          <h4>Heart Notes:</h4>
+          <p>{{ metaobj.heart_notes }}</p>
+        {% endif %}
+
+        {% if metaobj.base_notes != blank %}
+          <h4>Base Notes:</h4>
+          <p>{{ metaobj.base_notes }}</p>
+         {% endif %}
+
+        {% if metaobj.ingredients != blank %}
+          <h4>Ingredients:</h4>
+          <p class="ingredients">
+            {{ metaobj.ingredients }}
+          </p>
+        {% endif %}
+    </div>
+
+    <div id="about" class="tab-content">
+        <div class="fragrance-description">
+          {{ product.description }}
+        </div>
+    </div>
+
+    <div id="extraits" class="tab-content">
+       {{ block.settings.custom_liquid3 }}
+    </div>
+
+    <div id="faq" class="tab-content">
+      {% if block.settings.custom_liquid4 != blank  %}
+        {{ block.settings.custom_liquid4 }}
+      {% endif %}
+        <div class="faq">
+            {% if block.settings.question != blank %}
+              <div class="faq-item">
+                  <button class="faq-question">{{ block.settings.question }} <span>+</span></button>
+                  <div class="faq-answer">
+                    <p>{{ block.settings.answer2 }}</p>
+                  </div>
+              </div>
+            {% endif %}
+            {% if block.settings.question2 != blank %}
+              <div class="faq-item">
+                  <button class="faq-question">{{ block.settings.question2 }} <span>+</span></button>
+                  <div class="faq-answer">
+                    <p>{{ block.settings.answer2 }}</p>
+                  </div>
+              </div>
+            {% endif %}
+
+            {% if block.settings.question3 != blank %}
+              <div class="faq-item">
+                  <button class="faq-question">{{ block.settings.question3 }} <span>+</span></button>
+                  <div class="faq-answer">
+                    <p>{{ block.settings.answer3 }}</p>
+                  </div>
+              </div>
+            {% endif %}
+
+            {% if block.settings.question4 != blank %}
+              <div class="faq-item">
+                  <button class="faq-question">{{ block.settings.question4 }} <span>+</span></button>
+                  <div class="faq-answer">
+                    <p>{{ block.settings.answer4 }}</p>
+                  </div>
+              </div>
+            {% endif %}
+
+            <div class="faq-item">
+              <button class="faq-question">COMPARATIVE ADVERTISING DISCLAIMER <span>+</span></button>
+              <div class="faq-answer">
+                <p>
+                  Please be aware that products mentioned throughout our site are a mere guide and in no circumstance should be mistaken for the actual high street, designer or Niche brand. Names and copyrights, used or unused, are properties of their respective manufacturers and/or designers. 
+                </p>
+                <p>
+                  These are simply inspirations, and are not ‘identical’ to any other fragrance or original.
+                </p>
+                <p>
+                  Tryscent perfumes are not to be confused with originals and we have no affiliation with the manufacturers of these unnamed designer brands. 
+                </p>
+                <p>
+                  All ‘Trademarks’, used or unused, are property of their respective owners. We are not endorsed by, directly affiliated with, maintained, authorised, or sponsored by any trademark holder referenced or unreferenced herein. 
+                </p>
+                <p>
+                  The use of any product name is for identification and reference purposes only, and does not imply any association with the trademark holder.
+                </p>
+              </div>
+          </div>
+        </div>
+    </div>
+
+</div>
+
+<style>
+
+    .desc-product-tabs .accordions {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .desc-product-tabs .accordions button {
+      padding: 10px 20px;
+      border: 1px solid #ccc;
+      border-radius: 20px;
+      background: #fff;
+      cursor: pointer;
+      font-size: 14px;
+      transition: all 0.3s ease;
+    }
+
+    .desc-product-tabs .accordions button.active {
+      border-color: #000;
+      font-weight: bold;
+    }
+
+    .desc-product-tabs .tab-content {
+      display: none;
+      padding: 15px;
+      border: 1px solid #eee;
+      border-radius: 10px;
+      background: #fafafa;
+    }
+
+    .desc-product-tabs .tab-content.active {
+      display: block;
+    }
+    {% comment %} Faq css Start {% endcomment %}
+         .faq {
+      border-top: 1px solid #ccc;
+    }
+
+    .faq-item {
+      border-bottom: 1px solid #ccc;
+    }
+
+    .faq-question {
+      width: 100%;
+      background: none;
+      border: none;
+      text-align: left;
+      padding: 15px 10px;
+      font-size: 16px;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .faq-question span {
+      font-size: 20px;
+      transition: transform 0.3s ease;
+    }
+
+    .faq-question.active span {
+      transform: rotate(45deg);
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease, padding 0.3s ease;
+      padding: 0 10px;
+    }
+
+    .faq-answer.open {
+      max-height: 300px; /* adjust based on answer length */
+      padding: 10px;
+    }
+    {% comment %} Notes Tab CSS {% endcomment %}
+    .highlight-notes {
+      display: flex;
+      gap: 30px;
+      margin-bottom: 20px;
+    }
+
+    .note-item {
+      text-align: center;
+      font-size: 14px;
+      color: #333;
+    }
+
+    .note-item img {
+      width: 60px;
+      height: 60px;
+      border: 1px solid #ddd;
+      border-radius: 50%;
+      padding: 10px;
+      margin-bottom: 8px;
+    }
+
+    p {
+      margin: 5px 0 15px 0;
+    }
+
+    .ingredients {
+      font-size: 14px;
+      color: #444;
+    }
+</style>
+
+<script>
+    const tabs = document.querySelectorAll(".tab-btn");
+    const contents = document.querySelectorAll(".tab-content");
+
+    tabs.forEach(tab => {
+      tab.addEventListener("click", () => {
+        // Remove active state from all
+        tabs.forEach(t => t.classList.remove("active"));
+        contents.forEach(c => c.classList.remove("active"));
+
+        // Add active state to clicked
+        tab.classList.add("active");
+        document.getElementById(tab.dataset.tab).classList.add("active");
+      });
+    });
+
+    const questions = document.querySelectorAll(".faq-question");
+    questions.forEach(q => {
+      q.addEventListener("click", () => {
+        const answer = q.nextElementSibling;
+        const isOpen = answer.classList.contains("open");
+
+        // Close all
+        document.querySelectorAll(".faq-answer").forEach(a => a.classList.remove("open"));
+        document.querySelectorAll(".faq-question").forEach(btn => btn.classList.remove("active"));
+
+        // Open clicked one if not already open
+        if (!isOpen) {
+          answer.classList.add("open");
+          q.classList.add("active");
+        }
+      });
+    });
+</script>

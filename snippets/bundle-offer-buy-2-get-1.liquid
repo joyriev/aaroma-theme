@@ -1,0 +1,609 @@
+<!-- Parent Wrapper -->
+<div class="bundle-container">
+  <div class="bundle-header">
+    <h2>
+      Buy 2 Get 1 FREE
+      <span class="save-tag">Save 33%</span>
+    </h2>
+    <p>Build your bundle and get one scent for FREE!</p>
+  </div>
+
+  <div class="scent-boxes">
+    <div class="scent-box">
+      <div class="add-btn" onclick="openPopup(1)">+</div>
+      <p>Add Scent</p>
+    </div>
+    <div class="scent-box">
+      <div class="add-btn" onclick="openPopup(2)">+</div>
+      <p>Add Scent</p>
+    </div>
+    <div class="scent-box">
+      <div class="add-btn" onclick="openPopup(3)">+</div>
+      <p>Add Scent</p>
+    </div>
+  </div>
+</div>
+
+<!-- Popup -->
+{% comment %} <div class="bundle-parent-popup popup" id="popup">
+  <div class="popup-content">
+    <div class="top-popup-header">
+      <span class="close-btn" onclick="closePopup()">&times;</span>
+      <h3 id="popup-title">ADD 3 MORE SCENTS</h3>
+    </div>
+
+      <!-- Product Grid -->
+      <div class="product-grid" id="productGrid">
+        {% for product in collections.all.products %}
+          {% assign size_variant = product.variants | where: "title", "100ML" | first %}
+          <div class="product-card" data-variant-id="{{ size_variant.id }}">
+            {{ product.featured_media | image_url: width: '200', height: '150' | image_tag }}
+            <div class="variants-name-items">
+              <p class="smell-text">Smells like</p>
+              <p class="size">
+                {% if size_variant %}
+                  {{ size_variant.title }}
+                {% else %}
+                  {{ product.variants.first.title }}
+                {% endif %}
+              </p>
+            </div>
+            <p class="perfume-name">{{ product.title }}</p>
+            <p class="price">{{ product.price | money }}</p>
+            <button class="add-btn-popup">Add +</button>
+          </div>
+        {% endfor %}
+
+      
+        {% for product in collections.men.products %}
+          <div class="product-card" 
+              data-category="men" 
+              data-tags="{{ product.tags | join: ',' | downcase }}"
+              data-brand="{{ product.vendor | downcase }}">
+            {{ product.featured_media | image_url: width: '200', height: '150' | image_tag }}
+            <div class="variants-name-items">
+              <p class="smell-text">Smells like</p>
+              {% assign size_variant = product.variants | where: "title", "100ML" | first %}
+              <p class="size">
+                {% if size_variant %}
+                  {{ size_variant.title }}
+                {% else %}
+                  {{ product.variants.first.title }}
+                {% endif %}
+              </p>
+            </div>
+            <p class="perfume-name">{{ product.title }}</p>
+            <p class="price">{{ product.price | money }}</p>
+            <button class="add-btn-popup">Add +</button>
+          </div>
+        {% endfor %}
+
+        {% for product in collections.women.products %}
+          <div class="product-card" 
+            data-category="women" 
+            data-tags="{{ product.tags | join: ',' | downcase }}"
+            data-brand="{{ product.vendor | downcase }}">
+            {{ product.featured_media | image_url: width: '200', height: '150' | image_tag }}
+            <div class="variants-name-items">
+              <p class="smell-text">Smells like</p>
+              {% assign size_variant = product.variants | where: "title", "100ML" | first %}
+              <p class="size">
+                {% if size_variant %}
+                  {{ size_variant.title }}
+                {% else %}
+                  {{ product.variants.first.title }}
+                {% endif %}
+              </p>
+            </div>
+            <p class="perfume-name">{{ product.title }}</p>
+            <p class="price">{{ product.price | money }}</p>
+            <button class="add-btn-popup">Add +</button>
+          </div>
+        {% endfor %}
+
+    </div>
+  </div>
+</div> {% endcomment %}
+
+<style>
+.spinner {
+  width: 50px; /* Adjust size as needed */
+  height: 50px; /* Adjust size as needed */
+  border: 5px solid #f3f3f3; /* Light grey border for the main circle */
+  border-top: 5px solid #3498db; /* Blue border for the spinning part */
+  border-radius: 50%; /* Makes the div a perfect circle */
+  animation: spin 1s linear infinite; /* Applies the spin animation */
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg); /* Starts at 0 degrees rotation */
+  }
+  100% {
+    transform: rotate(360deg); /* Rotates 360 degrees */
+  }
+}
+
+.bundle-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.scent-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.scent-box {
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+  width: 120px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: border 0.3s ease;
+}
+.scent-box.filled {
+  border: none;
+}
+.add-btn {
+  font-size: 40px;
+  color: #b87333;
+  line-height: 1;
+}
+.popup {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+.popup-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 900px;
+  max-height: 80vh;
+  overflow-y: auto;
+  position: relative;
+}
+.close-btn {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+}
+.product-card {
+  border: 1px solid #eee;
+  padding: 10px;
+  width: 180px;
+  text-align: center;
+  border-radius: 8px;
+}
+.add-btn-popup {
+  background: #0a2540;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: background 0.3s ease;
+}
+.add-btn-popup.selected {
+  background: #b87333;
+}
+.selected-scent {
+  position: relative;
+  border-radius: 8px;
+  padding: 10px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.selected-scent img {
+  width: 80px;
+  height: 80px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+.remove-scent {
+  position: absolute;
+  top: 4px;
+  right: 6px;
+  border: none;
+  background: transparent;
+  font-size: 18px;
+  cursor: pointer;
+}
+</style>
+
+{% comment %} <script>
+const popup = document.getElementById('popup');
+const popupTitle = document.getElementById('popup-title');
+const productGrid = document.getElementById('productGrid');
+let selectedVariants = [];
+let activeBox = null;
+
+function openPopup(boxNumber) {
+  popup.style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+  activeBox = boxNumber;
+  updatePopupTitle();
+}
+function closePopup() {
+  popup.style.display = 'none';
+  document.body.style.overflow = 'auto';
+}
+
+// === Add / Remove scent ===
+document.addEventListener('click', async function(e) {
+  // Add/Remove toggle
+  if (e.target.classList.contains('add-btn-popup')) {
+    const btn = e.target;
+    const card = btn.closest('.product-card');
+    const variantId = card.dataset.variantId;
+    const img = card.querySelector('img').src;
+    const title = card.querySelector('.perfume-name').textContent.trim();
+
+    if (btn.classList.contains('selected')) {
+      // Remove
+      btn.classList.remove('selected');
+      btn.textContent = 'Add +';
+      selectedVariants = selectedVariants.filter(id => id !== variantId);
+      removeScentBox(variantId);
+    } else {
+      // Add
+      if (selectedVariants.length < 3) {
+        btn.classList.add('selected');
+        btn.textContent = 'Remove -';
+        selectedVariants.push(variantId);
+        addToScentBox(img, title, variantId);
+      }
+    }
+
+    updatePopupTitle();
+
+    if (selectedVariants.length === 3) {
+      showFinalMessage();
+      await addToCartAndCheckout();
+    }
+  }
+
+  // Remove from scent box manually
+  if (e.target.classList.contains('remove-scent')) {
+    const box = e.target.closest('.scent-box');
+    const variantId = box.dataset.variantId;
+    box.classList.remove('filled');
+    box.innerHTML = `<div class="add-btn" onclick="openPopup(${[...box.parentNode.children].indexOf(box)+1})">+</div><p>Add Scent</p>`;
+    selectedVariants = selectedVariants.filter(id => id !== variantId);
+    // reset button in popup
+    const btn = document.querySelector(`.product-card[data-variant-id="${variantId}"] .add-btn-popup`);
+    if (btn) {
+      btn.classList.remove('selected');
+      btn.textContent = 'Add +';
+    }
+    updatePopupTitle();
+  }
+});
+
+function addToScentBox(img, title, id) {
+  const boxes = document.querySelectorAll('.bundle-container .scent-box');
+  for (let box of boxes) {
+    if (!box.classList.contains('filled')) {
+      box.classList.add('filled');
+      box.dataset.variantId = id;
+      box.innerHTML = `
+        <div class="selected-scent">
+          <img src="${img}" alt="${title}">
+          <p class="perfume-title">${title}</p>
+          <button class="remove-scent">&times;</button>
+        </div>
+      `;
+      break;
+    }
+  }
+}
+
+function removeScentBox(variantId) {
+  const box = document.querySelector(`.scent-box[data-variant-id="${variantId}"]`);
+  if (box) {
+    box.classList.remove('filled');
+    box.removeAttribute('data-variant-id');
+    box.innerHTML = `<div class="add-btn" onclick="openPopup(${[...box.parentNode.children].indexOf(box)+1})">+</div><p>Add Scent</p>`;
+  }
+}
+
+function updatePopupTitle() {
+  const remaining = 3 - selectedVariants.length;
+  if (remaining > 0) {
+    popupTitle.textContent = `ADD ${remaining} MORE SCENT${remaining > 1 ? 'S' : ''}`;
+  } else {
+    popupTitle.textContent = `ALL SCENTS SELECTED`;
+  }
+}
+
+function showFinalMessage() {
+  popup.querySelector('.popup-content').innerHTML = `
+    <div style="text-align:center;padding:40px;">
+      <h3>🎉 Your bundle is ready!</h3>
+      <div class="loader"></div>
+      <p>Redirecting to Checkout...</p>
+    </div>
+  `;
+}
+
+async function addToCartAndCheckout() {
+  const items = selectedVariants.map(id => ({ id, quantity: 1 }));
+  await fetch('/cart/clear.js', { method: 'POST' });
+  await fetch('/cart/add.js', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ items }),
+  });
+  setTimeout(() => window.location.href = '/checkout', 2000);
+}
+</script> {% endcomment %}
+
+
+
+
+<style>
+  /* === Parent Styling === */
+  .bundle-container {
+    background: #fcf8f4;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    padding: 20px 30px;
+    text-align: center;
+    border: 1px dashed #b87333;
+  }
+  
+  .bundle-container .bundle-header h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1b1b1b;
+    margin-bottom: 5px;
+  }
+
+  .bundle-container .save-tag {
+    background: #2e7d32;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 3px 6px;
+    border-radius: 3px;
+    margin-left: 6px;
+  }
+
+  .bundle-container .bundle-header p {
+    color: #555;
+    font-size: 14px;
+    margin-top: 4px;
+  }
+
+  .bundle-container .scent-boxes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+
+  .bundle-container .scent-box {
+    text-align: center;
+  }
+
+  .bundle-container .add-btn {
+    background-color: #b87333;
+    color: #fff;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 8px;
+    margin: 0 auto 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+
+  .bundle-container .add-btn:hover {
+    background-color: #a36229;
+  }
+
+  .bundle-container .scent-box p {
+    font-size: 14px;
+    color: #333;
+  }
+
+  /* === Popup Styles === */
+  .bundle-parent-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    animation: fadeIn 0.3s ease;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  .bundle-parent-popup .popup-content {
+    background: #fff;
+    border-radius: 10px;
+    padding: 25px 30px;
+    width: 90%;
+    max-width: 850px;
+    max-height: 85vh;
+    overflow-y: auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    position: relative;
+  }
+
+  .bundle-parent-popup .close-btn {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #666;
+  }
+
+  .bundle-parent-popup .close-btn:hover {
+    color: #000;
+  }
+  .popup-content .search-box {
+    position: relative;
+  }
+  .seach-absolute{
+    position: absolute;
+    left: 3px;
+    top: 4px;
+  }
+  .bundle-parent-popup h3 {
+    text-align: center;
+    color: #1b1b1b;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .variants-name-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* Filter section */
+  .bundle-parent-popup .filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .bundle-parent-popup .tabs button {
+    border: 1px solid #b87333;
+    background: #fff;
+    padding: 6px 14px;
+    border-radius: 5px;
+    margin-right: 8px;
+    cursor: pointer;
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+  }
+
+  .bundle-parent-popup .tabs button.active {
+    background: #b87333;
+    color: #fff;
+  }
+
+  .bundle-parent-popup .filters {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .bundle-parent-popup select,
+  .bundle-parent-popup input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 6px 28px;
+    font-size: 14px;
+  }
+
+  .bundle-parent-popup .search-box input {
+    width: 180px;
+  }
+
+  /* Product Grid */
+  .bundle-parent-popup .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 16px;
+  }
+
+  .bundle-parent-popup .product-card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 12px;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+  }
+
+  .bundle-parent-popup .product-card:hover {
+    transform: translateY(-3px);
+  }
+
+  .bundle-parent-popup .product-card img {
+    width: 100%;
+    max-width: 120px;
+    margin: 0 auto 10px;
+    display: block;
+    object-fit: cover;
+  }
+
+  .bundle-parent-popup .smell-text {
+    color: #666;
+    font-size: 13px;
+  }
+
+  .bundle-parent-popup .perfume-name {
+    font-weight: 600;
+    color: #222;
+    margin: 4px 0;
+  }
+
+  .bundle-parent-popup .size {
+    font-size: 12px;
+    color: #666;
+  }
+
+  .bundle-parent-popup .price {
+    color: #000;
+    font-weight: bold;
+    margin: 6px 0;
+  }
+
+  .bundle-parent-popup .add-btn-popup {
+    background: #1b1b1b;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 14px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s;
+    width: 100%;
+  }
+
+  .bundle-parent-popup .add-btn-popup:hover {
+    background: #b87333;
+  }
+</style>

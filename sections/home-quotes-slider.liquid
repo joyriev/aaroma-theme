@@ -1,0 +1,139 @@
+{% stylesheet %}
+.quotes-container {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.quotes-slider .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-card {
+  max-width: 300px;
+}
+
+.logo img {
+  margin: 0 auto 12px;
+  display: block;
+  max-width: 100px;
+}
+
+.quote-text {
+  font-size: 16px;
+  color: #333;
+  margin: 0 auto;
+}
+
+{% endstylesheet %}
+
+<div class="quotes-container">
+  <div class="quotes-slider-section page-width">
+    {% if section.settings.title_head != blank %}
+      <div class="collection-tabs-header" bis_skin_checked="1">
+        <h2 class="section-title">{{ section.settings.title_head }}</h2>
+      </div>
+    {% endif %}
+    <div class="swiper quotes-slider">
+      <div class="swiper-wrapper">
+        {% for block in section.blocks %}
+          <div class="swiper-slide">
+            <div class="quote-card center">
+              {% if block.settings.logo %}
+                <div class="logo">
+                  {{ block.settings.logo | image_url: width:'168' , height:'42' | image_tag  }}
+                </div>
+              {% endif %}
+              <p class="quote-text">{{ block.settings.quote }}</p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    new Swiper(".quotes-slider", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      loop: true,
+      // autoplay: false — no need to include autoplay at all
+      breakpoints: {
+        0: {
+          slidesPerView: 1.75,
+           centeredSlides: true,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 2
+        },
+        1024: {
+          slidesPerView: 3
+        }
+      }
+    });
+  });
+</script>
+
+
+{% schema %}
+{
+  "name": "Quotes Slider",
+  "tag": "section",
+  "class": "quotes-slider-wrapper",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title_head",
+      "label": "Heading",
+      "default": "Featured In"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "quote",
+      "name": "Quote",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "logo",
+          "label": "Logo"
+        },
+        {
+          "type": "text",
+          "id": "alt_text",
+          "label": "Alt Text",
+          "default": "Logo"
+        },
+        {
+          "type": "textarea",
+          "id": "quote",
+          "label": "Quote",
+          "default": "Enter the testimonial or quote here."
+        }
+      ]
+    }
+  ],
+  "max_blocks": 10,
+  "presets": [
+    {
+      "name": "Quotes Slider",
+      "category": "Testimonials",
+      "blocks": [
+        {
+          "type": "quote"
+        },
+        {
+          "type": "quote"
+        },
+        {
+          "type": "quote"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

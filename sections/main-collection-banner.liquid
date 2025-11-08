@@ -1,0 +1,134 @@
+{% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
+{{ 'component-collection-hero.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  @media screen and (max-width: 749px) {
+    .collection-hero--with-image .collection-hero__inner {
+      padding-bottom: calc({{ settings.media_shadow_vertical_offset | at_least: 0 }}px + 2rem);
+    }
+  }
+{%- endstyle -%}
+
+<div class="collection-hero{% if section.settings.show_collection_image and collection.image %} collection-hero--with-image{% endif %} color-{{ section.settings.color_scheme }} gradient">
+  <div class="collection-hero__inner page-width {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+    <div class="collection-hero__text-wrapper">
+      <nav class="collection__breadcrumbs">
+        <a href="/" class="link link--text list-menu__item list-menu__item--link">Home /</a>
+        <a href="/collections" class="link link--text list-menu__item list-menu__item--link">Collections /</a>
+        <a href="#" aria-current="page" class="link link--text list-menu__item list-menu__item--link">{{ collection.title }}</a>
+      </nav>
+      <h1 class="collection-hero__title">
+        <span class="visually-hidden">{{ 'sections.collection_template.title' | t }}: </span>
+        {{- collection.title | escape -}}
+      </h1>
+
+   <!-- Swiper sub collections container -->  
+  {% assign subcollection = linklists[section.settings.subcollections] %}
+  {% if subcollection.links.size > 0 %}
+      <div class="swiper-list-container">
+        <div class="collection__tabs swiper">
+          <ul class="list-menu swiper-wrapper" role="list">
+            {% for link in subcollection.links %}
+              {% assign link_path = link.url | remove: shop.url %}
+              {% assign current_path = collection.url %}
+
+              <li class="Linklist__Item swiper-slide">
+                {% if link_path == current_path %}
+                  <a href="{{ link.url }}" class="link list-menu__item link--active">
+                    {{ link.title }}
+                  </a>
+                {% else %}
+                  <a href="{{ link.url }}" class="link list-menu__item">
+                    {{ link.title }}
+                  </a>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+
+      <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const swiper = new Swiper(".collection__tabs", {
+          slidesPerView: 5,
+          spaceBetween: 10,
+          loop: false,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          }
+        });
+
+        const activeSlide = document.querySelector(".collection__tabs .link--active")?.closest(".swiper-slide");
+        if (activeSlide) {
+          const index = [...activeSlide.parentElement.children].indexOf(activeSlide);
+          swiper.slideTo(index, 0);
+        }
+      });
+      </script>
+    {% endif %}
+    {% comment %} END List sub collection {% endcomment %}
+      {%- if section.settings.show_collection_description -%}
+        <div class="collection-hero__description rte">{{ collection.description }}</div>
+      {%- endif -%}
+    </div>
+
+    {%- if section.settings.show_collection_image and collection.image -%}
+      <div class="collection-hero__image-container media gradient">
+        <img
+          srcset="
+            {%- if collection.image.width >= 165 -%}{{ collection.image | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if collection.image.width >= 360 -%}{{ collection.image | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if collection.image.width >= 535 -%}{{ collection.image | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if collection.image.width >= 750 -%}{{ collection.image | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if collection.image.width >= 1070 -%}{{ collection.image | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if collection.image.width >= 1500 -%}{{ collection.image | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ collection.image | image_url }} {{ collection.image.width }}w
+          "
+          src="{{ collection.image | image_url: width: 750 }}"
+          sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc(50vw - 130px), calc(50vw - 55px)"
+          alt="{{ collection.image.alt | escape }}"
+          width="{{ collection.image.width }}"
+          height="{{ collection.image.height }}"
+        >
+      </div>
+    {%- endif -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.main-collection-banner.name",
+  "class": "section",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "t:sections.main-collection-banner.settings.paragraph.content"
+    },
+    {
+      "type": "link_list",
+      "id": "subcollections",
+      "label": "Select Sub Collection Menu"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_collection_description",
+      "default": true,
+      "label": "t:sections.main-collection-banner.settings.show_collection_description.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_collection_image",
+      "default": false,
+      "label": "t:sections.main-collection-banner.settings.show_collection_image.label"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    }
+  ]
+}
+{% endschema %}

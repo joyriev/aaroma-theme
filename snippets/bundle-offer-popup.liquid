@@ -1,0 +1,380 @@
+<!-- Parent Wrapper -->
+<div class="bundle-container">
+  <div class="bundle-header">
+    <h2>
+      Buy 2 Get 1 FREE
+      <span class="save-tag">Save 33%</span>
+    </h2>
+    <p>Build your bundle and get one scent for FREE!</p>
+  </div>
+
+  <div class="scent-boxes">
+    <div class="scent-box">
+      <div class="add-btn" onclick="openPopup(1)">+</div>
+      <p>Add Scent</p>
+    </div>
+    <div class="scent-box">
+      <div class="add-btn" onclick="openPopup(2)">+</div>
+      <p>Add Scent</p>
+    </div>
+    <div class="scent-box">
+      <div class="add-btn" onclick="openPopup(3)">+</div>
+      <p>Add Scent</p>
+    </div>
+  </div>
+</div>
+
+<!-- Popup outside parent -->
+<div class="bundle-parent-popup popup" id="popup">
+  <div class="popup-content">
+    <div class="top-popup-header">
+      <span class="close-btn" onclick="closePopup()">&times;</span>
+      <h3 id="popup-title">ADD 3 MORE SCENTS</h3>
+
+      <!-- Filter Bar -->
+      <div class="filter-bar">
+        <div class="tabs">
+          <button class="tab-btn active" data-filter="all">All</button>
+          <button class="tab-btn" data-filter="men">Men's</button>
+          <button class="tab-btn" data-filter="women">Women's</button>
+        </div>
+
+        <div class="filters">
+          {% assign brand_filter = 'ysl,dior,lancome,versace,jean paul,de marly,chanel,armani,burberry,prada,creed aventus' %}
+          <select id="brandSelect">
+            <option value="all">Shop By Brand</option>
+            {% assign brands = brand_filter | split: ',' %}
+            {% for brand in brands %}
+            <option value="{{ brand | strip }}">{{ brand | capitalize }}</option>
+            {% endfor %}
+          </select>
+
+          <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Find your perfume">
+            <span class="seach-absolute svg-wrapper">
+              <svg fill="none" class="icon icon-search" viewBox="0 0 18 19">
+                <path fill="currentColor" fill-rule="evenodd" d="M11.03 11.68A5.784 5.784 0 1 1 2.85 3.5a5.784 5.784 0 0 1 8.18 8.18m.26 1.12a6.78 6.78 0 1 1 .72-.7l5.4 5.4a.5.5 0 1 1-.71.7z" clip-rule="evenodd"></path>
+              </svg>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product Grid -->
+    <div class="product-grid" id="productGrid">
+
+      {% for product in collections.all.products %}
+          {% assign size_variant = product.variants | where: "title", "100ML" | first %}
+          <div class="product-card" 
+            data-variant-id="{{ size_variant.id | default: product.variants.first.id }}" 
+            data-category="all" 
+            data-brand="{{ product.vendor | downcase }}">
+          {{ product.featured_media | image_url: width: '200', height: '150' | image_tag }}
+          <div class="variants-name-items">
+            <p class="smell-text">Smells like</p>
+            <p class="size">
+              {% if size_variant %}
+                {{ size_variant.title }}
+              {% else %}
+                {{ product.variants.first.title }}
+              {% endif %}
+            </p>
+          </div>
+          <p class="perfume-name">{{ product.title }}</p>
+          <p class="price">{{ product.price | money }}</p>
+          <button class="add-btn-popup">Add +</button>
+        </div>
+      {% endfor %}
+
+      {% for product in collections.men.products %}
+        {% assign size_variant = product.variants | where: "title", "100ML" | first %}
+        <div class="product-card" data-variant-id="{{ size_variant.id }}" data-category="men" data-brand="{{ product.vendor | downcase }}">
+          {{ product.featured_media | image_url: width: '200', height: '150' | image_tag }}
+          <div class="variants-name-items">
+            <p class="smell-text">Smells like</p>
+            <p class="size">
+              {% if size_variant %}
+                {{ size_variant.title }}
+              {% else %}
+                {{ product.variants.first.title }}
+              {% endif %}
+            </p>
+          </div>
+          <p class="perfume-name">{{ product.title }}</p>
+          <p class="price">{{ product.price | money }}</p>
+          <button class="add-btn-popup">Add +</button>
+        </div>
+      {% endfor %}
+
+      {% for product in collections.women.products %}
+        {% assign size_variant = product.variants | where: "title", "100ML" | first %}
+        <div class="product-card" data-variant-id="{{ size_variant.id }}" data-category="women" data-brand="{{ product.vendor | downcase }}">
+          {{ product.featured_media | image_url: width: '200', height: '150' | image_tag }}
+          <div class="variants-name-items">
+            <p class="smell-text">Smells like</p>
+            <p class="size">
+              {% if size_variant %}
+                {{ size_variant.title }}
+              {% else %}
+                {{ product.variants.first.title }}
+              {% endif %}
+            </p>
+          </div>
+          <p class="perfume-name">{{ product.title }}</p>
+          <p class="price">{{ product.price | money }}</p>
+          <button class="add-btn-popup">Add +</button>
+        </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
+
+<script>
+const popup = document.getElementById('popup');
+const brandSelect = document.getElementById('brandSelect');
+const searchInput = document.getElementById('searchInput');
+const tabButtons = document.querySelectorAll('.tab-btn');
+const productGrid = document.getElementById('productGrid');
+const headerTitle = document.querySelector('.top-popup-header h3');
+const scentBoxes = document.querySelectorAll('.scent-box');
+
+let selectedProducts = [];
+let activeBoxIndex = 0;
+
+// ---------------- POPUP CONTROL ---------------- //
+function openPopup(boxIndex) {
+  activeBoxIndex = boxIndex - 1;
+  popup.style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+
+  // Reset filters
+  brandSelect.value = 'all';
+  searchInput.value = '';
+
+  // Remove active class from all tabs
+  tabButtons.forEach(btn => btn.classList.remove('active'));
+
+  // Add active class to the "All" tab
+  const allTab = document.querySelector('.tab-btn[data-filter="all"]');
+  if (allTab) allTab.classList.add('active');
+
+  // Show all products
+  const products = productGrid.querySelectorAll('.product-card');
+  products.forEach(product => product.style.display = 'block');
+
+  updateHeaderText();
+}
+
+
+
+function closePopup() {
+  popup.style.display = 'none';
+  document.body.style.overflow = 'auto';
+}
+
+window.onclick = function(event) {
+  if (event.target === popup) closePopup();
+};
+
+// ---------------- FILTER ---------------- //
+function applyDefaultFilter() {
+  brandSelect.value = 'all';
+  searchInput.value = '';
+  tabButtons.forEach(btn => btn.classList.remove('active'));
+  tabButtons[0].classList.add('active');
+  filterProducts();
+}
+
+tabButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    tabButtons.forEach(btn => btn.classList.remove('active'));
+    button.classList.add('active');
+    filterProducts();
+  });
+});
+
+brandSelect.addEventListener('change', filterProducts);
+searchInput.addEventListener('input', filterProducts);
+
+function filterProducts() {
+  const activeFilter = document.querySelector('.tab-btn.active').dataset.filter;
+  const selectedBrand = brandSelect.value.toLowerCase();
+  const searchTerm = searchInput.value.toLowerCase();
+  const products = productGrid.querySelectorAll('.product-card');
+
+  products.forEach(product => {
+    const productCategory = product.dataset.category;
+    const productBrand = product.dataset.brand;
+    const productName = product.querySelector('.perfume-name').textContent.toLowerCase();
+
+    let show = activeFilter === 'all' || productCategory === activeFilter;
+    if (show && selectedBrand !== 'all') show = productBrand.includes(selectedBrand);
+    if (show && searchTerm) show = productName.includes(searchTerm);
+    product.style.display = show ? 'block' : 'none';
+  });
+}
+
+// ---------------- SELECT / REMOVE ---------------- //
+function updateHeaderText() {
+  const remaining = 3 - selectedProducts.length;
+  headerTitle.textContent = remaining > 0 ? `ADD ${remaining} MORE SCENT${remaining > 1 ? 'S' : ''}` : 'Your bundle is ready!';
+}
+
+function renderSelectedList() {
+  scentBoxes.forEach((box, i) => {
+    box.innerHTML = ''; // clear previous content
+
+    const product = selectedProducts[i];
+    if (product) {
+      const wrapper = document.createElement('div');
+      wrapper.classList.add('selected-item-wrapper');
+      wrapper.style.position = 'relative';
+      wrapper.style.textAlign = 'center';
+
+      // Product Image
+      const img = document.createElement('img');
+      img.src = product.image;
+      img.alt = product.title;
+      img.style.width = '80px';
+      img.style.height = '80px';
+      img.style.objectFit = 'cover';
+      img.style.borderRadius = '6px';
+      wrapper.appendChild(img);
+
+      // SVG Remove Button
+      const removeBtn = document.createElement('span');
+      removeBtn.innerHTML = `
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      `;
+      removeBtn.style.position = 'absolute';
+      removeBtn.style.top = '-8px';
+      removeBtn.style.right = '-8px';
+      removeBtn.style.cursor = 'pointer';
+      removeBtn.addEventListener('click', () => {
+        selectedProducts[i] = null; // reset this slot
+        renderSelectedList();
+        updateHeaderText();
+      });
+      wrapper.appendChild(removeBtn);
+
+      // Smells like text
+      const smellText = document.createElement('p');
+      smellText.textContent = 'Smells like';
+      smellText.style.margin = '5px 0 0 0';
+      smellText.style.fontSize = '12px';
+      wrapper.appendChild(smellText);
+
+      // Product title
+      const title = document.createElement('p');
+      title.textContent = product.title;
+      title.style.fontSize = '12px';
+      title.style.fontWeight = '600';
+      title.style.overflow = 'hidden';
+      title.style.textOverflow = 'ellipsis';
+      title.style.whiteSpace = 'nowrap';
+      wrapper.appendChild(title);
+
+      box.appendChild(wrapper);
+    } else {
+      // Add Scent placeholder (auto reset)
+      const addBtn = document.createElement('div');
+      addBtn.classList.add('add-btn');
+      addBtn.textContent = '+';
+      addBtn.addEventListener('click', () => openPopup(i + 1));
+      box.appendChild(addBtn);
+
+      const p = document.createElement('p');
+      p.textContent = 'Add Scent';
+      box.appendChild(p);
+    }
+  });
+}
+
+function showCheckoutLoader() {
+  const loaderDiv = document.createElement('div');
+  loaderDiv.classList.add('checkout-loader');
+  loaderDiv.innerHTML = `
+    <p>Your bundle is ready!</p>
+    <p>Redirecting to Checkout...</p>
+    <div class="spinner"></div>
+  `;
+  document.querySelector('.popup-content').appendChild(loaderDiv);
+
+  const productsToAdd = selectedProducts.filter(Boolean);
+
+  const addPromises = productsToAdd.map(product => {
+    return fetch('/cart/add.js', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ id: product.id, quantity: 1 }) // product.id MUST be variant ID
+    });
+  });
+
+  Promise.all(addPromises)
+    .then(() => window.location.href = '/checkout')
+    .catch(err => {
+      console.error('Error adding items to cart:', err);
+      alert('There was an error adding items to the cart. Please try again.');
+    });
+}
+
+
+function handleAddRemove(button, productData) {
+  // Check if product is already selected
+  const existingIndex = selectedProducts.findIndex(p => p && p.id === productData.id);
+
+  if (existingIndex === -1) {
+    // Find first empty slot
+    const emptyIndex = selectedProducts.findIndex(p => !p);
+    if (emptyIndex !== -1) {
+      selectedProducts[emptyIndex] = productData;
+    } else if (selectedProducts.length < 3) {
+      selectedProducts.push(productData);
+    } else {
+      return; // max 3
+    }
+
+    button.textContent = 'Remove -';
+    button.classList.add('active-btn');
+
+    // Close popup after adding a product
+    closePopup();
+  } else {
+    // Remove from selection
+    selectedProducts[existingIndex] = null;
+    button.textContent = 'Add +';
+    button.classList.remove('active-btn');
+  }
+
+  renderSelectedList();
+  updateHeaderText();
+
+  // Auto checkout if 3 selected
+  if (selectedProducts.filter(Boolean).length === 3) {
+    showCheckoutLoader();
+  }
+}
+
+// ---------------- INITIALIZE ---------------- //
+document.addEventListener('DOMContentLoaded', function() {
+  applyDefaultFilter();
+
+  const addButtons = document.querySelectorAll('.add-btn-popup');
+  addButtons.forEach(button => {
+    const productCard = button.closest('.product-card');
+    const productTitle = productCard.querySelector('.perfume-name').textContent.trim();
+    const productImg = productCard.querySelector('img').src;
+    const productId = productCard.dataset.variantId || productCard.dataset.productId;
+
+    const productData = { id: productId, title: productTitle, image: productImg };
+
+    button.addEventListener('click', () => handleAddRemove(button, productData));
+  });
+});
+</script>
+

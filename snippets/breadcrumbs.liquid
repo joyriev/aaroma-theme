@@ -1,0 +1,16 @@
+{% comment %} This code is a boilerplate and may need customization {% endcomment %}
+{% unless template == 'index' or template == 'cart' or template == 'list-collections' or template == '404' %}
+  <nav aria-label="Breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="{{ shop.url }}">Home</a></li>
+      {% if collection %}
+        <li class="breadcrumb-item"><a href="{{ collection.url }}">{{ collection.title }}</a></li>
+      {% endif %}
+      {% if product %}
+        <li class="breadcrumb-item active">{{ product.title }}</li>
+      {% elsif page %}
+        <li class="breadcrumb-item active">{{ page.title }}</li>
+      {% endif %}
+    </ol>
+  </nav>
+{% endunless %}

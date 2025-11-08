@@ -1,0 +1,363 @@
+{%- comment -%}
+  Custom search modal with popular searches + products
+  Use inside header.liquid or header-search snippet
+{%- endcomment -%}
+
+<details-modal class="header__search">
+  <details>
+    <summary
+      class="header__icon header__icon--search header__icon--summary link focus-inset modal__toggle"
+      aria-haspopup="dialog"
+      aria-label="{{ 'general.search.search' | t }}"
+    >
+      <span>
+        <span class="svg-wrapper">
+          {{- 'icon-search.svg' | inline_asset_content -}}
+        </span>
+        <span class="svg-wrapper header__icon-close">
+          {{- 'icon-close.svg' | inline_asset_content -}}
+        </span>
+      </span>
+    </summary>
+
+    <div class="search-modal modal__content gradient" role="dialog" aria-modal="true">
+      <div class="modal-overlay"></div>
+      <div class="search-modal__content search-modal__content-bottom" tabindex="-1">
+        <predictive-search class="search-modal__form" data-loading-text="{{ 'accessibility.loading' | t }}">
+          <form action="{{ routes.search_url }}" method="get" role="search" class="search search-modal__form">
+            <div class="field">
+              <input
+                class="search__input field__input"
+                id="{{ input_id }}"
+                type="search"
+                name="q"
+                placeholder="Search"
+                role="combobox"
+                aria-expanded="false"
+                aria-owns="predictive-search-results"
+                aria-controls="predictive-search-results"
+                aria-haspopup="listbox"
+                aria-autocomplete="list"
+                autocorrect="off"
+                autocomplete="off"
+                autocapitalize="off"
+                spellcheck="false"
+              >
+              <label class="field__label" for="{{ input_id }}">Search</label>
+              <button type="reset" class="reset__button field__button hidden" aria-label="Clear search">
+                {{- 'icon-reset.svg' | inline_asset_content -}}
+              </button>
+              <button class="search__button field__button" aria-label="Search">
+                {{- 'icon-search.svg' | inline_asset_content -}}
+              </button>
+            </div>
+
+            <!-- Default Predictive Search Section -->
+            <div class="predictive-search predictive-search--header" tabindex="-1" data-predictive-search>
+              {%- render 'loading-spinner', class: 'predictive-search__loading-state' -%}
+              <div class="predictive-search__default" data-predictive-search-default>
+                <!-- Most Popular Searches -->
+                <!-- Wrap inside your predictive-search__default -->
+                <div class="predictive-search__popular-searches">
+                  <h6 class="predictive-search__subtitle">Most popular searches</h6>
+
+                  <nav class="predictive-search__popular-searches-swiper swiper" data-swiper>
+                    <ul class="list-menu swiper-wrapper td-swiper-wrapper" role="list">
+                      {% assign popular_searches = seach_text | split: ',' %}
+                      {% for term in popular_searches %}
+                        <li
+                          class="predictive-search__popular-search"
+                          data-predictive-search-keyword="{{ term | strip }}"
+                        >
+                          <span>{{ term }}</span>
+                        </li>
+                      {% endfor %}
+                    </ul>
+                  </nav>
+                </div>
+
+                <!-- Most Popular Products -->
+                <div class="predictive-search__popular-products">
+                  <h6 class="predictive-search__subtitle">Most popular products</h6>
+                  <div class="search__recommended-products-wrap">
+                    {% assign search_collection = settings.search_collection %}
+                    {% if search_collection != blank %}
+                      {% for product in search_collection.products limit: 5 %}
+                        <div class="suggestion-card-product">
+                          <a href="{{ product.url }}" class="card-product__link">
+                            <div class="card-product__media">
+                              {{ product.featured_image | image_url: width: '209', height: '209' | image_tag }}
+                              {% if product.tags contains 'Best_Seller' %}
+                                <span class="badge">Bestseller</span>
+                              {% endif %}
+                            </div>
+
+                            <div class="card-product__content">
+                              <p class="card-product__type">
+                                {% if product.metafields.custom.gender != blank %}
+                                  {{ product.metafields.custom.gender }}
+                                {% else %}
+                                  Unisex
+                                {% endif %}
+                              </p>
+
+                              <h3 class="card-product__title">{{ product.title }}</h3>
+                              <p class="card-product__price">{{ product.price | money }}</p>
+
+                              <div class="product-meta-data">
+                                <p class="inspiredby">Inspired by <strong>MFK's Baccarat Rouge 540</strong></p>
+
+                                <p class="card-product__retail">(Retail Price: (Retail price: Rs. 27,100)</p>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      {% endfor %}
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="predictive-search__default--container" data-predictive-search-default style="display:none">
+              <div class="predictive-search__default" data-predictive-search-default>
+                <!-- Most Popular Searches -->
+                <!-- Wrap inside your predictive-search__default -->
+                <div class="predictive-search__popular-searches">
+                  <h6 class="predictive-search__subtitle">Most popular searches</h6>
+
+                  <nav class="predictive-search__popular-searches-swiper swiper" data-swiper>
+                    <ul class="list-menu swiper-wrapper td-swiper-wrapper" role="list">
+                      {% assign popular_searches = seach_text | split: ',' %}
+                      {% for term in popular_searches %}
+                        <li
+                          class="predictive-search__popular-search"
+                          data-predictive-search-keyword="{{ term | strip}}"
+                        >
+                          <span>{{ term }}</span>
+                        </li>
+                      {% endfor %}
+                    </ul>
+                  </nav>
+                </div>
+
+                <!-- Most Popular Products -->
+                <div class="predictive-search__popular-products">
+                  <h6 class="predictive-search__subtitle">Most popular products</h6>
+                  <div class="search__recommended-products-wrap">
+                    {% assign search_collection = settings.search_collection %}
+                    {% if search_collection != blank %}
+                      {% for product in search_collection.products limit: 5 %}
+                        <div class="suggestion-card-product">
+                          <a href="{{ product.url }}" class="card-product__link">
+                            <div class="card-product__media">
+                              {{ product.featured_image | image_url: width: '209', height: '209' | image_tag }}
+                              {% if product.tags contains 'Best_Seller' %}
+                                <span class="badge">Bestseller</span>
+                              {% endif %}
+                            </div>
+
+                            <div class="card-product__content">
+                              <p class="card-product__type">
+                                {% if product.metafields.custom.gender != blank %}
+                                  {{ product.metafields.custom.gender }}
+                                {% else %}
+                                  Unisex
+                                {% endif %}
+                              </p>
+
+                              <h3 class="card-product__title">{{ product.title }}</h3>
+                              <p class="card-product__price">{{ product.price | money }}</p>
+
+                              <div class="product-meta-data">
+                                <p class="inspiredby">Inspired by <strong>MFK's Baccarat Rouge 540</strong></p>
+
+                                <p class="card-product__retail">(Retail Price: (Retail price: Rs. 27,100)</p>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      {% endfor %}
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <span class="predictive-search-status visually-hidden" role="status" aria-hidden="true"></span>
+          </form>
+        </predictive-search>
+
+        <button
+          type="button"
+          class="search-modal__close-button modal__close-button link link--text focus-inset"
+          aria-label="Close search"
+        >
+          {{- 'icon-close.svg' | inline_asset_content -}}
+        </button>
+      </div>
+    </div>
+  </details>
+</details-modal>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+  const searchInput = document.querySelector('.search__input');
+  const predictiveSearch = document.querySelector('predictive-search');
+
+  // 🧠 Event Delegation — works even after DOM replacement
+  document.addEventListener('click', (e) => {
+    const item = e.target.closest('.predictive-search__popular-search');
+    if (!item) return; // Not a popular search item click
+
+    const keyword = item.getAttribute('data-predictive-search-keyword');
+    if (!keyword || !searchInput) return;
+
+    // ✅ Update search input value
+    searchInput.value = keyword;
+    searchInput.focus();
+
+    // ✅ Ensure predictive-search is open
+    if (predictiveSearch) {
+      predictiveSearch.setAttribute('open', 'true');
+    }
+
+    // ✅ Trigger input event so Dawn fetches live suggestions
+    const event = new Event('input', { bubbles: true });
+    searchInput.dispatchEvent(event);
+  });
+
+  // 🧩 Optional: Handle case where search is cleared (your HTML injection logic)
+  document.addEventListener('input', (e) => {
+    if (e.target !== searchInput) return;
+
+      const popular = document.querySelector('.predictive-search__default--container');
+        const container = document.querySelector('.predictive-search[data-predictive-search]');
+
+    // If input is empty, show popular searches
+    if (!searchInput.value.length && popular && container) {
+      container.innerHTML = popular.innerHTML;
+      // ✅ No need to rebind click listeners — delegation handles it
+    }
+  });
+});
+
+
+</script>
+
+<style>
+  .predictive-search__popular-searches {
+    margin-top: 1rem;
+  }
+
+  .predictive-search__popular-searches-swiper {
+    padding: 0.5rem 0;
+  }
+
+  .predictive-search__popular-search.swiper-slide {
+    display: inline-block;
+    background: #f5f5f5;
+    border-radius: 20px;
+    padding: 6px 14px;
+    font-size: 14px;
+    line-height: 1.4;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.2s ease;
+  }
+
+  .predictive-search__popular-search a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .predictive-search__popular-search:hover {
+    background: #e5e5e5;
+  }
+  .search__recommended-products-wrap{
+     width:100%;
+     margin:0px auto;
+     max-width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 19px;
+  }
+  .suggestion-card-product{
+      max-width:200px;
+      position: relative;
+  }
+
+  .card-product {
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 10px;
+    text-align: left;
+  }
+  .search__recommended-products-wrap h3.card-product__title {
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: -.025em !important;
+      font-weight: 600;
+      color: #121212bf;
+      text-transform: uppercase;
+      margin: 0;
+      padding: 0;
+  }
+  .search__recommended-products-wrap .card-product__price{
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: -.025em !important;
+      font-weight: 600;
+      color: #121212bf;
+      text-transform: uppercase;
+      margin: 0;
+      padding: 0;
+  }
+  .search__recommended-products-wrap .card-product__link{
+      text-decoration:none;
+  }
+  .search__recommended-products-wrap .card-product__link p{
+      margin:0;
+      padding:0;
+  }
+
+  body .search__recommended-products-wrap .card-product__type{
+      position:absolute;
+      top:10px;
+      left:10px;
+      font-weight: 600;
+      font-size: 10px;
+      line-height: 14px;
+      color: #483735;
+      padding: 2px 12px;
+      border-radius: 2px;
+      background:#f5eee7;
+  }
+
+  .product-meta-data p{
+      font-size: 10px;
+      line-height: 24px;
+      padding: 0;
+      margin: 0;
+      color:#000;
+  }
+  .product-meta-data p strong{
+      display:block;
+  }
+  body .card-product__retail{
+      color:#a0783f;
+  }
+
+  @media (max-width: 580px) {
+    .search__recommended-products-wrap {
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      height:400px;
+      overflow-y:auto;
+    }
+    .card-product__media img{
+      width:100%;
+      height:100px;
+      object-fit:cover;
+  }
+  }
+</style>
