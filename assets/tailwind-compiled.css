@@ -1065,6 +1065,10 @@
     font-weight: 600
 }
 
+.font-normal {
+    font-weight: 400
+}
+
 .uppercase {
     text-transform: uppercase
 }
@@ -1201,6 +1205,11 @@
 .text-\[\#9a7a48\] {
     --tw-text-opacity: 1;
     color: rgb(154 122 72 / var(--tw-text-opacity, 1))
+}
+
+.text-\[\#c8202f\] {
+    --tw-text-opacity: 1;
+    color: rgb(200 32 47 / var(--tw-text-opacity, 1))
 }
 
 .underline {
