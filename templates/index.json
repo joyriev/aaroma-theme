@@ -1,1 +1,348 @@
-{"sections":{"image_banner":{"type":"image-banner","blocks":{"heading":{"type":"heading","settings":{"heading":"Wear The Feeling. Same Scent. Smarter Prices.","heading_size":"h0"}},"text_ipJgrg":{"type":"text","settings":{"text":"Discover fragrances that speak to memory, mood, and emotion. Whether bold, soft, or somewhere in between, each one is crafted to move with you, not just sit on your skin.","text_style":"body"}},"button":{"type":"buttons","settings":{"btn_text_color":"#ffffff","btn_bg_color":"#000000","button_label_1":"Shop Women","button_link_1":"shopify:\/\/collections\/women","button_style_secondary_1":false,"btn_text_color1":"#ffffff","btn_bg_color1":"#000000","button_label_2":"Shop Men","button_link_2":"shopify:\/\/collections\/men","button_style_secondary_2":false}},"trust_Gd6NTh":{"type":"trust","settings":{"icon_image":"shopify:\/\/shop_images\/vegan-cruelty-free_180x_9afbb87e-ac99-403a-8065-c691b5dcb24e.png","heading_text":"Vegan Cruelty-Free","icon_image2":"shopify:\/\/shop_images\/Oakcha_Icons_Scents_for_Everyone_375x_61a95ff9-8035-4b61-b5ad-d4b46b3ca947.png","heading_text2":"Handcrafted with Care","icon_image3":"shopify:\/\/shop_images\/clean_180x_e8979411-3dd7-4a84-97f0-502edd5d75ea.png","heading_text3":"Clean Ingredients"}}},"block_order":["heading","text_ipJgrg","button","trust_Gd6NTh"],"settings":{"image":"shopify:\/\/shop_images\/header.png","image_overlay_opacity":0,"image_height":"adapt","image_behavior":"none","desktop_content_position":"top-left","desktop_content_alignment":"left","show_text_box":false,"color_scheme":"scheme-1","stack_images_on_mobile":true,"mobile_content_alignment":"center","show_text_below":true}},"tab_collection_product_TgPfKA":{"type":"tab-collection-product","blocks":{"collection_tab_QDiktx":{"type":"collection_tab","settings":{"tab_title":"Women","tab_subtitle":"Starting at Rs. 2,800","collection":"women"}},"collection_tab_yc7Xrc":{"type":"collection_tab","settings":{"tab_title":"Men","tab_subtitle":"Starting at Rs. 2,800","collection":"men"}}},"block_order":["collection_tab_QDiktx","collection_tab_yc7Xrc"],"name":"Tab Collections","settings":{"heading":"Best Sellers","shop_all_link":"shopify:\/\/collections","products_to_show":8,"columns_desktop":"4","columns_mobile":"2","image_ratio":"adapt","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":true,"quick_add":"below","padding_top":40,"padding_bottom":40}},"collection_list_eXacPD":{"type":"collection-list","blocks":{"featured_collection_AP3Xpp":{"type":"featured_collection","settings":{"collection":"men","custom_image":"shopify:\/\/shop_images\/men_1.png"}},"featured_collection_3LAMUr":{"type":"featured_collection","settings":{"collection":"women","custom_image":"shopify:\/\/shop_images\/women_3.png"}},"featured_collection_JrAdiY":{"type":"featured_collection","settings":{"collection":"unisex","custom_image":"shopify:\/\/shop_images\/unisex_1.png"}}},"block_order":["featured_collection_AP3Xpp","featured_collection_3LAMUr","featured_collection_JrAdiY"],"name":"t:sections.collection-list.presets.name","settings":{"title":"Shop by Collection","overlaytext":true,"heading_size":"h1","image_ratio":"square","columns_desktop":3,"color_scheme":"","show_view_all":false,"columns_mobile":"1","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}},"home_quotes_slider_8jpRQH":{"type":"home-quotes-slider","blocks":{"quote_BkWemL":{"type":"quote","settings":{"logo":"shopify:\/\/shop_images\/allure.svg","alt_text":"","quote":""}},"quote_XydqNU":{"type":"quote","settings":{"logo":"shopify:\/\/shop_images\/elle.png","alt_text":"","quote":""}},"quote_MXrR7V":{"type":"quote","settings":{"logo":"shopify:\/\/shop_images\/Teen_Vogue_logo.svg-3_1950x_ada0299e-6e1e-4d6a-8af8-f563b3f08717.png","alt_text":"","quote":""}}},"block_order":["quote_BkWemL","quote_XydqNU","quote_MXrR7V"],"disabled":true,"name":"Quotes Slider","settings":{"title_head":"Featured In"}},"collection_list_DDFLim":{"type":"collection-list","blocks":{"featured_collection_73H8YB":{"type":"featured_collection","settings":{"collection":"women","custom_image":"shopify:\/\/shop_images\/women_2.png"}},"featured_collection_YyWy38":{"type":"featured_collection","settings":{"collection":"men","custom_image":"shopify:\/\/shop_images\/pic.png"}},"featured_collection_QppiMM":{"type":"featured_collection","settings":{"collection":"unisex","custom_image":"shopify:\/\/shop_images\/unisex_2.png"}}},"block_order":["featured_collection_73H8YB","featured_collection_YyWy38","featured_collection_QppiMM"],"name":"t:sections.collection-list.presets.name","settings":{"title":"Featured Category","overlaytext":true,"heading_size":"h1","image_ratio":"square","columns_desktop":3,"color_scheme":"","show_view_all":false,"columns_mobile":"1","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}},"icon_features_section_7XHKNH":{"type":"icon-features-section","blocks":{"feature_mTCG8M":{"type":"feature","settings":{"icon":"shopify:\/\/shop_images\/clean.png","title":"CLEAN FORMULATIONS"}},"feature_LzJiri":{"type":"feature","settings":{"icon":"shopify:\/\/shop_images\/shipping.png","title":"FREE SHIPPING ABOVE $50"}},"feature_86hmcq":{"type":"feature","settings":{"icon":"shopify:\/\/shop_images\/vegan-cruelty-free_180x_1.png","title":"VEGAN + CRUELTY FREE"}},"feature_dNbTeH":{"type":"feature","settings":{"icon":"shopify:\/\/shop_images\/returns_180x_4a3d9535-2f9d-4ba1-9c5e-660255324a90.png","title":"EASY RETURNS"}},"feature_Q6BYmL":{"type":"feature","settings":{"icon":"shopify:\/\/shop_images\/clean-ingredients_180x_3cd926b2-b793-4181-b7f5-119e956e0b05.png","title":"PARABEN PHTHALATE FREE"}},"feature_4V8aDE":{"type":"feature","settings":{"icon":"shopify:\/\/shop_images\/Oakcha_Icons_Scents_for_Everyone_375x_1.png","title":"SCENTS FOR EVERYONE"}}},"block_order":["feature_mTCG8M","feature_LzJiri","feature_86hmcq","feature_dNbTeH","feature_Q6BYmL","feature_4V8aDE"],"name":"Icon Features","settings":{"bgcolor":"#f5eee7","heading":"Selecting your scent has never been easier or more affordable"}},"tab_collection_product_frX8WY":{"type":"tab-collection-product","blocks":{"collection_tab_YdTD3m":{"type":"collection_tab","settings":{"tab_title":"WOMEN","tab_subtitle":"Starting at Rs. 2,800","collection":"women"}}},"block_order":["collection_tab_YdTD3m"],"name":"Collection Tabs","settings":{"heading":"Best Sellers","shop_all_link":"shopify:\/\/collections\/jewel-collection","products_to_show":8,"columns_desktop":"4","columns_mobile":"2","image_ratio":"adapt","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":true,"quick_add":"below","padding_top":40,"padding_bottom":40}}},"order":["image_banner","tab_collection_product_TgPfKA","collection_list_eXacPD","home_quotes_slider_8jpRQH","collection_list_DDFLim","icon_features_section_7XHKNH","tab_collection_product_frX8WY"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Wear The Feeling. Same Scent. Smarter Prices.",
+            "heading_size": "h0"
+          }
+        },
+        "text_ipJgrg": {
+          "type": "text",
+          "settings": {
+            "text": "Discover fragrances that speak to memory, mood, and emotion. Whether bold, soft, or somewhere in between, each one is crafted to move with you, not just sit on your skin.",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "btn_text_color": "#ffffff",
+            "btn_bg_color": "#000000",
+            "button_label_1": "Shop Women",
+            "button_link_1": "shopify://collections/women",
+            "button_style_secondary_1": false,
+            "btn_text_color1": "#ffffff",
+            "btn_bg_color1": "#000000",
+            "button_label_2": "Shop Men",
+            "button_link_2": "shopify://collections/men",
+            "button_style_secondary_2": false
+          }
+        },
+        "trust_Gd6NTh": {
+          "type": "trust",
+          "settings": {
+            "icon_image": "shopify://shop_images/vegan-cruelty-free_180x_9afbb87e-ac99-403a-8065-c691b5dcb24e.png",
+            "heading_text": "Vegan Cruelty-Free",
+            "icon_image2": "shopify://shop_images/Oakcha_Icons_Scents_for_Everyone_375x_61a95ff9-8035-4b61-b5ad-d4b46b3ca947.png",
+            "heading_text2": "Handcrafted with Care",
+            "icon_image3": "shopify://shop_images/clean_180x_e8979411-3dd7-4a84-97f0-502edd5d75ea.png",
+            "heading_text3": "Clean Ingredients"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text_ipJgrg",
+        "button",
+        "trust_Gd6NTh"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/header.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "image_behavior": "none",
+        "desktop_content_position": "top-left",
+        "desktop_content_alignment": "left",
+        "show_text_box": false,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "tab_collection_product_TgPfKA": {
+      "type": "tab-collection-product",
+      "blocks": {
+        "collection_tab_QDiktx": {
+          "type": "collection_tab",
+          "settings": {
+            "tab_title": "Women",
+            "tab_subtitle": "Starting at Rs. 2,800",
+            "collection": "women"
+          }
+        },
+        "collection_tab_yc7Xrc": {
+          "type": "collection_tab",
+          "settings": {
+            "tab_title": "Men",
+            "tab_subtitle": "Starting at Rs. 2,800",
+            "collection": "men"
+          }
+        }
+      },
+      "block_order": [
+        "collection_tab_QDiktx",
+        "collection_tab_yc7Xrc"
+      ],
+      "name": "Tab Collections",
+      "settings": {
+        "heading": "Best Sellers",
+        "shop_all_link": "shopify://collections",
+        "products_to_show": 8,
+        "columns_desktop": "4",
+        "columns_mobile": "2",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "none",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "collection_list_eXacPD": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_AP3Xpp": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "men",
+            "custom_image": "shopify://shop_images/men_1.png"
+          }
+        },
+        "featured_collection_3LAMUr": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "women",
+            "custom_image": "shopify://shop_images/women_3.png"
+          }
+        },
+        "featured_collection_JrAdiY": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "unisex",
+            "custom_image": "shopify://shop_images/unisex_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_AP3Xpp",
+        "featured_collection_3LAMUr",
+        "featured_collection_JrAdiY"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "Shop by Collection",
+        "overlaytext": true,
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "home_quotes_slider_8jpRQH": {
+      "type": "home-quotes-slider",
+      "blocks": {
+        "quote_BkWemL": {
+          "type": "quote",
+          "settings": {
+            "logo": "shopify://shop_images/allure.svg",
+            "alt_text": "",
+            "quote": ""
+          }
+        },
+        "quote_XydqNU": {
+          "type": "quote",
+          "settings": {
+            "logo": "shopify://shop_images/elle.png",
+            "alt_text": "",
+            "quote": ""
+          }
+        },
+        "quote_MXrR7V": {
+          "type": "quote",
+          "settings": {
+            "logo": "shopify://shop_images/Teen_Vogue_logo.svg-3_1950x_ada0299e-6e1e-4d6a-8af8-f563b3f08717.png",
+            "alt_text": "",
+            "quote": ""
+          }
+        }
+      },
+      "block_order": [
+        "quote_BkWemL",
+        "quote_XydqNU",
+        "quote_MXrR7V"
+      ],
+      "disabled": true,
+      "name": "Quotes Slider",
+      "settings": {
+        "title_head": "Featured In"
+      }
+    },
+    "collection_list_DDFLim": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_73H8YB": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "women",
+            "custom_image": "shopify://shop_images/women_2.png"
+          }
+        },
+        "featured_collection_YyWy38": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "men",
+            "custom_image": "shopify://shop_images/pic.png"
+          }
+        },
+        "featured_collection_QppiMM": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "unisex",
+            "custom_image": "shopify://shop_images/unisex_2.png"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_73H8YB",
+        "featured_collection_YyWy38",
+        "featured_collection_QppiMM"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "Featured Category",
+        "overlaytext": true,
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "icon_features_section_7XHKNH": {
+      "type": "icon-features-section",
+      "blocks": {
+        "feature_mTCG8M": {
+          "type": "feature",
+          "settings": {
+            "icon": "shopify://shop_images/clean.png",
+            "title": "CLEAN FORMULATIONS"
+          }
+        },
+        "feature_LzJiri": {
+          "type": "feature",
+          "settings": {
+            "icon": "shopify://shop_images/shipping.png",
+            "title": "FREE SHIPPING ABOVE $50"
+          }
+        },
+        "feature_86hmcq": {
+          "type": "feature",
+          "settings": {
+            "icon": "shopify://shop_images/vegan-cruelty-free_180x_1.png",
+            "title": "VEGAN + CRUELTY FREE"
+          }
+        },
+        "feature_dNbTeH": {
+          "type": "feature",
+          "settings": {
+            "icon": "shopify://shop_images/returns_180x_4a3d9535-2f9d-4ba1-9c5e-660255324a90.png",
+            "title": "EASY RETURNS"
+          }
+        },
+        "feature_Q6BYmL": {
+          "type": "feature",
+          "settings": {
+            "icon": "shopify://shop_images/clean-ingredients_180x_3cd926b2-b793-4181-b7f5-119e956e0b05.png",
+            "title": "PARABEN PHTHALATE FREE"
+          }
+        },
+        "feature_4V8aDE": {
+          "type": "feature",
+          "settings": {
+            "icon": "shopify://shop_images/Oakcha_Icons_Scents_for_Everyone_375x_1.png",
+            "title": "SCENTS FOR EVERYONE"
+          }
+        }
+      },
+      "block_order": [
+        "feature_mTCG8M",
+        "feature_LzJiri",
+        "feature_86hmcq",
+        "feature_dNbTeH",
+        "feature_Q6BYmL",
+        "feature_4V8aDE"
+      ],
+      "name": "Icon Features",
+      "settings": {
+        "bgcolor": "#f5eee7",
+        "heading": "Selecting your scent has never been easier or more affordable"
+      }
+    },
+    "tab_collection_product_frX8WY": {
+      "type": "tab-collection-product",
+      "blocks": {
+        "collection_tab_YdTD3m": {
+          "type": "collection_tab",
+          "settings": {
+            "tab_title": "WOMEN",
+            "tab_subtitle": "Starting at Rs. 2,800",
+            "collection": "women"
+          }
+        }
+      },
+      "block_order": [
+        "collection_tab_YdTD3m"
+      ],
+      "name": "Collection Tabs",
+      "settings": {
+        "heading": "Best Sellers",
+        "shop_all_link": "shopify://collections/jewel-collection",
+        "products_to_show": 8,
+        "columns_desktop": "4",
+        "columns_mobile": "2",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "below",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "tab_collection_product_TgPfKA",
+    "collection_list_eXacPD",
+    "home_quotes_slider_8jpRQH",
+    "collection_list_DDFLim",
+    "icon_features_section_7XHKNH",
+    "tab_collection_product_frX8WY"
+  ]
+}
