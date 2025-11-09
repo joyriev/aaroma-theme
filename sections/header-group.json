@@ -120,13 +120,12 @@
         },
         "card_VAbDJU": {
           "type": "card",
-          "disabled": true,
           "settings": {
             "menu_title": "Women",
-            "image": "shopify://shop_images/Mandarin_Glow_Ingredients.png",
-            "title": "Mandarin Glow",
+            "image": "shopify://shop_images/forbidden_fruit_extract_clean_1.png",
+            "title": "Forbidden Fruit EXTRACT",
             "description": "",
-            "link": "shopify://products/mandarin-glow"
+            "link": "shopify://products/forbidden-fruit-extract"
           }
         }
       },
