@@ -261,6 +261,13 @@
     -webkit-line-clamp: 2
 }
 
+.line-clamp-1 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1
+}
+
 .\!block {
     display: block !important
 }
@@ -271,6 +278,10 @@
 
 .inline-block {
     display: inline-block
+}
+
+.\!inline-block {
+    display: inline-block !important
 }
 
 .flex {
@@ -357,6 +368,10 @@
     height: 100vh
 }
 
+.h-\[8px\] {
+    height: 8px
+}
+
 .w-16 {
     width: 64px
 }
@@ -379,6 +394,10 @@
 
 .w-screen {
     width: 100vw
+}
+
+.w-\[8px\] {
+    width: 8px
 }
 
 .max-w-2xl {
@@ -478,6 +497,10 @@
 
 .gap-6 {
     gap: 24px
+}
+
+.gap-\[5px\] {
+    gap: 5px
 }
 
 .space-x-1 > :not([hidden]) ~ :not([hidden]) {
@@ -658,6 +681,16 @@
     background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1))
 }
 
+.bg-\[\#22613A\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(34 97 58 / var(--tw-bg-opacity, 1))
+}
+
+.bg-gray-300 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(209 213 219 / var(--tw-bg-opacity, 1))
+}
+
 .bg-opacity-50 {
     --tw-bg-opacity: 0.5
 }
@@ -678,6 +711,11 @@
 .object-cover {
     -o-object-fit: cover;
        object-fit: cover
+}
+
+.object-center {
+    -o-object-position: center;
+       object-position: center
 }
 
 .p-0 {
@@ -903,6 +941,10 @@
 
 .leading-snug {
     line-height: 1.375
+}
+
+.leading-4 {
+    line-height: 16px
 }
 
 .tracking-normal {
