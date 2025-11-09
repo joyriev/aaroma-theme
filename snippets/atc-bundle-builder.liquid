@@ -27,7 +27,7 @@
 </div>
 
 <div
-  class="grid-tailwind grid-cols-3 gap-3"
+  class="grid grid-cols-3 gap-3"
   id="variant-selector"
   x-data>
   {% for variant in product.variants %}
@@ -114,7 +114,7 @@
       <span class="bg-green-700 text-white px-2 rounded font-bold">Save 33%</span>
     </h2>
     <p class="text-lg text-gray-500 font-semibold mt-0 mb-4 text-center tracking-normal">Build your bundle and get one scent for FREE!</p>
-    <div class="grid-tailwind grid-cols-3 gap-4">
+    <div class="grid grid-cols-3 gap-4">
       <template x-for="(product, index) in $store.bundleBuilder.selectedProducts" :key="product.id">
         <div class="text-center relative">
           <div class="flex justify-center mb-4 border-2 border-solid border-green-700 rounded-lg">
@@ -142,7 +142,7 @@
       </template>
       <template x-for="i in (3 - $store.bundleBuilder.selectedProducts.length)" :key="i">
         <div class="text-center">
-          <div class="border-2 border-dashed bg-white border-gray-300 rounded-lg grid-tailwind place-items-center w-full aspect-square">
+          <div class="border-2 border-dashed bg-white border-gray-300 rounded-lg grid place-items-center w-full aspect-square">
             <button @click="$store.bundleBuilder.showModal = true" class="w-16 h-16 border-0 bg-warmAmber text-white rounded-lg text-2xl hover:bg-midnight transition-colors cursor-pointer">
               <div class="svg-wrapper">
                 {{- 'icon-plus.svg' | inline_asset_content -}}

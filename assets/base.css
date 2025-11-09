@@ -898,7 +898,7 @@ summary::-webkit-details-marker {
 }
 
 /* component-grid */
-.grid {
+.grid_layout {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 2rem;
@@ -933,7 +933,7 @@ summary::-webkit-details-marker {
   }
 }
 
-.grid--gapless.grid {
+.grid--gapless.grid_layout {
   column-gap: 0;
   row-gap: 0;
 }
@@ -3074,7 +3074,7 @@ details-disclosure > details {
 
 /* check for flexbox gap in older Safari versions */
 @supports not (inset: 10px) {
-  .grid {
+  .grid_layout {
     margin-left: calc(-1 * var(--grid-mobile-horizontal-spacing));
   }
 
@@ -3084,7 +3084,7 @@ details-disclosure > details {
   }
 
   @media screen and (min-width: 750px) {
-    .grid {
+    .grid_layout {
       margin-left: calc(-1 * var(--grid-desktop-horizontal-spacing));
     }
 

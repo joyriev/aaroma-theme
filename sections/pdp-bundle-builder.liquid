@@ -6,11 +6,11 @@
 <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 <div class="py-16 md:py-20">
   <div class="page-width" x-data="bundleBuilder()">
-    <div class="grid-tailwind md:grid-cols-2 gap-6 md:gap-12 items-center">
+    <div class="grid md:grid-cols-2 gap-6 md:gap-12 items-center">
       <div class="border border-solid border-gray-200 rounded-lg p-8">
         <h2 class="text-3xl font-bold text-gray-900 my-0">Buy 2 Get 1 FREE</h2>
         <p class="text-lg text-green-700 font-semibold my-2">Build your bundle and get one scent for FREE!</p>
-        <div class="grid-tailwind grid-cols-3 gap-4 mt-8">
+        <div class="grid grid-cols-3 gap-4 mt-8">
           <div class="relative">
             <img
               src="{{ product.featured_image | image_url }}"
@@ -41,7 +41,7 @@
             <span class="bg-white inline-block px-4" x-text="selectedProducts.length === 3 ? 'YOUR BUNDLE IS READY! 👑' : `ADD ${3 - selectedProducts.length} MORE SCENT${3 - selectedProducts.length > 1 ? 'S' : ''}`"></span>
           </h3>
         </div>
-        <div class="grid-tailwind grid-cols-3 gap-4 pb-4 mb-6 border-0 border-b border-solid border-gray-200">
+        <div class="grid grid-cols-3 gap-4 pb-4 mb-6 border-0 border-b border-solid border-gray-200">
           <template x-for="(product, index) in selectedProducts" :key="product.id">
             <div class="text-center relative">
               <div class="flex justify-center mb-4 border-2 border-solid border-green-700 rounded-lg">
@@ -69,7 +69,7 @@
           </template>
           <template x-for="i in (3 - selectedProducts.length)" :key="i">
             <div class="text-center">
-              <div class="border-2 border-dashed border-gray-300 rounded-lg grid-tailwind place-items-center w-full aspect-square">
+              <div class="border-2 border-dashed border-gray-300 rounded-lg grid place-items-center w-full aspect-square">
                 <button @click="showProductModal = true" class="w-16 h-16 border-0 bg-green-700 text-white rounded-lg text-2xl hover:bg-green-700 transition-colors cursor-pointer">
                   <div class="svg-wrapper">
                     {{- 'icon-plus.svg' | inline_asset_content -}}
@@ -133,7 +133,7 @@
           </div>
 
           <!-- Search -->
-          <div class="grid-tailwind grid-cols-2 gap-4">
+          <div class="grid grid-cols-2 gap-4">
             <select x-model="selectedBrand" class="bg-white border border-gray-300 text-gray-900 text-sm rounded focus:border-2 focus:border-green-700 block w-full p-2.5 h-10 focus:outline-none focus:ring-0">
               <option selected value="">Shop By Brand</option>
               <option value="Creed">Creed</option>
@@ -165,7 +165,7 @@
 
         {% comment %} Product Grid {% endcomment %}
         <div class="flex-1 overflow-y-auto mt-4 -mx-2 px-2">
-          <div class="grid-tailwind grid-cols-2 md:grid-cols-3 gap-4">
+          <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
             <template x-for="product in availableProducts" :key="product.id">
               <template x-if="(product.tags.some(tag => tag === activeCategory) || activeCategory === 'All') &&
          (selectedBrand === '' || product.tags.some(tag => 
