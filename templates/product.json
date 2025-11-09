@@ -1,1 +1,175 @@
-{"sections":{"main":{"type":"main-product","blocks":{"title":{"type":"title","settings":{}},"custom_liquid_hxwQp3":{"type":"custom_liquid","settings":{"custom_liquid":"<div class=\"short-metafields-data\">\n{% if product.metafields.custom.inspired_by %}\n  <p class=\"short-description\">\"... <strong>{{ product.metafields.custom.inspired_by }} ...\"<\/strong> <\/p>\n{% endif %}\n{% if product.metafields.custom.scent_family %}\n  <p class=\"short-description\">Scent Family: {{ product.metafields.custom.scent_family }}<\/p>\n{% endif %}\n{% if product.selected_or_first_available_variant.metafields.custom.extrait_de_parfum %}\n  <div class=\"short-separator\">\n    <div class=\"short-description\"><b>Extrait de Parfum<\/b><\/div>\n    <div id=\"variant-desc\">\n      <p>{{ product.selected_or_first_available_variant.metafields.custom.extrait_de_parfum }}<\/p>\n    <\/div>\n  <\/div>\n{% endif %}\n<\/div>\n<style>\n.short-separator {\n    display: flex;\n    align-items: center;\n    gap: 10px;\n}\n<\/style>"}},"price":{"type":"price","settings":{}},"variant_picker":{"type":"variant_picker","disabled":true,"settings":{"picker_type":"button","swatch_shape":"square"}},"quantity_selector":{"type":"quantity_selector","disabled":true,"settings":{}},"buy_buttons":{"type":"buy_buttons","disabled":true,"settings":{"show_dynamic_checkout":true,"show_gift_card_recipient":true}},"bundleoffer_HTgdLX":{"type":"bundleoffer","settings":{"bundletext":""}},"icon_with_text_RjwHCq":{"type":"icon-with-text","settings":{"layout":"horizontal","icon_1":"heart","image_1":"shopify:\/\/shop_images\/Icon_Redesign_1_Crafted.png","heading_1":"<strong>Expertly Crafted Fragrances<\/strong>","icon_2":"return","image_2":"shopify:\/\/shop_images\/Vegan_111323.png","heading_2":"<strong>Vegan & Cruelty Free<\/strong>","icon_3":"truck","image_3":"shopify:\/\/shop_images\/Paraben.png","heading_3":"<strong>Paraben & Phthalates Free<\/strong>"}},"complementary_3LfheX":{"type":"complementary","settings":{"block_heading":"Pair This Scent","make_collapsible_row":false,"icon":"none","product_list_limit":10,"products_per_page":3,"pagination_style":"counter","image_ratio":"square","enable_quick_add":true}},"accordion_T6rrCe":{"type":"accordion","settings":{"accordion_name1":"NOTES & INGREDIENTS","custom_liquid1":"","accordion_name2":"ABOUT","custom_liquid2":"","accordion_name3":"EXTRAITS DE PARFUM","custom_liquid3":"<p>\n            All our bottles feature Extrait de Parfum. To give you an idea of the concentration,\n            check out the details below:\n        <\/p>\n        <ul>\n            <li>After shave: 1–3% Aromatic Compounds<\/li>\n            <li>Eau de Cologne: 2–6% Aromatic Compounds<\/li>\n            <li>Eau de Toilette: 5–15% Aromatic Compounds<\/li>\n            <li>Eau de Parfum: 10–20% Aromatic Compounds<\/li>\n            <li>Extrait De Parfum: 30–40% Aromatic Compounds<\/li>\n        <\/ul>","accordion_name4":"FAQ","custom_liquid4":"<p>\n          <b>FAQ Ingredients:<\/b><br>\n          Alcohol Denat., Parfum (Fragrance), Aqua (Water), Ethylhexylglycerin, Tetramethyl acetyloctahydronaphthalenes, Hexamethylindanopyran, Linalyl Acetate, Limonene, \n          Citrus Aurantium Bergamia Peel Oil, Linalool, Citrus Limon Peel Oil, Pogostemon Cablin Oil, Pinene, Citrus Aurantium Peel Oil, Citral, Hydroxycitronellal\n        <\/p>","question":"Why are your perfumes so affordable?","answer":"Because we don’t charge for hype.\n\nNo celebrity faces. No gold-plated bottles. No retail markups.\nWe keep it simple, clean packaging, premium scent, fair price.\n\nWe sell directly to you, not through middlemen who inflate prices.\nSo instead of paying $150+ for a fancy name, you’re paying $29.99 for quality that lasts.\n\nThat’s not cheap. That’s just smart.","question2":"Is it perfumed water?","answer2":"Not even close.\n\nEvery Aaroma scent is a 25% Eau de Parfum, one of the highest concentrations you can get.\nMost designer brands stop at 15–20%. We go further.\n\nWhat that means for you:\n\nLasts up to 10–12 hours\n\nProjects stronger, lingers longer\n\nYou need fewer sprays\n\nIt’s not body spray. It’s a statement.","question3":"Do Aaroma perfumes smell like designer fragrances?","answer3":"Same notes. Same concentration. Same craftsmanship.\n\nWe recreate each scent using high-grade oils and meticulous blending, so yes, it smells just like the one that costs five times more.\n\nIn blind tests, people can’t tell them apart. The only difference?\nYou’re not paying for a designer logo or a glass sculpture bottle.\n\nThe luxury is in the scent — and that’s exactly what you’re getting.","question4":"Are your scents long-lasting?","answer4":"Absolutely. 12+ Hrs\n\nEach bottle holds a 25% EDP formula built to last through your day—\nfrom morning meetings to midnight memories.\n\nSpray it once, and it stays with you."}}},"block_order":["title","custom_liquid_hxwQp3","price","variant_picker","quantity_selector","buy_buttons","bundleoffer_HTgdLX","icon_with_text_RjwHCq","complementary_3LfheX","accordion_T6rrCe"],"settings":{"enable_sticky_info":true,"color_scheme":"scheme-1","media_size":"large","constrain_to_viewport":false,"media_fit":"cover","gallery_layout":"thumbnail_slider","mobile_thumbnails":"hide","media_position":"left","image_zoom":"lightbox","hide_variants":true,"enable_video_looping":false,"padding_top":36,"padding_bottom":12}},"features_section_4U8qxa":{"type":"features-section","name":"Perfume Features with Video","settings":{"video_mp4":"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6abfcf8080ef4389b7c853f6a780e00d.mp4","video_poster":"shopify:\/\/shop_images\/vidoo.jpg","feature1_title":"EXTRAIT-LEVEL CONCENTRATION","feature1_text":"Our 25% extrait formula is crafted for depth and longevity. One spray lingers through every chapter of your day—rich, smooth, and unforgettable.","feature2_title":"Vegan + Cruelty Free","feature2_text":"We believe beauty should be kind. Every Aaroma scent is ethically made, vegan, and cruelty-free—so you can wear it with confidence and conscience.","feature3_title":"MINIMAL, LUXE PACKAGING","feature3_text":"Every bottle is glass-coated for preservation and simplicity. No excess, no waste—just timeless design that looks as good as it smells.","feature4_title":"PRECISION ATOMIZER","feature4_text":"Engineered for a perfect mist. Our fine stainless-steel nozzle ensures even diffusion, transforming every spray into a sensory ritual."}},"related-products":{"type":"related-products","disabled":true,"settings":{"heading":"You may also like","heading_size":"h2","products_to_show":4,"columns_desktop":4,"columns_mobile":"2","color_scheme":"scheme-1","image_ratio":"square","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":true,"padding_top":36,"padding_bottom":28}},"1759647717c1d3e4d8":{"type":"apps","settings":{"include_margins":true}}},"order":["main","features_section_4U8qxa","related-products","1759647717c1d3e4d8"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "square"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "bundleoffer_HTgdLX": {
+          "type": "bundleoffer",
+          "settings": {
+            "bundletext": ""
+          }
+        },
+        "icon_with_text_RjwHCq": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "heart",
+            "image_1": "shopify://shop_images/Icon_Redesign_1_Crafted.png",
+            "heading_1": "<strong>Expertly Crafted Fragrances</strong>",
+            "icon_2": "return",
+            "image_2": "shopify://shop_images/Vegan_111323.png",
+            "heading_2": "<strong>Vegan & Cruelty Free</strong>",
+            "icon_3": "truck",
+            "image_3": "shopify://shop_images/Paraben.png",
+            "heading_3": "<strong>Paraben & Phthalates Free</strong>"
+          }
+        },
+        "complementary_3LfheX": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pair This Scent",
+            "make_collapsible_row": false,
+            "icon": "none",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": true
+          }
+        },
+        "accordion_T6rrCe": {
+          "type": "accordion",
+          "settings": {
+            "accordion_name1": "NOTES & INGREDIENTS",
+            "custom_liquid1": "",
+            "accordion_name2": "ABOUT",
+            "custom_liquid2": "",
+            "accordion_name3": "EXTRAITS DE PARFUM",
+            "custom_liquid3": "<p>\n            All our bottles feature Extrait de Parfum. To give you an idea of the concentration,\n            check out the details below:\n        </p>\n        <ul>\n            <li>After shave: 1–3% Aromatic Compounds</li>\n            <li>Eau de Cologne: 2–6% Aromatic Compounds</li>\n            <li>Eau de Toilette: 5–15% Aromatic Compounds</li>\n            <li>Eau de Parfum: 10–20% Aromatic Compounds</li>\n            <li>Extrait De Parfum: 30–40% Aromatic Compounds</li>\n        </ul>",
+            "accordion_name4": "FAQ",
+            "custom_liquid4": "<p>\n          <b>FAQ Ingredients:</b><br>\n          Alcohol Denat., Parfum (Fragrance), Aqua (Water), Ethylhexylglycerin, Tetramethyl acetyloctahydronaphthalenes, Hexamethylindanopyran, Linalyl Acetate, Limonene, \n          Citrus Aurantium Bergamia Peel Oil, Linalool, Citrus Limon Peel Oil, Pogostemon Cablin Oil, Pinene, Citrus Aurantium Peel Oil, Citral, Hydroxycitronellal\n        </p>",
+            "question": "Why are your perfumes so affordable?",
+            "answer": "Because we don’t charge for hype.\n\nNo celebrity faces. No gold-plated bottles. No retail markups.\nWe keep it simple, clean packaging, premium scent, fair price.\n\nWe sell directly to you, not through middlemen who inflate prices.\nSo instead of paying $150+ for a fancy name, you’re paying $29.99 for quality that lasts.\n\nThat’s not cheap. That’s just smart.",
+            "question2": "Is it perfumed water?",
+            "answer2": "Not even close.\n\nEvery Aaroma scent is a 25% Eau de Parfum, one of the highest concentrations you can get.\nMost designer brands stop at 15–20%. We go further.\n\nWhat that means for you:\n\nLasts up to 10–12 hours\n\nProjects stronger, lingers longer\n\nYou need fewer sprays\n\nIt’s not body spray. It’s a statement.",
+            "question3": "Do Aaroma perfumes smell like designer fragrances?",
+            "answer3": "Same notes. Same concentration. Same craftsmanship.\n\nWe recreate each scent using high-grade oils and meticulous blending, so yes, it smells just like the one that costs five times more.\n\nIn blind tests, people can’t tell them apart. The only difference?\nYou’re not paying for a designer logo or a glass sculpture bottle.\n\nThe luxury is in the scent — and that’s exactly what you’re getting.",
+            "question4": "Are your scents long-lasting?",
+            "answer4": "Absolutely. 12+ Hrs\n\nEach bottle holds a 25% EDP formula built to last through your day—\nfrom morning meetings to midnight memories.\n\nSpray it once, and it stays with you."
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "bundleoffer_HTgdLX",
+        "icon_with_text_RjwHCq",
+        "complementary_3LfheX",
+        "accordion_T6rrCe"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "large",
+        "constrain_to_viewport": false,
+        "media_fit": "cover",
+        "gallery_layout": "thumbnail_slider",
+        "mobile_thumbnails": "hide",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "features_section_4U8qxa": {
+      "type": "features-section",
+      "name": "Perfume Features with Video",
+      "settings": {
+        "video_mp4": "https://cdn.shopify.com/videos/c/o/v/6abfcf8080ef4389b7c853f6a780e00d.mp4",
+        "video_poster": "shopify://shop_images/vidoo.jpg",
+        "feature1_title": "EXTRAIT-LEVEL CONCENTRATION",
+        "feature1_text": "Our 25% extrait formula is crafted for depth and longevity. One spray lingers through every chapter of your day—rich, smooth, and unforgettable.",
+        "feature2_title": "Vegan + Cruelty Free",
+        "feature2_text": "We believe beauty should be kind. Every Aaroma scent is ethically made, vegan, and cruelty-free—so you can wear it with confidence and conscience.",
+        "feature3_title": "MINIMAL, LUXE PACKAGING",
+        "feature3_text": "Every bottle is glass-coated for preservation and simplicity. No excess, no waste—just timeless design that looks as good as it smells.",
+        "feature4_title": "PRECISION ATOMIZER",
+        "feature4_text": "Engineered for a perfect mist. Our fine stainless-steel nozzle ensures even diffusion, transforming every spray into a sensory ritual."
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "1759647717c1d3e4d8": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "features_section_4U8qxa",
+    "related-products",
+    "1759647717c1d3e4d8"
+  ]
+}
