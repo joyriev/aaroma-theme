@@ -73,6 +73,14 @@
         "show_text_below": true
       }
     },
+    "home_hero_banner_WFbxkJ": {
+      "type": "home-hero-banner",
+      "disabled": true,
+      "name": "Home Hero Banner",
+      "settings": {
+        "link": ""
+      }
+    },
     "tab_collection_product_TgPfKA": {
       "type": "tab-collection-product",
       "blocks": {
@@ -338,6 +346,7 @@
   },
   "order": [
     "image_banner",
+    "home_hero_banner_WFbxkJ",
     "tab_collection_product_TgPfKA",
     "collection_list_eXacPD",
     "home_quotes_slider_8jpRQH",
