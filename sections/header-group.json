@@ -1,1 +1,167 @@
-{"name":"t:sections.header.name","type":"header","sections":{"marquee_iPEzYy":{"type":"marquee","blocks":{"message_jJmPfQ":{"type":"message","settings":{"text":"Save Up To 50% With Our Bundles & Gift Sets"}},"message_pYbzAR":{"type":"message","settings":{"text":"Free Shipping on Orders Over ₹999"}}},"block_order":["message_jJmPfQ","message_pYbzAR"],"disabled":true,"name":"Marquee Banner","settings":{"background_color":"#f5f5f5","text_color":"#000000","animation_speed":51}},"announcement-bar":{"type":"announcement-bar","blocks":{"announcement-bar-0":{"type":"announcement","settings":{"text":"BLACK FRIDAY EXCLUSIVE SALE:","text1":"BUY 2 GET 1 FREE","link":"shopify:\/\/collections\/all"}}},"block_order":["announcement-bar-0"],"settings":{"auto_rotate":false,"change_slides_speed":5,"color_scheme":"scheme-2","show_line_separator":true,"show_social":false,"enable_country_selector":false,"enable_language_selector":false}},"header":{"type":"header","blocks":{"card_9UbBHJ":{"type":"card","disabled":true,"settings":{"menu_title":"Men","image":"shopify:\/\/shop_images\/Pear_Noir_Ingredients.png","title":"Pear Noir","description":"","link":"shopify:\/\/products\/pear-noir"}},"card_7MTeYV":{"type":"card","settings":{"menu_title":"Men","image":"shopify:\/\/shop_images\/Pepper_Bloom_Ingredients.png","title":"Pepper Bloom","description":"","link":"shopify:\/\/products\/pepper-bloom"}},"card_gwynrz":{"type":"card","settings":{"menu_title":"Men","image":"shopify:\/\/shop_images\/Currant_Velvet_Ingredients.png","title":"Currant Velvet","description":"","link":"shopify:\/\/products\/currant-velvet"}},"card_fE4QgD":{"type":"card","settings":{"menu_title":"Women","image":"shopify:\/\/shop_images\/Currant_Velvet_Ingredients.png","title":"Currant Velevt","description":"","link":"shopify:\/\/products\/currant-velvet"}},"card_9GYKtB":{"type":"card","settings":{"menu_title":"Women","image":"shopify:\/\/shop_images\/Pepper_Bloom_Ingredients.png","title":"Pepper Bloom","description":"","link":"shopify:\/\/products\/pepper-bloom"}},"card_VAbDJU":{"type":"card","disabled":true,"settings":{"menu_title":"Women","image":"shopify:\/\/shop_images\/Mandarin_Glow_Ingredients.png","title":"Mandarin Glow","description":"","link":"shopify:\/\/products\/mandarin-glow"}}},"block_order":["card_9UbBHJ","card_7MTeYV","card_gwynrz","card_fE4QgD","card_9GYKtB","card_VAbDJU"],"settings":{"logo_position":"middle-left","mobile_logo_position":"center","menu":"main-menu","mobilemenu":"header-bottom-menu","most_popular_seach":"Baccarat Rouge, Vanilla, Floral, Amber, Creed's Aventus, Jasmine, Bleu, Wood","menu_type_desktop":"mega","sticky_header_type":"none","show_line_separator":true,"color_scheme":"scheme-1","menu_color_scheme":"scheme-1","enable_country_selector":false,"enable_language_selector":false,"enable_customer_avatar":true,"margin_bottom":0,"padding_top":12,"padding_bottom":0}}},"order":["marquee_iPEzYy","announcement-bar","header"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "marquee_iPEzYy": {
+      "type": "marquee",
+      "blocks": {
+        "message_jJmPfQ": {
+          "type": "message",
+          "settings": {
+            "text": "Save Up To 50% With Our Bundles & Gift Sets"
+          }
+        },
+        "message_pYbzAR": {
+          "type": "message",
+          "settings": {
+            "text": "Free Shipping on Orders Over ₹999"
+          }
+        }
+      },
+      "block_order": [
+        "message_jJmPfQ",
+        "message_pYbzAR"
+      ],
+      "disabled": true,
+      "name": "Marquee Banner",
+      "settings": {
+        "background_color": "#f5f5f5",
+        "text_color": "#000000",
+        "animation_speed": 51
+      }
+    },
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-bar-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "BLACK FRIDAY EXCLUSIVE SALE:",
+            "text1": "BUY 2 GET 1 FREE",
+            "link": "shopify://collections/all"
+          }
+        }
+      },
+      "block_order": [
+        "announcement-bar-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "color_scheme": "scheme-2",
+        "show_line_separator": true,
+        "show_social": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "card_9UbBHJ": {
+          "type": "card",
+          "disabled": true,
+          "settings": {
+            "menu_title": "Men",
+            "image": "shopify://shop_images/Pear_Noir_Ingredients.png",
+            "title": "Pear Noir",
+            "description": "",
+            "link": "shopify://products/pear-noir"
+          }
+        },
+        "card_7MTeYV": {
+          "type": "card",
+          "settings": {
+            "menu_title": "Men",
+            "image": "shopify://shop_images/Pepper_Bloom_Ingredients.png",
+            "title": "Pepper Bloom",
+            "description": "",
+            "link": "shopify://products/pepper-bloom"
+          }
+        },
+        "card_gwynrz": {
+          "type": "card",
+          "settings": {
+            "menu_title": "Men",
+            "image": "shopify://shop_images/Currant_Velvet_Ingredients.png",
+            "title": "Currant Velvet",
+            "description": "",
+            "link": "shopify://products/currant-velvet"
+          }
+        },
+        "card_fE4QgD": {
+          "type": "card",
+          "settings": {
+            "menu_title": "Women",
+            "image": "shopify://shop_images/Currant_Velvet_Ingredients.png",
+            "title": "Currant Velevt",
+            "description": "",
+            "link": "shopify://products/currant-velvet"
+          }
+        },
+        "card_9GYKtB": {
+          "type": "card",
+          "settings": {
+            "menu_title": "Women",
+            "image": "shopify://shop_images/Pepper_Bloom_Ingredients.png",
+            "title": "Pepper Bloom",
+            "description": "",
+            "link": "shopify://products/pepper-bloom"
+          }
+        },
+        "card_VAbDJU": {
+          "type": "card",
+          "disabled": true,
+          "settings": {
+            "menu_title": "Women",
+            "image": "shopify://shop_images/Mandarin_Glow_Ingredients.png",
+            "title": "Mandarin Glow",
+            "description": "",
+            "link": "shopify://products/mandarin-glow"
+          }
+        }
+      },
+      "block_order": [
+        "card_9UbBHJ",
+        "card_7MTeYV",
+        "card_gwynrz",
+        "card_fE4QgD",
+        "card_9GYKtB",
+        "card_VAbDJU"
+      ],
+      "settings": {
+        "logo_position": "middle-left",
+        "mobile_logo_position": "center",
+        "menu": "main-menu",
+        "mobilemenu": "header-bottom-menu",
+        "most_popular_seach": "Baccarat Rouge, Vanilla, Floral, Amber, Creed's Aventus, Jasmine, Bleu, Wood",
+        "menu_type_desktop": "mega",
+        "sticky_header_type": "none",
+        "show_line_separator": true,
+        "color_scheme": "scheme-1",
+        "menu_color_scheme": "scheme-1",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "enable_customer_avatar": true,
+        "margin_bottom": 0,
+        "padding_top": 12,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "marquee_iPEzYy",
+    "announcement-bar",
+    "header"
+  ]
+}
