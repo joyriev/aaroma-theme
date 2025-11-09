@@ -584,8 +584,12 @@
                 {%- endif -%}
               {%- when 'inspiration' -%}
                 <div>
-                  {% if product.metafields.custom.original_retail_price != blank %}
-                    <div class="text-sm">(Retail Price {{ product.metafields.custom.original_retail_price.value |  money }})</div>
+                  {% if product.metafields.custom.nuta  != blank and product.metafields.custom.choose_your_fragrances_options == blank %}
+                    {% assign nuta_list = product.metafields.custom.nuta | split: "," %}
+                    <div class="text-black"><span class="italic">Inspired by: </span> <span class="font-semibold">{{ nuta_list[0] }}</span> <span>{{ nuta_list[1] }}</span></div>
+                  {% endif %}
+                  {% if product.compare_at_price > 0 %}
+                    <div class="text-sm">(Retail Price {{ product.compare_at_price |  money }})</div>
                   {% endif %}
                   {% if product.metafields.custom.scent_intensity != blank %}
                     <div class="flex items-center gap-[5px]">
