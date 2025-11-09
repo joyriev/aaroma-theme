@@ -11,6 +11,9 @@
   "markets": {
     "australia": {
       "parent": "@default"
+    },
+    "united-states": {
+      "parent": "@default"
     }
   }
 }
