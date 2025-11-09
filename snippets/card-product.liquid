@@ -250,8 +250,8 @@
                       <span class="td-product-card__description__inspiration-content">{{ card_product.metafields.custom.inspired_by }}</span>
                     </p>
                   {% endif %} {% endcomment %}
-                  {% if card_product.compare_at_price > 0 %}
-                    <p class="td-product-card__description__retail-price">(Retail price: {{ card_product.compare_at_price | money }})</p>
+                  {% if card_product.metafields.custom.original_retail_price > 0 %}
+                    <p class="td-product-card__description__retail-price">(Retail price: {{ card_product.metafields.custom.original_retail_price | money }})</p>
                   {% endif %}
               </div>
 

@@ -1,20 +1,17 @@
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 
 <div class="collection-tabs-wrapper page-width" style="padding-top: {{ section.settings.padding_top }}px; padding-bottom: {{ section.settings.padding_bottom }}px;">
-   <div class="tabs-responsive">
-  <div class="collection-tabs-header">
-    <h2 class="section-title">{{ section.settings.heading }}</h2>
-  </div>
+  <div class="tabs-responsive">
+    <div class="collection-tabs-header">
+      <h2 class="section-title">{{ section.settings.heading }}</h2>
+    </div>
 
-  <div class="collection-tabs-nav">
-    <div class="tab-list-conatiner">
-      {% for block in section.blocks %}
-        <button
-          class="tab-button{% if forloop.first %} active{% endif %}"
-          data-tab="{{ block.settings.collection.handle }}"
-        >
-          <span class="tab-title">{{ block.settings.tab_title | escape }}</span>
-          {% assign collection = block.settings.collection %}
+    <div class="collection-tabs-nav">
+      <div class="tab-list-conatiner">
+        {% for block in section.blocks %}
+          <button class="tab-button{% if forloop.first %} active{% endif %}" data-tab="{{ block.settings.collection.handle }}">
+            <span class="tab-title">{{ block.settings.tab_title | escape }}</span>
+            {% assign collection = block.settings.collection %}
             {% if collection.products_count > 0 %}
               {% assign sorted_products = collection.products | sort: 'price' %}
               {% assign lowest_price = sorted_products.first.price | money %}
@@ -25,58 +22,58 @@
               {% endif %}
             {% endif %}
 
-        </button>
-      {% endfor %}
-    </div>
-    <div class="view-all-link">
-      {% if section.settings.shop_all_link != blank %}
-      <a href="{{ section.settings.shop_all_link }}" class="shop-all-btn">Shop All {% render 'icon-arrow-right' %}</a>
-    {% endif %}
+          </button>
+        {% endfor %}
+      </div>
+      <div class="view-all-link">
+        {% if section.settings.shop_all_link != blank %}
+          <a href="{{ section.settings.shop_all_link }}" class="shop-all-btn">Shop All {% render 'icon-arrow-right' %}</a>
+        {% endif %}
+      </div>
     </div>
   </div>
-</div>
 
   {% for block in section.blocks %}
     {% assign collection = block.settings.collection %}
     {% assign products_to_show = section.settings.products_to_show | default: 8 %}
-    <div
-      class="collection-tab-content{% if forloop.first %} active{% endif %}"
-      id="tab-{{ collection.handle }}"
-    >
+    <div class="collection-tab-content{% if forloop.first %} active{% endif %}" id="tab-{{ collection.handle }}">
       <div class="swiper collection-swiper" id="Swiper-{{ section.id }}-{{ forloop.index }}">
         <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            {% render 'card-product-bogo' %}
+          </div>
           {%- if collection.products.size > 0 -%}
             {%- for product in collection.products limit: products_to_show -%}
               <div class="swiper-slide">
-                {% render 'card-product',
-                  card_product: product,
-                  media_aspect_ratio: section.settings.image_ratio,
-                  image_shape: section.settings.image_shape,
-                  show_secondary_image: section.settings.show_secondary_image,
-                  show_vendor: section.settings.show_vendor,
-                  show_rating: section.settings.show_rating,
-                  section_id: section.id,
-                  quick_add: section.settings.quick_add
+                {% render 'card-product'
+                  , card_product: product
+                  , media_aspect_ratio: section.settings.image_ratio
+                  , image_shape: section.settings.image_shape
+                  , show_secondary_image: section.settings.show_secondary_image
+                  , show_vendor: section.settings.show_vendor
+                  , show_rating: section.settings.show_rating
+                  , section_id: section.id
+                  , quick_add: section.settings.quick_add
                 %}
               </div>
             {%- endfor -%}
           {%- else -%}
             {% for i in (1..section.settings.columns_desktop) %}
               <div class="swiper-slide">
-                {% render 'card-product',
-                  card_product: nil,
-                  media_aspect_ratio: section.settings.image_ratio,
-                  image_shape: section.settings.image_shape,
-                  show_vendor: section.settings.show_vendor
+                {% render 'card-product'
+                  , card_product: nil
+                  , media_aspect_ratio: section.settings.image_ratio
+                  , image_shape: section.settings.image_shape
+                  , show_vendor: section.settings.show_vendor
                 %}
               </div>
             {% endfor %}
           {%- endif -%}
         </div>
-           
+
         <!-- Arrows -->
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
         <!-- Progress bar -->
         <div class="swiper-pagination"></div>
       </div>
@@ -85,7 +82,7 @@
 </div>
 
 <script>
-document.addEventListener('DOMContentLoaded', function () {
+  document.addEventListener('DOMContentLoaded', function () {
   const initSwipers = () => {
     document.querySelectorAll('.collection-swiper').forEach((el) => {
       if (!el.swiper) {
@@ -131,7 +128,7 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     });
   });
-});
+  });
 
 
 </script>
@@ -139,32 +136,35 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <style>
   .collection-swiper .swiper-slide {
-  min-height: 350px; /* adjust to your card height */
-}
+    min-height: 350px;
+    /* adjust to your card height */
+  }
 
-.card-wrapper,
-.card {
-  min-height: 100%; /* keep consistent product card height */
-}
+  .card-wrapper,
+  .card {
+    min-height: 100%;
+    /* keep consistent product card height */
+  }
 
   @media screen and (min-width: 769px) {
-    .swiper-button-prev, .swiper-button-next{
-        height: 40px;
-        width: 40px;
-        display: block !important;
+    .swiper-button-prev,
+    .swiper-button-next {
+      height: 40px;
+      width: 40px;
+      display: block !important;
     }
-}
-.collection-tabs-header {
-  margin-bottom: 1.5rem;
-}
-.section-title {
-  font-size: 32px;
-  font-family: 'Commuters Sans';
-  font-weight: 600;
-  line-height:40px;
-}
-.shop-all-btn {
-  display: flex;
+  }
+  .collection-tabs-header {
+    margin-bottom: 1.5rem;
+  }
+  .section-title {
+    font-size: 32px;
+    font-family: 'Commuters Sans';
+    font-weight: 600;
+    line-height: 40px;
+  }
+  .shop-all-btn {
+    display: flex;
     flex-direction: row;
     align-items: center;
     padding: 8px 16px;
@@ -178,34 +178,34 @@ document.addEventListener('DOMContentLoaded', function () {
     font-size: 16px;
     line-height: 16px;
     letter-spacing: 1px;
-    font-family: DM Mono, monospace;
+    font-family: DM Mono
+    , monospace;
     text-transform: uppercase;
-  transition: all 0.3s ease;
-  text-decoration:none;
-  justify-content:center;
-  white-space: nowrap;
-}
-.shop-all-btn:hover {
-  background: #333;
-}
-.tab-list-conatiner {
+    transition: all 0.3s ease;
+    text-decoration: none;
+    justify-content: center;
+    white-space: nowrap;
+  }
+  .shop-all-btn:hover {
+    background: #333;
+  }
+  .tab-list-conatiner {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     width: 100%;
-    gap:8px;
-}
-.collection-tabs-nav {
+    gap: 8px;
+  }
+  .collection-tabs-nav {
     width: 100%;
     max-width: 100%;
-    padding: 0;
-    display:flex;
-    justify-content:space-between;
-    padding-bottom:30px;
-    align-items:center;
-    gap:10px;
-}
+    padding: 0 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
 
-.collection-tabs-nav .tab-button {
+  .collection-tabs-nav .tab-button {
     display: flex;
     align-items: center;
     background: #fff;
@@ -217,250 +217,283 @@ document.addEventListener('DOMContentLoaded', function () {
     transition: all 0.3s ease;
     width: 100%;
     justify-content: space-between;
-    max-width:390px
-}
-.collection-tabs-nav .tab-button.active {
-  border-color: #000;
-  background:#f5eee7;
-}
-.tab-title {
-  display: block;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 24px;
-  color: #000;
-  text-transform: uppercase;
-}
-.tab-subtitle {
-  display: block;
-  font-size: 14px;
-  color: #000;
-  margin-top: 2px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-family: DM Mono, monospace;
-  font-weight:500;
-}
-.collection-tab-content { display: none; }
-.collection-tab-content.active { display: block; }
-.collection-swiper { position: relative; }
-.collection-swiper .swiper-pagination {
-  position: relative;
-  margin-top: 1rem;
-  height: 4px;
-  background: #eee;
-}
-.collection-swiper .swiper-pagination-progressbar-fill {
-  background: #b5a89e;
-}
-@media (max-width:1020px){
-    body .collection-overlay-text .card__information a{
-        font-size:20px;
-        line-height:28px;
-        text-transform:capitalize;
-    }
-    body .collection-overlay-text .card__information span{
-        font-size:14px;
-        margin:0;
-        padding:0;
-    }
-}
-@media (max-width:1020px){
-    .tabs-responsive{
-        position:relative;
-    }
-    .collection-tabs-nav{
-       display:block;
-    }
-    .tab-list-conatiner{
-        flex-wrap:nowrap;
-    }
-    .collection-tabs-nav .tab-button{
-        display:block;
-        text-align:left;
-    }
-    .view-all-link{
-        position:absolute;
-        top:0;
-        right:0;
-    }
-}
-
-@media only screen and (max-width: 767px) {
-  .section-title { font-size: 20px; }
-  .collection-tabs-nav .tab-button {
-    min-width: 120px;
-    padding: 0.6rem;
+    max-width: 390px
   }
-  .tab-title { font-size: 14px; }
-  .tab-subtitle { font-size: 12px; }
-}
+  .collection-tabs-nav .tab-button.active {
+    border-color: #000;
+    background: #f5eee7;
+  }
+  .tab-title {
+    display: block;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000;
+    text-transform: uppercase;
+  }
+  .tab-subtitle {
+    display: block;
+    font-size: 14px;
+    color: #000;
+    margin-top: 2px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: DM Mono
+    , monospace;
+    font-weight: 500;
+  }
+  .collection-tab-content {
+    display: none;
+  }
+  .collection-tab-content.active {
+    display: block;
+  }
+  .collection-swiper {
+    position: relative;
+  }
+  .collection-swiper .swiper-pagination {
+    position: relative;
+    margin-top: 1rem;
+    height: 4px;
+    background: #eee;
+  }
+  .collection-swiper .swiper-pagination-progressbar-fill {
+    background: #b5a89e;
+  }
+  @media (max-width: 1020px) {
+    body .collection-overlay-text .card__information a {
+      font-size: 20px;
+      line-height: 28px;
+      text-transform: capitalize;
+    }
+    body .collection-overlay-text .card__information span {
+      font-size: 14px;
+      margin: 0;
+      padding: 0;
+    }
+  }
+  @media (max-width: 1020px) {
+    .tabs-responsive {
+      position: relative;
+    }
+    .collection-tabs-nav {
+      display: block;
+    }
+    .tab-list-conatiner {
+      flex-wrap: nowrap;
+    }
+    .collection-tabs-nav .tab-button {
+      display: block;
+      text-align: left;
+    }
+    .view-all-link {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .section-title {
+      font-size: 20px;
+    }
+    .collection-tabs-nav .tab-button {
+      min-width: 120px;
+      padding: 0.6rem;
+    }
+    .tab-title {
+      font-size: 14px;
+    }
+    .tab-subtitle {
+      font-size: 12px;
+    }
+  }
 </style>
 
 
-
 {% schema %}
-{
-  "name": "Collection Tabs",
-  "settings": [
-    {
-      "type": "text",
-      "id": "heading",
-      "label": "Section Heading",
-      "default": "Best Sellers"
-    },
-    {
-      "type": "url",
-      "id": "shop_all_link",
-      "label": "Shop All Link"
-    },
-    {
-      "type": "range",
-      "id": "products_to_show",
-      "label": "Products to show",
-      "min": 4,
-      "max": 12,
-      "step": 1,
-      "default": 8
-    },
-    {
-      "type": "select",
-      "id": "columns_desktop",
-      "label": "Columns (Desktop)",
-      "options": [
-        { "value": "2", "label": "2" },
-        { "value": "3", "label": "3" },
-        { "value": "4", "label": "4" }
-      ],
-      "default": "4"
-    },
-    {
-      "type": "select",
-      "id": "columns_mobile",
-      "label": "Columns (Mobile)",
-      "options": [
-        { "value": "1", "label": "1" },
-        { "value": "2", "label": "2" }
-      ],
-      "default": "2"
-    },
-    {
-      "type": "select",
-      "id": "image_ratio",
-      "label": "Image ratio",
-      "options": [
-        { "value": "square", "label": "Square" },
-        { "value": "portrait", "label": "Portrait" },
-        { "value": "adapt", "label": "Adapt to image" }
-      ],
-      "default": "adapt"
-    },
-    {
-      "type": "select",
-      "id": "image_shape",
-      "label": "Image shape",
-      "options": [
-        { "value": "default", "label": "Default" },
-        { "value": "rounded", "label": "Rounded" },
-        { "value": "blob", "label": "Blob" }
-      ],
-      "default": "default"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_secondary_image",
-      "label": "Show secondary image",
-      "default": true
-    },
-    {
-      "type": "checkbox",
-      "id": "show_vendor",
-      "label": "Show vendor",
-      "default": false
-    },
-    {
-      "type": "checkbox",
-      "id": "show_rating",
-      "label": "Show rating",
-      "default": true
-    },
-    {
-      "type": "select",
-      "id": "quick_add",
-      "label": "Quick add",
-      "options": [
-        { "value": "none", "label": "None" },
-        { "value": "above", "label": "Above button" },
-        { "value": "below", "label": "Below button" }
-      ],
-      "default": "below"
-    },
-    {
-      "type": "range",
-      "id": "padding_top",
-      "label": "Padding Top",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "default": 40
-    },
-    {
-      "type": "range",
-      "id": "padding_bottom",
-      "label": "Padding Bottom",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "default": 40
-    }
-  ],
-  "blocks": [
-    {
-      "type": "collection_tab",
-      "name": "Collection Tab",
-      "settings": [
-        {
-          "type": "text",
-          "id": "tab_title",
-          "label": "Tab Title",
-          "default": "WOMEN"
-        },
-        {
-          "type": "text",
-          "id": "tab_subtitle",
-          "label": "Tab Subtitle",
-          "default": "Starting at Rs. 2,800"
-        },
-        {
-          "type": "collection",
-          "id": "collection",
-          "label": "Choose Collection"
-        }
-      ]
-    }
-  ],
-  "presets": [
-    {
-      "name": "Collection Tabs",
-      "blocks": [
-        {
-          "type": "collection_tab",
-          "settings": {
-            "tab_title": "WOMEN",
-            "tab_subtitle": "Starting at Rs. 2,800"
+  {
+    "name": "Collection Tabs",
+    "settings": [
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Section Heading",
+        "default": "Best Sellers"
+      },
+      {
+        "type": "url",
+        "id": "shop_all_link",
+        "label": "Shop All Link"
+      },
+      {
+        "type": "range",
+        "id": "products_to_show",
+        "label": "Products to show",
+        "min": 4,
+        "max": 12,
+        "step": 1,
+        "default": 8
+      },
+      {
+        "type": "select",
+        "id": "columns_desktop",
+        "label": "Columns (Desktop)",
+        "options": [
+          {
+            "value": "2",
+            "label": "2"
+          }, {
+            "value": "3",
+            "label": "3"
+          }, {
+            "value": "4",
+            "label": "4"
           }
-        },
-        {
-          "type": "collection_tab",
-          "settings": {
-            "tab_title": "MEN",
-            "tab_subtitle": "Starting at Rs. 2,800"
+        ],
+        "default": "4"
+      }, {
+        "type": "select",
+        "id": "columns_mobile",
+        "label": "Columns (Mobile)",
+        "options": [
+          {
+            "value": "1",
+            "label": "1"
+          }, {
+            "value": "2",
+            "label": "2"
           }
-        }
-      ]
-    }
-  ]
-}
+        ],
+        "default": "2"
+      }, {
+        "type": "select",
+        "id": "image_ratio",
+        "label": "Image ratio",
+        "options": [
+          {
+            "value": "square",
+            "label": "Square"
+          }, {
+            "value": "portrait",
+            "label": "Portrait"
+          }, {
+            "value": "adapt",
+            "label": "Adapt to image"
+          }
+        ],
+        "default": "adapt"
+      }, {
+        "type": "select",
+        "id": "image_shape",
+        "label": "Image shape",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          }, {
+            "value": "rounded",
+            "label": "Rounded"
+          }, {
+            "value": "blob",
+            "label": "Blob"
+          }
+        ],
+        "default": "default"
+      }, {
+        "type": "checkbox",
+        "id": "show_secondary_image",
+        "label": "Show secondary image",
+        "default": true
+      }, {
+        "type": "checkbox",
+        "id": "show_vendor",
+        "label": "Show vendor",
+        "default": false
+      }, {
+        "type": "checkbox",
+        "id": "show_rating",
+        "label": "Show rating",
+        "default": true
+      }, {
+        "type": "select",
+        "id": "quick_add",
+        "label": "Quick add",
+        "options": [
+          {
+            "value": "none",
+            "label": "None"
+          }, {
+            "value": "above",
+            "label": "Above button"
+          }, {
+            "value": "below",
+            "label": "Below button"
+          }
+        ],
+        "default": "below"
+      }, {
+        "type": "range",
+        "id": "padding_top",
+        "label": "Padding Top",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "default": 40
+      }, {
+        "type": "range",
+        "id": "padding_bottom",
+        "label": "Padding Bottom",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "default": 40
+      }
+    ],
+    "blocks": [
+      {
+        "type": "collection_tab",
+        "name": "Collection Tab",
+        "settings": [
+          {
+            "type": "text",
+            "id": "tab_title",
+            "label": "Tab Title",
+            "default": "WOMEN"
+          }, {
+            "type": "text",
+            "id": "tab_subtitle",
+            "label": "Tab Subtitle",
+            "default": "Starting at Rs. 2,800"
+          }, {
+            "type": "collection",
+            "id": "collection",
+            "label": "Choose Collection"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Collection Tabs",
+        "blocks": [
+          {
+            "type": "collection_tab",
+            "settings": {
+              "tab_title": "WOMEN",
+              "tab_subtitle": "Starting at Rs. 2,800"
+            }
+          }, {
+            "type": "collection_tab",
+            "settings": {
+              "tab_title": "MEN",
+              "tab_subtitle": "Starting at Rs. 2,800"
+            }
+          }
+        ]
+      }
+    ]
+  }
 {% endschema %}

@@ -137,6 +137,10 @@
     grid-column: span 2 / span 2
 }
 
+.col-span-5 {
+    grid-column: span 5 / span 5
+}
+
 .\!m-0 {
     margin: 0px !important
 }
@@ -469,6 +473,10 @@
     grid-template-columns: repeat(3, minmax(0, 1fr))
 }
 
+.grid-cols-10 {
+    grid-template-columns: repeat(10, minmax(0, 1fr))
+}
+
 .flex-col {
     flex-direction: column
 }
@@ -730,6 +738,11 @@
     background-color: rgb(200 32 47 / var(--tw-bg-opacity, 1))
 }
 
+.bg-\[\#f9f6f5\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(249 246 245 / var(--tw-bg-opacity, 1))
+}
+
 .bg-opacity-50 {
     --tw-bg-opacity: 0.5
 }
@@ -904,6 +917,10 @@
 
 .pt-12 {
     padding-top: 48px
+}
+
+.pr-2 {
+    padding-right: 8px
 }
 
 .text-left {
@@ -1172,6 +1189,10 @@
     transition-duration: 300ms
 }
 
+.\[display\:grid\] {
+    display: grid
+}
+
 .\[display\:none\] {
     display: none
 }
@@ -1277,6 +1298,10 @@
     background-color: rgb(17 24 39 / var(--tw-bg-opacity, 1))
 }
 
+.hover\:\[text-decoration\:none\]:hover {
+    text-decoration: none
+}
+
 .focus\:border-2:focus {
     border-width: 2px
 }
@@ -1331,6 +1356,14 @@
         grid-column: span 5 / span 5
     }
 
+    .md\:col-span-4 {
+        grid-column: span 4 / span 4
+    }
+
+    .md\:col-span-6 {
+        grid-column: span 6 / span 6
+    }
+
     .md\:mx-auto {
         margin-left: auto;
         margin-right: auto
@@ -1376,8 +1409,16 @@
         gap: 24px
     }
 
+    .md\:gap-3 {
+        gap: 12px
+    }
+
     .md\:p-6 {
         padding: 24px
+    }
+
+    .md\:p-4 {
+        padding: 16px
     }
 
     .md\:py-10 {
@@ -1440,4 +1481,8 @@
     .md\:\[display\:block\] {
         display: block
     }
+}
+
+.\[\&\>\*\]\:m-0>* {
+    margin: 0px
 }
