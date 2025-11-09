@@ -10,15 +10,7 @@
 {
   "parent": "index.json",
   "context": {
-    "market": "australia"
+    "market": "united-states"
   },
-  "sections": {
-    "home_hero_banner_WFbxkJ": {
-      "settings": {
-        "image": "shopify://shop_images/Aud_1.png",
-        "link": "https://aaroma.co/products/4-x-100ml-perfume-bottles"
-      },
-      "blocks": {}
-    }
-  }
+  "sections": {}
 }
