@@ -166,6 +166,17 @@
       </div>
       <div class="card__content">
         <div class="card__information">
+        
+        {% if card_product.metafields.custom.choose_your_fragrances_options == blank %}
+          <div class="flex items-center gap-2 mb-3">
+            <img class="object-contain object-center" src="{{ card_product.metafields.custom.inspiration.value.image |  image_url }}" alt="{{ card_product.metafields.custom.inspiration.value.image.alt | escape }}" width="35" height="35">
+            <div>
+              <h4 class="text-sm font-semibold my-0 line-clamp-1">{{ card_product.metafields.custom.inspiration.value.name }}</h4>
+              <p class="text-xs my-0">Inspiration</p>
+            </div>
+          </div>
+        {% endif %}
+
           <h3
             class="card__heading{% if card_product.featured_media or settings.card_style == 'standard' %} h5{% endif %}"
             {% if card_product.featured_media or settings.card_style == 'card' %}
@@ -228,6 +239,10 @@
 
             {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}
 
+            <div class="!text-gray-500 text-sm font-semibold tracking-normal">
+                Available in {{ card_product.variants_count }} sizes
+            </div>
+
               <div class="custom-text-extra">
                   {% comment %} {% if card_product.metafields.custom.inspired_by != blank %}
                     <p class="td-product-card__description__inspiration">
@@ -240,7 +255,7 @@
                   {% endif %}
               </div>
 
-              <a class="quick-add__submit button button--full-width button--secondary cards-custom-link-url" href="{{ card_product.url }}" style="color:#fff;">Choose Options</a>
+              {% comment %} <a class="quick-add__submit button button--full-width button--secondary cards-custom-link-url" href="{{ card_product.url }}" style="color:#fff;">Choose Options</a> {% endcomment %}
 
             {%- if card_product.quantity_price_breaks_configured? -%}
               {% if card_product.variants_count == 1 and quick_add == 'bulk' %}
