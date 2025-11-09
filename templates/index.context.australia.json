@@ -12,5 +12,12 @@
   "context": {
     "market": "australia"
   },
-  "sections": {}
+  "sections": {
+    "home_hero_banner_WFbxkJ": {
+      "settings": {
+        "image": "shopify://shop_images/Aud_1.png"
+      },
+      "blocks": {}
+    }
+  }
 }
