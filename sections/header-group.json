@@ -70,64 +70,62 @@
       "blocks": {
         "card_9UbBHJ": {
           "type": "card",
-          "disabled": true,
           "settings": {
             "menu_title": "Men",
-            "image": "shopify://shop_images/Pear_Noir_Ingredients.png",
-            "title": "Pear Noir",
-            "description": "",
-            "link": "shopify://products/pear-noir"
+            "image": "shopify://shop_images/royal_summit_elixir_clean.png",
+            "title": "Royal Summit Elixir",
+            "description": "Inspired by: Creed Aventus",
+            "link": "shopify://products/royal-summit-elixir"
           }
         },
         "card_7MTeYV": {
           "type": "card",
           "settings": {
             "menu_title": "Men",
-            "image": "shopify://shop_images/Pepper_Bloom_Ingredients.png",
-            "title": "Pepper Bloom",
-            "description": "",
-            "link": "shopify://products/pepper-bloom"
+            "image": "shopify://shop_images/silver_storm_signature_clean.png",
+            "title": "Silver Storm SIGNATURE",
+            "description": "Inspired by: JPG Le Male",
+            "link": "shopify://products/silver-storm-signature"
           }
         },
         "card_gwynrz": {
           "type": "card",
           "settings": {
             "menu_title": "Men",
-            "image": "shopify://shop_images/Currant_Velvet_Ingredients.png",
-            "title": "Currant Velvet",
-            "description": "",
-            "link": "shopify://products/currant-velvet"
+            "image": "shopify://shop_images/azure_dreams_pure_clean.png",
+            "title": "Azure Dreams PURE",
+            "description": "Inspired by: Chanel Bleu",
+            "link": "shopify://products/azure-dreams-pure"
           }
         },
         "card_fE4QgD": {
           "type": "card",
           "settings": {
             "menu_title": "Women",
-            "image": "shopify://shop_images/Currant_Velvet_Ingredients.png",
-            "title": "Currant Velevt",
-            "description": "",
-            "link": "shopify://products/currant-velvet"
+            "image": "shopify://shop_images/rose_garden_atelier_clean.png",
+            "title": "Rose Garden ATELIER",
+            "description": "Inspired by: Valentino Donna Born in Roma",
+            "link": "shopify://products/rose-garden-atelier"
           }
         },
         "card_9GYKtB": {
           "type": "card",
           "settings": {
             "menu_title": "Women",
-            "image": "shopify://shop_images/Pepper_Bloom_Ingredients.png",
-            "title": "Pepper Bloom",
-            "description": "",
-            "link": "shopify://products/pepper-bloom"
+            "image": "shopify://shop_images/golden_mirage_reserve_clean_1.png",
+            "title": "Golden Mirage RESERVE",
+            "description": "Inspired by: Louis Vuitton Imagination",
+            "link": "shopify://products/golden-mirage-reserve"
           }
         },
         "card_VAbDJU": {
           "type": "card",
-          "disabled": true,
           "settings": {
             "menu_title": "Women",
-            "image": "shopify://shop_images/Mandarin_Glow_Ingredients.png",
-            "title": "Mandarin Glow",
-            "description": "",
-            "link": "shopify://products/mandarin-glow"
+            "image": "shopify://shop_images/forbidden_fruit_extract_clean_1.png",
+            "title": "Forbidden Fruit EXTRACT",
+            "description": "Inspired by: Tom Ford Lost Cherry",
+            "link": "shopify://products/forbidden-fruit-extract"
           }
         }
       },
