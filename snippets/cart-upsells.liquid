@@ -30,7 +30,11 @@
                 width="200"
                 height="200">
               <div class="col-span-2">
-                <a href="{{ product.url }}" class="my-0 font-semibold leading-snug block text-black no-underline hover:underline mb-2">{{ product.title }}</a>
+                <a href="{{ product.url }}" class="my-0 font-semibold leading-snug block text-black no-underline hover:underline">{{ product.title }}</a>
+                {% if product.metafields.custom.nuta  != blank and product.metafields.custom.choose_your_fragrances_options == blank %}
+                    {% assign nuta_list = product.metafields.custom.nuta | split: "," %}
+                    <div class="text-black text-xs my-1"><span class="italic">Inspired by: </span> <span class="font-semibold">{{ nuta_list[0] }}</span> <span>{{ nuta_list[1] }}</span></div>
+                  {% endif %}
                 <div style="{% if product.has_only_default_variant %}display: none;{% endif %}">
                   <select
                     class="select__select !w-auto !px-3 !h-8 border border-gray-200 rounded border-solid"
