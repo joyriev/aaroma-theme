@@ -59,7 +59,6 @@
         "button",
         "trust_Gd6NTh"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/header.png",
         "image_overlay_opacity": 0,
@@ -76,6 +75,7 @@
     },
     "home_hero_banner_WFbxkJ": {
       "type": "home-hero-banner",
+      "disabled": true,
       "name": "Home Hero Banner",
       "settings": {
         "image": "shopify://shop_images/ENGLISH_DESKTOP.png",
