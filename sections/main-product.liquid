@@ -97,7 +97,25 @@
                   {{- block.settings.text -}}
                 </p>
               {%- when 'title' -%}
-                <div class="product__title" {{ block.shopify_attributes }}>
+                <div class="product__title relative {% if product.tags contains 'onsale' or product.tags contains 'bestseller' %} pt-12{% endif %}" {{ block.shopify_attributes }}>
+                  {%- if product.tags contains 'bestseller' or product.tags contains 'onsale' -%}
+                    <div class="absolute top-0 left-0">
+                      {% if product.tags contains 'onsale' %}
+                        {%- assign discount_percent = 0 -%}
+                        {%- if product.compare_at_price > product.price -%}
+                          {%- assign discount_percent = product.compare_at_price | minus: product.price | times: 100.0 | divided_by: product.compare_at_price | round -%}
+                        {%- endif -%}
+                        <span class="inline-block bg-red-600 text-white text-sm font-bold px-3 py-1">
+                          {{ discount_percent }}% Off
+                        </span>
+                      {% endif %}
+                      {% if product.tags contains 'bestseller' %}
+                        <span class="inline-block bg-[#22613A] text-white text-sm font-bold px-3 py-1 mr-2">
+                          Best Seller
+                        </span>
+                      {% endif %}
+                    </div>
+                  {%- endif -%}  
                   <h1>{{ product.title | escape }}</h1>
                   <a href="{{ product.url }}" class="product__title">
                     <h2 class="h1">
@@ -106,7 +124,38 @@
                   </a>
                 </div>
               {%- when 'price' -%}
-                <div id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
+                {% if product.metafields.custom.choose_your_fragrances_options != blank %}
+                  {% if product.tags contains 'Bundle_Price_Show' %}
+                  <div id="price-{{ section.id }}" class="bundle-price-pdp pb-3" role="status" {{ block.shopify_attributes }}>
+                    {% if product.compare_at_price > product.price %}
+                      {% assign discount = product.compare_at_price | minus: product.price %}
+                      {% assign discount_percent = discount | times: 100 | divided_by: product.compare_at_price | round %}
+                    {% endif %}
+
+                    <div class="flex items-center gap-3 text-2xl">
+                      {% if product.compare_at_price > product.price %}
+                        <span class="text-red-600 font-bold text-[28px] discount-percent">
+                          -{{ discount_percent }}%
+                        </span>
+                      {% endif %}
+
+                      <span class="text-black font-bold text-[28px] product-price">
+                        {{ product.price | money }}
+                      </span>
+
+                      {% if product.compare_at_price > product.price %}
+                        <span class="text-gray-500 font-semibold line-through text-[22px] compare-price">
+                         RRP: {{ product.compare_at_price | money }}
+                        </span>
+                      {% endif %}
+                    </div>
+                    <div class="text-lg font-semibold text-black leading-normal">
+                      Works out at just {{ product.price | divided_by: product.metafields.custom.choose_your_fragrances_options | money }}/bottle
+                    </div>
+                  </div>
+                {% endif %}
+                {% else %}
+                  <div id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                   {%- render 'price',
                     product: product,
                     use_variant: true,
@@ -140,6 +189,7 @@
                     {{ form | payment_terms }}
                   {%- endform -%}
                 </div>
+                {% endif %}
               {%- when 'inventory' -%}
                 <p
                   class="product__inventory{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.inventory_management != 'shopify' %} visibility-hidden{% endif %}"
@@ -476,8 +526,13 @@
                 %}
 
               {%- when 'bundleoffer' -%}
-                {% comment %} {% render 'bundle-offer-buy-2-get-1' %} {% endcomment %}
-                 {% render 'atc-bundle-builder' %}
+                <div class="atc-bundle-builder" {{ block.shopify_attributes }}>
+                  {% if product.metafields.custom.choose_your_fragrances_options != blank %}
+                    {% render 'special-offer-builder', product: product %}
+                  {% else %}
+                    {% render 'atc-bundle-builder', product: product %}
+                  {% endif %}
+                </div>
                 
               {%- when 'variant_picker' -%}
                 {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
@@ -529,13 +584,15 @@
                 {%- endif -%}
               {%- when 'inspiration' -%}
                 <div>
-                  <div class="flex items-center gap-2 mb-3">
-                    <img class="object-contain object-center bg-white" src="{{ product.metafields.custom.inspiration.value.image |  image_url }}" alt="{{ product.metafields.custom.inspiration.value.image.alt | escape }}" width="45" height="45">
-                    <div>
-                      <h4 class="font-semibold my-0 line-clamp-1">{{ product.metafields.custom.inspiration.value.name }}</h4>
-                      <p class="text-sm my-0">Inspiration</p>
+                  {% if product.metafields.custom.inspiration != blank %}
+                    <div class="flex items-center gap-2 mb-3">
+                      <img class="object-contain object-center bg-white" src="{{ product.metafields.custom.inspiration.value.image |  image_url }}" alt="{{ product.metafields.custom.inspiration.value.image.alt | escape }}" width="45" height="45">
+                      <div>
+                        <h4 class="font-semibold my-0 line-clamp-1">{{ product.metafields.custom.inspiration.value.name }}</h4>
+                        <p class="text-sm my-0">Inspiration</p>
+                      </div>
                     </div>
-                  </div>
+                  {% endif %}
                   {% if product.metafields.custom.original_retail_price != blank %}
                     <div class="text-sm">(Retail Price {{ product.metafields.custom.original_retail_price.value |  money }})</div>
                   {% endif %}
@@ -545,11 +602,16 @@
                     {% assign intensity = product.metafields.custom.scent_intensity.value | times: 1 %}
                     <div class="flex gap-[5px] items-center justify-center ml-1">
                         {% for i in (1..3) %}
-                            <div class="w-[8px] h-[8px] rounded-full {% if i <= intensity %}bg-[#22613A]{% else %}bg-gray-300{% endif %} !inline-block"></div>
+                            <div class="w-[8px] h-[8px] rounded-full {% if i <= intensity %}bg-[#9a7a48]{% else %}bg-gray-300{% endif %} !inline-block"></div>
                         {% endfor %}
                     </div>
                   </div>
+                  {% else %}
+                  <p>
+                    {{ product.metafields.custom.bundle_product_content  }}
+                  </p>
                   {% endif %}
+                  
                 </div>
               {%- when 'complementary' -%}
                 <product-recommendations
@@ -768,7 +830,7 @@
     </script>
   </div>
 </product-info>
-{% render 'atc-builder-products-modal' %}
+{% comment %} {% render 'atc-builder-products-modal' %} {% endcomment %}
 <script>
  var variantMetafieldInfo = {};
  {% for variant in product.variants %}
