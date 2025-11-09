@@ -70,23 +70,22 @@
       "blocks": {
         "card_9UbBHJ": {
           "type": "card",
-          "disabled": true,
           "settings": {
             "menu_title": "Men",
-            "image": "shopify://shop_images/Pear_Noir_Ingredients.png",
-            "title": "Pear Noir",
+            "image": "shopify://shop_images/royal_summit_elixir_clean.png",
+            "title": "Royal Summit Elixir",
             "description": "",
-            "link": "shopify://products/pear-noir"
+            "link": "shopify://products/royal-summit-elixir"
           }
         },
         "card_7MTeYV": {
           "type": "card",
           "settings": {
             "menu_title": "Men",
-            "image": "shopify://shop_images/Pepper_Bloom_Ingredients.png",
-            "title": "Pepper Bloom",
+            "image": "shopify://shop_images/silver_storm_signature_clean.png",
+            "title": "Silver Storm SIGNATURE",
             "description": "",
-            "link": "shopify://products/pepper-bloom"
+            "link": "shopify://products/silver-storm-signature"
           }
         },
         "card_gwynrz": {
@@ -94,9 +93,9 @@
           "settings": {
             "menu_title": "Men",
             "image": "shopify://shop_images/Currant_Velvet_Ingredients.png",
-            "title": "Currant Velvet",
+            "title": "Azure Dreams PURE",
             "description": "",
-            "link": "shopify://products/currant-velvet"
+            "link": "shopify://products/azure-dreams-pure"
           }
         },
         "card_fE4QgD": {
@@ -150,7 +149,7 @@
         "show_line_separator": true,
         "color_scheme": "scheme-1",
         "menu_color_scheme": "scheme-1",
-        "enable_country_selector": true,
+        "enable_country_selector": false,
         "enable_language_selector": false,
         "enable_customer_avatar": true,
         "margin_bottom": 0,
