@@ -166,17 +166,6 @@
       </div>
       <div class="card__content">
         <div class="card__information">
-        
-        {% if card_product.metafields.custom.choose_your_fragrances_options == blank %}
-          <div class="flex items-center gap-2 mb-3">
-            <img class="object-contain object-center" src="{{ card_product.metafields.custom.inspiration.value.image |  image_url }}" alt="{{ card_product.metafields.custom.inspiration.value.image.alt | escape }}" width="35" height="35">
-            <div>
-              <h4 class="text-sm font-semibold my-0 line-clamp-1">{{ card_product.metafields.custom.inspiration.value.name }}</h4>
-              <p class="text-xs my-0">Inspiration</p>
-            </div>
-          </div>
-        {% endif %}
-
           <h3
             class="card__heading{% if card_product.featured_media or settings.card_style == 'standard' %} h5{% endif %}"
             {% if card_product.featured_media or settings.card_style == 'card' %}
