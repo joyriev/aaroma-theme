@@ -39,7 +39,7 @@
     <div class="collection-tab-content{% if forloop.first %} active{% endif %}" id="tab-{{ collection.handle }}">
       <div class="swiper collection-swiper" id="Swiper-{{ section.id }}-{{ forloop.index }}">
         <div class="swiper-wrapper">
-          <div class="swiper-slide">
+          <div class="swiper-slide p-3">
             {% render 'card-product-bogo' %}
           </div>
           {%- if collection.products.size > 0 -%}
