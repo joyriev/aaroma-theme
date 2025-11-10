@@ -15,8 +15,9 @@
   "sections": {
     "home_hero_banner_WFbxkJ": {
       "settings": {
-        "image": "shopify://shop_images/Aud_1.png",
-        "link": "https://aaroma.co/products/4-x-100ml-perfume-bottles"
+        "image": "shopify://shop_images/header_-_aud.png",
+        "link": "https://aaroma.co/products/4-x-100ml-perfume-bottles",
+        "mobile_image": "shopify://shop_images/mobile_header_-_aud.png"
       },
       "blocks": {}
     }
