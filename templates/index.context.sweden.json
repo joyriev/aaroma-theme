@@ -12,5 +12,13 @@
   "context": {
     "market": "sweden"
   },
-  "sections": {}
+  "sections": {
+    "home_hero_banner_WFbxkJ": {
+      "settings": {
+        "image": "shopify://shop_images/header_-_swedish.png",
+        "mobile_image": "shopify://shop_images/mobile_header_-_swedish.png"
+      },
+      "blocks": {}
+    }
+  }
 }

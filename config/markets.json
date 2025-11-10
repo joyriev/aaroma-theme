@@ -20,6 +20,9 @@
     },
     "canada": {
       "parent": "@default"
+    },
+    "sweden": {
+      "parent": "@default"
     }
   }
 }
