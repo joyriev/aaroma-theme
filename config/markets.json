@@ -17,6 +17,9 @@
     },
     "germany": {
       "parent": "@default"
+    },
+    "canada": {
+      "parent": "@default"
     }
   }
 }
