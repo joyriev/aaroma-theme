@@ -12,5 +12,13 @@
   "context": {
     "market": "germany"
   },
-  "sections": {}
+  "sections": {
+    "home_hero_banner_WFbxkJ": {
+      "settings": {
+        "image": "shopify://shop_images/header_-_german.png",
+        "mobile_image": "shopify://shop_images/header_-_german_fff59775-71e5-483a-952e-cba87cf9beac.png"
+      },
+      "blocks": {}
+    }
+  }
 }
