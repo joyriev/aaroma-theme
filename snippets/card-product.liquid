@@ -256,17 +256,17 @@
                 Available in {{ card_product.variants_count }} sizes
             </div>
 
-              <div class="custom-text-extra">
-                  {% comment %} {% if card_product.metafields.custom.inspired_by != blank %}
+              {% comment %} <div class="custom-text-extra">
+                  {% if card_product.metafields.custom.inspired_by != blank %}
                     <p class="td-product-card__description__inspiration">
                       <span>Inspired by</span>
                       <span class="td-product-card__description__inspiration-content">{{ card_product.metafields.custom.inspired_by }}</span>
                     </p>
-                  {% endif %} {% endcomment %}
+                  {% endif %}
                   {% if card_product.compare_at_price > card_product.price %}
                     <p class="td-product-card__description__retail-price">(Retail price: {{ card_product.compare_at_price | money }})</p>
                   {% endif %}
-              </div>
+              </div> {% endcomment %}
 
               {% comment %} <a class="quick-add__submit button button--full-width button--secondary cards-custom-link-url" href="{{ card_product.url }}" style="color:#fff;">Choose Options</a> {% endcomment %}
 
