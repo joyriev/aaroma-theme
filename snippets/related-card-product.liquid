@@ -228,14 +228,14 @@
 
             {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}
 
-              <div class="custom-text-extra">
+              {% comment %} <div class="custom-text-extra">
                   {{ card_product.metafields.custom.inspired_by }}
-                  {% comment %} <p class="td-product-card__description__inspiration">
+                  <p class="td-product-card__description__inspiration">
                     <span>Inspired by</span>
                     <span class="td-product-card__description__inspiration-content">Creed's Aventus</span>
-                  </p> {% endcomment %}
+                  </p>
                   <p class="td-product-card__description__retail-price">(Retail price: Rs. 30,200)</p>
-              </div>
+              </div> {% endcomment %}
             {%- if card_product.quantity_price_breaks_configured? -%}
               {% if card_product.variants_count == 1 and quick_add == 'bulk' %}
                 {% liquid
