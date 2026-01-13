@@ -588,9 +588,9 @@
                     {% assign nuta_list = product.metafields.custom.nuta | split: "," %}
                     <div class="text-black"><span class="italic">Inspired by: </span> <span class="font-semibold">{{ nuta_list[0] }}</span> <span>{{ nuta_list[1] }}</span></div>
                   {% endif %}
-                  {% comment %} {% if product.compare_at_price > 0 and product.metafields.custom.choose_your_fragrances_options == blank %}
+                  {% if product.compare_at_price > 0 and product.metafields.custom.choose_your_fragrances_options == blank %}
                     <div class="text-sm">(Retail Price {{ product.compare_at_price |  money }})</div>
-                  {% endif %} {% endcomment %}
+                  {% endif %}
                   {% if product.metafields.custom.scent_intensity != blank %}
                     <div class="flex items-center gap-[5px]">
                     Scent Intensity Scale: <span class="text-highlight leading-4">Statement</span>
