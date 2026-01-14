@@ -47,7 +47,7 @@
           "type": "text",
           "settings": {
             "heading": "Contact",
-            "subtext": "<p>Mommente IT Pte Ltd<br/>Address: 113 Jalan Besar, Singapore 208833<br/>Phone:+13607433221</p>"
+            "subtext": "<p>Address: 113 Jalan Besar, Singapore 208833<br/><br/>Phone:+13607433221<br/><br/>Aaroma is a subsidiary of Mommente IT Pte Ltd.</p>"
           }
         }
       },
