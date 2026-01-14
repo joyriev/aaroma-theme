@@ -7,10 +7,7 @@
 
 <header-drawer data-breakpoint="{% if section.settings.menu_type_desktop == 'drawer' %}desktop{% else %}tablet{% endif %}">
   <details id="Details-menu-drawer-container" class="menu-drawer-container">
-    <summary
-      class="header__icon header__icon--menu header__icon--summary link focus-inset"
-      aria-label="{{ 'sections.header.menu' | t }}"
-    >
+    <summary class="header__icon header__icon--menu header__icon--summary link focus-inset" aria-label="{{ 'sections.header.menu' | t }}">
       <span>
         {{- 'icon-hamburger.svg' | inline_asset_content -}}
         {{- 'icon-close.svg' | inline_asset_content -}}
@@ -22,72 +19,63 @@
         <div class="menu-drawer__navigation-container">
 
 
+          <button id="mobile_seach_open" class="mob-search-box">
+            <span class="mob-search-icon">
+              {{- 'icon-search.svg' | inline_asset_content -}}</span>
+            <span class="mob-search-text">Search</span>
+          </button>
 
 
-<button id="mobile_seach_open" class="mob-search-box">
-  <span class="mob-search-icon"> {{- 'icon-search.svg' | inline_asset_content -}}</span>
-  <span class="mob-search-text">Search</span>
-</button>
+          <script>
+            document.addEventListener("DOMContentLoaded", () => {
+              const searchBtn = document.getElementById("mobile_seach_open");
+              const searchDetails = document.querySelector(".header__search details");
+              const menuDrawer = document.getElementById("Details-menu-drawer-container");
+              const menuSummary = menuDrawer?.querySelector("summary");
 
+              if (searchBtn && searchDetails && menuDrawer) {
+                searchBtn.addEventListener("click", (e) => {
+                  e.preventDefault();
 
-<script>
-document.addEventListener("DOMContentLoaded", () => {
-  const searchBtn = document.getElementById("mobile_seach_open");
-  const searchDetails = document.querySelector(".header__search details");
-  const menuDrawer = document.getElementById("Details-menu-drawer-container");
-  const menuSummary = menuDrawer?.querySelector("summary");
+                  // ✅ Force search modal open
+                  searchDetails.setAttribute("open", "true");
 
-  if (searchBtn && searchDetails && menuDrawer) {
-    searchBtn.addEventListener("click", (e) => {
-      e.preventDefault();
+                  // ✅ Keep menu drawer open
+                  menuDrawer.setAttribute("open", "true");
+                  menuDrawer.classList.add("menu-opening");
+                  if (menuSummary) {
+                    menuSummary.setAttribute("aria-expanded", "true");
+                  }
 
-      // ✅ Force search modal open
-      searchDetails.setAttribute("open", "true");
+                  // ✅ Focus input
+                  const searchInput = document.querySelector(".search__input");
+                  if (searchInput) {
+                    setTimeout(() => searchInput.focus(), 200);
+                  }
+                });
 
-      // ✅ Keep menu drawer open
-      menuDrawer.setAttribute("open", "true");
-      menuDrawer.classList.add("menu-opening");
-      if (menuSummary) {
-        menuSummary.setAttribute("aria-expanded", "true");
-      }
-
-      // ✅ Focus input
-      const searchInput = document.querySelector(".search__input");
-      if (searchInput) {
-        setTimeout(() => searchInput.focus(), 200);
-      }
-    });
-
-    // ✅ When search modal closes, keep drawer open
-    searchDetails.addEventListener("toggle", () => {
-      if (!searchDetails.open) {
-        menuDrawer.setAttribute("open", "true");
-        menuDrawer.classList.add("menu-opening");
-        if (menuSummary) {
-          menuSummary.setAttribute("aria-expanded", "true");
-        }
-      }
-    });
-  }
-});
-</script>
-
-
-
-
-
+                // ✅ When search modal closes, keep drawer open
+                searchDetails.addEventListener("toggle", () => {
+                  if (!searchDetails.open) {
+                    menuDrawer.setAttribute("open", "true");
+                    menuDrawer.classList.add("menu-opening");
+                    if (menuSummary) {
+                      menuSummary.setAttribute("aria-expanded", "true");
+                    }
+                  }
+                });
+              }
+            });
+          </script>
 
 
           <nav class="menu-drawer__navigation">
             <ul class="menu-drawer__menu has-submenu list-menu" role="list">
-              {%- for link in section.settings.menu.links -%}
+              {%- for link in settings.mobile_menu.links -%}
                 <li>
                   {%- if link.links != blank -%}
                     <details id="Details-menu-drawer-menu-item-{{ forloop.index }}">
-                      <summary
-                        id="HeaderDrawer-{{ link.handle }}"
-                        class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.child_active %} menu-drawer__menu-item--active{% endif %}"
-                      >
+                      <summary id="HeaderDrawer-{{ link.handle }}" class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.child_active %} menu-drawer__menu-item--active{% endif %}">
                         {{ link.title | escape }}
                         <span class="svg-wrapper">
                           {{- 'icon-arrow.svg' | inline_asset_content -}}
@@ -99,8 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
                       <div
                         id="link-{{ link.handle | escape }}"
                         class="menu-drawer__submenu has-submenu gradient motion-reduce"
-                        tabindex="-1"
-                      >
+                        tabindex="-1">
                         <div class="menu-drawer__inner-submenu">
                           <button class="menu-drawer__close-button link link--text focus-inset" aria-expanded="true">
                             <span class="svg-wrapper">
@@ -108,7 +95,10 @@ document.addEventListener("DOMContentLoaded", () => {
                             </span>
                             {{ link.title | escape }}
                           </button>
-                          <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
+                          <ul
+                            class="menu-drawer__menu list-menu"
+                            role="list"
+                            tabindex="-1">
                             {%- for childlink in link.links -%}
                               <li>
                                 {%- if childlink.links == blank -%}
@@ -117,18 +107,21 @@ document.addEventListener("DOMContentLoaded", () => {
                                     href="{{ childlink.url }}"
                                     class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if childlink.current %} menu-drawer__menu-item--active{% endif %}"
                                     {% if childlink.current %}
-                                      aria-current="page"
-                                    {% endif %}
-                                  >
+                                    aria-current="page"
+                                    {% endif %}>
                                     {{ childlink.title | escape }}
                                   </a>
                                 {%- else -%}
                                   <details id="Details-menu-drawer-{{ link.handle }}-{{ childlink.handle }}">
-                                    <summary
-                                      id="HeaderDrawer-{{ link.handle }}-{{ childlink.handle }}"
-                                      class="menu-drawer__menu-item link link--text list-menu__item focus-inset"
-                                    >
-                                      <a href="{{ link.url }}" class="header__menu-item" {%- if link.child_active %} aria-current="true" {% endif %}> {{- link.title | escape -}} </a>
+                                    <summary id="HeaderDrawer-{{ link.handle }}-{{ childlink.handle }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset">
+                                      <a
+                                        href="{{ link.url }}"
+                                        class="header__menu-item"
+                                        {%- if link.child_active %}
+                                        aria-current="true"
+                                        {% endif %}>
+                                        {{- link.title | escape -}}
+                                      </a>
                                       <span class="svg-wrapper">
                                         {{- 'icon-arrow.svg' | inline_asset_content -}}
                                       </span>
@@ -136,14 +129,8 @@ document.addEventListener("DOMContentLoaded", () => {
                                         {{- 'icon-caret.svg' | inline_asset_content -}}
                                       </span>
                                     </summary>
-                                    <div
-                                      id="childlink-{{ childlink.handle | escape }}"
-                                      class="menu-drawer__submenu has-submenu gradient motion-reduce"
-                                    >
-                                      <button
-                                        class="menu-drawer__close-button link link--text focus-inset"
-                                        aria-expanded="true"
-                                      >
+                                    <div id="childlink-{{ childlink.handle | escape }}" class="menu-drawer__submenu has-submenu gradient motion-reduce">
+                                      <button class="menu-drawer__close-button link link--text focus-inset" aria-expanded="true">
                                         <span class="svg-wrapper">
                                           {{- 'icon-arrow.svg' | inline_asset_content -}}
                                         </span>
@@ -152,8 +139,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                       <ul
                                         class="menu-drawer__menu list-menu"
                                         role="list"
-                                        tabindex="-1"
-                                      >
+                                        tabindex="-1">
                                         {%- for grandchildlink in childlink.links -%}
                                           <li>
                                             <a
@@ -161,9 +147,8 @@ document.addEventListener("DOMContentLoaded", () => {
                                               href="{{ grandchildlink.url }}"
                                               class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if grandchildlink.current %} menu-drawer__menu-item--active{% endif %}"
                                               {% if grandchildlink.current %}
-                                                aria-current="page"
-                                              {% endif %}
-                                            >
+                                              aria-current="page"
+                                              {% endif %}>
                                               {{ grandchildlink.title | escape }}
                                             </a>
                                           </li>
@@ -184,9 +169,8 @@ document.addEventListener("DOMContentLoaded", () => {
                       href="{{ link.url }}"
                       class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.current %} menu-drawer__menu-item--active{% endif %}"
                       {% if link.current %}
-                        aria-current="page"
-                      {% endif %}
-                    >
+                      aria-current="page"
+                      {% endif %}>
                       {{ link.title | escape }}
                     </a>
                   {%- endif -%}
@@ -199,8 +183,7 @@ document.addEventListener("DOMContentLoaded", () => {
               <a
                 href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}"
                 class="menu-drawer__account link focus-inset h5 medium-hide large-up-hide"
-                rel="nofollow"
-              >
+                rel="nofollow">
                 {%- if section.settings.enable_customer_avatar -%}
                   <account-icon>
                     {%- if customer and customer.has_avatar? -%}
@@ -229,12 +212,15 @@ document.addEventListener("DOMContentLoaded", () => {
               <div class="menu-drawer__localization header-localization">
                 {%- if localization.available_countries and localization.available_countries.size > 1 -%}
                   <localization-form>
-                    {%- form 'localization', id: 'HeaderCountryMobileForm', class: 'localization-form' -%}
+                    {%- form 'localization'
+                      , id: 'HeaderCountryMobileForm'
+                      , class: 'localization-form' -%}
                       <div>
                         <h2 class="visually-hidden" id="HeaderCountryMobileLabel">
                           {{ 'localization.country_label' | t }}
                         </h2>
-                        {%- render 'country-localization', localPosition: 'HeaderCountryMobile' -%}
+                        {%- render 'country-localization'
+                          , localPosition: 'HeaderCountryMobile' -%}
                       </div>
                     {%- endform -%}
                   </localization-form>
@@ -242,12 +228,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 {%- if localization.available_languages and localization.available_languages.size > 1 -%}
                   <localization-form>
-                    {%- form 'localization', id: 'HeaderLanguageMobileForm', class: 'localization-form' -%}
+                    {%- form 'localization'
+                      , id: 'HeaderLanguageMobileForm'
+                      , class: 'localization-form' -%}
                       <div>
                         <h2 class="visually-hidden" id="HeaderLanguageMobileLabel">
                           {{ 'localization.language_label' | t }}
                         </h2>
-                        {%- render 'language-localization', localPosition: 'HeaderLanguageMobile' -%}
+                        {%- render 'language-localization'
+                          , localPosition: 'HeaderLanguageMobile' -%}
                       </div>
                     {%- endform -%}
                   </localization-form>
@@ -355,43 +344,40 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <style>
 
-.mob-search-box {
-  padding: 12px 24px;
-  border-top: 1px solid rgba(0, 0, 0, .1);
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  border: 1px solid #e5e3df; 
-  border-radius: 4px;
-  padding: 8px 12px;
-  background: #fdfcf9; 
-  color: #9c8e85;
-  font-size: 14px;
-  cursor: pointer;
-  width: 100%;
-  max-width:90%;
-  margin:auto;
-  margin-top:15px;        
-  text-align: left;    
-}
-.mob-search-icon {
-  height: 2rem;
-  width: 2rem;
-  fill: none;
-  vertical-align: middle;
-}
-.mob-search-box:hover {
-  background: #f9f8f5;
-}
+  .mob-search-box {
+    padding: 8px 12px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid #e5e3df;
+    border-radius: 4px;
+    background: #fdfcf9;
+    color: #9c8e85;
+    font-size: 14px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 90%;
+    margin: 15px auto auto;
+  }
+  .mob-search-icon {
+    height: 2rem;
+    width: 2rem;
+    fill: none;
+    vertical-align: middle;
+  }
+  .mob-search-box:hover {
+    background: #f9f8f5;
+  }
 
-.mob-search-box .search-icon {
-  font-size: 16px;
-  color: #9c8e85;
-}
+  .mob-search-box .search-icon {
+    font-size: 16px;
+    color: #9c8e85;
+  }
 
-.mob-search-box .search-text {
-  flex-grow: 1;
-  color: #9c8e85;
-}
+  .mob-search-box .search-text {
+    flex-grow: 1;
+    color: #9c8e85;
+  }
 
 </style>

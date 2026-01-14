@@ -34,6 +34,17 @@
     ]
   },
   {
+    "name": "Mobile Menu",
+    "settings": [
+      {
+        "type": "link_list",
+        "id": "mobile_menu",
+        "default": "main-menu",
+        "label": "Mobile Menu"
+      }
+    ]
+  },
+  {
     "name": "t:settings_schema.colors.name",
     "settings": [
       {
