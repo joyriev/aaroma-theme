@@ -12,6 +12,7 @@
     "logo": "shopify://shop_images/Aaroma.png",
     "logo_width": 130,
     "favicon": "shopify://shop_images/A_32x32_39c09458-f77b-4c5c-bd7f-f54f743b662c.png",
+    "mobile_menu": "mobile-menu",
     "type_header_font": "playfair_n4",
     "heading_scale": 100,
     "type_body_font": "inter_n4",
@@ -145,11 +146,6 @@
     },
     "content_for_index": [],
     "blocks": {
-      "1744161739547163668": {
-        "type": "shopify://apps/hextom-timer-bar/blocks/ctb-embeded-block/f7b88b6e-2e87-46bc-87a9-3e3638a24fa9",
-        "disabled": false,
-        "settings": {}
-      },
       "14327677521557774844": {
         "type": "shopify://apps/simprosys-google-shopping-feed/blocks/core_settings_block/1f0b859e-9fa6-4007-97e8-4513aff5ff3b",
         "disabled": false,
