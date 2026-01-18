@@ -145,6 +145,50 @@
         "feature4_text": "Engineered for a perfect mist. Our fine stainless-steel nozzle ensures even diffusion, transforming every spray into a sensory ritual."
       }
     },
+    "image_and_text_XCDrTq": {
+      "type": "image-and-text",
+      "blocks": {
+        "heading_ANa8Qc": {
+          "type": "heading",
+          "settings": {
+            "content": "Why EU-Made Fragrances Hit Different",
+            "heading_type": "h2",
+            "font_size": 30,
+            "mobile_font_size": 24
+          }
+        },
+        "text_kFNyNW": {
+          "type": "text",
+          "settings": {
+            "content": "<ul><li>⁠Produced in EU facilities that follow strict cosmetic regulations</li><li>⁠IFRA-compliant ingredients and formulations</li><li>No corner-cutting, no grey-market blending</li></ul><p>WE Craft Perfumes under strict European cosmetic standards</p>",
+            "mobile_content": "",
+            "font_size": 18
+          }
+        }
+      },
+      "block_order": [
+        "heading_ANa8Qc",
+        "text_kFNyNW"
+      ],
+      "name": "Image and Text",
+      "settings": {
+        "background_color": "#fcfbf9",
+        "image": "shopify://shop_images/WhatsApp_Image_2026-01-17_at_10.59.01.jpg",
+        "rounded_image": true,
+        "image_placement": "1",
+        "mobile_image_placement": "under_heading",
+        "button_text": "",
+        "button_url": "",
+        "columns_gap": 40,
+        "rows_gap": 20,
+        "content_alignment": "center",
+        "blocks_gap": 24,
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
     "related-products": {
       "type": "related-products",
       "disabled": true,
@@ -174,6 +218,7 @@
   "order": [
     "main",
     "features_section_4U8qxa",
+    "image_and_text_XCDrTq",
     "related-products",
     "1759647717c1d3e4d8"
   ]
