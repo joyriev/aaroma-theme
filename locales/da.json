@@ -2618,7 +2618,81 @@
         "invalid_input": "%{parameter} parameter er ugyldig.",
         "too_many_line_items_error": "Din kurv kan ikke indeholde mere end %{max} varer.",
         "link_expired": "Link udløbet",
-        "link_no_longer_exists": "Link findes ikke længere."
+        "link_no_longer_exists": "Link findes ikke længere.",
+        "stock_problems_html": "Én eller flere varer er ikke længere tilgængelige. Vi har oprettet en <a href='%{link}'>opdateret indkøbskurv</a>.",
+        "changed": "Kurv ændret",
+        "items_changed": "Et eller flere elementer er ændret.",
+        "variant_requires_selling_plan": "Variant kan kun købes med en salgsplan.",
+        "selling_plan_not_available_for_company_locations": "Der kan kun foretages ét enkelt køb for B2B-ordrer",
+        "digital_product_not_available_for_company_locations": "Denne vare kan ikke tilføjes til en B2B-bestilling",
+        "buyer_cannot_purchase_for_company_locations": "Du kan ikke købe til denne placering",
+        "selling_plan_not_applicable": "Kan ikke anvende salgsplan på variant",
+        "shipping_address_not_required": "Denne kurv kræver ikke forsendelse",
+        "shipping_address_invalid": "Der opstod et problem med at beregne dine forsendelsespriser. Fortsæt til kassen for at vælge en forsendelsespris, inden du fuldfører din ordre.",
+        "bundle_requires_components": "Bundtproduktet '%{name}' kan ikke tilføjes til kurven.",
+        "gift_card_with_components_not_supported": "Bundtproduktet '%{name}' kan ikke tilføjes til kurven.",
+        "gift_card_price_must_be_greater_than_zero": "Bundtproduktet '%{name}' kan ikke tilføjes til kurven.",
+        "gift_card_recipient_validation_error": "Den angivne gavekortmodtager er ugyldig",
+        "view_lines_limit_reached": "Linjer skal være mindre end eller lig med %{limit}",
+        "cart_too_large": "Kurv er for stor.",
+        "cart_attributes_error": "Kurv attributter indeholder ugyldige data.",
+        "merchandise_line_transformers": {
+          "run_error": "Der opstod en fejl i din indkøbskurv."
+        },
+        "merchandise_not_applicable": "Varen kan ikke købes som konfigureret."
+      },
+      "storefront": {
+        "invalid_password": "Adgangskode forkert, prøv venligst igen."
+      },
+      "tags": {
+        "add_articles": "Indsnævr søgning til artikler, der også har tag %{tag}",
+        "add_products": "Indsnævr udvalget til produkter, der matcher tag %{tag}",
+        "remove_articles": "Udvid søgningen til artikler, der ikke er tagget %{tag}",
+        "remove_products": "Fjern tag %{tag}"
+      }
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Tak fordi du har tilmeldt dig vores mailingliste.",
+        "unsubscribe": "Afmeld abonnement"
+      },
+      "unsubscribed": {
+        "confirmation": "Du er afmeldt vores mailingliste.",
+        "preview": "Du forhåndsviser, hvad kunderne vil se, når de afmelder sig."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Du har tilmeldt dig e-mail åbningssporing.</b>",
+          "visibility": "Åbningsrater for e-mails vil blive rapporteret anonymt. Vi vil kun kunne se, om du har åbnet en e-mail som en del af en samlet åbningsrate for e-mails.",
+          "opt_out_html": "Du kan <a style='text-decoration:underline;' href='%{link}'>fravælge</a> sporing af åbning af e-mails, hvis du ikke ønsker at dele disse oplysninger.",
+          "preview_bar": "Du forhåndsviser, hvad kunderne vil se, når de vælger at tilmelde sig e-mail-åbningssporing."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Du har fravalgt e-mail åbningsovervågning.</b>",
+          "visibility": "Vi vil ikke kunne se, om du har åbnet vores e-mails.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Tilmeld dig</a> til sporing af åbning af e-mails.",
+          "preview_bar": "Du forhåndsviser, hvad kunderne vil se, når de fravælger e-mail-åbningssporing."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Vi sporer ikke længere nogen e-mail-åbninger.</b>",
+          "privacy_policy": "Efter denne e-mail blev sendt, opdaterede vi vores privatlivspolitik, og vi sporer ikke længere åbninger."
+        },
+        "track": {
+          "status_html": "<b>Åbning af e-mail spores.</b>",
+          "visibility": "Vi vil kun kunne se, om du har åbnet e-mailen, som en del af den samlede åbningsrate for e-mails."
+        },
+        "updated_policy": {
+          "status_html": "<b>Åbning af e-mail spores.</b>",
+          "visibility": "Vi har opdateret vores politik og sporer nu åbning af e-mails. Åbningsrater for e-mails vil blive rapporteret anonymt. Vi vil kun kunne se, om du har åbnet en e-mail som en del af den samlede åbningsrate for e-mails.",
+          "opt_out_html": "Hvis du ikke ønsker at dele disse oplysninger, kan du <a style='text-decoration:underline;' href='%{link}'>framelde dig.</a>"
+        }
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "out_of_stock": "Udsolgt"
+        }
       }
     }
   }
