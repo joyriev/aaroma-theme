@@ -3117,7 +3117,80 @@
         "come_back": "Kehren Sie auf diese Seite zurück, um Updates zum Status Ihrer Sendung zu erhalten.",
         "company_tracking_number": "{{company}} Sendungsverfolgungsnummer:",
         "confirmed_title": "Ihre Bestellung ist bestätigt",
-        "confirmed_description_pickup": "Sie erhalten eine E-Mail, wenn Ihre Bestellung zur Abholung bereitsteht."
+        "confirmed_description_pickup": "Sie erhalten eine E-Mail, wenn Ihre Bestellung zur Abholung bereitsteht.",
+        "confirmed_description_digital": "Sie erhalten eine E-Mail, sobald Ihre Bestellung fertig ist.",
+        "confirmed_description_gift_card_text": "Sie erhalten eine SMS, wenn Ihre Bestellung fertig ist.",
+        "delivered_label": "Geliefert",
+        "delivered_description_gift_card": {
+          "one": "Geschenkkarte wurde per E-Mail gesendet.",
+          "other": "Geschenkkarten wurden per E-Mail versendet."
+        },
+        "delivered_description_gift_card_text": {
+          "one": "Geschenkkarte wurde per SMS gesendet.",
+          "other": "Geschenkkarten wurden per SMS versendet."
+        },
+        "gift_card_label": {
+          "one": "Geschenkkarte",
+          "other": "Geschenkkarten"
+        },
+        "gift_card_resend_button": {
+          "one": "Geschenkkarte erneut senden",
+          "other": "Geschenkkarten erneut senden"
+        },
+        "gift_resend_success": {
+          "one": "Geschenkkarte erneut gesendet",
+          "other": "Geschenkkarten erneut gesendet"
+        },
+        "gift_resend_failure": {
+          "one": "Beim erneuten Senden Ihrer Geschenkkarte ist ein Problem aufgetreten. Versuchen Sie es erneut oder kontaktieren Sie uns.",
+          "other": "Beim erneuten Senden Ihrer Geschenkkarten ist ein Problem aufgetreten. Versuchen Sie es erneut oder kontaktieren Sie uns."
+        },
+        "confirmed_gift_card_additional_description": {
+          "one": "Die Geschenkkarte wird in einer separaten E-Mail gesendet.",
+          "other": "Jede Geschenkkarte wird in einer separaten E-Mail versendet."
+        },
+        "confirmed_gift_card_additional_description_text": {
+          "one": "Die Geschenkkarte wird in einer separaten Nachricht gesendet.",
+          "other": "Jede Geschenkkarte wird in einer separaten Nachricht gesendet."
+        },
+        "status_timestamp": "Aktualisiert {{date}}",
+        "estimated_delivery": "Erwartet {{date}}",
+        "was_expected_by": "Wurde erwartet bis {{date}}",
+        "delivered": "Eingetroffen {{date}}",
+        "buy_with_prime_logo_accessibility_label": "Amazon Buy with Prime-Logo",
+        "in_review_label": "In Überprüfung",
+        "in_review_title": "Ihre Bestellung wird überprüft",
+        "last_updated": "Zuletzt aktualisiert {{date}}",
+        "multiple_shipments_label": "Mehrere Sendungen",
+        "no_tracking_number": "Für diese Sendung gibt es keine Sendungsverfolgungsnummer.",
+        "tracking_number": {
+          "one": "Sendungsnummer",
+          "other": "Sendungsverfolgungsnummern"
+        },
+        "out_for_delivery_label": "Unterwegs zur Lieferung",
+        "resume_tracking": "Bewerbungsstatus verfolgen",
+        "submitted_label": "Eingereicht",
+        "submitted_description": "Bestellung und Zahlungsdetails überprüfen.",
+        "there_was_a_problem_label": "Es gab ein Problem",
+        "track_shipment": "Sendung verfolgen",
+        "request_return": "Rücksendung anfordern",
+        "view_order_for_details": "Bestellung zur Ansicht der Details",
+        "external_promise_manage_button_label": {
+          "buy_with_prime": "Bei Amazon verwalten"
+        },
+        "amazon_buy_with_prime": {
+          "order_tracking_link": {
+            "text": "Verwalten mit Amazon"
+          }
+        },
+        "delivery_promise_v2": {
+          "promise_line": {
+            "shop_promise_brand_label": "Lieferung garantiert bis",
+            "external_promise_brand_label": "Lieferung durch",
+            "not_delivered_by_label": "Geliefert nach {{date}}",
+            "delivery_guarantee_expired_label": "Liefergarantie abgelaufen"
+          }
+        }
       }
     }
   }
