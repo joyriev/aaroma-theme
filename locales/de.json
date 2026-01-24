@@ -403,7 +403,7 @@
     "account_fallback": "Konto",
     "activate_account": {
       "title": "Konto aktivieren",
-      "subtext": "Erstelle ein Passwort, um dein Konto zu aktiveren.",
+      "subtext": "Erstellen Sie Ihr Passwort, um Ihr Konto zu aktivieren.",
       "password": "Passwort",
       "password_confirm": "Passwort bestätigen",
       "submit": "Konto aktivieren",
@@ -419,48 +419,48 @@
       "company": "Unternehmen",
       "address1": "Adresse 1",
       "address2": "Adresse 2",
-      "city": "Ort",
+      "city": "Stadt",
       "country": "Land/Region",
-      "province": "Bundesland/Provinz",
-      "zip": "PLZ",
-      "phone": "Telefonnummer",
-      "set_default": "Als Standard-Adresse festlegen",
+      "province": "Provinz",
+      "zip": "Postleitzahl",
+      "phone": "Telefon",
+      "set_default": "Als Standardadresse festlegen",
       "add": "Adresse hinzufügen",
       "update": "Adresse aktualisieren",
       "cancel": "Abbrechen",
       "edit": "Bearbeiten",
       "delete": "Löschen",
-      "delete_confirm": "Bist du sicher, dass du diese Adresse löschen möchtest?"
+      "delete_confirm": "Sind Sie sicher, dass Sie diese Adresse löschen möchten?"
     },
-    "log_in": "Einloggen",
+    "log_in": "Anmelden",
     "log_out": "Abmelden",
     "login_page": {
       "cancel": "Abbrechen",
       "create_account": "Konto erstellen",
       "email": "E-Mail",
-      "forgot_password": "Hast du dein Passwort vergessen?",
-      "guest_continue": "Fortfahren",
-      "guest_title": "Als Gast fortsetzen",
+      "forgot_password": "Passwort vergessen?",
+      "guest_continue": "Fortsetzen",
+      "guest_title": "Als Gast fortfahren",
       "password": "Passwort",
-      "title": "Login",
+      "title": "Anmelden",
       "sign_in": "Anmelden",
-      "submit": "Senden",
+      "submit": "Einreichen",
       "alternate_provider_separator": "oder"
     },
     "orders": {
-      "title": "Bestellhistorie",
+      "title": "Bestellverlauf",
       "order_number": "Bestellung",
       "order_number_link": "Bestellnummer {{ number }}",
       "date": "Datum",
       "payment_status": "Zahlungsstatus",
-      "fulfillment_status": "Fulfillmentstatus",
-      "total": "Gesamtsumme",
-      "none": "Du hast noch keine Bestellungen aufgegeben."
+      "fulfillment_status": "Erfüllungsstatus",
+      "total": "Gesamt",
+      "none": "Sie haben noch keine Bestellungen aufgegeben."
     },
     "recover_password": {
-      "title": "Setze dein Passwort zurück",
-      "subtext": "Wir werden dir eine E-Mail zum Zurücksetzen deines Passworts schicken",
-      "success": "Wir haben dir eine E-Mail mit einem Link zum Aktualisieren deines Passworts geschickt."
+      "title": "Setzen Sie Ihr Passwort zurück",
+      "subtext": "Wir senden Ihnen eine E-Mail, um Ihr Passwort zurückzusetzen",
+      "success": "Wir haben Ihnen eine E-Mail mit einem Link zum Aktualisieren Ihres Passworts gesendet."
     },
     "register": {
       "title": "Konto erstellen",
@@ -471,58 +471,58 @@
       "submit": "Erstellen"
     },
     "reset_password": {
-      "title": "Passwort für Konto zurücksetzen",
-      "subtext": "Neues Passwort eingeben",
+      "title": "Passwort für das Konto zurücksetzen",
+      "subtext": "Geben Sie ein neues Passwort ein",
       "password": "Passwort",
       "password_confirm": "Passwort bestätigen",
       "submit": "Passwort zurücksetzen"
     },
     "order": {
       "title": "Bestellung {{ name }}",
-      "date_html": "Aufgegeben am {{ date }}",
-      "cancelled_html": "Bestellung storniert am {{ date }}",
+      "date_html": "Platziert am {{ date }}",
+      "cancelled_html": "Bestellung am {{ date }} storniert",
       "cancelled_reason": "Grund: {{ reason }}",
       "billing_address": "Rechnungsadresse",
       "payment_status": "Zahlungsstatus",
       "shipping_address": "Lieferadresse",
-      "fulfillment_status": "Fulfillmentstatus",
+      "fulfillment_status": "Erfüllungsstatus",
       "discount": "Rabatt",
       "shipping": "Versand",
       "tax": "Steuer",
       "product": "Produkt",
-      "sku": "SKU",
+      "sku": "Artikelnummer",
       "price": "Preis",
       "quantity": "Menge",
-      "total": "Gesamtsumme",
-      "fulfilled_at_html": "Ausgeführt am {{ date }}",
-      "track_shipment": "Sendung nachverfolgen",
+      "total": "Gesamt",
+      "fulfilled_at_html": "Erfüllt {{ date }}",
+      "track_shipment": "Sendung verfolgen",
       "tracking_url": "Tracking-Link",
-      "tracking_company": "Versanddienstleister",
-      "tracking_number": "Trackingnummer",
+      "tracking_company": "Anbieter",
+      "tracking_number": "Sendungsnummer",
       "subtotal": "Zwischensumme",
-      "total_duties": "Zollgebühren",
-      "total_refunded": "Zurückerstattet"
+      "total_duties": "Zölle",
+      "total_refunded": "Erstattet"
     }
   },
   "gift_cards": {
     "issued": {
-      "title": "Hier ist dein {{ value }}-Gutschein für {{ shop }}!",
-      "subtext": "Dein Gutschein",
-      "gift_card_code": "Gutscheincode",
-      "shop_link": "Onlineshop besuchen",
-      "add_to_apple_wallet": "Zu Apple Wallet hinzufügen",
-      "qr_image_alt": "QR-Code – Scannen, um Gutschein einzulösen",
-      "copy_code": "Geschenkgutscheincode kopieren",
+      "title": "Hier ist dein Guthaben der Geschenkkarte über {{ value }} für {{ shop }}!",
+      "subtext": "Ihre Geschenkkarte",
+      "gift_card_code": "Geschenkkartencode",
+      "shop_link": "Online-Shop besuchen",
+      "add_to_apple_wallet": "Zur Apple Wallet hinzufügen",
+      "qr_image_alt": "QR-Code — scannen, um Geschenkkarte einzulösen",
+      "copy_code": "Geschenkkartencode kopieren",
       "expired": "Abgelaufen",
       "copy_code_success": "Code erfolgreich kopiert",
-      "how_to_use_gift_card": "Verwende diesen Geschenkgutscheincode online oder verwende den QR-Code im Shop",
-      "expiration_date": "Gültig bis {{ expires_on }}"
+      "how_to_use_gift_card": "Verwenden Sie den Geschenkkartencode online oder den QR-Code im Geschäft",
+      "expiration_date": "Läuft ab am {{ expires_on }}"
     }
   },
   "recipient": {
     "form": {
       "checkbox": "Ich möchte dies als Geschenk senden",
-      "email_label": "Empfänger E-Mail",
+      "email_label": "Empfänger-E-Mail",
       "email": "E-Mail",
       "name_label": "Name des Empfängers (optional)",
       "name": "Name",
@@ -532,8 +532,8 @@
       "email_label_optional_for_no_js_behavior": "E-Mail-Adresse des Empfängers (optional)",
       "send_on": "JJJJ-MM-TT",
       "send_on_label": "Senden am (optional)",
-      "expanded": "Formular für den Empfänger des Gutscheins erweitert",
-      "collapsed": "Formular für den Empfänger des Gutscheins minimiert"
+      "expanded": "Geschenkkarten-Empfängerformular erweitert",
+      "collapsed": "Geschenkkarten-Empfängerformular eingeklappt"
     }
   },
   "shopify": {
