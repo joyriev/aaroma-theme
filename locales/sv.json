@@ -899,7 +899,92 @@
             "one": "%{delivery_method} är inte längre tillgängligt för denna artikel.",
             "other": "%{delivery_method} är inte längre tillgängligt för dessa artiklar."
           }
+        },
+        "unshippable_product": {
+          "message": {
+            "one": "Den här varan kommer att tas bort från din kundvagn eftersom det inte finns några leveransmetoder tillgängliga för din adress.",
+            "other": "Dessa artiklar kommer att tas bort från din kundvagn eftersom det inte finns några leveransmetoder tillgängliga för din adress."
+          }
+        },
+        "price_update": {
+          "description": "Priserna för dessa artiklar har ändrats och är uppdaterade i din kundvagn."
+        },
+        "price_and_quantity_update": {
+          "title": "Pris- och kvantitetsuppdatering",
+          "description": "Priser och tillgängliga kvantiteter för dessa artiklar har ändrats och uppdateras i din kundvagn."
+        },
+        "out_of_stock": {
+          "description": "Dessa artiklar finns inte längre tillgängliga och har tagits bort från din kundvagn.",
+          "items_unavailable": "Vissa artiklar finns inte längre tillgängliga och har tagits bort från din kundvagn."
+        },
+        "out_of_stock_in_context_label": "Denna produkt är inte tillgänglig i ditt land/region."
+      },
+      "contextual_availability": {
+        "title": {
+          "one": "Otillgänglig produkt",
+          "other": "Otillgängliga produkter"
+        },
+        "products_not_available": {
+          "one": "Den här produkten kommer att tas bort från din kundvagn eftersom den inte är tillgänglig i ditt land/region.",
+          "other": "Dessa produkter kommer att tas bort från din kundvagn eftersom de inte är tillgängliga i ditt land/region."
+        },
+        "all_products_in_cart_unavailable": {
+          "one": "Denna produkt är inte tillgänglig i ditt land/region.",
+          "other": "Dessa produkter är inte tillgängliga i ditt land/region."
+        },
+        "unavailable_label": "Ej tillgänglig"
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "Denna produkt finns inte tillgänglig för leverans till %{location_name}.",
+          "some_products_other": "Dessa produkter finns inte tillgängliga för leverans till %{location_name}.",
+          "all_products_one": "Produkten i din kundvagn finns inte tillgänglig för leverans till %{location_name}.",
+          "all_products_other": "Produkterna i din kundvagn finns inte tillgängliga för leverans till %{location_name}."
+        },
+        "cart_updated": "Din kundvagn har uppdaterats.",
+        "change_address_only": "Byt leveransadress för att fortsätta.",
+        "change_address_or_remove": "Ändra leveransadress eller %{remove_action}.",
+        "empty_cart_action": "töm kundvagnen och återgå till butiken"
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "message": {
+            "one": "Den här varan kommer att tas bort från din kundvagn eftersom det inte finns några leveransmetoder tillgängliga för din adress.",
+            "other": "Dessa artiklar kommer att tas bort från din kundvagn eftersom det inte finns några leveransmetoder tillgängliga för din adress."
+          }
         }
+      },
+      "order_summary": {
+        "title": "Orderöversikt",
+        "more_items_modal": {
+          "clear_search": "Rensa sökning",
+          "empty_results": "Inga resultat hittades för \"%{searchText}\". Kontrollera stavningen eller använd ett annat ord eller uttryck.",
+          "number_items_shown": "%{shownNumber} av %{totalNumber} artiklar"
+        },
+        "order_name_label": "Beställ %{name}",
+        "shopping_cart_label": "Shoppingvagn",
+        "discount_not_found": "Det gick inte att hitta någon giltig rabatt som matchar den angivna koden",
+        "discount_code_applied": "Rabattkod tillämpad",
+        "discount_code_allocations_mismatch": "Din <strong style=\"text-transform:uppercase\">%{code}</strong> rabattkod har ändrats. Granska din kundvagn och försök igen.",
+        "order_discounts_apply_to_local_shop": "Orderrabatter gäller endast för artiklar från %{shop_name}",
+        "gift_card_applied": "Presentkort tillämpat",
+        "gift_cards_apply_to_local_shop": "Presentkort gäller endast för varor från %{shop_name}",
+        "add_discount_or_gift_card": "Lägg till en rabattkod eller presentkort",
+        "remove_gift_card_label": "Rensa presentkort",
+        "return_restocking_fee_label": "påfyllningsavgift",
+        "free_shipping_discount_label": "Fri frakt",
+        "apply_discount_button_label": "Verkställ",
+        "applied_discount_message": "%{amount} rabatt på totalorderpriset",
+        "discount_has_been_applied": "Rabatt har tillämpats",
+        "gift_card_has_been_applied": "Presentkort har använts",
+        "gift_card_has_been_removed": "Presentkort har tagits bort",
+        "gift_card_subscriptions_notice": "Presentkort gäller endast för din första betalning",
+        "discount_already_applied": "En rabatt har tillämpats på denna beställning. Du kan inte lägga till en annan rabatt.",
+        "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> rabattkod är inte giltig för varorna i din kundvagn",
+        "discount_requires_customer_notice": "Ange din leveransinformation för att använda rabattkoden <strong style=\"text-transform:uppercase\">%{code}</strong>",
+        "customer_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> rabattkod är inte tillgänglig för dig just nu",
+        "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> rabattkod kräver berättigad kund",
+        "shipping_information_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> rabattkod är inte tillgänglig för din leveransadress"
       }
     }
   }
