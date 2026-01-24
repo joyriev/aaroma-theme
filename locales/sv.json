@@ -2005,7 +2005,116 @@
       },
       "shop_policies": {
         "policy_label": "Policy: Riktlinjer",
-        "legal_notice": "Juridisk information"
+        "legal_notice": "Juridisk information",
+        "subscription_policy": "Avbokningar",
+        "purchase_options_policy": "Köpalternativspolicy",
+        "contact_information": "Kontakt",
+        "purchase_options_cancellation_policy": "Avbokningar",
+        "terms_and_policies": "Villkor och riktlinjer"
+      },
+      "remote_policies": {
+        "unavailable_policy": "Ingen %{policy_name} har angetts för denna butik. För ytterligare information, kontakta %{shop_name} direkt."
+      },
+      "mor_policies": {
+        "terms_and_conditions": "Villkor för Merchant of Record",
+        "privacy_policy": "Sekretesspolicy för Merchant of Record"
+      },
+      "order_payment_collection": {
+        "changes_summary": {
+          "added": {
+            "one": "Tillagt",
+            "other": "Tillagd %{count}"
+          },
+          "subtracted": "Borttaget %{count}",
+          "returned": "Returnerad %{count}",
+          "return_line_item_removed": "Tog bort %{count} från retur"
+        },
+        "additional_payment_requested": "Betalning av %{total_outstanding} krävs",
+        "checkout_review_and_pay": "Din beställning %{order_name} har uppdaterats. Granska dessa ändringar och betala sedan för att bekräfta din beställning.",
+        "order_updated_on": "Din beställning uppdaterades den %{last_edited_at}.",
+        "order_review_and_pay": "Din beställning har uppdaterats. Granska och betala för att bekräfta din beställning."
+      },
+      "change_currency": {
+        "credit_card_will_be_charged_html": "Ditt kreditkort kommer att debiteras %{amount}",
+        "payment_total_label": "Betalningssumma",
+        "change_currency_link": "Byt till %{currency_name}",
+        "card_provider_fx_charges_warning": "Din kortutgivare kan ta ut avgifter på transaktioner i %{currency_code}.",
+        "currency_not_supported_by_shop": "Den valuta du valde är inte längre tillgänglig. Alla priser är nu i %{currency_code}."
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Din kundvagn har uppdaterats baserat på ditt leveransland.",
+        "cart_and_currency_updated_based_on_country": "Din kundvagn och valuta har uppdaterats baserat på ditt leveransland.",
+        "currency_updated_for_country": "Valuta uppdaterad för %{country}"
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "Ditt land/region har uppdaterats. Ange din leveransadress för att fortsätta till kassan."
+      },
+      "tips": {
+        "description": "Visa ditt stöd för laget på %{shop_name}",
+        "update_tip": "Uppdateringstips",
+        "message": "Tack, vi uppskattar det."
+      },
+      "subscriptions": {
+        "recurring_totals": "%{total_price} varje %{interval}",
+        "recurring_totals_with_initial_order_shipping_discount": "Första betalningen %{total_price_with_discount}, sedan %{recurring_total}",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "other": "Första %{count} betalningarna %{total_price} vardera"
+          },
+          "following_cycles": ", sedan %{total_price} varje %{interval}"
+        }
+      },
+      "customer_payment_methods": {
+        "delete_customer_mandate": {
+          "generic_error": "Det uppstod ett problem när din förfrågan skulle behandlas.",
+          "success_message": "Din betalningsmetod har tagits bort framgångsrikt"
+        }
+      },
+      "throttle": {
+        "line_to_check_out": "Du står i kö för Checkout",
+        "cart_summary_heading": "Din kundvagn",
+        "merchandise": {
+          "available": "Tillgänglig"
+        },
+        "inventory": {
+          "partial_inventory_banner": "En del av din kundvagn är slutsåld och kommer inte att finnas tillgänglig för köp vid kassan.",
+          "sold_out": {
+            "heading": "Din kundvagn är slutsåld",
+            "link": "Tillbaka till butiken"
+          }
+        },
+        "time_to_checkout_title": "Dags för Checkout - {{shopName}}",
+        "estimated_wait_time": {
+          "calculating": "Beräknar uppskattad väntetid"
+        },
+        "footer": {
+          "heading": "Uppdatera inte den här sidan, den uppdateras automatiskt.",
+          "body": "Artiklar i din kundvagn är inte reserverade förrän du slutför köpet."
+        }
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "Det uppstod ett problem vid hanteringen av din förfrågan. Kontakta butikens ägare."
+      },
+      "no_address_location": {
+        "header": "Du har ingen leveransadress för denna plats",
+        "alt_header": "Saknad leveransadress",
+        "message": "Kontakta oss för att lägga till en adress för denna plats för att slutföra utcheckningen.",
+        "email_us_button_label": "Skicka oss ett e-postmeddelande"
+      },
+      "order_errors": {
+        "creation_failure": "Det uppstod ett problem när din beställning skulle skapas. Försök igen, eller kontakta oss för mer information.",
+        "network_failure": "Din beställning kunde inte skickas på grund av ett nätverksfel. Kontrollera din anslutning och försök igen.",
+        "inventory_reservation_failure": "Vissa artiklar finns inte längre tillgängliga."
+      },
+      "session_errors": {
+        "session_not_unique": "Det uppstod ett problem vid behandlingen av din beställning. Uppdatera denna sida för att återvända till butiken.",
+        "session_already_finished": "Denna beställning har redan skickats in. Du kan återvända till butiken för att starta en ny beställning."
+      },
+      "artifact_errors": {
+        "artifact_dissatisfaction_without_violation": "Det uppstod ett problem vid behandlingen av din beställning. Försök igen om några minuter."
+      },
+      "pickup_point": {
+        "no_business_hours": "Inga öppettider tillgängliga"
       }
     }
   }
