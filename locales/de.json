@@ -217,7 +217,7 @@
       "reset": "Zurücksetzen",
       "sort_button": "Sortieren",
       "sort_by_label": "Sortieren nach:",
-      "to": "Bis",
+      "to": "Zu",
       "clear_filter": "Filter entfernen",
       "filter_selected_accessibility": "{{ type }} ({{ count }} Filter ausgewählt)",
       "show_more": "Mehr anzeigen",
@@ -227,7 +227,7 @@
   },
   "templates": {
     "search": {
-      "no_results": "Keine Ergebnisse gefunden für \"{{ terms }}\". Überprüfe die Schreibweise oder versuche es mit einer anderen Suchanfrage.",
+      "no_results": "Keine Ergebnisse für „{{ terms }}“ gefunden. Überprüfen Sie die Rechtschreibung oder verwenden Sie ein anderes Wort oder eine andere Phrase.",
       "results_with_count": {
         "one": "{{ count }} Ergebnis",
         "other": "{{ count }} Ergebnisse"
@@ -235,10 +235,10 @@
       "title": "Suchergebnisse",
       "page": "Seite",
       "products": "Produkte",
-      "search_for": "Nach \"{{ terms }}\" suchen",
+      "search_for": "Suche nach „{{ terms }}“",
       "results_with_count_and_term": {
-        "one": "{{ count }} Ergebnis für \"{{ terms }}\" gefunden",
-        "other": "{{ count }} Ergebnisse für \"{{ terms }}\" gefunden"
+        "one": "{{ count }} Ergebnis gefunden für „{{ terms }}“",
+        "other": "{{ count }} Ergebnisse gefunden für „{{ terms }}“"
       },
       "results_pages_with_count": {
         "one": "{{ count }} Seite",
@@ -265,8 +265,8 @@
         "phone": "Telefonnummer",
         "comment": "Kommentar",
         "send": "Senden",
-        "post_success": "Danke, dass du uns kontaktiert hast. Wir werden uns so schnell wie möglich bei dir melden.",
-        "error_heading": "Bitte passe Folgendes an:",
+        "post_success": "Danke, dass Sie uns kontaktiert haben. Wir werden uns so schnell wie möglich bei Ihnen melden.",
+        "error_heading": "Bitte passen Sie Folgendes an:",
         "title": "Kontaktformular"
       }
     },
@@ -389,7 +389,7 @@
     "language_label": "Sprache",
     "update_language": "Sprache aktualisieren",
     "update_country": "Land/Region aktualisieren",
-    "search": "Suchen",
+    "search": "Suche",
     "popular_countries_regions": "Beliebte Länder/Regionen",
     "country_results_count": "{{ count }} Länder/Regionen gefunden"
   },
