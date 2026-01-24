@@ -3207,6 +3207,70 @@
               "other": "Du har {{count}} väntande beställningar"
             },
             "more_than_pagination_length": "Du har mer än {{count}} väntande beställningar"
+          },
+          "pagination": {
+            "nav_accessibility_label": "Navigeringsknappar för beställningar under granskning"
+          }
+        },
+        "order_list_column_headers_contact": "Kontakt",
+        "removed_company_contact_tooltip": "Borttagen från företaget"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Bekräftat {{date}} från order {{draftOrderName}}",
+        "loading": "Laddar orderdetaljer",
+        "loading_finished_accessibility_message": "Orderdetaljer har laddats",
+        "payment_status": {
+          "pending": {
+            "title": "Betalning förfaller",
+            "title_with_date": "Betalning förfaller {{date}}",
+            "title_due_on_receipt": "Betalning inte förfallen än",
+            "title_due_on_fulfillment": "Betalning förfaller vid leverans",
+            "description_partially_paid": "Denna beställning är delvis betald. Du har en återstående balans.",
+            "description_authorized": "Din betalningsmetod kommer att debiteras på förfallodagen, eller så kan du betala nu.",
+            "description_waiting_for_manual_payment": "Denna beställning har en väntande betalning. Saldo kommer att uppdateras när betalningen mottagits.",
+            "description_due_on_receipt": "Du kommer att få en faktura när betalningen ska göras.",
+            "description_due_on_receipt_partially_paid": "Denna beställning har delvis betalats. Du har en kvarvarande balans. Du kommer att få en faktura när betalningen förfaller.",
+            "description_due_on_fulfillment": "Betalning ska göras när alla artiklar i denna beställning har levererats.",
+            "description_due_on_fulfillment_partially_paid": "Denna beställning har delvis betalats. Du har en återstående balans. Betalning förfaller när alla artiklar i denna beställning har levererats.",
+            "description_due_on_fulfillment_partially_paid_next": "Denna beställning är delvis betald. Du har en återstående balans."
+          },
+          "draft": {
+            "description": "Betalningsuppgifter bestäms när beställningen bekräftas.",
+            "title": "Betalning inte förfallen än",
+            "in_review": {
+              "description": "Betalningsuppgifter bestäms när beställningen bekräftas.",
+              "title": "Betalning inte förfallen än"
+            },
+            "submitted": {
+              "description": "Skicka betalning för att bekräfta denna beställning.",
+              "deposit": {
+                "title": "Betalning förfaller",
+                "due_later": "Salditen är på {{translatedName}} villkor och förfaller den {{dueDate}}.",
+                "due_on_fulfillment": "Balansen ska betalas när alla artiklar i denna beställning har levererats.",
+                "due_on_receipt": "Du kommer att få en faktura för det återstående beloppet.",
+                "due_on_date": "Balansen förfaller den {{dueDate}}."
+              }
+            },
+            "deposit": {
+              "due_later": "{{depositAmount}} kommer att förfalla när din beställning bekräftas. Saldo kommer att vara på {{translatedName}} villkor.",
+              "due_on_fulfillment": "{{depositAmount}} ska betalas när din beställning bekräftas. Resterande belopp ska betalas när beställningen är fullföljd.",
+              "due_on_receipt": "{{depositAmount}} ska betalas när din beställning bekräftas. Resterande belopp ska betalas senare.",
+              "due_on_date": "{{depositAmount}} ska betalas när din beställning bekräftas. Resterande belopp ska betalas den {{dueDate}}."
+            }
+          },
+          "paid": {
+            "title_with_date": "Betald {{date}}",
+            "description": "Din beställning är helt betald."
+          },
+          "refund": {
+            "title": "Återbetalat",
+            "title_with_date": "Återbetald {{date}}",
+            "description_full_refund": "Du har fått full återbetalning för denna beställning.",
+            "description_single_refund": "Du har fått en delvis återbetalning för denna beställning.",
+            "description_multiple_refunds": "Du har fått delvisa återbetalningar för denna beställning."
+          },
+          "canceled": {
+            "title": "Betalning avbruten"
           }
         }
       }
