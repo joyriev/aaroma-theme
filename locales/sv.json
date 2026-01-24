@@ -1281,7 +1281,46 @@
             "sandbox_error": "Något gick fel",
             "web_component_error": "Det uppstod ett problem vid inläsning av denna sida"
           }
-        }
+        },
+        "different_credit_card_label": "Använd ett annat kreditkort",
+        "same_billing_address_label": "Samma som leveransadress",
+        "billing_address_associated_with_mandate": "Använd adress kopplad till betalningsmetoden",
+        "billing_address_associated_with_mandate_info": "Om du vill ändra din faktureringsadress, ta bort och ange dina kreditkortsuppgifter på nytt",
+        "free_order_notice_html": "Din beställning är <strong>gratis</strong>. Ingen betalning krävs.",
+        "express_checkout_free_order": "Du kommer inte att debiteras för en gratis beställning",
+        "order_covered_by_gift_cards_notice": {
+          "one": "Din beställning täcks av ditt presentkort.",
+          "other": "Din beställning täcks av dina presentkort."
+        },
+        "offsite_gateway_redirect_hint": "Du kommer att omdirigeras till %{gateway_label} för att slutföra ditt köp.",
+        "offsite_gateway_review_page_redirect_hint": "Efter att du har granskat din beställning kommer du att omdirigeras till %{gateway_label} för att slutföra ditt köp.",
+        "offsite_gateway_redirect_hint_no_button_label": "Du kommer att omdirigeras till %{gateway_label} för att slutföra ditt köp.",
+        "receiver_payment_experience_hint": "Efter att du har lagt din beställning kommer du att få betalningsuppgifter. Gör betalningen på Multibanco eller online inom %{due_days} dagar.",
+        "billing_address_rollup_accessibility_label": "Faktureringsadressalternativ",
+        "no_js_credit_card_fields_redirect_hint": "Du kommer att omdirigeras för att lägga till din betalningsinformation.",
+        "card_fields_container_prefix": "Fältbehållare för:",
+        "card_fields_unavailable_html": {
+          "one": "Betalningar med kredit- och betalkort är inte tillgängliga just nu.<br><a href=\"%{current_url}\">Uppdatera denna sida</a> eller försök igen senare.",
+          "other": "Betalningar med kredit- och betalkort är inte tillgängliga just nu.<br><a href=\"%{current_url}\">Uppdatera denna sida</a> eller prova en annan betalningsmetod."
+        },
+        "card_fields_processing_error": "Det uppstod ett problem vid betalningen. Försök att uppdatera sidan eller kontrollera din internetanslutning.",
+        "no_method_error": "Den här butiken kan inte ta emot betalningar just nu.",
+        "not_configured_error": "Den här butiken kan inte ta emot betalningar just nu.",
+        "shop_pay_ideal_unavailable_error": "iDEAL är inte tillgängligt för denna beställning. Välj en annan betalningsmetod.",
+        "payment_method_not_available_for_shipping_address_error": "Betalningsmetod inte tillgänglig för vald leveransadress. Välj en annan betalningsmetod.",
+        "billing_address_not_supported_for_payment_method_error": "Denna betalningsmetod är inte tillgänglig för din faktureringsadress och valuta. Prova en annan betalningsmetod.",
+        "generic_incorrect_card_info": "Dina betalningsuppgifter kunde inte verifieras. Kontrollera dina kortuppgifter och försök igen.",
+        "sofort_label": "Omedelbar banköverföring",
+        "paypal_wallet_label": "PayPal-plånbok",
+        "shop_pay_installments_label": "Shop Pay delbetalningar",
+        "continue_to_guest_checkout": "Fortsätt till gästutcheckning",
+        "paypal_modal": {
+          "order_contains_fixed_selling_plans": "Totalt kan exklusive skatter, frakt, uppskjutna avgifter och vissa rabatter. Fortsätt till kassan för att se beloppet som ska betalas idag."
+        },
+        "bancontact_label": "Bankkontakt",
+        "multibanco_label": "Multibank",
+        "eps_label": "eps-överföring",
+        "afterpay_label": "Efterbetalning"
       }
     }
   }
