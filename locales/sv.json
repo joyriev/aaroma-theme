@@ -2286,10 +2286,168 @@
             "payment_terms": "Betalningsvillkoren har ändrats. Granska din beställning"
           },
           "invalid": {
-            "shipping_option": "Välj ett giltigt fraktalternativ"
+            "shipping_option": "Välj ett giltigt fraktalternativ",
+            "zone": "Ange en giltig stat / provins",
+            "billing_zone": "Ange en giltig faktureringsadress stat / provins",
+            "emirate": "Ange en giltig emirat",
+            "postal_code": "Ange en giltig postnummer / postkod",
+            "billing_phone": "Ange ett giltigt telefonnummer för faktureringsadressen",
+            "reduction_code": "Ange en giltig rabattkod eller presentkort",
+            "billing_zip": "Ange en giltig faktureringsadress postnummer / postkod"
+          },
+          "missing": {
+            "billing_first_name": "Ange ett faktureringsadressens förnamn",
+            "address2": "Ange en lägenhet, svit, etc.",
+            "billing_address2": "Ange en faktureringsadress lägenhet, svit, etc.",
+            "billing_city": "Ange en faktureringsadress stad",
+            "province": "Välj en stat / provins",
+            "billing_province": "Välj en faktureringsadress stat / provins",
+            "country": "Välj ett land/område",
+            "billing_zip": "Ange en faktureringsadress postnummer",
+            "phone": "Ange ett telefonnummer"
+          },
+          "formatting": {
+            "name_contains_emojis": "Ta bort emoji från ditt namn",
+            "postal_code_contains_emoji": "Ta bort emoji från ditt postnummer"
+          }
+        },
+        "scrim": {
+          "continue_purchase_in_window": "Fortsätt ditt köp i {{walletName}}-fönstret",
+          "and_return_to_checkout": "och återvänd till Checkout"
+        }
+      },
+      "note": {
+        "length_exceeds_maximum": "Minska storleken på anteckningen till 5000 eller färre tecken."
+      },
+      "offsite_payment_failed": {
+        "title": "Betalning utanför webbplatsen misslyckades",
+        "payment_not_processed_text": "Försök skanna QR-koden igen. Om det fortfarande inte fungerar, meddela vår personal och prova en annan betalningsmetod.",
+        "payment_link_expired_text": "Försök skanna QR-koden igen."
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "Presentkortets pris måste vara större än 0.",
+            "gift_card_price_must_not_exceed_limit": "Presentkortets pris får inte överstiga %{gift_card_limit}.",
+            "subtotal_limit_reached": "Det maximala värdet för artikelrader har uppnåtts.",
+            "signature_mismatch": "Varumärkessignatur stämmer inte för rad %{stable_id}."
+          }
+        }
+      },
+      "remote": {
+        "errors": {
+          "only_remote_merchandise_lines": "Kassan innehåller endast fjärrvaror. En omdirigering till den fjärrbutiken krävs för att slutföra köpet.",
+          "currency_mismatch": "Den här varan kan inte läggas till i din kundvagn eftersom den kommer från en butik som använder en annan valuta.",
+          "currency_mismatch_removal": "En vara togs bort från din kundvagn eftersom den kommer från en butik som använder en annan valuta.",
+          "max_remote_shops_exceeded": "Den här produkten kan inte läggas till eftersom din kundvagn redan har maxantalet från andra butiker."
+        }
+      },
+      "units": {
+        "centiliter": "kl",
+        "ounce": "uns",
+        "fluid_ounce": "fl uns",
+        "pint": "pt",
+        "quart": "qt",
+        "gallon": "tjej",
+        "inch": "i",
+        "yard": "yd",
+        "square_foot": "ft²"
+      },
+      "memberships": {
+        "delivery_promise_unfulfillable": "Adressen stöds inte för det aktuella medlemskapet.",
+        "items_split_across_locations_unsupported": "Prime-leverans är inte tillgänglig för din beställning. Dina fraktalternativ har uppdaterats."
+      },
+      "editor": {
+        "navigation": {
+          "store_logo_accessibility_label": "Navigera till Online Store"
+        }
+      },
+      "required_extensions": {
+        "errors": {
+          "interaction_required": "En tilläggsinteraktion krävs för att slutföra utcheckningen."
+        }
+      },
+      "taxes": {
+        "tax_details": "Ytterligare skattedetaljer",
+        "vat_number": {
+          "field": {
+            "tooltip": "Validerar momsnummer och tillämpar automatiskt omvänd skattskyldighet på beställningar när det är tillämpligt"
+          },
+          "add": "Lägg till ett momsnummer",
+          "vaulted": "Momsnummer: %{number}",
+          "badge": "Momsnummer: %{number}",
+          "domestic_order": "Omvänd skattskyldighet gäller endast för gränsöverskridande EU-beställningar. Standardmoms debiteras för lokala beställningar.",
+          "status": {
+            "invalid_format": {
+              "at": "Österrikiska momsnummer innehåller AT och 9 tecken",
+              "be": "Belgiska momsnummer innehåller BE och 10 tecken",
+              "bg": "Bulgariens momsnummer innehåller BG och 9-10 tecken",
+              "hr": "Kroatien momsnummer innehåller HR och 11 tecken",
+              "cy": "Cyperns momsnummer innehåller CY och 9 tecken",
+              "cz": "Tjeckiska momsnummer innehåller CZ och 8-10 tecken",
+              "dk": "Danska momsnummer innehåller DK och 8 tecken",
+              "ee": "Estniska momsnummer innehåller EE och 9 tecken",
+              "fi": "Finländska momsnummer innehåller FI och 8 tecken",
+              "fr": "Franska momsnummer innehåller FR och 11 tecken",
+              "de": "Tyska momsnummer innehåller DE och 9 tecken",
+              "gr": "Greklands momsnummer innehåller EL och 9 tecken",
+              "hu": "Ungerska momsnummer innehåller HU och 8 tecken",
+              "ie": "Irländska momsnummer innehåller IE och 8-9 tecken",
+              "it": "Italienska momsnummer innehåller IT och 11 tecken",
+              "lv": "Lettlands momsnummer innehåller LV och 11 tecken",
+              "lt": "Litauiska momsnummer innehåller LT och 9-12 tecken",
+              "lu": "Luxemburgs momsnummer innehåller LU och 8 tecken",
+              "mt": "Maltesiska momsnummer innehåller MT och 8 tecken",
+              "nl": "Nederländernas momsnummer innehåller NL och 12 tecken",
+              "pl": "Polska momsnummer innehåller PL och 10 tecken",
+              "pt": "Portugisiska momsnummer innehåller PT och 9 tecken",
+              "ro": "Rumänska momsnummer innehåller RO och 10 tecken",
+              "sk": "Slovakiska momsnummer innehåller SK och 10 tecken",
+              "si": "Sloveniens momsnummer innehåller SI och 8 tecken",
+              "es": "Spanska momsnummer innehåller ES och 9 tecken",
+              "se": "Svenska momsnummer innehåller SE och 12 tecken",
+              "gb": "Momsnummer i Storbritannien innehåller GB eller XI och 5-12 tecken"
+            },
+            "invalid_number": {
+              "at": "Ange ett giltigt österrikiskt momsnummer",
+              "be": "Ange ett giltigt belgiskt momsnummer",
+              "bg": "Ange ett giltigt bulgariskt momsnummer",
+              "hr": "Ange ett giltigt kroatiskt momsnummer",
+              "cy": "Ange ett giltigt cypriotiskt momsnummer",
+              "cz": "Ange ett giltigt tjeckiskt momsnummer",
+              "dk": "Ange ett giltigt danskt momsnummer",
+              "ee": "Ange ett giltigt estniskt momsnummer",
+              "fi": "Ange ett giltigt finskt momsnummer",
+              "fr": "Ange ett giltigt franskt momsnummer",
+              "gr": "Ange ett giltigt grekiskt momsnummer",
+              "hu": "Ange ett giltigt ungerskt momsnummer",
+              "ie": "Ange ett giltigt irländskt momsnummer",
+              "it": "Ange ett giltigt italienskt momsnummer",
+              "lv": "Ange ett giltigt lettiskt momsnummer",
+              "lt": "Ange ett giltigt litauiskt momsnummer",
+              "lu": "Ange ett giltigt luxemburgskt momsnummer",
+              "mt": "Ange ett giltigt maltesiskt momsnummer",
+              "nl": "Ange ett giltigt nederländskt momsnummer",
+              "pl": "Ange ett giltigt polskt momsnummer",
+              "pt": "Ange ett giltigt portugisiskt momsnummer",
+              "ro": "Ange ett giltigt rumänskt momsnummer",
+              "sk": "Ange ett giltigt slovakiskt momsnummer",
+              "si": "Ange ett giltigt slovenskt momsnummer",
+              "es": "Ange ett giltigt spanskt momsnummer",
+              "gb": "Ange ett giltigt momsregistreringsnummer för Storbritannien"
+            },
+            "service_unavailable": "Valideringstjänst otillgänglig",
+            "service_error": "Valideringstjänst otillgänglig"
           }
         }
       }
+    },
+    "links": {
+      "powered_by_shopify": "Drivs av Shopify",
+      "learn_more": "Lär dig mer"
+    },
+    "attributes": {
+      "password_confirmation": "Lösenordsbekräftelsen"
     }
   }
 }
