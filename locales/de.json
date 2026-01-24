@@ -524,14 +524,14 @@
       "checkbox": "Ich möchte dies als Geschenk senden",
       "email_label": "Empfänger-E-Mail",
       "email": "E-Mail",
-      "name_label": "Name des Empfängers (optional)",
+      "name_label": "Empfängername (optional)",
       "name": "Name",
       "message_label": "Nachricht (optional)",
       "message": "Nachricht",
-      "max_characters": "Maximal {{ max_chars }} Zeichen",
-      "email_label_optional_for_no_js_behavior": "E-Mail-Adresse des Empfängers (optional)",
+      "max_characters": "{{ max_chars }} Zeichen maximal",
+      "email_label_optional_for_no_js_behavior": "Empfänger-E-Mail (optional)",
       "send_on": "JJJJ-MM-TT",
-      "send_on_label": "Senden am (optional)",
+      "send_on_label": "Senden an (optional)",
       "expanded": "Geschenkkarten-Empfängerformular erweitert",
       "collapsed": "Geschenkkarten-Empfängerformular eingeklappt"
     }
