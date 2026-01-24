@@ -2076,7 +2076,77 @@
         "order_updates_submit_subscription": "Einreichen",
         "other_options": "Andere Optionen",
         "delivery_information_label": "Lieferinformationen:",
-        "gift_card_sent_confirmation": "Geschenkkarten versendet"
+        "gift_card_sent_confirmation": "Geschenkkarten versendet",
+        "qr_code": {
+          "send_link_to_phone": "Oder senden Sie einen Link an Ihr Telefon",
+          "title": "Verfolge auf deinem Telefon"
+        },
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Scannen Sie mit Ihrem Telefon"
+          },
+          "sms": {
+            "title": "Oder senden Sie einen Link an Ihr Telefon"
+          }
+        },
+        "view_business_customer_account": "Konto anzeigen",
+        "breadcrumbs_submitted": "Eingereicht",
+        "breadcrumbs_in_review": "In Überprüfung",
+        "missing_shipping_address_banner": {
+          "title": "Die Bestellung hat keine Versandadresse",
+          "text_html": "%{contact_us}, um Ihre Adresse hinzuzufügen",
+          "contact_us": "Kontaktieren Sie uns"
+        },
+        "in_store_purchase": "Kauf im Geschäft",
+        "thank_you_ready_for_picked_up": "Ihre Bestellung wurde bei %{address} abgeholt.",
+        "ready_for_delivery": "Versandbereit",
+        "order_updates_subscribe_to_email_notifications_failed": "Wir können diese E-Mail nicht für Aktualisierungen speichern. Versuchen Sie es erneut oder verwenden Sie eine andere E-Mail.",
+        "order_updates_subscribe_to_email_notifications_email_already_exists": "Die eingegebene E-Mail-Adresse existiert bereits.",
+        "subscriptions_management": {
+          "description": "Fahren Sie mit Ihrem Konto fort, um Ihre Abonnements einzusehen und zu verwalten.",
+          "button_label": "Verwalten Sie Ihr Abonnement"
+        },
+        "manage_order_label": "Verwalten Sie Ihre Bestellung",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "Sie erhalten in wenigen Minuten eine SMS mit Ihrer Geschenkkarte.",
+          "other": "Sie erhalten in wenigen Minuten eine SMS mit Ihren Geschenkkarten."
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "one": "Sie erhalten in wenigen Minuten eine E-Mail mit Ihrer Geschenkkarte.",
+          "other": "Sie erhalten in wenigen Minuten eine E-Mail mit Ihren Geschenkkarten."
+        },
+        "gift_card_email_title": {
+          "one": "Geschenkkarte wurde per E-Mail gesendet",
+          "other": "Geschenkkarten wurden per E-Mail versendet"
+        },
+        "gift_card_text_title": {
+          "one": "Geschenkkarte wurde per SMS gesendet",
+          "other": "Geschenkkarten wurden per SMS versendet"
+        },
+        "gift_card_resent_confirmation": {
+          "one": "Geschenkkarte wurde erneut gesendet.",
+          "other": "Geschenkkarten wurden erneut gesendet."
+        },
+        "gift_card_resend_failure": {
+          "one": "Beim erneuten Senden Ihrer Geschenkkarte ist ein Problem aufgetreten. Versuchen Sie es erneut oder kontaktieren Sie uns.",
+          "other": "Beim erneuten Senden Ihrer Geschenkkarten ist ein Problem aufgetreten. Versuchen Sie es erneut oder kontaktieren Sie uns."
+        },
+        "vat_invoices": {
+          "title": "Mehrwertsteuerrechnungen"
+        },
+        "verify_shop_account_title": "Überprüfen Sie Ihr Shop-Konto",
+        "verify_shop_account_message": "Ihre Informationen wurden bei Shop gespeichert, verifizieren Sie Ihr Konto, um es automatisch in Millionen von Geschäften zu verwenden.",
+        "verify_shop_account_cta": "Verifizieren Sie Ihr Konto",
+        "verify_shop_account_confirmation": "Zur Kasse-Daten gespeichert",
+        "announcement": {
+          "collapse": "Zusammenklappen"
+        }
+      },
+      "review": {
+        "title": "Bewertung",
+        "review_title": "Schließen Sie Ihre Bestellung ab",
+        "checkout_as_guest": "Zur Kasse als Gast",
+        "account_more_actions": "Weitere Aktionen für dieses Konto"
       }
     }
   }
