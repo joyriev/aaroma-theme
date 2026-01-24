@@ -3141,7 +3141,79 @@
       "creation_success_notification": "Adresse tilføjet",
       "default_address_creation_success_notification": "Standardadresse tilføjet",
       "default_address_update_success_notification": "Standardadresse opdateret",
-      "loading_edit_form_accessibility_message": "Indlæser redigeringsformular for adresse"
+      "loading_edit_form_accessibility_message": "Indlæser redigeringsformular for adresse",
+      "loading_finished_accessibility_message": "Adresseformular er indlæst",
+      "save_accessibility_label": "Gem adresse {{address}}",
+      "update_success_notification": "Adresse opdateret"
+    },
+    "account_menu": {
+      "signed_out_state": {
+        "sheet_title": "Log ind eller opret konto",
+        "email_field_label": "E-mail"
+      },
+      "signed_in_state": {
+        "greeting_with_name": "Hej, {{first_name}}"
+      },
+      "location_picker": {
+        "search_field_placeholder": "Søgning"
+      },
+      "aria_labels": {
+        "close_menu": "Luk menu",
+        "back_to_main_menu": "Tilbage til hovedmenuen fra {{title}}",
+        "open_submenu": "{{title}}, åbner undermenu",
+        "loading_menu": "Indlæser menu",
+        "account": "Konto",
+        "sign_in_with_email": "Log ind med e-mail",
+        "sign_in": "Log ind"
+      }
+    },
+    "B2B": {
+      "locations": {
+        "contact_email": "E-mail",
+        "contact_list_title": "Folk",
+        "location_picker_label": "Stednavn",
+        "location_picker_accessibility_label": "Stednavn: {{locationName}}",
+        "net_payment_terms_description": "{{name}}: betalinger forfalder inden for {{numberOfDays}} dage",
+        "deposit_percentage": "{{percentage}} depositum",
+        "pagination": {
+          "load_more": "Indlæs mere"
+        },
+        "payment_terms": "Betalingsbetingelser",
+        "section_title": "Placering",
+        "shipping_address_required": "Tilføj en leveringsadresse til denne placering for at begynde at afgive ordrer.",
+        "staff_and_permissions_title": "Personale og tilladelser",
+        "tax_id": "Skatte-ID",
+        "tax_exemption_not_applicable": "Ikke relevant"
+      },
+      "location_selection": {
+        "continue_to_store": "Fortsæt til butikken",
+        "description": "Hvis du allerede har varer i din kurv, kan ændring af placering påvirke priser og mængder i kurven.",
+        "list_accessibility_label": "Liste over lokationer",
+        "list_loading_accessibility_message": "Indlæser liste over steder",
+        "list_loading_finished_accessibility_message": "Listen over steder er indlæst",
+        "loading_store_accessibility_message": "På vej til butikken",
+        "no_location_title": "Personlige ordrer kun",
+        "no_locations_found": "Ingen lokationer fundet",
+        "search": "Søg steder",
+        "search_location_title": "Vælg en placering",
+        "selection_confirmation_button": "Vælg placering",
+        "title": "Hvilken placering køber du til?",
+        "title_choose_location": "Vælg en placering"
+      },
+      "orders": {
+        "draft_order_list": {
+          "show_all_accessibility_label": "Vis alle ordrer til gennemgang",
+          "show_all_orders_in_review": "Vis alle ordrer til gennemgang",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "Du har ingen ventende ordrer",
+            "pending_orders": {
+              "one": "Du har {{count}} ventende ordre",
+              "other": "Du har {{count}} ventende ordrer"
+            },
+            "more_than_pagination_length": "Du har mere end {{count}} ventende ordrer"
+          }
+        }
+      }
     }
   }
 }
