@@ -2952,6 +2952,80 @@
   "customer_accounts": {
     "callback": {
       "try_again": "Versuchen Sie es erneut"
+    },
+    "enable_javascript": "Um Ihr Konto anzuzeigen, aktivieren Sie JavaScript in den Browsereinstellungen oder melden Sie sich mit einem anderen Browser an.",
+    "navigation_and_structure": {
+      "account_menu": {
+        "nav_accessibility_label": "Kontoverwaltung",
+        "open_menu_accessibility_label": "Konto öffnen Navigation",
+        "close_menu_accessibility_label": "Konto-Navigation schließen",
+        "loading_message": "Lade Kontonavigation"
+      },
+      "close_menu_accessibility_label": "Hauptnavigation schließen",
+      "contact_email_subject": "Kontakt vom Online-Shop {{shopName}}",
+      "delete_confirmation": {
+        "cancel": "Abbrechen"
+      },
+      "dismiss_toast": "Schließen",
+      "document_title": "{{sectionName}} - {{shopName}} - Konto",
+      "go_to_store_link": "Zum Geschäft gehen",
+      "loading_message": "Lädt",
+      "logout_overlay_label": "Abmelden...",
+      "nav_label_accessibility_label": "Hauptnavigation",
+      "navigation_accessibility_message": "Sie haben zu {{sectionName}} navigiert",
+      "open_menu_accessibility_label": "Hauptnavigation öffnen",
+      "shop_logo_accessibility_label": "{{shopName}} Logo",
+      "country_switcher_toast_message": "Land gewechselt zu {{countryName}}",
+      "location_switcher_toast_message": "Standort auf {{locationName}} gewechselt",
+      "try_new_search": "Versuchen Sie eine neue Suche",
+      "company_location": "Firmenstandort",
+      "skip_to_content": "Zum Inhalt springen"
+    },
+    "announcement_bar": {
+      "expand_label": "Ankündigungsleiste erweitern"
+    },
+    "account_information": {
+      "loading_accessibility_message": "Lade Kontoinformationen",
+      "profile_card": {
+        "cancel": "Abbrechen",
+        "email_help_text": "E-Mail kann nicht bearbeitet werden",
+        "editable_email_help_text": "Diese E-Mail wird für die Anmeldung und Bestellaktualisierungen verwendet.",
+        "email": "E-Mail",
+        "phone_number_help_text": "Telefonnummer kann nicht bearbeitet werden",
+        "errors": {
+          "invalid_email_format": "Geben Sie eine gültige E-Mail-Adresse ein"
+        }
+      },
+      "verify_new_email_modal": {
+        "title": "E-Mail bestätigen",
+        "description": "Geben Sie den an {{email}} gesendeten Code ein",
+        "email_resend_button_accessibility_label": "Verifizierungscode erneut senden",
+        "verify_button": "Überprüfen",
+        "cancel_button_accessibility_label": "Bearbeitung der E-Mail abbrechen",
+        "email_resend_button_success_toast_message": "Verifizierungscode gesendet",
+        "email_resend_button_error_banner_message": "Verifizierungscode konnte nicht gesendet werden"
+      },
+      "email_update_success_modal": {
+        "title": "E-Mail bestätigen",
+        "description": "E-Mail erfolgreich aktualisiert. Weiterleitung zum Login."
+      },
+      "profile_update_confirmation_message": "Profil aktualisiert",
+      "people": {
+        "pagination": {
+          "load_more": "Mehr laden",
+          "load_more_accessibility_label": "Mehr Personen laden",
+          "loading_accessibility_label": "Lade Personen"
+        }
+      }
+    },
+    "orders": {
+      "switch_order_type_pending_orders_accessibility_label": "Bestellart wechseln, derzeit ausstehende Bestellungen anzeigen",
+      "switch_order_type_confirmed_orders_accessibility_label": "Bestellart wechseln, derzeit bestätigte Bestellungen anzeigen",
+      "order_list": {
+        "delivered": "Geliefert {{date}}",
+        "empty_state_order_source_description": "Nur Bestellungen, die von {{email}} aufgegeben wurden, werden hier angezeigt.",
+        "empty_state_subtitle": "Gehe zum Geschäft, um eine Bestellung aufzugeben."
+      }
     }
   }
 }
