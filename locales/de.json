@@ -2439,7 +2439,82 @@
         },
         "could_not_resolve_address": "Ihre Adresse konnte nicht gefunden werden. Versuchen Sie es erneut oder verwenden Sie eine andere Adresse.",
         "paginator": {
-          "accessibility_label": "Lokale Abholung Paginierung"
+          "accessibility_label": "Lokale Abholung Paginierung",
+          "label": {
+            "one": "%{first} - %{last} von %{count} Geschäft",
+            "other": "%{first} - %{last} von %{count} Geschäften"
+          }
+        },
+        "reveal_more_label": {
+          "one": "Zeige %{count} weitere Standorte",
+          "other": "Zeige %{count} weitere Standorte"
+        }
+      },
+      "captcha": {
+        "title": "Vervollständigen Sie das CAPTCHA, um fortzufahren",
+        "errors": {
+          "not_solved": "Vervollständigen Sie das CAPTCHA, um fortzufahren"
+        }
+      },
+      "clipboard": {
+        "failed_to_copy": "Kopieren fehlgeschlagen"
+      },
+      "discount_errors": {
+        "generic_error": "Ihre Bestellung konnte nicht bearbeitet werden, da Ihr Rabattcode nicht mehr verfügbar ist. Überprüfen Sie Ihren Gesamtbestellwert und versuchen Sie es erneut."
+      },
+      "b2b_errors": {
+        "lost_b2b_purchasing_permissions": "Sie haben keine Berechtigung mehr, B2B-Bestellungen aufzugeben. %{logout_url}, um stattdessen eine persönliche Bestellung aufzugeben.",
+        "lost_permissions_subtitle": "Sie haben keine Berechtigung mehr, B2B-Bestellungen aufzugeben. Melden Sie sich ab, um eine persönliche Bestellung aufzugeben."
+      },
+      "shop_pay_external": {
+        "title": "Shop Pay Zur Kasse",
+        "errors": {
+          "try_again_later": "Überprüfen Sie Ihre Verbindung oder schließen Sie dieses Fenster und versuchen Sie es in wenigen Momenten erneut.",
+          "checkout_has_expired": "Ihr Checkout ist abgelaufen. Schließen Sie dieses Fenster und versuchen Sie erneut, bei {{shopName}} auszuchecken."
+        },
+        "return_to_store_simple": "Zurück zum Geschäft"
+      },
+      "wallets": {
+        "return_to_store": "Zurück zum Geschäft",
+        "return_to_checkout": "Zurück zur Kasse",
+        "redirect_hint": "Sie werden aufgefordert, sich mit {{walletName}} anzumelden.",
+        "logged_in": "Verbunden mit {{email}}",
+        "payment_in_progress_title": "Zahlung wird durchgeführt",
+        "payment_in_progress_body": "Ihre Zahlung wird bearbeitet. Ihre Bestellung wird in Kürze abgeschlossen.",
+        "call_to_action": "Bezahlen mit {{walletName}}",
+        "redirection_notice": "Sie werden zu {{walletName}} weitergeleitet, um Ihren Kauf abzuschließen",
+        "errors": {
+          "unavailable": {
+            "description": "{{walletName}} war nicht verfügbar. Verwenden Sie eine andere Zahlungsmethode oder versuchen Sie es später erneut.",
+            "instructions": "Es gab ein Problem mit {{walletName}}. Kehren Sie zum Geschäft zurück, um es erneut zu versuchen, oder gehen Sie auf eine andere Weise zur Kasse.",
+            "unavailable_for_country": "{{walletName}} ist in {{countryName}} nicht verfügbar. Wählen Sie eine andere Zahlungsmethode, um Ihren Kauf abzuschließen."
+          },
+          "unavailable_terminal": {
+            "instructions": "{{walletName}} ist für Ihre Bestellung derzeit nicht verfügbar. Um Ihren Kauf fortzusetzen, wählen Sie eine andere Zahlungsmethode."
+          },
+          "generic": "Es gab ein Problem mit {{walletName}}. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
+          "discount_code": "Dieser Rabattcode kann nicht angewendet werden. Überprüfen Sie Ihren Code und versuchen Sie es erneut.",
+          "terminal": "Es gab ein Problem mit {{walletName}}. Verwenden Sie eine andere Zahlungsmethode.",
+          "detour": {
+            "stock_problems": "Einige Artikel sind nicht mehr verfügbar. Schließen Sie {{walletName}} und versuchen Sie es erneut.",
+            "price_change": "Einige Artikelpreise haben sich geändert. Schließen Sie {{walletName}}, um Ihre Bestellung zu überprüfen und es erneut zu versuchen.",
+            "queue": "Sie wurden in eine Warteschlange zum Bezahlen eingereiht. Schließen Sie {{walletName}}, um fortzufahren.",
+            "currency_change": "Sie können mit {{walletName}} keine andere Adresse verwenden. Verwenden Sie die ursprüngliche Adresse oder versuchen Sie eine andere Zahlungsmethode."
+          },
+          "unsupported": {
+            "address": "Der Händler kann an diese Adresse nicht liefern",
+            "wallet_is_unavailable": "{{walletName}} kann mit dieser Adresse nicht verwendet werden. Wählen Sie eine andere Adresse oder schließen Sie {{walletName}}, um Ihren Kauf abzuschließen."
+          },
+          "outdated": {
+            "shipping_method": "Die Versandoptionen für Ihre Bestellung haben sich geändert. Überprüfen Sie Ihre Auswahl.",
+            "payment_terms": "Die Zahlungsbedingungen haben sich geändert. Überprüfen Sie Ihre Bestellung"
+          },
+          "invalid": {
+            "shipping_address": "Geben Sie eine gültige Versandadresse ein",
+            "billing_address": "Geben Sie eine gültige Rechnungsadresse ein",
+            "shipping_option": "Wählen Sie eine gültige Versandoption",
+            "email": "Geben Sie eine gültige E-Mail-Adresse ein"
+          }
         }
       }
     }
