@@ -1436,7 +1436,85 @@
           "fields": {
             "default": "Indstil som standard"
           }
-        }
+        },
+        "expired_cards_info": {
+          "one": "Der er %{count} udløbet kort, som du kan se og redigere i din konto.",
+          "other": "Der er %{count} udløbne kort, som du kan se og redigere i din konto."
+        },
+        "local_payment_method_receiver_notice": "Efter at have afgivet din ordre, vil du modtage betalingsoplysninger. Foretag betalingen i en hæveautomat eller online inden for {{dueDays}} dage.",
+        "order_edit_banner_title": "Betaling af {{amount_owed}} er nødvendig",
+        "order_edit_banner_subtitle": "Din ordre {{order_number}} blev opdateret. Gennemgå disse ændringer, og betal derefter for at bekræfte din ordre.",
+        "order_edit_banner_items_added": {
+          "other": "Tilføjet %{count}"
+        },
+        "order_edit_banner_items_removed": {
+          "with_quantities": "Fjernet {{delta}} af {{quantity}}"
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "Returneret {{quantity}}",
+          "with_quantities": "Returneret {{delta}} af {{quantity}}"
+        },
+        "order_edit_banner_items_return_line_item_removed": {
+          "in_full": "Fjernet fra retur",
+          "with_quantities": "Fjernet {{delta}} fra retur"
+        },
+        "order_edit_banner_multiple_items_added": "Tilføjet {{amount}}",
+        "order_edit_banner_multiple_items_removed": "Fjernet {{amount}}",
+        "order_edit_banner_multiple_items_returned": "Returneret {{amount}}",
+        "order_edit_banner_single_item_return_line_item_removed": "Fjernet fra retur",
+        "order_edit_banner_multiple_items_return_line_item_removed": "Fjernet {{amount}} fra returnering",
+        "gift_card_store_credit": {
+          "add_label": "Tilføj et gavekort eller butikskredit",
+          "manage_label": "Administrer gavekort eller butikskredit"
+        },
+        "custom_onsite_payment_method_modal": {
+          "title": "Brugerdefineret bekræftelse af betaling på stedet"
+        },
+        "markets_pro_disclaimer_label": "Ved at afgive din ordre accepterer du at købe fra Global-e som den registrerede forhandler, underlagt Global-e’s %{markets_pro_terms} og %{privacy_policy}, og dele dine oplysninger med %{shop_name}.",
+        "markets_pro_disclaimer_privacy_policy": "Privatlivspolitik",
+        "markets_pro_disclaimer_terms_and_conditions_title": "Handelsbetingelser for registreret forhandler",
+        "markets_pro_disclaimer_privacy_policy_title": "Fortrolighedspolitik for Merchant of Record",
+        "purchase_order_number": {
+          "title": "PO nummer",
+          "label": "PO nummer (valgfrit)"
+        },
+        "alternative_payment_currency_total_notice": "Bemærk: du vil blive opkrævet %{amount_due}.",
+        "alternative_payment_currency_total_manual_payment_notice": "Bemærk: den omregnede total er %{amount_due}.",
+        "waiting_on_taxes_message": "Hvis dine skatter ikke beregnes inden for de næste par sekunder, opdater siden.",
+        "waiting_on_taxes_notice": "Beregning af skatter",
+        "payment_method_rollup_accessibility_label": "Betalingsmetode muligheder",
+        "payment_method_update_failed": "Opdatering af betalingsmetode mislykkedes.",
+        "payment_method_incompatible_with_payment_terms": "Betalingsmetoden er ikke kompatibel med betalingsbetingelserne.",
+        "proposed_gateway_unavailable": "Den foreslåede betalingsgateway er utilgængelig",
+        "gift_cards_unavailable": "Dit gavekort kan ikke længere anvendes til denne ordre og er blevet fjernet",
+        "payment_flexibility_terms_id_mismatch": "Betalingsfleksibilitetsbetingelser ID-mismatch",
+        "new_bank_account_disclaimer": "Ved at fuldføre din ordre giver du %{shop_name} tilladelse til at trække beløbet fra nedenstående konto via ACH på det angivne tidspunkt.",
+        "bank_account_disclaimer": "ACH-betalinger kan tage op til 4 hverdage at behandle.",
+        "bank_account_choose": "Vælg en konto for sikkert at fuldføre dit køb",
+        "bank_account_connect_another": "Tilslut en anden bankkonto",
+        "bank_account_connect": "Forbind bankkonto",
+        "bank_account_missing": "Bankkonto skal være tilsluttet",
+        "bank_account_generic_error": "Kunne ikke tilføje bankkonto. Prøv igen senere.",
+        "separate_payments_label": "Dine varer kommer fra mere end én butik. Du vil blive opkrævet i %{separate_payments_link}."
+      },
+      "billing": {
+        "billing_address_rollup_accessibility_label": "Fakturer til muligheder",
+        "same_as_shipping": "Samme som leveringsadresse"
+      },
+      "company_location": {
+        "location_title": "Virksomhedens placering",
+        "location_rollup_accessibility_label": "Virksomhedens lokalitetsmuligheder"
+      },
+      "payment_summary": {
+        "manual_payment_gateway_label": "Brugervejledning"
+      },
+      "field_errors": {
+        "handle_email_invalid": "Indtast en gyldig e-mailadresse",
+        "email_invalid": "Indtast en gyldig e-mailadresse",
+        "email_or_phone_blank": "Indtast en e-mail eller telefonnummer",
+        "email_or_phone_invalid": "Indtast en gyldig e-mail eller et mobiltelefonnummer",
+        "address_first_name_blank": "Indtast et fornavn",
+        "address_first_name_too_long": "Fornavn er for langt (maksimum er 255 tegn)"
       }
     }
   }
