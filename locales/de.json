@@ -3283,8 +3283,93 @@
         "shop_pay_installments": {
           "paid_in_installments": "Bezahlt mit Shop Pay Ratenzahlungen",
           "view_schedule": "Zeitplan anzeigen"
+        },
+        "manual_payment_methods": {
+          "money_order": "Postanweisung - {{formattedTransactionAmount}}",
+          "cash_on_delivery": "Nachnahme (COD) - {{formattedTransactionAmount}}",
+          "bank_deposit": "Bankeinzahlung - {{formattedTransactionAmount}}",
+          "manual": "Manuell - {{formattedTransactionAmount}}"
+        },
+        "transactions": {
+          "details": "Einzelheiten"
+        },
+        "emv_details": {
+          "auth": "AUTHENTIFIZIEREN:",
+          "aid": "HILFE:",
+          "source": "t:"
         }
-      }
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Bezahlt mit Shop Pay Ratenzahlung",
+        "description": "Behalten Sie Ihren Zahlungsplan mit Erinnerungen in der Shop-App im Blick.",
+        "desktop_qr_code_content": {
+          "title": "Für Erinnerungen scannen",
+          "description": "Erhalten Sie Erinnerungen an Ihre Ratenzahlungen mit Shop."
+        }
+      },
+      "refunded_amount": "Erstattet",
+      "request_return_failed": "Bei der Verarbeitung Ihrer Anfrage ist ein Problem aufgetreten. Bitte versuchen Sie es erneut.",
+      "login_card": {
+        "resend_link_and_login": "Um Ihre Bestelldetails anzusehen, melden Sie sich an oder senden Sie einen neuen Link an die beim Checkout verwendete E-Mail-Adresse oder Telefonnummer.",
+        "resend_link_only": "Um Ihre Bestelldetails anzusehen, senden Sie einen neuen Link an die beim Checkout verwendete E-Mail-Adresse oder Telefonnummer."
+      },
+      "marketing_section_title": "News und Angebote",
+      "marketing_description": "Sie erhalten Marketing-E-Mails. Sie können sich jederzeit abmelden.",
+      "marketing_checkbox_label": "Senden Sie mir E-Mails mit Neuigkeiten und Angeboten",
+      "marketing_checkmark_label": "Sie sind für den Erhalt von E-Mail-News und Angeboten angemeldet",
+      "returns": {
+        "ineligible_return_message": "Keine Artikel in dieser Bestellung sind für eine Rückgabe berechtigt.",
+        "ineligible_return_message_when_returned": "Keine weiteren Artikel in dieser Bestellung sind für eine Rückgabe berechtigt.",
+        "return_and_refund_modal_header": "Rückerstattungsrichtlinie",
+        "tracking_number": "Sendungsnummer:",
+        "exchange_header": "Artikel tauschen",
+        "exchange_subheader": "Umtauschartikel werden der Bestellung hinzugefügt, sobald die Rücksendung abgeschlossen ist."
+      },
+      "shipping": {
+        "subscription": "Abonnementversand"
+      },
+      "pickup": {
+        "pickup": "Abholung",
+        "pickup_point": "Abholpunkt"
+      },
+      "subtitle": "Bestätigt {{date}}",
+      "summary_totals_title_accessibility_label": "Bestellsummen",
+      "shop_order_tracking": {
+        "title_header": "Scannen Sie mit Ihrem Telefon",
+        "real_time_delivery_updates": "Der Shop sendet Ihnen Echtzeit-Lieferupdates, sobald Ihre Bestellung versandt wurde."
+      },
+      "edit_summary": {
+        "added_with_quantity": "Hinzugefügt {{quantity}}",
+        "removed_with_quantity": "Entfernt {{quantity}}",
+        "updated_at": "Ihre Bestellung wurde am {{date}} aktualisiert",
+        "returned_with_quantities": "Zurückgegeben {{delta}} von {{total}}",
+        "removed_with_quantities": "Entfernt {{delta}} von {{total}}",
+        "return_line_item_removed": "Vom Umtausch ausgeschlossen"
+      },
+      "taxes_included": "Inklusive {{amount}} Steuern",
+      "duties_and_taxes_included": "Gesamtbetrag beinhaltet Zölle und Steuern. Keine zusätzlichen Gebühren bei Lieferung.",
+      "duties": "Zölle",
+      "ok_duties_tooltip": "Diese Bestellung wird aus einem anderen Land versandt, daher wurden Zölle zu Ihrer Bestellsumme hinzugefügt.",
+      "error_duties_tooltip": "Diese Bestellung wird aus einem anderen Land versandt, daher können bei der Lieferung Zölle und Steuern anfallen.",
+      "zero_duties_tooltip": "Diese Bestellung wird aus einem anderen Land versandt. Bei Bestellungen dieses Werts werden keine Zollgebühren erhoben.",
+      "unit_price": "{{price}}/Stück",
+      "pagination": {
+        "load_more": "Mehr laden",
+        "load_more_accessibility_label": "Mehr Artikel laden"
+      },
+      "login_to_view_all_order_details": "Melden Sie sich an, um alle Bestelldetails anzuzeigen.",
+      "logged_in_account_no_permission_to_order": "Sie sind angemeldet als {{email}}. Dieses Konto hat keine Berechtigung, diese Bestellung zu verwalten.",
+      "log_in_to_a_different_account": "Melden Sie sich bei einem anderen Konto an",
+      "fees": {
+        "restocking_fee": "Wiederauffüllungsgebühr",
+        "return_shipping_fee": "Rückversand"
+      },
+      "vat_invoices": {
+        "title": "Mehrwertsteuerrechnungen"
+      },
+      "cash_rounding": "Bargeldrundung",
+      "adjusted_total": "Angepasste Summe",
+      "due_on_fulfillment": "Fällig bei Erfüllung"
     }
   }
 }
