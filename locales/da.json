@@ -2349,10 +2349,141 @@
           },
           "invalid": {
             "shipping_option": "Vælg en gyldig forsendelsesmulighed",
-            "email": "Indtast en gyldig e-mailadresse"
+            "email": "Indtast en gyldig e-mailadresse",
+            "zone": "Indtast en gyldig stat / provins",
+            "billing_zone": "Indtast en gyldig faktureringsadresse stat / provins",
+            "emirate": "Indtast en gyldig emirat",
+            "postal_code": "Indtast et gyldigt postnummer",
+            "billing_phone": "Indtast et gyldigt telefonnummer til faktureringsadressen",
+            "reduction_code": "Indtast en gyldig rabatkode eller gavekort",
+            "billing_zip": "Indtast en gyldig faktureringsadresse postnummer / postnummer"
+          },
+          "missing": {
+            "first_name": "Indtast et fornavn",
+            "billing_first_name": "Indtast et faktureringsadresses fornavn",
+            "last_name": "Indtast et efternavn",
+            "address1": "Indtast en adresse",
+            "billing_address1": "Indtast en faktureringsadresse",
+            "address2": "Indtast en lejlighed, suite osv.",
+            "billing_address2": "Indtast en faktureringsadresse lejlighed, suite osv.",
+            "city": "Indtast en by",
+            "billing_city": "Indtast en faktureringsadresse by",
+            "province": "Vælg en stat / provins",
+            "billing_province": "Vælg en faktureringsadresse stat / provins",
+            "country": "Vælg et land/område",
+            "zip": "Indtast et postnummer",
+            "billing_zip": "Indtast en faktureringsadresse postnummer / postkode",
+            "phone": "Indtast et telefonnummer",
+            "contact_info": "Indtast kontaktoplysninger"
+          },
+          "formatting": {
+            "first_name_too_long": "Fornavn indeholder for mange bogstaver",
+            "last_name_too_long": "Efternavn indeholder for mange bogstaver",
+            "address_too_long": "Adressefeltet er for langt"
+          },
+          "select_different_shipping_address_to_resolve_errors": "Din leveringsadresse er ugyldig. Vælg en anden adresse eller brug en ny."
+        },
+        "scrim": {
+          "continue_purchase_in_window": "Fortsæt dit køb i {{walletName}} vinduet",
+          "and_return_to_checkout": "og vend tilbage til Checkout"
+        }
+      },
+      "note": {
+        "length_exceeds_maximum": "Reducer størrelsen på noten til 5000 eller færre tegn."
+      },
+      "offsite_payment_failed": {
+        "title": "Betaling uden for stedet mislykkedes",
+        "payment_not_processed_text": "Prøv at scanne QR-koden igen. Hvis det stadig ikke virker, så giv vores personale besked og prøv en anden betalingsmetode.",
+        "payment_link_expired_title": "Betalingslink udløbet"
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "Gavekortets pris skal være større end 0.",
+            "gift_card_price_must_not_exceed_limit": "Prisen på gavekortet må ikke overstige %{gift_card_limit}.",
+            "subtotal_limit_reached": "Den maksimale værdi af linjeposter er nået.",
+            "signature_mismatch": "Vareunderskrift stemmer ikke overens for linje %{stable_id}."
+          }
+        }
+      },
+      "remote": {
+        "errors": {
+          "only_remote_merchandise_lines": "Kassen indeholder kun fjernvarer. En omdirigering til den eksterne butik er nødvendig for at fuldføre købet.",
+          "currency_mismatch": "Denne vare kan ikke tilføjes til din kurv, fordi den kommer fra en butik, der bruger en anden valuta.",
+          "currency_mismatch_removal": "En vare blev fjernet fra din kurv, fordi den kommer fra en butik, der bruger en anden valuta.",
+          "max_remote_shops_exceeded": "Dette produkt kan ikke tilføjes, fordi din kurv allerede har det maksimale fra andre butikker."
+        }
+      },
+      "units": {
+        "centiliter": "kl",
+        "meter": "min",
+        "pound": "lb",
+        "inch": "i",
+        "square_foot": "ft²"
+      },
+      "memberships": {
+        "delivery_promise_unfulfillable": "Adressen understøttes ikke for det nuværende medlemskab."
+      },
+      "editor": {
+        "navigation": {
+          "store_logo_accessibility_label": "Gå til Online Butik"
+        }
+      },
+      "tooltip": {
+        "additional_payment_methods": "Yderligere betalingsmetoder"
+      },
+      "required_extensions": {
+        "errors": {
+          "interaction_required": "En udvidelsesinteraktion er påkrævet for at fuldføre betalingen."
+        }
+      },
+      "taxes": {
+        "vat_number": {
+          "domestic_order": "Omvendt betalingspligt gælder kun for grænseoverskridende EU-ordrer. Standard moms opkræves for lokale ordrer.",
+          "status": {
+            "invalid_format": {
+              "at": "Østrigske momsnumre indeholder AT og 9 tegn",
+              "be": "Belgiske momsnumre indeholder BE og 10 tegn",
+              "bg": "Bulgarske momsnumre indeholder BG og 9-10 tegn",
+              "hr": "Kroatien momsnumre indeholder HR og 11 tegn",
+              "cz": "Tjekkiske momsnumre indeholder CZ og 8-10 tegn",
+              "dk": "Danske momsnumre indeholder DK og 8 tegn",
+              "fr": "Franske momsnumre indeholder FR og 11 tegn",
+              "de": "Tyske momsnumre indeholder DE og 9 tegn",
+              "gr": "Græske momsnumre indeholder EL og 9 tegn",
+              "hu": "Ungarske momsnumre indeholder HU og 8 tegn",
+              "it": "Italienske momsnumre indeholder IT og 11 tegn",
+              "lt": "Litauiske momsnumre indeholder LT og 9-12 tegn",
+              "lu": "Luxembourg momsnumre indeholder LU og 8 tegn",
+              "mt": "Maltesiske momsnumre indeholder MT og 8 tegn",
+              "nl": "Hollandske momsnumre indeholder NL og 12 tegn",
+              "pl": "Polske momsnumre indeholder PL og 10 tegn",
+              "pt": "Portugisiske momsnumre indeholder PT og 9 tegn",
+              "ro": "Rumænske momsnumre indeholder RO og 10 tegn",
+              "sk": "Slovakiske momsnumre indeholder SK og 10 tegn",
+              "si": "Slovenske momsnumre indeholder SI og 8 tegn",
+              "es": "Spanske momsnumre indeholder ES og 9 tegn",
+              "se": "Svenske momsnumre indeholder SE og 12 tegn",
+              "gb": "Momsnumre i Storbritannien indeholder GB eller XI og 5-12 tegn"
+            },
+            "invalid_number": {
+              "mt": "Indtast et gyldigt maltesisk momsnummer",
+              "nl": "Indtast et gyldigt momsnummer for Nederlandene",
+              "si": "Indtast et gyldigt slovensk momsnummer",
+              "gb": "Indtast et gyldigt momsnummer for Storbritannien"
+            },
+            "service_unavailable": "Valideringstjeneste utilgængelig",
+            "service_error": "Valideringstjeneste utilgængelig"
           }
         }
       }
+    },
+    "links": {
+      "learn_more": "Lær mere"
+    },
+    "attributes": {
+      "email": "e-mail",
+      "password_confirmation": "Bekræftelse af adgangskode"
     }
   }
 }
