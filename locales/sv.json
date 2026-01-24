@@ -1410,8 +1410,101 @@
         },
         "edit_credit_card_modal": {
           "done": "Klart",
-          "description": "Du kan endast ändra faktureringsadressen för ditt kort."
-        }
+          "description": "Du kan endast ändra faktureringsadressen för ditt kort.",
+          "fields": {
+            "name": "Namn på kortet",
+            "billing": "Faktureras till"
+          }
+        },
+        "expired_cards_info": {
+          "one": "Det finns %{count} utgången kort, som du kan visa och redigera i ditt konto.",
+          "other": "Det finns %{count} utgångna kort, som du kan visa och redigera i ditt konto."
+        },
+        "local_payment_method_receiver_notice": "Efter att du har lagt din beställning kommer du att få betalningsuppgifter. Gör betalningen vid en bankomat eller online inom {{dueDays}} dagar.",
+        "order_edit_banner_title": "Betalning av {{amount_owed}} krävs",
+        "order_edit_banner_subtitle": "Din beställning {{order_number}} har uppdaterats. Granska dessa ändringar och betala sedan för att bekräfta din beställning.",
+        "order_edit_banner_items_added": {
+          "one": "Tillagt",
+          "other": "Tillagd %{count}"
+        },
+        "order_edit_banner_items_removed": {
+          "in_full": "Borttagen",
+          "with_quantities": "Borttaget {{delta}} av {{quantity}}"
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "Returnerade {{quantity}}",
+          "with_quantities": "Returnerat {{delta}} av {{quantity}}"
+        },
+        "order_edit_banner_items_return_line_item_removed": {
+          "with_quantities": "Tog bort {{delta}} från retur"
+        },
+        "order_edit_banner_single_item_added": "Tillagt",
+        "order_edit_banner_multiple_items_added": "Tillagd {{amount}}",
+        "order_edit_banner_single_item_removed": "Borttagen",
+        "order_edit_banner_multiple_items_removed": "Borttaget {{amount}}",
+        "order_edit_banner_single_item_returned": "Returnerat",
+        "order_edit_banner_multiple_items_returned": "Returnerat {{amount}}",
+        "order_edit_banner_multiple_items_return_line_item_removed": "Tog bort {{amount}} från retur",
+        "gift_card_wrapper": {
+          "apply_gift_card_label": "Använd ett presentkort",
+          "apply_another_gift_card_label": "Använd ett annat presentkort"
+        },
+        "gift_card_store_credit": {
+          "add_label": "Lägg till ett presentkort eller butikskredit",
+          "manage_label": "Hantera presentkort eller butikskredit"
+        },
+        "gift_card_checkbox_label": "Använd presentkort",
+        "custom_onsite_payment_method_modal": {
+          "title": "Anpassad bekräftelse av betalning på plats"
+        },
+        "markets_pro_disclaimer_label": "Genom att lägga din beställning godkänner du att köpa från Global-e som den registrerade handlaren, underkastad Global-e:s %{markets_pro_terms} och %{privacy_policy}, och att dela din information med %{shop_name}.",
+        "markets_pro_disclaimer_terms_and_conditions": "Villkor och bestämmelser",
+        "markets_pro_disclaimer_terms_and_conditions_title": "Villkor för Merchant of Record",
+        "markets_pro_disclaimer_privacy_policy_title": "Sekretesspolicy för Merchant of Record",
+        "purchase_order_number": {
+          "title": "PO-nummer",
+          "label": "PO-nummer (valfritt)"
+        },
+        "alternative_payment_currency_total_manual_payment_notice": "Obs: omräknat totalt är %{amount_due}.",
+        "waiting_on_taxes_message": "Om dina skatter inte beräknas inom de närmaste sekunderna, uppdatera sidan.",
+        "waiting_on_taxes_notice": "Beräkna skatter",
+        "payment_method_rollup_accessibility_label": "Betalningsmetoder",
+        "payment_method_update_failed": "Uppdatering av betalningsmetod misslyckades.",
+        "payment_method_incompatible_with_payment_terms": "Betalningsmetoden är inte kompatibel med betalningsvillkoren.",
+        "proposed_gateway_unavailable": "Den föreslagna betalningsgatewayen är otillgänglig",
+        "pay_in_installments_split_pay_short": "4 betalningar om %{amount}",
+        "gift_cards_unavailable": "Ditt presentkort kan inte längre användas för denna beställning och har tagits bort",
+        "payment_flexibility_terms_id_mismatch": "Betalningsflexibilitet villkor ID-matchning saknas",
+        "bank_account_type": {
+          "checking": "Kontrollerar",
+          "savings": "Besparingar"
+        },
+        "new_bank_account_disclaimer": "Genom att slutföra din beställning ger du %{shop_name} tillstånd att debitera kontot nedan via ACH för det angivna beloppet och vid den angivna tiden.",
+        "bank_account_disclaimer": "ACH-betalningar kan ta upp till 4 arbetsdagar att behandla.",
+        "bank_account_choose": "Välj ett konto för att säkert slutföra ditt köp",
+        "bank_account_missing": "Bankkontot måste vara anslutet",
+        "bank_account_generic_error": "Kunde inte lägga till bankkonto. Försök igen senare.",
+        "separate_payments_label": "Dina varor kommer från mer än en butik. Du kommer att debiteras i %{separate_payments_link}.",
+        "choose_new_payment_method": "Välj en ny betalningsmetod"
+      },
+      "billing": {
+        "billing_address_title": "Faktureras till",
+        "billing_address_rollup_accessibility_label": "Faktureringsadress till alternativ",
+        "same_as_shipping": "Samma som leveransadress",
+        "delete": "Ta bort",
+        "address_more": "Fler åtgärder för denna adress",
+        "address_confirm": "Är du säker på att du vill ta bort den här adressen från ditt konto?"
+      },
+      "company_location": {
+        "location_rollup_accessibility_label": "Företagsplatsalternativ"
+      },
+      "payment_summary": {
+        "credit_card_expires_on_notice": "Löper ut %{month}/%{year}",
+        "express_payment_gateway_label": "Uttryck"
+      },
+      "field_errors": {
+        "email_or_phone_invalid": "Ange en giltig e-postadress eller ett mobiltelefonnummer",
+        "address_first_name_too_long": "Förnamnet är för långt (maximalt 255 tecken)"
       }
     }
   }
