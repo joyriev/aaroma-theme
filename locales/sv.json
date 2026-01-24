@@ -3271,8 +3271,128 @@
           },
           "canceled": {
             "title": "Betalning avbruten"
-          }
+          },
+          "pay_now": "Betala nu",
+          "pay_now_accessibility_label": "Betala nu för order {{orderName}}"
+        },
+        "order_timeline": {
+          "expand_events_accessibility_label": "Visa utkast av orderdetaljer",
+          "hide_events_accessibility_label": "Dölj utkastets orderdetaljer"
+        },
+        "subtitle": "Inlämnad {{date}}",
+        "title": "Beställ {{name}}"
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "Denna betalningsmetod kommer inte längre att vara tillgänglig för framtida köp från denna plats.",
+          "description_with_replacement": "Att ta bort denna betalningsmetod kommer att påverka förautorisera betalningar för denna plats. Ersätt den med en alternativ betalningsmetod för att fortsätta ta emot kommande beställningar."
+        },
+        "payment_details": {
+          "order_label": "Beställ {{name}}",
+          "draft_label": "Utkast till beställning {{name}}"
         }
+      },
+      "purchase_order_number": {
+        "add_accessibility_label": "Lägg till PO-nummer",
+        "add_modal_title": "Lägg till PO-nummer",
+        "close_modal_accessibility_label": "Stäng modal för PO-nummer",
+        "discard": "Kassera",
+        "discard_changes_modal_title": "Kasta ändringar?",
+        "edit_accessibility_label": "Redigera PO-nummer",
+        "edit_modal_title": "Redigera PO-nummer",
+        "empty_state": "Inget PO-nummer",
+        "modal_po_number_input_label": "PO-nummer",
+        "modal_po_number_input_max_length_error": "PO-nummer har en maxlängd på {{maxLength}} tecken.",
+        "title": "Beställningsnummer #{{poNumber}}"
+      }
+    },
+    "errors": {
+      "address_deletion_error": {
+        "description": "Det uppstod ett problem när denna adress skulle tas bort. Försök igen eller uppdatera sidan."
+      },
+      "failed_address_creation": {
+        "description": "Det uppstod ett problem när din adress skulle skapas. Försök att uppdatera sidan eller kontrollera din internetanslutning."
+      },
+      "failed_address_update": {
+        "description": "Det uppstod ett problem med att uppdatera din adress. Försök att uppdatera sidan eller kontrollera din internetanslutning."
+      },
+      "load_address_form_error": {
+        "title": "Kan inte ladda adressformuläret",
+        "description": "Kunde inte ladda adressformuläret.",
+        "refresh_button": "Uppdatera sidan"
+      },
+      "load_orders_error": {
+        "title": "Kunde inte ladda beställningar"
+      },
+      "load_paypal_error": {
+        "description": "Det uppstod ett problem vid inläsning av PayPal. Vänligen försök igen."
+      },
+      "logout_everywhere": {
+        "description": "Något gick fel vid utloggningen. Vänligen försök igen."
+      },
+      "not_found": {
+        "description": "Kontrollera URL:en eller försök igen om några minuter.",
+        "title": "Det uppstod ett problem när sidan skulle laddas"
+      },
+      "order_not_found": {
+        "description": "Den här beställningen finns inte eller så har du inte behörighet att se den.",
+        "title": "Order hittades inte"
+      },
+      "profile_update_error": {
+        "description": "Det uppstod ett problem vid uppdatering av din profil. Försök att uppdatera sidan eller kontrollera din internetanslutning."
+      },
+      "profile_name_update_error": {
+        "description": "Det uppstod ett problem med att uppdatera ditt namn. Försök att uppdatera sidan eller kontrollera din internetanslutning."
+      },
+      "resend_link": {
+        "generic": "Misslyckad förfrågan"
+      },
+      "load_extension_error": {
+        "description": "Uppdatera den här sidan eller försök igen om några minuter.",
+        "refresh_button": "Uppdatera sidan"
+      },
+      "already_upgraded": "Kundkonton är redan uppgraderade.",
+      "failed_to_upgrade": "Misslyckades med att uppgradera kundkontots inställningar.",
+      "not_upgraded": "Kundkonton uppgraderas inte.",
+      "failed_to_revert": "Misslyckades med att återställa kundkontots inställningar.",
+      "revert_window_expired": "Återställningsfönstret har gått ut."
+    },
+    "throttle": {
+      "too_many_attempts": {
+        "description": "Var god försök igen om några minuter"
+      }
+    },
+    "payment_methods": {
+      "add_payment_method_dropdown": {
+        "bank_account_consent": "Genom att lägga till en betalningsmetod godkänner du att ditt kort debiteras eller att ditt bankkonto belastas för framtida köp som du godkänner, tills du avbryter."
+      },
+      "bank_account": {
+        "loading_accessibility_message": "Bankkontoknappen laddas",
+        "iframe_title_accessibility_label": "Bankkontoinställning",
+        "generic_error": "Kunde inte lägga till bankkonto. Försök igen senare."
+      },
+      "add_payment_method_banner": "Lägg till betalningsmetod för snabbare utcheckning eller förauktoriserade tjänster",
+      "no_payment_methods_banner": "Inga betalningsmetoder tillagda",
+      "delete_payment_method_button": "Ta bort",
+      "delete_payment_method_button_accessibility_label": "Ta bort {{paymentMethodName}}",
+      "expiration_warning_button_accessibility_label": "Visa utgångsvarning för {{paymentMethodName}} som slutar med {{lastDigits}}",
+      "expires_soon": "Detta kort går snart ut",
+      "expired": "Detta kort har gått ut",
+      "expired_badge_label": "Utgånget",
+      "card_update_consent": "Denna betalningsmetod kommer att sparas för framtida köp.",
+      "card_update_consent_subscriptions": "Denna betalningsmetod kommer att sparas för framtida köp och kan användas för alla återkommande eller uppskjutna köp.",
+      "credit_card_title": "Kreditkort",
+      "or": "ELLER",
+      "google_pay": {
+        "iframe_title_accessibility_label": "Lägg till Google Pay betalningsmetod",
+        "loading_accessibility_message": "Laddar Google Pay",
+        "loading": "Laddar Google Pay",
+        "errors": {
+          "missing_billing_address": "Google Pay kräver en faktureringsadress. Vänligen lägg till en på ditt konto."
+        }
+      },
+      "pay_pal": {
+        "loading_accessibility_message": "Laddar PayPal"
       }
     }
   }
