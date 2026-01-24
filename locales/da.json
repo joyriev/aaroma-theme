@@ -3272,7 +3272,134 @@
             "description_full_refund": "Du har modtaget en fuld refusion for denne ordre.",
             "description_single_refund": "Du har modtaget en delvis refusion for denne ordre.",
             "description_multiple_refunds": "Du har modtaget delvise refusioner for denne ordre."
-          }
+          },
+          "canceled": {
+            "description": "Du blev ikke opkrævet."
+          },
+          "due_date": "Forfalden {{date}}",
+          "total_balance": "Samlet saldo",
+          "pay_now_accessibility_label": "Betal nu for ordre {{orderName}}"
+        },
+        "order_timeline": {
+          "expand_events_accessibility_label": "Vis udkast til ordreoplysninger",
+          "hide_events_accessibility_label": "Skjul udkast til ordre detaljer"
+        },
+        "subtitle": "Indsendt {{date}}",
+        "title": "Bestil {{name}}"
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "Denne betalingsmetode vil ikke længere være tilgængelig for fremtidige køb fra dette sted.",
+          "description_with_replacement": "Sletning af denne betalingsmetode vil påvirke forudautoriserede betalinger for denne lokation. Erstat den med en alternativ betalingsmetode for at fortsætte med at modtage kommende ordrer."
+        },
+        "payment_details": {
+          "order_label": "Bestil {{name}}",
+          "draft_label": "Udkast til ordre {{name}}"
+        }
+      },
+      "purchase_order_number": {
+        "add_accessibility_label": "Tilføj PO-nummer",
+        "add_modal_title": "Tilføj PO-nummer",
+        "close_modal_accessibility_label": "Luk PO-nummer modal",
+        "discard": "Kassér",
+        "discard_changes_modal_title": "Forkast ændringer?",
+        "edit_accessibility_label": "Rediger PO-nummer",
+        "edit_modal_title": "Rediger PO-nummer",
+        "empty_state": "Ingen PO-nummer",
+        "modal_po_number_input_label": "PO nummer",
+        "modal_po_number_input_max_length_error": "PO-numre har maksimalt {{maxLength}} tegn.",
+        "title": "PO #{{poNumber}}"
+      }
+    },
+    "errors": {
+      "address_deletion_error": {
+        "description": "Der opstod et problem med at slette denne adresse. Prøv igen eller opdater siden."
+      },
+      "addresses_loading_issue": {
+        "description": "Forbindelsesfejl. Tjek din internetforbindelse og prøv igen."
+      },
+      "failed_address_creation": {
+        "description": "Der opstod et problem med at oprette din adresse. Prøv at opdatere denne side eller tjek din internetforbindelse."
+      },
+      "failed_address_update": {
+        "description": "Der opstod et problem med at opdatere din adresse. Prøv at opdatere denne side eller tjek din internetforbindelse."
+      },
+      "load_address_form_error": {
+        "title": "Kan ikke indlæse adresseformular",
+        "description": "Kunne ikke indlæse adresseformular.",
+        "refresh_button": "Opdater side"
+      },
+      "load_orders_error": {
+        "title": "Kan ikke indlæse ordrer",
+        "description": "Prøv igen eller kom tilbage senere."
+      },
+      "load_paypal_error": {
+        "description": "Der opstod et problem med at indlæse PayPal. Prøv venligst igen."
+      },
+      "logout_everywhere": {
+        "description": "Noget gik galt under udlogningen. Prøv venligst igen."
+      },
+      "no_access_to_locations": {
+        "description": "Du har ikke adgang til nogen lokationer"
+      },
+      "not_found": {
+        "description": "Tjek URL'en eller prøv igen om et par minutter.",
+        "title": "Der opstod et problem med at indlæse denne side"
+      },
+      "order_not_found": {
+        "title": "Ordre ikke fundet"
+      },
+      "profile_update_error": {
+        "description": "Der opstod et problem med at opdatere din profil. Prøv at opdatere denne side eller tjek din internetforbindelse."
+      },
+      "profile_name_update_error": {
+        "description": "Der opstod et problem med at opdatere dit navn. Prøv at opdatere denne side eller tjek din internetforbindelse."
+      },
+      "resend_link": {
+        "too_many_requests": "For mange forespørgsler. Prøv igen senere.",
+        "generic": "Mislykket forespørgsel"
+      },
+      "load_extension_error": {
+        "description": "Opdater denne side eller prøv igen om et par minutter."
+      },
+      "already_upgraded": "Kundeprofiler er allerede opgraderet.",
+      "failed_to_upgrade": "Kunne ikke opgradere kundekontoindstillinger.",
+      "not_upgraded": "Kundekonti opgraderes ikke.",
+      "failed_to_revert": "Kunne ikke gendanne kundekontoindstillinger.",
+      "revert_window_expired": "Fortrydelsesvinduet er udløbet."
+    },
+    "throttle": {
+      "too_many_attempts": {
+        "description": "Prøv venligst igen om et par minutter"
+      }
+    },
+    "payment_methods": {
+      "add_payment_method_dropdown": {
+        "bank_account_consent": "Ved at tilføje en betalingsmetode giver du tilladelse til, at dit kort kan blive opkrævet eller din bankkonto debiteret for fremtidige køb, som du godkender, indtil du annullerer."
+      },
+      "bank_account": {
+        "loading_accessibility_message": "Bankkonto-knappen indlæses",
+        "generic_error": "Kunne ikke tilføje bankkonto. Prøv igen senere."
+      },
+      "add_payment_method_banner": "Tilføj betalingsmetode for hurtigere betaling eller forudautoriserede tjenester",
+      "no_payment_methods_banner": "Ingen betalingsmetoder tilføjet",
+      "edit_payment_method_button_accessibility_label": "Rediger {{paymentMethodName}} der ender på {{lastDigits}}",
+      "card_update_consent": "Denne betalingsmetode vil blive gemt til fremtidige køb.",
+      "card_update_consent_subscriptions": "Denne betalingsmetode vil blive gemt til fremtidige køb og kan bruges til eventuelle tilbagevendende eller udskudte køb.",
+      "digital_wallet_title": "Digital pung",
+      "credit_or_debit_card_title": "Kredit- eller betalingskort",
+      "or": "ELLER",
+      "google_pay": {
+        "iframe_title_accessibility_label": "Tilføj Google Pay betalingsmetode",
+        "errors": {
+          "generic": "Der opstod et problem med Google Pay. Prøv igen eller brug en anden betalingsmetode.",
+          "missing_billing_address": "Google Pay kræver en faktureringsadresse. Tilføj venligst en til din konto."
+        }
+      },
+      "pay_pal": {
+        "iframe_title_accessibility_label": "Tilføj PayPal betalingsmetode",
+        "errors": {
+          "generic": "Der opstod et problem med PayPal. Prøv igen eller brug en anden betalingsmetode."
         }
       }
     }
