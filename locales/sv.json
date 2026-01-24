@@ -2795,7 +2795,59 @@
         "empty_state_order_source_description": "Endast beställningar gjorda av {{email}} kommer att visas här.",
         "empty_state_subtitle": "Gå till butiken för att lägga en beställning.",
         "empty_state_title": "Inga beställningar än",
-        "empty_state_with_location_title": "Inga beställningar för {{locationName}}"
+        "empty_state_with_location_title": "Inga beställningar för {{locationName}}",
+        "empty_state_title_for_pending_orders": "Inga väntande beställningar",
+        "no_order_banner": "För att testa din tillägg på sidan Orderstatus, skapa en order.",
+        "estimated_shortform": "Grundat {{date}}",
+        "estimated_delivery": "Förväntad {{date}}",
+        "one_images_accessibility_label": "Beställningen inkluderar {{lineItemName1}}",
+        "two_images_accessibility_label": "Beställningen inkluderar {{lineItemName1}}, {{lineItemName2}}",
+        "three_images_accessibility_label": "Beställningen inkluderar {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}",
+        "four_images_accessibility_label": "Beställningen inkluderar {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}, {{lineItemName4}}",
+        "more_than_three_products_accessibility_label": "Beställningen inkluderar {{lineItemName1}}, {{lineItemName2}} och {{numberOfAdditionalProducts}} fler produkter",
+        "more_than_four_products_accessibility_label": "Beställningen inkluderar {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}} och {{numberOfAdditionalProducts}} fler produkter",
+        "carousel": {
+          "one_products_accessibility_label": "Ordern inkluderar {{lineItemName1}} antal {{lineItemQuantity1}}",
+          "two_products_accessibility_label": "Ordern inkluderar {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}",
+          "three_products_accessibility_label": "Beställningen inkluderar {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}, {{lineItemName3}} antal {{lineItemQuantity3}}",
+          "four_products_accessibility_label": "Beställningen inkluderar {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}, {{lineItemName3}} antal {{lineItemQuantity3}}, {{lineItemName4}} antal {{lineItemQuantity4}}",
+          "five_products_accessibility_label": "Beställningen inkluderar {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}, {{lineItemName3}} antal {{lineItemQuantity3}}, {{lineItemName4}} antal {{lineItemQuantity4}}, {{lineItemName5}} antal {{lineItemQuantity5}}",
+          "six_products_accessibility_label": "Beställningen inkluderar {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}, {{lineItemName3}} antal {{lineItemQuantity3}}, {{lineItemName4}} antal {{lineItemQuantity4}}, {{lineItemName5}} antal {{lineItemQuantity5}}, {{lineItemName6}} antal {{lineItemQuantity6}}",
+          "six_and_more_products_accessibility_label": "Beställningen inkluderar {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}, {{lineItemName3}} antal {{lineItemQuantity3}}, {{lineItemName4}} antal {{lineItemQuantity4}}, {{lineItemName5}} antal {{lineItemQuantity5}}, {{lineItemName6}} antal {{lineItemQuantity6}} och mer"
+        },
+        "no_filtered_results_description": "Ta bort eller justera filter för att se dina beställningar",
+        "order_link": "Visa beställning {{name}}",
+        "order_number": "Beställ {{name}}",
+        "pagination": {
+          "nav_accessibility_label": "Navigeringsknappar för beställningar",
+          "next_accessibility_label": "Nästa beställningar",
+          "previous_accessibility_label": "Tidigare beställningar",
+          "load_more": "Ladda mer",
+          "load_more_accessibility_label": "Ladda fler beställningar"
+        },
+        "order_status_message": {
+          "list_view": {
+            "view_order_for_details": "Visa beställning för detaljer",
+            "estimated_delivery": "Förväntad {{date}}",
+            "last_updated": "Senast uppdaterad {{date}}"
+          },
+          "table_view": {
+            "estimated_delivery": "Beräknad leverans {{date}}"
+          }
+        },
+        "payment_status": {
+          "gallery_view": {
+            "overdue": "Betalning förfallen",
+            "due": "Betalning förfaller {{date}}",
+            "due_today": "Betalning förfaller idag",
+            "due_without_date": "Betalning förfaller",
+            "due_on_fulfillment": "Betalning förfaller vid leverans",
+            "payment_not_due": "Betalning inte förfallen än"
+          },
+          "list_view": {
+            "overdue": "Försenad"
+          }
+        }
       }
     }
   }
