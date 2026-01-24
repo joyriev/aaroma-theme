@@ -984,7 +984,81 @@
         "discount_requires_customer_notice": "Ange din leveransinformation för att använda rabattkoden <strong style=\"text-transform:uppercase\">%{code}</strong>",
         "customer_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> rabattkod är inte tillgänglig för dig just nu",
         "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> rabattkod kräver berättigad kund",
-        "shipping_information_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> rabattkod är inte tillgänglig för din leveransadress"
+        "shipping_information_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> rabattkod är inte tillgänglig för din leveransadress",
+        "pickup_label": "Upphämtning i butik",
+        "no_pickup_location": "Det finns inga upphämtningsplatser tillgängliga.",
+        "pickup_unavailable_banner_title": {
+          "other": "Inga butiker tillgängliga med dina varor"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Inga butiker tillgängliga i %{country} med din vara",
+          "other": "Inga butiker tillgängliga i %{country} med dina varor"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_to_address": "Leveransadress"
+        },
+        "calculating_shipping": "Beräknar…",
+        "calculating": "Beräknar…",
+        "shipping_discount_title": "Frakt Rabatt",
+        "estimated_taxes_label_short": "Beräknad",
+        "information_estimated_taxes_label": "Skatter (beräknat)",
+        "estimated_taxes_finalization_tooltip_content": "Den slutgiltiga skatten och totalsumman kommer att bekräftas via e-post eller sms efter att du har lagt din beställning.",
+        "estimated_taxes_finalization_tooltip_content_short": "Skatt fastställd efter betalning",
+        "order_total_label": "Ordertotal",
+        "price_before_discount_aria_text": "Originalpris",
+        "total_due_label": "Totalt att betala",
+        "total_paid_label": "Totalt betalt",
+        "total_price_label": "Totalt pris",
+        "total_outstanding_label": "Belopp att betala",
+        "total_due_today_label": "Totalt att betala idag",
+        "total_due_later_label": "Totalt att betala senare",
+        "payment_due_label": "Betalning förfaller",
+        "duties_included_label": "Totalt inkluderar skatter och avgifter. Inga extra kostnader vid leverans.",
+        "cost_table_title": "Kostnadssammanfattning",
+        "price_per_item": {
+          "accessibility_label": "%{price} per styck",
+          "label": "%{price}/st"
+        },
+        "quantity_label": "Antal",
+        "product_image_quantity_label": "Antal",
+        "scroll_order_summary": "Bläddra för fler artiklar",
+        "collapse_order_summary": "Dölj ordersammanfattning",
+        "original_price": "Originalpris",
+        "sale_price": "Rea pris",
+        "compare_at_sale": "Utförsäljning (%{sale_amount})",
+        "order_total_updated_label": "Uppdaterat totalt",
+        "total_already_paid_label": "Betald",
+        "unit_price": {
+          "per_item": {
+            "single": "%{price} styck"
+          }
+        },
+        "multiple_shipping_lines_label": "Frakt totalt",
+        "recurring_total_tooltip": "Inkluderar inte frakt, skatt, tullavgifter eller eventuella tillämpliga rabatter.",
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> kunde inte användas tillsammans med dina befintliga rabatter.",
+        "percent_off_shipping": "%{percent}% rabatt på frakt",
+        "deferred_payment_info": {
+          "title": "Betalning av %{amount_due} förfaller den %{due_at}",
+          "description_html": "För frågor om din beställning, %{contact_us}.",
+          "paid_today": "Totalt betalat idag",
+          "paid_today_next": "Betald idag",
+          "due_on_fulfillment_title": "Betalning av %{amount_due} förfaller vid fullgörande",
+          "due_on_receipt_title": "Betalning av %{amount_due} ska ske vid mottagandet"
+        },
+        "deferred_balance_info": {
+          "title": "Saldo på {{amount_due}} förfaller den {{due_at}}",
+          "due_on_fulfillment_title": "Saldo på {{amount_due}} ska betalas vid leverans"
+        },
+        "payment_terms_totals": {
+          "due_today": "Totalt att betala idag",
+          "due_today_next": "Förfaller idag",
+          "due_later": "Totalt att betala %{due_at}",
+          "due_on_fulfillment": "Totalt att betala vid leverans",
+          "due_on_fulfillment_next": "Förfallodag vid fullgörande",
+          "due_on_receipt": "Totalt att betala vid mottagande",
+          "due_later_checkout_to_draft": "Totalt att betala senare",
+          "total_paid": "Totalt betalt"
+        }
       }
     }
   }
