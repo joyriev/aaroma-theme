@@ -1020,7 +1020,82 @@
         "duties_included_label": "Totalen inkluderer skatter og afgifter. Ingen ekstra gebyrer ved levering.",
         "discount_and_gift_card_savings_notice": "Efter %{discount_amount} i rabatter og %{gift_card_amount} i gavekort",
         "cost_table_title": "Omkostningsoversigt",
-        "cost_table_item_column_header": "Genstand"
+        "cost_table_item_column_header": "Genstand",
+        "price_per_item": {
+          "accessibility_label": "%{price} per stk."
+        },
+        "scroll_order_summary": "Rul for flere varer",
+        "expand_order_summary": "Vis ordresammendrag",
+        "collapse_order_summary": "Skjul ordresammendrag",
+        "original_price": "Originalpris",
+        "sale_price": "Salgspris",
+        "order_total_updated_label": "Opdateret total",
+        "unit_price": {
+          "per_item": {
+            "single": "%{price} hver",
+            "one": "%{price} per %{count} vare",
+            "other": "%{price} per %{count} varer"
+          }
+        },
+        "gift_card_ending": "Gavekort, der slutter med %{last_characters}",
+        "estimated_tax_label": "Anslået skat",
+        "multiple_shipping_lines_label": "Forsendelses samlet",
+        "recurring_subtotal_label": "Gentagende subtotal",
+        "recurring_total_label": "Gentagende total",
+        "recurring_total_tooltip": "Inkluderer ikke forsendelse, skat, told eller eventuelle gældende rabatter.",
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> kunne ikke bruges sammen med dine eksisterende rabatter.",
+        "percent_off_shipping": "%{percent}% rabat på forsendelse",
+        "amount_off_shipping": "%{amount} rabat på forsendelse",
+        "deferred_payment_info": {
+          "title": "Betaling af %{amount_due} forfalder den %{due_at}",
+          "description_html": "For spørgsmål om din ordre, %{contact_us}.",
+          "paid_today": "Samlet betalt i dag",
+          "due_on_fulfillment_title": "Betaling af %{amount_due} forfalder ved opfyldelse",
+          "due_on_receipt_title": "Betaling af %{amount_due} forfalder ved modtagelse"
+        },
+        "deferred_balance_info": {
+          "title": "Saldo på {{amount_due}} forfalder den {{due_at}}",
+          "due_on_fulfillment_title": "Restbeløbet på {{amount_due}} forfalder ved opfyldelse"
+        },
+        "payment_terms_totals": {
+          "due_today": "Samlet forfaldent beløb i dag",
+          "due_later": "Samlet forfald %{due_at}",
+          "due_on_fulfillment": "Samlet skyldig ved opfyldelse",
+          "due_on_fulfillment_next": "Forfald ved opfyldelse",
+          "due_on_receipt": "Samlet skyldig ved modtagelse",
+          "due_later_checkout_to_draft": "Samlet skyldig senere",
+          "total_paid": "Samlet betalt"
+        },
+        "maximum_discount_code_limit_reached": "Du har nået det maksimale antal rabatkoder. Fjern en eksisterende kode for at bruge <strong style=\"text-transform:uppercase\">%{code}</strong>.",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> virker ikke lige nu. Kontakt os for hjælp.",
+        "due_on_fulfillment": "Forfald ved opfyldelse",
+        "duties_label": "Afgifter",
+        "duties_and_taxes_label": "Afgifter og skatter",
+        "error_duties_tooltip": "Denne ordre bliver sendt fra et andet land, så told og afgifter kan blive opkrævet ved levering.",
+        "may_be_charged_on_delivery": "Kan opkræves ved levering",
+        "updated_shipping_method": "Opdateret forsendelsesmetode: %{shipping_method}",
+        "recurring_payments": "Gentagne betalinger",
+        "recurring_total_multiple_label": "Denne ordre har et tilbagevendende gebyr for flere varer.",
+        "deferred_total_due_date_label": "Samlet beløb forfaldent {{date}}",
+        "custom_discount": "Brugerdefineret rabat"
+      },
+      "shipping": {
+        "title": "Forsendelse",
+        "shipping_method_title": "Forsendelsesmetode",
+        "shipping_method_rollup_accessibility_label": "Forsendelsesmetode muligheder",
+        "shipping_method_recurring_shipments_group_title": {
+          "one": "Gentagen forsendelse",
+          "other": "Gentagne forsendelser"
+        },
+        "subscription_shipping": "Abonnementsforsendelse",
+        "subscription_local_delivery": "Abonnement lokal levering",
+        "subscription_pickup": "Abonnementsafhentning",
+        "waiting_on_rate_notice": "Henter tilgængelige forsendelsespriser…",
+        "waiting_on_pickup_location_notice": "Henter tilgængelige afhentningssteder…",
+        "no_rates_for_cart_or_destination_notice": "Der er ingen forsendelsesmetoder tilgængelige for din kurv eller adresse",
+        "no_pickup_location_notice": "Mindst ét af dine produkter er ikke tilgængeligt for afhentning",
+        "no_rates_for_country_notice": "Ingen forsendelsespriser fundet for denne adresse.",
+        "cheapest_rate_label": "Billigste"
       }
     }
   }

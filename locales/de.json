@@ -1032,7 +1032,81 @@
         "duties_included_label": "Gesamtbetrag beinhaltet Steuern und Abgaben. Keine zusätzlichen Gebühren bei der Lieferung.",
         "discount_and_gift_card_savings_notice": "Nach %{discount_amount} an Rabatten und %{gift_card_amount} an Geschenkkarten",
         "gift_card_savings_notice": "Nach %{gift_card_amount} an Geschenkkarten",
-        "cost_table_title": "Kostenübersicht"
+        "cost_table_title": "Kostenübersicht",
+        "quantity_label": "Menge",
+        "product_image_quantity_label": "Menge",
+        "scroll_order_summary": "Scrollen für weitere Artikel",
+        "collapse_order_summary_short": "Verstecken",
+        "collapse_order_summary": "Bestellübersicht ausblenden",
+        "original_price": "Originalpreis",
+        "sale_price": "Verkaufspreis",
+        "compare_at_sale": "Verkauf (%{sale_amount})",
+        "total_updated_label": "Aktualisierter Gesamtpreis:",
+        "order_total_updated_label": "Aktualisierter Gesamtbetrag",
+        "unit_price": {
+          "per_item": {
+            "single": "je %{price}",
+            "one": "%{price} pro %{count} Artikel",
+            "other": "%{price} pro %{count} Artikel"
+          }
+        },
+        "gift_card_ending": "Geschenkkarte endet mit %{last_characters}",
+        "multiple_shipping_lines_label": "Versandgesamtbetrag",
+        "recurring_total_tooltip": "Enthält keine Versandkosten, Steuern, Zölle oder anwendbare Rabatte.",
+        "confirmation_number_label": "Bestätigung #%{confirmation_number}",
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> konnte nicht mit Ihren bestehenden Rabatten verwendet werden.",
+        "percent_off_shipping": "%{percent}% Rabatt auf den Versand",
+        "amount_off_shipping": "%{amount} Rabatt auf den Versand",
+        "deferred_payment_info": {
+          "title": "Zahlung von %{amount_due} ist fällig am %{due_at}",
+          "description_html": "Bei Fragen zu Ihrer Bestellung, %{contact_us}.",
+          "paid_today": "Heute insgesamt bezahlt",
+          "due_on_fulfillment_title": "Zahlung von %{amount_due} ist bei Erfüllung fällig",
+          "due_on_receipt_title": "Zahlung von %{amount_due} ist bei Erhalt fällig"
+        },
+        "deferred_balance_info": {
+          "title": "Der Saldo von {{amount_due}} ist fällig am {{due_at}}",
+          "due_on_fulfillment_title": "Der Restbetrag von {{amount_due}} ist bei Erfüllung fällig"
+        },
+        "payment_terms_totals": {
+          "due_today": "Gesamt fällig heute",
+          "due_today_next": "Fällig heute",
+          "due_later": "Gesamt fällig %{due_at}",
+          "due_on_fulfillment": "Gesamt fällig bei Erfüllung",
+          "due_on_fulfillment_next": "Fällig bei Erfüllung",
+          "due_on_receipt": "Gesamt fällig bei Erhalt",
+          "total_paid": "Gesamt bezahlt"
+        },
+        "maximum_discount_code_limit_reached": "Sie haben die maximale Anzahl an Rabattcodes erreicht. Entfernen Sie einen vorhandenen Code, um <strong style=\"text-transform:uppercase\">%{code}</strong> zu verwenden.",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> funktioniert gerade nicht. Kontaktieren Sie uns für Hilfe.",
+        "due_on_fulfillment": "Fällig bei Erfüllung",
+        "duties_label": "Zölle",
+        "duties_and_taxes_label": "Zölle und Steuern",
+        "error_duties_tooltip": "Diese Bestellung wird aus einem anderen Land versandt, daher können bei der Lieferung Zölle und Steuern anfallen.",
+        "may_be_charged_on_delivery": "Kann bei Lieferung bezahlt werden",
+        "total_updated_label_with_price": "Aktualisierter Gesamtpreis: %{totalPrice}",
+        "recurring_total_multiple_label": "Diese Bestellung enthält eine wiederkehrende Gebühr für mehrere Artikel.",
+        "deferred_total_due_date_label": "Gesamtbetrag fällig {{date}}",
+        "full_price": "Vollpreis: %{price}",
+        "expand_component_information": {
+          "one": "Zeige %{count} Artikel",
+          "other": "Zeige %{count} Artikel"
+        },
+        "discount_applies_to_subscription_items_only": "Dieser Rabatt gilt nur für Abonnementartikel"
+      },
+      "shipping": {
+        "shipping_method_title": "Versandart",
+        "shipping_method_rollup_accessibility_label": "Versandarten Optionen",
+        "subscription_shipping": "Abonnementversand",
+        "subscription_local_delivery": "Abonnement für lokale Lieferung",
+        "subscription_pickup": "Abonnement-Abholung",
+        "waiting_on_rate_notice": "Verfügbare Versandtarife werden abgerufen…",
+        "waiting_on_pickup_location_notice": "Verfügbare Abholorte werden geladen…",
+        "no_rates_for_cart_or_destination_notice": "Für Ihren Warenkorb oder Ihre Adresse sind keine Versandmethoden verfügbar.",
+        "no_pickup_location_notice": "Mindestens eines Ihrer Produkte ist nicht zur Abholung verfügbar",
+        "no_rates_for_country_notice": "Für diese Adresse wurden keine Versandkosten gefunden.",
+        "no_rates_contact_notice": "Kontaktieren Sie uns für weitere Informationen",
+        "estimated_delivery_time": "Geschätzte Lieferung %{time}"
       }
     }
   }
