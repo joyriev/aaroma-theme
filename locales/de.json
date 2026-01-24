@@ -3188,8 +3188,101 @@
             "shop_promise_brand_label": "Lieferung garantiert bis",
             "external_promise_brand_label": "Lieferung durch",
             "not_delivered_by_label": "Geliefert nach {{date}}",
-            "delivery_guarantee_expired_label": "Liefergarantie abgelaufen"
+            "delivery_guarantee_expired_label": "Liefergarantie abgelaufen",
+            "modal_accessibility_button_label": "Details zum Lieferzusagen",
+            "download_shop_app_button_label": "Shop herunterladen, um zu verfolgen",
+            "track_with_shop_button_label": "Verfolgen mit Shop",
+            "claim_shop_cash_button_label": "Shop-Guthaben einlösen"
+          },
+          "details_modal": {
+            "title": "Liefergarantie",
+            "active_delivery_guarantee_label": "Lieferung bis {{date}}",
+            "expired_delivery_guarantee_description": "Die 30-Tage-Shop-Versprechen-Garantie für diese Bestellung ist abgelaufen.",
+            "order_includes_guarantees_label": "Ihre Bestellung enthält {{deliveryAgreementsCount}} Garantien",
+            "order_includes_guarantees_description": "Shop Promise garantiert eine schnelle, zuverlässige Lieferung. Fordern Sie Shop Cash an, wenn Ihre Bestellung nach dem {{date}} eintrifft.",
+            "delivered_after_label": "Geliefert nach {{date}}",
+            "delivered_after_description": "Da Ihre Bestellung verspätet eingetroffen ist, haben Sie Anspruch auf {{amount}} Shop Cash.",
+            "claimed_shop_cash_description": "Da diese Bestellung verspätet eingetroffen ist, haben Sie {{amount}} Shop Cash beansprucht.",
+            "eligible_to_claim_shop_cash_description": "Da Ihre Bestellung verspätet eingetroffen ist, haben Sie Anspruch auf {{amount}} Shop Cash.",
+            "claim_shop_cash_button_label": "Shop-Guthaben einlösen",
+            "view_balance_in_shop_button_label": "Kontostand im Shop anzeigen",
+            "scan_to_claim_shop_cash_label": "Scannen, um {{amount}} Shop Cash einzulösen"
           }
+        },
+        "delivery_promise": {
+          "promise_line": {
+            "single_brand_label": "Lieferung unterstützt von",
+            "mixed_brands_label": "Lieferung garantiert",
+            "modal_accessibility_button_label": "Details zum Lieferzusagen"
+          },
+          "claim_shop_cash_cta": {
+            "has_shop_app_label": "Fordern Sie Ihr Shop-Guthaben an",
+            "no_shop_app_label": "{{appDownloadLink}} um Shop Cash einzulösen"
+          },
+          "details_modal": {
+            "title": "Lieferung unterstützt von",
+            "modal_accessiblity_label": "Details zum Lieferzusagen",
+            "delivery_guarantee_label": "Liefergarantie",
+            "delivery_by_label": "Lieferung bis {{date}}",
+            "delivery_guaranteed_by_label": "Lieferung garantiert bis {{date}}",
+            "shop_cash_claim": {
+              "may_be_eligible_label": "Shop Promise garantiert eine schnelle und zuverlässige Lieferung. Fordern Sie Shop Cash an, wenn Ihre Bestellung verspätet ankommt.",
+              "may_be_eligible_not_authorized_label": "Sie könnten berechtigt sein, Shop Cash zu beanspruchen, da diese Bestellung verspätet eingetroffen ist. Melden Sie sich an, um Details zu sehen.",
+              "redeemed_label": "Sie haben bereits Shop Cash beansprucht, da diese Bestellung zu spät angekommen ist.",
+              "expired_label": "Diese Bestellung ist nicht für eine Anspruch auf verspätete Lieferung berechtigt, da die 30-Tage-Garantie abgelaufen ist.",
+              "no_shop_cash_label": "Für diese Bestellung kann kein Anspruch auf verspätete Lieferung geltend gemacht werden, da sie nicht mit Shop Pay bezahlt wurde.",
+              "no_longer_guaranteed_label": "Für diese Artikel gibt es keine Liefergarantie mehr.",
+              "claim_shop_cash_title": "Scannen, um {{amount}} Shop Cash zu erhalten",
+              "claim_shop_cash_description": "Sie können Ihr Shop Cash für zukünftige Einkäufe in der Shop-App verwenden."
+            }
+          }
+        }
+      },
+      "status_mark_as_delivered": "Als geliefert markieren",
+      "fulfillment_status_title": "Erfüllungsstatus: {{status}}",
+      "buy_again_accessibility_label": "Erneut kaufen für Bestellung {{orderId}}"
+    },
+    "order_details": {
+      "shipment_timeline": {
+        "expand_events_accessibility_label": "Bestelldetails der Lieferung anzeigen",
+        "hide_events_accessibility_label": "Bestelldetails zum Versand ausblenden"
+      },
+      "addresses_section_title": "Rechnung und Versand",
+      "order_details_skeleton_accessibility_label": "Melden Sie sich an, um alle Bestelldetails anzuzeigen.",
+      "fully_refunded_label": "RÜCKERSTATTET",
+      "grouped_view_components": {
+        "expand_line_items": "Zeige {{count}} Artikel",
+        "line_item_summary_list_accessibility_label": "Artikel im {{productTitle}} Paket"
+      },
+      "loading": "Lade Bestelldetails",
+      "image_gallery": {
+        "product_name_and_quantity": "{{productName}} Menge {{quantity}}",
+        "load_more_items": {
+          "one": "Lade {{count}} weitere Artikel",
+          "other": "Lade {{count}} weitere Artikel"
+        }
+      },
+      "mobile_summary_toggle_button": {
+        "closed": "Bestellübersicht ausblenden"
+      },
+      "not_applicable": "Nicht verfügbar",
+      "partially_refunded_label": "TEILWEISE ERSTATTET",
+      "payment": {
+        "status_in_review": "Zahlung fällig nach Überprüfung",
+        "payment_type": {
+          "gift_card": "Geschenkkarte",
+          "store_credit": "Guthaben im Geschäft",
+          "money_order": "Postanweisung",
+          "cash_on_delivery": "Nachnahme (Barzahlung bei Lieferung)",
+          "bank_deposit": "Bankeinzahlung",
+          "manual": "Handbuch"
+        },
+        "card_payment_details": "endet mit {{lastDigits}} - {{formattedTransactionAmount}}",
+        "gift_card_payment_details": "endet mit {{lastDigits}} - {{formattedTransactionAmount}}",
+        "store_credit_payment_details": "Guthaben - {{formattedTransactionAmount}}",
+        "shop_pay_installments": {
+          "paid_in_installments": "Bezahlt mit Shop Pay Ratenzahlungen",
+          "view_schedule": "Zeitplan anzeigen"
         }
       }
     }
