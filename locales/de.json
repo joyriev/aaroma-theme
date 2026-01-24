@@ -2513,8 +2513,70 @@
             "shipping_address": "Geben Sie eine gültige Versandadresse ein",
             "billing_address": "Geben Sie eine gültige Rechnungsadresse ein",
             "shipping_option": "Wählen Sie eine gültige Versandoption",
-            "email": "Geben Sie eine gültige E-Mail-Adresse ein"
+            "email": "Geben Sie eine gültige E-Mail-Adresse ein",
+            "zone": "Geben Sie einen gültigen Bundesstaat / eine gültige Provinz ein",
+            "billing_zone": "Geben Sie einen gültigen Bundesland-/Provinz der Rechnungsadresse ein",
+            "emirate": "Geben Sie ein gültiges Emirat ein",
+            "postal_code": "Geben Sie eine gültige Postleitzahl ein",
+            "phone": "Geben Sie eine gültige Telefonnummer ein",
+            "billing_phone": "Geben Sie eine gültige Telefonnummer der Rechnungsadresse ein",
+            "reduction_code": "Geben Sie einen gültigen Rabattcode oder eine Geschenkkarte ein",
+            "billing_zip": "Geben Sie eine gültige Rechnungsadresse PLZ / Postleitzahl ein"
+          },
+          "missing": {
+            "first_name": "Geben Sie einen Vornamen ein",
+            "billing_first_name": "Geben Sie einen Vornamen für die Rechnungsadresse ein",
+            "last_name": "Geben Sie einen Nachnamen ein",
+            "address1": "Geben Sie eine Adresse ein",
+            "billing_address1": "Geben Sie eine Rechnungsadresse ein",
+            "address2": "Geben Sie eine Wohnung, Suite usw. ein.",
+            "billing_address2": "Geben Sie eine Rechnungsadresse, Wohnung, Suite usw. ein.",
+            "city": "Geben Sie eine Stadt ein",
+            "billing_city": "Geben Sie eine Rechnungsadresse Stadt ein",
+            "province": "Wählen Sie einen Bundesstaat / eine Provinz aus",
+            "billing_province": "Wählen Sie einen Bundesstaat / eine Provinz für die Rechnungsadresse aus",
+            "country": "Wählen Sie ein Land/Region aus",
+            "zip": "Geben Sie eine Postleitzahl ein",
+            "billing_zip": "Geben Sie eine Rechnungsadresse PLZ / Postleitzahl ein",
+            "phone": "Geben Sie eine Telefonnummer ein"
+          },
+          "formatting": {
+            "name_contains_emojis": "Emoji aus deinem Namen entfernen",
+            "postal_code_contains_emoji": "Entfernen Sie Emojis aus Ihrer Postleitzahl",
+            "first_name_too_long": "Der Vorname enthält zu viele Buchstaben",
+            "last_name_too_long": "Der Nachname enthält zu viele Buchstaben"
+          },
+          "select_different_shipping_address_to_resolve_errors": "Ihre Versandadresse ist ungültig. Wählen Sie eine andere Adresse oder verwenden Sie eine neue."
+        },
+        "scrim": {
+          "continue_purchase_in_window": "Setzen Sie Ihren Kauf im {{walletName}} Fenster fort",
+          "and_return_to_checkout": "und kehre zur Kasse zurück"
+        }
+      },
+      "note": {
+        "length_exceeds_maximum": "Reduzieren Sie die Größe der Notiz auf 5000 oder weniger Zeichen."
+      },
+      "offsite_payment_failed": {
+        "title": "Zahlung außerhalb der Website fehlgeschlagen",
+        "payment_not_processed_text": "Versuchen Sie, den QR-Code erneut zu scannen. Wenn es immer noch nicht funktioniert, informieren Sie unser Personal und versuchen Sie eine andere Zahlungsmethode.",
+        "payment_link_expired_text": "Versuchen Sie, den QR-Code erneut zu scannen."
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "Der Geschenkkartenpreis muss größer als 0 sein.",
+            "gift_card_price_must_not_exceed_limit": "Der Preis der Geschenkkarte darf %{gift_card_limit} nicht überschreiten.",
+            "subtotal_limit_reached": "Der Höchstwert der Positionen wurde erreicht.",
+            "signature_mismatch": "Unstimmigkeit der Warenunterschrift für Zeile %{stable_id}."
           }
+        }
+      },
+      "remote": {
+        "errors": {
+          "only_remote_merchandise_lines": "Der Warenkorb enthält nur Fernbedienungsware. Um den Kauf abzuschließen, ist eine Weiterleitung zum Fernbedienungsladen erforderlich.",
+          "currency_mismatch": "Dieser Artikel kann nicht zu Ihrem Warenkorb hinzugefügt werden, da er aus einem Geschäft stammt, das eine andere Währung verwendet.",
+          "currency_mismatch_removal": "Ein Artikel wurde aus Ihrem Warenkorb entfernt, da er aus einem Geschäft stammt, das eine andere Währung verwendet.",
+          "max_remote_shops_exceeded": "Dieses Produkt kann nicht hinzugefügt werden, da Ihr Warenkorb bereits die maximale Anzahl von anderen Geschäften enthält."
         }
       }
     }
