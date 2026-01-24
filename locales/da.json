@@ -2694,6 +2694,61 @@
           "out_of_stock": "Udsolgt"
         }
       }
+    },
+    "search": {
+      "error": "Der opstod et problem med at indlæse dine søgeresultater. Opdater venligst siden eller prøv igen senere."
+    },
+    "page_titles": {
+      "blog_or_article_with_error": "Fejl - %{title}",
+      "shopping_cart": "Din Indkøbskurv",
+      "order": "Bestil %{name}",
+      "search": "Søgning",
+      "search_results": {
+        "one": "Søg: %{count} resultat fundet for \"%{terms}\"",
+        "other": "Søg: %{count} resultater fundet for \"%{terms}\""
+      }
+    },
+    "challenge": {
+      "message": "For at fortsætte, lad os vide, at du ikke er en robot.",
+      "error": "Dit svar var ikke korrekt, prøv venligst igen."
+    },
+    "checkpoint": {
+      "message": "Løs Captcha for at fortsætte",
+      "error": "Captcha-validering mislykkedes"
+    },
+    "subscriptions": {
+      "buyer_consent_product": "Denne vare er et tilbagevendende eller udskudt køb. Ved at fortsætte accepterer jeg %{cancellationPolicyLink} og giver dig tilladelse til at opkræve min betalingsmetode til de priser, hyppighed og datoer, der er angivet på denne side, indtil min ordre er opfyldt eller jeg annullerer, hvis det er tilladt.",
+      "buyer_consent_cart": "En eller flere af varerne i din kurv er et tilbagevendende eller udskudt køb. Ved at fortsætte accepterer jeg %{cancellationPolicyLink} og giver dig tilladelse til at opkræve min betalingsmetode til de priser, hyppighed og datoer, der er angivet på denne side, indtil min ordre er opfyldt eller jeg annullerer, hvis det er tilladt.",
+      "cancellation_policy": "afbestillingspolitik"
+    }
+  },
+  "customer_accounts": {
+    "enable_javascript": "For at se din konto skal du aktivere JavaScript i dine browserindstillinger eller logge ind med en anden browser.",
+    "navigation_and_structure": {
+      "account_menu": {
+        "nav_accessibility_label": "Konto navigation",
+        "open_menu_accessibility_label": "Åbn kontonavigation",
+        "close_menu_accessibility_label": "Luk kontonavigation",
+        "loading_message": "Indlæser kontonavigation"
+      },
+      "contact_email_subject": "Kontakt fra {{shopName}} online butik",
+      "document_title": "{{sectionName}} - {{shopName}} - Konto",
+      "logout_overlay_label": "Logger ud...",
+      "shop_logo_accessibility_label": "{{shopName}} logo",
+      "settings_link": "Indfatninger",
+      "location_switcher_toast_message": "Placering skiftet til {{locationName}}",
+      "switch_location": "Skift placering",
+      "no_locations_found": "Ingen lokationer fundet",
+      "company_location": "Virksomhedens placering",
+      "search": "Søgning",
+      "skip_to_content": "Spring til indholdet"
+    },
+    "account_information": {
+      "loading_accessibility_message": "Indlæser kontoinformation",
+      "loading_finished_accessibility_message": "Kontooplysninger er indlæst",
+      "profile_card": {
+        "email_help_text": "E-mail kan ikke redigeres"
+      }
     }
   }
 }
