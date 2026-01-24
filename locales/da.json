@@ -2575,7 +2575,50 @@
         "updated": "Adresse opdateret med succes.",
         "error_updating": "Fejl ved opdatering af adresse",
         "error_creating": "Fejl ved oprettelse af adresse.",
-        "deleted": "Adresse slettet med succes"
+        "deleted": "Adresse slettet med succes",
+        "error_deleting": "Fejl ved sletning af adresse."
+      },
+      "line_item": {
+        "item_status": {
+          "decrement_return_line_item": "Fjernet %{delta} fra retur"
+        }
+      },
+      "order": {
+        "financial_status": {
+          "unpaid": "Ubetalt",
+          "voided": "Ugyldig"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Opfyldt",
+          "complete": "Fuldstændig",
+          "unfulfilled": "Uopfyldt"
+        },
+        "cancel_reason": {
+          "inventory": "Varer ikke tilgængelige",
+          "fraud": "Falsk ordre",
+          "customer": "Kunden ændrede/annullerede ordren",
+          "staff": "Personale fejl"
+        },
+        "cash_on_delivery": "Kontant ved Levering (COD)"
+      },
+      "cart": {
+        "not_found": "Kurv ikke fundet",
+        "only_n_items_available": "Du kan kun tilføje %{count} %{name} til kurven.",
+        "too_many_items_in_cart": "Du kan ikke tilføje flere %{name} til kurven.",
+        "only_one_added_to_cart": "Kun 1 vare blev tilføjet til din kurv på grund af tilgængelighed.",
+        "only_n_added_to_cart": "Kun %{quantity} varer blev tilføjet til din kurv på grund af tilgængelighed.",
+        "maximum_available_quantity_reached": "Den maksimale mængde af denne vare er allerede i din kurv.",
+        "less_than_minimum": "Denne vare har et minimum på %{min}.",
+        "more_than_maximum": "Denne vare har en maksimum på %{max}.",
+        "not_respect_step": "Du kan kun tilføje denne vare i trin af %{step}.",
+        "all_items_in_cart": "Alle %{count} %{name} er i din kurv.",
+        "empty_update": "kan ikke opdatere tom indkøbskurv",
+        "missing_parameters": "ingen gyldig id- eller linjeparameter",
+        "generic_error": "Kurvfejl",
+        "invalid_input": "%{parameter} parameter er ugyldig.",
+        "too_many_line_items_error": "Din kurv kan ikke indeholde mere end %{max} varer.",
+        "link_expired": "Link udløbet",
+        "link_no_longer_exists": "Link findes ikke længere."
       }
     }
   }

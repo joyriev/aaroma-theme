@@ -2726,7 +2726,68 @@
       "too_short": "ist zu kurz (mindestens %{count} Zeichen)",
       "too_long": "ist zu lang (maximal %{count} Zeichen)",
       "contains_spaces": "beginnt oder endet mit Leerzeichen.",
-      "invalid_for_country": "ist für %{country} nicht gültig"
+      "invalid_for_country": "ist für %{country} nicht gültig",
+      "invalid_state_in_country": "ist kein gültiger Bundesstaat in %{country}",
+      "full_name_required": "Geben Sie einen Vor- und Nachnamen ein",
+      "invalid_for_card_type": "ist ungültig",
+      "invalid_type": "Entschuldigung, wir akzeptieren keine Karten dieses Typs",
+      "invalid_format": "Format ist ungültig",
+      "expired": "ist abgelaufen",
+      "invalid_start_date_or_issue_number_for_debit": "Ein gültiges Startdatum oder eine Ausgabennummer ist erforderlich",
+      "reset_password_html": "Diese E-Mail-Adresse ist bereits mit einem Konto verknüpft. Wenn dieses Konto Ihnen gehört, können Sie <a href=\"/account/login#recover\">Ihr Passwort zurücksetzen</a>",
+      "verify_email": "Wir haben eine E-Mail an %{customer_email} gesendet. Bitte klicken Sie auf den enthaltenen Link, um Ihre E-Mail-Adresse zu verifizieren.",
+      "product_not_available": "Produkt ist für diesen Kunden nicht veröffentlicht.",
+      "shop_404": {
+        "title": "Erstellen Sie eine E-Commerce-Website und verkaufen Sie online! E-Commerce-Software von Shopify",
+        "heros": {
+          "store_unavailable": "Entschuldigung, dieser Laden ist derzeit nicht verfügbar.",
+          "store_not_exist": "Dieser Laden existiert nicht.",
+          "no_storefront": "Dieser Laden hat noch keine Website."
+        },
+        "links": {
+          "explore_other_stores": "Andere Geschäfte entdecken",
+          "start_free_trial": "Kostenlose Testversion starten"
+        },
+        "owner_ctas": {
+          "header": "Sind Sie der Ladenbesitzer?",
+          "fix_domain": "Schließe die Einrichtung deiner neuen Webadresse ab, indem du zu %{domain_settings_link} gehst. Klicke auf „Domain verbinden“ und gib ein: %{domain}.<br>Falls du Schwierigkeiten hast, dich in deinen Laden einzuloggen, versuche es auf der Seite %{forgot_your_store_link}.",
+          "fix_domain_link_text": "deine Domain-Einstellungen",
+          "forgot_your_store_link_text": "Haben Sie Ihr Geschäft vergessen?",
+          "add_storefront": "Sie können Ihre Website einrichten, indem Sie den Online-Shop-Kanal in Ihrem %{admin_link} hinzufügen. Wenn Sie Schwierigkeiten haben, in Ihren Shop zu gelangen, versuchen Sie es auf der Seite %{forgot_your_store_link}.",
+          "admin_link_text": "Administrator"
+        },
+        "ctas": {
+          "sell_in_person": {
+            "caption": "Erhalten Sie die Funktionen, die Sie benötigen, um Ihr Einzelhandelsgeschäft zu betreiben, egal ob Sie gerade erst anfangen oder expandieren.",
+            "link_text": "Kostenlose Testversion starten"
+          },
+          "open_a_store": {
+            "header": "Eröffnen Sie einen neuen Shopify-Shop",
+            "caption": "Beginnen Sie eine 3-tägige kostenlose Testphase und fahren Sie dann für 1 $/Monat für die nächsten 3 Monate fort.",
+            "link_text": "Jetzt anmelden"
+          },
+          "editions": {
+            "header": "Zur Kasse Shopify Editions",
+            "caption": "Mit über 100 Produktaktualisierungen können Sie produktiver und kreativer sein und im Handel mächtiger als je zuvor.",
+            "link_text": "Entdecken Sie die neuesten Ausgaben"
+          },
+          "store_owner": {
+            "header": "Sind Sie der Ladenbesitzer?",
+            "caption": "Haben Sie Schwierigkeiten, sich in Ihren Shop einzuloggen? Versuchen Sie die Funktion %{forgot_your_store_link}. Wenn Sie Ihren Shop reaktivieren möchten, kontaktieren Sie %{shopify_support_link}.",
+            "shopify_support_link_text": "Shopify-Support"
+          }
+        }
+      }
+    },
+    "notices": {
+      "customer": {
+        "subscribe_error": "Abonnementfehler",
+        "unsubscribe_error": "Abmeldefehler",
+        "no_account_found": "Kein Konto mit dieser E-Mail-Adresse gefunden.",
+        "invalid_credentials": "Falsche E-Mail oder falsches Passwort.",
+        "denylisted_reset_password": "Auf Ihr Konto konnte nicht zugegriffen werden, da das aktuelle Passwort nicht sicher ist. Sie erhalten eine E-Mail, um Ihr Passwort zu aktualisieren.",
+        "signup_disabled": "Die Erstellung von Kundenkonten wurde deaktiviert."
+      }
     }
   }
 }
