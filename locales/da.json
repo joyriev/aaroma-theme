@@ -3211,6 +3211,67 @@
               "other": "Du har {{count}} ventende ordrer"
             },
             "more_than_pagination_length": "Du har mere end {{count}} ventende ordrer"
+          },
+          "pagination": {
+            "nav_accessibility_label": "Ordrer under gennemgang navigationsknapper"
+          }
+        },
+        "order_list_column_headers_location": "Placering",
+        "removed_company_contact_tooltip": "Fjernet fra virksomheden"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Bekræftet {{date}} fra ordre {{draftOrderName}}",
+        "loading_finished_accessibility_message": "Ordredetaljer er blevet indlæst",
+        "payment_status": {
+          "pending": {
+            "banner_overdue": {
+              "one": "Din betaling er {{count}} dag forsinket",
+              "other": "Din betaling er {{count}} dage forsinket"
+            },
+            "title": "Betaling forfalder",
+            "title_with_date": "Betaling forfalder {{date}}",
+            "title_due_on_receipt": "Betaling ikke forfalden endnu",
+            "title_due_on_fulfillment": "Betaling forfalder ved opfyldelse",
+            "description_overdue": "Din betaling er forsinket.",
+            "description_partially_paid": "Denne ordre blev delvist betalt. Du har en resterende saldo.",
+            "description_authorized": "Din betalingsmetode vil blive opkrævet på forfaldsdatoen, eller du kan betale nu.",
+            "description_due_on_receipt": "Du vil modtage en faktura, når betalingen forfalder.",
+            "description_due_on_receipt_partially_paid": "Denne ordre blev delvist betalt. Du har en resterende saldo. Du vil modtage en faktura, når betalingen forfalder.",
+            "description_due_on_fulfillment": "Betaling forfalder, når alle varer i denne ordre er leveret.",
+            "description_due_on_fulfillment_partially_paid": "Denne ordre blev delvist betalt. Du har en resterende saldo. Betaling forfalder, når alle varer i denne ordre er leveret.",
+            "description_due_on_fulfillment_partially_paid_next": "Denne ordre blev delvist betalt. Du har en resterende saldo."
+          },
+          "draft": {
+            "description": "Betalingsoplysninger fastlægges, når ordren bekræftes.",
+            "title": "Betaling ikke forfalden endnu",
+            "in_review": {
+              "description": "Betalingsoplysninger fastlægges, når ordren bekræftes.",
+              "title": "Betaling ikke forfalden endnu"
+            },
+            "submitted": {
+              "deposit": {
+                "title": "Betaling forfalder",
+                "due_later": "Saldoen er på {{translatedName}}'s vilkår og forfalder den {{dueDate}}.",
+                "due_on_fulfillment": "Saldoen forfalder, når alle varer i denne ordre er leveret.",
+                "due_on_receipt": "Du vil modtage en faktura for den resterende saldo.",
+                "due_on_date": "Saldoen forfalder den {{dueDate}}."
+              }
+            },
+            "deposit": {
+              "due_later": "{{depositAmount}} forfalder, når din ordre er bekræftet. Restbeløbet vil være på {{translatedName}} vilkår.",
+              "due_on_fulfillment": "{{depositAmount}} forfalder, når din ordre er bekræftet. Restbeløbet forfalder, når ordren er opfyldt.",
+              "due_on_receipt": "{{depositAmount}} forfalder, når din ordre er bekræftet. Restbeløbet forfalder senere.",
+              "due_on_date": "{{depositAmount}} forfalder, når din ordre er bekræftet. Restbeløbet forfalder den {{dueDate}}."
+            }
+          },
+          "paid": {
+            "title_with_date": "Betalt {{date}}"
+          },
+          "refund": {
+            "title_with_date": "Refunderet {{date}}",
+            "description_full_refund": "Du har modtaget en fuld refusion for denne ordre.",
+            "description_single_refund": "Du har modtaget en delvis refusion for denne ordre.",
+            "description_multiple_refunds": "Du har modtaget delvise refusioner for denne ordre."
           }
         }
       }

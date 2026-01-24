@@ -3435,7 +3435,49 @@
         "permissions_label": "Ihre Berechtigungen",
         "shipping_address_required": "Fügen Sie eine Versandadresse zu diesem Standort hinzu, um mit der Bestellung zu beginnen.",
         "staff_and_permissions_title": "Personal und Berechtigungen",
-        "tax_details_title": "Steuerangaben"
+        "tax_details_title": "Steuerangaben",
+        "multiple_tax_exemptions": "{{taxExemptionsCount}} mehr",
+        "tax_exemption_not_applicable": "Nicht verfügbar"
+      },
+      "location_selection": {
+        "description": "Wenn Sie bereits Artikel in Ihrem Warenkorb haben, kann das Ändern des Standorts die Preise und Mengen im Warenkorb beeinflussen.",
+        "description_switch_later": "Sie können später jederzeit wechseln",
+        "list_loading_accessibility_message": "Lade Liste der Standorte",
+        "list_loading_finished_accessibility_message": "Liste der Standorte wurde geladen",
+        "loading_store_accessibility_message": "Zum Laden gehen",
+        "no_location_title": "Nur persönliche Bestellungen",
+        "no_location_description": "Sie haben keine Berechtigung mehr, Bestellungen für {{company}} aufzugeben. Persönliche Bestellungen können Sie weiterhin aufgeben.",
+        "search_location_title": "Wählen Sie einen Standort aus",
+        "selection_cancel_button": "Abbrechen",
+        "selection_confirmation_button": "Standort wählen",
+        "selection_continue_button": "Fortsetzen",
+        "title": "Für welchen Standort kaufen Sie ein?",
+        "title_choose_location": "Wählen Sie einen Standort aus",
+        "clear_search": "Suche löschen",
+        "try_new_search": "Versuchen Sie eine neue Suche"
+      },
+      "addresses": {
+        "add_shipping_address_button": "Versandadresse hinzufügen",
+        "add_shipping_address_section_accessibility_label": "Versandadresse hinzufügen",
+        "cancel_adding_shipping_address_accessibility_label": "Hinzufügen der Versandadresse abbrechen",
+        "save_new_billing_address_accessibility_label": "Rechnungsadresse sparen",
+        "save_new_shipping_address_accessibility_label": "Lieferadresse sparen"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all_accessibility_label": "Alle Bestellungen in der Überprüfung ausblenden",
+          "show_all_accessibility_label": "Alle Bestellungen in der Überprüfung anzeigen",
+          "show_all_orders_in_review": "Alle Bestellungen in der Überprüfung anzeigen",
+          "show_less_orders_in_review": "Weniger Bestellungen in der Überprüfung anzeigen",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "Sie haben keine ausstehenden Bestellungen",
+            "pending_orders": {
+              "one": "Sie haben {{count}} ausstehende Bestellung",
+              "other": "Sie haben {{count}} ausstehende Bestellungen"
+            },
+            "more_than_pagination_length": "Sie haben mehr als {{count}} ausstehende Bestellungen"
+          }
+        }
       }
     }
   }
