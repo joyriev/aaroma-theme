@@ -1774,6 +1774,62 @@
         "or_check_out_another_way": "Oder auf eine andere Weise zur Kasse gehen",
         "or_pay_with_credit_card": "Oder mit Kreditkarte bezahlen",
         "show_more_options": "Mehr Optionen anzeigen"
+      },
+      "post_purchase": {
+        "escape_confirmation": "Sie haben für Ihre Bestellung bezahlt.",
+        "components": {
+          "processing": "Verarbeitung…",
+          "submit": "Einreichen"
+        }
+      },
+      "processing": {
+        "redirecting_notice": "Bitte warten Sie, während wir Sie weiterleiten.",
+        "redirecting_to_bank": "Weiterleitung zu {{bank}}",
+        "complete_your_purchase_title": "Schließen Sie Ihren Kauf ab",
+        "continue_to_payment_gateway_notice": "Zur Zahlung fortfahren, um Ihre Zahlungsinformationen hinzuzufügen.",
+        "continue_to_payment_gateway_button_label": "Zur Zahlung fortfahren",
+        "complete_your_purchase_title_error": "Korrigieren Sie Ihre Zahlungsinformationen",
+        "continue_to_payment_gateway_notice_error": "Ihre Zahlungsinformationen konnten nicht verifiziert werden.",
+        "your_order_has_been_received_title": "Danke für Ihre Bestellung",
+        "you_will_receive_confirmation": "Wir erhalten gerade viele Bestellungen. Sie sollten bald eine Bestätigung per E-Mail oder SMS erhalten. Wenn Sie diese nicht innerhalb der nächsten Stunde bekommen, lassen Sie es uns wissen.",
+        "you_will_not_be_charged": "Sie werden noch nicht belastet.",
+        "wait": {
+          "short": "Ihre Bestellung wird bearbeitet.",
+          "medium": {
+            "one": "Ihre Bestellung wird bearbeitet. Die geschätzte Wartezeit beträgt %{count} Minute.",
+            "other": "Ihre Bestellung wird bearbeitet. Die geschätzte Wartezeit beträgt %{count} Minuten."
+          },
+          "long": "Sie erhalten eine E-Mail, sobald Ihre Bestellung bearbeitet wurde. Derzeit gibt es ein hohes Bestellaufkommen.",
+          "no_auto_refresh_html": "Wenn Sie nicht automatisch weitergeleitet werden, %{link}.",
+          "refresh_this_page": "diese Seite aktualisieren"
+        },
+        "remote_shops_payments_processing": "Zahlungen verarbeiten",
+        "action_required": "Handlung erforderlich"
+      },
+      "payment_challenge_modal": {
+        "instructions": "Schließen Sie Ihren Kauf mit Ihrem {{paymentMethod}}-Code ab",
+        "timer_message": "Sie haben {{timeLeft}} Zeit zu bezahlen",
+        "copy_text": "{{paymentMethod}} Code kopieren",
+        "open_app_text": "Öffnen Sie die {{paymentMethod}} App",
+        "header": "Bezahlen mit {{paymentMethod}}",
+        "qr_code": {
+          "instructions": "Schließen Sie Ihren Kauf mit Ihrem {{paymentMethod}}-Code ab"
+        },
+        "external": {
+          "instructions": "Bestätigen Sie die Zahlung in Ihrer App, um diesen Kauf abzuschließen"
+        },
+        "close": "Die Herausforderung abschließen"
+      },
+      "failed_payment": {
+        "page_title": "Die Zahlung konnte nicht verarbeitet werden",
+        "title": "Die Zahlung konnte nicht verarbeitet werden",
+        "payment_not_processed_title": "Ihre Zahlung konnte nicht verarbeitet werden",
+        "payment_not_processed_text": "Ihnen wurde nichts berechnet. Kehren Sie zu Ihrem Warenkorb zurück, um Ihren Kauf abzuschließen."
+      },
+      "payment_gateway": {
+        "bank_deposit_label": "Bankeinzahlung",
+        "cash_on_delivery_label": "Nachnahme (Barzahlung bei Lieferung)",
+        "money_order_label": "Postanweisung"
       }
     }
   }
