@@ -2661,6 +2661,142 @@
           "opt_out_html": "Om du inte vill dela denna information kan du <a style='text-decoration:underline;' href='%{link}'>avregistrera dig.</a>"
         }
       }
+    },
+    "search": {
+      "error": "Det uppstod ett problem när dina sökresultat skulle laddas. Vänligen uppdatera sidan eller försök igen senare.",
+      "sorting": {
+        "price_descending": "Pris, högst till lägst"
+      }
+    },
+    "page_titles": {
+      "shopping_cart": "Din Varukorg",
+      "order": "Beställ %{name}",
+      "search_results": {
+        "one": "Sök: %{count} resultat hittades för \"%{terms}\"",
+        "other": "Sök: %{count} resultat hittades för \"%{terms}\""
+      },
+      "collections": "Kollektioner",
+      "not_found": "404 Ej hittad",
+      "checkpoint": "Kontrollpunkt"
+    },
+    "cart": {
+      "discounts_with_count": "%{count} rabatter har tillämpats"
+    },
+    "challenge": {
+      "message": "För att fortsätta, låt oss veta att du inte är en robot.",
+      "error": "Ditt svar var inte korrekt, försök igen."
+    },
+    "checkpoint": {
+      "message": "Lös Captcha för att fortsätta",
+      "error": "Captcha-validering misslyckades"
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Vanligtvis klart inom 1 timme",
+        "two_hours": "Vanligtvis klart inom 2 timmar",
+        "four_hours": "Vanligtvis klart inom 4 timmar",
+        "twenty_four_hours": "Vanligtvis klart inom 24 timmar",
+        "two_to_four_days": "Vanligtvis klart inom 2-4 dagar",
+        "five_or_more_days": "Vanligtvis klart inom 5+ dagar",
+        "zero_to_two_hours": "Vanligtvis klart inom 2 timmar",
+        "two_to_four_hours": "Vanligtvis klart inom 4 timmar",
+        "immediately": "Redo för avhämtning nu",
+        "next_day": "Klar för avhämtning nästa dag"
+      }
+    },
+    "subscriptions": {
+      "buyer_consent_product": "Denna vara är ett återkommande eller uppskjutet köp. Genom att fortsätta godkänner jag %{cancellationPolicyLink} och ger dig tillåtelse att debitera min betalningsmetod till de priser, frekvenser och datum som anges på denna sida tills min beställning är fullföljd eller jag avbokar, om det är tillåtet.",
+      "buyer_consent_cart": "En eller flera av varorna i din kundvagn är ett återkommande eller uppskjutet köp. Genom att fortsätta godkänner jag %{cancellationPolicyLink} och ger dig tillstånd att debitera min betalningsmetod till de priser, frekvenser och datum som anges på denna sida tills min beställning är fullbordad eller jag avbokar, om det är tillåtet.",
+      "cancellation_policy": "avbokningspolicy"
+    }
+  },
+  "customer_accounts": {
+    "date": {
+      "humanize": {
+        "lessThanOneYearAgo": "{{date}} kl {{time}}",
+        "lessThanOneWeekAgo": "{{weekday}} kl {{time}}",
+        "yesterday": "Igår kl {{time}}",
+        "today": "Idag klockan {{time}}",
+        "tomorrow": "Imorgon klockan {{time}}",
+        "lessThanOneWeekAway": "{{weekday}} kl {{time}}",
+        "lessThanOneYearAway": "{{date}} kl {{time}}"
+      }
+    },
+    "enable_javascript": "För att visa ditt konto, aktivera JavaScript i dina webbläsarinställningar eller logga in med en annan webbläsare.",
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "Dölj kontomenyn"
+      },
+      "contact_email_subject": "Kontakt från {{shopName}} onlinebutik",
+      "delete_confirmation": {
+        "delete": "Ta bort"
+      },
+      "loading_policy_content_accessibility_label": "Laddar policys innehåll",
+      "logout_overlay_label": "Loggar ut...",
+      "orders_link_label": "Beställningar",
+      "shop_logo_accessibility_label": "{{shopName}} logotyp",
+      "location_switcher_toast_message": "Plats ändrad till {{locationName}}",
+      "try_new_search": "Prova en ny sökning",
+      "view_details": "Visa detaljer",
+      "skip_to_content": "Hoppa till innehåll"
+    },
+    "announcement_bar": {
+      "expand_label": "Expandera meddelandefältet",
+      "collapse_label": "Fäll ihop meddelandefältet",
+      "close_label": "Stäng meddelandefältet"
+    },
+    "account_information": {
+      "loading_accessibility_message": "Läser in kontoinformation",
+      "profile_card": {
+        "email_help_text": "E-post kan inte redigeras",
+        "editable_email_help_text": "Denna e-post används för inloggning och orderuppdateringar.",
+        "errors": {
+          "name_too_long": "{{fieldName}} är för långt (maximalt är 255 tecken)",
+          "name_cannot_contain_url": "{{fieldName}} kan inte innehålla en URL",
+          "name_cannot_contain_html_tags": "{{fieldName}} kan inte innehålla HTML-taggar",
+          "email_cant_be_blank": "E-post kan inte vara tom"
+        }
+      },
+      "verify_new_email_modal": {
+        "title": "Verifiera e-post",
+        "description": "Ange koden som skickades till {{email}}",
+        "one_time_password_label": "6-siffrig kod",
+        "email_resend_button_accessibility_label": "Skicka verifieringskoden igen",
+        "verify_button_accessibility_label": "Verifiera engångslösenordet",
+        "email_resend_button_success_toast_message": "Verifieringskod skickad",
+        "email_resend_button_error_banner_message": "Kunde inte skicka verifieringskod"
+      },
+      "email_update_success_modal": {
+        "title": "Verifiera e-post",
+        "description": "E-post uppdaterad. Omdirigerar till inloggning."
+      },
+      "profile_update_confirmation_message": "Profil uppdaterad",
+      "email_update_confirmation_message": "E-post uppdaterad till {{email}}",
+      "people": {
+        "pagination": {
+          "load_more": "Ladda mer",
+          "load_more_accessibility_label": "Ladda fler personer",
+          "loading_accessibility_label": "Laddar personer"
+        }
+      }
+    },
+    "orders": {
+      "list_layout_accessibility_label": "Layoutalternativ",
+      "list_title": "Beställningar",
+      "list_title_with_pending_orders": "Beställningar:",
+      "list_title_confirmed_orders_accessibility_label": "Beställningar: bekräftade",
+      "list_title_pending_orders_accessibility_label": "Beställningar: väntande",
+      "switch_order_type_pending_orders_accessibility_label": "Byt ordertyp, visar för närvarande väntande ordrar",
+      "switch_order_type_confirmed_orders_accessibility_label": "Byt ordertyp, visar för närvarande bekräftade beställningar",
+      "order_list": {
+        "column_headers": {
+          "order": "Beställning"
+        },
+        "empty_state_order_source_description": "Endast beställningar gjorda av {{email}} kommer att visas här.",
+        "empty_state_subtitle": "Gå till butiken för att lägga en beställning.",
+        "empty_state_title": "Inga beställningar än",
+        "empty_state_with_location_title": "Inga beställningar för {{locationName}}"
+      }
     }
   }
 }
