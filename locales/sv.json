@@ -3570,7 +3570,96 @@
       "minimumReached": "Minst {{value}} uppnått",
       "maximumReached": "Maximalt {{value}} uppnått",
       "april": "april",
-      "september": "september"
+      "september": "september",
+      "december": "december",
+      "tuesday": "tisdag",
+      "thursday": "torsdag",
+      "saturday": "lördag",
+      "tuesdayAbbreviation": "Du",
+      "wednesdayAbbreviation": "Vi",
+      "thursdayAbbreviation": "t:",
+      "fridayAbbreviation": "Franska",
+      "saturdayAbbreviation": "Så",
+      "sundayAbbreviation": "Su",
+      "rangeStart": "Sortimentsstart",
+      "inRange": "I sortimentet",
+      "rangeEnd": "Slut på sortimentet",
+      "autocompleteOptionsAvailable": {
+        "one": "{{count}} artikel tillgänglig",
+        "other": "{{count}} artiklar tillgängliga"
+      },
+      "removeTag": "Ta bort etikett",
+      "mapClusterTitle": {
+        "one": "Klustret av {{number}} markör",
+        "other": "Klustret av {{number}} markörer"
+      },
+      "expandSheet": "Expandera",
+      "dropzoneInvalidFileType": "Filtyp stöds inte",
+      "dropzoneDraggedOver": "Släpp filen för att ladda upp"
+    },
+    "profile_preview_bar": {
+      "hide_bar": "Dölj meny",
+      "saved_at": "Sparad {{date}} kl {{time}}",
+      "not_available": "Profildata inte tillgängliga"
+    },
+    "active_inspector": {
+      "extension": {
+        "unselect": "Avmarkera tillägget med namnet {{extensionName}}",
+        "move_down": "Flytta förlängningen till nästa position",
+        "move_up": "Flytta förlängningen till föregående position",
+        "move_down_tooltip": "Flytta till nästa position",
+        "move_up_tooltip": "Flytta till föregående position"
+      }
+    },
+    "editor": {
+      "link_new_tab_confirmation": "Den här länken kan inte öppnas i redigeraren. Den kommer att öppnas i ett nytt fönster ({{resolved_to_link}}). Klicka på OK för att fortsätta."
+    },
+    "settings": {
+      "loading_accessibility_message": "Laddar inställningssida",
+      "log_out_everywhere": {
+        "description": "Om du har förlorat en enhet eller har säkerhetsbekymmer, logga ut överallt för att säkerställa säkerheten för ditt konto.",
+        "warning_message": "Du kommer också att loggas ut på den här enheten."
+      }
+    },
+    "shop_ads": {
+      "title": "Andra produkter du kan gilla",
+      "subtitle": "Tillgänglig under en begränsad tid"
+    },
+    "knowledge_base": {
+      "self_serve_returns": {
+        "enabled": "Kunder kan själva begära och hantera returer."
+      }
+    },
+    "subscriptions": {
+      "update_payment_instrument": {
+        "title": "Byt betalningsmetod",
+        "loading": "Laddar betalningsmetoder",
+        "current_method": "Aktuell",
+        "success": "Betalningsmetod uppdaterad"
+      }
+    },
+    "intents": {
+      "subscription_replace_payment_method": {
+        "title": "Byt betalningsmetod",
+        "replace_with": "Ersätt med",
+        "add_new_payment_method": "Lägg till ny",
+        "loading": "Laddar modal för ersättning av betalningsmetod",
+        "invalid_subscription_contract": "Kan inte hitta prenumeration",
+        "expiry_date": "Utg. {{expiryDate}}",
+        "edit_current_payment_method": "Redigera nuvarande betalningsmetod"
+      }
+    },
+    "sign_in": {
+      "brand_logo_alt_text": "%{shop_name} Logotyp",
+      "processing": "Bearbetar…",
+      "step_one": {
+        "page_title": "Logga in - %{shop_name}"
+      },
+      "step_two": {
+        "page_title": "Ange kod - %{shop_name}",
+        "subheading": "Skickat till %{email}",
+        "input_field_label": "6-siffrig kod"
+      }
     }
   }
 }
