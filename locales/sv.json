@@ -3036,8 +3036,122 @@
         "store_credit_payment_details": "Butikskredit - {{formattedTransactionAmount}}",
         "shop_pay_installments": {
           "paid_in_installments": "Betalat med Shop Pay delbetalningar"
+        },
+        "manual_payment_methods": {
+          "money_order": "Postanvisning - {{formattedTransactionAmount}}",
+          "cash_on_delivery": "Kontant vid Leverans (COD) - {{formattedTransactionAmount}}",
+          "bank_deposit": "Bankinsättning - {{formattedTransactionAmount}}",
+          "manual": "Handbok - {{formattedTransactionAmount}}"
+        },
+        "transactions": {
+          "show_all": "Visa alla",
+          "details": "Detaljer"
+        },
+        "emv_details": {
+          "auth": "AUTENTISERING:",
+          "aid": "Hjälp:",
+          "source": "Vi säljer armbandsur och tillbehör för klockor. Vårt varumärke heter Pagani Design, var noga med att inte översätta varumärkesnamnet när det förekommer, så att varumärkesprofilen blir perfekt."
         }
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Betalat med Shop Pay delbetalningar",
+        "desktop_qr_code_content": {
+          "title": "Skanna för påminnelser",
+          "description": "Få påminnelser om dina delbetalningar med Shop."
+        }
+      },
+      "refunded_amount": "Återbetalat",
+      "request_return_failed": "Det uppstod ett problem när din förfrågan skulle behandlas. Vänligen försök igen.",
+      "login_card": {
+        "resend_link_and_login": "För att se dina orderdetaljer, logga in eller skicka en ny länk till den e-postadress eller det telefonnummer som användes vid kassan.",
+        "resend_link_only": "För att se dina orderdetaljer, skicka en ny länk till den e-postadress eller det telefonnummer som användes vid kassan."
+      },
+      "remaining_amount": "Kvar",
+      "marketing_description": "Du kommer att få marknadsföringsmejl. Du kan avregistrera dig när som helst.",
+      "marketing_checkbox_label": "Skicka nyheter och erbjudanden till mig via e-post",
+      "marketing_checkmark_label": "Du är prenumerant för att ta emot nyheter och erbjudanden via e-post",
+      "returns": {
+        "ineligible_return_message": "Inga artiklar i denna beställning är berättigade till retur.",
+        "ineligible_return_message_when_returned": "Inga ytterligare artiklar i denna beställning är berättigade till retur.",
+        "print_shipping_label": "Skriv ut fraktetikett",
+        "exchange_header": "Byt varor",
+        "exchange_subheader": "Bytessaker kommer att läggas till i beställningen när returen är slutförd."
+      },
+      "shipping": {
+        "method": "Fraktmetod",
+        "summary": "Frakt",
+        "one_time": "Engångsfrakt"
+      },
+      "show_order_summary": "Visa orderöversikt",
+      "subtitle": "Bekräftad {{date}}",
+      "summary_list_title_accessibility_label": "Beställningsartiklar",
+      "summary_title": "Orderöversikt",
+      "summary_totals_title_accessibility_label": "Ordertotaler",
+      "shop_order_tracking": {
+        "download_shop_to_track": "Ladda ner Shop för att spåra paketet",
+        "track_order_with_shop": "Spåra beställning med Shop",
+        "real_time_delivery_updates": "Butiken kommer att skicka realtidsuppdateringar om leveransen när din beställning har skickats."
+      },
+      "edit_summary": {
+        "added": "Tillagt",
+        "added_with_quantity": "Tillagd {{quantity}}",
+        "removed_with_quantity": "Borttaget {{quantity}}",
+        "updated_at": "Din beställning uppdaterades den {{date}}",
+        "returned": "Returnerat",
+        "returned_with_quantities": "Returnerat {{delta}} av {{total}}",
+        "removed_with_quantities": "Borttaget {{delta}} av {{total}}"
+      },
+      "shop_pay": {
+        "order_completed_with": "Beställning slutförd med",
+        "learn_more": "Lär dig mer"
+      },
+      "duties_and_taxes_included": "Totalt inkluderar tullavgifter och skatter. Inga extra avgifter vid leverans.",
+      "duties": "Tullar",
+      "ok_duties_tooltip": "Denna beställning skickas från ett annat land, så tullavgifter har lagts till i ditt orderbelopp.",
+      "error_duties_tooltip": "Denna beställning skickas från ett annat land, så tullavgifter och skatter kan tas ut vid leverans.",
+      "zero_duties_tooltip": "Denna beställning skickas från ett annat land. Tullavgifter tas inte ut på beställningar av detta värde.",
+      "title": "Beställ {{name}}",
+      "unit_price": "{{price}}/st",
+      "pagination": {
+        "load_more": "Ladda mer",
+        "load_more_accessibility_label": "Ladda fler artiklar",
+        "loading_accessibility_label": "Laddar artiklar"
+      },
+      "login_to_view_all_order_details": "Logga in för att se alla orderdetaljer.",
+      "logged_in_account_no_permission_to_order": "Du är inloggad som {{email}}. Detta konto har inte behörighet att hantera denna beställning.",
+      "fees": {
+        "restocking_fee": "påfyllningsavgift"
+      },
+      "link_sent": "Länk skickad",
+      "adjusted_payment": "Justering av betalning",
+      "adjusted_total": "Justerat totalt",
+      "due_on_fulfillment": "Förfallodag vid fullgörande",
+      "due_on_receipt": "Betalas vid mottagandet"
+    },
+    "addresses": {
+      "back_button_accessibility_label": "Tillbaka till redigering av adress {{address}}",
+      "add_address_banner": "Lägg till adresser att använda vid kassan",
+      "no_addresses_banner": "Inga adresser tillagda",
+      "address_deleted_notification": "Adress borttagen",
+      "cancel_adding_address_accessibility_label": "Avbryt tillägg av adress",
+      "delete_button": "Ta bort",
+      "delete_confirmation_message": "Ta bort adress? Befintliga beställningar påverkas inte.",
+      "delete_confirmation_title": "Ta bort adress?",
+      "delete_confirmation_description": "Befintliga beställningar påverkas inte.",
+      "loading_finished_accessibility_message": "Ny adresssida har laddats",
+      "pagination": {
+        "load_more": "Ladda mer",
+        "load_more_accessibility_label": "Ladda fler adresser"
       }
+    },
+    "address_form": {
+      "attention": "Uppmärksamhet",
+      "attention_company": "Företag/uppmärksamhet",
+      "attention_help_text": "Namnet på en person eller avdelning",
+      "auto_complete_close_accessibility_label": "Stäng förslag",
+      "cancel_accessibility_label": "Avbryt redigering av adress {{address}}",
+      "default_address": "Det här är min standardadress",
+      "loading_edit_form_accessibility_message": "Laddar formulär för att redigera adress"
     }
   }
 }
