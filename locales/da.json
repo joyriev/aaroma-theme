@@ -1301,7 +1301,46 @@
             "web_component_error": "Der opstod et problem med at indlæse denne side"
           }
         },
-        "saved_by_payment_method": "Gemt af %{payment_method}"
+        "saved_by_payment_method": "Gemt af %{payment_method}",
+        "same_billing_address_label": "Samme som leveringsadresse",
+        "billing_address_associated_with_mandate": "Brug adresse tilknyttet betalingsmetode",
+        "billing_address_associated_with_mandate_info": "Hvis du ønsker at ændre din faktureringsadresse, skal du fjerne og indtaste dine kreditkortoplysninger igen",
+        "free_order_notice_html": "Din ordre er <strong>gratis</strong>. Ingen betaling er påkrævet.",
+        "express_checkout_free_order": "Du vil ikke blive opkrævet for en gratis ordre",
+        "order_covered_by_gift_cards_notice": {
+          "one": "Din ordre er dækket af dit gavekort.",
+          "other": "Din ordre er dækket af dine gavekort."
+        },
+        "offsite_gateway_redirect_hint": "Du vil blive omdirigeret til %{gateway_label} for at fuldføre dit køb.",
+        "offsite_gateway_review_page_redirect_hint": "Efter du har gennemgået din ordre, bliver du sendt videre til %{gateway_label} for at fuldføre dit køb.",
+        "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label} samlet %{total_shop_price}",
+        "offsite_gateway_redirect_hint_no_button_label": "Du vil blive omdirigeret til %{gateway_label} for at fuldføre dit køb.",
+        "receiver_payment_experience_hint": "Efter du har afgivet din ordre, vil du modtage betalingsoplysninger. Foretag betalingen hos Multibanco eller online inden for %{due_days} dage.",
+        "billing_address_rollup_accessibility_label": "Faktureringsadresse muligheder",
+        "billing_address_description": "Vælg den adresse, der matcher dit kort eller din betalingsmetode.",
+        "no_js_credit_card_fields_redirect_hint": "Du vil blive omdirigeret for at tilføje dine betalingsoplysninger.",
+        "card_fields_container_prefix": "Feltbeholder til:",
+        "card_fields_unavailable_html": {
+          "one": "Betaling med kredit- og betalingskort er ikke tilgængelig lige nu.<br><a href=\"%{current_url}\">Opdater denne side</a> eller prøv igen senere.",
+          "other": "Betaling med kredit- og betalingskort er ikke tilgængelig lige nu.<br><a href=\"%{current_url}\">Opdater denne side</a> eller prøv en anden betalingsmetode."
+        },
+        "card_fields_processing_error": "Der opstod et problem med behandlingen af betalingen. Prøv at opdatere denne side eller tjek din internetforbindelse.",
+        "technical_error": "Betalinger kan ikke behandles lige nu på grund af et teknisk problem. Prøv igen om et par minutter.",
+        "no_method_error": "Denne butik kan ikke acceptere betalinger lige nu.",
+        "not_configured_error": "Denne butik kan ikke acceptere betalinger lige nu.",
+        "missing_credit_card_error": "Indtast dine kortoplysninger for at fuldføre betalingen",
+        "payment_method_not_available_for_shipping_address_error": "Betalingsmetode ikke tilgængelig for den valgte leveringsadresse. Vælg en anden betalingsmetode.",
+        "sofort_label": "Øjeblikkelig bankoverførsel",
+        "paypal_wallet_label": "PayPal Tegnebog",
+        "shop_pay_installments_label": "Shop Pay afbetalinger",
+        "continue_to_guest_checkout": "Fortsæt til gæsteudtjekning",
+        "paypal_modal": {
+          "order_contains_fixed_selling_plans": "Totalen inkluderer muligvis ikke skatter, forsendelse, udskudte gebyrer og nogle rabatter. Fortsæt til kassen for det skyldige beløb i dag."
+        },
+        "multibanco_label": "Multibank",
+        "eps_label": "eps-overførsel",
+        "klarna_slice_it_label": "Finansiering med Klarna",
+        "afterpay_label": "Efterbetaling"
       }
     }
   }
