@@ -1199,7 +1199,39 @@
         "third_party_address_error": "Der opstod en fejl under indlæsning af adressevalg. Indtast din adresse manuelt nedenfor.",
         "third_party_payment_timeout": "Kan ikke indlæse betalingsmetoder. Prøv igen eller brug en anden betalingsmetode.",
         "third_party_payment_error": "Der opstod en fejl under indlæsning af betalingsvalg. Brug en anden betalingsmetode.",
-        "address_default": "Indstil som standard"
+        "address_default": "Indstil som standard",
+        "different_shipping_method_summary": "Indtast en anden leveringsadresse for at se tilgængelige forsendelsesmetoder",
+        "invalid_shipping_method_summary": "Indtast en gyldig leveringsadresse for at se tilgængelige forsendelsesmetoder",
+        "invalid_shipping_method_summary_selected": "Vælg en anden leveringsadresse for at se tilgængelige leveringsmetoder",
+        "method_summary": {
+          "incomplete_address_entered": "Indtast en komplet leveringsadresse for at se tilgængelige forsendelsesmetoder",
+          "incomplete_address_selected": "Vælg en komplet leveringsadresse for at se tilgængelige forsendelsesmetoder"
+        },
+        "local_pickup": {
+          "rollup_title": "Afhentningssted",
+          "rollup_accessibility_label": "Afhentningssted muligheder"
+        },
+        "missing_shipping_address": "Forsendelsesadresse mangler",
+        "pre_order_ships_later": "Sendes senere",
+        "pre_order_ships_date": "Sendes %{date}",
+        "split_shipping_shipped_by_shop": "Sendt af %{shop_name}",
+        "split_shipping_shipment_notice": "Din ordre vil ankomme i %{quantity_shipments}",
+        "split_shipping_first_shipment_notice": "Din første ordre vil ankomme i %{quantity_shipments}",
+        "split_shipping_multiple_shipment_notice": "Din ordre vil ankomme i flere forsendelser",
+        "split_shipping_multiple_shipment_notice_one_time_purchase": "Din ordre vil ankomme i %{quantity} forsendelser",
+        "split_shipping_more_shipping_options": "Flere forsendelsesmuligheder",
+        "split_shipping_option_free": "Gratis shipping",
+        "split_shipping_option_fastest": "Hurtigst",
+        "split_shipping_option_recommended": "Anbefalet"
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "Yderligere information",
+          "shipping_credential_cn": "Bopæls-ID-nummer",
+          "tax_credential_it": "Skatteidentifikationsnummer (valgfrit)",
+          "tax_email_it": "PEC (valgfrit)",
+          "tax_credential_co": "Cédula/ Momsnummer"
+        }
       }
     }
   }

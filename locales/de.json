@@ -1213,7 +1213,51 @@
         "add_delivery_instructions": "Lieferanweisungen hinzufügen",
         "back": "Hinten",
         "address_more": "Weitere Aktionen für diese Adresse",
-        "address_confirm": "Sind Sie sicher, dass Sie diese Adresse aus Ihrem Konto löschen möchten?"
+        "address_confirm": "Sind Sie sicher, dass Sie diese Adresse aus Ihrem Konto löschen möchten?",
+        "address_form": {
+          "cancel": "Abbrechen",
+          "update": "Änderungen sparen",
+          "generic_error": "Beim Speichern Ihrer Adresse ist ein Problem aufgetreten. Bitte versuchen Sie es erneut.",
+          "one_time_address_subtitle": "Verwenden Sie für diese Bestellung eine Einmaladresse"
+        },
+        "different_shipping_method_summary": "Geben Sie eine andere Lieferadresse ein, um verfügbare Versandmethoden anzuzeigen",
+        "invalid_shipping_method_summary": "Geben Sie eine gültige Versandadresse ein, um verfügbare Versandmethoden anzuzeigen",
+        "invalid_shipping_method_summary_selected": "Wählen Sie eine andere Versandadresse, um verfügbare Versandmethoden anzuzeigen",
+        "method_summary": {
+          "incomplete_address_entered": "Geben Sie eine vollständige Versandadresse ein, um verfügbare Versandmethoden anzuzeigen",
+          "incomplete_address_selected": "Wählen Sie eine vollständige Versandadresse aus, um verfügbare Versandmethoden anzuzeigen"
+        },
+        "local_pickup": {
+          "search_address": "Adresse suchen",
+          "rollup_accessibility_label": "Abholort-Optionen"
+        },
+        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} mehr",
+        "split_shipping_merchandise_shipment_number": "Sendung %{number} von %{total}",
+        "pre_order_ships_now": "Schiffe jetzt",
+        "pre_order_ships_later": "Versendet später",
+        "pre_order_ships_date": "Versendet am %{date}",
+        "split_shipping_shipped_by_shop": "Versandt von %{shop_name}",
+        "split_shipping_multiple_shipment_label": "Mehrere Sendungen",
+        "split_shipping_shipping_label": "Methode",
+        "split_shipping_shipment_notice": "Ihre Bestellung wird in %{quantity_shipments} ankommen",
+        "split_shipping_first_shipment_notice": "Ihre erste Bestellung wird in %{quantity_shipments} eintreffen",
+        "split_shipping_multiple_shipment_quantity_label": "%{quantity} Sendungen",
+        "split_shipping_multiple_shipment_notice": "Ihre Bestellung wird in mehreren Lieferungen ankommen",
+        "split_shipping_multiple_shipment_notice_one_time_purchase": "Ihre Bestellung wird in %{quantity} Lieferungen ankommen",
+        "split_shipping_more_shipping_options": "Mehr Versandoptionen",
+        "split_shipping_shipment_number": "Sendung %{number}",
+        "split_shipping_option_free": "Kostenloser Versand",
+        "split_shipping_option_fastest": "Schnellste",
+        "add_shipping_address": "Versandadresse hinzufügen",
+        "choose_new_address": "Wählen Sie eine neue Adresse aus"
+      },
+      "localized_fields": {
+        "additional_information": {
+          "shipping_credential_kr": "Persönlicher Zollcode",
+          "shipping_credential_cn": "Ausweisnummer",
+          "tax_credential_it": "Steueridentifikationsnummer (optional)",
+          "tax_credential_co": "Ausweis/Mehrwertsteuer"
+        }
       }
     }
   }
