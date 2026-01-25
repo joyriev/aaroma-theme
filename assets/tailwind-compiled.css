@@ -41,6 +41,10 @@
     inset: 0px
 }
 
+.-bottom-4 {
+    bottom: -16px
+}
+
 .-right-2 {
     right: -8px
 }
@@ -200,6 +204,10 @@
     margin-bottom: 0px !important
 }
 
+.\!mb-6 {
+    margin-bottom: 24px !important
+}
+
 .\!mt-6 {
     margin-top: 24px !important
 }
@@ -250,6 +258,10 @@
 
 .mt-0 {
     margin-top: 0px
+}
+
+.mt-1 {
+    margin-top: 4px
 }
 
 .mt-10 {
@@ -327,6 +339,11 @@
     aspect-ratio: 1 / 1
 }
 
+.\!size-5 {
+    width: 20px !important;
+    height: 20px !important
+}
+
 .size-10 {
     width: 40px;
     height: 40px
@@ -337,9 +354,19 @@
     height: 48px
 }
 
+.size-16 {
+    width: 64px;
+    height: 64px
+}
+
 .size-20 {
     width: 80px;
     height: 80px
+}
+
+.size-4 {
+    width: 16px;
+    height: 16px
 }
 
 .size-5 {
@@ -469,6 +496,10 @@
     flex-shrink: 0
 }
 
+.shrink-0 {
+    flex-shrink: 0
+}
+
 .flex-grow {
     flex-grow: 1
 }
@@ -500,6 +531,10 @@
     cursor: pointer
 }
 
+.grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr))
+}
+
 .grid-cols-10 {
     grid-template-columns: repeat(10, minmax(0, 1fr))
 }
@@ -514,10 +549,6 @@
 
 .grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr))
-}
-
-.grid-cols-1 {
-    grid-template-columns: repeat(1, minmax(0, 1fr))
 }
 
 .grid-rows-3 {
@@ -582,6 +613,12 @@
     margin-left: calc(4px * calc(1 - var(--tw-space-x-reverse)))
 }
 
+.space-y-1 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(4px * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(4px * var(--tw-space-y-reverse))
+}
+
 .space-y-2 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(8px * calc(1 - var(--tw-space-y-reverse)));
@@ -606,6 +643,10 @@
     white-space: nowrap
 }
 
+.text-nowrap {
+    text-wrap: nowrap
+}
+
 .rounded {
     border-radius: 4px
 }
@@ -616,6 +657,10 @@
 
 .rounded-lg {
     border-radius: 8px
+}
+
+.rounded-md {
+    border-radius: 6px
 }
 
 .rounded-sm {
@@ -643,6 +688,10 @@
     border-width: 2px
 }
 
+.border-\[3px\] {
+    border-width: 3px
+}
+
 .border-y {
     border-top-width: 1px;
     border-bottom-width: 1px
@@ -662,6 +711,11 @@
 
 .border-dashed {
     border-style: dashed
+}
+
+.border-\[\#22613A\] {
+    --tw-border-opacity: 1;
+    border-color: rgb(34 97 58 / var(--tw-border-opacity, 1))
 }
 
 .border-\[\#9a7a48\] {
@@ -741,6 +795,11 @@
 .bg-\[\#f9f6f5\] {
     --tw-bg-opacity: 1;
     background-color: rgb(249 246 245 / var(--tw-bg-opacity, 1))
+}
+
+.bg-\[\#faf9f6\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(250 249 246 / var(--tw-bg-opacity, 1))
 }
 
 .bg-black {
@@ -979,6 +1038,10 @@
     padding-left: 40px
 }
 
+.pl-12 {
+    padding-left: 48px
+}
+
 .pl-2 {
     padding-left: 8px
 }
@@ -1009,10 +1072,6 @@
 
 .pt-8 {
     padding-top: 32px
-}
-
-.pl-12 {
-    padding-left: 48px
 }
 
 .text-left {
@@ -1233,6 +1292,10 @@
     text-decoration-line: none
 }
 
+.accent-\[\#22613A\] {
+    accent-color: #22613A
+}
+
 .opacity-70 {
     opacity: 0.7
 }
@@ -1429,6 +1492,12 @@
 .focus\:border-green-700:focus {
     --tw-border-opacity: 1;
     border-color: rgb(21 128 61 / var(--tw-border-opacity, 1))
+}
+
+.focus\:shadow-none:focus {
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
 }
 
 .focus\:outline-none:focus {
@@ -1668,6 +1737,10 @@
 
 .\[\&\>p\:last-child\]\:mb-0>p:last-child {
     margin-bottom: 0px
+}
+
+.\[\&\>svg\]\:fill-\[\#22613A\]>svg {
+    fill: #22613A
 }
 
 .\[\&\>ul\]\:pl-6>ul {
