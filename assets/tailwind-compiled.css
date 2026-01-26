@@ -284,6 +284,10 @@
     margin-top: 32px
 }
 
+.mr-3 {
+    margin-right: 12px
+}
+
 .line-clamp-2 {
     overflow: hidden;
     display: -webkit-box;
@@ -713,9 +717,9 @@
     border-style: dashed
 }
 
-.border-\[\#22613A\] {
+.border-\[\#96743f\] {
     --tw-border-opacity: 1;
-    border-color: rgb(34 97 58 / var(--tw-border-opacity, 1))
+    border-color: rgb(150 116 63 / var(--tw-border-opacity, 1))
 }
 
 .border-\[\#9a7a48\] {
@@ -777,6 +781,11 @@
     background-color: rgb(128 94 41 / var(--tw-bg-opacity, 1))
 }
 
+.bg-\[\#96743f\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(150 116 63 / var(--tw-bg-opacity, 1))
+}
+
 .bg-\[\#9a7a48\] {
     --tw-bg-opacity: 1;
     background-color: rgb(154 122 72 / var(--tw-bg-opacity, 1))
@@ -797,9 +806,9 @@
     background-color: rgb(249 246 245 / var(--tw-bg-opacity, 1))
 }
 
-.bg-\[\#faf9f6\] {
+.bg-\[\#ffffff\] {
     --tw-bg-opacity: 1;
-    background-color: rgb(250 249 246 / var(--tw-bg-opacity, 1))
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1))
 }
 
 .bg-black {
@@ -879,6 +888,11 @@
 .bg-white {
     --tw-bg-opacity: 1;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1))
+}
+
+.bg-\[\#faf6f5\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(250 246 245 / var(--tw-bg-opacity, 1))
 }
 
 .bg-opacity-50 {
@@ -1080,6 +1094,14 @@
 
 .text-center {
     text-align: center
+}
+
+.font-serif {
+    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif
+}
+
+.font-sans {
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
 }
 
 .text-2xl {
@@ -1292,8 +1314,8 @@
     text-decoration-line: none
 }
 
-.accent-\[\#22613A\] {
-    accent-color: #22613A
+.accent-\[\#96743f\] {
+    accent-color: #96743f
 }
 
 .opacity-70 {
@@ -1739,8 +1761,8 @@
     margin-bottom: 0px
 }
 
-.\[\&\>svg\]\:fill-\[\#22613A\]>svg {
-    fill: #22613A
+.\[\&\>svg\]\:fill-\[\#96743f\]>svg {
+    fill: #96743f
 }
 
 .\[\&\>ul\]\:pl-6>ul {
