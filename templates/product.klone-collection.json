@@ -20,6 +20,13 @@
           "type": "inspiration",
           "settings": {}
         },
+        "text_jLPRqF": {
+          "type": "text",
+          "settings": {
+            "text": "Eau de Parfum. Size: 50ml / 1.7oz",
+            "text_style": "body"
+          }
+        },
         "custom_liquid_8FkfUe": {
           "type": "custom_liquid",
           "settings": {
@@ -112,6 +119,7 @@
       "block_order": [
         "title",
         "inspiration_BarYit",
+        "text_jLPRqF",
         "custom_liquid_8FkfUe",
         "price",
         "variant_picker",
