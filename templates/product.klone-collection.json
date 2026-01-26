@@ -139,6 +139,33 @@
             "content": "<p>Because we don’t charge for hype.<br/><br/>No celebrity faces. No gold-plated bottles. No retail markups.<br/>We keep it simple, clean packaging, premium scent, fair price.<br/><br/>We sell directly to you, not through middlemen who inflate prices.<br/>So instead of paying $150+ for a fancy name, you’re paying $29.99 for quality that lasts.<br/><br/>That’s not cheap. That’s just smart.</p>",
             "page": ""
           }
+        },
+        "collapsible_tab_kAzmhV": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Is it perfumed water?",
+            "icon": "none",
+            "content": "<p>Not even close.<br/><br/>Every Aaroma scent is a 25% Eau de Parfum, one of the highest concentrations you can get.<br/>Most designer brands stop at 15–20%. We go further.<br/><br/>What that means for you:<br/><br/>Lasts up to 10–12 hours<br/><br/>Projects stronger, lingers longer<br/><br/>You need fewer sprays<br/><br/>It’s not body spray. It’s a statement.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_jqXYDn": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Do Aaroma perfumes smell like designer fragrances?",
+            "icon": "none",
+            "content": "<p>Same notes. Same concentration. Same craftsmanship.<br/><br/>We recreate each scent using high-grade oils and meticulous blending, so yes, it smells just like the one that costs five times more.<br/><br/>In blind tests, people can’t tell them apart. The only difference?<br/>You’re not paying for a designer logo or a glass sculpture bottle.<br/><br/>The luxury is in the scent — and that’s exactly what you’re getting.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_iCEaKz": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Are your scents long-lasting?",
+            "icon": "none",
+            "content": "<p>Absolutely. 12+ Hrs<br/><br/>Each bottle holds a 25% EDP formula built to last through your day—<br/>from morning meetings to midnight memories.<br/><br/>Spray it once, and it stays with you.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -156,7 +183,10 @@
         "complementary_3LfheX",
         "accordion_T6rrCe",
         "collapsible_tab_kP4ErU",
-        "collapsible_tab_7x3PJg"
+        "collapsible_tab_7x3PJg",
+        "collapsible_tab_kAzmhV",
+        "collapsible_tab_jqXYDn",
+        "collapsible_tab_iCEaKz"
       ],
       "settings": {
         "enable_sticky_info": true,
