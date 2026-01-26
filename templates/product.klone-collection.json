@@ -20,8 +20,15 @@
           "type": "inspiration",
           "settings": {}
         },
+        "custom_liquid_8FkfUe": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% render 'klone-collection' %}"
+          }
+        },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {}
         },
         "variant_picker": {
@@ -47,6 +54,7 @@
         },
         "bundleoffer_HTgdLX": {
           "type": "bundleoffer",
+          "disabled": true,
           "settings": {
             "bundletext": ""
           }
@@ -104,6 +112,7 @@
       "block_order": [
         "title",
         "inspiration_BarYit",
+        "custom_liquid_8FkfUe",
         "price",
         "variant_picker",
         "quantity_selector",
