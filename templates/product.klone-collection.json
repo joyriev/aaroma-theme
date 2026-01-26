@@ -125,9 +125,9 @@
         "collapsible_tab_kP4ErU": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "content": "",
+            "heading": "Ingredients:",
+            "icon": "none",
+            "content": "<p>Alcohol Denat., Parfum (Fragrance), Aqua (Water), Ethylhexylglycerin, Tetramethyl acetyloctahydronaphthalenes, Hexamethylindanopyran, Linalyl Acetate, Limonene, Citrus Aurantium Bergamia Peel Oil, Linalool, Citrus Limon Peel Oil, Pogostemon Cablin Oil, Pinene, Citrus Aurantium Peel Oil, Citral, Hydroxycitronellal</p>",
             "page": ""
           }
         }
