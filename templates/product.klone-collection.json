@@ -130,6 +130,15 @@
             "content": "<p>Alcohol Denat., Parfum (Fragrance), Aqua (Water), Ethylhexylglycerin, Tetramethyl acetyloctahydronaphthalenes, Hexamethylindanopyran, Linalyl Acetate, Limonene, Citrus Aurantium Bergamia Peel Oil, Linalool, Citrus Limon Peel Oil, Pogostemon Cablin Oil, Pinene, Citrus Aurantium Peel Oil, Citral, Hydroxycitronellal</p>",
             "page": ""
           }
+        },
+        "collapsible_tab_7x3PJg": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Why are your perfumes so affordable?",
+            "icon": "none",
+            "content": "<p>Because we don’t charge for hype.<br/><br/>No celebrity faces. No gold-plated bottles. No retail markups.<br/>We keep it simple, clean packaging, premium scent, fair price.<br/><br/>We sell directly to you, not through middlemen who inflate prices.<br/>So instead of paying $150+ for a fancy name, you’re paying $29.99 for quality that lasts.<br/><br/>That’s not cheap. That’s just smart.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -146,7 +155,8 @@
         "icon_with_text_RjwHCq",
         "complementary_3LfheX",
         "accordion_T6rrCe",
-        "collapsible_tab_kP4ErU"
+        "collapsible_tab_kP4ErU",
+        "collapsible_tab_7x3PJg"
       ],
       "settings": {
         "enable_sticky_info": true,
