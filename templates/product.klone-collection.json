@@ -12,6 +12,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "custom_rating_text_VR8b9w": {
+          "type": "custom_rating_text",
+          "settings": {
+            "text": "4.9/5 Rated (3,926 Reviews)"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {}
@@ -117,6 +123,7 @@
         }
       },
       "block_order": [
+        "custom_rating_text_VR8b9w",
         "title",
         "inspiration_BarYit",
         "text_jLPRqF",
