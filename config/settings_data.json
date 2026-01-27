@@ -155,6 +155,11 @@
         "type": "shopify://apps/t-lab-ai-language-translate/blocks/custom_translations/b5b83690-efd4-434d-8c6a-a5cef4019faf",
         "disabled": false,
         "settings": {}
+      },
+      "4677439793077996495": {
+        "type": "shopify://apps/pixee-facebook-pixel/blocks/facebook-pixel/61bbb1d9-d4be-4d08-879a-ee3ccb59f558",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
