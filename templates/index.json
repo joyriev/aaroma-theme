@@ -208,51 +208,6 @@
         "title_head": "Featured In"
       }
     },
-    "collection_list_DDFLim": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_73H8YB": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "women",
-            "custom_image": "shopify://shop_images/women_2.png"
-          }
-        },
-        "featured_collection_YyWy38": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "men",
-            "custom_image": "shopify://shop_images/pic.png"
-          }
-        },
-        "featured_collection_QppiMM": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "unisex",
-            "custom_image": "shopify://shop_images/unisex_2.png"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_73H8YB",
-        "featured_collection_YyWy38",
-        "featured_collection_QppiMM"
-      ],
-      "name": "t:sections.collection-list.presets.name",
-      "settings": {
-        "title": "Featured Category",
-        "overlaytext": true,
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "image_and_text_GzX9N3": {
       "type": "image-and-text",
       "blocks": {
@@ -356,38 +311,6 @@
         "bgcolor": "#f5eee7",
         "heading": "Selecting your scent has never been easier or more affordable"
       }
-    },
-    "tab_collection_product_frX8WY": {
-      "type": "tab-collection-product",
-      "blocks": {
-        "collection_tab_YdTD3m": {
-          "type": "collection_tab",
-          "settings": {
-            "tab_title": "WOMEN",
-            "tab_subtitle": "Starting at Rs. 2,800",
-            "collection": "women"
-          }
-        }
-      },
-      "block_order": [
-        "collection_tab_YdTD3m"
-      ],
-      "name": "Collection Tabs",
-      "settings": {
-        "heading": "Best Sellers",
-        "shop_all_link": "shopify://collections/jewel-collection",
-        "products_to_show": 8,
-        "columns_desktop": "4",
-        "columns_mobile": "2",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": true,
-        "quick_add": "below",
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
     }
   },
   "order": [
@@ -396,9 +319,7 @@
     "tab_collection_product_TgPfKA",
     "collection_list_eXacPD",
     "home_quotes_slider_8jpRQH",
-    "collection_list_DDFLim",
     "image_and_text_GzX9N3",
-    "icon_features_section_7XHKNH",
-    "tab_collection_product_frX8WY"
+    "icon_features_section_7XHKNH"
   ]
 }
