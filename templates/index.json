@@ -242,7 +242,7 @@
         "background_color": "#fcfbf9",
         "title": "Popular Products",
         "description": "<p>“Hands down the best dupes I’ve tried. They last for hours once applied—and I’m already planning my next order.”<br/>— <strong>Jim Rogers</strong></p>",
-        "collection": "best-scents-best-prices",
+        "collection": "top-sellers",
         "button_text": "View All",
         "button_link": "shopify://collections/all",
         "padding_top": 72,
@@ -531,6 +531,7 @@
         "category_yXjfNN": {
           "type": "category",
           "settings": {
+            "image": "shopify://shop_images/usd_-_30ml_-_4_bottles.png",
             "text": "Bundle & Save",
             "link": "shopify://collections/bundle-save"
           }
@@ -538,8 +539,9 @@
         "category_JatE79": {
           "type": "category",
           "settings": {
+            "image": "shopify://shop_images/men_1.png",
             "text": "For Him",
-            "link": "shopify://collections/man"
+            "link": "shopify://collections/men"
           }
         },
         "category_kcgbew": {
