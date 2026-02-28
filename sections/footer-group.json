@@ -27,30 +27,30 @@
         "image_aEwGgP": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/catsoft-logo.svg",
-            "image_width": 120,
+            "image": "shopify://shop_images/Aaroma.png",
+            "image_width": 140,
             "alignment": ""
           }
         },
         "link_list_VCpt9M": {
           "type": "link_list",
           "settings": {
-            "heading": "About Us",
+            "heading": "Shop",
             "menu": "footer"
           }
         },
         "link_list_nemT7J": {
           "type": "link_list",
           "settings": {
-            "heading": "Information",
-            "menu": "information"
+            "heading": "Order & Support",
+            "menu": "footer-links"
           }
         },
         "text_FEF8Xw": {
           "type": "text",
           "settings": {
             "heading": "Contact",
-            "subtext": "<p>Address: 113 Jalan Besar, Singapore 08833<br/><br/>European head office: Kurfürstendamm 11, 10719 Berlin, Germany</p><p><strong>Phone:</strong>+18883736114</p><p><strong>Email:</strong><a href=\"mailto:hello@tryscent.co\">hello@tryscent.co</a></p><p>TryScent is a subsidiary of Mommente IT Pte Ltd. 202228899M</p>"
+            "subtext": "<p>Address: 113 Jalan Besar, Singapore 08833<br/><br/>European head office: Kurfürstendamm 11, 10719 Berlin, Germany<br/><br/>Phone:+13607433221<br/><br/>Aaroma is a subsidiary of Mommente IT Pte Ltd.</p>"
           }
         }
       },
@@ -61,9 +61,10 @@
         "text_FEF8Xw"
       ],
       "settings": {
-        "color_scheme": "scheme-4",
+        "color_scheme": "scheme-2",
         "newsletter_enable": false,
         "newsletter_heading": "Newsletter",
+        "newsletter_description": "Subscribe to receive updates, access to exclusive deals, and more.",
         "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": false,
