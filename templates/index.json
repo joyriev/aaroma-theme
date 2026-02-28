@@ -574,62 +574,6 @@
         "padding_bottom": 72
       }
     },
-    "makes_different_list_YjiDH8": {
-      "type": "makes-different-list",
-      "blocks": {
-        "list_item_LLAAfL": {
-          "type": "list_item",
-          "settings": {
-            "title": "Inspired by Luxury Icons",
-            "description": "without the inflated price tags"
-          }
-        },
-        "list_item_Y8PNCx": {
-          "type": "list_item",
-          "settings": {
-            "title": "Clean, Cruelty-Free Formulas",
-            "description": "for peace of mind"
-          }
-        },
-        "list_item_yxDVcQ": {
-          "type": "list_item",
-          "settings": {
-            "title": "Smells That Last All Day",
-            "description": "no top note vanishing act"
-          }
-        },
-        "list_item_htAiEB": {
-          "type": "list_item",
-          "settings": {
-            "title": "Mini Sizes to Test First",
-            "description": "before you commit to full bottles"
-          }
-        },
-        "list_item_bhN48G": {
-          "type": "list_item",
-          "settings": {
-            "title": "Free Returns Within 60 Days",
-            "description": "just in case it’s not love at first spritz"
-          }
-        }
-      },
-      "block_order": [
-        "list_item_LLAAfL",
-        "list_item_Y8PNCx",
-        "list_item_yxDVcQ",
-        "list_item_htAiEB",
-        "list_item_bhN48G"
-      ],
-      "name": "Makes Different",
-      "settings": {
-        "background_color": "#ffffff",
-        "makes_diferent_title": "What Makes TryScent Different? Everything That Matters.",
-        "makes-different-btn-text": "BUY 2 GET 1 FREE - ENDS SOON!",
-        "makes-different-btn-link": "",
-        "padding_top": 72,
-        "padding_bottom": 72
-      }
-    },
     "massive_review_section": {
       "type": "massive-review",
       "blocks": {
@@ -1144,7 +1088,6 @@
     "image_and_text",
     "special_offer_bogo_NqVrAK",
     "home_category_wNQCfP",
-    "makes_different_list_YjiDH8",
     "massive_review_section",
     "our_bestsellers_niPBnL",
     "175501299681a2aa62",
