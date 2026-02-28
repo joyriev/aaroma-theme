@@ -16,7 +16,6 @@
           "type": "story",
           "settings": {
             "title": "Tom Ford",
-            "image": "shopify://shop_images/Tom_ford.avif",
             "link": "shopify://collections/tomford®"
           }
         },
@@ -24,7 +23,6 @@
           "type": "story",
           "settings": {
             "title": "Baccarat",
-            "image": "shopify://shop_images/Baccarat_Rouge.png",
             "link": "shopify://collections/baccarat-rouge®"
           }
         },
@@ -32,7 +30,6 @@
           "type": "story",
           "settings": {
             "title": "LV",
-            "image": "shopify://shop_images/new-arribals.png",
             "link": "shopify://collections/louis-vuitton®"
           }
         },
@@ -40,7 +37,6 @@
           "type": "story",
           "settings": {
             "title": "Creed",
-            "image": "shopify://shop_images/Creed.png",
             "link": "shopify://collections/creed®"
           }
         },
@@ -48,7 +44,6 @@
           "type": "story",
           "settings": {
             "title": "Dior",
-            "image": "shopify://shop_images/dior.avif",
             "link": "shopify://collections/dior®"
           }
         },
@@ -57,7 +52,6 @@
           "disabled": true,
           "settings": {
             "title": "Xerjoff",
-            "image": "shopify://shop_images/xerjoff.avif",
             "link": ""
           }
         }
@@ -73,33 +67,12 @@
       "disabled": true,
       "settings": {}
     },
-    "homepage_hero_GDeBtq": {
-      "type": "homepage-hero",
-      "name": "Homepage Hero",
-      "settings": {
-        "background_color": "#faf9f6",
-        "background_image": "shopify://shop_images/banner_b437ab73-972d-433d-922b-817e1168a76c.webp",
-        "mobile_background_image": "shopify://shop_images/tryscent-mobile-home-bg.png",
-        "review_text": "LOVED BY 10,000 CUSTOMERS",
-        "title": "Luxury Scents. Without Luxury Prices.",
-        "subtitle": "Iconic fragrances, decoded. Same quality, smarter price.",
-        "button_text": "Buy 2 Get 1 Free",
-        "button_link": "shopify://products/tryscent-collection",
-        "secondary_button_text": "Not sure yet? Explore More →",
-        "secondary_button_link": "shopify://collections/bundle-save",
-        "padding_top": 80,
-        "padding_bottom": 80,
-        "mobile_padding_top": 36,
-        "mobile_padding_bottom": 400
-      }
-    },
     "home_hero_banner_qmaB3G": {
       "type": "home-hero-banner",
-      "disabled": true,
       "name": "Home Hero Banner",
       "settings": {
-        "image": "shopify://shop_images/tryscent_banner_v2_pc.webp",
-        "mobile_image": "shopify://shop_images/tryscent_banner_v2.webp",
+        "image": "shopify://shop_images/header_-_usd.png",
+        "mobile_image": "shopify://shop_images/mobile_header_-_usd.png",
         "link": "shopify://products/4-x-100ml-perfume-bottles"
       }
     },
@@ -110,35 +83,30 @@
           "type": "label",
           "disabled": true,
           "settings": {
-            "icon": "shopify://shop_images/fast-delivery-truck-van-svgrepo-com.svg",
             "label": "FREE SHIPPING ON ORDERS ABOVE $50"
           }
         },
         "label_MXGigr": {
           "type": "label",
           "settings": {
-            "icon": "shopify://shop_images/save-pound-svgrepo-com.svg",
             "label": "SAVE UPTO 50% OFF WITH OUR BUNDLES & GIFT SETS"
           }
         },
         "label_iFULPM": {
           "type": "label",
           "settings": {
-            "icon": "shopify://shop_images/verified-svgrepo-com.svg",
             "label": "100% Authentic TryScent formulation"
           }
         },
         "label_8KQqAa": {
           "type": "label",
           "settings": {
-            "icon": "shopify://shop_images/achievement-svgrepo-com.svg",
             "label": "EXPERT-CURATED COLLECTIONS"
           }
         },
         "label_LMktzF": {
           "type": "label",
           "settings": {
-            "icon": "shopify://shop_images/money-back-business-warranty-satisfaction-marketing-guaranted-svgrepo-com.svg",
             "label": "RISK-FREE 60 DAYS MONEY BACK GUARANTEE"
           }
         }
@@ -160,21 +128,18 @@
         "review_LM3NkM": {
           "type": "review",
           "settings": {
-            "review_image": "shopify://shop_images/eloquent_1.png",
             "review_content": "“Everything I’ve ordered smells amazing and the scent really lasts!”"
           }
         },
         "review_Lgzbga": {
           "type": "review",
           "settings": {
-            "review_image": "shopify://shop_images/vogue.png",
             "review_content": "“A lovely pick for holiday vibes or a quick, charming gift.”"
           }
         },
         "review_m4Wt3r": {
           "type": "review",
           "settings": {
-            "review_image": "shopify://shop_images/cosmopolitan_1.png",
             "review_content": "“This feels so authentic, and last longer than we thought.”"
           }
         }
@@ -198,7 +163,6 @@
         "perks_CBpKqp": {
           "type": "perks",
           "settings": {
-            "perk_image": "shopify://shop_images/icons_eu.webp",
             "perk_title": "Made in the EU",
             "perk_content": "Vegan, cruelty-free, and made in the EU."
           }
@@ -206,7 +170,6 @@
         "perks_Ynh4gw": {
           "type": "perks",
           "settings": {
-            "perk_image": "shopify://shop_images/icons_quality.webp",
             "perk_title": "French Quality Standard",
             "perk_content": "Crafted with the same attention to detail as designer brands."
           }
@@ -214,7 +177,6 @@
         "perks_Cj3EAR": {
           "type": "perks",
           "settings": {
-            "perk_image": "shopify://shop_images/icons_guarantee.webp",
             "perk_title": "Money-Back Guarantee",
             "perk_content": "We accept products back within 60 days for a refund."
           }
@@ -222,7 +184,6 @@
         "perks_iX4iTY": {
           "type": "perks",
           "settings": {
-            "perk_image": "shopify://shop_images/icons_time.webp",
             "perk_title": "Long-Lasting",
             "perk_content": "Lasts for 12+ hours (some say longer)."
           }
@@ -246,21 +207,15 @@
       "blocks": {
         "featured_on_jax6rH": {
           "type": "featured_on",
-          "settings": {
-            "featured_on_image": "shopify://shop_images/eloquent_1.png"
-          }
+          "settings": {}
         },
         "featured_on_kcEXCA": {
           "type": "featured_on",
-          "settings": {
-            "featured_on_image": "shopify://shop_images/vogue.png"
-          }
+          "settings": {}
         },
         "featured_on_ViMby9": {
           "type": "featured_on",
-          "settings": {
-            "featured_on_image": "shopify://shop_images/cosmopolitan_1.png"
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -352,21 +307,18 @@
         "perk_wnTHMw": {
           "type": "perk",
           "settings": {
-            "icon": "shopify://shop_images/sandwatch.svg",
             "text": "Lasts 12+ Hours"
           }
         },
         "perk_VkFF3N": {
           "type": "perk",
           "settings": {
-            "icon": "shopify://shop_images/heart.svg",
             "text": "loved by 10,000+"
           }
         },
         "perk_cG7y8p": {
           "type": "perk",
           "settings": {
-            "icon": "shopify://shop_images/sheild-star.svg",
             "text": "60 day satisfaction guarantee"
           }
         }
@@ -379,8 +331,6 @@
       "disabled": true,
       "name": "Special Offer",
       "settings": {
-        "background_image": "shopify://shop_images/Frame_349.png",
-        "offer_image": "shopify://shop_images/Group_27.png",
         "offer_text": "Special Offer",
         "offer_title": "Buy More, Get More Free",
         "offer_description": "Choose your perfect bundle and receive matching free bottles in the same size: 30ml, 50ml, or 100ml.",
@@ -397,7 +347,6 @@
         "collection_t6NHM7": {
           "type": "collection",
           "settings": {
-            "image": "shopify://shop_images/explore.png",
             "heading": "Scents For Women",
             "subheading": "100+ scents to choose from",
             "button_text": "Explore",
@@ -408,7 +357,6 @@
         "collection_zqtLKY": {
           "type": "collection",
           "settings": {
-            "image": "shopify://shop_images/scent-for-men-explore-img.png",
             "heading": "Scents For Men",
             "subheading": "100+ scents to choose from",
             "button_text": "Explore",
@@ -436,7 +384,6 @@
         "testimonial_3jMx8n": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/explore.png",
             "name": "Marcus R.",
             "quote": "I didn’t expect much, but this is my new signature. It smells expensive, lasts all day, and actually turns heads."
           }
@@ -444,7 +391,6 @@
         "testimonial_Bh4nVA": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/explore.png",
             "name": "Marcus R.",
             "quote": "I didn’t expect much, but this is my new signature. It smells expensive, lasts all day, and actually turns heads."
           }
@@ -452,7 +398,6 @@
         "testimonial_P4hxWQ": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/explore.png",
             "name": "Marcus R.",
             "quote": "I didn’t expect much, but this is my new signature. It smells expensive, lasts all day, and actually turns heads."
           }
@@ -460,7 +405,6 @@
         "testimonial_yja8kV": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/explore.png",
             "name": "Marcus R.",
             "quote": "I didn’t expect much, but this is my new signature. It smells expensive, lasts all day, and actually turns heads."
           }
@@ -468,7 +412,6 @@
         "testimonial_MGyB3e": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/explore.png",
             "name": "Marcus R.",
             "quote": "I didn’t expect much, but this is my new signature. It smells expensive, lasts all day, and actually turns heads."
           }
@@ -476,7 +419,6 @@
         "testimonial_EQziDc": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/explore.png",
             "name": "Marcus R.",
             "quote": "I didn’t expect much, but this is my new signature. It smells expensive, lasts all day, and actually turns heads."
           }
@@ -545,21 +487,18 @@
         "perk_HrfwXR": {
           "type": "perk",
           "settings": {
-            "icon": "shopify://shop_images/sandwatch.svg",
             "text": "Lasts 12+ Hours"
           }
         },
         "perk_d4dqHJ": {
           "type": "perk",
           "settings": {
-            "icon": "shopify://shop_images/heart.svg",
             "text": "loved by 10,000+"
           }
         },
         "perk_9CajQF": {
           "type": "perk",
           "settings": {
-            "icon": "shopify://shop_images/sheild-star.svg",
             "text": "60 day satisfaction guarantee"
           }
         }
@@ -572,8 +511,6 @@
       "disabled": true,
       "name": "Special Offer",
       "settings": {
-        "background_image": "shopify://shop_images/special-offer-two-bg.png",
-        "offer_image": "shopify://shop_images/special-offer-two-bottle.png",
         "offer_text": "Special Offer",
         "offer_title": "Your Next Signature Scent, Trial-Sized.",
         "offer_description": "Not ready to commit? Our travel-size perfumes let you explore luxe fragrances one spritz at a time.Perfect for pockets, purses, and perfume commitment issues.",
@@ -590,7 +527,6 @@
         "category_yXjfNN": {
           "type": "category",
           "settings": {
-            "image": "shopify://shop_images/website_bundle.webp",
             "text": "Bundle & Save",
             "link": "shopify://collections/bundle-save"
           }
@@ -598,7 +534,6 @@
         "category_JatE79": {
           "type": "category",
           "settings": {
-            "image": "shopify://shop_images/website_him.webp",
             "text": "For Him",
             "link": "shopify://collections/man"
           }
@@ -606,7 +541,6 @@
         "category_kcgbew": {
           "type": "category",
           "settings": {
-            "image": "shopify://shop_images/ugc12.png",
             "text": "For Her",
             "link": "shopify://collections/woman"
           }
@@ -614,7 +548,6 @@
         "category_PLwfRa": {
           "type": "category",
           "settings": {
-            "image": "shopify://shop_images/website_unisex.webp",
             "text": "Unisex",
             "link": "shopify://collections/unisex"
           }
@@ -683,7 +616,6 @@
       "settings": {
         "background_color": "#ffffff",
         "makes_diferent_title": "What Makes TryScent Different? Everything That Matters.",
-        "makes-different-image": "shopify://shop_images/makes-different-img_6a2b529a-e439-40fc-9580-88d632f61ea6.png",
         "makes-different-btn-text": "BUY 2 GET 1 FREE - ENDS SOON!",
         "makes-different-btn-link": "",
         "padding_top": 72,
@@ -696,7 +628,6 @@
         "review_gF6wKD": {
           "type": "review",
           "settings": {
-            "review_image": "shopify://shop_images/ugc8.png",
             "content": "<p>\"This is my first purchase and I am hooked. I will never purchase perfume from anywhere else again. I could never find a dupe scent that really smelled authentic and consistent.\"</p>",
             "author": "Killian P.",
             "date": "1 day ago",
@@ -730,10 +661,8 @@
         "review_VrkHXh": {
           "type": "review",
           "settings": {
-            "review_image": "shopify://shop_images/dupestore_3221df98-e409-4141-82ec-bdbe62af3756.jpg",
             "content": "<p>\"Been trying to find scents that smell expensive as well as lasted long, to no avail. The fit is exactly what I was looking for..\"</p>",
             "author": "Tiana N.",
-            "author_image": "shopify://shop_images/ugc15.png",
             "date": "2 days ago",
             "rating": 4,
             "show_verified_badge": true,
@@ -798,7 +727,6 @@
         "review_DzktgE": {
           "type": "review",
           "settings": {
-            "review_image": "shopify://shop_images/ugc7.png",
             "content": "<p>\"Is perfect and the beautiful 🥰🥰🥰\"</p>",
             "author": "Lidis A.",
             "date": "2 Months ago",
@@ -810,7 +738,6 @@
         "review_YpX9h9": {
           "type": "review",
           "settings": {
-            "review_image": "shopify://shop_images/ugc15.png",
             "content": "<p>\"Huele muy bien, me fascinó\"</p>",
             "author": "Castillo B.",
             "date": "3 Months ago",
@@ -921,7 +848,6 @@
         "review_UfaJJE": {
           "type": "review",
           "settings": {
-            "review_image": "shopify://shop_images/ugc3.png",
             "content": "<p>\"The product came in nicely. The perfume wasnt broken, didnt leak and was in good shape. Scent is perfect and didnt reek bad oder. I love it, high quality\"</p>",
             "author": "Roxanne S",
             "date": "5 Months ago",
@@ -999,7 +925,6 @@
         "review_RNkDTG": {
           "type": "review",
           "settings": {
-            "review_image": "shopify://shop_images/ugc1.png",
             "content": "<p>\"Great brand and great products!\"</p>",
             "author": "Juliana B",
             "date": "4 Months ago",
@@ -1150,35 +1075,30 @@
           "type": "label",
           "disabled": true,
           "settings": {
-            "icon": "shopify://shop_images/fast-delivery-truck-van-svgrepo-com.svg",
             "label": "FREE SHIPPING ON ORDERS ABOVE $50"
           }
         },
         "label_3jXRHH": {
           "type": "label",
           "settings": {
-            "icon": "shopify://shop_images/save-pound-svgrepo-com.svg",
             "label": "SAVE UPTO 50% OFF WITH OUR BUNDLES & GIFT SETS"
           }
         },
         "label_eBrDcC": {
           "type": "label",
           "settings": {
-            "icon": "shopify://shop_images/verified-svgrepo-com.svg",
             "label": "100% AUTHENTIC"
           }
         },
         "label_pNxYCF": {
           "type": "label",
           "settings": {
-            "icon": "shopify://shop_images/achievement-svgrepo-com.svg",
             "label": "EXPERT-CURATED COLLECTIONS"
           }
         },
         "label_jRHLQB": {
           "type": "label",
           "settings": {
-            "icon": "shopify://shop_images/money-back-business-warranty-satisfaction-marketing-guaranted-svgrepo-com.svg",
             "label": "RISK-FREE 60 DAYS MONEY BACK GUARANTEE"
           }
         }
@@ -1203,7 +1123,6 @@
   },
   "order": [
     "insta_story",
-    "homepage_hero_GDeBtq",
     "home_hero_banner_qmaB3G",
     "marquee_labels_RLdqpN",
     "magazine_reviews_AeDF9g",
