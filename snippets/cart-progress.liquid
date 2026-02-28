@@ -23,7 +23,7 @@
     <div class="relative h-3 bg-gray-200 rounded-full mb-4">
       <!-- Progress bar -->
       <div
-        class="absolute top-0 left-0 h-full bg-[#ac8956] !block rounded-full"
+        class="absolute top-0 left-0 h-full bg-[#3f2120] !block rounded-full"
         style="width: {{ cart_total | times: 50 | divided_by: milestone_amount }}%;"
         id="progress-bar"></div>
 
@@ -32,11 +32,11 @@
         <span class="text-xs leading-none font-bold text-center">3+1</span>
       </div>
 
-      <div class="absolute top-[-15px] left-[50%] [transform:translateX(-50%)] bg-white border-2 border-solid rounded-full text-xs {% if milestone_amount > cart_total %}border-gray-200{% else %}border-[#ac8956]{% endif %}" id="shipping-pill">
+      <div class="absolute top-[-15px] left-[50%] [transform:translateX(-50%)] bg-white border-2 border-solid rounded-full text-xs {% if milestone_amount > cart_total %}border-gray-200{% else %}border-[#3f2120]{% endif %}" id="shipping-pill">
         <span class="text-xs leading-none font-bold text-center">Free Ship</span>
       </div>
 
-      <div class="absolute top-[-15px] left-[90%] [transform:translateX(-50%)] bg-white border-2 border-solid rounded-full text-xs {% if milestone_50_euro > cart_total %}border-gray-200{% else %}border-[#ac8956]{% endif %}" id="checkpoint-50-euro">
+      <div class="absolute top-[-15px] left-[90%] [transform:translateX(-50%)] bg-white border-2 border-solid rounded-full text-xs {% if milestone_50_euro > cart_total %}border-gray-200{% else %}border-[#3f2120]{% endif %}" id="checkpoint-50-euro">
         <span class="text-xs leading-none font-bold text-center">€50</span>
       </div>
     </div>
