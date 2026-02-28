@@ -547,13 +547,15 @@
         "category_kcgbew": {
           "type": "category",
           "settings": {
+            "image": "shopify://shop_images/women_3.png",
             "text": "For Her",
-            "link": "shopify://collections/woman"
+            "link": "shopify://collections/women"
           }
         },
         "category_PLwfRa": {
           "type": "category",
           "settings": {
+            "image": "shopify://shop_images/unisex_1.png",
             "text": "Unisex",
             "link": "shopify://collections/unisex"
           }
