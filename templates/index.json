@@ -382,6 +382,55 @@
         "padding_bottom": 72
       }
     },
+    "home_category_wNQCfP": {
+      "type": "home-category",
+      "blocks": {
+        "category_yXjfNN": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/usd_-_30ml_-_4_bottles.png",
+            "text": "Bundle & Save",
+            "link": "shopify://collections/bundle-save"
+          }
+        },
+        "category_JatE79": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/men_1.png",
+            "text": "For Him",
+            "link": "shopify://collections/men"
+          }
+        },
+        "category_kcgbew": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/women_3.png",
+            "text": "For Her",
+            "link": "shopify://collections/women"
+          }
+        },
+        "category_PLwfRa": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/unisex_1.png",
+            "text": "Unisex",
+            "link": "shopify://collections/unisex"
+          }
+        }
+      },
+      "block_order": [
+        "category_yXjfNN",
+        "category_JatE79",
+        "category_kcgbew",
+        "category_PLwfRa"
+      ],
+      "name": "Home Categories",
+      "settings": {
+        "background_color": "#fcfbf9",
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
     "here_from_them_wccxKG": {
       "type": "here-from-them",
       "blocks": {
@@ -521,55 +570,6 @@
         "offer_sub_description": "",
         "offer_button_text": "BUY 4 for $44.00 Only",
         "offer_button_link": "https://tryscent.co/products/4-x-100ml-perfume-bottles",
-        "padding_top": 72,
-        "padding_bottom": 72
-      }
-    },
-    "home_category_wNQCfP": {
-      "type": "home-category",
-      "blocks": {
-        "category_yXjfNN": {
-          "type": "category",
-          "settings": {
-            "image": "shopify://shop_images/usd_-_30ml_-_4_bottles.png",
-            "text": "Bundle & Save",
-            "link": "shopify://collections/bundle-save"
-          }
-        },
-        "category_JatE79": {
-          "type": "category",
-          "settings": {
-            "image": "shopify://shop_images/men_1.png",
-            "text": "For Him",
-            "link": "shopify://collections/men"
-          }
-        },
-        "category_kcgbew": {
-          "type": "category",
-          "settings": {
-            "image": "shopify://shop_images/women_3.png",
-            "text": "For Her",
-            "link": "shopify://collections/women"
-          }
-        },
-        "category_PLwfRa": {
-          "type": "category",
-          "settings": {
-            "image": "shopify://shop_images/unisex_1.png",
-            "text": "Unisex",
-            "link": "shopify://collections/unisex"
-          }
-        }
-      },
-      "block_order": [
-        "category_yXjfNN",
-        "category_JatE79",
-        "category_kcgbew",
-        "category_PLwfRa"
-      ],
-      "name": "Home Categories",
-      "settings": {
-        "background_color": "#fcfbf9",
         "padding_top": 72,
         "padding_bottom": 72
       }
@@ -1084,10 +1084,10 @@
     "review_grid_H3xfHP",
     "special_offer_bogo_nMzyNp",
     "shop_by_fHtnnB",
+    "home_category_wNQCfP",
     "here_from_them_wccxKG",
     "image_and_text",
     "special_offer_bogo_NqVrAK",
-    "home_category_wNQCfP",
     "massive_review_section",
     "our_bestsellers_niPBnL",
     "175501299681a2aa62",
