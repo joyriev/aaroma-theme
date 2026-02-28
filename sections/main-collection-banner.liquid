@@ -12,63 +12,11 @@
 <div class="collection-hero{% if section.settings.show_collection_image and collection.image %} collection-hero--with-image{% endif %} color-{{ section.settings.color_scheme }} gradient">
   <div class="collection-hero__inner page-width {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
     <div class="collection-hero__text-wrapper">
-      <nav class="collection__breadcrumbs">
-        <a href="/" class="link link--text list-menu__item list-menu__item--link">Home /</a>
-        <a href="/collections" class="link link--text list-menu__item list-menu__item--link">Collections /</a>
-        <a href="#" aria-current="page" class="link link--text list-menu__item list-menu__item--link">{{ collection.title }}</a>
-      </nav>
       <h1 class="collection-hero__title">
         <span class="visually-hidden">{{ 'sections.collection_template.title' | t }}: </span>
         {{- collection.title | escape -}}
       </h1>
 
-   <!-- Swiper sub collections container -->  
-  {% assign subcollection = linklists[section.settings.subcollections] %}
-  {% if subcollection.links.size > 0 %}
-      <div class="swiper-list-container">
-        <div class="collection__tabs swiper">
-          <ul class="list-menu swiper-wrapper" role="list">
-            {% for link in subcollection.links %}
-              {% assign link_path = link.url | remove: shop.url %}
-              {% assign current_path = collection.url %}
-
-              <li class="Linklist__Item swiper-slide">
-                {% if link_path == current_path %}
-                  <a href="{{ link.url }}" class="link list-menu__item link--active">
-                    {{ link.title }}
-                  </a>
-                {% else %}
-                  <a href="{{ link.url }}" class="link list-menu__item">
-                    {{ link.title }}
-                  </a>
-                {% endif %}
-              </li>
-            {% endfor %}
-          </ul>
-        </div>
-      </div>
-
-      <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        const swiper = new Swiper(".collection__tabs", {
-          slidesPerView: 5,
-          spaceBetween: 10,
-          loop: false,
-          navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-          }
-        });
-
-        const activeSlide = document.querySelector(".collection__tabs .link--active")?.closest(".swiper-slide");
-        if (activeSlide) {
-          const index = [...activeSlide.parentElement.children].indexOf(activeSlide);
-          swiper.slideTo(index, 0);
-        }
-      });
-      </script>
-    {% endif %}
-    {% comment %} END List sub collection {% endcomment %}
       {%- if section.settings.show_collection_description -%}
         <div class="collection-hero__description rte">{{ collection.description }}</div>
       {%- endif -%}
@@ -105,11 +53,6 @@
     {
       "type": "paragraph",
       "content": "t:sections.main-collection-banner.settings.paragraph.content"
-    },
-    {
-      "type": "link_list",
-      "id": "subcollections",
-      "label": "Select Sub Collection Menu"
     },
     {
       "type": "checkbox",

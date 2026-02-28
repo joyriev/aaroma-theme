@@ -74,9 +74,6 @@
   flex-grow: 1;
   margin-bottom: 0;
   margin-top: 0;
-  font-size: 18px;
-  font-weight: 600;
-  font-family: 'Commuters Sans';
 }
 
 .cart-notification__heading .icon-checkmark {
@@ -123,24 +120,4 @@
 .cart-notification-product__name {
   margin-bottom: 0.5rem;
   margin-top: 0;
-  font-size: 14px;
-  font-weight: 400;
-  font-family: 'Commuters Sans';
-}
-body .product-option {
-    font-size: 12px;
-    font-weight: 400;
-    font-family: 'Commuters Sans';
-    color: #000;
-    line-height: 18px;
-}
-#cart-notification{
-    padding-bottom:10px;
-}
-#cart-notification button.link.button-label {
-    margin-top: 10px;
-    font-size: 14px;
-    font-family: 'Commuters Sans';
-    font-weight: 600;
-    color: #000;
 }

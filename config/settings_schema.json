@@ -2,7 +2,7 @@
   {
     "name": "theme_info",
     "theme_name": "Dawn",
-    "theme_version": "15.4.0",
+    "theme_version": "15.3.0",
     "theme_author": "Shopify",
     "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes",
     "theme_support_url": "https://support.shopify.com/"
@@ -30,17 +30,6 @@
         "id": "favicon",
         "label": "t:settings_schema.logo.settings.favicon.label",
         "info": "t:settings_schema.logo.settings.favicon.info"
-      }
-    ]
-  },
-  {
-    "name": "Mobile Menu",
-    "settings": [
-      {
-        "type": "link_list",
-        "id": "mobile_menu",
-        "default": "main-menu",
-        "label": "Mobile Menu"
       }
     ]
   },
@@ -165,7 +154,7 @@
         "id": "page_width",
         "min": 1000,
         "max": 1600,
-        "step": 10,
+        "step": 100,
         "default": 1200,
         "unit": "px",
         "label": "t:settings_schema.layout.settings.page_width.label"
@@ -1378,11 +1367,6 @@
         "id": "predictive_search_enabled",
         "default": true,
         "label": "t:settings_schema.search_input.settings.predictive_search_enabled.label"
-      },
-      {
-        "type": "collection",
-        "id": "search_collection",
-        "label": "Seach Suggestion collection"
       },
       {
         "type": "checkbox",

@@ -11,70 +11,74 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "our_bestsellers_7jXxQY": {
+      "type": "our-bestsellers",
+      "disabled": true,
+      "name": "Our Bestsellers",
+      "settings": {
+        "background_color": "#226139",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
-        "image_VFi7Mx": {
+        "image_aEwGgP": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Aaroma.png",
-            "image_width": 195,
-            "alignment": "center"
+            "image": "shopify://shop_images/catsoft-logo.svg",
+            "image_width": 120,
+            "alignment": ""
           }
         },
-        "link_list_d6Tiya": {
+        "link_list_VCpt9M": {
           "type": "link_list",
           "settings": {
-            "heading": "Shop",
+            "heading": "About Us",
             "menu": "footer"
           }
         },
-        "link_list_MqG3Lb": {
+        "link_list_nemT7J": {
           "type": "link_list",
           "settings": {
-            "heading": "Order & Support",
-            "menu": "footer-links"
+            "heading": "Information",
+            "menu": "information"
           }
         },
-        "brand_information_cxACfd": {
-          "type": "brand_information",
-          "disabled": true,
-          "settings": {
-            "show_social": true
-          }
-        },
-        "text_8LQW7j": {
+        "text_FEF8Xw": {
           "type": "text",
           "settings": {
             "heading": "Contact",
-            "subtext": "<p>Address: 113 Jalan Besar, Singapore 08833<br/><br/>European head office: Kurfürstendamm 11, 10719 Berlin, Germany <br/><br/>Phone:+13607433221<br/><br/>Aaroma is a subsidiary of Mommente IT Pte Ltd.</p>"
+            "subtext": "<p>Address: 113 Jalan Besar, Singapore 08833<br/><br/>European head office: Kurfürstendamm 11, 10719 Berlin, Germany</p><p><strong>Phone:</strong>+18883736114</p><p><strong>Email:</strong><a href=\"mailto:hello@tryscent.co\">hello@tryscent.co</a></p><p>TryScent is a subsidiary of Mommente IT Pte Ltd. 202228899M</p>"
           }
         }
       },
       "block_order": [
-        "image_VFi7Mx",
-        "link_list_d6Tiya",
-        "link_list_MqG3Lb",
-        "brand_information_cxACfd",
-        "text_8LQW7j"
+        "image_aEwGgP",
+        "link_list_VCpt9M",
+        "link_list_nemT7J",
+        "text_FEF8Xw"
       ],
       "settings": {
         "color_scheme": "scheme-4",
         "newsletter_enable": false,
-        "newsletter_heading": "Join Our Mailing List to be the First to know about exclusive offers and sales",
+        "newsletter_heading": "Newsletter",
+        "newsletter_description": "Subscribe to receive updates, access to exclusive deals, and more.",
         "enable_follow_on_shop": true,
         "show_social": true,
-        "enable_country_selector": true,
-        "enable_language_selector": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
         "payment_enable": true,
-        "show_policy": true,
+        "show_policy": false,
         "margin_top": 0,
-        "padding_top": 60,
+        "padding_top": 56,
         "padding_bottom": 36
       }
     }
   },
   "order": [
+    "our_bestsellers_7jXxQY",
     "footer"
   ]
 }

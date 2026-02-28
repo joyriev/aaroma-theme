@@ -62,52 +62,6 @@ details[open].menu-opening > .menu-drawer__submenu {
   visibility: hidden; /* hide menus from screen readers when hidden by submenu */
 }
 
-@media (max-width: 990px) {
-  body .menu-drawer__navigation-container {
-  display: block;
-  border-top: 1px solid rgba(0, 0, 0, .1);
-  margin-top: 5px;
-  background:#fff;
-  z-index:99999;
-  position:relative;
-}
-.header--has-social .menu-drawer__utility-links{
-  background:transparent;
-}
-body .menu-drawer__account{
-  text-decoration: none;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    text-align: left;
-    color: #000;
-    padding: 24px;
-    border-bottom: 1px solid rgba(0, 0, 0, .1);
-    font-family: Commuters Sans;
-    display:inline-flex;
-    width:100%;
-    max-width:100%;
-}
-body .header--has-social .menu-drawer__utility-links {
-  padding: 0px;
-}
-body .menu-drawer .list-social {
-  justify-content: flex-start;
-  margin:0;
-  padding:20px;
-}
-.search-modal__content.search-modal__content-bottom {
-    width: 100%;
-    max-width: 100%;
-    border-bottom: 1px solid rgba(0, 0, 0, .1);
-    border-top: 1px solid rgba(0, 0, 0, .1);
-    padding-top: 82px;
-    z-index: 99999;
-    padding-bottom: 42px;
-    background: #ffff;
-}
-}
-
 @media screen and (min-width: 750px) {
   .menu-drawer {
     width: 40rem;
@@ -115,28 +69,15 @@ body .menu-drawer .list-social {
     border-style: solid;
     border-color: rgba(var(--color-foreground), var(--drawer-border-opacity));
   }
-
 }
 
 .menu-drawer__inner-container {
   position: relative;
   height: 100%;
-  background:#fff;
-  z-index:999;
-}
-
-.menu-drawer__navigation-container {
-  display: grid;
-  grid-template-rows: 1fr auto;
-  align-content: space-between;
-  overflow-y: auto;
-  height: 100%;
 }
 
 .menu-drawer__navigation {
-  padding: 0;
-  margin-top:15px;
-  border-top:1px solid rgba(0,0,0,.1);
+  padding-bottom: 3rem;
 }
 
 .menu-drawer__inner-submenu {
@@ -150,16 +91,9 @@ body .menu-drawer .list-social {
 }
 
 .menu-drawer__menu-item {
-  padding: 24px;
+  padding: 1.1rem 3rem;
   text-decoration: none;
-  font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    text-align: left;
-    color: #000;
-    padding: 24px;
-    border-bottom: 1px solid rgba(0, 0, 0, .1);
-    font-family: 'Commuters Sans';
+  font-size: 1.8rem;
 }
 
 .menu-drawer summary.menu-drawer__menu-item {
@@ -298,4 +232,39 @@ body .menu-drawer .list-social {
     filter: none !important;
     transition: none !important;
   }
+}
+
+/* IntelliGems Menu Drawer */
+.menu-drawer__navigation .grid-cols-2,
+.menu-drawer__inner-container .grid-cols-3 {
+  display: grid !important;
+}
+.menu-drawer__inner-container .menu-drawer__menu {
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-top: 24px;
+}
+.js .menu-drawer__menu li {
+    margin-bottom: .7rem !important;
+}
+
+.menu-drawer__inner-container .menu-drawer__menu-item {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background-color: #fff;
+}
+.menu-drawer__inner-container .menu-drawer__menu-item>.svg-wrapper {
+    color: #fff;
+    background-color: #000;
+    height: 30px;
+    width: 30px;
+    padding: 7px;
+    border-radius: 99px;
+    right: 1rem;
+}
+/* hide first 2 items */
+.js .menu-drawer__menu li:first-child,
+.js .menu-drawer__menu li:nth-child(2) {
+  display: none;
 }

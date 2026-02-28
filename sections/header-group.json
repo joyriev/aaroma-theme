@@ -11,155 +11,92 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
-    "marquee_iPEzYy": {
-      "type": "marquee",
+    "marquee_labels_CjAgNU": {
+      "type": "marquee-labels",
       "blocks": {
-        "message_jJmPfQ": {
-          "type": "message",
+        "label_Qg6CjC": {
+          "type": "label",
+          "disabled": true,
           "settings": {
-            "text": "Save Up To 50% With Our Bundles & Gift Sets"
+            "icon": "shopify://shop_images/fast-delivery-truck-van-svgrepo-com.svg",
+            "label": "FREE SHIPPING ON ORDERS ABOVE $50"
           }
         },
-        "message_pYbzAR": {
-          "type": "message",
+        "label_h4EKbX": {
+          "type": "label",
           "settings": {
-            "text": "Free Shipping on Orders Over ₹999"
+            "icon": "shopify://shop_images/save-pound-svgrepo-com.svg",
+            "label": "SAVE UPTO 50% OFF WITH OUR BUNDLES & GIFT SETS"
+          }
+        },
+        "label_yJphg9": {
+          "type": "label",
+          "settings": {
+            "icon": "shopify://shop_images/verified-svgrepo-com.svg",
+            "label": "100% AUTHENTIC"
+          }
+        },
+        "label_nYhF3R": {
+          "type": "label",
+          "settings": {
+            "icon": "shopify://shop_images/achievement-svgrepo-com.svg",
+            "label": "EXPERT-CURATED COLLECTIONS"
+          }
+        },
+        "label_RqnDUx": {
+          "type": "label",
+          "settings": {
+            "icon": "shopify://shop_images/money-back-business-warranty-satisfaction-marketing-guaranted-svgrepo-com.svg",
+            "label": "RISK-FREE 60 DAYS MONEY BACK GUARANTEE"
           }
         }
       },
       "block_order": [
-        "message_jJmPfQ",
-        "message_pYbzAR"
+        "label_Qg6CjC",
+        "label_h4EKbX",
+        "label_yJphg9",
+        "label_nYhF3R",
+        "label_RqnDUx"
       ],
       "disabled": true,
-      "name": "Marquee Banner",
-      "settings": {
-        "background_color": "#f5f5f5",
-        "text_color": "#000000",
-        "animation_speed": 51
-      }
+      "name": "Marquee Labels",
+      "settings": {}
     },
-    "announcement-bar": {
-      "type": "announcement-bar",
-      "blocks": {
-        "announcement-bar-0": {
-          "type": "announcement",
-          "settings": {
-            "text": "BLACK FRIDAY EXCLUSIVE SALE:",
-            "text1": "BUY 2 GET 1 FREE",
-            "link": "shopify://collections/all"
-          }
-        }
-      },
-      "block_order": [
-        "announcement-bar-0"
-      ],
+    "offer_announcement_cN6pMF": {
+      "type": "offer-announcement",
+      "name": "Offer Announcement",
       "disabled": true,
       "settings": {
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "color_scheme": "scheme-2",
-        "show_line_separator": true,
-        "show_social": false,
-        "enable_country_selector": false,
-        "enable_language_selector": false
+        "background_color": "#114325",
+        "prepend_text": "Valentine Offer",
+        "link_text": "Buy 2 Get 1 Free!",
+        "append_text": "Shop Now 👉",
+        "link": "shopify://products/tryscent-collection"
       }
     },
     "header": {
       "type": "header",
-      "blocks": {
-        "card_9UbBHJ": {
-          "type": "card",
-          "settings": {
-            "menu_title": "Men",
-            "image": "shopify://shop_images/royal_summit_elixir_clean.png",
-            "title": "Royal Summit Elixir",
-            "description": "Inspired by: Creed Aventus",
-            "link": "shopify://products/royal-summit-elixir"
-          }
-        },
-        "card_7MTeYV": {
-          "type": "card",
-          "settings": {
-            "menu_title": "Men",
-            "image": "shopify://shop_images/silver_storm_signature_clean.png",
-            "title": "Silver Storm SIGNATURE",
-            "description": "Inspired by: JPG Le Male",
-            "link": "shopify://products/silver-storm-signature"
-          }
-        },
-        "card_gwynrz": {
-          "type": "card",
-          "settings": {
-            "menu_title": "Men",
-            "image": "shopify://shop_images/azure_dreams_pure_clean.png",
-            "title": "Azure Dreams PURE",
-            "description": "Inspired by: Chanel Bleu",
-            "link": "shopify://products/azure-dreams-pure"
-          }
-        },
-        "card_fE4QgD": {
-          "type": "card",
-          "settings": {
-            "menu_title": "Women",
-            "image": "shopify://shop_images/rose_garden_atelier_clean.png",
-            "title": "Rose Garden ATELIER",
-            "description": "Inspired by: Valentino Donna Born in Roma",
-            "link": "shopify://products/rose-garden-atelier"
-          }
-        },
-        "card_9GYKtB": {
-          "type": "card",
-          "settings": {
-            "menu_title": "Women",
-            "image": "shopify://shop_images/golden_mirage_reserve_clean_1.png",
-            "title": "Golden Mirage RESERVE",
-            "description": "Inspired by: Louis Vuitton Imagination",
-            "link": "shopify://products/golden-mirage-reserve"
-          }
-        },
-        "card_VAbDJU": {
-          "type": "card",
-          "settings": {
-            "menu_title": "Women",
-            "image": "shopify://shop_images/forbidden_fruit_extract_clean_1.png",
-            "title": "Forbidden Fruit EXTRACT",
-            "description": "Inspired by: Tom Ford Lost Cherry",
-            "link": "shopify://products/forbidden-fruit-extract"
-          }
-        }
-      },
-      "block_order": [
-        "card_9UbBHJ",
-        "card_7MTeYV",
-        "card_gwynrz",
-        "card_fE4QgD",
-        "card_9GYKtB",
-        "card_VAbDJU"
-      ],
       "settings": {
-        "logo_position": "middle-left",
+        "logo_position": "top-left",
         "mobile_logo_position": "center",
-        "menu": "main-menu",
-        "mobilemenu": "header-bottom-menu",
-        "most_popular_seach": "Baccarat Rouge, Vanilla, Floral, Amber, Creed's Aventus, Jasmine, Bleu, Wood",
+        "menu": "main-menu-3-1",
         "menu_type_desktop": "mega",
-        "sticky_header_type": "none",
+        "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
         "color_scheme": "scheme-1",
         "menu_color_scheme": "scheme-1",
         "enable_country_selector": true,
-        "enable_language_selector": true,
+        "enable_language_selector": false,
         "enable_customer_avatar": true,
         "margin_bottom": 0,
-        "padding_top": 12,
+        "padding_top": 8,
         "padding_bottom": 0
       }
     }
   },
   "order": [
-    "marquee_iPEzYy",
-    "announcement-bar",
+    "marquee_labels_CjAgNU",
+    "offer_announcement_cN6pMF",
     "header"
   ]
 }

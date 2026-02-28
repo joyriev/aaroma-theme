@@ -37,7 +37,7 @@
   .banner--content-align-left.banner--desktop-transparent .banner__box,
   .banner--content-align-right.banner--desktop-transparent .banner__box,
   .banner--medium.banner--desktop-transparent .banner__box {
-    max-width: 60rem;
+    max-width: 68rem;
   }
 }
 
@@ -346,7 +346,7 @@
   text-align: center;
   width: 100%;
   word-wrap: break-word;
-  z-index: 0;
+  z-index: 1;
 }
 
 .banner--mobile-bottom .banner__box {
@@ -361,7 +361,7 @@
   .banner--desktop-transparent .banner__box {
     padding: 4rem 0;
     background: transparent;
-    max-width: 60rem;
+    max-width: 89rem;
     border: none;
     border-radius: 0;
     box-shadow: none;
@@ -401,9 +401,7 @@
 
 @media screen and (min-width: 750px) {
   .banner__box > * + .banner__text {
-      margin-top: 2rem;
-      margin-bottom: 2rem;
-      padding: 20px 0;
+    margin-top: 2rem;
   }
 }
 
@@ -490,85 +488,5 @@
   .banner--desktop-transparent .inline-richtext a:hover,
   .banner--desktop-transparent .rte a:hover {
     color: currentColor;
-  }
-}
-
-/* CUSTOM CSS */
-.index .banner__box .banner__heading {
-  line-height: 54px;
-  margin-bottom: 16px;
-  font-size: 50px;
-  font-weight: 600;
-  color: #483735;
-  line-height: 54px;
-  letter-spacing: .025em;
-  text-underline-offset: 1px;
-}
-.features-wrapper {
-  margin-top: 35px;
-  padding: 20px 0;
-  background: transparent;
-}
-.features-container {
-  display: flex;
-  justify-content: start;
-  gap: 7px;
-  max-width: 1200px;
-}
-.features-container svg{
-  color:#000;
-}
-.feature-item {
-  flex: 1 1 30%;
-  max-width: 120px;
-  padding: 10px 0px;
-  text-align:center;
-}
-.feature-item:last-child {
-  border-right: none;
-}
-.feature-icon {
-  width: 40px;
-  height: 40px;
-  margin: 0 auto 8px;
-}
-.feature-text {
-  font-weight: 600;
-  font-size: 14px;
-  color: #111;
-}
-@media (min-width:768px) and (max-width:1024px){
-  .features-wrapper {
-    background: #ffffff75;
-    border-radius: 2px;
-  }
-}
-@media only screen 
-  and (min-device-width: 1024px) 
-  and (max-device-width: 1366px)
-  and (orientation: portrait),
-only screen 
-  and (min-device-width: 1024px) 
-  and (max-device-width: 1366px)
-  and (orientation: landscape) { 
-  .common-custom-image {
-    max-width: 400px;
-    object-fit: contain;
-  }
- .qty_atc_wrapper .product-form__buttons > button {
-    padding: 0;
-  }
- .qty_atc_wrapper .product-form__input{
-    width: calc(45% - 10px);
-  }
-  .qty_atc_wrapper product-form.product-form {
-    margin: 0;
-    width: calc(55% - 10px);
-  }
-}
-@media (max-width: 767px) {
-  .features-container {
-    flex-direction: column;
-    gap: 16px;
   }
 }

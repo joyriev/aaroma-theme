@@ -39,13 +39,7 @@ class PredictiveSearch extends SearchForm {
     this.searchTerm = newSearchTerm;
 
     if (!this.searchTerm.length) {
-       // Select the source div and target container
-        const popular = document.querySelector('.predictive-search__default--container');
-        const container = document.querySelector('.predictive-search[data-predictive-search]');
-
-        if (popular && container) {
-          container.innerHTML = popular.innerHTML;
-        }
+      this.close(true);
       return;
     }
 
@@ -60,12 +54,6 @@ class PredictiveSearch extends SearchForm {
     super.onFormReset(event);
     if (super.shouldResetForm()) {
       this.searchTerm = '';
-       const popular = document.querySelector('.predictive-search__default--container');
-        const container = document.querySelector('.predictive-search[data-predictive-search]');
-
-        if (popular && container) {
-          container.innerHTML = popular.innerHTML;
-        }
       this.abortController.abort();
       this.abortController = new AbortController();
       this.closeResults(true);

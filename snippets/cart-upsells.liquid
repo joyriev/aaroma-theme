@@ -30,11 +30,7 @@
                 width="200"
                 height="200">
               <div class="col-span-2">
-                <a href="{{ product.url }}" class="my-0 font-semibold leading-snug block text-black no-underline hover:underline">{{ product.title }}</a>
-                {% if product.metafields.custom.nuta  != blank and product.metafields.custom.choose_your_fragrances_options == blank %}
-                    {% assign nuta_list = product.metafields.custom.nuta | split: "," %}
-                    <div class="text-black text-xs my-1"><span class="italic">Inspired by: </span> <span class="font-semibold">{{ nuta_list[0] }}</span> <span>{{ nuta_list[1] }}</span></div>
-                  {% endif %}
+                <a href="{{ product.url }}" class="my-0 font-semibold leading-snug block text-black no-underline hover:underline mb-2">{{ product.title }}</a>
                 <div style="{% if product.has_only_default_variant %}display: none;{% endif %}">
                   <select
                     class="select__select !w-auto !px-3 !h-8 border border-gray-200 rounded border-solid"
@@ -55,7 +51,7 @@
                 </div>
               </div>
               <div>
-                <button type="submit" name="add" class="product-form__submit border-0 text-white bg-[#9a7a48] hover:bg-[#805e29] cursor-pointer uppercase tracking-wider px-4 py-2 rounded-full w-full">
+                <button type="submit" name="add" class="product-form__submit button bg-[#226139] hover:bg-[#1c522f] uppercase tracking-wider px-4 py-2 rounded-full w-full">
                     <span>
                         Add
                     </span>

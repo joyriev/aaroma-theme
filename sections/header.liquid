@@ -67,29 +67,7 @@
     padding-top: 1rem;
     line-height: calc(1 + 0.8 / var(--font-body-scale));
   }
-  .megamenu-card {
-    text-decoration: none;
-    color: inherit;
-  }
-  .megamenu-card img {
-    width: 100%;
-    margin-bottom: 10px;
-  }
-  .megamenu-card h3 {
-    margin: 0 0 5px 0px;
-    font-size:16px;
-  }
-  .megamenu-card p {
-      margin: 0;
-      line-height: 16px;
-      font-size:14px;
-  }
-  li.megamenu-content:hover {
-      opacity: .6;
-  }
-  li.megamenu-content {
-      transition: all .5s ease;
-  }
+
   @media screen and (min-width: 750px) {
     .list-menu__item--link {
       padding-bottom: 0.5rem;
@@ -118,6 +96,12 @@
     .header {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+  @media screen and (max-width: 989px) {
+    .header {
+      padding-left: 2rem;
+      padding-right: 2rem;
     }
   }
 {%- endstyle -%}
@@ -165,7 +149,7 @@
       endif
 
       if section.settings.logo_position == 'top-center' or section.settings.menu == blank
-        render 'header-search', seach_text: section.settings.most_popular_seach, input_id: 'Search-In-Modal-1'
+        render 'header-search', input_id: 'Search-In-Modal-1'
       endif
     -%}
 
@@ -201,6 +185,67 @@
         </h1>
       {%- endif -%}
     {%- endif -%}
+
+    <div class="[grid-area:search] pr-2 pb-[10px] lg:pb-0 lg:px-20">
+      {%- if settings.predictive_search_enabled -%}
+        <predictive-search class="search-modal__form" data-loading-text="{{ 'accessibility.loading' | t }}">
+      {%- else -%}
+        <search-form class="search-modal__form">
+      {%- endif -%}
+      <form action="{{ routes.search_url }}" method="get" role="search" class="search search-modal__form">
+        <div class="field after:shadow-none">
+          <input
+            class="search__input field__input bg-[#F3F3F3] rounded p-3 h-10 focus:shadow-none focus:border-2 focus:border-[#226139] focus:border-solid focus:rounded"
+            id="Search-In-Modal-2"
+            type="search"
+            name="q"
+            value="{{ search.terms | escape }}"
+            placeholder="{{ 'general.search.search' | t }}"
+            {%- if settings.predictive_search_enabled -%}
+              role="combobox"
+              aria-expanded="false"
+              aria-owns="predictive-search-results"
+              aria-controls="predictive-search-results"
+              aria-haspopup="listbox"
+              aria-autocomplete="list"
+              autocorrect="off"
+              autocomplete="off"
+              autocapitalize="off"
+              spellcheck="false"
+            {%- endif -%}
+          >
+          <label class="field__label top-2.5" for="Search-In-Modal-2">Find your perfume</label>
+          <input type="hidden" name="options[prefix]" value="last">
+          <button
+            type="reset"
+            class="reset__button h-10 field__button{% if search.terms == blank %} hidden{% endif %}"
+            aria-label="{{ 'general.search.reset' | t }}"
+          >
+            <span class="svg-wrapper">
+              {{- 'icon-reset.svg' | inline_asset_content -}}
+            </span>
+          </button>
+          <button class="search__button h-10 field__button" aria-label="{{ 'general.search.search' | t }}">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M21.0286 19.8286L15.8858 14.6857C17.0858 13.2286 17.8572 11.3429 17.8572 9.28572C17.8572 4.57144 14.0001 0.714294 9.28578 0.714294C4.5715 0.714294 0.714355 4.57144 0.714355 9.28572C0.714355 14 4.5715 17.8571 9.28578 17.8571C11.3429 17.8571 13.2286 17.1714 14.6858 15.8857L19.8286 21.0286C20.1715 21.3714 20.6858 21.3714 21.0286 21.0286C21.3715 20.6857 21.3715 20.1714 21.0286 19.8286ZM2.42864 9.28572C2.42864 5.51429 5.51435 2.42858 9.28578 2.42858C13.0572 2.42858 16.1429 5.51429 16.1429 9.28572C16.1429 13.0571 13.0572 16.1429 9.28578 16.1429C5.51435 16.1429 2.42864 13.0571 2.42864 9.28572Z" fill="#6B6B6B"/>
+            </svg>
+          </button>
+        </div>
+
+        {%- if settings.predictive_search_enabled -%}
+          <div class="predictive-search predictive-search--header" tabindex="-1" data-predictive-search>
+            {% comment %} {%- render 'loading-spinner', class: 'predictive-search__loading-state' -%} {% endcomment %}
+          </div>
+
+          <span class="predictive-search-status visually-hidden" role="status" aria-hidden="true"></span>
+        {%- endif -%}
+      </form>
+      {%- if settings.predictive_search_enabled -%}
+        </predictive-search>
+      {%- else -%}
+        </search-form>
+      {%- endif -%}
+    </div>
 
     {%- liquid
       if section.settings.menu != blank
@@ -245,36 +290,45 @@
       {%- endif -%}
     {%- endif -%}
 
-    <div class="header__icons{% if section.settings.enable_country_selector or section.settings.enable_language_selector %} header__icons--localization header-localization{% endif %}">
-      <div class="desktop-localization-wrapper">
-        {%- if section.settings.enable_country_selector and localization.available_countries.size > 1 -%}
-          <localization-form class="small-hide medium-hide" data-prevent-hide>
-            {%- form 'localization', id: 'HeaderCountryForm', class: 'localization-form' -%}
-              <div>
-                <h2 class="visually-hidden" id="HeaderCountryLabel">{{ 'localization.country_label' | t }}</h2>
-                {%- render 'country-localization', localPosition: 'HeaderCountry' -%}
-              </div>
-            {%- endform -%}
-          </localization-form>
-        {% endif %}
-
+    <div class="header__icons">
+      <div class="desktop-localization-wrapper {% if section.settings.enable_country_selector or section.settings.enable_language_selector %} header__icons--localization header-localization{% endif %}">
         {%- if section.settings.enable_language_selector and localization.available_languages.size > 1 -%}
-          <localization-form class="small-hide medium-hide" data-prevent-hide>
-            {%- form 'localization', id: 'HeaderLanguageForm', class: 'localization-form' -%}
+          <localization-form data-prevent-hide>
+            {%- form 'localization'
+              , id: 'HeaderLanguageForm'
+              , class: 'localization-form' -%}
               <div>
                 <h2 class="visually-hidden" id="HeaderLanguageLabel">{{ 'localization.language_label' | t }}</h2>
-                {%- render 'language-localization', localPosition: 'HeaderLanguage' -%}
+                {%- render 'language-localization'
+                  , localPosition: 'HeaderLanguage' -%}
               </div>
             {%- endform -%}
           </localization-form>
         {%- endif -%}
+        {%- if section.settings.enable_country_selector and localization.available_countries.size > 1 -%}
+          <localization-form data-prevent-hide>
+            {%- form 'localization'
+              , id: 'HeaderCountryForm'
+              , class: 'localization-form' -%}
+              <div>
+                <h2 class="visually-hidden" id="HeaderCountryLabel">{{ 'localization.country_label' | t }}</h2>
+                {%- render 'country-localization'
+                  , localPosition: 'HeaderCountry' -%}
+              </div>
+            {%- endform -%}
+          </localization-form>
+        {% endif %}
       </div>
-      {% render 'header-search', seach_text: section.settings.most_popular_seach, input_id: 'Search-In-Modal' %}
 
-      {%- if shop.customer_accounts_enabled -%}
+      {% comment %} <div class="lg:hidden">
+        {% render 'header-search', input_id: 'Search-In-Modal' %}
+      </div> {% endcomment %}
+
+      {% comment %} {%- if shop.customer_accounts_enabled -%} {% endcomment %}
+      {%- if false -%}
         <a
           href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}"
-          class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}"
+          class="header__icon header__icon--account link focus-inset"
           rel="nofollow"
         >
           {%- if section.settings.enable_customer_avatar -%}
@@ -282,11 +336,11 @@
               {%- if customer and customer.has_avatar? -%}
                 {{ customer | avatar }}
               {%- else -%}
-                <span class="svg-wrapper">{% render 'account-svg' %}</span>
+                {{ 'icon-account.svg' | inline_asset_content }}
               {%- endif -%}
             </account-icon>
           {%- else -%}
-            <span class="svg-wrapper">{% render 'account-svg' %}</span>
+            {{ 'icon-account.svg' | inline_asset_content }}
           {%- endif -%}
           <span class="visually-hidden">
             {%- liquid
@@ -309,9 +363,9 @@
 
       <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
         {% if cart == empty %}
-          <span class="svg-wrapper">{% render 'cart-svg' %}</span>
+          {{ 'icon-cart.svg' | inline_asset_content }} 
         {% else %}
-          <span class="svg-wrapper">{% render 'cart-svg' %}</span>
+          {{ 'icon-cart.svg' | inline_asset_content }} 
         {% endif %}
         <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
         {%- if cart != empty -%}
@@ -326,8 +380,7 @@
     </div>
   </header>
 </{{ header_tag }}>
-{% comment %} Mobile bottom Menu {% endcomment %}
- {% render 'header-bottom-menu', menu: section.settings.mobilemenu %}
+
 {%- if settings.cart_type == 'notification' -%}
   {%- render 'cart-notification',
     color_scheme: section.settings.color_scheme,
@@ -442,7 +495,9 @@
 
     closeSearchModal() {
       this.searchModal = this.searchModal || this.header.querySelector('details-modal');
-      this.searchModal.close(false);
+      if (this.searchModal) {
+        this.searchModal.close(false);
+      }
     }
   }
 
@@ -493,6 +548,7 @@
 {
   "name": "t:sections.header.name",
   "class": "section-header",
+  "max_blocks": 3,
   "settings": [
     {
       "type": "select",
@@ -540,18 +596,6 @@
       "id": "menu",
       "default": "main-menu",
       "label": "t:sections.header.settings.menu.label"
-    }, 
-    {
-      "type": "text",
-      "id": "mobilemenu",
-      "label": "Mobile Bottom Menu",
-      "info" : "Enter Menu handle eg. header-bottom-menu"
-    },
-    {
-      "type": "textarea",
-      "id": "most_popular_seach",
-      "label": "Most Popular Seach Text",
-      "info" : "Enter Text Seprated By(,) eg. Vanilla,Floral"
     },
     {
       "type": "select",
@@ -686,53 +730,6 @@
   "blocks": [
     {
       "type": "@app"
-    },
-    {
-      "type": "card",
-      "name": "Megamenu Card",
-      "settings": [
-         {
-          "type": "text",
-          "id": "menu_title",
-          "label": "Target Menu Title",
-          "default": "Home Range",
-          "info": "Cards will only show under this menu item. Leave blank to show for all."
-        },
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Image"
-        },
-        {
-          "type": "text",
-          "id": "title",
-          "label": "Title",
-          "default": "Card Title"
-        },
-        {
-          "type": "textarea",
-          "id": "description",
-          "label": "Description"
-        },
-        {
-          "type": "url",
-          "id": "link",
-          "label": "Link"
-        }
-      ]
-    }
-  ],
-  "presets": [
-    {
-      "name": "Megamenu Cards",
-      "blocks": [
-        {
-          "type": "card"
-        },
-        {
-          "type": "card"
-        }
-      ]
     }
   ]
 }

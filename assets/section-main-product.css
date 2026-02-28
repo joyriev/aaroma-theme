@@ -62,14 +62,14 @@ product-info {
 
 @media screen and (min-width: 990px) {
   .product--large:not(.product--no-media) .product__media-wrapper {
-    max-width: 65%;
-    width: calc(65% - var(--grid-desktop-horizontal-spacing) / 2);
+    max-width: 50%;
+    width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
   }
 
   .product--large:not(.product--no-media) .product__info-wrapper {
     padding: 0 0 0 4rem;
-    max-width: 35%;
-    width: calc(35% - var(--grid-desktop-horizontal-spacing) / 2);
+    max-width: 50%;
+    width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
   }
 
   .product--large:not(.product--no-media).product--right .product__info-wrapper {
@@ -172,7 +172,7 @@ product-info {
   flex: 0 0 100%;
   padding: 0;
   margin: 0 0 1.2rem 0;
-  max-width: 44rem;
+  /* max-width: 44rem; */
   min-width: fit-content;
   border: none;
 }
@@ -361,10 +361,6 @@ a.product__text {
 
 .product-form__quantity-top .form__label {
   margin-bottom: 1.2rem;
-}
-
-.product-form__buttons {
-  max-width: 44rem;
 }
 
 .product--no-media .product__info-container > modal-opener {
@@ -1221,8 +1217,9 @@ a.product__text {
 .icon-with-text--horizontal {
   display: flex;
   justify-content: center;
-  column-gap: 3rem;
+  gap: 1rem 2rem;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .icon-with-text--vertical {
@@ -1235,11 +1232,6 @@ a.product__text {
   width: var(--icon-size);
 }
 
-.icon-with-text--horizontal .svg-wrapper,
-.icon-with-text--horizontal img {
-  margin-bottom: var(--icon-spacing);
-}
-
 .icon-with-text--vertical .svg-wrapper {
   min-height: var(--icon-size);
   min-width: var(--icon-size);
@@ -1247,9 +1239,8 @@ a.product__text {
 }
 
 .icon-with-text img {
-  height: var(--icon-size);
-  width: var(--icon-size);
-  object-fit: contain;
+  height: 16px;
+  width: auto;
 }
 
 .icon-with-text--vertical img {
@@ -1273,8 +1264,9 @@ a.product__text {
 }
 
 .icon-with-text--horizontal .icon-with-text__item {
-  flex-direction: column;
-  width: 33%;
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 
 .icon-with-text--vertical .icon-with-text__item {
@@ -1492,183 +1484,17 @@ a.product__text {
     border: none;
   }
 }
+/* Mobile Font Sizes */
+@media (max-width: 767px) {
+  .bundle-price-pdp .discount-percent {
+    font-size: 16px !important;
+  }
 
-/* Custom css for complementry product */
-.complementary-products .complementary-products__container{
-    border-radius: 6px;
-    border: 1px solid #b5a79e;
-    overflow: hidden;
-    padding: 15px;
-    margin-top: 20px;
-}
-.complementary-products__container .card--horizontal .quick-add{
-  max-width:unset;
-}
-.complementary-products__container .quick-add__submit {
-    border-color: #9b7847;
-    background-color: transparent;
-    color: #101820;
-    font-size: 14px !important;
-    font-weight: 400;
-    line-height: 1;
-    margin: 0;
-    min-height: 40px;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    font-family: DM Mono, monospace;
-}
+  .bundle-price-pdp .product-price {
+    font-size: 16px !important;
+  }
 
-/* PDP page new css start */
-
-.short-metafields-data p{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-    text-align: left;
-    text-transform: capitalize;
-    color: #483735;
-    margin: 4px 0 0;
-    display: block;
+  .bundle-price-pdp .compare-price {
+    font-size: 16px !important;
+  }
 }
-.product-form__quantity{
-   display:none;
-}
-.productpage-icon-with-text li.icon-with-text__item span strong{
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 18px;
-    text-align: center;
-    color: #000;
-    font-family:'Commuters Sans'
-}
-.complementary-products__container .quick-add__submit{
-     border: 1px solid #9b7847;
-    background-color: transparent;
-    color: #101820;
-    font-size: 14px !important;
-    font-weight: 400;
-    line-height: 1;
-    margin: 0;
-    width:100%;
-    max-width:100%;
-}
-body .complementary-products__container .card--horizontal .quick-add{
-    width:100%;
-    max-width:100%;
-    margin-top:15px;
-}
-.card-wrapper.product-card-wrapper.underline-links-hover:hover a{
-    text-decoration:none;
-}
-body .complementary-products-contains-quick-add .accordion__title{
-    font-size: 15px;
-    line-height: 1.2;
-    margin: 0 0 10px;
-    font-weight: 600;
-    color: #483735;
-}
-.desc-product-tabs {
-    margin-top:20px;
-    border-top:1px solid rgb(0,0,0,.08);
-    padding-top:20px;
-}
-.highlight-notes{
-  margin-top:20px;
-}
-.product__title h1{
-  font-size: 24px;
-  line-height: 28px;
-}
-h3.accordion__title.inline-richtext.h4 {
-    font-size: 14px;
-    line-height: 18px;
-    font-weight: 600;
-    font-family: 'Commuters Sans';
-}
-.product__info-wrapper .faq-question{
-   font-size: 14px;
-    line-height: 18px;
-    font-weight: 600;
-    font-family: 'Commuters Sans';
-}
-.product__info-wrapper .faq-question p{
-   font-size: 14px;
-    line-height: 18px;
-    font-weight: 400;
-    font-family: 'Commuters Sans';
-    padding:0;
-    margin:0;
-}
-.accordion__content.rte p{
-     font-size: 14px;
-    line-height: 18px;
-    font-weight: 400;
-    font-family: 'Commuters Sans';
-    padding:0;
-    margin:0;
-} 
-
-.highlight-notes .note-item img{
-    width:72px;
-    height:72px;
-    object-fit:contain;
-    margin: 0;
-}
-.desc-product-tabs .accordions{
-  white-space:nowrap;
-  overflow-x:auto;
-  -webkit-overflow-scrolling: touch; 
-  scrollbar-width: none;   
-}
-.highlight-notes .note-item > div{
-    color: #000;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    display: flex;
-    flex-flow: wrap;
-}
-.tab-content  h4{
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 18px;
-    text-align: left;
-    text-transform: capitalize;
-    color: #000;
-    margin:15px 0px 0px 0px;
-    padding:0;
-}
-.tab-content p{
-    color: #000;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    display: flex;
-    flex-flow: wrap;
-    padding-bottom: 20px;
-}
-
-@media  (max-width:767px){
-    .productpage-icon-with-text{
-        display:block;
-    }
-    .icon-with-text--horizontal .icon-with-text__item{
-        margin: 10px 0px;
-        width:100%;
-        max-width:100%;
-        text-align:left;
-        display:flex;
-        flex-direction: row;
-    }
-    .highlight-notes .note-item img {
-    width: 50px;
-    height: 50px;
-    object-fit: contain;
-    margin: 0;
-}
-body .highlight-notes {
- gap:10px;
-}
-}
-
-/* PDP page new css end */
