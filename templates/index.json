@@ -163,6 +163,7 @@
         "perks_CBpKqp": {
           "type": "perks",
           "settings": {
+            "perk_image": "shopify://shop_images/icons_eu.png",
             "perk_title": "Made in the EU",
             "perk_content": "Vegan, cruelty-free, and made in the EU."
           }
@@ -170,6 +171,7 @@
         "perks_Ynh4gw": {
           "type": "perks",
           "settings": {
+            "perk_image": "shopify://shop_images/icons_quality.png",
             "perk_title": "French Quality Standard",
             "perk_content": "Crafted with the same attention to detail as designer brands."
           }
@@ -177,6 +179,7 @@
         "perks_Cj3EAR": {
           "type": "perks",
           "settings": {
+            "perk_image": "shopify://shop_images/icons_guarantee.png",
             "perk_title": "Money-Back Guarantee",
             "perk_content": "We accept products back within 60 days for a refund."
           }
@@ -184,6 +187,7 @@
         "perks_iX4iTY": {
           "type": "perks",
           "settings": {
+            "perk_image": "shopify://shop_images/icons_time.png",
             "perk_title": "Long-Lasting",
             "perk_content": "Lasts for 12+ hours (some say longer)."
           }
