@@ -1195,6 +1195,22 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "features_section_4U8qxa": {
+      "type": "features-section",
+      "name": "Perfume Features with Video",
+      "settings": {
+        "video_mp4": "https://cdn.shopify.com/videos/c/o/v/6abfcf8080ef4389b7c853f6a780e00d.mp4",
+        "video_poster": "shopify://shop_images/vidoo.jpg",
+        "feature1_title": "EXTRAIT-LEVEL CONCENTRATION",
+        "feature1_text": "Our 25% extrait formula is crafted for depth and longevity. One spray lingers through every chapter of your day—rich, smooth, and unforgettable.",
+        "feature2_title": "Vegan + Cruelty Free",
+        "feature2_text": "We believe beauty should be kind. Every Aaroma scent is ethically made, vegan, and cruelty-free—so you can wear it with confidence and conscience.",
+        "feature3_title": "MINIMAL, LUXE PACKAGING",
+        "feature3_text": "Every bottle is glass-coated for preservation and simplicity. No excess, no waste—just timeless design that looks as good as it smells.",
+        "feature4_title": "PRECISION ATOMIZER",
+        "feature4_text": "Engineered for a perfect mist. Our fine stainless-steel nozzle ensures even diffusion, transforming every spray into a sensory ritual."
+      }
     }
   },
   "order": [
@@ -1215,6 +1231,7 @@
     "1755117642437d279b",
     "1751863713a9594609",
     "image_with_text_peK6rF",
+    "features_section_4U8qxa",
     "faq-section",
     "tryscent_guarantee_8hATfM",
     "floating-atc",
