@@ -35,7 +35,7 @@
           d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
       </svg>
       <span>Upgrade to
-        <a href="{{ next_bundle_product.url }}" class="ml-auto font-medium text-[#22613A] whitespace-nowrap transition-colors">
+        <a href="{{ next_bundle_product.url }}" class="ml-auto font-medium text-[#944234] whitespace-nowrap transition-colors">
           {{ next_size }}ML for {{ price_difference }} more.</a>
       </span>
     </div>
@@ -43,14 +43,14 @@
 {% endif %}
 
 <div x-data>
-  <div class="flex flex-col gap-3 mb-6 relative pl-10 before:content-[''] before:absolute before:left-3 before:top-6 before:bottom-6 before:w-[0px] before:border-0 before:border-r before:border-dashed before:border-green-700">
+  <div class="flex flex-col gap-3 mb-6 relative pl-10 before:content-[''] before:absolute before:left-3 before:top-6 before:bottom-6 before:w-[0px] before:border-0 before:border-r before:border-dashed before:border-[#944234]">
     <div class="absolute top-6 left-0 bottom-6 flex flex-col justify-between">
       {% for i in (1..product_count) %}
-        <div class="text-white size-7 bg-[#22613A] rounded flex items-center justify-center">{{ i }}</div>
+        <div class="text-white size-7 bg-[#944234] rounded flex items-center justify-center">{{ i }}</div>
       {% endfor %}
     </div>
     <template x-for="(product, index) in $store.bundleBuilder.selectedProducts" :key="product.id">
-      <div class="bg-white border border-solid border-green-700 w-full p-[7px] flex items-center gap-2 justify-between rounded-lg relative">
+      <div class="bg-white border border-solid border-[#944234] w-full p-[7px] flex items-center gap-2 justify-between rounded-lg relative">
         {% if product.tags contains 'bogo' %}
           <div x-show="index + 1 === {{ product_count }}" class="bg-[#b72f33] text-white px-2 py-1 font-semibold absolute top-0 right-0 rounded-tr-md leading-none text-sm">Free Bottle</div>
         {% endif %}
@@ -89,14 +89,14 @@
     :disabled="$store.bundleBuilder.selectedProducts.length < {{ product_count }} || $store.bundleBuilder.addingToCart"
     :class="{
         'opacity-50 cursor-not-allowed': $store.bundleBuilder.selectedProducts.length < {{ product_count }},
-        'cursor-pointer hover:bg-[#368856]': $store.bundleBuilder.selectedProducts.length >= {{ product_count }}
+        'cursor-pointer hover:bg-[#6e281c]': $store.bundleBuilder.selectedProducts.length >= {{ product_count }}
       }"
-    class="w-full flex flex-wrap items-center !mb-0 text-2xl !pb-3 !pt-3 rounded-lg button bg-[#22613a] transition-colors shadow-xl tracking-normal button--full-width">
+    class="w-full flex flex-wrap items-center !mb-0 text-2xl !pb-3 !pt-3 rounded-lg button bg-[#944234] transition-colors shadow-xl tracking-normal button--full-width">
     <span x-show="$store.bundleBuilder.selectedProducts.length < {{ product_count }}" x-text="'SELECT ' + ({{ product_count }} - $store.bundleBuilder.selectedProducts.length) + ' MORE'"></span>
     <div class="flex" x-show="$store.bundleBuilder.selectedProducts.length === {{ product_count }}">SHOP NOW
       <div class="ml-2 pl-2 border-0 border-l flex items-center border-solid border-gray-200/20">
         <div
-          class="inline-block text-lg bg-[#1E5834] px-3 rounded"
+          class="inline-block text-lg bg-[#6e281c] px-3 rounded"
           id="product-price"
           role="status">
           {% if selected_variant.compare_at_price > selected_variant.price %}
@@ -125,7 +125,9 @@
 
 <div class="!my-6">
   <p class="my-0 text-center font-semibold tracking-normal">
-    Delivered to <span class="shipping_location">Worldwide</span> in 5 business days. No customs fees.
+    Delivered to
+    <span class="shipping_location">Worldwide</span>
+    in 5 business days. No customs fees.
   </p>
 </div>
 

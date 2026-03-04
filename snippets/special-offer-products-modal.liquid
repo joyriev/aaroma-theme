@@ -18,15 +18,15 @@
         <div class="grid grid-cols-3 gap-2">
           <button
             @click="$store.bundleBuilder.activeCategory = 'All'"
-            :class="$store.bundleBuilder.activeCategory === 'All' ? 'border-2 border-green-700 bg-green-50' : 'bg-white border-gray-200'"
+            :class="$store.bundleBuilder.activeCategory === 'All' ? 'border-2 border-[#944234] bg-green-50' : 'bg-white border-gray-200'"
             class="px-4 py-2 rounded border border-solid cursor-pointer">Top Sellers</button>
           <button
             @click="$store.bundleBuilder.activeCategory = 'Man'"
-            :class="$store.bundleBuilder.activeCategory === 'Man' ? 'border-2 border-green-700 bg-green-50' : 'bg-white border-gray-200'"
+            :class="$store.bundleBuilder.activeCategory === 'Man' ? 'border-2 border-[#944234] bg-green-50' : 'bg-white border-gray-200'"
             class="px-4 py-2 rounded border border-solid cursor-pointer">Top Sellers Men</button>
           <button
             @click="$store.bundleBuilder.activeCategory = 'Woman'"
-            :class="$store.bundleBuilder.activeCategory === 'Woman' ? 'border-2 border-green-700 bg-green-50' : 'bg-white border-gray-200'"
+            :class="$store.bundleBuilder.activeCategory === 'Woman' ? 'border-2 border-[#944234] bg-green-50' : 'bg-white border-gray-200'"
             class="px-4 py-2 rounded border border-solid cursor-pointer">Top Sellers Women</button>
         </div>
       </div>

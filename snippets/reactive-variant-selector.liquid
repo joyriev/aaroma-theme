@@ -10,7 +10,7 @@
     <div class="text-sm italic text-gray-500">The 50ml — chosen by 8 out of 10 customers</div>
   </div>
 
-  <div class="grid grid-cols-2 md:grid-cols-4 gap-3" id="variant-selector">
+  <div class="grid grid-cols-3 gap-3" id="variant-selector">
     {% for variant in product.variants %}
       {% assign size = variant.title | remove: 'ML' %}
       {% assign size_int = size | times: 1 %}
@@ -18,12 +18,12 @@
       {% assign per_ml = price_in_dollars | divided_by: size_int | round: 2 %}
       <button
         type="button"
-        class="variant-button flex md:flex-col items-center gap-2 rounded-lg p-2 pt-3 bg-white border-2 border-solid cursor-pointer font-['Figtree'] relative {% if variant.id == selected_variant.id %}border-green-700{% else %}border-gray-200{% endif %}"
+        class="variant-button flex flex-col items-center gap-2 rounded-lg p-2 pt-4 bg-white border-2 border-solid cursor-pointer font-['Figtree'] relative {% if variant.id == selected_variant.id %}border-[#944234]{% else %}border-gray-200{% endif %}"
         data-variant-id="{{ variant.id }}"
         data-variant-title="{{ variant.title }}"
         data-original-price="{{ variant.price | money }}"
         data-compare-price="{{ variant.compare_at_price | money }}">
-        {% if variant.image %}
+        {% if false %}
           <div class="size-12 md:mx-auto">
             <img
               src="{{ variant.image | image_url: width: 100, height: 100, crop: 'center' }}"
@@ -34,7 +34,7 @@
               loading="lazy">
           </div>
         {% endif %}
-        <div class="text-left md:text-center">
+        <div class="text-center">
           <div class="text-sm font-semibold">{{ variant.title }}</div>
           <div class="text-xs text-gray-600">
             {{- cart.currency.symbol -}}
@@ -44,7 +44,7 @@
           <span class="text-xs italic text-white rounded absolute -top-2.5 left-1/2 [transform:translateX(-50%)] bg-[#c8202f] px-2 py-0.5">Popular</span>
         {% endif %}
         {% if variant.title == '100ML' %}
-          <span class="text-xs italic text-white rounded absolute -top-2.5 left-1/2 [transform:translateX(-50%)] bg-[#22613a] px-2 py-0.5">Bestseller</span>
+          <span class="text-xs italic text-white rounded absolute -top-2.5 left-1/2 [transform:translateX(-50%)] bg-[#944234] px-2 py-0.5">Bestseller</span>
         {% endif %}
       </button>
     {% endfor %}
@@ -84,7 +84,7 @@
       type="submit"
       name="add"
       value="1"
-      class="atc-button cta_product_from_submit_btn flex flex-wrap items-center !mb-0 text-2xl !pb-3 !pt-3 rounded-lg button bg-[#22613a] hover:bg-[#368856] transition-colors shadow-xl tracking-normal button--full-width button--primary"
+      class="atc-button cta_product_from_submit_btn flex flex-wrap items-center !mb-0 text-2xl !pb-3 !pt-3 rounded-lg button bg-[#944234] hover:bg-[#6e281c] transition-colors shadow-xl tracking-normal button--full-width button--primary"
       aria-label="Add to cart"
       {% if product.metafields.custom.choose_your_fragrances_options != blank %}
       disabled="disabled"
@@ -92,7 +92,7 @@
       <span>Add to cart</span>
       <div class="ml-2 pl-2 border-0 border-l flex items-center border-solid border-gray-200/20">
         <div
-          class="inline-block text-lg bg-[#1E5834] px-3 rounded"
+          class="inline-block text-lg bg-[#6e281c] px-3 rounded"
           id="product-price"
           role="status"
           {{ block.shopify_attributes }}>
@@ -190,10 +190,10 @@
       // Update button styles
       variantButtons.forEach(button => {
         if (button.dataset.variantId === variantId) {
-          button.classList.add('border-green-700');
+          button.classList.add('border-[#944234]');
           button.classList.remove('border-gray-200');
         } else {
-          button.classList.remove('border-green-700');
+          button.classList.remove('border-[#944234]');
           button.classList.add('border-gray-200');
         }
       });

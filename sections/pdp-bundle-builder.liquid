@@ -43,7 +43,7 @@
         <div class="grid grid-cols-3 gap-4 pb-4 mb-6 border-0 border-b border-solid border-gray-200">
           <template x-for="(product, index) in selectedProducts" :key="product.id">
             <div class="text-center relative">
-              <div class="flex justify-center mb-4 border-2 border-solid border-green-700 rounded-lg">
+              <div class="flex justify-center mb-4 border-2 border-solid border-[#944234] rounded-lg">
                 <button @click="removeProduct(index)" class="absolute top-2 right-2 w-6 h-6 p-0 flex items-center justify-center bg-white rounded-full text-xs cursor-pointer border-0 shadow">
                   <svg
                     width="10"
@@ -118,15 +118,15 @@
           <div class="flex space-x-1 mb-4">
             <button
               @click="activeCategory = 'All'"
-              :class="activeCategory === 'All' ? 'border-2 border-green-700 bg-green-50' : 'bg-white border-gray-200'"
+              :class="activeCategory === 'All' ? 'border-2 border-[#944234] bg-green-50' : 'bg-white border-gray-200'"
               class="px-4 py-2 rounded font-semibold border border-solid cursor-pointer">All</button>
             <button
               @click="activeCategory = 'Man'"
-              :class="activeCategory === 'Man' ? 'border-2 border-green-700 bg-green-50' : 'bg-white border-gray-200'"
+              :class="activeCategory === 'Man' ? 'border-2 border-[#944234] bg-green-50' : 'bg-white border-gray-200'"
               class="px-4 py-2 rounded font-semibold border border-solid cursor-pointer">Men's</button>
             <button
               @click="activeCategory = 'Woman'"
-              :class="activeCategory === 'Woman' ? 'border-2 border-green-700 bg-green-50' : 'bg-white border-gray-200'"
+              :class="activeCategory === 'Woman' ? 'border-2 border-[#944234] bg-green-50' : 'bg-white border-gray-200'"
               class="px-4 py-2 rounded font-semibold border border-solid cursor-pointer">Women's</button>
           </div>
 
@@ -136,7 +136,7 @@
               type="text"
               x-model="searchText"
               placeholder="Find your perfume"
-              class="w-full p-2.5 pl-10 h-10 bg-gray-100 rounded border-0 border-solid focus:border-2 focus:border-green-700 focus:outline-none focus:ring-0">
+              class="w-full p-2.5 pl-10 h-10 bg-gray-100 rounded border-0 border-solid focus:border-2 focus:border-[#944234] focus:outline-none focus:ring-0">
             <span class="absolute top-2.5 left-2.5 svg-wrapper">
               {{- 'icon-search.svg' | inline_asset_content -}}
             </span>
