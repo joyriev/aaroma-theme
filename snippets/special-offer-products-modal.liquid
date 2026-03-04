@@ -18,16 +18,16 @@
         <div class="grid grid-cols-3 gap-2">
           <button
             @click="$store.bundleBuilder.activeCategory = 'All'"
-            :class="$store.bundleBuilder.activeCategory === 'All' ? 'border-2 border-[#944234] bg-green-50' : 'bg-white border-gray-200'"
-            class="px-4 py-2 rounded border border-solid cursor-pointer">Top Sellers</button>
+            :class="$store.bundleBuilder.activeCategory === 'All' ? 'bg-[#944234] text-white' : 'bg-white text-black'"
+            class="px-3 py-2 text-sm uppercase rounded border border-solid border-[#944234] focus:border-[#944234] cursor-pointer">Top Sellers</button>
           <button
-            @click="$store.bundleBuilder.activeCategory = 'Man'"
-            :class="$store.bundleBuilder.activeCategory === 'Man' ? 'border-2 border-[#944234] bg-green-50' : 'bg-white border-gray-200'"
-            class="px-4 py-2 rounded border border-solid cursor-pointer">Top Sellers Men</button>
+            @click="$store.bundleBuilder.activeCategory = 'fuer-maenner'"
+            :class="$store.bundleBuilder.activeCategory === 'fuer-maenner' ? 'bg-[#944234] text-white' : 'bg-white text-black'"
+            class="px-3 py-2 text-sm uppercase rounded border border-solid border-[#944234] focus:border-[#944234] cursor-pointer">Men</button>
           <button
-            @click="$store.bundleBuilder.activeCategory = 'Woman'"
-            :class="$store.bundleBuilder.activeCategory === 'Woman' ? 'border-2 border-[#944234] bg-green-50' : 'bg-white border-gray-200'"
-            class="px-4 py-2 rounded border border-solid cursor-pointer">Top Sellers Women</button>
+            @click="$store.bundleBuilder.activeCategory = 'fuer-frauen'"
+            :class="$store.bundleBuilder.activeCategory === 'fuer-frauen' ? 'bg-[#944234] text-white' : 'bg-white text-black'"
+            class="px-3 py-2 text-sm uppercase rounded border border-solid border-[#944234] cursor-pointer">Women</button>
         </div>
       </div>
     </div>
@@ -58,7 +58,7 @@
          ($store.bundleBuilder.searchText === '' || product.name.toLowerCase().includes($store.bundleBuilder.searchText.toLowerCase()))">
               <button
                 @click="$store.bundleBuilder.addRemoveProduct(product)"
-                :class="$store.bundleBuilder.isProductSelected(product.id) ? 'border-green-600 border-2' : 'border-gray-200 border'"
+                :class="$store.bundleBuilder.isProductSelected(product.id) ? 'border-[#944234] border-2' : 'border-gray-200 border'"
                 class="border-solid w-full p-2 flex items-center gap-2 justify-between cursor-pointer rounded-lg bg-white">
                 <img
                   class="object-cover rounded"
