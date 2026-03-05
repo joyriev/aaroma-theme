@@ -71,8 +71,8 @@
       "type": "home-hero-banner",
       "name": "Home Hero Banner",
       "settings": {
-        "image": "shopify://shop_images/header_-_usd.png",
-        "mobile_image": "shopify://shop_images/mobile_header_-_usd.png",
+        "image": "shopify://shop_images/herobanner.webp",
+        "mobile_image": "shopify://shop_images/heromobile.webp",
         "link": "shopify://products/4-x-100ml-perfume-bottles"
       }
     },
