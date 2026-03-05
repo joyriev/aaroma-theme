@@ -396,7 +396,7 @@
         "category_JatE79": {
           "type": "category",
           "settings": {
-            "image": "shopify://shop_images/men_1.png",
+            "image": "shopify://shop_images/tryscent_male_02.png",
             "text": "For Him",
             "link": "shopify://collections/men"
           }
@@ -404,7 +404,7 @@
         "category_kcgbew": {
           "type": "category",
           "settings": {
-            "image": "shopify://shop_images/women_3.png",
+            "image": "shopify://shop_images/ugc12.png",
             "text": "For Her",
             "link": "shopify://collections/women"
           }
@@ -412,7 +412,7 @@
         "category_PLwfRa": {
           "type": "category",
           "settings": {
-            "image": "shopify://shop_images/unisex_1.png",
+            "image": "shopify://shop_images/website_unisex_1.webp",
             "text": "Unisex",
             "link": "shopify://collections/unisex"
           }
