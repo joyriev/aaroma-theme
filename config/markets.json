@@ -9,16 +9,13 @@
  */
 {
   "markets": {
-    "de": {
+    "united-states": {
       "parent": "@default"
     },
-    "united-kingdom": {
+    "germany": {
       "parent": "@default"
     },
-    "denmark": {
-      "parent": "@default"
-    },
-    "france": {
+    "canada": {
       "parent": "@default"
     },
     "sweden": {
