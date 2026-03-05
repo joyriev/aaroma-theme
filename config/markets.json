@@ -12,12 +12,6 @@
     "united-states": {
       "parent": "@default"
     },
-    "germany": {
-      "parent": "@default"
-    },
-    "canada": {
-      "parent": "@default"
-    },
     "sweden": {
       "parent": "@default"
     }
