@@ -3449,7 +3449,7 @@
           "only_remote_merchandise_lines": "Kassan innehåller endast varor från en annan butik. En omdirigering till den externa butiken krävs för att slutföra köpet.",
           "currency_mismatch": "Den här varan kan inte läggas till i din kundvagn eftersom den kommer från en butik som använder en annan valuta.",
           "currency_mismatch_removal": "En vara togs bort från din kundvagn eftersom den kommer från en butik som använder en annan valuta.",
-          "max_remote_shops_exceeded": "Den här produkten kan inte läggas till eftersom din kundvagn redan har maxantalet från andra butiker."
+          "max_remote_shops_exceeded": "Den här produkten kan inte läggas till eftersom din kundvagn redan innehåller maxantalet från andra butiker."
         }
       },
       "units": {
@@ -3461,7 +3461,8 @@
         "gallon": "tjej",
         "inch": "i",
         "yard": "yd",
-        "square_foot": "ft²"
+        "square_foot": "ft²",
+        "item": "vara"
       },
       "memberships": {
         "delivery_promise_unfulfillable": "Adressen stöds inte för det aktuella medlemskapet.",
@@ -3469,19 +3470,19 @@
       },
       "editor": {
         "navigation": {
-          "store_logo_accessibility_label": "Navigera till Online Store"
+          "store_logo_accessibility_label": "Gå till nätbutiken"
         }
       },
       "required_extensions": {
         "errors": {
-          "interaction_required": "En tilläggsinteraktion krävs för att slutföra utcheckningen."
+          "interaction_required": "En tilläggsinteraktion krävs för att slutföra köpet."
         }
       },
       "taxes": {
-        "tax_details": "Ytterligare skattedetaljer",
+        "tax_details": "Ytterligare skatteuppgifter",
         "vat_number": {
           "field": {
-            "tooltip": "Validerar momsnummer och tillämpar automatiskt omvänd skattskyldighet på beställningar när det är tillämpligt"
+            "tooltip": "Verifierar momsnummer och tillämpar automatiskt omvänd skattskyldighet på beställningar när det är tillämpligt"
           },
           "add": "Lägg till ett momsnummer",
           "vaulted": "Momsnummer: %{number}",
@@ -3491,22 +3492,22 @@
             "invalid_format": {
               "at": "Österrikiska momsnummer innehåller AT och 9 tecken",
               "be": "Belgiska momsnummer innehåller BE och 10 tecken",
-              "bg": "Bulgariens momsnummer innehåller BG och 9-10 tecken",
-              "hr": "Kroatien momsnummer innehåller HR och 11 tecken",
+              "bg": "Bulgariens momsnummer innehåller BG och 9–10 tecken",
+              "hr": "Kroatiska momsnummer innehåller HR och 11 tecken",
               "cy": "Cyperns momsnummer innehåller CY och 9 tecken",
-              "cz": "Tjeckiska momsnummer innehåller CZ och 8-10 tecken",
+              "cz": "Tjeckiska momsnummer innehåller CZ och 8–10 tecken",
               "dk": "Danska momsnummer innehåller DK och 8 tecken",
               "ee": "Estniska momsnummer innehåller EE och 9 tecken",
               "fi": "Finländska momsnummer innehåller FI och 8 tecken",
               "fr": "Franska momsnummer innehåller FR och 11 tecken",
               "de": "Tyska momsnummer innehåller DE och 9 tecken",
-              "gr": "Greklands momsnummer innehåller EL och 9 tecken",
+              "gr": "Grekiska momsnummer innehåller EL och 9 tecken",
               "hu": "Ungerska momsnummer innehåller HU och 8 tecken",
               "ie": "Irländska momsnummer innehåller IE och 8-9 tecken",
               "it": "Italienska momsnummer innehåller IT och 11 tecken",
               "lv": "Lettlands momsnummer innehåller LV och 11 tecken",
               "lt": "Litauiska momsnummer innehåller LT och 9-12 tecken",
-              "lu": "Luxemburgs momsnummer innehåller LU och 8 tecken",
+              "lu": "Luxemburgska momsnummer innehåller LU och 8 tecken",
               "mt": "Maltesiska momsnummer innehåller MT och 8 tecken",
               "nl": "Nederländernas momsnummer innehåller NL och 12 tecken",
               "pl": "Polska momsnummer innehåller PL och 10 tecken",
@@ -3521,33 +3522,43 @@
             "invalid_number": {
               "at": "Ange ett giltigt österrikiskt momsnummer",
               "be": "Ange ett giltigt belgiskt momsnummer",
-              "bg": "Ange ett giltigt bulgariskt momsnummer",
-              "hr": "Ange ett giltigt kroatiskt momsnummer",
+              "bg": "Ange ett giltigt bulgariskt momsregistreringsnummer",
+              "hr": "Ange ett giltigt kroatiskt momsregistreringsnummer",
               "cy": "Ange ett giltigt cypriotiskt momsnummer",
-              "cz": "Ange ett giltigt tjeckiskt momsnummer",
+              "cz": "Ange ett giltigt tjeckiskt momsregistreringsnummer",
               "dk": "Ange ett giltigt danskt momsnummer",
-              "ee": "Ange ett giltigt estniskt momsnummer",
-              "fi": "Ange ett giltigt finskt momsnummer",
+              "ee": "Ange ett giltigt estniskt momsregistreringsnummer",
+              "fi": "Ange ett giltigt finskt momsregistreringsnummer",
               "fr": "Ange ett giltigt franskt momsnummer",
-              "gr": "Ange ett giltigt grekiskt momsnummer",
-              "hu": "Ange ett giltigt ungerskt momsnummer",
+              "gr": "Ange ett giltigt grekiskt momsregistreringsnummer",
+              "hu": "Ange ett giltigt ungerskt momsregistreringsnummer",
               "ie": "Ange ett giltigt irländskt momsnummer",
               "it": "Ange ett giltigt italienskt momsnummer",
-              "lv": "Ange ett giltigt lettiskt momsnummer",
-              "lt": "Ange ett giltigt litauiskt momsnummer",
+              "lv": "Ange ett giltigt lettiskt momsregistreringsnummer",
+              "lt": "Ange ett giltigt litauiskt momsregistreringsnummer",
               "lu": "Ange ett giltigt luxemburgskt momsnummer",
               "mt": "Ange ett giltigt maltesiskt momsnummer",
               "nl": "Ange ett giltigt nederländskt momsnummer",
               "pl": "Ange ett giltigt polskt momsnummer",
               "pt": "Ange ett giltigt portugisiskt momsnummer",
-              "ro": "Ange ett giltigt rumänskt momsnummer",
-              "sk": "Ange ett giltigt slovakiskt momsnummer",
-              "si": "Ange ett giltigt slovenskt momsnummer",
+              "ro": "Ange ett giltigt rumänskt momsregistreringsnummer",
+              "sk": "Ange ett giltigt slovakiskt momsregistreringsnummer",
+              "si": "Ange ett giltigt slovenskt momsregistreringsnummer",
               "es": "Ange ett giltigt spanskt momsnummer",
-              "gb": "Ange ett giltigt momsregistreringsnummer för Storbritannien"
+              "gb": "Ange ett giltigt momsregistreringsnummer för Storbritannien",
+              "de": "Ange ett giltigt tyskt momsnummer"
             },
             "service_unavailable": "Valideringstjänst otillgänglig",
             "service_error": "Valideringstjänst otillgänglig"
+          },
+          "accessibility": {
+            "status": {
+              "validating": "Momsregistreringsnummerverifiering pågår",
+              "valid": "Momsnummer är giltigt",
+              "domestic": "Momsbefrielse tillämpas inte",
+              "service_unavailable": "Kunde inte verifiera momsundantag",
+              "service_error": "Kunde inte verifiera momsundantag"
+            }
           }
         }
       },
@@ -3588,40 +3599,46 @@
         "items_for_pickup": "Varor för avhämtning",
         "items_for_shipping": "Föremål för leverans",
         "delivery_method_menu": "Meny för uppdelad leveransmetod"
+      },
+      "too_many_requests": {
+        "title": "För många försök att slutföra köpet",
+        "body": "Vänligen vänta några minuter och försök igen från din kundvagn.",
+        "return_to_cart": "Återgå till kundvagnen"
       }
     },
     "links": {
       "powered_by_shopify": "Drivs av Shopify",
-      "learn_more": "Lär dig mer"
+      "learn_more": "Läs mer"
     },
     "attributes": {
-      "password_confirmation": "Lösenordsbekräftelsen",
+      "password_confirmation": "Bekräftelse av lösenordet",
       "body": "kropp"
     },
     "addresses": {
-      "pincode": "PIN-kod",
-      "state": "Status",
-      "governorate": "Guvernement",
-      "confirm": "Är du säker på att du vill ta bort den här adressen?"
+      "pincode": "Postnummer",
+      "state": "Stat",
+      "governorate": "Provins",
+      "confirm": "Är du säker på att du vill ta bort denna adress?"
     },
     "collections": {
       "sorting": {
         "manual": "Utvalda",
         "best_selling": "Bäst säljande",
-        "az": "Alfabetiskt, A-Ö",
-        "za": "Alfabetiskt, Z-A",
+        "az": "I bokstavsordning, A-Ö",
+        "za": "I alfabetisk ordning, Z-A",
         "price_descending": "Pris, högst till lägst",
-        "date_descending": "Datum, nyast till äldst"
+        "date_descending": "Datum, nyast till äldst",
+        "date_ascending": "Datum, från äldst till nyast"
       }
     },
     "errors": {
       "blocked_address": "Den här platsen stöds inte",
-      "credit_card_session_expired": "Kreditkortsauktoriseringen har gått ut, vänligen ange din betalningsinformation igen. Ditt kort har inte debiterats.",
+      "credit_card_session_expired": "Kreditkortsauktoriseringen har gått ut, vänligen ange dina betalningsuppgifter igen. Ditt kort har inte debiterats.",
       "invalid_email": "måste vara en giltig e-postadress",
       "discount_disabled": "Denna rabatt har inaktiverats",
-      "discount_expired": "Denna rabatt är inte giltig längre",
+      "discount_expired": "Denna rabatt gäller inte längre",
       "discount_not_found": "Det gick inte att hitta någon giltig rabatt som matchar den angivna koden",
-      "gift_card_already_applied": "Kod har redan tillämpats på din kassa",
+      "gift_card_already_applied": "Koden har redan använts vid din kassa",
       "gift_card_currency_mismatch": "Ditt presentkort är i %{gift_card_currency}. Kontakta oss för att få det omutfärdat i %{checkout_currency}.",
       "gift_card_disabled": "Presentkort är inaktiverat",
       "gift_card_expired": "Presentkortet har gått ut",
@@ -3630,64 +3647,67 @@
       "too_long": "är för lång (maximalt %{count} tecken)",
       "invalid_for_country": "är inte giltigt för %{country}",
       "invalid_for_country_and_province": "är inte giltigt för %{province} och %{country}",
-      "invalid_state_in_country": "är inte en giltig stat i %{country}",
+      "invalid_state_in_country": "är inte en giltig delstat i %{country}",
       "invalid_type": "ursäkta, vi accepterar inte kort av denna typ",
       "expired": "har gått ut",
       "invalid_start_date_or_issue_number_for_debit": "ett giltigt startdatum eller utgåvenummer krävs",
-      "reset_password_html": "Denna e-postadress är redan kopplad till ett konto. Om detta konto är ditt kan du <a href=\"/account/login#recover\">återställa ditt lösenord</a>",
-      "verify_email": "Vi har skickat ett e-postmeddelande till %{customer_email}, vänligen klicka på länken som finns med för att bekräfta din e-postadress.",
+      "reset_password_html": "Den här e-postadressen är redan kopplad till ett konto. Om detta konto är ditt kan du <a href=\"/account/login#recover\">återställa ditt lösenord</a>",
+      "verify_email": "Vi har skickat ett e-postmeddelande till %{customer_email}, vänligen klicka på länken som finns med för att verifiera din e-postadress.",
       "product_not_available": "produkten är inte publicerad för denna kund.",
       "shop_404": {
-        "title": "Skapa en e-handelswebbplats och sälj online! E-handelsprogramvara från Shopify",
+        "title": "Skapa en nätbutik och sälj på nätet! E-handelsprogramvara från Shopify",
         "heros": {
           "store_unavailable": "Tyvärr, denna butik är för närvarande otillgänglig.",
           "store_not_exist": "Den här butiken finns inte.",
-          "no_storefront": "Den här butiken har ingen webbplats än."
+          "no_storefront": "Den här butiken har ännu ingen webbplats."
         },
         "links": {
           "start_free_trial": "Starta en gratis provperiod"
         },
         "owner_ctas": {
-          "header": "Är du butiksägaren?",
-          "fix_domain": "Slutför inställningen av din nya webbadress, gå till %{domain_settings_link}. Klicka på ”Anslut domän” och ange: %{domain}.<br>Om du har svårt att komma in i din butik, prova sidan %{forgot_your_store_link}.",
+          "header": "Är du butikens ägare?",
+          "fix_domain": "Slutför inställningen av din nya webbadress, gå till %{domain_settings_link}. Klicka på ”Anslut domän” och ange: %{domain}.<br>Om du har problem med att komma in i din butik, prova sidan %{forgot_your_store_link}.",
           "forgot_your_store_link_text": "glömde din butik",
-          "add_storefront": "Du kan ställa in din webbplats genom att lägga till kanalen Onlinebutik i din %{admin_link}. Om du har svårt att komma in i din butik, prova sidan %{forgot_your_store_link}.",
+          "add_storefront": "Du kan ställa in din webbplats genom att lägga till kanalen Online Store i din %{admin_link}. Om du har problem med att komma in i din butik, prova sidan %{forgot_your_store_link}.",
           "admin_link_text": "administratör"
         },
         "ctas": {
           "sell_in_person": {
-            "caption": "Få de funktioner du behöver för att driva din detaljhandel, oavsett om du precis har startat eller växer.",
+            "caption": "Få de funktioner du behöver för att driva din butik vare sig du just har startat eller vill växa.",
             "link_text": "Starta gratis provperiod"
           },
           "open_a_store": {
-            "caption": "Starta en 3-dagars gratis provperiod, fortsätt sedan för $1/månad under de nästa 3 månaderna."
+            "caption": "Starta en gratis provperiod i 3 dagar, fortsätt sedan för 1 dollar per månad under de följande 3 månaderna."
           },
           "editions": {
-            "header": "Checkout Shopify-utgåvorna",
-            "caption": "Med över 100 produktuppdateringar kan du vara mer produktiv och kreativ, och kraftfull inom handel än du någonsin kunnat föreställa dig.",
+            "header": "Utforska Shopify-utgåvorna",
+            "caption": "Med över 100 produktuppdateringar kan du vara mer produktiv och kreativ, och starkare i handeln än du någonsin kunnat föreställa dig.",
             "link_text": "Utforska senaste utgåvorna"
           },
           "store_owner": {
-            "header": "Är du butiksägaren?",
-            "caption": "Har du svårt att komma in i din butik? Prova funktionen %{forgot_your_store_link}. Om du vill återaktivera din butik, kontakta %{shopify_support_link}.",
+            "header": "Är du butikens ägare?",
+            "caption": "Har du problem med att logga in i din butik? Prova funktionen %{forgot_your_store_link}. Om du vill återaktivera din butik, kontakta %{shopify_support_link}.",
             "shopify_support_link_text": "Shopify-support"
           }
         }
-      }
+      },
+      "invalid": "är ogiltigt",
+      "password_mismatch": "måste stämma överens med det angivna lösenordet"
     },
     "notices": {
       "customer": {
-        "unsubscribe_error": "Avregistreringsfel",
+        "unsubscribe_error": "Avprenumerationsfel",
         "no_account_found": "Inget konto hittades med den e-postadressen.",
         "invalid_credentials": "Felaktig e-postadress eller lösenord.",
-        "denylisted_reset_password": "Ditt konto kunde inte nås eftersom det nuvarande lösenordet inte är säkert. Du kommer att få ett e-postmeddelande för att uppdatera ditt lösenord."
+        "denylisted_reset_password": "Ditt konto kunde inte nås eftersom det nuvarande lösenordet inte är säkert. Du kommer att få ett e-postmeddelande för att uppdatera ditt lösenord.",
+        "password_reset_error": "Fel vid återställning av lösenordet"
       },
       "address": {
-        "updated": "Adress uppdaterad.",
+        "updated": "Adressen uppdaterades framgångsrikt.",
         "error_updating": "Fel vid uppdatering av adress",
         "created": "Adress skapad framgångsrikt",
         "error_creating": "Fel vid skapande av adress.",
-        "deleted": "Adress borttagen framgångsrikt",
+        "deleted": "Adressen har tagits bort framgångsrikt",
         "error_deleting": "Fel vid borttagning av adress."
       },
       "line_item": {
@@ -3705,70 +3725,72 @@
           "expired": "Utgånget"
         },
         "fulfillment_status": {
-          "fulfilled": "Uppfylld",
-          "complete": "Fullständig",
-          "unfulfilled": "Ouppfylld",
-          "restocked": "Påfyllt"
+          "fulfilled": "Uppfyllt",
+          "complete": "Färdigställ",
+          "unfulfilled": "Ej uppfylld",
+          "restocked": "Påfylld i lager"
         },
         "transaction_status": {
           "success": "Framgång",
           "pending": "Väntande",
-          "failure": "Misslyckande"
+          "failure": "Fel"
         },
         "cancel_reason": {
           "inventory": "Artiklar ej tillgängliga",
           "fraud": "Bedräglig beställning",
           "customer": "Kunden ändrade/avbröt beställningen",
-          "other": "Annat"
+          "other": "Annat",
+          "declined": "Betalningen avvisades"
         },
-        "cash_on_delivery": "Kontant betalning vid Leverans (COD)"
+        "cash_on_delivery": "Betala vid leverans (COD)"
       },
       "cart": {
-        "not_found": "Varukorg hittades inte",
-        "only_n_items_available": "Du kan endast lägga till %{count} %{name} i kundvagnen.",
+        "not_found": "Kundvagn hittades inte",
+        "only_n_items_available": "Du kan bara lägga till %{count} %{name} i kundvagnen.",
         "too_many_items_in_cart": "Du kan inte lägga till fler %{name} i kundvagnen.",
         "only_one_added_to_cart": "Endast 1 artikel lades till i din kundvagn på grund av tillgänglighet.",
         "only_n_added_to_cart": "Endast %{quantity} artiklar lades till i din kundvagn på grund av tillgänglighet.",
-        "maximum_available_quantity_reached": "Den maximala mängden av denna artikel finns redan i din kundvagn.",
-        "less_than_minimum": "Denna artikel har en minimum på %{min}.",
-        "more_than_maximum": "Denna artikel har en högsta mängd på %{max}.",
-        "not_respect_step": "Du kan endast lägga till denna vara i steg om %{step}.",
+        "maximum_available_quantity_reached": "Den maximala mängden av denna vara finns redan i din kundvagn.",
+        "less_than_minimum": "Den här artikeln har en minimum på %{min}.",
+        "more_than_maximum": "Den här artikeln har en maxgräns på %{max}.",
+        "not_respect_step": "Du kan bara lägga till den här varan i steg om %{step}.",
         "all_items_in_cart": "Alla %{count} %{name} finns i din kundvagn.",
         "empty_update": "kan inte uppdatera tom kundvagn",
-        "missing_parameters": "ingen giltig id- eller linjeparameter",
-        "generic_error": "Varukorgsfel",
-        "invalid_input": "%{parameter} parameter är ogiltig.",
+        "missing_parameters": "ingen giltig id- eller radparameter",
+        "generic_error": "Fel i kundvagnen",
+        "invalid_input": "Parametern %{parameter} är ogiltig.",
         "product_not_available": "Produkten finns inte tillgänglig",
         "too_many_line_items_error": "Din kundvagn kan inte innehålla fler än %{max} artiklar.",
         "link_expired": "Länken har gått ut",
         "link_no_longer_exists": "Länken finns inte längre.",
-        "stock_problems_html": "En eller flera varor finns inte längre tillgängliga. Vi har lagt till en <a href='%{link}'>uppdaterad kundvagn</a>.",
-        "changed": "Varukorg ändrad",
+        "stock_problems_html": "En eller flera artiklar finns inte längre tillgängliga. Vi har tillhandahållit en <a href='%{link}'>uppdaterad kundvagn</a>.",
+        "changed": "Kundvagnen ändrad",
         "product_sold_out": "Produkten '%{name}' är redan slutsåld.",
         "variant_requires_selling_plan": "Variant kan endast köpas med en försäljningsplan.",
         "selling_plan_not_available_for_company_locations": "Endast engångsköp är tillgängligt för B2B-beställningar",
-        "digital_product_not_available_for_company_locations": "Den här artikeln kan inte läggas till i en B2B-beställning",
-        "buyer_cannot_purchase_for_company_locations": "Du kan inte köpa för denna plats",
+        "digital_product_not_available_for_company_locations": "Den här varan kan inte läggas till i en företagsbeställning",
+        "buyer_cannot_purchase_for_company_locations": "Du kan inte handla för denna plats",
         "selling_plan_not_applicable": "Kan inte tillämpa försäljningsplan på variant",
         "shipping_address_not_required": "Den här kundvagnen kräver ingen frakt",
-        "shipping_address_invalid": "Det uppstod ett problem vid beräkningen av dina fraktkostnader. Fortsätt till kassan för att välja en fraktsats innan du slutför din beställning.",
+        "shipping_address_invalid": "Det uppstod ett problem vid beräkningen av dina fraktkostnader. Fortsätt till kassan för att välja en fraktkostnad innan du slutför din beställning.",
         "bundle_requires_components": "Paketprodukten '%{name}' kan inte läggas till i kundvagnen.",
         "gift_card_with_components_not_supported": "Paketprodukten '%{name}' kan inte läggas till i kundvagnen.",
         "gift_card_price_must_be_greater_than_zero": "Paketprodukten '%{name}' kan inte läggas till i kundvagnen.",
         "gift_card_recipient_validation_error": "Den angivna mottagaren av presentkortet är ogiltig",
-        "cart_too_large": "Varukorg är för stor.",
-        "cart_attributes_error": "Varukorgens egenskaper innehåller ogiltiga uppgifter.",
+        "cart_too_large": "Korgen är för stor.",
+        "cart_attributes_error": "Varukorgens attribut innehåller ogiltiga uppgifter.",
         "merchandise_line_transformers": {
           "run_error": "Ett fel uppstod i din kundvagn."
         },
-        "merchandise_not_applicable": "Artikeln kan inte köpas i den konfigurerade formen."
+        "merchandise_not_applicable": "Artikeln kan inte köpas i den konfigurerade formen.",
+        "items_changed": "En eller flera varor har ändrats."
       },
       "storefront": {
-        "invalid_password": "Lösenordet är fel, försök igen."
+        "invalid_password": "Lösenordet är felaktigt, försök igen."
       },
       "tags": {
-        "add_products": "Begränsa urvalet till produkter som matchar etiketten %{tag}",
-        "remove_articles": "Utöka sökningen till artiklar som inte är märkta %{tag}",
+        "add_products": "Begränsa urvalet till produkter som matchar taggen %{tag}",
+        "remove_articles": "Utöka sökningen till artiklar som inte är taggade %{tag}",
         "remove_products": "Ta bort taggen %{tag}"
       }
     },
@@ -3780,27 +3802,27 @@
       "unsubscribed": {
         "confirmation": "Du har avregistrerat dig från vår e-postlista.",
         "disclaimer": "Du kommer inte att få några fler marknadsföringsuppdateringar från oss. Du kan prenumerera igen när som helst.",
-        "preview": "Du förhandsgranskar vad kunderna kommer att se när de avregistrerar sig."
+        "preview": "Du förhandsgranskar vad kunderna kommer att se när de avslutar sin prenumeration."
       },
       "open_tracking": {
         "opt_in": {
           "opted_in_html": "<b>Du har valt att spåra öppning av e-post.</b>",
-          "visibility": "E-postöppningsfrekvenser kommer att rapporteras anonymt. Vi kommer endast att se om du har öppnat ett e-postmeddelande som en del av en sammanställd e-postöppningsfrekvens.",
+          "visibility": "E-postöppningsfrekvenser kommer att rapporteras anonymt. Vi kommer endast att se om du har öppnat ett e-postmeddelande som en del av en samlad e-postöppningsfrekvens.",
           "opt_out_html": "Du kan <a style='text-decoration:underline;' href='%{link}'>avstå</a> från att spåra öppning av e-post om du inte vill dela denna information.",
-          "preview_bar": "Du förhandsgranskar vad kunderna kommer att se när de väljer att aktivera e-postöppningsspårning."
+          "preview_bar": "Du förhandsgranskar vad kunderna kommer att se när de väljer att spåra öppning av e-post."
         },
         "opt_out": {
           "opted_out_html": "<b>Du har valt att inte spåra öppning av e-post.</b>",
           "visibility": "Vi kommer inte att se om du har öppnat våra e-postmeddelanden.",
-          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Anmäl dig</a> till e-postöppningsspårning.",
-          "preview_bar": "Du förhandsgranskar vad kunderna kommer att se när de väljer att avstå från e-postöppningsspårning."
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Anmäl dig</a> för e-postöppningsspårning.",
+          "preview_bar": "Du förhandsgranskar vad kunderna kommer att se när de väljer att avstå från att spåra öppning av e-post."
         },
         "no_longer_track": {
-          "status_html": "<b>Vi spårar inte längre några e-postöppningar.</b>",
+          "status_html": "<b>Vi spårar inte längre några öppnade e-postmeddelanden.</b>",
           "privacy_policy": "Efter att detta e-postmeddelande skickades uppdaterade vi vår integritetspolicy och vi spårar inte längre öppningar."
         },
         "track": {
-          "status_html": "<b>E-postöppningsspårning rapporteras.</b>",
+          "status_html": "<b>Öppning av e-postmeddelande rapporteras.</b>",
           "visibility": "Vi kommer endast att se om du har öppnat e-postmeddelandet, som en del av den totala öppningsfrekvensen för e-post."
         },
         "updated_policy": {
@@ -3808,6 +3830,10 @@
           "visibility": "Vi har uppdaterat vår policy och spårar nu e-postöppningar. Öppningsfrekvenser för e-post kommer att rapporteras anonymt. Vi kommer endast att se om du har öppnat ett e-postmeddelande som en del av den totala öppningsfrekvensen.",
           "opt_out_html": "Om du inte vill dela denna information kan du <a style='text-decoration:underline;' href='%{link}'>avregistrera dig.</a>"
         }
+      },
+      "sms_unsubscribe_confirm": {
+        "message": "Är du säker på att du vill avsluta prenumerationen på SMS-marknadsföring?",
+        "button": "Avsluta prenumerationen"
       }
     },
     "search": {
