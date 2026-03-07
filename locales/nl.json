@@ -2731,9 +2731,138 @@
         },
         "cancel_reason": {
           "customer": "Klant heeft bestelling gewijzigd/geannuleerd",
-          "staff": "Personeelsfout"
+          "staff": "Personeelsfout",
+          "other": "Overig"
+        },
+        "cash_on_delivery": "Contant bij aflevering (CBA)"
+      },
+      "cart": {
+        "only_n_items_available": "Je kunt slechts %{count} %{name} aan de winkelwagen toevoegen.",
+        "too_many_items_in_cart": "Je kunt niet meer %{name} aan de winkelwagen toevoegen.",
+        "only_one_added_to_cart": "Er is slechts 1 artikel aan uw winkelwagen toegevoegd vanwege de beschikbaarheid.",
+        "only_n_added_to_cart": "Er zijn slechts %{quantity} artikelen aan uw winkelwagen toegevoegd vanwege beschikbaarheid.",
+        "maximum_available_quantity_reached": "De maximale hoeveelheid van dit artikel zit al in uw winkelwagen.",
+        "not_respect_step": "Je kunt dit item alleen toevoegen in stappen van %{step}.",
+        "all_items_in_cart": "Alle %{count} %{name} zitten in je winkelwagen.",
+        "missing_parameters": "geen geldige id- of regelparameter",
+        "generic_error": "Fout in winkelwagen",
+        "invalid_input": "%{parameter} parameter is ongeldig.",
+        "too_many_line_items_error": "Je winkelwagen mag niet meer dan %{max} artikelen bevatten.",
+        "link_no_longer_exists": "De link bestaat niet meer.",
+        "stock_problems_html": "Een of meer artikelen zijn niet langer beschikbaar. We hebben een <a href='%{link}'>bijgewerkte winkelwagen</a> voor je klaargezet.",
+        "items_changed": "Een of meer artikelen zijn gewijzigd.",
+        "variant_requires_selling_plan": "Variant kan alleen worden gekocht met een verkoopplan.",
+        "selling_plan_not_available_for_company_locations": "Alleen eenmalige aankoop is beschikbaar voor B2B-bestellingen",
+        "digital_product_not_available_for_company_locations": "Dit artikel kan niet aan een B2B-bestelling worden toegevoegd",
+        "buyer_cannot_purchase_for_company_locations": "Je kunt niet kopen voor deze locatie",
+        "selling_plan_not_applicable": "Kan verkoopplan niet toepassen op variant",
+        "shipping_address_not_required": "Deze winkelwagen vereist geen verzending",
+        "shipping_address_invalid": "Er was een probleem bij het berekenen van uw verzendkosten. Ga door naar de kassa om een verzendtarief te kiezen voordat u uw bestelling afrondt.",
+        "bundle_requires_components": "Het bundelproduct '%{name}' kan niet aan de winkelwagen worden toegevoegd.",
+        "gift_card_with_components_not_supported": "Het bundelproduct '%{name}' kan niet aan de winkelwagen worden toegevoegd.",
+        "gift_card_price_must_be_greater_than_zero": "Het bundelproduct '%{name}' kan niet aan de winkelwagen worden toegevoegd.",
+        "view_lines_limit_reached": "Regels moeten minder dan of gelijk aan %{limit} zijn",
+        "cart_attributes_error": "Winkelwagenkenmerken bevatten ongeldige gegevens.",
+        "merchandise_line_transformers": {
+          "run_error": "Er is een fout opgetreden in uw winkelwagen."
+        },
+        "merchandise_not_applicable": "Artikel kan niet worden gekocht zoals geconfigureerd."
+      },
+      "tags": {
+        "add_articles": "Zoekresultaten beperken tot artikelen met ook tag %{tag}",
+        "add_products": "Selectie beperken tot producten die overeenkomen met tag %{tag}",
+        "remove_articles": "Zoek ook in artikelen die niet zijn getagd met %{tag}",
+        "remove_products": "Verwijder label %{tag}"
+      }
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Bedankt voor uw inschrijving op onze mailinglijst.",
+        "disclaimer": "U kunt zich op elk moment afmelden.",
+        "unsubscribe": "Uitschrijven"
+      },
+      "unsubscribed": {
+        "confirmation": "Je hebt je afgemeld voor onze mailinglijst.",
+        "disclaimer": "Je ontvangt geen marketingupdates meer van ons. Je kunt je op elk moment opnieuw abonneren.",
+        "preview": "Je bekijkt een voorbeeld van wat klanten zullen zien wanneer ze zich afmelden."
+      },
+      "sms_unsubscribe_confirm": {
+        "message": "Weet u zeker dat u zich wilt afmelden voor SMS-marketing?",
+        "button": "Uitschrijven"
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>U heeft zich aangemeld voor het volgen van het openen van e-mails.</b>",
+          "visibility": "E-mail openpercentages worden anoniem gerapporteerd. We zullen alleen zien of u een e-mail hebt geopend als onderdeel van een samengevoegd e-mail openpercentage.",
+          "opt_out_html": "Je kunt je <a style='text-decoration:underline;' href='%{link}'>afmelden</a> voor het volgen van het openen van e-mails als je deze informatie niet wilt delen.",
+          "preview_bar": "Je bekijkt een voorbeeld van wat klanten zullen zien wanneer ze ervoor kiezen om het openen van e-mails te laten volgen."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>U heeft zich afgemeld voor het volgen van het openen van e-mails.</b>",
+          "visibility": "We zullen niet zien of je onze e-mails hebt geopend.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Aanmelden</a> voor het volgen van geopende e-mails.",
+          "preview_bar": "Je bekijkt een voorbeeld van wat klanten zullen zien wanneer ze zich afmelden voor het bijhouden van het openen van e-mails."
+        },
+        "no_longer_track": {
+          "status_html": "<b>We volgen geen enkele e-mailopening meer.</b>",
+          "privacy_policy": "Nadat deze e-mail was verzonden, hebben we ons privacybeleid bijgewerkt en volgen we niet langer het openen van berichten."
+        },
+        "track": {
+          "status_html": "<b>Het openen van e-mail wordt gevolgd.</b>",
+          "visibility": "We zullen alleen zien of je de e-mail hebt geopend, als onderdeel van het totale percentage geopende e-mails."
+        },
+        "updated_policy": {
+          "status_html": "<b>Het openen van e-mail wordt gevolgd.</b>",
+          "visibility": "We hebben ons beleid bijgewerkt en volgen nu het openen van e-mails. Het openen van e-mails wordt anoniem gerapporteerd. We zien alleen of u een e-mail hebt geopend als onderdeel van het totale percentage geopende e-mails.",
+          "opt_out_html": "Als u deze informatie niet wilt delen, kunt u zich <a style='text-decoration:underline;' href='%{link}'>uitschrijven.</a>"
         }
       }
+    },
+    "search": {
+      "error": "Er was een probleem bij het laden van uw zoekresultaten. Vernieuw de pagina of probeer het later opnieuw.",
+      "sorting": {
+        "price_ascending": "Prijs, van laag naar hoog",
+        "price_descending": "Prijs, van hoog naar laag"
+      }
+    },
+    "page_titles": {
+      "shopping_cart": "Uw Winkelwagen",
+      "account": "Rekening",
+      "reset_account": "Account opnieuw instellen",
+      "search_results": {
+        "one": "Zoekresultaat: %{count} resultaat gevonden voor \"%{terms}\"",
+        "other": "Zoeken: %{count} resultaten gevonden voor \"%{terms}\""
+      },
+      "not_found": "404 Niet Gevonden"
+    },
+    "cart": {
+      "discounts_with_count": "%{count} kortingen zijn toegepast"
+    },
+    "challenge": {
+      "message": "Om door te gaan, laat ons weten dat je geen robot bent.",
+      "error": "Uw antwoord was niet correct, probeer het alstublieft opnieuw."
+    },
+    "checkpoint": {
+      "message": "Los de captcha op om door te gaan",
+      "error": "Captcha-validatie mislukt"
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Gewoonlijk klaar binnen 1 uur",
+        "two_hours": "Gewoonlijk klaar binnen 2 uur",
+        "four_hours": "Gewoonlijk klaar binnen 4 uur",
+        "twenty_four_hours": "Gewoonlijk binnen 24 uur klaar",
+        "two_to_four_days": "Gewoonlijk klaar binnen 2-4 dagen",
+        "five_or_more_days": "Gewoonlijk binnen 5+ dagen klaar",
+        "zero_to_two_hours": "Gewoonlijk klaar binnen 2 uur",
+        "two_to_four_hours": "Gewoonlijk klaar binnen 4 uur",
+        "next_day": "Klaar voor afhaling de volgende dag"
+      }
+    },
+    "subscriptions": {
+      "buyer_consent_product": "Dit artikel is een terugkerende of uitgestelde aankoop. Door door te gaan, ga ik akkoord met de %{cancellationPolicyLink} en machtig ik u om mijn betaalmethode te belasten tegen de prijzen, frequentie en data die op deze pagina staan vermeld totdat mijn bestelling is voltooid of ik annuleer, indien toegestaan.",
+      "buyer_consent_cart": "Een of meer van de artikelen in uw winkelwagen zijn een terugkerende of uitgestelde aankoop. Door door te gaan, ga ik akkoord met de %{cancellationPolicyLink} en machtig ik u om mijn betaalmethode te belasten tegen de prijzen, frequentie en data die op deze pagina staan vermeld totdat mijn bestelling is voltooid of ik annuleer, indien toegestaan.",
+      "cancellation_policy": "annuleringsbeleid"
     }
   },
   "customer_accounts": {
@@ -2774,7 +2903,19 @@
       "privacy_link_text": "Privacy"
     },
     "navigation_and_structure": {
-      "loading_policy_content_accessibility_label": "Beleidsinhoud laden"
+      "loading_policy_content_accessibility_label": "Beleidinhoud laden",
+      "account_menu": {
+        "show_accessibility_label": "Toon accountmenu",
+        "open_menu_accessibility_label": "Open Account navigatie",
+        "close_menu_accessibility_label": "Sluit accountnavigatie"
+      },
+      "close_menu_accessibility_label": "Sluit hoofdmenu",
+      "contact_email_subject": "Contact van de online winkel {{shopName}}",
+      "document_title": "{{sectionName}} - {{shopName}} - Account",
+      "policy_load_error": "Kon {{policyName}} niet laden",
+      "log_out_link": "Afmelden",
+      "logout_overlay_label": "Afmelden...",
+      "open_menu_accessibility_label": "Open hoofdmenu"
     },
     "announcement_bar": {
       "expand_label": "Aankondigingsbalk uitvouwen",
@@ -2801,6 +2942,18 @@
         "title": "Betalingsmethode bijgewerkt",
         "done_button": "Verder winkelen"
       }
-    }
+    },
+    "callback": {
+      "try_again": "Probeer het opnieuw"
+    },
+    "date": {
+      "humanize": {
+        "lessThanOneYearAgo": "{{date}} om {{time}}",
+        "lessThanOneWeekAgo": "{{weekday}} om {{time}}",
+        "lessThanOneWeekAway": "{{weekday}} om {{time}}",
+        "lessThanOneYearAway": "{{date}} om {{time}}"
+      }
+    },
+    "enable_javascript": "Om uw account te bekijken, schakelt u JavaScript in de instellingen van uw browser in of meldt u zich aan met een andere browser."
   }
 }
