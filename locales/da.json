@@ -10,13 +10,13 @@
 {
   "general": {
     "password_page": {
-      "login_form_heading": "Indtast butik ved hjælp af adgangskode:",
+      "login_form_heading": "Indtast butik med adgangskode:",
       "login_password_button": "Indtast med adgangskode",
       "login_form_password_label": "Adgangskode",
       "login_form_password_placeholder": "Din adgangskode",
       "login_form_error": "Forkert adgangskode!",
       "login_form_submit": "Indtast",
-      "admin_link_html": "Er du butiksindehaveren? <a href=\"/admin\" class=\"link underlined-link\">Log ind her</a>",
+      "admin_link_html": "Er du butiksejer? <a href=\"/admin\" class=\"link underlined-link\">Log ind her</a>",
       "powered_by_shopify_html": "Denne butik vil blive drevet af {{ shopify }}"
     },
     "social": {
@@ -45,12 +45,12 @@
       "previous": "Forrige side"
     },
     "search": {
-      "search": "Søgning",
+      "search": "Søg",
       "reset": "Ryd søgeord"
     },
     "cart": {
       "view": "Se kurv ({{ count }})",
-      "item_added": "Vare tilføjet til din indkøbskurv",
+      "item_added": "Vare tilføjet til din kurv",
       "view_empty_cart": "Se kurv"
     },
     "share": {
@@ -69,15 +69,15 @@
   "newsletter": {
     "label": "E-mail",
     "success": "Tak for dit abonnement",
-    "button_label": "Tilmeld"
+    "button_label": "Abonner"
   },
   "accessibility": {
-    "skip_to_text": "Spring til indholdet",
+    "skip_to_text": "Spring til indhold",
     "close": "Luk",
     "unit_price_separator": "pr.",
-    "vendor": "Leverandør:",
+    "vendor": "Sælger:",
     "error": "Fejl",
-    "refresh_page": "At vælge et udvalg resulterer i en fuld sideopdatering.",
+    "refresh_page": "At vælge et valg medfører en fuld sideopdatering.",
     "link_messages": {
       "new_window": "Åbner i et nyt vindue.",
       "external": "Åbner ekstern hjemmeside."
@@ -97,16 +97,16 @@
         "one": "{{ count }} kommentar",
         "other": "{{ count }} kommentarer"
       },
-      "moderated": "Bemærk venligst, at kommentarer skal godkendes, før de offentliggøres.",
+      "moderated": "Bemærk venligst, at kommentarer skal godkendes, før de bliver offentliggjort.",
       "comment_form_title": "Efterlad en kommentar",
       "name": "Navn",
       "email": "E-mail",
       "message": "Kommentar",
-      "post": "Skriv kommentar",
+      "post": "Skriv en kommentar",
       "back_to_blog": "Tilbage til bloggen",
       "share": "Del denne artikel",
       "success": "Din kommentar blev sendt med succes! Tak!",
-      "success_moderated": "Din kommentar blev sendt med succes. Vi vil offentliggøre den om lidt, da vores blog er modereret."
+      "success_moderated": "Din kommentar blev sendt med succes. Vi vil offentliggøre den om lidt, da vores blog bliver gennemset."
     }
   },
   "onboarding": {
@@ -171,7 +171,7 @@
       "variant_sold_out_or_unavailable": "Variant udsolgt eller utilgængelig",
       "inventory_in_stock": "På lager",
       "inventory_in_stock_show_count": "{{ quantity }} på lager",
-      "inventory_low_stock": "Lav lagerbeholdning",
+      "inventory_low_stock": "Få på lager",
       "inventory_low_stock_show_count": "Få på lager: {{ quantity }} tilbage",
       "inventory_out_of_stock": "Udsolgt",
       "inventory_out_of_stock_continue_selling": "På lager",
@@ -2938,36 +2938,36 @@
         "title": "Opdater betalingsmetode",
         "button_title": "Opdatering",
         "billing_address": "Faktureringsadresse",
-        "disclaimer": "Denne betalingsmetode vil blive gemt til fremtidige køb og kan bruges til eventuelle tilbagevendende eller udskudte køb.",
+        "disclaimer": "Denne betalingsmetode vil blive gemt til fremtidige køb og kan bruges til alle tilbagevendende eller udskudte køb.",
         "error_message": "Kan ikke opdatere betalingsmetode",
         "current": "Nuværende",
         "subscriptions_list_accessibility_label": "Liste over abonnementsprodukter",
-        "pre_orders_list_accessibility_label": "Liste over produkter i ventende ordre",
+        "pre_orders_list_accessibility_label": "Liste over produkter til ventende ordre",
         "resources_list_accessibility_label": "Abonnementsprodukter og ventende ordreprodukter, der bruger denne betalingsmetode",
         "resources_card_scroll": "Rul for flere varer",
         "loading_form_accessibility_message": "Indlæser opdateringsformular for betalingsmetode",
-        "loading_current_payment_method": "Indlæser den aktuelle betalingsmetode",
-        "loading_digital_wallets": "Indlæser digitale tegnebogsmuligheder"
+        "loading_current_payment_method": "Indlæser nuværende betalingsmetode",
+        "loading_digital_wallets": "Indlæser digitale pungmuligheder"
       },
       "pay_pal": {
         "errors": {
           "generic": "Der opstod et problem med PayPal. Prøv igen eller brug en anden betalingsmetode."
         },
-        "iframe_title_accessibility_label": "Tilføj PayPal betalingsmetode"
+        "iframe_title_accessibility_label": "Tilføj PayPal-betalingsmetode"
       },
       "add_payment_method_dropdown": {
-        "bank_account_consent": "Ved at tilføje en betalingsmetode giver du tilladelse til, at dit kort kan blive opkrævet eller din bankkonto debiteret for fremtidige køb, som du godkender, indtil du annullerer."
+        "bank_account_consent": "Ved at tilføje en betalingsmetode giver du tilladelse til, at dit kort kan blive opkrævet eller din bankkonto kan blive trukket for fremtidige køb, som du godkender, indtil du annullerer."
       },
       "bank_account": {
-        "loading_accessibility_message": "Bankkonto-knappen indlæses",
+        "loading_accessibility_message": "Bankkontoknappen indlæses",
         "generic_error": "Kunne ikke tilføje bankkonto. Prøv igen senere."
       },
-      "add_payment_method_banner": "Tilføj betalingsmetode for hurtigere betaling eller forudautoriserede tjenester",
+      "add_payment_method_banner": "Tilføj betalingsmetode for hurtigere betaling eller forudgodkendte tjenester",
       "no_payment_methods_banner": "Ingen betalingsmetoder tilføjet",
-      "edit_payment_method_button_accessibility_label": "Rediger {{paymentMethodName}} med endelse {{lastDigits}}",
-      "expiration_warning_button_accessibility_label": "Vis udløbsadvarsel for {{paymentMethodName}} med endelse {{lastDigits}}",
+      "edit_payment_method_button_accessibility_label": "Rediger {{paymentMethodName}} med slutning i {{lastDigits}}",
+      "expiration_warning_button_accessibility_label": "Vis udløbsadvarsel for {{paymentMethodName}}, der slutter med {{lastDigits}}",
       "card_update_consent": "Denne betalingsmetode vil blive gemt til fremtidige køb.",
-      "card_update_consent_subscriptions": "Denne betalingsmetode vil blive gemt til fremtidige køb og kan bruges til eventuelle tilbagevendende eller udskudte køb.",
+      "card_update_consent_subscriptions": "Denne betalingsmetode vil blive gemt til fremtidige køb og kan bruges til alle tilbagevendende eller udskudte køb.",
       "digital_wallet_title": "Digital pung",
       "credit_or_debit_card_title": "Kredit- eller betalingskort",
       "or": "ELLER",
@@ -2990,36 +2990,39 @@
         "expirable_amounts_button": "Se udløbende beløb",
         "expirable_amounts_label": "Udløbsbare mængder",
         "details_modal": {
-          "title": "Udløbsbar butikskredit",
+          "title": "Udløbsdato for butikskredit",
           "events": {
-            "order_refund": "Ordre refundering",
+            "order_refund": "Ordre tilbagebetaling",
             "order_cancellation": "Ordreannullering",
-            "tax_finalization": "Skatteafslutning"
+            "tax_finalization": "Skatteafslutning",
+            "order_payment": "Bestillingsbetaling"
           },
-          "expirable_balance_info": "Nogle af dine saldo vil udløbe på en fremtidig dato",
-          "expirable_amount_label": "Samlet udløbbar mængde",
-          "expirable_amounts_info": "Beløb, der udløber først, anvendes først ved kassen",
+          "expirable_balance_info": "En del af din saldo vil udløbe på en fremtidig dato",
+          "expirable_amount_label": "Samlet udløbsmængde",
+          "expirable_amounts_info": "Beløb, der udløber først, anvendes først ved betaling",
           "expired_amounts_button": "Se udløbne beløb",
           "pagination": {
-            "load_more_label": "Indlæs mere",
+            "load_more_label": "Indlæs flere",
             "load_more_accessibility_label": "Indlæs flere udløbende beløb"
-          }
+          },
+          "balance_label": "Balance",
+          "amount_label": "Mængde"
         }
       },
       "payment_details": {
-        "title": "Betalingsmetode detaljer",
+        "title": "Betalingsmetodeoplysninger",
         "credit_card_details_accessibility_label": "slutter med {{lastDigits}}",
         "payment_method_expiring_on": "Udløber den {{expiryDate}}",
         "payment_method_expired_on": "Udløbet den {{expiryDate}}",
-        "preauthorized_payments": "Forudautoriserede betalinger",
-        "close_payment_modal_accessibility_label": "Luk betalingsmetode detaljer modal",
+        "preauthorized_payments": "Forudgodkendte betalinger",
+        "close_payment_modal_accessibility_label": "Luk betalingsmetodeoplysninger vindue",
         "payment_method_not_found_error": "Kan ikke finde betalingsmetode",
         "payment_details_loading": "Indlæser betalingsmetodeoplysninger",
         "pre_authorized_payments": "Forudautoriserede betalinger",
         "next_payment_due": "Næste betaling forfalder {{dueDateInMonthDayYear}}",
         "edit_payment_method_button_accessibility_label": "Rediger betalingsmetode, der slutter med {{lastDigits}}",
         "replace_payment_method": "Udskift betalingsmetode",
-        "checkout_card_banner": "Denne betalingsmetode kan kun bruges til forudautoriserede betalinger. Den vil ikke blive vist ved kassen, hvis du er logget ind i denne butik.",
+        "checkout_card_banner": "Denne betalingsmetode kan kun bruges til forudgodkendte betalinger. Den vil ikke vises ved kassen, hvis du er logget ind i denne butik.",
         "default_checkbox": "Indstil som standard",
         "default_checkbox_accessibility_label": "Indstil denne betalingsmetode som standard",
         "replace_payment_method_button": "Erstatte"
@@ -3029,13 +3032,13 @@
         "payment_method_updated_toast": "Betalingsmetode opdateret",
         "billing_address_choose_from_list": "Vælg fra listen",
         "future_purchases_notice": "Denne betalingsmetode vil blive gemt til fremtidige køb.",
-        "generic_error": "Der opstod et problem med opdateringen. Prøv venligst igen."
+        "generic_error": "Der opstod et problem under opdateringen. Prøv venligst igen."
       },
       "link_expired": {
         "message": "Dette link til at opdatere din betalingsmetode er udløbet.",
         "update_message": "Dette link til at opdatere din betalingsmetode er udløbet.",
         "add_message": "Dette link til at tilføje din betalingsmetode er udløbet.",
-        "return_home_button": "Tilbage til startsiden"
+        "return_home_button": "Gå tilbage til startsiden"
       },
       "update_success": {
         "title": "Betalingsmetode opdateret"
@@ -3050,7 +3053,7 @@
         "card_start_placeholder": "Udstedelsesdato (MM / ÅÅ)",
         "tooltip": {
           "tooltip_accessibility_label": "Mere information",
-          "card_verification_value_explanation": "3-cifret sikkerhedskode, som normalt findes på bagsiden af dit kort. American Express-kort har en 4-cifret kode placeret på forsiden."
+          "card_verification_value_explanation": "3-cifret sikkerhedskode, som normalt findes på bagsiden af dit kort. American Express-kort har en 4-cifret kode, der er placeret på forsiden."
         },
         "field_errors": {
           "credit_card_name_invalid": "Indtast dit navn præcis som det står på dit kort",
@@ -3061,29 +3064,32 @@
         "unavailable": {
           "text": "Betaling med kredit- og betalingskort er ikke tilgængelig lige nu.",
           "suffix": "eller prøv igen senere."
-        }
+        },
+        "name_on_card_label": "Navn på kort",
+        "name_on_card_placeholder": "Navn på kort"
       },
       "payment_delete": {
         "description_without_replacement": "Denne betalingsmetode vil ikke længere være tilgængelig for fremtidige køb.",
         "description_with_replacement": "Sletning af denne betalingsmetode vil påvirke forudautoriserede betalinger. Du kan eventuelt erstatte den med en anden betalingsmetode for at fortsætte med at modtage kommende ordrer.",
         "warning_message_with_replacement": {
-          "with_pending_orders_and_subscriptions": "Sletning af denne betalingsmetode vil påvirke forudautoriserede betalinger. Medmindre du vælger en alternativ betalingsmetode, vil denne betalingsmetode stadig blive opkrævet for eventuelle udestående saldi på eksisterende ordrer. Valg af en alternativ betalingsmetode vil gøre det muligt for dig at modtage kommende abonnementsordrer uden afbrydelse.",
-          "with_pending_orders": "Sletning af denne betalingsmetode vil fjerne den fra din konto og vil ikke længere være tilgængelig for fremtidige køb. Medmindre du vælger en alternativ betalingsmetode, vil den stadig blive opkrævet for eventuelle udestående saldi på eksisterende ordrer.",
-          "with_subscriptions": "Sletning af denne betalingsmetode vil påvirke forudautoriserede betalinger. Erstat den med en alternativ betalingsmetode for at fortsætte med at modtage kommende ordrer."
+          "with_pending_orders_and_subscriptions": "Sletning af denne betalingsmetode vil påvirke forudautoriserede betalinger. Medmindre du vælger en anden betalingsmetode, vil denne betalingsmetode stadig blive opkrævet for eventuelle udestående beløb på eksisterende ordrer. Ved at vælge en anden betalingsmetode kan du modtage kommende abonnementsordrer uden afbrydelse.",
+          "with_pending_orders": "Sletning af denne betalingsmetode vil fjerne den fra din konto og den vil ikke længere være tilgængelig til fremtidige køb. Medmindre du vælger en anden betalingsmetode, vil den stadig blive opkrævet for eventuelle udestående beløb på eksisterende ordrer.",
+          "with_subscriptions": "Sletning af denne betalingsmetode vil påvirke forudautoriserede betalinger. Erstat den med en anden betalingsmetode for at fortsætte med at modtage kommende ordrer."
         },
         "warning_message_without_replacement": {
-          "with_pending_orders_and_subscriptions": "Sletning af denne betalingsmetode vil påvirke forudautoriserede betalinger. Denne betalingsmetode vil stadig blive opkrævet for eventuelle udestående saldi på eksisterende ordrer, men du vil ikke modtage kommende abonnementsordrer. Tilføj en alternativ betalingsmetode for at fortsætte med at modtage abonnementsordrer.",
-          "with_pending_orders": "Sletning af denne betalingsmetode vil fjerne den fra din konto og vil ikke længere være tilgængelig for fremtidige køb. Den vil stadig blive opkrævet for eventuelle udestående saldi på eksisterende ordrer.",
+          "with_pending_orders_and_subscriptions": "Sletning af denne betalingsmetode vil påvirke forudautoriserede betalinger. Denne betalingsmetode vil stadig blive opkrævet for eventuelle udestående beløb på eksisterende ordrer, men du vil ikke modtage kommende abonnementsordrer. Tilføj en alternativ betalingsmetode for at fortsætte med at modtage abonnementsordrer.",
+          "with_pending_orders": "Sletning af denne betalingsmetode vil fjerne den fra din konto og den vil ikke længere være tilgængelig til fremtidige køb. Den vil stadig blive opkrævet for eventuelle udestående beløb på eksisterende ordrer.",
           "with_subscriptions": "Sletning af denne betalingsmetode vil påvirke forudautoriserede betalinger. Tilføj en alternativ betalingsmetode for at fortsætte med at modtage kommende ordrer."
         },
-        "error_when_deleting": "Vi beklager, men noget gik galt, og vi kunne ikke slette denne betalingsmetode. Prøv venligst igen senere eller opdater siden.",
+        "error_when_deleting": "Vi beklager, men der opstod en fejl, og vi kunne ikke slette denne betalingsmetode. Prøv venligst igen senere eller opdater siden.",
         "delete_and_replace_button_accessibility_label": "Slet {{currentPaymentMethodName}} og erstat med {{newPaymentMethodName}}.",
-        "deleted_successfully": "Betalingsmetode slettet succesfuldt."
+        "deleted_successfully": "Betalingsmetode slettet med succes.",
+        "payment_method_selector_no_alternative_payment": "Ingen udskiftningsmetode"
       },
       "add_payment_method": {
         "payment_method_added_confirmation": "Betalingsmetode tilføjet",
         "missing_customer_error": "Noget gik galt. Prøv venligst igen eller kontakt support.",
-        "replace_mode_warning": "Sletning af denne betalingsmetode vil påvirke abonnementer eller forudbestillinger. Erstat den med en alternativ betalingsmetode for at fortsætte med at modtage kommende ordrer.",
+        "replace_mode_warning": "Sletning af denne betalingsmetode vil påvirke abonnementer eller forudbestillinger. Erstat den med en anden betalingsmetode for at fortsætte med at modtage kommende ordrer.",
         "choose_from_list": "Vælg fra listen",
         "billing_address": {
           "choose_billing_address_from_list_button": "Vælg fra listen",
@@ -3100,19 +3106,20 @@
             "one": "{{count}} produkt",
             "other": "{{count}} produkter"
           },
-          "product_details": "Produktdetaljer"
+          "product_details": "Produktdetaljer",
+          "load_more": "Indlæs flere"
         },
         "updating_contracts": {
           "one": "Opdaterer {{count}} abonnementsaftale...",
           "other": "Opdaterer {{count}} abonnementsaftaler..."
         },
         "contracts_updated": {
-          "one": "Opdaterede {{count}} abonnementsaftale med succes",
+          "one": "Abonneringsaftale opdateret med succes for {{count}}",
           "other": "Opdaterede {{count}} abonnementsaftaler med succes"
         },
         "contracts_update_failed": "Kunne ikke opdatere nogle abonnementsaftaler",
         "subscription_contracts_updated": "Opdateret {{succeeded}} af {{total}} abonnementer",
-        "invalid_wallet_type_error": "Ugyldig tegnetype."
+        "invalid_wallet_type_error": "Ugyldig tegnebogstype."
       },
       "three_d_secure": {
         "title": "3D Sikkerhed",
@@ -3659,19 +3666,20 @@
           },
           "refund": {
             "title_with_date": "Refunderet {{date}}",
-            "description_full_refund": "Du har modtaget en fuld refusion for denne ordre.",
-            "description_single_refund": "Du har modtaget en delvis refusion for denne ordre.",
-            "description_multiple_refunds": "Du har modtaget delvise refusioner for denne ordre."
+            "description_full_refund": "Du har modtaget fuld tilbagebetaling for denne ordre.",
+            "description_single_refund": "Du har modtaget en delvis tilbagebetaling for denne ordre.",
+            "description_multiple_refunds": "Du har modtaget delvise tilbagebetalinger for denne ordre."
           },
           "canceled": {
-            "description": "Du blev ikke opkrævet."
+            "description": "Du blev ikke opkrævet.",
+            "title": "Betaling afbrudt"
           },
-          "due_date": "Forfalden {{date}}",
+          "due_date": "Forfalder {{date}}",
           "pay_now_accessibility_label": "Betal nu for ordre {{orderName}}"
         },
         "order_timeline": {
-          "expand_events_accessibility_label": "Vis udkast til ordreoplysninger",
-          "hide_events_accessibility_label": "Skjul udkast til ordre detaljer"
+          "expand_events_accessibility_label": "Vis udkast til ordredetaljer",
+          "hide_events_accessibility_label": "Skjul udkast til ordredetaljer"
         },
         "subtitle": "Indsendt {{date}}",
         "title": "Bestil {{name}}"
@@ -3679,7 +3687,7 @@
       "payment_methods": {
         "payment_delete": {
           "description_without_replacement": "Denne betalingsmetode vil ikke længere være tilgængelig for fremtidige køb fra dette sted.",
-          "description_with_replacement": "Sletning af denne betalingsmetode vil påvirke forudautoriserede betalinger for denne lokation. Erstat den med en alternativ betalingsmetode for at fortsætte med at modtage kommende ordrer."
+          "description_with_replacement": "Sletning af denne betalingsmetode vil påvirke forudautoriserede betalinger for dette sted. Erstat den med en alternativ betalingsmetode for at fortsætte med at modtage kommende ordrer."
         },
         "payment_details": {
           "order_label": "Bestil {{name}}",
@@ -3687,16 +3695,16 @@
         }
       },
       "purchase_order_number": {
-        "add_accessibility_label": "Tilføj PO-nummer",
-        "add_modal_title": "Tilføj PO-nummer",
-        "close_modal_accessibility_label": "Luk PO-nummer modal",
+        "add_accessibility_label": "Tilføj indkøbsordrenummer",
+        "add_modal_title": "Tilføj indkøbsordrenummer",
+        "close_modal_accessibility_label": "Luk modal for indkøbsordrenummer",
         "discard": "Kassér",
         "discard_changes_modal_title": "Forkast ændringer?",
         "edit_accessibility_label": "Rediger PO-nummer",
         "edit_modal_title": "Rediger PO-nummer",
-        "empty_state": "Ingen PO-nummer",
-        "modal_po_number_input_label": "PO nummer",
-        "modal_po_number_input_max_length_error": "PO-numre må højst indeholde {{maxLength}} tegn.",
+        "empty_state": "Ingen indkøbsordrenummer",
+        "modal_po_number_input_label": "PO-nummer",
+        "modal_po_number_input_max_length_error": "PO-numre har maksimalt {{maxLength}} tegn.",
         "title": "PO #{{poNumber}}"
       },
       "addresses": {
@@ -3711,13 +3719,13 @@
         "description": "Forbindelsesfejl. Tjek din internetforbindelse og prøv igen."
       },
       "failed_address_creation": {
-        "description": "Der opstod et problem med at oprette din adresse. Prøv at opdatere denne side eller tjek din internetforbindelse."
+        "description": "Der opstod et problem med at oprette din adresse. Prøv at opdatere siden eller tjek din internetforbindelse."
       },
       "failed_address_update": {
-        "description": "Der opstod et problem med at opdatere din adresse. Prøv at opdatere denne side eller tjek din internetforbindelse."
+        "description": "Der opstod et problem med at opdatere din adresse. Prøv at opdatere siden eller tjek din internetforbindelse."
       },
       "load_address_form_error": {
-        "title": "Kan ikke indlæse adresseformular",
+        "title": "Kan ikke indlæse adresseformularen",
         "description": "Kunne ikke indlæse adresseformular.",
         "refresh_button": "Opdater side"
       },
@@ -3732,30 +3740,30 @@
         "description": "Noget gik galt under udlogningen. Prøv venligst igen."
       },
       "no_access_to_locations": {
-        "description": "Du har ikke adgang til nogen lokationer"
+        "description": "Du har ikke adgang til nogen steder"
       },
       "not_found": {
-        "description": "Tjek URL'en eller prøv igen om et par minutter.",
+        "description": "Kontrollér webadressen eller prøv igen om et par minutter.",
         "title": "Der opstod et problem med at indlæse denne side"
       },
       "order_not_found": {
         "title": "Ordre ikke fundet"
       },
       "profile_update_error": {
-        "description": "Der opstod et problem med at opdatere din profil. Prøv at opdatere denne side eller tjek din internetforbindelse."
+        "description": "Der opstod et problem med at opdatere din profil. Prøv at opdatere siden eller tjek din internetforbindelse."
       },
       "profile_name_update_error": {
-        "description": "Der opstod et problem med at opdatere dit navn. Prøv at opdatere denne side eller tjek din internetforbindelse."
+        "description": "Der opstod et problem med at opdatere dit navn. Prøv at opdatere siden eller tjek din internetforbindelse."
       },
       "resend_link": {
         "too_many_requests": "For mange forespørgsler. Prøv igen senere.",
-        "generic": "Mislykket forespørgsel"
+        "generic": "Mislykket anmodning"
       },
       "load_extension_error": {
         "description": "Opdater denne side eller prøv igen om et par minutter."
       },
       "already_upgraded": "Kundeprofiler er allerede opgraderet.",
-      "failed_to_upgrade": "Kunne ikke opgradere kundekontoindstillinger.",
+      "failed_to_upgrade": "Kunne ikke opgradere kundekontoinstillinger.",
       "not_upgraded": "Kundekonti opgraderes ikke.",
       "failed_to_revert": "Kunne ikke gendanne kundekontoindstillinger.",
       "revert_window_expired": "Fortrydelsesvinduet er udløbet."
@@ -3769,19 +3777,20 @@
       "visa": "Visum",
       "discover": "Opdag",
       "dinersclub": "Diners Klub",
-      "maestro": "Mester",
+      "maestro": "Maestro",
       "hipercard": "Hiperkort",
       "shoppay": "Shop Betaling",
-      "applepay": "Apple Betaling",
-      "googlepay": "Google Betal",
+      "applepay": "Apple-betaling",
+      "googlepay": "Google Betaling",
       "storecredit": "Butikskredit",
-      "bogus": "Falsk"
+      "bogus": "Falsk",
+      "unionpay": "UnionBetaling"
     },
     "privacy_banner": {
-      "cookie_preferences_link": "Cookie-præferencer"
+      "cookie_preferences_link": "Cookieindstillinger"
     },
     "ui_components": {
-      "clear": "Klar",
+      "clear": "Ryd",
       "expandNotification": "Se mere",
       "submit": "Indsend",
       "processing": "Behandler…",
@@ -3793,49 +3802,51 @@
       "mondayAbbreviation": "Mo",
       "tuesdayAbbreviation": "Du",
       "wednesdayAbbreviation": "Vi",
-      "thursdayAbbreviation": "Tak",
+      "thursdayAbbreviation": "Th",
       "fridayAbbreviation": "Fra",
-      "saturdayAbbreviation": "Sa",
+      "saturdayAbbreviation": "Så",
       "sundayAbbreviation": "Su",
       "showPreviousMonth": "Vis forrige måned, {{month}} {{year}}",
       "rangeStart": "Rækkevidde start",
-      "inRange": "På lager",
-      "rangeEnd": "Rækkevidde slutning",
+      "inRange": "Inden for rækkevidde",
+      "rangeEnd": "Rækkeafslutning",
       "mapClusterTitle": {
         "one": "Klynge af {{number}} markør",
         "other": "Klynge af {{number}} markører"
       },
-      "dropzoneInvalidFileType": "Filtype ikke understøttet",
-      "dropzoneDraggedOver": "Slip filen for at uploade"
+      "dropzoneInvalidFileType": "Filtype understøttes ikke",
+      "dropzoneDraggedOver": "Slip filen for at uploade",
+      "tuesday": "tirsdag",
+      "removeTag": "Fjern mærke"
     },
     "profile_preview_bar": {
-      "navigate_to_admin": "Naviger til admin",
+      "navigate_to_admin": "Gå til administrator",
       "previewing": "Du forhåndsviser:",
       "saved_at": "Gemt {{date}} kl. {{time}}",
-      "not_available": "Profileringsdata ikke tilgængelige"
+      "not_available": "Profiloplysninger ikke tilgængelige"
     },
     "active_inspector": {
       "extension": {
-        "move_down": "Flyt forlængelsen til den næste position",
-        "move_up": "Flyt forlængelsen til den tidligere position",
+        "move_down": "Flyt udvidelsen til den næste position",
+        "move_up": "Flyt forlængelsen til den forrige position",
         "remove": "Fjern udvidelse",
         "move_down_tooltip": "Flyt til næste position",
         "move_up_tooltip": "Flyt til forrige position"
       }
     },
     "editor": {
-      "link_new_tab_confirmation": "Dette link kan ikke åbnes inde i redigeringsprogrammet. Det vil blive åbnet i et nyt vindue ({{resolved_to_link}}). Klik OK for at fortsætte."
+      "link_new_tab_confirmation": "Dette link kan ikke åbnes i editoren. Det vil blive åbnet i et nyt vindue ({{resolved_to_link}}). Klik OK for at fortsætte."
     },
     "settings": {
-      "title": "Indfatninger",
+      "title": "Indstillinger",
       "loading_accessibility_message": "Indlæser indstillingsside",
       "log_out_everywhere": {
-        "description": "Hvis du har mistet en enhed eller har sikkerhedsbekymringer, skal du logge ud overalt for at sikre sikkerheden af din konto."
+        "description": "Hvis du har mistet en enhed eller har sikkerhedsbekymringer, skal du logge ud overalt for at sikre din kontos sikkerhed."
       }
     },
     "shop_ads": {
       "title": "Andre produkter, du måske kan lide",
-      "button": "Udforsk i Shop"
+      "button": "Udforsk i Butik"
     },
     "knowledge_base": {
       "self_serve_returns": {
@@ -3853,11 +3864,12 @@
     "intents": {
       "subscription_replace_payment_method": {
         "title": "Udskift betalingsmetode",
-        "loading": "Indlæser modal til udskiftning af betalingsmetode",
+        "loading": "Indlæser betalingsmetodeudskiftningsvindue",
         "success": "Betalingsmetode opdateret",
         "invalid_subscription_contract": "Kan ikke finde abonnementet",
         "edit_current_payment_method": "Rediger nuværende betalingsmetode",
-        "edit_selected_payment_method": "Rediger valgt betalingsmetode"
+        "edit_selected_payment_method": "Rediger valgt betalingsmetode",
+        "expiry_date": "Udløb {{expiryDate}}"
       }
     },
     "sign_in": {
@@ -3870,7 +3882,7 @@
       },
       "step_two": {
         "page_title": "Indtast kode - %{shop_name}",
-        "restart_link": "Log ind med en anden e-mail",
+        "restart_link": "Log ind med en anden e-mailadresse",
         "button": "Indsend"
       },
       "error": {
