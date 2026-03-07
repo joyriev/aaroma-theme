@@ -528,11 +528,11 @@
     "checkout": {
       "order_summary": {
         "total_price_label": "Samlet pris",
-        "total_due_label": "Samlet beløb due",
-        "title": "Ordresammendrag",
+        "total_due_label": "Samlet skyldig beløb",
+        "title": "Ordreoversigt",
         "group_title_label": "Del af \"%{group_title}\"",
         "more_items_modal": {
-          "search_item": "Søgning",
+          "search_item": "Søg",
           "empty_results": "Ingen resultater fundet for \"%{searchText}\". Tjek stavningen eller brug et andet ord eller udtryk."
         },
         "order_name_label": "Bestil %{name}",
@@ -540,36 +540,36 @@
           "other": "Rabat"
         },
         "discount_order_stacking": {
-          "one": "Ordre rabat",
+          "one": "Rabat ved bestilling",
           "other": "Ordre rabatter"
         },
         "discount_not_found": "Kan ikke finde en gyldig rabat, der matcher den indtastede kode",
         "discount_code_applied": "Rabatkode anvendt",
         "discount_code_applied_with_code": "Rabatkode %{code} er blevet anvendt",
         "discount_code_removed": "Rabatkode %{code} er blevet fjernet",
-        "discount_code_replaced": "Rabatkode %{old_code} fjernet, og %{code} er blevet anvendt",
+        "discount_code_replaced": "Rabatkode %{old_code} fjernet og %{code} er blevet anvendt",
         "discount_code_replaced_multiple": "Flere rabatkoder er fjernet, og %{code} er blevet anvendt",
         "discount_code_allocations_mismatch": "Din <strong style=\"text-transform:uppercase\">%{code}</strong> rabatkode er ændret. Gennemse din kurv og prøv igen.",
         "order_discounts_apply_to_local_shop": "Rabat ved bestilling gælder kun for varer fra %{shop_name}",
         "gift_card_applied": "Gavekort anvendt",
         "enter_shipping_address": "Indtast leveringsadresse",
         "add_discount_or_gift_card": "Tilføj en rabatkode eller gavekort",
-        "remove_gift_card_label": "Gavekort uden beløb",
+        "remove_gift_card_label": "Klar gavekort",
         "return_restocking_fee_label": "Genopfyldningsgebyr",
-        "return_shipping_fee_label": "Returforsendelse",
-        "free_shipping_discount_label": "Gratis shipping",
+        "return_shipping_fee_label": "Returfragt",
+        "free_shipping_discount_label": "Gratis levering",
         "apply_discount_button_label": "Anvend",
         "applied_discount_message": "%{amount} rabat på den samlede ordrepris",
         "discount_has_been_applied": "Rabat er blevet anvendt",
         "discount_has_been_removed": "Rabat er fjernet",
         "gift_card_subscriptions_notice": "Gavekort gælder kun for din første betaling",
-        "discount_already_applied": "Der er blevet anvendt en rabat på denne ordre. Du kan ikke tilføje en anden rabat.",
+        "discount_already_applied": "Der er blevet givet rabat på denne ordre. Du kan ikke tilføje en yderligere rabat.",
         "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> rabatkode er ikke gyldig for varerne i din kurv",
         "discount_requires_customer_notice": "Indtast dine forsendelsesoplysninger for at anvende rabatkoden <strong style=\"text-transform:uppercase\">%{code}</strong>",
         "customer_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> rabatkode er ikke tilgængelig for dig lige nu",
         "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> rabatkode kræver berettiget kunde",
         "shipping_information_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> rabatkode er ikke tilgængelig for din leveringsadresse",
-        "customer_already_used_once_per_customer_discount_notice": "Rabatten med koden <strong style=\"text-transform:uppercase\">%{code}</strong> er allerede brugt",
+        "customer_already_used_once_per_customer_discount_notice": "Rabatten med <strong style=\"text-transform:uppercase\">%{code}</strong> er allerede blevet brugt",
         "subtotal_label": "Delsum",
         "subtotal_label_with_quantity": {
           "one": "Delsum · %{count} vare",
@@ -578,14 +578,14 @@
         "shipping_label": "Forsendelse",
         "no_pickup_location": "Der er ingen afhentningssteder tilgængelige.",
         "pickup_unavailable_banner_title": {
-          "one": "Ingen butikker tilgængelige med din vare",
+          "one": "Ingen butikker har din vare på lager",
           "other": "Ingen butikker tilgængelige med dine varer"
         },
         "pickup_unavailable_banner_title_with_country": {
           "one": "Ingen butikker tilgængelige i %{country} med din vare",
           "other": "Ingen butikker tilgængelige i %{country} med dine varer"
         },
-        "tip_label": "Drikkepenge",
+        "tip_label": "Tip",
         "unconfirmed_label": "Ubekræftet",
         "calculating_shipping": "Beregner…",
         "calculating": "Beregner…",
@@ -594,20 +594,20 @@
         "shipping_policy_link": "Forsendelsesomkostninger",
         "taxes_label": "Skatter",
         "estimated_taxes_label_short": "Anslået",
-        "estimated_taxes_finalization_tooltip_content_short": "Skat afregnet efter betaling",
-        "order_total_label": "Ordre Total",
+        "estimated_taxes_finalization_tooltip_content_short": "Skat fastlagt efter betaling",
+        "order_total_label": "Ordre i alt",
         "price_before_discount_aria_text": "Originalpris",
         "price_after_discount_aria_text": "Nedsat pris",
         "total_paid_label": "Samlet betalt",
         "total_outstanding_label": "Beløb at betale",
-        "total_due_today_label": "Samlet skyldig i dag",
+        "total_due_today_label": "Samlet beløb forfalder i dag",
         "total_due_later_label": "Samlet skyldig senere",
         "payment_due_label": "Betaling forfalder",
         "discount_and_gift_card_savings_notice": "Efter %{discount_amount} i rabatter og %{gift_card_amount} i gavekort",
         "cost_table_title": "Omkostningsoversigt",
-        "cost_table_item_column_header": "Genstand",
+        "cost_table_item_column_header": "Vare",
         "price_per_item": {
-          "accessibility_label": "%{price} pr. stk.",
+          "accessibility_label": "%{price} per stk.",
           "label": "%{price}/stk"
         },
         "scroll_order_summary": "Rul for flere varer",
@@ -615,20 +615,20 @@
         "collapse_order_summary": "Skjul ordresammendrag",
         "original_price": "Originalpris",
         "sale_price": "Salgspris",
-        "order_total_updated_label": "Opdateret total",
+        "order_total_updated_label": "Opdateret samlet total",
         "unit_price": {
           "per_item": {
             "single": "%{price} hver",
-            "one": "%{price} pr. %{count} stk.",
-            "other": "%{price} for %{count} stk."
+            "one": "%{price} per %{count} vare",
+            "other": "%{price} per %{count} varer"
           }
         },
         "gift_card_ending": "Gavekort, der slutter med %{last_characters}",
         "estimated_tax_label": "Anslået skat",
-        "multiple_shipping_lines_label": "Forsendelses samlet",
-        "recurring_subtotal_label": "Gentagende subtotal",
-        "recurring_total_label": "Gentagende total",
-        "recurring_total_tooltip": "Inkluderer ikke forsendelse, skat, told eller eventuelle gældende rabatter.",
+        "multiple_shipping_lines_label": "Samlet forsendelse",
+        "recurring_subtotal_label": "Gentagende delsum",
+        "recurring_total_label": "Gentagen samlet sum",
+        "recurring_total_tooltip": "Inkluderer ikke forsendelse, skat, afgifter eller eventuelle gældende rabatter.",
         "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> kunne ikke bruges sammen med dine eksisterende rabatter.",
         "percent_off_shipping": "%{percent}% rabat på forsendelse",
         "amount_off_shipping": "%{amount} rabat på forsendelse",
@@ -644,25 +644,28 @@
           "due_on_fulfillment_title": "Restbeløbet på {{amount_due}} forfalder ved opfyldelse"
         },
         "payment_terms_totals": {
-          "due_today": "Samlet skyldig i dag",
-          "due_later": "Samlet forfaldent %{due_at}",
-          "due_on_fulfillment": "Samlet skyldig ved opfyldelse",
-          "due_on_fulfillment_next": "Forfald ved opfyldelse",
-          "due_on_receipt": "Samlet skyldig ved modtagelse",
+          "due_today": "Samlet beløb forfalder i dag",
+          "due_later": "Samlet forfald %{due_at}",
+          "due_on_fulfillment": "Samlet beløb ved opfyldelse",
+          "due_on_fulfillment_next": "Forfalder ved opfyldelse",
+          "due_on_receipt": "Samlet beløb forfalder ved modtagelse",
           "due_later_checkout_to_draft": "Samlet skyldig senere",
           "total_paid": "Samlet betalt"
         },
         "maximum_discount_code_limit_reached": "Du har nået det maksimale antal rabatkoder. Fjern en eksisterende kode for at bruge <strong style=\"text-transform:uppercase\">%{code}</strong>.",
         "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> virker ikke lige nu. Kontakt os for hjælp.",
-        "due_on_fulfillment": "Forfald ved opfyldelse",
-        "duties_label": "Afgifter",
-        "may_be_charged_on_delivery": "Kan opkræves ved levering",
-        "updated_shipping_method": "Opdateret forsendelsesmetode: %{shipping_method}",
+        "due_on_fulfillment": "Forfalder ved opfyldelse",
+        "duties_label": "Pligter",
+        "may_be_charged_on_delivery": "Kan betales ved levering",
+        "updated_shipping_method": "Opdateret leveringsmetode: %{shipping_method}",
         "recurring_payments": "Gentagne betalinger",
         "recurring_total_multiple_label": "Denne ordre har et tilbagevendende gebyr for flere varer.",
         "deferred_total_due_date_label": "Samlet beløb forfaldent {{date}}",
-        "deferred_total_due_date_label_next": "Forfalden %{date}",
-        "custom_discount": "Brugerdefineret rabat"
+        "deferred_total_due_date_label_next": "Forfalder %{date}",
+        "custom_discount": "Brugerdefineret rabat",
+        "deposit_label": "Indbetaling",
+        "quantity_label": "Mængde",
+        "product_image_quantity_label": "Mængde"
       },
       "payment": {
         "payment_option": {
@@ -1008,18 +1011,18 @@
         "continue_cta_label": "Fortsæt til betaling",
         "empty_cart_label": "Din kurv er tom",
         "quantity_update": {
-          "page_title": "Opdatering af mængde",
-          "title": "Opdatering af mængde",
+          "page_title": "Opdatering af antal",
+          "title": "Opdatering af antal",
           "description": "Tilgængelige mængder for disse varer er ændret og opdateret i din indkøbskurv."
         },
         "unpurchasable_product": {
-          "title": "Ikke-købbar vare",
-          "header": "Nogle varer blev fjernet fra din kurv",
-          "message": "Disse varer er ikke tilgængelige for B2B-ordrer."
+          "title": "Uindkøbsvare",
+          "header": "Nogle varer blev fjernet fra din indkøbskurv",
+          "message": "Disse varer er ikke tilgængelige for B2B-bestillinger."
         },
         "unpurchasable_product_generic": {
-          "title": "Ikke-købbar vare",
-          "header": "Nogle varer blev fjernet fra din kurv"
+          "title": "Uindkøbsvare",
+          "header": "Nogle varer blev fjernet fra din indkøbskurv"
         },
         "unfulfillable_product": {
           "title": "Levering ikke tilgængelig"
@@ -1031,15 +1034,16 @@
           }
         },
         "price_update": {
-          "description": "Priserne på disse varer er ændret og opdateret i din indkøbskurv."
+          "description": "Priserne på disse varer er ændret og er opdateret i din indkøbskurv."
         },
         "price_and_quantity_update": {
-          "title": "Pris- og mængdeopdatering",
+          "title": "Opdatering af pris og mængde",
           "description": "Priser og tilgængelige mængder for disse varer er ændret og opdateret i din indkøbskurv."
         },
         "out_of_stock": {
-          "description": "Disse varer er ikke længere tilgængelige og er blevet fjernet fra din kurv."
-        }
+          "description": "Disse varer er ikke længere tilgængelige og er blevet fjernet fra din indkøbskurv."
+        },
+        "quantity_column_header": "Mængde"
       },
       "thank_you": {
         "thank_you_item_label": {
@@ -1389,17 +1393,17 @@
             "credit_card_last_name_required": "'efternavn' kan ikke være tom.",
             "invalid_address_type": "Den angivne adresse type er ugyldig for denne betalingsmetode.",
             "missing_retail_attributions": "Detailhandelsangivelser er påkrævet for manuelt indtastede kreditkortbetalinger.",
-            "unexpected_retail_attributions": "Detaljer om detailhandel blev uventet angivet for kreditkortbetaling.",
+            "unexpected_retail_attributions": "Detaljer om butik uventet angivet for kreditkortbetaling.",
             "wallet_content_missing": "Indholdet af tegnebogen mangler.",
             "payment_instrument_not_found": "Kunne ikke finde betalingsmetode",
-            "unauthorized_capture_method": "Konfiguration af betalingsindfangningsmetoden er ikke tilladt.",
+            "unauthorized_capture_method": "Det er ikke tilladt at konfigurere betalingsindfangningsmetoden.",
             "saved_payment_methods_not_enabled": "Gemte betalingsmetoder er ikke aktiveret for denne butik.",
             "saved_payment_methods_cvv_verification_disabled": "Den valgte betalingsmetode kræver CVV-verifikation, som ikke er aktiveret for denne butik. Vælg en anden betalingsmetode.",
             "store_credit_not_enabled": "Butikskredit er ikke aktiveret for denne butik.",
             "store_credit_account_not_found": "Butikskreditkonto ikke fundet.",
             "store_credit_account_mismatch": "Butikskreditkontoen stemmer ikke overens med køberens identitet.",
-            "store_credit_mismatched_currency": "Butikskreditkontoens valuta stemmer ikke overens med betalingsvalutaen.",
-            "store_credit_insufficient_funds": "Der er utilstrækkelige midler på butikskreditkontoen.",
+            "store_credit_mismatched_currency": "Butikkreditkontoens valuta stemmer ikke overens med betalingsvalutaen.",
+            "store_credit_insufficient_funds": "Der er ikke nok midler på butiks-kreditkontoen.",
             "store_credit_buying_gift_card": "Du kan ikke bruge butikskredit til at købe et gavekort.",
             "paypal_express_address_invalid": "PayPal returnerede en ugyldig adresse."
           },
@@ -1407,14 +1411,14 @@
             "not_accepted_by_shop": "Butikken accepterer ikke drikkepenge.",
             "only_one_tip_line_allowed": "Flere tiplinjer understøttes ikke.",
             "currency_change_reset": "Drikkepenge er nulstillet på grund af valutaskift.",
-            "tips_not_allowed_for_deferred_purchase_options": "Tips understøttes endnu ikke for udskudte købsoptioner."
+            "tips_not_allowed_for_deferred_purchase_options": "Drikkepenge understøttes endnu ikke for udskudte købsvalg."
           },
           "sale_attribution": {
             "draft_order_not_exist": "Denne kladdeordre findes ikke i den nuværende butik.",
-            "staff_member_not_exist": "Denne medarbejder findes ikke i den nuværende butik.",
+            "staff_member_not_exist": "Denne stav findes ikke i den nuværende butik.",
             "location_not_exist": "Denne placering findes ikke i den nuværende butik.",
-            "point_of_sale_device_not_exist": "Denne salgsstedsenhed findes ikke i den nuværende butik.",
-            "unresolvable_target_merchandise_lines": "De foreslåede salgsattributioner kan ikke løses i den nuværende forhandlingssituation."
+            "point_of_sale_device_not_exist": "Denne salgsenhed findes ikke i den nuværende butik.",
+            "unresolvable_target_merchandise_lines": "De foreslåede salgsangivelser kan ikke løses i den nuværende forhandlingssituation."
           },
           "non_negotiable": {
             "missing_non_negotiable_terms": "Din købers forslag skal indeholde ikke-forhandlingsbare_vilkår.",
@@ -1429,17 +1433,17 @@
             "optional_duties_not_permitted": "Afvisning af told er ikke tilladt ved denne betaling."
           },
           "attribution": {
-            "retail_attribution_not_allowed": "Detailhandelstildeling er ikke tilladt for denne betaling.",
-            "retail_attribution_required": "Detailhandelstildeling er påkrævet for denne betaling."
+            "retail_attribution_not_allowed": "Detailhandelstilknytning er ikke tilladt for denne betaling.",
+            "retail_attribution_required": "Detailhandelsangivelse er påkrævet for denne betaling."
           },
           "captcha": {
-            "metadata_missing": "Det er nødvendigt at gennemføre en captcha for denne betaling.",
+            "metadata_missing": "Det er nødvendigt at udfylde en captcha for at gennemføre denne betaling.",
             "metadata_mismatch": "Den angivne captcha-udbyder og type stemmer ikke overens med de forventede værdier.",
             "job_enqueue_failed": "Captcha-valideringsopgaven kunne ikke sættes i kø.",
-            "job_already_queued": "Captcha-validering er allerede blevet sat i kø for denne captcha-token.",
-            "token_expired": "Den angivne captcha-token er udløbet. Fuldfør en ny captcha for at fortsætte betalingen.",
-            "token_invalid": "Den angivne captcha-token var ugyldig. Fuldfør en ny captcha for at fortsætte betalingen.",
-            "token_not_valid_for_session": "Den angivne captcha kan ikke bruges med denne kasse."
+            "job_already_queued": "Captcha-validering er allerede sat i kø for denne captcha-token.",
+            "token_expired": "Den angivne captcha-kode er udløbet. Fuldfør en ny captcha for at fortsætte betalingen.",
+            "token_invalid": "Den angivne captcha-kode var ugyldig. Fuldfør en ny captcha for at fortsætte betalingen.",
+            "token_not_valid_for_session": "Den angivne captcha kan ikke bruges ved denne betaling."
           },
           "fx_reconciliation_override": {
             "shop_currency_mismatch": "Det modtagne beløb skal være i butikkens valuta."
@@ -1453,11 +1457,11 @@
         "loading": "Indlæser…",
         "loading_title": "Betaling - {{shopName}}",
         "google_map_title": "Google Kort",
-        "confirm_order_button_label": "Bekræft ordre",
+        "confirm_order_button_label": "Bekræft bestilling",
         "submit_order_button_label": "Indsend ordre",
         "submit_for_review_button_label": "Indsend til gennemgang",
         "submit_for_review_notice_label": "Betaling forfalder først, når din ordre er gennemgået",
-        "back_button_label": "Retur",
+        "back_button_label": "Returner",
         "autocomplete_zero_item": "Ingen varer tilgængelige",
         "submit": "Indsend",
         "processing": "Behandler…",
@@ -1471,21 +1475,24 @@
             "monday": "Mo",
             "tuesday": "Du",
             "wednesday": "Vi",
-            "thursday": "Tak",
+            "thursday": "Th",
             "friday": "Fra",
-            "saturday": "Sa",
+            "saturday": "Så",
             "sunday": "Su"
           },
           "months": {
             "april": "april",
             "september": "september"
+          },
+          "weekdays": {
+            "tuesday": "tirsdag"
           }
         },
         "datepicker": {
           "show_previous_month": "Vis forrige måned, {{month}} {{year}}",
           "range_start": "Rækkevidde start",
-          "in_range": "På lager",
-          "range_end": "Rækkevidde slutning"
+          "in_range": "Inden for rækkevidde",
+          "range_end": "Rækkeafslutning"
         },
         "list_formatter": {
           "and": {
@@ -1502,13 +1509,15 @@
           }
         },
         "dropzone": {
-          "invalid_file_type": "Filtype ikke understøttet",
+          "invalid_file_type": "Filtype understøttes ikke",
           "dragged_over": "Slip filen for at uploade"
         },
         "back_to_contact_information": "Vend tilbage til information",
         "checkout_context": {
           "step_one": "%{shop_name} - Kassen"
-        }
+        },
+        "continue_to_payment_plans_button_label": "Fortsæt til betalingsordninger",
+        "remove_tag": "Fjern mærke"
       },
       "payment_gateway": {
         "bank_account_label": "Bankkonto",
@@ -1541,7 +1550,7 @@
       },
       "payment_collection": {
         "cancelled": "Denne betaling er ikke længere nødvendig. Besøg ordresiden for detaljer.",
-        "paid": "Denne betaling er allerede blevet indsendt. Besøg ordre-siden for detaljer."
+        "paid": "Denne betaling er allerede indsendt. Besøg ordresiden for detaljer."
       },
       "contact": {
         "title": "Information",
@@ -1550,8 +1559,8 @@
         "email_label": "E-mail",
         "email_rollup_accessibility_label": "E-mailindstillinger",
         "email_placeholder": "E-mail",
-        "email_or_phone_label": "Email eller mobiltelefonnummer",
-        "email_or_phone_placeholder": "Email eller mobiltelefonnummer",
+        "email_or_phone_label": "E-mail eller mobiltelefonnummer",
+        "email_or_phone_placeholder": "E-mail eller mobiltelefonnummer",
         "optional_first_name_label": "Fornavn (valgfrit)",
         "storefront_link": "forhandlerens hjemmeside",
         "company_attention_label": "Firma/Opmærksomhed",
@@ -1566,10 +1575,10 @@
         "region_label": "Region",
         "region_placeholder": "Region",
         "region_none": "Ingen valgt",
-        "governorate_label": "Guvernørdømme",
-        "governorate_placeholder": "Guvernørdømme",
-        "state_and_territory_label": "Stat/fylke",
-        "state_and_territory_placeholder": "Stat/fylke",
+        "governorate_label": "Provins",
+        "governorate_placeholder": "Provins",
+        "state_and_territory_label": "Stat/område",
+        "state_and_territory_placeholder": "Stat/område",
         "phone_rollup_accessibility_label": "Telefonmuligheder",
         "phone_country_code_label": "Telefonnummer landekode",
         "optional_phone_label": "Telefon (valgfrit)",
@@ -1579,7 +1588,7 @@
         "pincode_placeholder": "PIN-kode",
         "civic_number_warning": "Tilføj et husnummer, hvis du har et",
         "different_shipping_address_label": "Send til en anden adresse",
-        "change_company_location_link_label": "Skift virksomhedsplacering",
+        "change_company_location_link_label": "Skift virksomhedens placering",
         "change_location_link_label": "Skift placering",
         "suburb_label": "Forstad"
       },
@@ -1589,10 +1598,12 @@
         "pick_up": "Hent",
         "pick_up_locations": "Afhentningssteder",
         "pickup_point_method_definition": "Send til afhentningssted",
-        "retail_method_definition": "Detailforsendelse",
-        "company_location_no_address_banner": "Ordrer, der sendes til steder uden adresse, vil blive sendt til gennemgang.",
+        "retail_method_definition": "Detailhandel forsendelse",
+        "company_location_no_address_banner": "Ordrer, der skal sendes til steder uden adresse, vil blive sendt til gennemgang.",
         "none_method_definition": "Ingen forsendelse",
-        "subscription_pickup_information": "Denne leveringsmetode vil gælde for alle varer i denne ordre og for alle fremtidige ordrer til dette abonnement."
+        "subscription_pickup_information": "Denne leveringsmetode vil gælde for alle varer i denne ordre og for alle fremtidige ordrer til dette abonnement.",
+        "shipping_address": "Forsendelsesadresse",
+        "pickup_point_map_title": "Afhentningsstedkort"
       },
       "customer_account": {
         "not_user_label": "Ikke %{first_name}?",
@@ -1602,7 +1613,7 @@
         "invalid_shipping_method_summary": "Vælg en gyldig leveringsadresse for at se tilgængelige leveringsmetoder"
       },
       "remote_merchandise_only": {
-        "remote_only_notice": "Disse varer sælges og sendes af andre butikker. Checkout hos hver butik for at fuldføre dit køb.",
+        "remote_only_notice": "Disse varer sælges og sendes af andre butikker. Gennemfør købet hos hver butik for at fuldføre din bestilling.",
         "detail_item_label": {
           "one": "{{count}} vare",
           "other": "{{count}} varer"
@@ -1612,7 +1623,7 @@
       },
       "contextual_availability": {
         "title": {
-          "one": "Utilgængeligt produkt",
+          "one": "Produkt ikke tilgængelig",
           "other": "Utilgængelige produkter"
         },
         "products_not_available": {
@@ -1651,7 +1662,7 @@
       "shipping": {
         "title": "Forsendelse",
         "shipping_method_title": "Forsendelsesmetode",
-        "shipping_method_rollup_accessibility_label": "Forsendelsesmetode muligheder",
+        "shipping_method_rollup_accessibility_label": "Forsendelsesmetodevalg",
         "shipping_method_recurring_shipments_group_title": {
           "one": "Gentagen forsendelse",
           "other": "Gentagne forsendelser"
@@ -1659,7 +1670,7 @@
         "subscription_shipping": "Abonnementsforsendelse",
         "subscription_local_delivery": "Abonnement lokal levering",
         "subscription_pickup": "Abonnementsafhentning",
-        "waiting_on_rate_notice": "Henter tilgængelige forsendelsespriser…",
+        "waiting_on_rate_notice": "Henter tilgængelige fragtpriser…",
         "waiting_on_pickup_location_notice": "Henter tilgængelige afhentningssteder…",
         "no_rates_for_cart_or_destination_notice": "Der er ingen forsendelsesmetoder tilgængelige for din kurv eller adresse",
         "no_pickup_location_notice": "Mindst ét af dine produkter er ikke tilgængeligt for afhentning",
@@ -1668,8 +1679,8 @@
         "delivery_today": "Samme dags levering %{time}",
         "delivery_tomorrow": "Næste dags levering %{time}",
         "delivery": "Levering %{time}",
-        "arrives_time": "Ankommer %{time}",
-        "arrives_time_range": "Ankommer om %{min_time}–%{max_time}",
+        "arrives_time": "Ankommer om %{time}",
+        "arrives_time_range": "Ankommer %{min_time}–%{max_time}",
         "estimated_time": "Anslået %{time}",
         "estimated_time_range": "Anslået %{min_time}–%{max_time}",
         "default_description": "Afsendes inden for 1 hverdag",
@@ -1791,12 +1802,18 @@
         "split_shipping_option_recommended": "Anbefalet",
         "unbranded_description_with_fulfillment_days": {
           "one": "Afsendes næste hverdag",
-          "other": "Afsendes inden for %{count} arbejdsdage"
+          "other": "Afsendes inden for %{count} hverdage"
         },
         "unbranded_description_with_fulfillment_weeks": {
-          "one": "Sendes om %{count} uge",
-          "other": "Sendes om %{count} uger"
-        }
+          "one": "Afsendes om %{count} uge",
+          "other": "Afsendes om %{count} uger"
+        },
+        "estimated_delivery_date": {
+          "one": "%{count} hverdag",
+          "other": "%{count} hverdage"
+        },
+        "estimated_delivery_date_range": "%{minimum} til %{maximum} hverdage",
+        "unbranded_description_same_day": "Afsendes samme hverdag"
       },
       "localized_fields": {
         "additional_information": {
@@ -2454,6 +2471,14 @@
       "split_delivery": {
         "delivery_method": "Opdelt leveringsmetode",
         "delivery_method_menu": "Opdel leveringsmetode-menu"
+      },
+      "embed": {
+        "header": {
+          "review_order": "Gennemse din ordre"
+        },
+        "shipping": {
+          "shipping_options": "Se alle forsendelsesmuligheder"
+        }
       }
     },
     "sentence": {
