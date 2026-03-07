@@ -1074,22 +1074,22 @@
         "failed_pending_payment_page_title": "Der er et problem med din betaling",
         "customer_information_title": "Ordredetaljer",
         "company_location_title": "Placering",
-        "shipping_address_map_title": "Google-kort, der viser præcis placering af leveringsadresse: %{address}",
-        "payment_method_not_charged": "Ikke opkrævet",
+        "shipping_address_map_title": "Google-kort, der viser placering af leveringsadresse: %{address}",
+        "payment_method_not_charged": "Ikke opladet",
         "shipping_method_title": "Forsendelsesmetode",
         "tracking_number": "Sporingsnummer:",
         "company_tracking_number": "%{company} sporingsnummer:",
-        "estimated_arrival": "Forventet leveringsdato:",
+        "estimated_arrival": "Anslået leveringsdato:",
         "estimated_delivery": "Nuværende leveringsestimat:",
         "re-order": "Bestil de samme varer igen",
-        "confirmed_items_count": "%{confirmed_count} af %{total_count} ting er bekræftet",
+        "confirmed_items_count": "%{confirmed_count} af %{total_count} varer er bekræftet",
         "items_fulfilled_by_store": {
           "one": "Varer, du har købt, vil komme fra %{remote_shop_name}.",
           "other": "Varer, du har købt, vil komme fra andre butikker."
         },
         "gift_card_confirmation_by_text": "Hvis du ikke modtog det, send teksten igen eller kontakt os.",
-        "gift_card_confirmation_by_email": "Hvis du ikke modtog den, send e-mailen igen eller kontakt os.",
-        "thank_you_title_payments_app_pending_buyer_action_required": "Din ordre er modtaget",
+        "gift_card_confirmation_by_email": "Hvis du ikke har modtaget det, send e-mailen igen eller kontakt os.",
+        "thank_you_title_payments_app_pending_buyer_action_required": "Din bestilling er modtaget",
         "thank_you_confirmed_with_email_description": {
           "single_store": "Du vil snart modtage en bekræftelsesmail",
           "multi_store": "Du vil snart modtage separate bekræftelses-e-mails fra hver butik"
@@ -1118,9 +1118,9 @@
         "thank_you_confirmed_order_with_draft": "Vi giver dig besked, hvis vi har brug for flere oplysninger, eller når din ordre er bekræftet.",
         "thank_you_confirmed_order_with_draft_payment": "Vi giver dig besked, hvis vi har brug for flere oplysninger, eller når din ordre er bekræftet.",
         "thank_you_confirmed_order_with_draft_pick_up": "Vi giver dig besked, hvis vi har brug for flere oplysninger, eller når din ordre er bekræftet.",
-        "thank_you_payments_app_failed_pending_payment": "Du blev ikke opkrævet for din ordre. Gå tilbage til din kurv for at gennemgå din ordre og betale igen.",
-        "thank_you_payments_app_failed_pending_payment_payment": "Du blev ikke opkrævet for din ordre. Gå tilbage til din kurv for at gennemgå din ordre og betale igen.",
-        "thank_you_payments_app_failed_pending_payment_pick_up": "Du blev ikke opkrævet for din ordre. Gå tilbage til din kurv for at gennemgå din ordre og betale igen.",
+        "thank_you_payments_app_failed_pending_payment": "Du blev ikke opkrævet for din bestilling. Gå tilbage til din indkøbskurv for at gennemgå din bestilling og betale igen.",
+        "thank_you_payments_app_failed_pending_payment_payment": "Du blev ikke opkrævet for din bestilling. Gå tilbage til din indkøbskurv for at gennemgå din bestilling og betale igen.",
+        "thank_you_payments_app_failed_pending_payment_pick_up": "Du blev ikke opkrævet for din bestilling. Gå tilbage til din indkøbskurv for at gennemgå din bestilling og betale igen.",
         "thank_you_payments_app_pending_payment_description_default_with_missing": "Kontakt os via e-mail eller telefon for at modtage en ordrebekræftelse.",
         "thank_you_payments_app_pending_payment_description_default_with_missing_payment": "Kontakt os via e-mail eller telefon for at modtage en ordrebekræftelse.",
         "thank_you_payments_app_pending_payment_description_default_with_missing_pick_up": "Kontakt os via e-mail eller telefon for at modtage en ordrebekræftelse.",
@@ -1142,13 +1142,13 @@
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email": "Efter at have gennemført din betaling, vil du modtage en bekræftelsesmail med dit ordrenummer.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "Efter at have gennemført din betaling, vil du modtage en bekræftelsesmail med dit ordrenummer.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Efter at have gennemført din betaling, vil du modtage en bekræftelsesmail med dit ordrenummer.",
-        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone": "Efter at have gennemført din betaling, vil du modtage en bekræftelsestekst med dit ordrenummer.",
-        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Efter at have gennemført din betaling, vil du modtage en bekræftelsestekst med dit ordrenummer.",
-        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Efter at have gennemført din betaling, vil du modtage en bekræftelsestekst med dit ordrenummer.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone": "Efter at have gennemført din betaling, vil du modtage en bekræftelsesbesked med dit ordrenummer.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Efter at have gennemført din betaling, vil du modtage en bekræftelsesbesked med dit ordrenummer.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Efter at have gennemført din betaling, vil du modtage en bekræftelsesbesked med dit ordrenummer.",
         "thank_you_payments_app_pending_payment_description_provider_action_required_default": "Din betaling behandles. Du vil modtage en e-mail, når din betaling er bekræftet.",
         "checkout_again": "Betal igen",
         "checkout_on_remote_shop_link_text": "Gå til betaling hos %{remoteShopName}",
-        "checkout_on_another_store": "Checkout i en anden butik",
+        "checkout_on_another_store": "Betal i en anden butik",
         "order_status_confirmed_order_with_email": "Du vil modtage en e-mail, når din ordre er klar.",
         "order_status_confirmed_order_with_phone": "Du kan modtage en sms, når din ordre er klar.",
         "order_status_confirmed_order_with_email_and_phone": "Du vil modtage en e-mail, når din ordre er klar.",
@@ -1161,79 +1161,81 @@
         "order_status_payments_app_pending_payment_description_default_with_missing": "Kontakt os via e-mail eller telefon for at modtage en ordrebekræftelse.",
         "order_status_payments_app_pending_payment_description_default_with_missing_payment": "Kontakt os via e-mail eller telefon for at modtage en ordrebekræftelse.",
         "order_status_payments_app_pending_payment_description_default_with_missing_pick_up": "Kontakt os via e-mail eller telefon for at modtage en ordrebekræftelse.",
-        "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "Du vil snart modtage en bekræftelsesmail. Følg din ordre ved hjælp af Shop-appen.",
-        "order_status_payments_app_pending_payment_description_default_with_email_and_phone_payment": "Du vil snart modtage en bekræftelsesmail. Følg din ordre ved hjælp af Shop-appen.",
-        "order_status_payments_app_pending_payment_description_default_with_email_and_phone_pick_up": "Du vil snart modtage en bekræftelsesmail. Følg din ordre ved hjælp af Shop-appen.",
-        "order_status_payments_app_pending_payment_description_default_with_email": "Du vil snart modtage en bekræftelsesmail. Følg din ordre ved hjælp af Shop-appen.",
-        "order_status_payments_app_pending_payment_description_default_with_email_payment": "Du vil snart modtage en bekræftelsesmail. Følg din ordre ved hjælp af Shop-appen.",
-        "order_status_payments_app_pending_payment_description_default_with_email_pick_up": "Du vil snart modtage en bekræftelsesmail. Følg din ordre ved hjælp af Shop-appen.",
-        "order_status_payments_app_pending_payment_description_default_with_phone": "Du vil snart modtage en bekræftelsesbesked. Følg din ordre via Shop-appen.",
-        "order_status_payments_app_pending_payment_description_default_with_phone_payment": "Du vil snart modtage en bekræftelsesbesked. Følg din ordre via Shop-appen.",
-        "order_status_payments_app_pending_payment_description_default_with_phone_pick_up": "Du vil snart modtage en bekræftelsesbesked. Følg din ordre via Shop-appen.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "Du vil snart modtage en bekræftelsesmail. Følg din ordre via Butiksappen.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone_payment": "Du vil snart modtage en bekræftelsesmail. Følg din ordre via Butiksappen.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone_pick_up": "Du vil snart modtage en bekræftelsesmail. Følg din ordre via Butiksappen.",
+        "order_status_payments_app_pending_payment_description_default_with_email": "Du vil snart modtage en bekræftelsesmail. Følg din ordre via Butiksappen.",
+        "order_status_payments_app_pending_payment_description_default_with_email_payment": "Du vil snart modtage en bekræftelsesmail. Følg din ordre via Butiksappen.",
+        "order_status_payments_app_pending_payment_description_default_with_email_pick_up": "Du vil snart modtage en bekræftelsesmail. Følg din ordre via Butiksappen.",
+        "order_status_payments_app_pending_payment_description_default_with_phone": "Du vil snart modtage en bekræftelsesbesked. Følg din ordre via Butiksappen.",
+        "order_status_payments_app_pending_payment_description_default_with_phone_payment": "Du vil snart modtage en bekræftelsesbesked. Følg din ordre via Butiksappen.",
+        "order_status_payments_app_pending_payment_description_default_with_phone_pick_up": "Du vil snart modtage en bekræftelsesbesked. Følg din ordre via Butiksappen.",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing": "Kontakt os via e-mail eller telefon for at modtage en ordrebekræftelse.",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Kontakt os via e-mail eller telefon for at modtage en ordrebekræftelse.",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing_pick_up": "Kontakt os via e-mail eller telefon for at modtage en ordrebekræftelse.",
-        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Efter at have gennemført din betaling, vil du modtage en bekræftelsesmail. Følg din ordre ved hjælp af Shop-appen.",
-        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "Efter at have gennemført din betaling, vil du modtage en bekræftelsesmail. Følg din ordre ved hjælp af Shop-appen.",
-        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "Efter at have gennemført din betaling, vil du modtage en bekræftelsesmail. Følg din ordre ved hjælp af Shop-appen.",
-        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "Efter at have gennemført din betaling, vil du modtage en bekræftelsesmail. Følg din ordre ved hjælp af Shop-appen.",
-        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "Efter at have gennemført din betaling, vil du modtage en bekræftelsesmail. Følg din ordre ved hjælp af Shop-appen.",
-        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Efter at have gennemført din betaling, vil du modtage en bekræftelsesmail. Følg din ordre ved hjælp af Shop-appen.",
-        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Efter at have gennemført din betaling, vil du modtage en bekræftelsestekst. Følg din ordre ved hjælp af Shop-appen.",
-        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Efter at have gennemført din betaling, vil du modtage en bekræftelsestekst. Følg din ordre ved hjælp af Shop-appen.",
-        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Efter at have gennemført din betaling, vil du modtage en bekræftelsestekst. Følg din ordre ved hjælp af Shop-appen.",
-        "order_status_payments_app_failed_pending_payment": "Du blev ikke opkrævet for din ordre. Gå tilbage til din kurv for at gennemgå din ordre og betale igen.",
-        "order_status_payments_app_failed_pending_payment_payment": "Du blev ikke opkrævet for din ordre. Gå tilbage til din kurv for at gennemgå din ordre og betale igen.",
-        "order_status_payments_app_failed_pending_payment_pick_up": "Du blev ikke opkrævet for din ordre. Gå tilbage til din kurv for at gennemgå din ordre og betale igen.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Efter du har gennemført din betaling, vil du modtage en bekræftelsesmail. Følg din ordre via Butiksappen.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "Efter du har gennemført din betaling, vil du modtage en bekræftelsesmail. Følg din ordre via Butiksappen.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "Efter du har gennemført din betaling, vil du modtage en bekræftelsesmail. Følg din ordre via Butiksappen.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "Efter du har gennemført din betaling, vil du modtage en bekræftelsesmail. Følg din ordre via Butiksappen.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "Efter du har gennemført din betaling, vil du modtage en bekræftelsesmail. Følg din ordre via Butiksappen.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Efter du har gennemført din betaling, vil du modtage en bekræftelsesmail. Følg din ordre via Butiksappen.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Efter at have gennemført din betaling, vil du modtage en bekræftelsesbesked. Følg din ordre ved hjælp af Butiksappen.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Efter at have gennemført din betaling, vil du modtage en bekræftelsesbesked. Følg din ordre ved hjælp af Butiksappen.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Efter at have gennemført din betaling, vil du modtage en bekræftelsesbesked. Følg din ordre ved hjælp af Butiksappen.",
+        "order_status_payments_app_failed_pending_payment": "Du blev ikke opkrævet for din bestilling. Gå tilbage til din indkøbskurv for at gennemgå din bestilling og betale igen.",
+        "order_status_payments_app_failed_pending_payment_payment": "Du blev ikke opkrævet for din bestilling. Gå tilbage til din indkøbskurv for at gennemgå din bestilling og betale igen.",
+        "order_status_payments_app_failed_pending_payment_pick_up": "Du blev ikke opkrævet for din bestilling. Gå tilbage til din indkøbskurv for at gennemgå din bestilling og betale igen.",
         "order_status_updates_with_email": "Du vil modtage opdateringer om forsendelse og levering via e-mail.",
         "order_status_updates_with_phone": "Du kan modtage opdateringer om forsendelse og levering via sms.",
         "order_status_updates_with_email_and_phone": "Du vil modtage opdateringer om forsendelse og levering via e-mail.",
-        "order_status_updates_with_missing": "Vælg, hvordan du ønsker at modtage opdateringer om forsendelse.",
+        "order_status_updates_with_missing": "Vælg, hvordan du ønsker at modtage forsendelsesopdateringer.",
         "order_status_confirmed_with_installments_payment_return": "Vend din opmærksomhed tilbage til salgsassistenten.",
-        "order_status_confirmed_with_installments_payment_confirm": "Du vil snart modtage en bekræftelsesmail med dit ordrenummer og detaljer om din afdragsplan.",
-        "confirmed_description": "Vi har modtaget din ordre, og vi gør den klar. Kom tilbage til denne side for opdateringer om din forsendelsesstatus.",
+        "order_status_confirmed_with_installments_payment_confirm": "Du vil snart modtage en bekræftelsesmail med dit ordrenummer og oplysninger om din afdragsplan.",
+        "confirmed_description": "Vi har modtaget din ordre og er i gang med at gøre den klar. Kom tilbage til denne side for opdateringer om din forsendelsesstatus.",
         "ready_for_pickup_description": "Din ordre er klar til afhentning. Medbring din ordrebekræftelse, når du henter din ordre.",
-        "ready_for_delivery_description": "Vi har forberedt din ordre.",
-        "shop_phone_description": "Du vil modtage en sms med et link til Shop-appen, som hjælper dig med at spore din ordre.",
+        "ready_for_delivery_description": "Vi har gjort din bestilling klar.",
+        "shop_phone_description": "Du vil modtage en sms med et link til Butiksappen, som hjælper dig med at følge din ordre.",
         "order_updates_description_html": "Opdateringer vil blive sendt til %{customer_contact}",
         "order_updates_current_step_prefix": "Nuværende trin:",
         "order_updates_past_step_prefix": "Forrige trin:",
         "order_updates_upcoming_step_prefix": "Næste trin:",
-        "in_transit_description": "Du vil modtage opdateringer om dens fremskridt.",
+        "in_transit_description": "Du vil modtage opdateringer om dets fremskridt.",
         "in_transit_description_days": "Du bør modtage din ordre inden for de næste %{number} dage.",
         "in_transit_description_today": "Du bør modtage din ordre i dag.",
         "in_transit_description_tomorrow": "Du bør modtage din ordre inden for den næste dag.",
         "no_tracking_number": "Der er intet sporingsnummer for denne ordre.",
-        "out_for_delivery": "Udleveres",
+        "out_for_delivery": "Ude til levering",
         "out_for_delivery_title": "Din ordre er på vej til levering",
         "out_for_delivery_description_html": "Din ordre er på vej og burde ankomme i dag. Hvis den ikke bliver leveret inden for de næste 2 dage, %{contact_us}.",
         "out_for_delivery_local_title": "Din ordre er på vej til levering",
         "out_for_delivery_local_description_html": "Din ordre vil snart ankomme.",
         "attempted_delivery_title": "Der blev gjort et forsøg på at levere din ordre",
-        "attempted_delivery_description_html": "Der blev gjort et forsøg på at levere din ordre, men det lykkedes ikke. %{contact_us} for at aftale et nyt leveringsforsøg.",
+        "attempted_delivery_description_html": "Der blev gjort et forsøg på at levere din ordre, men det lykkedes ikke. %{contact_us} for at arrangere et nyt leveringsforsøg.",
         "attempted_delivery_local_title": "Mistet levering",
-        "attempted_delivery_local_description_html": "Vi kunne ikke levere din ordre. For at aftale en ny levering, %{contact_us}.",
-        "delivered_description_html": "Din ordre er blevet leveret til den adresse, du har oplyst. Hvis du ikke har modtaget den, eller hvis du har andre problemer, %{contact_us}.",
+        "attempted_delivery_local_description_html": "Vi kunne ikke levere din ordre. For at planlægge en ny levering, %{contact_us}.",
+        "delivered_description_html": "Din ordre er blevet leveret til den adresse, du har angivet. Hvis du ikke har modtaget den, eller hvis du har andre problemer, %{contact_us}.",
         "contact_us": "Kontakt os",
         "contact_us_lowercase": "kontakt os",
         "updated_time": "Opdateret for %{time_ago} siden",
-        "failed_contact_merchant_no_company": "Kontakt os for at arrangere levering.",
+        "failed_contact_merchant_no_company": "Kontakt os for at aftale levering.",
         "let_us_know": "Lad os vide det",
         "login_title": "Log ind for at se alle ordreoplysninger",
         "login_description": "Du kan finde dit ordrenummer på kvitteringen, du modtog via e-mail.",
         "login_description_phone": "Du kan finde dit ordrenummer på kvitteringen, du modtog via sms.",
         "customer_validation_error": "Indtast en gyldig e-mail eller ordrenummer.",
-        "unfulfilled_items_title": "Forbereder til forsendelse",
-        "unfulfilled_items_description": "Vi forbereder i øjeblikket disse varer til forsendelse.",
+        "unfulfilled_items_title": "Forberedelse til forsendelse",
+        "unfulfilled_items_description": "Vi forbereder i øjeblikket disse varer til afsendelse.",
         "marker": {
-          "current": "Nuværende forsendelsessted"
+          "current": "Nuværende forsendelsessted",
+          "shipping": "Forsendelsesadresse"
         },
         "pick_up_in_store_marker": {
           "current": "Nuværende forsendelsessted",
           "shipping": "Afhentningssted"
         },
         "fulfillment": {
-          "unfulfilled_table_title": "Varer, der klargøres til forsendelse"
+          "unfulfilled_table_title": "Varer, der klargøres til forsendelse",
+          "quantity_label": "Mængde"
         },
         "order_updates_description_missing": "Du modtager ikke forsendelsesopdateringer.",
         "order_updates_subscribe_to_email_notifications": "Få forsendelsesopdateringer via e-mail",
@@ -1249,17 +1251,17 @@
           "title": "Ordren har ikke en leveringsadresse"
         },
         "first_payment_complete": "Første betaling fuldført",
-        "company_location_section_title": "Firma og placering",
+        "company_location_section_title": "Firma og beliggenhed",
         "thank_you_ready_for_picked_up": "Din ordre blev afhentet på %{address}.",
         "order_updates_subscribe_to_email_notifications_failed": "Vi kan ikke gemme denne e-mail til opdateringer. Prøv igen eller brug en anden e-mail.",
-        "order_updates_subscribe_to_email_notifications_email_already_exists": "Den e-mail, du indtastede, findes allerede.",
+        "order_updates_subscribe_to_email_notifications_email_already_exists": "Den indtastede e-mail findes allerede.",
         "gift_card_confirmation_by_text_typ": {
           "one": "Du vil modtage en sms med dit gavekort om et par minutter.",
-          "other": "Du vil modtage en sms med dine gavekort om et par minutter."
+          "other": "Du vil modtage en sms med dine gavekort om få minutter."
         },
         "gift_card_confirmation_by_email_typ": {
-          "one": "Du vil modtage en e-mail med dit gavekort om et par minutter.",
-          "other": "Du vil modtage en e-mail med dine gavekort om et par minutter."
+          "one": "Du vil modtage en e-mail med dit gavekort om få minutter.",
+          "other": "Du vil modtage en e-mail med dine gavekort om få minutter."
         },
         "gift_card_email_title": {
           "one": "Gavekort blev sendt via e-mail",
@@ -1273,14 +1275,24 @@
         "resend_gift_cards_by_text": "Send sms-besked igen",
         "gift_card_resent_confirmation": {
           "one": "Gavekortet blev sendt igen.",
-          "other": "Gavekort blev gensendt."
+          "other": "Gavekort blev sendt igen."
         },
         "gift_card_resend_failure": {
           "one": "Der opstod et problem med at gensende dit gavekort. Prøv igen eller kontakt os.",
           "other": "Der opstod et problem med at gensende dine gavekort. Prøv igen eller kontakt os."
         },
         "verify_shop_account_message": "Dine oplysninger blev gemt hos Shop, bekræft din konto for automatisk at bruge dem i millioner af butikker.",
-        "verify_shop_account_confirmation": "Checkout oplysninger gemt"
+        "verify_shop_account_confirmation": "Betalingsoplysninger gemt",
+        "payment_information_title": "Betalingsoplysninger",
+        "shipping_information_title": "Forsendelsesoplysninger",
+        "contact_information_title": "Kontaktoplysninger",
+        "cashback_notice": "Du modtager din cashback efter 30 dage",
+        "shipping_address_title": "Forsendelsesadresse",
+        "thank_you_title_payments_app_pending_default": "Din betaling behandles lige nu",
+        "thank_you_title_payments_app_failed_pending_payment": "Din betaling kunne ikke gennemføres",
+        "failed_contact_merchant": "Kontakt %{company} for at arrangere levering.",
+        "non_shippable_title": "Din bestilling er fuldført",
+        "in_store_purchase": "Køb i butikken"
       },
       "general": {
         "remove_chip": "Fjern vare",
@@ -1536,26 +1548,27 @@
       "payment_gateway": {
         "bank_account_label": "Bankkonto",
         "bank_deposit_label": "Bankindskud",
-        "cash_on_delivery_label": "Kontant ved Levering (COD)",
+        "cash_on_delivery_label": "Betaling ved levering (COD)",
         "generic_payment_terms": "Du er på {{translatedName}} vilkår. Din betaling forfalder den {{dueDate}}.",
         "login_prompt": {
           "no_access": {
-            "message": "{{logIn}} til en konto med adgang til dette sted for at tilføje eller bruge gemte betalingsmetoder."
+            "message": "{{logIn}} til en konto med adgang til denne placering for at tilføje eller bruge gemte betalingsmetoder."
           }
         },
         "direct_payment_terms": "Du er på {{translatedName}} vilkår. Dit kort vil blive opkrævet den {{dueDate}}.",
         "fixed_direct_payment_terms": "Dit kort vil blive opkrævet den {{dueDate}}.",
-        "order_due_on_fulfillment_choose_later": "Din betaling forfalder, når din ordre er gennemført.",
-        "order_due_on_fulfillment_payment": "Dit kort vil blive opkrævet, når din ordre er fuldført.",
+        "order_due_on_fulfillment_choose_later": "Din betaling forfalder, når din ordre er fuldført.",
+        "order_due_on_fulfillment_payment": "Dit kort vil blive opkrævet, når din ordre er gennemført.",
         "order_deposit_due_now": "{{depositAmount}} forfalder i dag. Restbeløbet følger {{translatedName}} betingelser og forfalder den {{dueDate}}.",
-        "order_deposit_due_on_fulfillment": "{{depositAmount}} forfalder i dag. Restbeløbet forfalder, når din ordre er opfyldt.",
+        "order_deposit_due_on_fulfillment": "{{depositAmount}} forfalder i dag. Restbeløbet forfalder, når din ordre er gennemført.",
         "order_deposit_due_on_receipt": "{{depositAmount}} forfalder i dag. Restbeløbet forfalder senere.",
         "order_deposit_due_on_fixed_date": "{{depositAmount}} forfalder i dag. Restbeløbet forfalder den {{dueDate}}.",
-        "draft_order_payment_due_later_no_terms_payment_selected": "Dit kort vil blive opkrævet, når din ordre er bekræftet.",
-        "draft_order_payment_due_later_terms": "Du vil være på {{translatedName}} vilkår, når din bestilling er bekræftet.",
-        "draft_order_payment_due_on_fulfillment": "Din betaling forfalder, når din ordre er bekræftet og gennemført.",
-        "draft_order_deposit_due_later": "{{depositAmount}} forfalder, når din bestilling er bekræftet. Restbeløbet betales efter {{translatedName}}'s betingelser.",
-        "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} forfalder, når din bestilling er bekræftet. Restbeløbet forfalder, når din bestilling er opfyldt."
+        "draft_order_payment_due_later_no_terms_payment_selected": "Dit kort vil blive opkrævet, når din bestilling er bekræftet.",
+        "draft_order_payment_due_later_terms": "Du vil være på {{translatedName}} vilkår, når din ordre er bekræftet.",
+        "draft_order_payment_due_on_fulfillment": "Din betaling forfalder, når din bestilling er bekræftet og gennemført.",
+        "draft_order_deposit_due_later": "{{depositAmount}} forfalder, når din ordre er bekræftet. Restbeløbet vil være på {{translatedName}} vilkår.",
+        "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} forfalder, når din ordre bekræftes. Restbeløbet forfalder, når din ordre er opfyldt.",
+        "credit_or_debit_card_label": "Kredit/Debet"
       },
       "offsite_payment_failed": {
         "title": "Betaling uden for stedet mislykkedes",
@@ -1992,7 +2005,7 @@
           "no_auto_refresh_html": "Hvis du ikke bliver omdirigeret automatisk, %{link}.",
           "refresh_this_page": "opdater denne side"
         },
-        "remote_shops_payments_processing": "Behandler betalinger",
+        "remote_shops_payments_processing": "Behandling af betalinger",
         "action_required": "Handling påkrævet",
         "modal_notice": "Vi kontakter {{paymentMethod}}",
         "your_order_has_been_received_title": "Tak for din bestilling"
@@ -2000,7 +2013,7 @@
       "payment_challenge_modal": {
         "instructions": "Fuldfør dit køb ved at bruge din {{paymentMethod}} kode",
         "copy_text": "Kopiér {{paymentMethod}} kode",
-        "open_app_text": "Åbn {{paymentMethod}} appen",
+        "open_app_text": "Åbn {{paymentMethod}}-appen",
         "qr_code": {
           "instructions": "Fuldfør dit køb ved at bruge din {{paymentMethod}} kode"
         },
@@ -2010,29 +2023,32 @@
       },
       "failed_payment": {
         "payment_not_processed_text": "Du er ikke blevet opkrævet. Gå tilbage til din kurv for at fuldføre dit køb.",
-        "return_to_cart_button_label": "Vend tilbage til kurven"
+        "return_to_cart_button_label": "Gå tilbage til kurv",
+        "page_title": "Betalingen kunne ikke gennemføres",
+        "title": "Betalingen kunne ikke gennemføres",
+        "payment_not_processed_title": "Din betaling kunne ikke gennemføres"
       },
       "review": {
         "title": "Anmeldelse",
-        "review_title": "Fuldfør din ordre",
+        "review_title": "Fuldfør din bestilling",
         "review_and_confirm_title": "Gennemse og bekræft",
-        "checkout_as_guest": "Checkout som gæst",
-        "checkout_a_different_way": "Checkout en anden måde",
+        "checkout_as_guest": "Fortsæt som gæst",
+        "checkout_a_different_way": "Prøv en anden måde",
         "blocks": {
           "shipping_method_title": "Forsendelsesmetode",
-          "change_contact_method_link_label": "Skift kontaktinformation",
+          "change_contact_method_link_label": "Skift kontaktoplysninger",
           "change_billing_address_link_label": "Skift faktureringsadresse",
-          "change_company_location_link_label": "Skift virksomhedsplacering",
+          "change_company_location_link_label": "Skift virksomhedens placering",
           "change_shipping_method_link_label": "Skift forsendelsesmetode",
           "change_payment_method_link_label": "Skift betalingsmetode",
-          "purchase_order_number_title": "PO nummer",
-          "change_purchase_order_number_label": "Skift PO-nummer",
+          "purchase_order_number_title": "PO-nummer",
+          "change_purchase_order_number_label": "Skift indkøbsordrenummer",
           "no_address": "(Uden adresse)",
-          "no_purchase_order_number": "(Uden PO-nummer)",
+          "no_purchase_order_number": "(Uden indkøbsordrenummer)",
           "due_after_order_reviewed_html": "Forfalder efter ordren er gennemgået",
-          "review_title_free_order": "Gennemse og fuldfør din ordre",
-          "payment_method_saved_company_location": "Gem kort til denne placering",
-          "company_location": "Virksomhedens placering"
+          "review_title_free_order": "Gennemse og fuldfør din bestilling",
+          "payment_method_saved_company_location": "Gem kort for dette sted",
+          "company_location": "Virksomhedens beliggenhed"
         },
         "block_title": "Gennemse dine oplysninger",
         "item_header": {
@@ -2040,18 +2056,20 @@
         }
       },
       "marketing": {
-        "accept_marketing_checkbox_label": "Send mig e-mails med nyheder og tilbud",
+        "accept_marketing_checkbox_label": "Send mig e-mail med nyheder og tilbud",
         "post_accept_marketing_checkbox_label": "Du er tilmeldt for at modtage nyheder og tilbud via e-mail",
         "pending_accept_marketing_checkbox_label": "Tjek din e-mail for at bekræfte dit abonnement på nyheder og tilbud",
         "accept_sms_checkbox_label": "Send mig en besked med nyheder og tilbud",
         "disclaimer": {
-          "privacy_policy": "Privatlivspolitik"
+          "privacy_policy": "Fortrolighedspolitik",
+          "terms_of_service": "Vilkår for brug"
         },
         "sms": {
           "disclaimer": {
-            "privacy_policy": "Privatlivspolitik",
-            "description_html": "Ved at tilmelde dig via sms accepterer du at modtage tilbagevendende automatiserede markedsføringsbeskeder, herunder påmindelser om indkøbskurv, på det angivne telefonnummer. Samtykke er ikke en betingelse for køb. Svar STOP for at afmelde. Svar HJÆLP for hjælp. Beskedhyppighed varierer. Beskedsatser og datapriser kan forekomme. Se vores %{privacy_policy_link} og %{terms_of_service_link}.",
-            "description_transactional_html": "Du kan modtage sms-beskeder vedrørende ordrebekræftelse og forsendelsesopdateringer. Svar STOP for at afmelde. Svar HJÆLP for hjælp. Beskedfrekvensen varierer. Besked- og datapriser kan forekomme. Se vores %{privacy_policy_modal_link} og %{terms_of_service_modal_link}."
+            "privacy_policy": "Fortrolighedspolitik",
+            "description_html": "Ved at tilmelde dig via sms accepterer du at modtage tilbagevendende automatiserede markedsføringsbeskeder, herunder påmindelser om indkøbskurv, på det angivne telefonnummer. Samtykke er ikke en betingelse for køb. Svar STOP for at afmelde. Svar HJÆLP for hjælp. Beskedfrekvensen varierer. Beskedsatser og dataafgifter kan forekomme. Se vores %{privacy_policy_link} og %{terms_of_service_link}.",
+            "description_transactional_html": "Du kan modtage sms-beskeder vedrørende ordrebekræftelse og forsendelsesopdateringer. Svar STOP for at afmelde. Svar HJÆLP for hjælp. Beskedfrekvensen varierer. Besked- og datapriser kan forekomme. Se vores %{privacy_policy_modal_link} og %{terms_of_service_modal_link}.",
+            "terms_of_service": "Vilkår for brug"
           },
           "mobile_phone_number": "Mobiltelefonnummer"
         },

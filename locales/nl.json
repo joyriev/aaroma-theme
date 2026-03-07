@@ -532,9 +532,9 @@
         },
         "crypto_modal": {
           "error": {
-            "refresh": "Vernieuw",
+            "refresh": "Vernieuwen",
             "close": "sluiten",
-            "sandbox_error": "Er ging iets mis",
+            "sandbox_error": "Er is iets misgegaan",
             "web_component_error": "Er was een probleem met het laden van deze pagina"
           }
         },
@@ -544,7 +544,111 @@
         },
         "bank_account_choose": "Kies een account om je aankoop veilig af te ronden",
         "bank_account_connect_another": "Sluit een andere bankrekening aan",
-        "bank_account_connect": "Bankrekening aansluiten"
+        "bank_account_connect": "Bankrekening aansluiten",
+        "network_card_payment_options": "Kies een kaartnetwerk",
+        "network_card_persistence_description": "Het gekozen netwerk wordt opgeslagen bij uw betaalmethode voor toekomstige aankopen.",
+        "amazon_payments_label": "Amazon Betalen",
+        "amazon_payments_login_hint": "Je wordt gevraagd om in te loggen met Amazon.",
+        "amazon_payments_logout": "Afmelden bij Amazon Pay",
+        "amazon_payments_failed_mfa_challenge": "De gekozen betaalmethode kon niet worden gebruikt. Kies een andere methode of neem contact op met uw bank of kaartuitgever.",
+        "amazon_payments_abandoned_mfa_challenge": "Uw betaling kon niet worden voltooid. Probeer een andere betaalmethode of neem contact op met uw bank of kaartuitgever.",
+        "amazon_payments_could_not_enqueue_authorize": "Er was een probleem bij het verwerken van uw betaling. Probeer het opnieuw of gebruik een andere betaalmethode.",
+        "amount_left_to_pay_label": "Betaling verschuldigd:",
+        "discount_button_action_label": "Kortingscode toepassen",
+        "discount_codes_removed_summary": {
+          "one": "%{count} kortingscode is verwijderd"
+        },
+        "discount_codes_modified_summary": {
+          "one": "%{count} kortingscode is aangepast",
+          "other": "%{count} kortingscodes zijn aangepast"
+        },
+        "discount_codes_removed_or_modified_summary": {
+          "one": "%{count} kortingscode is verwijderd of aangepast",
+          "other": "%{count} kortingscodes zijn verwijderd of aangepast"
+        },
+        "discount_show_more_warnings": {
+          "one": "Toon nog %{count} meer",
+          "other": "Toon nog %{count} meer"
+        },
+        "gift_card_code_label": "Cadeauboncode",
+        "gift_card_balance_label": "Balans:",
+        "detected_card_brand": "Gedetecteerd kaartmerk: {brand}",
+        "credit_card_vaulting_sign_in_banner_title": "Bewaar uw creditcardgegevens",
+        "credit_card_vaulting_sign_in_banner_info": "Log in of maak een account aan om uw creditcard op te slaan voor toekomstige aankopen.",
+        "ftd_vault_credit_card_label": "Sla deze creditcard op in mijn account voor een snellere afhandeling van de bestelling",
+        "card_pay_with": "Betalen met:",
+        "card_security_notice": "Alle transacties zijn veilig en versleuteld.",
+        "card_security_vault_notice": "We hebben uw gegevens nodig voor toekomstige betalingen. Alle transacties zijn veilig en versleuteld.",
+        "card_information_notice": "Alle transacties zijn veilig en versleuteld. Creditcardgegevens worden nooit opgeslagen.",
+        "card_expiry_label": "Vervaldatum (MM / JJ)",
+        "card_expiry_placeholder": "Vervaldatum (MM / JJ)",
+        "credit_card_start_month": "Startmaand",
+        "credit_card_start_year": "Startjaar",
+        "delete_customer_mandate_modal_body": "Als u deze kaart verwijdert, moet u deze opnieuw toevoegen voordat u ermee kunt betalen.",
+        "card_verification_confirm": "Voer voor verificatiedoeleinden de beveiligingscode van uw kaart in.",
+        "card_expiry_date_explanation": "Kaartvervaldatum in formaat: maand, maand, jaar, jaar",
+        "card_expiration_year_label": "Vervaldatum jaar",
+        "card_verification_value_explanation": "3-cijferige beveiligingscode die meestal op de achterkant van uw kaart te vinden is. American Express-kaarten hebben een 4-cijferige code aan de voorkant.",
+        "card_verification_value_explanation_amex": "4-cijferige beveiligingscode aan de voorkant van uw kaart",
+        "card_verification_value_explanation_other": "3-cijferige beveiligingscode op de achterkant van uw kaart",
+        "card_issue_number_label": "Uitgave nummer",
+        "card_issue_number_placeholder": "Uitgave nummer",
+        "card_update_label": "Kaart bijwerken",
+        "paypal_disconnect": "Verbreek verbinding",
+        "ends_with_label": "eindigend op %{last_digits}",
+        "crypto_payment_method": {
+          "description": "Maak veilig verbinding met uw portemonnee op het Base-netwerk",
+          "tooltip": "Uw portemonnee saldo en adres worden niet gedeeld en alleen het gevraagde bedrag kan worden afgeschreven"
+        },
+        "saved_by_payment_method": "Opgeslagen door %{payment_method}",
+        "pay_with_payment_method": "Betalen met %{payment_method}",
+        "different_credit_card_label": "Gebruik een andere kredietkaart",
+        "same_billing_address_label": "Zelfde als het afleveradres",
+        "different_billing_address_label": "Gebruik een ander factuuradres",
+        "billing_address_associated_with_mandate": "Gebruik het adres dat aan de betaalmethode is gekoppeld",
+        "billing_address_associated_with_mandate_info": "Als u uw factuuradres wilt wijzigen, verwijder dan uw creditcardgegevens en voer ze opnieuw in",
+        "free_order_notice_html": "Uw bestelling is <strong>gratis</strong>. Betaling is niet vereist.",
+        "express_checkout_free_order": "Je wordt niet belast voor een gratis bestelling",
+        "order_covered_by_gift_cards_notice": {
+          "one": "Uw bestelling wordt gedekt door uw cadeaubon.",
+          "other": "Uw bestelling wordt gedekt door uw cadeaubonnen."
+        },
+        "offsite_gateway_redirect_hint": "Je wordt doorgestuurd naar %{gateway_label} om je aankoop te voltooien.",
+        "offsite_gateway_review_page_redirect_hint": "Nadat u uw bestelling heeft gecontroleerd, wordt u doorgestuurd naar %{gateway_label} om uw aankoop te voltooien.",
+        "offsite_gateway_redirect_hint_no_button_label": "Je wordt doorgestuurd naar %{gateway_label} om je aankoop te voltooien.",
+        "receiver_payment_experience_hint": "Na het plaatsen van uw bestelling ontvangt u de betalingsgegevens. Voer de betaling uit bij Multibanco of online binnen %{due_days} dagen.",
+        "billing_address_rollup_accessibility_label": "Factuuradresopties",
+        "billing_address_description": "Selecteer het adres dat overeenkomt met uw kaart of betaalmethode.",
+        "billing_address_description_no_shipping_address": "Voer het adres in dat overeenkomt met uw kaart of betaalmethode.",
+        "no_js_credit_card_fields_redirect_hint": "U wordt doorgestuurd om uw betaalgegevens toe te voegen.",
+        "card_fields_container_prefix": "Veldcontainer voor:",
+        "card_fields_unavailable_html": {
+          "one": "Betalingen met creditcard en betaalpas zijn momenteel niet beschikbaar.<br><a href=\"%{current_url}\">Ververs deze pagina</a> of probeer het later opnieuw.",
+          "other": "Betalingen met creditcard en betaalpas zijn momenteel niet beschikbaar.<br><a href=\"%{current_url}\">Ververs deze pagina</a> of probeer een andere betaalmethode."
+        },
+        "card_fields_processing_error": "Er was een probleem bij het verwerken van de betaling. Probeer deze pagina te vernieuwen of controleer uw internetverbinding.",
+        "technical_error": "Betalingen kunnen op dit moment niet worden verwerkt vanwege een technisch probleem. Probeer het over een paar minuten opnieuw.",
+        "missing_credit_card_error": "Voer uw kaartgegevens in om de betaling te voltooien",
+        "payment_method_not_available_for_shipping_address_error": "Betaalmethode niet beschikbaar voor het gekozen afleveradres. Kies een andere betaalmethode.",
+        "billing_address_not_supported_for_payment_method_error": "Deze betaalmethode is niet beschikbaar voor uw factuuradres en valuta. Probeer een andere betaalmethode.",
+        "generic_incorrect_card_info": "Uw betaalgegevens konden niet worden geverifieerd. Controleer uw kaartgegevens en probeer het opnieuw.",
+        "sofort_label": "Directe bankoverschrijving",
+        "paypal_wallet_label": "PayPal-portemonnee",
+        "shop_pay_installments_label": "Shop Pay-termijnen",
+        "continue_to_guest_checkout": "Doorgaan naar afrekenen als gast",
+        "klarna_pay_later_label": "Betaal later met Klarna",
+        "multibanco_label": "Multibank",
+        "eps_label": "eps-overschrijving",
+        "klarna_slice_it_label": "Financiering met Klarna",
+        "afterpay_label": "Achteraf betalen",
+        "cashapppay_label": "Cash App Betalen",
+        "swish_label": "Zwijgzaam",
+        "grabpay_label": "PakBetalen",
+        "kcp_creditcard_label": "KCP Kredietkaart",
+        "usdc_cashback_title": "1% geld terug",
+        "usdc_cashback_additional_info": "Ontvang 1% terug in USDC op Base binnen 30 dagen.",
+        "usdc_cashback_terms": "Voorwaarden van toepassing",
+        "purchase_options_card_update_agreement_label_html": "Door uw betaalmethode bij te werken, geeft u toestemming voor betalingen voor elke terugkerende of uitgestelde aankoop volgens het <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">annuleringsbeleid</a> van deze winkel."
       },
       "shipping_errors": {
         "unavailable_addresses_only_countries": "Uw bestelling kan alleen worden verzonden naar {{countriesList}}. Voeg een nieuw adres toe om door te gaan."
@@ -1267,7 +1371,15 @@
           "shipping_credential_gt": "NIT/BTW",
           "tax_credential_my": "TIN/Registratienummer",
           "shipping_credential_my": "TIN/Registratienummer",
-          "tax_credential_type_mx": "Fiscale regeling"
+          "tax_credential_type_mx": "Fiscale regeling",
+          "tax_credential_use_mx": "Gebruik van CFDI",
+          "tax_credential_py": "CI/RUC/BTW",
+          "shipping_credential_py": "CI/RUC/BTW",
+          "tax_credential_pt": "NIF/BTW",
+          "shipping_credential_pt": "NIF/BTW",
+          "shipping_credential_tw": "Nationaal identiteitsnummer/btw-nummer",
+          "tax_credential_tr": "Republiek Turkije Identificatienummer/BTW",
+          "shipping_credential_tr": "Republiek Turkije Identificatienummer/BTW"
         }
       }
     },
