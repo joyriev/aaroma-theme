@@ -117,54 +117,54 @@
     "product": {
       "add_to_cart": "Toevoegen aan winkelwagen",
       "description": "Beschrijving",
-      "on_sale": "Aanbieding",
+      "on_sale": "Uitverkoop",
       "quantity": {
         "label": "Aantal",
         "input_label": "Aantal voor {{ product }}",
         "increase": "Aantal verhogen voor {{ product }}",
-        "decrease": "Aantal verlagen voor {{ product }}",
-        "minimum_of": "Minimum van {{ quantity }}",
-        "maximum_of": "Maximum van {{ quantity }}",
+        "decrease": "Aantal voor {{ product }} verlagen",
+        "minimum_of": "Minimaal {{ quantity }}",
+        "maximum_of": "Maximaal {{ quantity }}",
         "multiples_of": "Stappen van {{ quantity }}",
         "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> in winkelwagen",
-        "note": "Hoeveelheidsregels bekijken",
-        "min_of": "Min. {{ quantity }}",
-        "max_of": "Max. {{ quantity }}"
+        "note": "Bekijk hoeveelheidregels",
+        "min_of": "Minimaal {{ quantity }}",
+        "max_of": "Maximaal {{ quantity }}"
       },
       "price": {
         "from_price_html": "Vanaf {{ price }}",
-        "regular_price": "Normale prijs",
+        "regular_price": "Reguliere prijs",
         "sale_price": "Aanbiedingsprijs",
-        "unit_price": "Eenheidsprijs"
+        "unit_price": "Stukprijs"
       },
-      "share": "Dit product delen",
+      "share": "Deel dit product",
       "sold_out": "Uitverkocht",
       "unavailable": "Niet beschikbaar",
       "vendor": "Verkoper",
-      "video_exit_message": "{{ title }} opent een video op volledig scherm in hetzelfde venster.",
-      "xr_button": "Bekijk in je ruimte",
-      "xr_button_label": "Bekijk in je ruimte, laadt artikel in augmented reality-venster",
+      "video_exit_message": "{{ title }} opent video op volledig scherm in hetzelfde venster.",
+      "xr_button": "Bekijk in uw ruimte",
+      "xr_button_label": "Bekijk in uw ruimte, laadt artikel in venster voor toegevoegde werkelijkheid",
       "pickup_availability": {
-        "view_store_info": "Winkelgegevens bekijken",
-        "check_other_stores": "Controleer de beschikbaarheid bij andere winkels",
-        "pick_up_available": "Afhaling is beschikbaar",
-        "pick_up_available_at_html": "Afhaling is beschikbaar bij <span class=\"color-foreground\">{{ location_name }}</span>",
-        "pick_up_unavailable_at_html": "Afhaling is momenteel niet beschikbaar bij <span class=\"color-foreground\">{{ location_name }}</span>",
-        "unavailable": "Kan beschikbaarheid voor afhalen niet laden",
+        "view_store_info": "Bekijk winkelinformatie",
+        "check_other_stores": "Controleer beschikbaarheid bij andere winkels",
+        "pick_up_available": "Afhalen mogelijk",
+        "pick_up_available_at_html": "Afhalen mogelijk bij <span class=\"color-foreground\">{{ location_name }}</span>",
+        "pick_up_unavailable_at_html": "Afhalen momenteel niet beschikbaar bij <span class=\"color-foreground\">{{ location_name }}</span>",
+        "unavailable": "Kon ophaalmogelijkheid niet laden",
         "refresh": "Vernieuwen"
       },
       "media": {
-        "open_media": "Media {{ index }} openen in modaal",
-        "play_model": "3D-viewer afspelen",
+        "open_media": "Open media {{ index }} in modaal",
+        "play_model": "Speel 3D-weergave af",
         "play_video": "Video afspelen",
-        "gallery_viewer": "Gallery-weergave",
-        "load_image": "Afbeelding {{ index }} laden in gallery-weergave",
-        "load_model": "3D-model {{ index }} laden in gallery-weergave",
-        "load_video": "Video {{ index }} afspelen in gallery-weergave",
-        "image_available": "Afbeelding {{ index }} is nu beschikbaar in gallery-weergave"
+        "gallery_viewer": "Galerijweergave",
+        "load_image": "Afbeelding {{ index }} laden in galerijweergave",
+        "load_model": "Laad 3D-model {{ index }} in galerijweergave",
+        "load_video": "Speel video {{ index }} af in galerijweergave",
+        "image_available": "Afbeelding {{ index }} is nu beschikbaar in galerijweergave"
       },
-      "view_full_details": "Alle details bekijken",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Verzendkosten</a> worden berekend bij de checkout.",
+      "view_full_details": "Bekijk volledige details",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Verzending</a> wordt berekend bij het afrekenen.",
       "choose_options": "Kies opties",
       "choose_product_options": "Kies opties voor {{ product_name }}",
       "value_unavailable": "{{ option_value }} - Niet beschikbaar",
@@ -177,53 +177,53 @@
       "sku": "Artikelnummer",
       "inventory_out_of_stock_continue_selling": "Op voorraad",
       "volume_pricing": {
-        "title": "Volumeprijsstelling",
-        "note": "Volumeprijsstelling beschikbaar",
+        "title": "Hoeveelheidskorting",
+        "note": "Hoeveelheidskorting beschikbaar",
         "minimum": "Meer dan {{ quantity }}",
         "price_range": "{{ minimum }} - {{ maximum }}",
-        "price_at_each_html": "{{ price }}/st."
+        "price_at_each_html": "vanaf {{ price }} per stuk"
       },
       "product_variants": "Productvarianten",
-      "duties_included": "Douanerechten inbegrepen."
+      "duties_included": "Taken inbegrepen."
     },
     "modal": {
       "label": "Mediagalerij"
     },
     "facets": {
       "apply": "Toepassen",
-      "clear": "Wissen",
+      "clear": "Helder",
       "clear_all": "Alles verwijderen",
-      "from": "Van",
+      "from": "Vanaf",
       "filter_and_sort": "Filteren en sorteren",
       "filter_by_label": "Filter:",
-      "filter_button": "Filter",
+      "filter_button": "Filteren",
       "filters_selected": {
         "one": "{{ count }} geselecteerd",
         "other": "{{ count }} geselecteerd"
       },
       "max_price": "De hoogste prijs is {{ price }}",
       "product_count": {
-        "one": "{{ product_count }} korting op {{ count }} producten",
-        "other": "{{ product_count }} korting op {{ count }} producten"
+        "one": "{{ product_count }} van de {{ count }} producten",
+        "other": "{{ product_count }} van de {{ count }} producten"
       },
       "product_count_simple": {
         "one": "{{ count }} product",
         "other": "{{ count }} producten"
       },
-      "reset": "Opnieuw instellen",
+      "reset": "Herstellen",
       "sort_button": "Sorteren",
-      "sort_by_label": "Sorteer op:",
+      "sort_by_label": "Sorteren op:",
       "to": "Aan",
       "clear_filter": "Filter verwijderen",
       "filter_selected_accessibility": "{{ type }} ({{ count }} filters geselecteerd)",
       "show_more": "Meer weergeven",
       "show_less": "Minder weergeven",
-      "filter_and_operator_subtitle": "Alles matchen"
+      "filter_and_operator_subtitle": "Alles overeenkomen"
     }
   },
   "templates": {
     "search": {
-      "no_results": "Geen resultaten gevonden voor “{{ terms }}”. Controleer de spelling of gebruik een ander woord of een andere zin.",
+      "no_results": "Geen resultaten gevonden voor “{{ terms }}”. Controleer de spelling of gebruik een ander woord of een andere uitdrukking.",
       "results_with_count": {
         "one": "{{ count }} resultaat",
         "other": "{{ count }} resultaten"
@@ -231,7 +231,7 @@
       "title": "Zoekresultaten",
       "page": "Pagina",
       "products": "Producten",
-      "search_for": "Zoeken naar '{{ terms }}'",
+      "search_for": "Zoek naar “{{ terms }}”",
       "results_with_count_and_term": {
         "one": "{{ count }} resultaat gevonden voor “{{ terms }}”",
         "other": "{{ count }} resultaten gevonden voor “{{ terms }}”"
@@ -257,11 +257,11 @@
     "contact": {
       "form": {
         "name": "Naam",
-        "email": "E‑mail",
+        "email": "E-mail",
         "phone": "Telefoonnummer",
-        "comment": "Reactie",
-        "send": "Sturen",
-        "post_success": "Bedankt dat je contact met ons hebt opgenomen. Je hoort zo snel mogelijk van ons.",
+        "comment": "Opmerking",
+        "send": "Verzenden",
+        "post_success": "Bedankt dat u contact met ons heeft opgenomen. We nemen zo snel mogelijk contact met u op.",
         "error_heading": "Pas het volgende aan:",
         "title": "Contactformulier"
       }
@@ -383,15 +383,15 @@
   },
   "customer": {
     "account": {
-      "title": "Account",
+      "title": "Rekening",
       "details": "Accountgegevens",
       "view_addresses": "Adressen bekijken",
-      "return": "Terug naar Accountgegevens"
+      "return": "Terug naar accountgegevens"
     },
-    "account_fallback": "Account",
+    "account_fallback": "Rekening",
     "activate_account": {
       "title": "Account activeren",
-      "subtext": "Maak je wachtwoord aan om je account te activeren.",
+      "subtext": "Maak uw wachtwoord aan om uw account te activeren.",
       "password": "Wachtwoord",
       "password_confirm": "Wachtwoord bevestigen",
       "submit": "Account activeren",
