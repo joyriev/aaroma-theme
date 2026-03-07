@@ -3073,13 +3073,61 @@
           "with_pending_orders_and_subscriptions": "Het verwijderen van deze betaalmethode heeft invloed op vooraf goedgekeurde betalingen. Tenzij u een andere betaalmethode kiest, wordt deze betaalmethode nog steeds belast voor eventuele openstaande saldi van bestaande bestellingen. Het kiezen van een andere betaalmethode zorgt ervoor dat u toekomstige abonnementbestellingen zonder onderbreking ontvangt.",
           "with_pending_orders": "Het verwijderen van deze betaalmethode zal deze uit uw account verwijderen en zal niet langer beschikbaar zijn voor toekomstige aankopen. Tenzij u een andere betaalmethode kiest, wordt deze nog steeds gebruikt voor eventuele openstaande saldi op bestaande bestellingen.",
           "with_subscriptions": "Het verwijderen van deze betaalmethode heeft invloed op vooraf goedgekeurde betalingen. Vervang deze door een andere betaalmethode om toekomstige bestellingen te blijven ontvangen."
-        }
+        },
+        "warning_message_without_replacement": {
+          "with_pending_orders_and_subscriptions": "Het verwijderen van deze betaalmethode heeft invloed op vooraf goedgekeurde betalingen. Deze betaalmethode wordt nog steeds gebruikt voor openstaande bedragen bij bestaande bestellingen, maar u zult geen toekomstige abonnementbestellingen meer ontvangen. Voeg een alternatieve betaalmethode toe om abonnementbestellingen te blijven ontvangen.",
+          "with_pending_orders": "Het verwijderen van deze betaalmethode zal deze uit uw account verwijderen en zal niet langer beschikbaar zijn voor toekomstige aankopen. Eventuele openstaande saldi op bestaande bestellingen worden nog steeds in rekening gebracht.",
+          "with_subscriptions": "Het verwijderen van deze betaalmethode heeft invloed op vooraf goedgekeurde betalingen. Voeg een alternatieve betaalmethode toe om toekomstige bestellingen te blijven ontvangen."
+        },
+        "payment_method_selector_placeholder": "Kies een vervangende betaalmethode (optioneel)",
+        "payment_method_selector_no_alternative_payment": "Geen vervangingsmethode",
+        "replace_method_with_new_method_description": "Uw {{currentPaymentMethodName}} wordt verwijderd en vervangen door uw {{newPaymentMethodName}}.",
+        "error_when_deleting": "Onze excuses, er is iets misgegaan en we konden deze betaalmethode niet verwijderen. Probeer het later opnieuw of vernieuw de pagina.",
+        "delete_and_replace_button_accessibility_label": "Verwijder {{currentPaymentMethodName}} en vervang door {{newPaymentMethodName}}.",
+        "deleted_successfully": "Betaalmethode succesvol verwijderd."
+      },
+      "add_payment_method": {
+        "missing_customer_error": "Er is iets misgegaan. Probeer het opnieuw of neem contact op met de klantenservice.",
+        "replace_mode_warning": "Het verwijderen van deze betaalmethode heeft invloed op abonnementen of vooruitbestellingen. Vervang deze door een andere betaalmethode om toekomstige bestellingen te blijven ontvangen.",
+        "choose_from_list": "Kies uit de lijst",
+        "add_new_button": "Nieuw toevoegen",
+        "billing_address": {
+          "add_billing_address_button": "Nieuw toevoegen",
+          "choose_billing_address_from_list_button": "Kies uit de lijst",
+          "missing_billing_address_error_message": "Geef een factuuradres op alstublieft"
+        },
+        "subscription_contracts": {
+          "title": "Gebruik betaalmethode voor terugkerende bestellingen",
+          "more_items": {
+            "one": "{{count}} meer product",
+            "other": "{{count}} meer producten"
+          }
+        },
+        "updating_contracts": {
+          "one": "Bezig met bijwerken van {{count}} abonnementsovereenkomst...",
+          "other": "Bezig met bijwerken van {{count}} abonnementsovereenkomsten..."
+        },
+        "contracts_updated": {
+          "one": "Succesvol {{count}} abonnementsovereenkomst bijgewerkt",
+          "other": "Succesvol {{count}} abonnementsovereenkomsten bijgewerkt"
+        },
+        "contracts_update_failed": "Kon sommige abonnementsovereenkomsten niet bijwerken",
+        "subscription_contracts_updated": "Bijgewerkt {{succeeded}} van de {{total}} abonnementen",
+        "invalid_wallet_type_error": "Ongeldig portemonneettype."
+      },
+      "three_d_secure": {
+        "title": "3D Beveiliging",
+        "verification_failed": "Uw betaling kon niet worden geverifieerd. Probeer het opnieuw of gebruik een andere betaalmethode."
       }
     },
     "subscriptions": {
       "update_success": {
         "title": "Betalingsmethode bijgewerkt",
         "done_button": "Verder winkelen"
+      },
+      "update_payment_instrument": {
+        "loading": "Betalingsmethoden laden",
+        "current_method": "Huidig"
       }
     },
     "callback": {
@@ -3692,6 +3740,106 @@
       "not_upgraded": "Klantaccounts worden niet geüpdatet.",
       "failed_to_revert": "Het is niet gelukt om de instellingen van het klantaccount terug te zetten.",
       "revert_window_expired": "Het terugzetvenster is verlopen."
+    },
+    "payment_method_brands": {
+      "discover": "Ontdek",
+      "dinersclub": "Dinersclub",
+      "maestro": "Meester",
+      "forbrugsforeningen": "Verbruiksvereniging",
+      "dankort": "Dankkaart",
+      "unionpay": "UnionPay",
+      "shoppay": "Winkel Betalen",
+      "applepay": "Apple Betalen",
+      "googlepay": "Google Betalen",
+      "bogus": "Vals"
+    },
+    "ui_components": {
+      "clear": "Helder",
+      "clipboardFailedToCopy": "Kopiëren mislukt",
+      "expandNotification": "Bekijk meer",
+      "submit": "Verzenden",
+      "processing": "Bezig met verwerken…",
+      "increase": "Verhoog {{type}}",
+      "decrease": "Verlaag {{type}}",
+      "august": "Augustus",
+      "october": "Oktober",
+      "monday": "Maandag",
+      "tuesday": "Dinsdag",
+      "wednesday": "Woensdag",
+      "thursday": "Donderdag",
+      "friday": "Vrijdag",
+      "sunday": "Zondag",
+      "mondayAbbreviation": "Maandag",
+      "tuesdayAbbreviation": "Jij",
+      "wednesdayAbbreviation": "Wij",
+      "thursdayAbbreviation": "De",
+      "fridayAbbreviation": "Fr",
+      "saturdayAbbreviation": "Za",
+      "sundayAbbreviation": "Su",
+      "showNextMonth": "Toon volgende maand, {{month}} {{year}}",
+      "showPreviousMonth": "Toon vorige maand, {{month}} {{year}}",
+      "rangeStart": "Bereik begin",
+      "rangeEnd": "Einde van het assortiment",
+      "removeItem": "Verwijder {{label}}",
+      "mapClusterTitle": {
+        "one": "Cluster van {{number}} markeerder",
+        "other": "Cluster van {{number}} markeringen"
+      },
+      "dropzoneInvalidFileType": "Bestandstype niet ondersteund"
+    },
+    "profile_preview_bar": {
+      "hide_bar": "Verberg balk",
+      "navigate_to_admin": "Ga naar beheerder",
+      "close_preview": "Voorvertoning sluiten",
+      "previewing": "Je bekijkt een voorbeeld:",
+      "viewing": "U bekijkt:",
+      "not_available": "Profielgegevens niet beschikbaar"
+    },
+    "active_inspector": {
+      "extension": {
+        "select": "Selecteer de extensie met de naam {{extensionName}}",
+        "unselect": "Deselecteer de extensie met de naam {{extensionName}}",
+        "move_down": "Verplaats uitbreiding naar de volgende positie",
+        "move_up": "Verplaats uitbreiding naar de vorige positie",
+        "remove": "Verwijder uitbreiding",
+        "move_down_tooltip": "Ga naar de volgende positie",
+        "move_up_tooltip": "Ga naar vorige positie"
+      }
+    },
+    "editor": {
+      "link_new_tab_confirmation": "Deze link kan niet binnen de editor worden geopend. Deze wordt geopend in een nieuw venster ({{resolved_to_link}}). Klik op OK om door te gaan."
+    },
+    "settings": {
+      "log_out_everywhere": {
+        "title": "Overal afmelden",
+        "description": "Als u een apparaat bent kwijtgeraakt of zich zorgen maakt over de veiligheid, log dan overal uit om de veiligheid van uw account te waarborgen.",
+        "button": "Overal afmelden",
+        "warning_message": "Je wordt ook afgemeld op dit apparaat."
+      }
+    },
+    "shop_ads": {
+      "title": "Andere producten die u misschien leuk vindt",
+      "subtitle": "Beschikbaar voor een beperkte tijd",
+      "button": "Ontdek in de Winkel"
+    },
+    "knowledge_base": {
+      "self_serve_returns": {
+        "enabled": "Klanten kunnen zelf retourzendingen aanvragen en beheren.",
+        "disabled": "Klanten moeten contact opnemen met de handelaar om een retour aan te vragen."
+      }
+    },
+    "intents": {
+      "subscription_replace_payment_method": {
+        "add_new_payment_method": "Nieuw toevoegen",
+        "loading": "Bezig met laden van het venster voor het vervangen van de betaalmethode",
+        "expiry_date": "Vervaldatum {{expiryDate}}",
+        "edit_current_payment_method": "Bewerk huidige betaalmethode",
+        "edit_selected_payment_method": "Bewerk geselecteerde betaalmethode"
+      }
+    },
+    "sign_in": {
+      "brand_logo_alt_text": "%{shop_name} Logo",
+      "processing": "Bezig met verwerken…"
     }
   }
 }
