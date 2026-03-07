@@ -3247,7 +3247,143 @@
         "resend_link_only": "Om uw bestelgegevens te bekijken, stuur een nieuwe link naar het e-mailadres of telefoonnummer dat bij het afrekenen is gebruikt.",
         "resend_link": "Verzend nieuwe link"
       },
-      "marketing_description": "Je ontvangt marketing-e-mails. Je kunt je op elk moment afmelden."
+      "marketing_description": "Je ontvangt marketing-e-mails. Je kunt je op elk moment afmelden.",
+      "marketing_checkmark_label": "U bent ingeschreven om e-mailnieuws en aanbiedingen te ontvangen",
+      "marketing_pending_confirmation": "Klik op de link in uw e-mail om te bevestigen.",
+      "returns": {
+        "expand_events_label": "Toon details",
+        "hide_events_label": "Details verbergen",
+        "ineligible_return_message": "Geen artikelen in deze bestelling komen in aanmerking voor retournering.",
+        "ineligible_return_message_when_returned": "Er komen geen extra artikelen in deze bestelling in aanmerking voor retournering.",
+        "tracking_number": "Volgnummer:",
+        "exchange_header": "Ruil artikelen",
+        "exchange_subheader": "Ruilartikelen worden aan de bestelling toegevoegd zodra de retour is afgerond."
+      },
+      "shipping": {
+        "address": "Verzendadres",
+        "address_map_marker": "Verzendadres",
+        "summary": "Verzending",
+        "free_shipping_discount": "Gratis Verzending",
+        "one_time": "Eenmalige verzending",
+        "subscription": "Abonnementsverzending"
+      },
+      "show_items": "Toon artikelen",
+      "total_savings": "Totale besparingen",
+      "show_order_summary": "Toon besteloverzicht",
+      "subtitle": "Bevestigd {{date}}",
+      "subtotal": "Tussentotaal",
+      "subtotal_label_with_quantity": {
+        "one": "Tussentotaal"
+      },
+      "summary_list_title_accessibility_label": "Bestelartikelen",
+      "summary_totals_title_accessibility_label": "Besteltotalen",
+      "shop_order_tracking": {
+        "download_shop_to_track": "Download Winkel om pakket te volgen",
+        "track_order_with_shop": "Volg bestelling met Winkel",
+        "title_header": "Scan met uw telefoon",
+        "real_time_delivery_updates": "Winkel stuurt u realtime bezorgupdates zodra uw bestelling is verzonden."
+      },
+      "edit_summary": {
+        "added_with_quantity": "Toegevoegd {{quantity}}",
+        "removed_with_quantity": "Verwijderd {{quantity}}",
+        "updated_at": "Uw bestelling is bijgewerkt op {{date}}",
+        "returned_with_quantities": "Retour gestuurd {{delta}} van {{total}}",
+        "removed_with_quantities": "Verwijderd {{delta}} van {{total}}"
+      },
+      "taxes_included": "Inclusief {{amount}} aan belastingen",
+      "duties_and_taxes_included": "Totaal inclusief invoerrechten en belastingen. Geen extra kosten bij levering.",
+      "duties": "Belastingen",
+      "ok_duties_tooltip": "Deze bestelling wordt vanuit een ander land verzonden, daarom zijn er invoerrechten aan het totaalbedrag van uw bestelling toegevoegd.",
+      "error_duties_tooltip": "Deze bestelling wordt vanuit een ander land verzonden, dus er kunnen invoerrechten en belastingen bij aflevering in rekening worden gebracht.",
+      "zero_duties_tooltip": "Deze bestelling wordt vanuit een ander land verzonden. Er worden geen invoerrechten geheven op bestellingen van deze waarde.",
+      "tip": "Tip",
+      "title": "Bestel {{name}}",
+      "unit_price": "{{price}}/stuk",
+      "pagination": {
+        "loading_accessibility_label": "Items laden"
+      },
+      "login_to_view_all_order_details": "Meld u aan om alle bestelgegevens te bekijken.",
+      "logged_in_account_no_permission_to_order": "Je bent ingelogd als {{email}}. Dit account heeft geen toestemming om deze bestelling te beheren.",
+      "log_in_to_a_different_account": "Meld u aan bij een ander account",
+      "fees": {
+        "restocking_fee": "Aanvulvergoeding",
+        "return_shipping_fee": "Retourverzending"
+      },
+      "vat_invoices": {
+        "title": "btw-facturen"
+      },
+      "cash_rounding": "Contant afronden",
+      "adjusted_total": "Aangepaste totaalprijs",
+      "due_on_date": "Vervaldatum {{date}}",
+      "due_on_fulfillment": "Vervaldatum bij uitvoering"
+    },
+    "addresses": {
+      "back_button_accessibility_label": "Terug naar het bewerken van adres {{address}}",
+      "add_address_banner": "Voeg adressen toe om te gebruiken bij het afrekenen",
+      "cancel_deletion_button_accessibility_label": "Annuleren van het verwijderen van {{address}}",
+      "delete_button_accessibility_label": "Verwijder {{address}}",
+      "delete_confirmation_button_accessibility_label": "Verwijder {{address}}",
+      "delete_confirmation_message": "Adres verwijderen? Bestaande bestellingen worden niet beïnvloed.",
+      "delete_confirmation_description": "Bestaande bestellingen worden niet beïnvloed.",
+      "edit_button_accessibility_label": "Bewerk {{address}}",
+      "edit_section_accessibility_label": "Bewerk {{address}}",
+      "edit_modal_title": {
+        "billing": "Bewerk factuuradres",
+        "shipping": "Adres voor verzending bewerken"
+      },
+      "loading_billing_accessibility_message": "Adres voor facturering laden",
+      "loading_shipping_accessibility_message": "Adres voor verzending laden"
+    },
+    "address_form": {
+      "attention": "Let op",
+      "attention_company": "Bedrijf/aandacht",
+      "attention_help_text": "De naam van een persoon of afdeling",
+      "cancel_accessibility_label": "Bewerken van adres {{address}} annuleren",
+      "loading_add_form_accessibility_message": "Nieuw adresformulier laden",
+      "loading_edit_form_accessibility_message": "Adresbewerkingsformulier laden",
+      "loading_form_accessibility_message": "Adresformulier laden",
+      "loading_finished_accessibility_message": "Adresformulier is geladen"
+    },
+    "account_menu": {
+      "signed_out_state": {
+        "use_email_button": "Gebruik in plaats daarvan e-mail",
+        "shop_login_button": "Aanmelden met Shop"
+      },
+      "signed_in_state": {
+        "greeting_with_name": "Hoi, {{first_name}}",
+        "greeting_without_name": "Rekening"
+      },
+      "aria_labels": {
+        "close_menu": "Sluit menu",
+        "back_to_main_menu": "Terug naar hoofdmenu van {{title}}",
+        "open_submenu": "{{title}}, submenu openen",
+        "account": "Rekening"
+      }
+    },
+    "B2B": {
+      "locations": {
+        "contact_email": "E-mail",
+        "contact_permissions": "Toestemmingen",
+        "deposit_percentage": "{{percentage}} aanbetaling",
+        "permissions_label": "Uw toestemmingen",
+        "permissions_title": "Toestemmingen",
+        "shipping_address_required": "Voeg een verzendadres toe aan deze locatie om bestellingen te plaatsen.",
+        "staff_and_permissions_title": "Personeel en toestemmingen",
+        "tax_id": "Belastingnummer",
+        "multiple_tax_exemptions": "{{taxExemptionsCount}} meer",
+        "tax_exemption_not_applicable": "N.v.t.",
+        "tax_exemptions_modal_button_accessibility_label": "Bekijk alle belastingvrijstellingen"
+      },
+      "location_selection": {
+        "description": "Als u al artikelen in uw winkelwagen heeft, kan het wijzigen van de locatie invloed hebben op de prijzen en aantallen in de winkelwagen.",
+        "list_accessibility_label": "Lijst met locaties",
+        "list_item_without_address_accessibility_label": "{{name}}: Geen adres",
+        "list_loading_accessibility_message": "Lijst met locaties laden",
+        "list_loading_address_accessibility_message": "Adres laden voor {{locationName}}",
+        "list_loading_finished_accessibility_message": "Lijst met locaties is geladen",
+        "loading_store_accessibility_message": "Naar de winkel gaan",
+        "no_location_description": "Je hebt geen toestemming meer om bestellingen te plaatsen voor {{company}}. Je kunt nog wel persoonlijke bestellingen plaatsen."
+      }
     }
   }
 }
