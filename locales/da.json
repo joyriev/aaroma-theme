@@ -693,10 +693,10 @@
         "network_card_persistence_description": "Det valgte netværk vil blive gemt sammen med din betalingsmetode til fremtidige transaktioner.",
         "amazon_payments_label": "Amazon Betaling",
         "amazon_payments_login_hint": "Du vil blive bedt om at logge ind med Amazon.",
-        "amazon_payments_logout": "Log ud fra Amazon Pay",
+        "amazon_payments_logout": "Log ud fra Amazon Betaling",
         "amazon_payments_failed_mfa_challenge": "Den valgte betalingsmetode kunne ikke bruges. Vælg en anden metode eller kontakt din bank eller kortudsteder.",
         "amazon_payments_abandoned_mfa_challenge": "Din betaling kunne ikke gennemføres. Prøv en anden betalingsmetode eller kontakt din bank eller kortudsteder.",
-        "amazon_payments_could_not_enqueue_authorize": "Der opstod et problem med behandlingen af din betaling. Prøv igen eller brug en anden betalingsmetode.",
+        "amazon_payments_could_not_enqueue_authorize": "Der opstod et problem med at behandle din betaling. Prøv igen eller brug en anden betalingsmetode.",
         "amount_left_to_pay_label": "Betaling forfalder:",
         "gift_card_code_label": "Gavekortkode",
         "apply_gift_card_button_label": "Anvend",
@@ -710,7 +710,7 @@
         "delete_customer_mandate_modal_title": "Fjern dette betalingskort?",
         "delete_customer_mandate_modal_body": "Hvis du fjerner dette kort, skal du tilføje det igen, før du kan bruge det til betalinger.",
         "delete_customer_mandate_modal_confirm": "Fjern kort",
-        "card_verification_confirm": "For verifikationsformål, indtast dit korts sikkerhedskode.",
+        "card_verification_confirm": "For bekræftelsesformål, indtast dit korts sikkerhedskode.",
         "card_expiry_date_explanation": "Kortets udløbsdato i format: måned, måned, år, år",
         "card_expiration_month_label": "Udløbs måned",
         "card_verification_value_explanation": "3-cifret sikkerhedskode, som normalt findes på bagsiden af dit kort. American Express-kort har en 4-cifret kode placeret på forsiden.",
@@ -913,7 +913,10 @@
         "pay_in_installments_split_pay_short": "4 betalinger af %{amount}",
         "gift_cards_unavailable": "Dit gavekort kan ikke længere anvendes til denne ordre og er blevet fjernet",
         "payment_flexibility_terms_id_mismatch": "Betalingsfleksibilitetsbetingelser ID-mismatch",
-        "new_bank_account_disclaimer": "Ved at fuldføre din ordre giver du %{shop_name} tilladelse til at trække beløbet på den nedenstående konto via ACH på det angivne tidspunkt."
+        "new_bank_account_disclaimer": "Ved at fuldføre din ordre giver du %{shop_name} tilladelse til at trække beløbet på den nedenstående konto via ACH på det angivne tidspunkt.",
+        "card_information_notice": "Alle transaktioner er sikre og krypterede. Oplysninger om kreditkort gemmes aldrig.",
+        "name_on_card_label": "Navn på kort",
+        "name_on_card_placeholder": "Navn på kort"
       },
       "shipping_errors": {
         "unavailable_addresses_only_countries": "Din ordre kan kun sendes til {{countriesList}}. Tilføj en ny adresse for at fortsætte.",
@@ -1694,8 +1697,8 @@
         },
         "subscription_delivery_description": {
           "free_shipping_cycles": {
-            "one": "Gratis levering for %{count} flere levering",
-            "other": "Gratis levering for %{count} flere forsendelser"
+            "one": "Gratis levering for %{count} mere levering",
+            "other": "Gratis fragt ved %{count} flere leverancer"
           },
           "free_shipping_cycles_delivery_not_included": {
             "one": "Gratis levering for %{count} forsendelse",
@@ -1706,19 +1709,19 @@
             "other": "Gratis levering for %{count} flere leverancer, derefter %{recurring_order_shipping_price}"
           },
           "first_n_order_free_with_cycle_delivery_not_included": {
-            "one": "Gratis levering for %{count} forsendelse, derefter %{recurring_order_shipping_price}",
-            "other": "Gratis levering for %{count} forsendelser, derefter %{recurring_order_shipping_price}"
+            "one": "Gratis levering for %{count} levering, derefter %{recurring_order_shipping_price}",
+            "other": "Gratis levering for %{count} leverancer, derefter %{recurring_order_shipping_price}"
           },
           "max_cycles_base_shipping": {
-            "one": "%{count} flere leveringer for %{shipping_price}",
-            "other": "%{count} flere leverancer til %{shipping_price} hver"
+            "one": "%{count} flere leverancer for %{shipping_price}",
+            "other": "%{count} flere leverancer for %{shipping_price} hver"
           },
           "max_cycles_base_shipping_delivery_not_included": {
-            "other": "%{count} flere leverancer til %{shipping_price} hver"
+            "other": "%{count} flere leverancer for %{shipping_price} hver"
           },
           "prepaid_free_shipping_with_cycles": {
-            "one": "Gratis levering for den første %{cycle}, efterfulgt af %{recurring_order_shipping_price}",
-            "other": "Gratis levering for den første %{cycle}, efterfulgt af %{recurring_order_shipping_price}"
+            "one": "Gratis fragt for den første %{cycle}, efterfulgt af %{recurring_order_shipping_price}",
+            "other": "Gratis fragt for den første %{cycle}, efterfulgt af %{recurring_order_shipping_price}"
           },
           "prepaid_order_one_cycle": {
             "one": "%{shipping_price} for %{count} flere leverancer",
@@ -1728,7 +1731,7 @@
             "other": "%{shipping_price} for %{count} leverancer (%{per_delivery_cost})"
           },
           "prepaid_order_no_cycle": {
-            "one": "%{shipping_price} for %{count} flere leverancer, efterfulgt af %{recurring_order_shipping_price}",
+            "one": "%{shipping_price} for %{count} flere leveringer, efterfulgt af %{recurring_order_shipping_price}",
             "other": "%{shipping_price} for %{count} flere leverancer (%{per_delivery_cost}), efterfulgt af %{recurring_order_shipping_price}"
           },
           "prepaid_order_no_cycle_delivery_not_included": {
@@ -1740,13 +1743,13 @@
           },
           "subscription_delivery_frequency": {
             "day": {
-              "other": "hver %{count} dag(e)"
+              "other": "hver %{count} dage"
             },
             "week": {
               "other": "hver %{count} uge(r)"
             },
             "month": {
-              "other": "hver %{count} måned"
+              "other": "hver %{count} måneder"
             },
             "year": {
               "other": "hver %{count} år"
@@ -1769,22 +1772,22 @@
         "shipping_information_redirect_link": "Indtast dine oplysninger her",
         "no_other_methods_available": "Ingen andre metoder tilgængelige",
         "duties_and_taxes_options": {
-          "ddu_caption": "Der kan forekomme yderligere gebyrer",
+          "ddu_caption": "Der kan pålægges yderligere gebyrer",
           "ddp_caption": "Ingen ekstra gebyrer ved levering"
         },
         "shipping_used_as_billing_notice": "Dette vil også blive brugt som din faktureringsadresse for denne ordre.",
-        "shipping_address_rollup_accessibility_label": "Forsendelsesadresse muligheder",
+        "shipping_address_rollup_accessibility_label": "Forsendelsesadressevalg",
         "third_party_address_timeout": "Kan ikke indlæse adresser. Prøv igen eller brug en anden adresse.",
         "third_party_address_error": "Der opstod en fejl under indlæsning af adressevalg. Indtast din adresse manuelt nedenfor.",
         "third_party_payment_timeout": "Kan ikke indlæse betalingsmetoder. Prøv igen eller brug en anden betalingsmetode.",
         "third_party_payment_error": "Der opstod en fejl under indlæsning af betalingsvalg. Brug en anden betalingsmetode.",
         "address_default": "Indstil som standard",
-        "different_shipping_method_summary": "Indtast en anden leveringsadresse for at se tilgængelige forsendelsesmetoder",
-        "invalid_shipping_method_summary": "Indtast en gyldig leveringsadresse for at se tilgængelige forsendelsesmetoder",
+        "different_shipping_method_summary": "Indtast en anden leveringsadresse for at se tilgængelige leveringsmetoder",
+        "invalid_shipping_method_summary": "Indtast en gyldig leveringsadresse for at se tilgængelige leveringsmetoder",
         "invalid_shipping_method_summary_selected": "Vælg en anden leveringsadresse for at se tilgængelige leveringsmetoder",
         "method_summary": {
-          "incomplete_address_entered": "Indtast en komplet leveringsadresse for at se tilgængelige forsendelsesmetoder",
-          "incomplete_address_selected": "Vælg en komplet leveringsadresse for at se tilgængelige forsendelsesmetoder"
+          "incomplete_address_entered": "Indtast en fuldstændig leveringsadresse for at se tilgængelige leveringsmetoder",
+          "incomplete_address_selected": "Vælg en fuldstændig leveringsadresse for at se tilgængelige leveringsmetoder"
         },
         "local_pickup": {
           "rollup_title": "Afhentningssted",
@@ -1793,11 +1796,11 @@
         "missing_shipping_address": "Forsendelsesadresse mangler",
         "pre_order_ships_later": "Sendes senere",
         "split_shipping_shipment_notice": "Din ordre vil ankomme om %{quantity_shipments}",
-        "split_shipping_first_shipment_notice": "Din første ordre vil ankomme om %{quantity_shipments}",
+        "split_shipping_first_shipment_notice": "Din første ordre vil ankomme i %{quantity_shipments}",
         "split_shipping_multiple_shipment_notice": "Din ordre vil ankomme i flere forsendelser",
         "split_shipping_multiple_shipment_notice_one_time_purchase": "Din ordre vil ankomme i %{quantity} forsendelser",
         "split_shipping_more_shipping_options": "Flere forsendelsesmuligheder",
-        "split_shipping_option_free": "Gratis shipping",
+        "split_shipping_option_free": "Gratis levering",
         "split_shipping_option_fastest": "Hurtigst",
         "split_shipping_option_recommended": "Anbefalet",
         "unbranded_description_with_fulfillment_days": {
@@ -1813,33 +1816,39 @@
           "other": "%{count} hverdage"
         },
         "estimated_delivery_date_range": "%{minimum} til %{maximum} hverdage",
-        "unbranded_description_same_day": "Afsendes samme hverdag"
+        "unbranded_description_same_day": "Afsendes samme hverdag",
+        "shipping_line_phone": "Din bud kan bruge dette nummer til at kontakte dig.",
+        "pre_order_ships_now": "Sendes nu",
+        "pre_order_ships_date": "Sendes %{date}",
+        "split_shipping_shipped_by_shop": "Sendt af %{shop_name}",
+        "split_shipping_option_custom": "Brugerdefineret"
       },
       "localized_fields": {
         "additional_information": {
-          "title": "Yderligere information",
+          "title": "Yderligere oplysninger",
           "shipping_credential_cn": "Bopæls-ID-nummer",
           "tax_credential_it": "Skatteidentifikationsnummer (valgfrit)",
           "tax_email_it": "PEC (valgfrit)",
-          "tax_credential_co": "Cédula/ Momsnummer",
-          "tax_credential_type_co": "Type ID-kort",
-          "shipping_credential_co": "Cédula/ Momsnummer",
-          "shipping_credential_type_co": "Type ID-kort",
-          "tax_credential_ec": "CVR/MOMS/IVA",
-          "shipping_credential_ec": "CVR/MOMS/IVA",
-          "tax_credential_gt": "NIT/MOMS",
-          "shipping_credential_gt": "NIT/MOMS",
-          "tax_credential_my": "TIN/Registreringsnummer",
-          "shipping_credential_my": "TIN/Registreringsnummer",
+          "tax_credential_co": "Cédula/MOMS",
+          "tax_credential_type_co": "Type Cédula",
+          "shipping_credential_co": "Cédula/MOMS",
+          "shipping_credential_type_co": "Type Cédula",
+          "tax_credential_ec": "CI/RUC/MOMS",
+          "shipping_credential_ec": "CI/RUC/MOMS",
+          "tax_credential_gt": "NIT/IVA",
+          "shipping_credential_gt": "NIT/IVA",
+          "tax_credential_my": "CVR-/Registreringsnummer",
+          "shipping_credential_my": "CVR-/Registreringsnummer",
           "tax_credential_type_mx": "Skatteordning",
           "tax_credential_use_mx": "Brug af CFDI",
-          "tax_credential_py": "CVR/MOMS/IVA",
-          "shipping_credential_py": "CVR/MOMS/IVA",
-          "tax_credential_pt": "CVR/MOMS",
-          "shipping_credential_pt": "CVR/MOMS",
-          "shipping_credential_tw": "Nationalt ID-nummer/MOMS",
-          "tax_credential_tr": "Tyrkiets Republik Identitetsnummer/MOMS",
-          "shipping_credential_tr": "Tyrkiets Republik Identitetsnummer/MOMS"
+          "tax_credential_py": "CI/RUC/MOMS",
+          "shipping_credential_py": "CI/RUC/MOMS",
+          "tax_credential_pt": "NIF/MOMS",
+          "shipping_credential_pt": "NIF/MOMS",
+          "shipping_credential_tw": "Nationalt ID-nummer/Momsnummer",
+          "tax_credential_tr": "Republikken Tyrkiets Identitetsnummer/Moms",
+          "shipping_credential_tr": "Republikken Tyrkiets Identitetsnummer/Moms",
+          "shipping_credential_kr": "Personligt toldkode"
         }
       },
       "field_errors": {
