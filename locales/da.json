@@ -2772,11 +2772,11 @@
         "shipping_address_invalid": "Der opstod et problem med at beregne dine forsendelsespriser. Fortsæt til kassen for at vælge en forsendelsespris, inden du fuldfører din bestilling.",
         "bundle_requires_components": "Sammensatte produkt '%{name}' kan ikke tilføjes til kurven.",
         "gift_card_with_components_not_supported": "Sammensatte produkt '%{name}' kan ikke tilføjes til kurven.",
-        "gift_card_price_must_be_greater_than_zero": "Sammensat produktet '%{name}' kan ikke lægges i kurven.",
+        "gift_card_price_must_be_greater_than_zero": "Sammensatte produkt '%{name}' kan ikke tilføjes til kurven.",
         "gift_card_recipient_validation_error": "Den angivne gavekortmodtager er ugyldig",
         "view_lines_limit_reached": "Linjer må være mindre end eller lig med %{limit}",
-        "cart_too_large": "Kurv er for stor.",
-        "cart_attributes_error": "Kurv attributter indeholder ugyldige data.",
+        "cart_too_large": "Kurven er for stor.",
+        "cart_attributes_error": "Indkøbsvognens egenskaber indeholder ugyldige data.",
         "merchandise_line_transformers": {
           "run_error": "Der opstod en fejl i din indkøbskurv."
         },
@@ -2786,10 +2786,10 @@
         "invalid_password": "Adgangskode forkert, prøv venligst igen."
       },
       "tags": {
-        "add_articles": "Indsnævr søgning til artikler, der også har mærket %{tag}",
-        "add_products": "Indsnævr udvalget til produkter, der matcher mærket %{tag}",
-        "remove_articles": "Udvid søgningen til artikler, der ikke er mærket %{tag}",
-        "remove_products": "Fjern mærke %{tag}"
+        "add_articles": "Indsnævr søgning til artikler, der også har tag %{tag}",
+        "add_products": "Indsnævr udvalget til produkter, der matcher tag %{tag}",
+        "remove_articles": "Udvid søgningen til artikler, der ikke er tagget %{tag}",
+        "remove_products": "Fjern tag %{tag}"
       }
     },
     "email_marketing": {
@@ -2798,25 +2798,25 @@
         "unsubscribe": "Afmeld abonnement"
       },
       "unsubscribed": {
-        "confirmation": "Du er afmeldt vores mailingliste.",
-        "preview": "Du forhåndsviser, hvad kunderne vil se, når de afmelder sig."
+        "confirmation": "Du er afmeldt vores postliste.",
+        "preview": "Du ser en forhåndsvisning af, hvad kunderne vil se, når de afmelder sig."
       },
       "open_tracking": {
         "opt_in": {
-          "opted_in_html": "<b>Du har tilmeldt dig e-mail åbningssporing.</b>",
+          "opted_in_html": "<b>Du har tilmeldt dig sporing af åbning af e-mails.</b>",
           "visibility": "Åbningsrater for e-mails vil blive rapporteret anonymt. Vi vil kun kunne se, om du har åbnet en e-mail som en del af en samlet åbningsrate for e-mails.",
           "opt_out_html": "Du kan <a style='text-decoration:underline;' href='%{link}'>fravælge</a> sporing af åbning af e-mails, hvis du ikke ønsker at dele disse oplysninger.",
-          "preview_bar": "Du forhåndsviser, hvad kunderne vil se, når de vælger at tilmelde sig e-mail-åbningssporing."
+          "preview_bar": "Du ser en forhåndsvisning af, hvad kunderne vil se, når de tilvælger sporing af åbning af e-mails."
         },
         "opt_out": {
-          "opted_out_html": "<b>Du har fravalgt e-mail åbningsovervågning.</b>",
-          "visibility": "Vi vil ikke kunne se, om du har åbnet vores e-mails.",
-          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Tilmeld dig</a> til sporing af åbning af e-mails.",
-          "preview_bar": "Du forhåndsviser, hvad kunderne vil se, når de fravælger e-mail-åbningssporing."
+          "opted_out_html": "<b>Du har fravalgt sporing af åbning af e-mails.</b>",
+          "visibility": "Vi kan ikke se, om du har åbnet vores e-mails.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Tilmeld dig</a> e-mail-åbningssporing.",
+          "preview_bar": "Du ser en forhåndsvisning af, hvad kunderne vil se, når de fravælger sporing af åbning af e-mails."
         },
         "no_longer_track": {
-          "status_html": "<b>Vi sporer ikke længere nogen e-mail-åbninger.</b>",
-          "privacy_policy": "Efter denne e-mail blev sendt, opdaterede vi vores privatlivspolitik, og vi sporer ikke længere åbninger."
+          "status_html": "<b>Vi sporer ikke længere nogen åbning af e-mails.</b>",
+          "privacy_policy": "Efter denne e-mail blev sendt, opdaterede vi vores privatlivspolitik, og vi registrerer ikke længere åbninger."
         },
         "track": {
           "status_html": "<b>Åbning af e-mail spores.</b>",
@@ -2824,9 +2824,13 @@
         },
         "updated_policy": {
           "status_html": "<b>Åbning af e-mail spores.</b>",
-          "visibility": "Vi har opdateret vores politik og sporer nu åbning af e-mails. Åbningsrater for e-mails vil blive rapporteret anonymt. Vi vil kun kunne se, om du har åbnet en e-mail som en del af den samlede åbningsrate for e-mails.",
-          "opt_out_html": "Hvis du ikke ønsker at dele disse oplysninger, kan du <a style='text-decoration:underline;' href='%{link}'>framelde dig.</a>"
+          "visibility": "Vi har opdateret vores politik og registrerer nu åbning af e-mails. Åbningsrater for e-mails vil blive rapporteret anonymt. Vi vil kun kunne se, om du har åbnet en e-mail som en del af den samlede åbningsrate for e-mails.",
+          "opt_out_html": "Hvis du ikke ønsker at dele disse oplysninger, kan du <a style='text-decoration:underline;' href='%{link}'>afmelde dig.</a>"
         }
+      },
+      "sms_unsubscribe_confirm": {
+        "message": "Er du sikker på, at du vil afmelde dig SMS-markedsføring?",
+        "button": "Afmeld abonnement"
       }
     },
     "filters": {
@@ -2843,7 +2847,7 @@
       "blog_or_article_with_error": "Fejl - %{title}",
       "shopping_cart": "Din Indkøbskurv",
       "order": "Bestil %{name}",
-      "search": "Søgning"
+      "search": "Søg"
     },
     "challenge": {
       "message": "For at fortsætte, lad os vide, at du ikke er en robot.",
@@ -2854,8 +2858,8 @@
       "error": "Captcha-validering mislykkedes"
     },
     "subscriptions": {
-      "buyer_consent_product": "Denne vare er et tilbagevendende eller udsat køb. Ved at fortsætte accepterer jeg %{cancellationPolicyLink} og giver dig tilladelse til at opkræve min betalingsmetode til de priser, hyppighed og datoer, der er angivet på denne side, indtil min ordre er opfyldt eller jeg annullerer, hvis det er tilladt.",
-      "buyer_consent_cart": "En eller flere af varerne i din kurv er et tilbagevendende eller udsat køb. Ved at fortsætte accepterer jeg %{cancellationPolicyLink} og giver dig tilladelse til at opkræve min betalingsmetode til de priser, hyppighed og datoer, der er angivet på denne side, indtil min ordre er opfyldt eller jeg annullerer, hvis det er tilladt.",
+      "buyer_consent_product": "Denne vare er et tilbagevendende eller udskudt køb. Ved at fortsætte accepterer jeg %{cancellationPolicyLink} og giver dig tilladelse til at opkræve min betalingsmetode til de priser, hyppighed og datoer, der er angivet på denne side, indtil min ordre er opfyldt eller jeg annullerer, hvis det er tilladt.",
+      "buyer_consent_cart": "En eller flere af varerne i din kurv er et tilbagevendende eller udskudt køb. Ved at fortsætte accepterer jeg %{cancellationPolicyLink} og giver dig tilladelse til at opkræve min betalingsmetode til de priser, hyppighed og datoer, der er angivet på denne side, indtil min ordre er opfyldt eller jeg annullerer, hvis det er tilladt.",
       "cancellation_policy": "afbestillingspolitik"
     }
   },
@@ -2866,7 +2870,7 @@
         "description": "Indtast koden sendt til {{email}}",
         "one_time_password_label": "6-cifret kode",
         "email_resend_button": "Send koden igen",
-        "email_resend_button_accessibility_label": "Send bekræftelseskode igen",
+        "email_resend_button_accessibility_label": "Send bekræftelseskoden igen",
         "verify_button": "Bekræft",
         "verify_button_accessibility_label": "Bekræft engangskode",
         "cancel_button": "Annuller",
@@ -2876,28 +2880,28 @@
       },
       "email_update_success_modal": {
         "title": "Bekræft e-mail",
-        "description": "E-mail opdateret succesfuldt. Omdirigerer til login."
+        "description": "E-mail opdateret med succes. Omdirigerer til login."
       },
       "profile_card": {
         "invalid_email_format": "Indtast en gyldig e-mail",
         "email_help_text": "E-mail kan ikke redigeres",
-        "editable_email_help_text": "Denne e-mail bruges til login og opdateringer om ordrer.",
+        "editable_email_help_text": "Denne e-mail bruges til indlogning og opdateringer om ordrer.",
         "email": "E-mail",
         "errors": {
-          "name_too_long": "{{fieldName}} er for langt (maksimum er 255 tegn)",
+          "name_too_long": "{{fieldName}} er for lang (maksimum er 255 tegn)",
           "name_cannot_contain_url": "{{fieldName}} må ikke indeholde en URL",
-          "name_cannot_contain_html_tags": "{{fieldName}} må ikke indeholde HTML-koder",
-          "email_cant_be_blank": "E-mail kan ikke være tom",
+          "name_cannot_contain_html_tags": "{{fieldName}} må ikke indeholde HTML-tags",
+          "email_cant_be_blank": "E-mail må ikke være tom",
           "invalid_email_format": "Indtast en gyldig e-mailadresse"
         }
       },
-      "loading_accessibility_message": "Indlæser kontoinformation",
-      "loading_finished_accessibility_message": "Kontooplysninger er indlæst",
+      "loading_accessibility_message": "Indlæser kontooplysninger",
+      "loading_finished_accessibility_message": "Kontoinformation er indlæst",
       "profile_update_confirmation_message": "Profil opdateret",
       "email_update_confirmation_message": "E-mail opdateret til {{email}}",
       "people": {
         "pagination": {
-          "load_more": "Indlæs mere"
+          "load_more": "Indlæs flere"
         }
       }
     },
@@ -2909,22 +2913,25 @@
         "close_menu_accessibility_label": "Luk kontonavigation",
         "loading_message": "Indlæser kontonavigation"
       },
-      "contact_email_subject": "Kontakt fra {{shopName}} netbutik",
+      "contact_email_subject": "Kontakt fra {{shopName}} onlinebutik",
       "document_title": "{{sectionName}} - {{shopName}} - Konto",
       "logout_overlay_label": "Logger ud...",
       "shop_logo_accessibility_label": "{{shopName}} logo",
-      "settings_link": "Indfatninger",
-      "location_switcher_toast_message": "Placering skiftet til {{locationName}}",
+      "settings_link": "Indstillinger",
+      "location_switcher_toast_message": "Lokation skiftet til {{locationName}}",
       "switch_location": "Skift placering",
-      "no_locations_found": "Ingen lokationer fundet",
-      "company_location": "Virksomhedens placering",
-      "search": "Søgning",
-      "skip_to_content": "Spring til indholdet"
+      "no_locations_found": "Ingen steder fundet",
+      "company_location": "Virksomhedens beliggenhed",
+      "search": "Søg",
+      "skip_to_content": "Spring til indhold",
+      "contact_link": "Kontaktoplysninger",
+      "dismiss_toast": "Luk",
+      "policy_load_error": "Kunne ikke indlæse {{policyName}}"
     },
     "announcement_bar": {
-      "expand_label": "Udvid meddelelseslinje",
-      "collapse_label": "Skjul meddelelseslinje",
-      "close_label": "Luk meddelelseslinje"
+      "expand_label": "Udvid meddelelsesbjælken",
+      "collapse_label": "Skjul meddelelsesbjælken",
+      "close_label": "Luk meddelelsesbjælken"
     },
     "payment_methods": {
       "update_payment_method": {
@@ -3117,34 +3124,34 @@
       "list_layout_accessibility_label": "Layoutmuligheder",
       "list_title_confirmed_orders_accessibility_label": "Ordrer: bekræftet",
       "list_title_pending_orders_accessibility_label": "Ordrer: afventende",
-      "switch_order_type_pending_orders_accessibility_label": "Skift ordrestype, viser i øjeblikket ventende ordrer",
-      "switch_order_type_confirmed_orders_accessibility_label": "Skift ordrestype, viser i øjeblikket bekræftede ordrer",
+      "switch_order_type_pending_orders_accessibility_label": "Skift ordretype, viser i øjeblikket ventende ordrer",
+      "switch_order_type_confirmed_orders_accessibility_label": "Skift ordretype, viser i øjeblikket bekræftede ordrer",
       "order_list": {
         "delivered": "Leveret {{date}}",
-        "empty_state_order_source_description": "Kun ordrer afgivet af {{email}} vil blive vist her.",
+        "empty_state_order_source_description": "Kun ordrer afgivet af {{email}} vises her.",
         "empty_state_title_for_pending_orders": "Ingen ventende ordrer",
         "no_order_banner": "For at teste din udvidelse på siden for ordrestatus, opret en ordre.",
         "estimated_shortform": "Etableret {{date}}",
-        "one_images_accessibility_label": "Bestillingen indeholder {{lineItemName1}}",
-        "two_images_accessibility_label": "Bestillingen indeholder {{lineItemName1}}, {{lineItemName2}}",
-        "three_images_accessibility_label": "Bestillingen indeholder {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}",
-        "four_images_accessibility_label": "Bestillingen indeholder {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}, {{lineItemName4}}",
-        "more_than_three_products_accessibility_label": "Bestillingen indeholder {{lineItemName1}}, {{lineItemName2}} og {{numberOfAdditionalProducts}} flere produkter",
-        "more_than_four_products_accessibility_label": "Bestillingen indeholder {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}} og {{numberOfAdditionalProducts}} flere produkter",
+        "one_images_accessibility_label": "Ordren inkluderer {{lineItemName1}}",
+        "two_images_accessibility_label": "Ordren inkluderer {{lineItemName1}}, {{lineItemName2}}",
+        "three_images_accessibility_label": "Ordren inkluderer {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}",
+        "four_images_accessibility_label": "Bestillingen inkluderer {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}, {{lineItemName4}}",
+        "more_than_three_products_accessibility_label": "Ordren indeholder {{lineItemName1}}, {{lineItemName2}} og {{numberOfAdditionalProducts}} flere produkter",
+        "more_than_four_products_accessibility_label": "Bestillingen inkluderer {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}} og {{numberOfAdditionalProducts}} flere produkter",
         "carousel": {
-          "one_products_accessibility_label": "Bestillingen indeholder {{lineItemName1}} antal {{lineItemQuantity1}}",
-          "two_products_accessibility_label": "Bestillingen indeholder {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}",
-          "three_products_accessibility_label": "Ordren indeholder {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}, {{lineItemName3}} antal {{lineItemQuantity3}}",
-          "four_products_accessibility_label": "Bestillingen indeholder {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}, {{lineItemName3}} antal {{lineItemQuantity3}}, {{lineItemName4}} antal {{lineItemQuantity4}}",
-          "five_products_accessibility_label": "Bestillingen indeholder {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}, {{lineItemName3}} antal {{lineItemQuantity3}}, {{lineItemName4}} antal {{lineItemQuantity4}}, {{lineItemName5}} antal {{lineItemQuantity5}}",
-          "six_products_accessibility_label": "Bestillingen indeholder {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}, {{lineItemName3}} antal {{lineItemQuantity3}}, {{lineItemName4}} antal {{lineItemQuantity4}}, {{lineItemName5}} antal {{lineItemQuantity5}}, {{lineItemName6}} antal {{lineItemQuantity6}}",
-          "six_and_more_products_accessibility_label": "Bestillingen indeholder {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}, {{lineItemName3}} antal {{lineItemQuantity3}}, {{lineItemName4}} antal {{lineItemQuantity4}}, {{lineItemName5}} antal {{lineItemQuantity5}}, {{lineItemName6}} antal {{lineItemQuantity6}} og mere",
+          "one_products_accessibility_label": "Ordren inkluderer {{lineItemName1}} antal {{lineItemQuantity1}}",
+          "two_products_accessibility_label": "Bestillingen inkluderer {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}",
+          "three_products_accessibility_label": "Bestillingen inkluderer {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}, {{lineItemName3}} antal {{lineItemQuantity3}}",
+          "four_products_accessibility_label": "Bestillingen inkluderer {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}, {{lineItemName3}} antal {{lineItemQuantity3}}, {{lineItemName4}} antal {{lineItemQuantity4}}",
+          "five_products_accessibility_label": "Bestillingen inkluderer {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}, {{lineItemName3}} antal {{lineItemQuantity3}}, {{lineItemName4}} antal {{lineItemQuantity4}}, {{lineItemName5}} antal {{lineItemQuantity5}}",
+          "six_products_accessibility_label": "Bestillingen inkluderer {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}, {{lineItemName3}} antal {{lineItemQuantity3}}, {{lineItemName4}} antal {{lineItemQuantity4}}, {{lineItemName5}} antal {{lineItemQuantity5}}, {{lineItemName6}} antal {{lineItemQuantity6}}",
+          "six_and_more_products_accessibility_label": "Bestillingen inkluderer {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}, {{lineItemName3}} antal {{lineItemQuantity3}}, {{lineItemName4}} antal {{lineItemQuantity4}}, {{lineItemName5}} antal {{lineItemQuantity5}}, {{lineItemName6}} antal {{lineItemQuantity6}} og mere",
           "view_order_details": "Se ordredetaljer"
         },
         "order_number": "Bestil {{name}}",
         "pagination": {
           "previous_accessibility_label": "Tidligere ordrer",
-          "load_more": "Indlæs mere"
+          "load_more": "Indlæs flere"
         },
         "order_status_message": {
           "list_view": {
@@ -3161,63 +3168,73 @@
             "due": "Betaling forfalder {{date}}",
             "due_without_date": "Betaling forfalder",
             "due_on_fulfillment": "Betaling forfalder ved opfyldelse",
-            "payment_not_due": "Betaling ikke forfalden endnu"
+            "payment_not_due": "Betaling endnu ikke forfalden"
           },
           "list_view": {
-            "due": "Forfalden {{date}}",
-            "due_on_fulfillment": "Forfald ved opfyldelse"
+            "due": "Forfalder {{date}}",
+            "due_on_fulfillment": "Forfalder ved opfyldelse",
+            "payment_not_due": "Endnu ikke forfalden"
           }
         },
         "sort_by": "Sorter efter: {{option}}",
         "sort_hide_options_accessibility_label": "Skjul sorteringsmuligheder for bekræftede ordrer.",
         "sort_show_options_accessibility_label": "Vis sorteringsmuligheder for bekræftede ordrer.",
         "sort_currently_sorted_by_accessibility_label": "Sorteret efter: {{option}}",
-        "sort_title": "Sorteret",
+        "sort_title": "Sortér",
         "sort": {
           "date": {
             "newest": "Nyeste til ældste",
-            "oldest": "Ældste til nyeste"
+            "oldest": "Ældst til nyest"
           },
           "location": {
             "ascending": "Placering (A-Å)",
             "descending": "Placering (Z-A)"
           },
           "order_total": {
-            "ascending": "Ordre total (lav til høj)",
+            "ascending": "Samlet ordrebeløb (lav til høj)",
             "descending": "Ordre total (høj til lav)"
+          },
+          "order_number": {
+            "ascending": "Ordrenummer (stigende)"
           }
         },
         "location_filter_picker": {
-          "current_location": "Nuværende placering"
+          "current_location": "Nuværende placering",
+          "all_location": "Alle steder"
         },
-        "filter_title": "Filter",
+        "filter_title": "Filtrer",
         "filter": {
-          "clear_all": "Ryd alle",
+          "clear_all": "Ryd alt",
           "apply": "Anvend",
           "date": {
             "title": "Bestillingsdato",
             "last_7_days": "Sidste 7 dage",
             "last_30_days": "Sidste 30 dage",
             "last_90_days": "Sidste 90 dage",
-            "last_365_days": "Sidste 12 måneder"
+            "last_365_days": "Sidste 12 måneder",
+            "custom": "Brugerdefineret"
           }
         },
         "show_order_actions_accessibility_label": "Vis ordrehandlinger for ordre {{name}}",
-        "view_order_accessibility_label": "Se ordre {{orderName}}"
+        "view_order_accessibility_label": "Se ordre {{orderName}}",
+        "column_headers": {
+          "order": "Bestil"
+        },
+        "empty_state_subtitle": "Gå til butikken for at afgive en bestilling."
       },
       "order_status": {
-        "preparing_for_shipping_label": "Forbereder til forsendelse",
-        "ready_for_pickup_description": "Disse varer er klar til afhentning. Venligst medbring din ordrebekræftelse, når du henter din ordre.",
+        "preparing_for_shipping_label": "Forberedelse til forsendelse",
+        "ready_for_pickup_description": "Disse varer er klar til afhentning. Medbring venligst din ordrebekræftelse, når du henter din ordre.",
         "ready_for_pickup_location": "Din ordre er klar til afhentning på stedet",
-        "picked_up_label": "Hentet op",
-        "come_back": "Kom tilbage til denne side for opdateringer om status på din forsendelse.",
+        "picked_up_label": "Hentet",
+        "come_back": "Kom tilbage til denne side for opdateringer om din forsendelses status.",
         "company_tracking_number": "{{company}} sporingsnummer:",
         "confirmed_description_pickup": "Du vil modtage en e-mail, når din ordre er klar til afhentning.",
         "confirmed_description_digital": "Du vil modtage en e-mail, når din ordre er klar.",
         "confirmed_description_gift_card_text": "Du vil modtage en sms, når din ordre er klar.",
-        "complete_label": "Fuldstændig",
+        "complete_label": "Færdig",
         "delivered_description_gift_card": {
-          "one": "Gavekort blev sendt via e-mail.",
+          "one": "Gavekortet blev sendt via e-mail.",
           "other": "Gavekort blev sendt via e-mail."
         },
         "delivered_description_gift_card_text": {
@@ -3225,32 +3242,32 @@
           "other": "Gavekort blev sendt via sms."
         },
         "gift_resend_success": {
-          "one": "Gavekort gensendt",
-          "other": "Gavekort gensendt"
+          "one": "Gavekort sendt igen",
+          "other": "Gavekort sendt igen"
         },
         "gift_resend_failure": {
           "one": "Der opstod et problem med at gensende dit gavekort. Prøv igen eller kontakt os.",
           "other": "Der opstod et problem med at gensende dine gavekort. Prøv igen eller kontakt os."
         },
         "confirmed_gift_card_additional_description": {
-          "one": "Gavekort vil blive sendt i en separat e-mail.",
+          "one": "Gavekortet vil blive sendt i en separat e-mail.",
           "other": "Hvert gavekort vil blive sendt i en separat e-mail."
         },
         "confirmed_gift_card_additional_description_text": {
-          "one": "Gavekort vil blive sendt i en separat tekst.",
+          "one": "Gavekortet vil blive sendt i en separat besked.",
           "other": "Hvert gavekort vil blive sendt i en separat tekst."
         },
-        "expected_by": "Forventes den {{date}}",
-        "was_expected_by": "Forventet inden {{date}}",
+        "expected_by": "Forventet inden {{date}}",
+        "was_expected_by": "Forventet den {{date}}",
         "buy_with_prime_logo_accessibility_label": "Amazon Køb med Prime-logo",
-        "in_review_title": "Din ordre er under gennemgang",
+        "in_review_title": "Din ordre gennemgås",
         "last_updated": "Sidst opdateret {{date}}",
         "no_tracking_number": "Der er intet sporingsnummer for denne forsendelse.",
         "tracking_number": {
           "one": "Sporingsnummer",
           "other": "Sporingsnumre"
         },
-        "out_for_delivery_label": "Udleveres",
+        "out_for_delivery_label": "Ude til levering",
         "submitted_label": "Indsendt",
         "submitted_description": "Gennemse ordre- og betalingsoplysninger.",
         "view_order_for_details": "Se ordre for detaljer",
@@ -3261,21 +3278,23 @@
             "not_delivered_by_label": "Leveret efter {{date}}",
             "delivery_guarantee_expired_label": "Leveringsgaranti udløbet",
             "modal_accessibility_button_label": "Detaljer om leveringsløfte",
-            "track_with_shop_button_label": "Spor med Shop",
-            "claim_shop_cash_button_label": "Krav Shoppen Kontanter"
+            "track_with_shop_button_label": "Spor med Butik",
+            "claim_shop_cash_button_label": "Indløs Butikspenge",
+            "download_shop_app_button_label": "Download butik til sporing"
           },
           "details_modal": {
             "title": "Leveringsgaranti",
             "active_delivery_guarantee_label": "Levering inden {{date}}",
-            "order_includes_guarantees_label": "Din ordre indeholder {{deliveryAgreementsCount}} garantier",
+            "order_includes_guarantees_label": "Din ordre inkluderer {{deliveryAgreementsCount}} garantier",
             "order_includes_guarantees_description": "Shop Promise garanterer hurtig og pålidelig levering. Kræv Shop Cash, hvis din ordre ankommer efter {{date}}.",
             "delivered_after_label": "Leveret efter {{date}}",
-            "delivered_after_description": "Fordi din ordre ankom sent, er du berettiget til at kræve {{amount}} Butikskredit.",
-            "claimed_shop_cash_description": "Fordi denne ordre ankom sent, har du krævet {{amount}} Butikskredit.",
+            "delivered_after_description": "Fordi din ordre ankom sent, er du berettiget til at få {{amount}} Shop Cash.",
+            "claimed_shop_cash_description": "Fordi denne ordre ankom sent, har du krævet {{amount}} Shop Cash.",
             "eligible_to_claim_shop_cash_description": "Fordi din ordre ankom sent, er du berettiget til at kræve {{amount}} Butikskredit.",
             "learn_more_button_label": "Lær mere",
             "claim_shop_cash_button_label": "Krav Shoppen Kontanter",
-            "scan_to_claim_shop_cash_label": "Scan for at gøre krav på {{amount}} Butikskredit"
+            "scan_to_claim_shop_cash_label": "Scan for at gøre krav på {{amount}} Butikskredit",
+            "expired_delivery_guarantee_description": "Denne ordres 30-dages Butiksgaranti er udløbet."
           }
         },
         "delivery_promise": {
@@ -3306,7 +3325,8 @@
               "claim_shop_cash_title": "Scan for at få {{amount}} i Butikskredit"
             }
           }
-        }
+        },
+        "resume_tracking": "Fortsæt sporing"
       },
       "status_mark_as_delivered": "Marker som leveret",
       "fulfillment_status_title": "Opfyldelsesstatus: {{status}}",
@@ -3827,6 +3847,13 @@
         "invalid": {
           "invalid_email": "Indtast en gyldig e-mailadresse",
           "invalid_code": "Indtast den korrekte 6-cifrede kode"
+        }
+      }
+    },
+    "date": {
+      "humanize": {
+        "lessThanOneHourAgo": {
+          "other": "for {{count}} minutter siden"
         }
       }
     }
