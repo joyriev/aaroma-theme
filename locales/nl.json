@@ -2571,7 +2571,26 @@
               "mt": "Voer een geldig Maltees btw-nummer in",
               "nl": "Voer een geldig Nederlands btw-nummer in",
               "pl": "Voer een geldig Pools btw-nummer in",
-              "pt": "Voer een geldig Portugees btw-nummer in"
+              "pt": "Voer een geldig Portugees btw-nummer in",
+              "ro": "Voer een geldig Roemeens btw-nummer in",
+              "sk": "Voer een geldig Slowaaks btw-nummer in",
+              "si": "Voer een geldig Sloveens btw-nummer in",
+              "es": "Voer een geldig Spaans btw-nummer in",
+              "se": "Voer een geldig Zweeds btw-nummer in",
+              "gb": "Voer een geldig btw-nummer van het Verenigd Koninkrijk in"
+            },
+            "service_unavailable": "Validatiedienst niet beschikbaar",
+            "service_error": "Validatiedienst niet beschikbaar"
+          },
+          "accessibility": {
+            "status": {
+              "validating": "De validatie van het btw-nummer is bezig",
+              "valid": "BTW-nummer is geldig",
+              "applied": "BTW-vrijstelling is toegepast",
+              "domestic": "BTW-vrijstelling niet toegepast",
+              "invalid_number": "BTW-vrijstelling mislukt",
+              "service_unavailable": "Niet in staat om btw-vrijstelling te verifiëren",
+              "service_error": "Niet in staat om btw-vrijstelling te verifiëren"
             }
           }
         }
@@ -2580,6 +2599,141 @@
     "sentence": {
       "two_words_connector": "en",
       "last_word_connector": ", en"
+    },
+    "links": {
+      "powered_by_shopify": "Aangedreven door Shopify"
+    },
+    "attributes": {
+      "password_confirmation": "De wachtwoordbevestiging",
+      "body": "lichaam"
+    },
+    "addresses": {
+      "pincode": "Pincode",
+      "state_and_territory": "Staat/gebied",
+      "county": "Graafschap",
+      "confirm": "Weet u zeker dat u dit adres wilt verwijderen?"
+    },
+    "collections": {
+      "sorting": {
+        "best_selling": "Bestverkocht",
+        "az": "Alfabetisch, A-Z",
+        "za": "Alfabetisch, Z-A",
+        "price_ascending": "Prijs, van laag naar hoog",
+        "price_descending": "Prijs, van hoog naar laag",
+        "date_ascending": "Datum, oud naar nieuw",
+        "date_descending": "Datum, nieuw naar oud"
+      }
+    },
+    "errors": {
+      "blank": "mag niet leeg zijn",
+      "credit_card_session_expired": "De machtiging voor de creditcard is verlopen, voer alstublieft opnieuw uw betaalgegevens in. Uw kaart is niet belast.",
+      "empty": "mag niet leeg zijn",
+      "discount_disabled": "Deze korting is uitgeschakeld",
+      "discount_limit_reached": "Deze korting heeft zijn gebruikslimiet bereikt",
+      "discount_not_found": "Kan geen geldige korting vinden die overeenkomt met de ingevoerde code",
+      "customer_already_used_once_per_customer_discount_notice": "Deze korting heeft zijn gebruikslimiet bereikt",
+      "gift_card_already_applied": "De code is al toegepast op uw afrekenproces",
+      "gift_card_currency_mismatch": "Je cadeaubon is in %{gift_card_currency}. Neem contact met ons op om deze opnieuw uit te geven in %{checkout_currency}.",
+      "gift_card_disabled": "Cadeaubon is uitgeschakeld",
+      "taken": "is al in gebruik genomen",
+      "contains_html_tags": "mag geen HTML-tags bevatten",
+      "too_short": "is te kort (minimaal %{count} tekens)",
+      "too_long": "is te lang (maximaal %{count} tekens)",
+      "password_mismatch": "moet overeenkomen met het opgegeven wachtwoord",
+      "less_than_or_equal_to": "moet minder dan of gelijk zijn aan %{count}",
+      "full_name_required": "Voer een voornaam en achternaam in",
+      "invalid_for_card_type": "is niet geldig",
+      "invalid_type": "sorry, we accepteren geen kaarten van dit type",
+      "invalid_format": "indeling is niet geldig",
+      "invalid_start_date_or_issue_number_for_debit": "een geldige begindatum of uitgiftenummer is vereist",
+      "reset_password_html": "Dit e-mailadres is al gekoppeld aan een account. Als dit account van u is, kunt u <a href=\"/account/login#recover\">uw wachtwoord opnieuw instellen</a>",
+      "verify_email": "We hebben een e-mail gestuurd naar %{customer_email}, klik alstublieft op de bijgevoegde link om uw e-mailadres te verifiëren.",
+      "shop_404": {
+        "title": "Maak een webwinkel en verkoop online! Webwinkelsoftware van Shopify",
+        "heros": {
+          "store_unavailable": "Sorry, deze winkel is momenteel niet beschikbaar."
+        },
+        "links": {
+          "explore_other_stores": "Ontdek andere winkels",
+          "start_free_trial": "Begin een gratis proefperiode"
+        },
+        "owner_ctas": {
+          "header": "Bent u de winkelier?",
+          "fix_domain": "Rond het instellen van je nieuwe webadres af via %{domain_settings_link}. Klik op “Domein verbinden” en voer in: %{domain}.<br>Als je problemen hebt met inloggen in je winkel, probeer dan de pagina %{forgot_your_store_link}.",
+          "forgot_your_store_link_text": "je winkel vergeten",
+          "add_storefront": "Je kunt je website instellen door het kanaal Online Winkel toe te voegen in je %{admin_link}. Als je problemen hebt met het openen van je winkel, probeer dan de pagina %{forgot_your_store_link}.",
+          "admin_link_text": "beheerder"
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "Verkoop persoonlijk",
+            "caption": "Krijg de functies die u nodig hebt om uw winkel te runnen, of u nu net begint of wilt uitbreiden.",
+            "link_text": "Begin gratis proefperiode"
+          },
+          "open_a_store": {
+            "header": "Open een nieuwe Shopify-winkel",
+            "caption": "Begin een gratis proefperiode van 3 dagen, daarna gaat u door voor $1/maand gedurende de volgende 3 maanden.",
+            "link_text": "Meld u nu aan"
+          },
+          "editions": {
+            "header": "Bekijk Shopify-edities",
+            "caption": "Met meer dan 100 productverbeteringen kunt u productiever en creatiever zijn, en krachtiger in de handel dan u ooit had gedacht.",
+            "link_text": "Ontdek de nieuwste uitgaven"
+          },
+          "store_owner": {
+            "header": "Bent u de winkelier?",
+            "caption": "Heb je moeite om in je winkel te komen? Probeer de functie %{forgot_your_store_link}. Als je je winkel wilt heractiveren, neem dan contact op met %{shopify_support_link}.",
+            "shopify_support_link_text": "Shopify-ondersteuning"
+          }
+        }
+      }
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "Fout bij het opnieuw instellen van het wachtwoord",
+        "subscribe_error": "Fout bij inschrijving",
+        "unsubscribe_error": "Fout bij uitschrijven",
+        "no_account_found": "Er is geen account gevonden met dat e-mailadres.",
+        "invalid_credentials": "Onjuist e-mailadres of wachtwoord.",
+        "denylisted_reset_password": "Uw account kon niet worden geopend omdat het huidige wachtwoord niet veilig is. U ontvangt een e-mail om uw wachtwoord bij te werken.",
+        "signup_disabled": "Het aanmaken van een klantaccount is uitgeschakeld."
+      },
+      "address": {
+        "updated": "Adres succesvol bijgewerkt.",
+        "error_updating": "Fout bij het bijwerken van het adres",
+        "created": "Adres succesvol aangemaakt",
+        "error_creating": "Fout bij het aanmaken van het adres.",
+        "deleted": "Adres succesvol verwijderd",
+        "error_deleting": "Fout bij het verwijderen van het adres."
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "Toegevoegd %{delta}",
+          "increment_item": "Toegevoegd %{delta}",
+          "decrement_item": "Verwijderd %{delta} van %{total}",
+          "decrement_fulfilled_line_item": "Teruggegeven %{delta} van %{total}"
+        }
+      },
+      "order": {
+        "financial_status": {
+          "authorized": "Geautoriseerd",
+          "voided": "Geannuleerd"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Uitgevoerd",
+          "complete": "Voltooid",
+          "unfulfilled": "Niet vervuld",
+          "restocked": "Opnieuw op voorraad"
+        },
+        "transaction_status": {
+          "success": "Succes",
+          "failure": "Mislukking"
+        },
+        "cancel_reason": {
+          "customer": "Klant heeft bestelling gewijzigd/geannuleerd",
+          "staff": "Personeelsfout"
+        }
+      }
     }
   },
   "customer_accounts": {
