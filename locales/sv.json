@@ -10,14 +10,14 @@
 {
   "general": {
     "password_page": {
-      "login_form_heading": "Ange butik med lösenord:",
+      "login_form_heading": "Ange lösenord för att gå in i butiken:",
       "login_password_button": "Ange med lösenord",
       "login_form_password_label": "Lösenord",
       "login_form_password_placeholder": "Ditt lösenord",
       "login_form_error": "Fel lösenord!",
       "login_form_submit": "Ange",
-      "admin_link_html": "Är du butiksägaren? <a href=\"/admin\" class=\"link underlined-link\">Logga in här</a>",
-      "powered_by_shopify_html": "Denna butik drivs av {{ shopify }}"
+      "admin_link_html": "Är du butikens ägare? <a href=\"/admin\" class=\"link underlined-link\">Logga in här</a>",
+      "powered_by_shopify_html": "Den här butiken drivs av {{ shopify }}"
     },
     "social": {
       "alt_text": {
@@ -46,7 +46,7 @@
     },
     "search": {
       "search": "Sök",
-      "reset": "Rensa sökterm"
+      "reset": "Rensa sökord"
     },
     "cart": {
       "view": "Visa kundvagn ({{ count }})",
@@ -75,16 +75,16 @@
     "skip_to_text": "Hoppa till innehåll",
     "close": "Stäng",
     "unit_price_separator": "per",
-    "vendor": "Leverantör:",
+    "vendor": "Säljare:",
     "error": "Fel",
-    "refresh_page": "Att välja ett urval resulterar i en fullständig siduppdatering.",
+    "refresh_page": "Att välja ett urval leder till att hela sidan uppdateras.",
     "link_messages": {
       "new_window": "Öppnas i ett nytt fönster.",
       "external": "Öppnar extern webbplats."
     },
-    "loading": "Laddar...",
+    "loading": "Läser in...",
     "skip_to_product_info": "Hoppa till produktinformation",
-    "total_reviews": "totala recensioner",
+    "total_reviews": "totalt antal omdömen",
     "star_reviews_info": "{{ rating_value }} av {{ rating_max }} stjärnor",
     "collapsible_content_title": "Fällbart innehåll",
     "complementary_products": "Kompletterande produkter"
@@ -99,14 +99,14 @@
       },
       "moderated": "Observera att kommentarer måste godkännas innan de publiceras.",
       "comment_form_title": "Lämna en kommentar",
-      "name": "[name]",
+      "name": "Namn",
       "email": "E-post",
       "message": "Kommentar",
       "post": "Skicka kommentar",
       "back_to_blog": "Tillbaka till bloggen",
       "share": "Dela den här artikeln",
       "success": "Din kommentar har publicerats! Tack!",
-      "success_moderated": "Din kommentar har publicerats framgångsrikt. Vi kommer att publicera den om en liten stund, eftersom vår blogg är modererad."
+      "success_moderated": "Din kommentar har skickats in. Vi kommer att publicera den inom kort, eftersom vår blogg är granskad."
     }
   },
   "onboarding": {
@@ -115,7 +115,7 @@
   },
   "products": {
     "product": {
-      "add_to_cart": "Lägg till i kundvagn",
+      "add_to_cart": "Lägg till i kundvagnen",
       "description": "Beskrivning",
       "on_sale": "Utförsäljning",
       "quantity": {
@@ -140,10 +140,10 @@
       "share": "Dela den här produkten",
       "sold_out": "Slutsåld",
       "unavailable": "Ej tillgänglig",
-      "vendor": "Leverantör",
+      "vendor": "Säljare",
       "video_exit_message": "{{ title }} öppnar helskärmsvideo i samma fönster.",
-      "xr_button": "Visa i ditt utrymme",
-      "xr_button_label": "Visa i ditt utrymme, laddar objekt i fönstret för förstärkt verklighet",
+      "xr_button": "Visa i ditt rum",
+      "xr_button_label": "Visa i ditt rum, laddar objekt i fönster för förstärkt verklighet",
       "pickup_availability": {
         "view_store_info": "Visa butikens information",
         "check_other_stores": "Kontrollera tillgänglighet i andra butiker",
@@ -154,43 +154,43 @@
         "refresh": "Uppdatera"
       },
       "media": {
-        "open_media": "Öppna media {{ index }} i fönster",
+        "open_media": "Öppna media {{ index }} i modal",
         "play_model": "Spela 3D-visare",
         "play_video": "Spela video",
         "gallery_viewer": "Galleri-visare",
         "load_image": "Ladda bild {{ index }} i gallerivyn",
-        "load_model": "Ladda 3D-modell {{ index }} i gallerivyn",
-        "load_video": "Spela upp video {{ index }} i gallerivyn",
+        "load_model": "Ladda 3D-modell {{ index }} i gallerivisning",
+        "load_video": "Spela video {{ index }} i gallerivyn",
         "image_available": "Bild {{ index }} är nu tillgänglig i gallerivyn"
       },
-      "view_full_details": "Visa fullständiga detaljer",
+      "view_full_details": "Visa fullständiga uppgifter",
       "shipping_policy_html": "<a href=\"{{ link }}\">Frakt</a> beräknas vid kassan.",
       "choose_options": "Välj alternativ",
       "choose_product_options": "Välj alternativ för {{ product_name }}",
       "value_unavailable": "{{ option_value }} - Otillgänglig",
-      "variant_sold_out_or_unavailable": "Variant slutsåld eller otillgänglig",
+      "variant_sold_out_or_unavailable": "Variant slut eller otillgänglig",
       "inventory_in_stock": "I lager",
       "inventory_in_stock_show_count": "{{ quantity }} i lager",
-      "inventory_low_stock": "Lågt lager",
+      "inventory_low_stock": "Lågt lagerstånd",
       "inventory_low_stock_show_count": "Lågt lager: {{ quantity }} kvar",
       "inventory_out_of_stock": "Slut i lager",
       "inventory_out_of_stock_continue_selling": "I lager",
       "sku": "Artikelnummer",
       "volume_pricing": {
-        "title": "Volymprissättning",
-        "note": "Volympriser tillgängliga",
+        "title": "Volympriser",
+        "note": "Mängdrabatt tillgänglig",
         "minimum": "Fler än {{ quantity }}",
         "price_range": "{{ minimum }}–{{ maximum }}",
         "price_at_each_html": "för {{ price }}/st"
       },
       "product_variants": "Produktvarianter",
-      "duties_included": "Uppgifter inkluderade."
+      "duties_included": "Avgifter inkluderade."
     },
     "modal": {
       "label": "Mediagalleri"
     },
     "facets": {
-      "apply": "Verkställ",
+      "apply": "Använd",
       "clear": "Klar",
       "clear_all": "Ta bort alla",
       "from": "Från",
@@ -203,7 +203,7 @@
       },
       "max_price": "Det högsta priset är {{ price }}",
       "product_count": {
-        "one": "{{ product_count }} av {{ count }} produkt",
+        "one": "{{ product_count }} av {{ count }} produkter",
         "other": "{{ product_count }} av {{ count }} produkter"
       },
       "product_count_simple": {
@@ -223,7 +223,7 @@
   },
   "templates": {
     "search": {
-      "no_results": "Inga resultat hittades för ”{{ terms }}”. Kontrollera stavningen eller använd ett annat ord eller uttryck.",
+      "no_results": "Inga resultat hittades för “{{ terms }}”. Kontrollera stavningen eller använd ett annat ord eller uttryck.",
       "results_with_count": {
         "one": "{{ count }} resultat",
         "other": "{{ count }} resultat"
@@ -256,7 +256,7 @@
     },
     "contact": {
       "form": {
-        "name": "[name]",
+        "name": "Namn",
         "email": "E-post",
         "phone": "Telefonnummer",
         "comment": "Kommentar",
@@ -531,33 +531,33 @@
         "button_title": "Uppdatera",
         "billing_address": "Faktureringsadress",
         "disclaimer": "Denna betalningsmetod kommer att sparas för framtida köp och kan användas för alla återkommande eller uppskjutna köp.",
-        "error_message": "Kan inte uppdatera betalningsmetod",
+        "error_message": "Kunde inte uppdatera betalningsmetod",
         "current": "Aktuell",
         "subscriptions_list_accessibility_label": "Prenumerationsprodukter lista",
-        "pre_orders_list_accessibility_label": "Lista över produkter för väntande beställning",
+        "pre_orders_list_accessibility_label": "Lista över produkter i väntande beställning",
         "resources_list_accessibility_label": "Prenumerationsprodukter och väntande beställningsprodukter som använder denna betalningsmetod",
         "resources_card_show_more": "Visa mer",
         "resources_card_show_less": "Visa mindre",
         "loading_form_accessibility_message": "Laddar formulär för uppdatering av betalningsmetod",
         "loading_current_payment_method": "Läser in aktuell betalningsmetod",
         "loading_digital_wallets": "Laddar digitala plånboksalternativ",
-        "loading_card_fields": "Laddar kreditkortsfält",
+        "loading_card_fields": "Laddar kreditkortsuppgifter",
         "loading_resources": "Läser in prenumerationer och kommande beställningar"
       },
       "add_payment_method_dropdown": {
-        "bank_account_consent": "Genom att lägga till en betalningsmetod godkänner du att ditt kort debiteras eller att ditt bankkonto belastas för framtida köp som du godkänner, tills du avbryter."
+        "bank_account_consent": "Genom att lägga till en betalningsmetod ger du tillstånd att ditt kort debiteras eller ditt bankkonto belastas för framtida köp som du godkänner, tills du avbryter."
       },
       "bank_account": {
         "loading_accessibility_message": "Bankkontoknappen laddas",
         "iframe_title_accessibility_label": "Bankkontoinställning",
         "generic_error": "Kunde inte lägga till bankkonto. Försök igen senare."
       },
-      "add_payment_method_banner": "Lägg till betalningsmetod för snabbare utcheckning eller förauktoriserade tjänster",
+      "add_payment_method_banner": "Lägg till betalningsmetod för snabbare kassa eller förhandsauktoriserade tjänster",
       "no_payment_methods_banner": "Inga betalningsmetoder tillagda",
-      "delete_payment_method_button": "Ta bort",
+      "delete_payment_method_button": "Radera",
       "delete_payment_method_button_accessibility_label": "Ta bort {{paymentMethodName}}",
       "expiration_warning_button_accessibility_label": "Visa utgångsvarning för {{paymentMethodName}} som slutar på {{lastDigits}}",
-      "expires_soon": "Detta kort går snart ut",
+      "expires_soon": "Det här kortet går snart ut",
       "expired": "Detta kort har gått ut",
       "expired_badge_label": "Utgånget",
       "card_update_consent": "Denna betalningsmetod kommer att sparas för framtida köp.",
@@ -565,7 +565,7 @@
       "credit_card_title": "Kreditkort",
       "or": "ELLER",
       "google_pay": {
-        "iframe_title_accessibility_label": "Lägg till Google Pay betalningsmetod",
+        "iframe_title_accessibility_label": "Lägg till betalningsmetod Google Pay",
         "loading_accessibility_message": "Laddar Google Pay",
         "loading": "Laddar Google Pay",
         "errors": {
@@ -594,36 +594,40 @@
           "events": {
             "order_refund": "Orderåterbetalning",
             "order_cancellation": "Orderavbokning",
-            "tax_finalization": "Slutgiltig skatteavstämning"
+            "tax_finalization": "Slutlig skatteberäkning",
+            "payment_failure": "Betalningen misslyckades",
+            "payment_returned": "Betalning återförd"
           },
           "expirable_balance_info": "En del av ditt saldo kommer att gå ut vid ett framtida datum",
-          "expirable_amount_label": "Totalt förfallobart belopp",
-          "expirable_amounts_info": "Belopp som går ut tidigare används först vid kassan",
+          "expirable_amount_label": "Totalt förbrukningsbart belopp",
+          "expirable_amounts_info": "Belopp som går ut först används först vid kassan",
           "expired_amounts_button": "Visa utgångna belopp",
           "pagination": {
-            "load_more_label": "Ladda mer",
-            "load_more_accessibility_label": "Ladda fler utgångsbelopp"
-          }
+            "load_more_label": "Ladda fler",
+            "load_more_accessibility_label": "Ladda fler belopp med utgångsdatum"
+          },
+          "amount_label": "Mängd"
         }
       },
       "payment_details": {
-        "title": "Betalningsmetodens detaljer",
+        "title": "Betalningsmetodens uppgifter",
         "credit_card_details_accessibility_label": "slutar med {{lastDigits}}",
         "card_info_title": "Kortinformation",
         "payment_method_expired_on": "Utgånget den {{expiryDate}}",
         "preauthorized_payments": "Förhandsauktoriserade betalningar",
-        "close_payment_modal_accessibility_label": "Stäng modal för betalningsmetodens detaljer",
+        "close_payment_modal_accessibility_label": "Stäng detaljer för betalningsmetod",
         "payment_method_not_found_error": "Kan inte hitta betalningsmetod",
-        "payment_details_loading": "Laddar betalningsmetodens detaljer",
+        "payment_details_loading": "Läser in betalningsmetodens uppgifter",
         "pre_authorized_payments": "Förhandsauktoriserade betalningar",
         "total_amount_of_subscription_line_items_left": "och {{total}} till",
-        "total_amount_of_subscription_line_items_left_accessibility_label": "{{totalItems}} artiklar totalt, visar {{totalItemsToDisplay}} artiklar.",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "Totalt {{totalItems}} artiklar, visar {{totalItemsToDisplay}} artiklar.",
         "next_payment_due": "Nästa betalning förfaller {{dueDateInMonthDayYear}}",
         "edit_payment_method_button_accessibility_label": "Redigera betalningsmetod som slutar på {{lastDigits}}",
         "loading_shop_pay": "Laddar Shop Pay",
         "invalid_payment_method_message": "Använd ett nytt kreditkort för att fortsätta ta emot kommande beställningar.",
         "replace_payment_method": "Byt betalningsmetod",
-        "checkout_card_banner": "Denna betalningsmetod kan endast användas för förautentiserade betalningar. Den kommer inte att visas i kassan om du är inloggad i denna butik."
+        "checkout_card_banner": "Denna betalningsmetod kan endast användas för förhandsauktoriserade betalningar. Den kommer inte att visas i kassan om du är inloggad i denna butik.",
+        "invalid_payment_method": "Ogiltigt betalningssätt"
       },
       "edit_payment_method": {
         "title": "Redigera betalningsmetod",
@@ -633,7 +637,7 @@
         "generic_error": "Det uppstod ett problem vid uppdateringen. Vänligen försök igen."
       },
       "link_expired": {
-        "return_home_button": "Tillbaka till startsidan"
+        "return_home_button": "Återgå till startsidan"
       },
       "update_success": {
         "done_button": "Fortsätt handla"
@@ -649,7 +653,7 @@
         "card_start_label": "Utgivningsdatum (MM / ÅÅ)",
         "card_start_placeholder": "Utgivningsdatum (MM / ÅÅ)",
         "tooltip": {
-          "card_verification_value_explanation": "3-siffrig säkerhetskod som vanligtvis finns på baksidan av ditt kort. American Express-kort har en 4-siffrig kod som finns på framsidan."
+          "card_verification_value_explanation": "3-siffrig säkerhetskod som vanligtvis finns på baksidan av ditt kort. American Express-kort har en 4-siffrig kod som sitter på framsidan."
         },
         "field_errors": {
           "credit_card_name_invalid": "Ange ditt namn exakt som det står på ditt kort",
@@ -663,29 +667,30 @@
       "payment_delete": {
         "title": "Ta bort betalningsmetod",
         "description_without_replacement": "Denna betalningsmetod kommer inte längre att vara tillgänglig för framtida köp.",
-        "description_with_replacement": "Att ta bort denna betalningsmetod kommer att påverka förautoriseringar av betalningar. Du kan välja att ersätta den med en annan betalningsmetod för att fortsätta ta emot kommande beställningar.",
+        "description_with_replacement": "Att ta bort denna betalningsmetod kommer att påverka förhandsauktoriserade betalningar. Du kan välja att ersätta den med en annan betalningsmetod för att fortsätta ta emot kommande beställningar.",
         "warning_message_with_replacement": {
-          "with_pending_orders_and_subscriptions": "Att ta bort denna betalningsmetod kommer att påverka förautorisera betalningar. Om du inte väljer en alternativ betalningsmetod kommer denna betalningsmetod fortfarande att debiteras för eventuella utestående saldon på befintliga beställningar. Att välja en alternativ betalningsmetod gör att du kan ta emot kommande prenumerationsbeställningar utan avbrott.",
-          "with_pending_orders": "Att ta bort denna betalningsmetod kommer att radera den från ditt konto och den kommer inte längre att vara tillgänglig för framtida köp. Om du inte väljer en alternativ betalningsmetod kommer den fortfarande att debiteras för eventuella utestående saldon på befintliga beställningar.",
-          "with_subscriptions": "Att ta bort denna betalningsmetod kommer att påverka förautorisera betalningar. Byt ut den mot en alternativ betalningsmetod för att fortsätta ta emot kommande beställningar."
+          "with_pending_orders_and_subscriptions": "Att ta bort denna betalningsmetod kommer att påverka förhandsauktoriserade betalningar. Om du inte väljer en annan betalningsmetod kommer denna betalningsmetod fortfarande att debiteras för eventuella utestående saldon på befintliga beställningar. Att välja en annan betalningsmetod gör att du kan ta emot kommande prenumerationsbeställningar utan avbrott.",
+          "with_pending_orders": "Att ta bort denna betalningsmetod kommer att radera den från ditt konto och den kommer inte längre att vara tillgänglig för framtida köp. Om du inte väljer en annan betalningsmetod kommer den fortfarande att debiteras för eventuella utestående saldon på befintliga beställningar.",
+          "with_subscriptions": "Att ta bort denna betalningsmetod kommer att påverka förhandsauktoriserade betalningar. Byt ut den mot en annan betalningsmetod för att fortsätta ta emot kommande beställningar."
         },
         "warning_message_without_replacement": {
-          "with_pending_orders_and_subscriptions": "Att ta bort denna betalningsmetod kommer att påverka förautorisera betalningar. Denna betalningsmetod kommer fortfarande att debiteras för eventuella utestående saldon på befintliga beställningar, men du kommer inte att få kommande prenumerationsbeställningar. Lägg till en alternativ betalningsmetod för att fortsätta ta emot prenumerationsbeställningar.",
-          "with_pending_orders": "Att ta bort denna betalningsmetod kommer att ta bort den från ditt konto och den kommer inte längre att vara tillgänglig för framtida köp. Den kommer fortfarande att debiteras för eventuella utestående saldon på befintliga beställningar.",
-          "with_subscriptions": "Att ta bort denna betalningsmetod kommer att påverka förautorisera betalningar. Lägg till en alternativ betalningsmetod för att fortsätta ta emot kommande beställningar."
+          "with_pending_orders_and_subscriptions": "Att ta bort denna betalningsmetod kommer att påverka förhandsauktoriserade betalningar. Denna betalningsmetod kommer fortfarande att debiteras för eventuella utestående saldon på befintliga beställningar, men du kommer inte att få kommande prenumerationsbeställningar. Lägg till en alternativ betalningsmetod för att fortsätta ta emot prenumerationsbeställningar.",
+          "with_pending_orders": "Att ta bort denna betalningsmetod kommer att radera den från ditt konto och den kommer inte längre att vara tillgänglig för framtida köp. Den kommer fortfarande att debiteras för eventuella utestående saldon på befintliga beställningar.",
+          "with_subscriptions": "Att ta bort denna betalningsmetod kommer att påverka förhandsauktoriserade betalningar. Lägg till en alternativ betalningsmetod för att fortsätta ta emot kommande beställningar."
         },
-        "payment_method_selector_placeholder": "Välj en ersättningsbetalningsmetod (valfritt)",
+        "payment_method_selector_placeholder": "Välj en ersättande betalningsmetod (valfritt)",
         "payment_method_selector_no_alternative_payment": "Ingen ersättningsmetod",
         "replace_method_with_new_method_description": "Din {{currentPaymentMethodName}} kommer att tas bort och ersättas med din {{newPaymentMethodName}}.",
-        "error_when_deleting": "Vi ber om ursäkt men något gick fel och vi kunde inte ta bort denna betalningsmetod. Vänligen försök igen senare eller uppdatera sidan.",
+        "error_when_deleting": "Vi ber om ursäkt, men något gick fel och vi kunde inte ta bort denna betalningsmetod. Vänligen försök igen senare eller uppdatera sidan.",
         "delete_and_replace_button_accessibility_label": "Ta bort {{currentPaymentMethodName}} och ersätt med {{newPaymentMethodName}}.",
         "deleted_successfully": "Betalningsmetod borttagen framgångsrikt.",
-        "loading_available_payment_methods_accessibility_label": "Laddar tillgängliga betalningsmetoder"
+        "loading_available_payment_methods_accessibility_label": "Läser in tillgängliga betalningsmetoder",
+        "delete_and_replace_button": "Radera och ersätta"
       },
       "add_payment_method": {
         "payment_method_added_confirmation": "Betalningsmetod tillagd",
-        "missing_customer_error": "Något gick fel. Vänligen försök igen eller kontakta supporten.",
-        "replace_mode_warning": "Att ta bort denna betalningsmetod kommer att påverka prenumerationer eller förbeställningar. Byt ut den mot en alternativ betalningsmetod för att fortsätta ta emot kommande beställningar.",
+        "missing_customer_error": "Något gick fel. Försök igen eller kontakta kundtjänst.",
+        "replace_mode_warning": "Att ta bort denna betalningsmetod kommer att påverka prenumerationer eller förhandsbeställningar. Byt ut den mot en annan betalningsmetod för att fortsätta ta emot kommande beställningar.",
         "choose_from_list": "Välj från listan",
         "billing_address": {
           "choose_billing_address_from_list_button": "Välj från listan",
@@ -695,18 +700,18 @@
         "subscription_contracts": {
           "title": "Använd betalningsmetod för återkommande beställningar",
           "more_items": {
-            "one": "{{count}} fler produkt",
+            "one": "{{count}} fler produkter",
             "other": "{{count}} fler produkter"
           },
           "product_details": "Produktdetaljer",
-          "load_more": "Ladda mer"
+          "load_more": "Ladda fler"
         },
         "updating_contracts": {
-          "one": "Uppdaterar {{count}} abonnemangskontrakt...",
+          "one": "Uppdaterar {{count}} prenumerationsavtal...",
           "other": "Uppdaterar {{count}} prenumerationsavtal..."
         },
         "contracts_updated": {
-          "one": "Uppdaterade {{count}} prenumerationsavtal framgångsrikt",
+          "one": "Prenumerationsavtalet uppdaterades framgångsrikt för {{count}}",
           "other": "Uppdaterade {{count}} prenumerationsavtal framgångsrikt"
         },
         "contracts_update_failed": "Misslyckades med att uppdatera vissa prenumerationsavtal",
@@ -1367,9 +1372,9 @@
         "edit_accessibility_label": "Redigera inköpsordernummer",
         "edit_modal_title": "Redigera inköpsordernummer",
         "empty_state": "Inget inköpsordernummer",
-        "modal_po_number_input_label": "PO-nummer",
+        "modal_po_number_input_label": "Beställningsnummer",
         "modal_po_number_input_max_length_error": "PO-nummer har högst {{maxLength}} tecken.",
-        "title": "Beställningsnummer #{{poNumber}}"
+        "title": "PO #{{poNumber}}"
       }
     },
     "errors": {
@@ -1377,10 +1382,10 @@
         "description": "Det uppstod ett problem när denna adress skulle tas bort. Försök igen eller uppdatera sidan."
       },
       "failed_address_creation": {
-        "description": "Det uppstod ett problem när din adress skulle skapas. Försök att uppdatera sidan eller kontrollera din internetanslutning."
+        "description": "Det uppstod ett problem när din adress skulle skapas. Försök att uppdatera sidan eller kontrollera din internetuppkoppling."
       },
       "failed_address_update": {
-        "description": "Det uppstod ett problem med att uppdatera din adress. Försök att uppdatera sidan eller kontrollera din internetanslutning."
+        "description": "Det uppstod ett problem när din adress skulle uppdateras. Försök att uppdatera sidan eller kontrollera din internetanslutning."
       },
       "load_address_form_error": {
         "title": "Kan inte ladda adressformuläret",
@@ -1394,10 +1399,10 @@
         "description": "Det uppstod ett problem vid inläsning av PayPal. Vänligen försök igen."
       },
       "logout_everywhere": {
-        "description": "Något gick fel vid utloggningen. Vänligen försök igen."
+        "description": "Något gick fel vid utloggning. Vänligen försök igen."
       },
       "not_found": {
-        "description": "Kontrollera URL:en eller försök igen om några minuter.",
+        "description": "Kontrollera webbadressen eller försök igen om några minuter.",
         "title": "Det uppstod ett problem när sidan skulle laddas"
       },
       "order_not_found": {
@@ -1408,7 +1413,7 @@
         "description": "Det uppstod ett problem vid uppdatering av din profil. Försök att uppdatera sidan eller kontrollera din internetanslutning."
       },
       "profile_name_update_error": {
-        "description": "Det uppstod ett problem med att uppdatera ditt namn. Försök att uppdatera sidan eller kontrollera din internetanslutning."
+        "description": "Det uppstod ett problem när ditt namn skulle uppdateras. Försök att uppdatera sidan eller kontrollera din internetanslutning."
       },
       "resend_link": {
         "generic": "Misslyckad förfrågan"
@@ -1432,12 +1437,13 @@
       "mastercard": "Masterkort",
       "discover": "Upptäck",
       "dinersclub": "Dinersklubben",
-      "forbrugsforeningen": "Förbruksföreningen",
+      "forbrugsforeningen": "Förbrukarföreningen",
       "hipercard": "Hiperkort",
       "shoppay": "Shoppa med Pay",
       "applepay": "Apple Betalning",
-      "googlepay": "Google Betala",
-      "storecredit": "Butikskredit"
+      "googlepay": "Google Betalning",
+      "storecredit": "Butikskredit",
+      "maestro": "Mästare"
     },
     "ui_components": {
       "clear": "Klar",
@@ -1449,35 +1455,39 @@
       "maximumReached": "Maximalt {{value}} uppnått",
       "april": "april",
       "september": "september",
-      "december": "december",
+      "december": "December",
       "tuesday": "tisdag",
       "thursday": "torsdag",
-      "saturday": "lördag",
+      "saturday": "Lördag",
       "tuesdayAbbreviation": "Du",
       "wednesdayAbbreviation": "Vi",
-      "thursdayAbbreviation": "t:",
-      "fridayAbbreviation": "Franska",
+      "thursdayAbbreviation": "Tack",
+      "fridayAbbreviation": "Från",
       "saturdayAbbreviation": "Så",
       "sundayAbbreviation": "Su",
-      "rangeStart": "Sortimentsstart",
-      "inRange": "I sortimentet",
-      "rangeEnd": "Slut på sortimentet",
+      "rangeStart": "Räckviddsstart",
+      "inRange": "Inom räckvidd",
+      "rangeEnd": "Ändavslutning",
       "autocompleteOptionsAvailable": {
         "one": "{{count}} artikel tillgänglig",
         "other": "{{count}} artiklar tillgängliga"
       },
-      "removeTag": "Ta bort etikett",
+      "removeTag": "Ta bort tagg",
       "mapClusterTitle": {
-        "one": "Klunga av {{number}} markör"
+        "one": "Klustret med {{number}} markörer",
+        "other": "Klustret av {{number}} markörer"
       },
       "expandSheet": "Expandera",
       "dropzoneInvalidFileType": "Filtyp stöds inte",
-      "dropzoneDraggedOver": "Släpp filen för att ladda upp"
+      "dropzoneDraggedOver": "Släpp filen för att ladda upp",
+      "submit": "Skicka in",
+      "mondayAbbreviation": "Må"
     },
     "profile_preview_bar": {
-      "hide_bar": "Dölj meny",
+      "hide_bar": "Dölj fältet",
       "saved_at": "Sparad {{date}} kl. {{time}}",
-      "not_available": "Profildata inte tillgängliga"
+      "not_available": "Profiluppgifter saknas",
+      "navigate_to_admin": "Gå till administratörsmenyn"
     },
     "active_inspector": {
       "extension": {
@@ -1492,15 +1502,16 @@
       "link_new_tab_confirmation": "Den här länken kan inte öppnas i redigeraren. Den kommer att öppnas i ett nytt fönster ({{resolved_to_link}}). Klicka på OK för att fortsätta."
     },
     "settings": {
-      "loading_accessibility_message": "Laddar inställningssida",
+      "loading_accessibility_message": "Läser in inställningssida",
       "log_out_everywhere": {
-        "description": "Om du har förlorat en enhet eller har säkerhetsbekymmer, logga ut överallt för att säkerställa säkerheten för ditt konto.",
+        "description": "Om du har förlorat en enhet eller har säkerhetsbekymmer, logga ut överallt för att säkerställa att ditt konto är säkert.",
         "warning_message": "Du kommer också att loggas ut på den här enheten."
       }
     },
     "shop_ads": {
-      "title": "Andra produkter du kan gilla",
-      "subtitle": "Tillgänglig under en begränsad tid"
+      "title": "Andra produkter du kan tycka om",
+      "subtitle": "Tillgänglig under en begränsad tid",
+      "button": "Utforska i Butik"
     },
     "knowledge_base": {
       "self_serve_returns": {
@@ -1520,7 +1531,7 @@
         "title": "Byt betalningsmetod",
         "replace_with": "Ersätt med",
         "add_new_payment_method": "Lägg till ny",
-        "loading": "Laddar modal för ersättning av betalningsmetod",
+        "loading": "Laddar ersättningsfönster för betalningsmetod",
         "invalid_subscription_contract": "Kan inte hitta prenumeration",
         "expiry_date": "Utg. {{expiryDate}}",
         "edit_current_payment_method": "Redigera nuvarande betalningsmetod"
@@ -1535,13 +1546,17 @@
       "step_two": {
         "page_title": "Ange kod - %{shop_name}",
         "subheading": "Skickat till %{email}",
-        "input_field_label": "6-siffrig kod"
+        "input_field_label": "6-siffrig kod",
+        "button": "Skicka in"
       },
       "error": {
         "invalid": {
           "invalid_code": "Ange den korrekta 6-siffriga koden"
         }
       }
+    },
+    "privacy_banner": {
+      "cookie_preferences_link": "Kakor inställningar"
     }
   },
   "shopify": {
