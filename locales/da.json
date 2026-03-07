@@ -3445,11 +3445,11 @@
       "hide_order_summary": "Skjul ordresammendrag",
       "subtitle": "Bekræftet {{date}}",
       "subtotal": "Delsum",
-      "summary_list_title_accessibility_label": "Bestil varer",
-      "summary_title": "Ordresammendrag",
+      "summary_list_title_accessibility_label": "Bestilte varer",
+      "summary_title": "Ordreoversigt",
       "summary_totals_title_accessibility_label": "Ordretotaler",
       "shop_order_tracking": {
-        "download_shop_to_track": "Download Shop for at spore pakken",
+        "download_shop_to_track": "Download butik for at spore pakken",
         "real_time_delivery_updates": "Butikken vil sende dig opdateringer om leveringen i realtid, når din ordre er afsendt."
       },
       "edit_summary": {
@@ -3457,36 +3457,36 @@
         "removed_with_quantity": "Fjernet {{quantity}}",
         "returned_with_quantities": "Returneret {{delta}} af {{total}}",
         "removed_with_quantities": "Fjernet {{delta}} af {{total}}",
-        "return_line_item_removed": "Fjernet fra retur",
+        "return_line_item_removed": "Fjernet fra returnering",
         "return_line_item_removed_with_quantities": "Fjernet {{delta}} fra retur"
       },
       "shop_pay": {
-        "order_completed_with": "Bestilling gennemført med",
+        "order_completed_with": "Bestilling fuldført med",
         "learn_more": "Lær mere"
       },
       "taxes_included": "Inklusive {{amount}} i skatter",
-      "duties_and_taxes_included": "Total inkluderer told og skatter. Ingen ekstra gebyrer ved levering.",
-      "duties": "Afgifter",
-      "ok_duties_tooltip": "Denne ordre bliver sendt fra et andet land, så toldafgifter er blevet tilføjet til din ordretotal.",
-      "error_duties_tooltip": "Denne ordre bliver sendt fra et andet land, så told og afgifter kan blive opkrævet ved levering.",
-      "zero_duties_tooltip": "Denne ordre bliver sendt fra et andet land. Der opkræves ikke told på ordrer af denne værdi.",
-      "tip": "Drikkepenge",
+      "duties_and_taxes_included": "I alt inkluderer afgifter og skatter. Ingen ekstra gebyrer ved levering.",
+      "duties": "Pligter",
+      "ok_duties_tooltip": "Denne ordre sendes fra et andet land, så toldafgifter er blevet lagt til din samlede ordre.",
+      "error_duties_tooltip": "Denne ordre sendes fra et andet land, så der kan blive opkrævet told og afgifter ved levering.",
+      "zero_duties_tooltip": "Denne ordre sendes fra et andet land. Der opkræves ikke told på ordrer af denne værdi.",
+      "tip": "Tip",
       "title": "Bestil {{name}}",
       "unit_price": "{{price}}/stk",
       "pagination": {
-        "load_more": "Indlæs mere"
+        "load_more": "Indlæs flere"
       },
       "login_to_view_all_order_details": "Log ind for at se alle ordreoplysninger.",
       "fees": {
         "restocking_fee": "Genopfyldningsgebyr",
-        "return_shipping_fee": "Returforsendelse"
+        "return_shipping_fee": "Returfragt"
       },
       "link_sent": "Link sendt",
       "cash_rounding": "Kontant afrunding",
-      "adjusted_total": "Justeret total",
-      "due_on_date": "Forfalden {{date}}",
-      "due_on_fulfillment": "Forfald ved opfyldelse",
-      "due_on_receipt": "Forfald ved modtagelse",
+      "adjusted_total": "Justeret samlet total",
+      "due_on_date": "Forfalder {{date}}",
+      "due_on_fulfillment": "Forfalder ved opfyldelse",
+      "due_on_receipt": "Betales ved modtagelse",
       "contact_information": "Kontaktoplysninger",
       "discount_order_stacking": {
         "one": "Rabat ved bestilling",
@@ -3502,18 +3502,19 @@
       "subtotal_label_with_quantity": {
         "one": "Delsum",
         "other": "Delsum · {{count}} varer"
-      }
+      },
+      "log_in_to_a_different_account": "Log ind med en anden konto"
     },
     "addresses": {
       "back_button_accessibility_label": "Tilbage til redigering af adresse {{address}}",
-      "add_address_banner": "Tilføj adresser til brug ved kassen",
+      "add_address_banner": "Tilføj adresser til brug ved betaling",
       "no_addresses_banner": "Ingen adresser tilføjet",
       "address_deleted_notification": "Adresse slettet",
       "delete_confirmation_message": "Slet adresse? Eksisterende ordrer påvirkes ikke.",
       "delete_confirmation_title": "Slet adresse?",
       "loading_finished_accessibility_message": "Ny side med adresser er indlæst",
       "pagination": {
-        "load_more": "Indlæs mere"
+        "load_more": "Indlæs flere"
       }
     },
     "address_form": {
@@ -3524,7 +3525,7 @@
       "creation_success_notification": "Adresse tilføjet",
       "default_address_creation_success_notification": "Standardadresse tilføjet",
       "default_address_update_success_notification": "Standardadresse opdateret",
-      "loading_edit_form_accessibility_message": "Indlæser redigeringsformular for adresse",
+      "loading_edit_form_accessibility_message": "Indlæser rediger adresseformular",
       "loading_finished_accessibility_message": "Adresseformular er indlæst",
       "save_accessibility_label": "Gem adresse {{address}}",
       "update_success_notification": "Adresse opdateret"
@@ -3532,13 +3533,14 @@
     "account_menu": {
       "signed_out_state": {
         "sheet_title": "Log ind eller opret konto",
-        "email_field_label": "E-mail"
+        "email_field_label": "E-mail",
+        "use_email_button": "Brug i stedet e-mail"
       },
       "signed_in_state": {
         "greeting_with_name": "Hej, {{first_name}}"
       },
       "location_picker": {
-        "search_field_placeholder": "Søgning"
+        "search_field_placeholder": "Søg"
       },
       "aria_labels": {
         "back_to_main_menu": "Tilbage til hovedmenuen fra {{title}}",
@@ -3554,28 +3556,30 @@
         "net_payment_terms_description": "{{name}}: betalinger forfalder inden for {{numberOfDays}} dage",
         "deposit_percentage": "{{percentage}} depositum",
         "pagination": {
-          "load_more": "Indlæs mere"
+          "load_more": "Indlæs flere",
+          "load_more_accessibility_label": "Indlæs flere steder"
         },
         "payment_terms": "Betalingsbetingelser",
         "section_title": "Placering",
-        "shipping_address_required": "Tilføj en leveringsadresse til denne placering for at begynde at afgive ordrer.",
+        "shipping_address_required": "Tilføj en leveringsadresse til dette sted for at begynde at afgive ordrer.",
         "staff_and_permissions_title": "Personale og tilladelser",
         "tax_id": "Skatte-ID",
-        "tax_exemption_not_applicable": "Ikke relevant"
+        "tax_exemption_not_applicable": "Ikke tilgængelig",
+        "own_role_contact_name": "Du"
       },
       "location_selection": {
         "continue_to_store": "Fortsæt til butikken",
-        "description": "Hvis du allerede har varer i din kurv, kan ændring af placering påvirke priser og mængder i kurven.",
-        "list_accessibility_label": "Liste over lokationer",
+        "description": "Hvis du allerede har varer i din kurv, kan det at skifte sted påvirke priser og mængder i kurven.",
+        "list_accessibility_label": "Stedsliste",
         "list_loading_accessibility_message": "Indlæser liste over steder",
         "list_loading_finished_accessibility_message": "Listen over steder er indlæst",
-        "loading_store_accessibility_message": "På vej til butikken",
+        "loading_store_accessibility_message": "Går til butikken",
         "no_location_title": "Personlige ordrer kun",
-        "no_locations_found": "Ingen lokationer fundet",
+        "no_locations_found": "Ingen steder fundet",
         "search": "Søg steder",
         "search_location_title": "Vælg en placering",
         "selection_confirmation_button": "Vælg placering",
-        "title": "Hvilken placering køber du til?",
+        "title": "Til hvilket sted køber du?",
         "title_choose_location": "Vælg en placering"
       },
       "orders": {
@@ -3591,7 +3595,7 @@
             "more_than_pagination_length": "Du har mere end {{count}} ventende ordrer"
           },
           "pagination": {
-            "nav_accessibility_label": "Ordrer under gennemgang navigationsknapper"
+            "nav_accessibility_label": "Navigationsknapper til ordrer under gennemgang"
           }
         },
         "order_list_column_headers_location": "Placering",
@@ -3599,7 +3603,7 @@
       },
       "draft_order_details": {
         "draft_order_subtitle": "Bekræftet {{date}} fra ordre {{draftOrderName}}",
-        "loading_finished_accessibility_message": "Ordredetaljer er blevet indlæst",
+        "loading_finished_accessibility_message": "Ordreoplysninger er blevet indlæst",
         "payment_status": {
           "pending": {
             "banner_overdue": {
@@ -3607,7 +3611,7 @@
               "other": "Din betaling er {{count}} dage forsinket"
             },
             "banner_due_today_for_single_fulfillment": "{{amount}} betaling forfalder i dag. {{link}}",
-            "banner_due_today_for_multiple_fulfillments": "Betaling forfalder i dag for {{count}} opfyldelser",
+            "banner_due_today_for_multiple_fulfillments": "Betaling forfalder i dag for {{count}} leverancer",
             "banner_overdue_for_single_fulfillment": {
               "one": "Betaling på {{amount}} er {{count}} dage forsinket. {{link}}",
               "other": "Betaling på {{amount}} er {{count}} dage forsinket. {{link}}"
@@ -3618,35 +3622,36 @@
             "title_due_on_receipt": "Betaling ikke forfalden endnu",
             "title_due_on_fulfillment": "Betaling forfalder ved opfyldelse",
             "description_overdue": "Din betaling er forsinket.",
-            "description_partially_paid": "Denne ordre blev delvist betalt. Du har en resterende saldo.",
+            "description_partially_paid": "Denne ordre er delvist betalt. Du har en restsaldo.",
             "description_authorized": "Din betalingsmetode vil blive opkrævet på forfaldsdatoen, eller du kan betale nu.",
-            "description_due_on_receipt": "Du vil modtage en faktura, når betalingen forfalder.",
-            "description_due_on_receipt_partially_paid": "Denne ordre blev delvist betalt. Du har en resterende saldo. Du vil modtage en faktura, når betalingen forfalder.",
+            "description_due_on_receipt": "Du vil modtage en regning, når betalingen forfalder.",
+            "description_due_on_receipt_partially_paid": "Denne ordre er delvist betalt. Du har en restsaldo. Du vil modtage en faktura, når betalingen forfalder.",
             "description_due_on_fulfillment": "Betaling forfalder, når alle varer i denne ordre er leveret.",
-            "description_due_on_fulfillment_partially_paid": "Denne ordre blev delvist betalt. Du har en resterende saldo. Betaling forfalder, når alle varer i denne ordre er leveret.",
-            "description_due_on_fulfillment_partially_paid_next": "Denne ordre blev delvist betalt. Du har en resterende saldo."
+            "description_due_on_fulfillment_partially_paid": "Denne ordre er delvist betalt. Du har en restsaldo. Betaling forfalder, når alle varer i denne ordre er leveret.",
+            "description_due_on_fulfillment_partially_paid_next": "Denne ordre er delvist betalt. Du har en restsaldo.",
+            "description_waiting_for_manual_payment": "Denne ordre har en ventende betaling. Saldoen opdateres, når betalingen er modtaget."
           },
           "draft": {
             "description": "Betalingsoplysninger fastlægges, når ordren bekræftes.",
-            "title": "Betaling ikke forfalden endnu",
+            "title": "Betaling endnu ikke forfalden",
             "in_review": {
               "description": "Betalingsoplysninger fastlægges, når ordren bekræftes.",
-              "title": "Betaling ikke forfalden endnu"
+              "title": "Betaling endnu ikke forfalden"
             },
             "submitted": {
               "deposit": {
                 "title": "Betaling forfalder",
                 "due_later": "Saldoen er på {{translatedName}} vilkår og forfalder den {{dueDate}}.",
                 "due_on_fulfillment": "Saldoen forfalder, når alle varer i denne ordre er leveret.",
-                "due_on_receipt": "Du vil modtage en faktura for den resterende saldo.",
+                "due_on_receipt": "Du vil modtage en regning for det resterende beløb.",
                 "due_on_date": "Saldoen forfalder til betaling den {{dueDate}}."
               }
             },
             "deposit": {
-              "due_later": "{{depositAmount}} forfalder, når din bestilling er bekræftet. Restbeløbet betales efter {{translatedName}}'s betingelser.",
-              "due_on_fulfillment": "{{depositAmount}} forfalder, når din bestilling er bekræftet. Restbeløbet forfalder, når bestillingen er opfyldt.",
-              "due_on_receipt": "{{depositAmount}} forfalder, når din bestilling er bekræftet. Restbeløbet forfalder senere.",
-              "due_on_date": "{{depositAmount}} forfalder, når din bestilling er bekræftet. Restbeløbet forfalder den {{dueDate}}."
+              "due_later": "{{depositAmount}} forfalder, når din ordre er bekræftet. Restbeløbet vil være på {{translatedName}} vilkår.",
+              "due_on_fulfillment": "{{depositAmount}} forfalder, når din ordre bekræftes. Restbeløbet forfalder, når ordren er opfyldt.",
+              "due_on_receipt": "{{depositAmount}} forfalder, når din ordre bekræftes. Restbeløbet forfalder senere.",
+              "due_on_date": "{{depositAmount}} forfalder, når din ordre er bekræftet. Restbeløbet forfalder den {{dueDate}}."
             }
           },
           "paid": {
@@ -3693,6 +3698,9 @@
         "modal_po_number_input_label": "PO nummer",
         "modal_po_number_input_max_length_error": "PO-numre må højst indeholde {{maxLength}} tegn.",
         "title": "PO #{{poNumber}}"
+      },
+      "addresses": {
+        "shipping_address_card_title": "Forsendelsesadresse"
       }
     },
     "errors": {
