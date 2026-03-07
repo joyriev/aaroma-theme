@@ -3290,11 +3290,12 @@
             "delivered_after_label": "Leveret efter {{date}}",
             "delivered_after_description": "Fordi din ordre ankom sent, er du berettiget til at få {{amount}} Shop Cash.",
             "claimed_shop_cash_description": "Fordi denne ordre ankom sent, har du krævet {{amount}} Shop Cash.",
-            "eligible_to_claim_shop_cash_description": "Fordi din ordre ankom sent, er du berettiget til at kræve {{amount}} Butikskredit.",
+            "eligible_to_claim_shop_cash_description": "Fordi din ordre ankom sent, er du berettiget til at få {{amount}} Shop Cash.",
             "learn_more_button_label": "Lær mere",
-            "claim_shop_cash_button_label": "Krav Shoppen Kontanter",
-            "scan_to_claim_shop_cash_label": "Scan for at gøre krav på {{amount}} Butikskredit",
-            "expired_delivery_guarantee_description": "Denne ordres 30-dages Butiksgaranti er udløbet."
+            "claim_shop_cash_button_label": "Indløs Butikspenge",
+            "scan_to_claim_shop_cash_label": "Scan for at gøre krav på {{amount}} Shop Cash",
+            "expired_delivery_guarantee_description": "Denne ordres 30-dages Butiksgaranti er udløbet.",
+            "view_balance_in_shop_button_label": "Se saldo i Butik"
           }
         },
         "delivery_promise": {
@@ -3305,8 +3306,8 @@
             "modal_accessibility_button_label": "Detaljer om leveringsløfte"
           },
           "claim_shop_cash_cta": {
-            "has_shop_app_label": "Krav din Shop Cash",
-            "no_shop_app_label": "{{appDownloadLink}} for at hente Butikspenge",
+            "has_shop_app_label": "Indløs din Butikskredit",
+            "no_shop_app_label": "{{appDownloadLink}} for at hente Shop Cash",
             "download_shop_app_label": "Download butik"
           },
           "details_modal": {
@@ -3316,13 +3317,14 @@
             "delivery_by_label": "Levering inden {{date}}",
             "delivery_guaranteed_by_label": "Levering garanteret inden {{date}}",
             "shop_cash_claim": {
-              "may_be_eligible_label": "Shop Promise garanterer hurtig og pålidelig levering. Kræv Shop Cash, hvis din ordre ankommer for sent.",
-              "may_be_eligible_not_authorized_label": "Du kan være berettiget til at kræve Shop Cash, fordi denne ordre ankom for sent. Log ind for at se detaljer.",
-              "redeemed_label": "Du har allerede krævet Shop Cash, fordi denne ordre ankom for sent.",
+              "may_be_eligible_label": "Shop Promise garanterer hurtig og pålidelig levering. Kræv Shop Cash, hvis din ordre kommer for sent.",
+              "may_be_eligible_not_authorized_label": "Du kan være berettiget til at kræve Butikspenge, fordi denne ordre ankom for sent. Log ind for at se detaljer.",
+              "redeemed_label": "Du har allerede modtaget Shop Cash, fordi denne ordre ankom for sent.",
               "expired_label": "Denne ordre er ikke berettiget til et krav om forsinket levering, fordi 30-dages garantien er udløbet.",
-              "no_shop_cash_label": "Denne ordre er ikke berettiget til en krav om forsinket levering, fordi den ikke blev betalt med Shop Pay.",
+              "no_shop_cash_label": "Denne ordre er ikke berettiget til en reklamation om forsinket levering, fordi den ikke blev betalt med Shop Pay.",
               "no_longer_guaranteed_label": "Disse varer er ikke længere dækket af en leveringsgaranti.",
-              "claim_shop_cash_title": "Scan for at få {{amount}} i Butikskredit"
+              "claim_shop_cash_title": "Scan for at indløse {{amount}} i Shop Cash",
+              "claim_shop_cash_description": "Du kan bruge dine Shop-penge på fremtidige køb i Shop-appen."
             }
           }
         },
@@ -3332,27 +3334,27 @@
       "fulfillment_status_title": "Opfyldelsesstatus: {{status}}",
       "manage_accessiblity_label": "Administrer ordre {{orderId}}",
       "group_title_label": "Del af: {{groupTitle}}",
-      "group_title_label_with_parent": "Til: {{groupTitle}}"
+      "group_title_label_with_parent": "For: {{groupTitle}}"
     },
     "order_details": {
       "shipment_timeline": {
-        "expand_events_accessibility_label": "Vis ordre forsendelsesdetaljer",
-        "hide_events_accessibility_label": "Skjul forsendelsesdetaljer for ordre"
+        "expand_events_accessibility_label": "Vis forsendelsesdetaljer for ordre",
+        "hide_events_accessibility_label": "Skjul forsendelsesoplysninger for ordren"
       },
-      "addresses_section_title": "Fakturering og forsendelse",
+      "addresses_section_title": "Fakturering og levering",
       "order_details": "Ordredetaljer",
       "order_details_skeleton_accessibility_label": "Log ind for at se alle ordreoplysninger.",
       "card_ending_with": "slutter med {{lastDigits}}",
-      "company_and_location": "Firma og placering",
+      "company_and_location": "Firma og beliggenhed",
       "group_title_label": "Del af: {{groupTitle}}",
-      "group_title_label_with_parent": "Til: {{groupTitle}}",
+      "group_title_label_with_parent": "For: {{groupTitle}}",
       "grouped_view_components": {
         "expand_line_items": "Vis {{count}} varer",
         "collapse_line_items": "Skjul {{count}} varer",
         "line_item_summary_accessibility_label": "{{productTitle}}, Antal: {{refundableQuantity}}",
-        "line_item_summary_list_accessibility_label": "Genstande i {{productTitle}} sæt"
+        "line_item_summary_list_accessibility_label": "Varer i {{productTitle}}-pakken"
       },
-      "loading_finished_accessibility_message": "Ordredetaljer er blevet indlæst",
+      "loading_finished_accessibility_message": "Ordreoplysninger er blevet indlæst",
       "location": "Placering",
       "image_gallery": {
         "product_name_and_quantity": "{{productName}} antal {{quantity}}",
@@ -3367,7 +3369,7 @@
         "closed": "Skjul ordresammendrag"
       },
       "no_data_provided_accessibility_label": "{{fieldName}} er tom",
-      "not_applicable": "Ikke relevant",
+      "not_applicable": "Ikke tilgængelig",
       "partially_refunded_label": "DELT REFUNDERET",
       "payment_confirmation": {
         "payment_received": "Tak! Din betaling på {{amount}} er modtaget.",
@@ -3378,7 +3380,7 @@
         "status_in_review": "Betaling forfalder efter gennemgang",
         "payment_type": {
           "store_credit": "Butikskredit",
-          "cash_on_delivery": "Kontant ved Levering (COD)",
+          "cash_on_delivery": "Betaling ved levering (COD)",
           "bank_deposit": "Bankindskud",
           "manual": "Brugervejledning"
         },
@@ -3396,41 +3398,45 @@
           "show_less": "Vis mindre"
         },
         "emv_details": {
-          "auth": "AUTORISERET:",
+          "auth": "FORFATTER:",
           "aid": "HJÆLP:",
-          "source": "Vi er Fluxidi, et mode e-handelsmærke.  \nVi sælger dametøj og herretøj med et premium skandinavisk–italiensk look: vinterjakker, lammeskinds- og læderjakker, frakker, strik, bukser, sko og accessories.  \nVi bruger to linjer: “Inspired by Design” (overkommelig) og “Premium” (high-end)."
+          "source": "Brug følgende outputformat (ingen kodeblokke, ingen ekstra tekst)"
         }
       },
       "paid_with_shop_pay_installments_card": {
-        "paid_with_shop_pay_installments": "Betalt med Shop Pay afdrag",
+        "paid_with_shop_pay_installments": "Betalt med Shop Pay afbetalinger",
         "desktop_qr_code_content": {
-          "description": "Få påmindelser om dine afdrag med Shop."
-        }
+          "description": "Få påmindelser om dine afdrag med Shop.",
+          "title": "Søg efter påmindelser"
+        },
+        "description": "Hold styr på din betalingsplan med påmindelser i Butiksappen."
       },
       "request_return_failed": "Der opstod et problem med at behandle din anmodning. Prøv venligst igen.",
       "login_card": {
         "resend_link_and_login": "For at se dine ordreoplysninger skal du logge ind eller sende et nyt link til den e-mail eller det telefonnummer, der blev brugt ved kassen.",
-        "resend_link_only": "For at se dine ordreoplysninger, send et nyt link til den e-mail eller telefonnummer, der blev brugt ved kassen.",
-        "resend_link": "Send ny link",
-        "link_expired": "Link udløbet"
+        "resend_link_only": "For at se dine ordreoplysninger, send et nyt link til den e-mail eller det telefonnummer, der blev brugt ved kassen.",
+        "resend_link": "Send ny forbindelse",
+        "link_expired": "Linket er udløbet"
       },
       "remaining_amount": "Tilbageværende",
       "marketing_description": "Du vil modtage markedsføringsmails. Du kan afmelde dig når som helst.",
-      "marketing_checkbox_label": "Send mig e-mails med nyheder og tilbud",
+      "marketing_checkbox_label": "Send mig e-mail med nyheder og tilbud",
       "marketing_checkmark_label": "Du er tilmeldt for at modtage nyheder og tilbud via e-mail",
       "returns": {
-        "ineligible_return_message": "Ingen varer i denne ordre er berettiget til returnering.",
-        "ineligible_return_message_when_returned": "Ingen yderligere varer i denne ordre er berettiget til returnering.",
-        "print_shipping_label": "Print forsendelsesetiket",
+        "ineligible_return_message": "Ingen varer i denne ordre kan returneres.",
+        "ineligible_return_message_when_returned": "Ingen yderligere varer i denne ordre kan returneres.",
+        "print_shipping_label": "Udskriv forsendelseslabel",
         "tracking_number": "Sporingsnummer:",
-        "exchange_header": "Byttevarer",
+        "exchange_header": "Byt varer",
         "exchange_subheader": "Byttevarer vil blive tilføjet til ordren, når returneringen er gennemført."
       },
       "shipping": {
         "method": "Forsendelsesmetode",
         "summary": "Forsendelse",
-        "free_shipping_discount": "Gratis fragt",
-        "subscription": "Abonnementsforsendelse"
+        "free_shipping_discount": "Gratis levering",
+        "subscription": "Abonnementsforsendelse",
+        "address": "Forsendelsesadresse",
+        "address_map_marker": "Forsendelsesadresse"
       },
       "pickup": {
         "pickup_location": "Afhentningssted"
@@ -3480,7 +3486,23 @@
       "adjusted_total": "Justeret total",
       "due_on_date": "Forfalden {{date}}",
       "due_on_fulfillment": "Forfald ved opfyldelse",
-      "due_on_receipt": "Forfald ved modtagelse"
+      "due_on_receipt": "Forfald ved modtagelse",
+      "contact_information": "Kontaktoplysninger",
+      "discount_order_stacking": {
+        "one": "Rabat ved bestilling",
+        "other": "Ordre rabatter"
+      },
+      "price_before_discount_accessibility_label": "Originalpris",
+      "price_after_discount_accessibility_label": "Nedsat pris",
+      "hide_items": "Skjul elementer",
+      "marketing_pending_confirmation": "Klik på linket i din e-mail for at bekræfte.",
+      "marketing_resend_email": "Send e-mail igen",
+      "marketing_resend_email_success": "Link sendt",
+      "total_savings": "Samlede besparelser",
+      "subtotal_label_with_quantity": {
+        "one": "Delsum",
+        "other": "Delsum · {{count}} varer"
+      }
     },
     "addresses": {
       "back_button_accessibility_label": "Tilbage til redigering af adresse {{address}}",
