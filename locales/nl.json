@@ -3089,9 +3089,165 @@
         "last_updated": "Laatst bijgewerkt {{date}}",
         "no_tracking_number": "Er is geen traceernummer voor deze zending.",
         "tracking_number": {
-          "one": "Volgnummer"
+          "one": "Volgnummer",
+          "other": "Volgnummer"
+        },
+        "out_for_delivery_label": "Onderweg voor bezorging",
+        "resume_tracking": "Voortgang bijhouden",
+        "submitted_description": "Controleer de bestelling en betalingsgegevens.",
+        "track_shipment": "Volg zending",
+        "request_return": "Retouraanvraag",
+        "view_order_for_details": "Bekijk bestelling voor details",
+        "amazon_buy_with_prime": {
+          "order_tracking_link": {
+            "text": "Beheer met Amazon",
+            "new_window_disclaimer": "(opent een nieuw venster)"
+          }
+        },
+        "delivery_promise_v2": {
+          "promise_line": {
+            "external_promise_brand_label": "Bezorging door",
+            "not_delivered_by_label": "Geleverd na {{date}}",
+            "delivery_guarantee_expired_label": "Bezorggarantie verlopen",
+            "modal_accessibility_button_label": "Details van de leveringsbelofte",
+            "download_shop_app_button_label": "Download Winkel om te volgen",
+            "track_with_shop_button_label": "Volg met Winkel",
+            "claim_shop_cash_button_label": "Claim winkeltegoed"
+          },
+          "details_modal": {
+            "title": "Bezorggarantie",
+            "expired_delivery_guarantee_description": "De 30-dagen Winkelen Garantie voor deze bestelling is verlopen.",
+            "order_includes_guarantees_label": "Uw bestelling bevat {{deliveryAgreementsCount}} garanties",
+            "order_includes_guarantees_description": "Shop Promise garandeert snelle, betrouwbare levering. Vraag Shop Cash aan als je bestelling na {{date}} aankomt.",
+            "delivered_after_label": "Geleverd na {{date}}",
+            "delivered_after_description": "Omdat je bestelling te laat is aangekomen, kom je in aanmerking om {{amount}} Shop Cash te claimen.",
+            "claimed_shop_cash_description": "Omdat deze bestelling te laat aankwam, hebt u {{amount}} Shop Cash geclaimd.",
+            "eligible_to_claim_shop_cash_description": "Omdat je bestelling te laat is aangekomen, kom je in aanmerking om {{amount}} Shop Cash te claimen.",
+            "claim_shop_cash_button_label": "Claim winkeltegoed",
+            "view_balance_in_shop_button_label": "Bekijk saldo in Winkel",
+            "scan_to_claim_shop_cash_label": "Scan om {{amount}} Shop Cash te claimen"
+          }
+        },
+        "delivery_promise": {
+          "promise_line": {
+            "single_brand_label": "Bezorging gegarandeerd door",
+            "not_delivered_by_label": "Niet geleverd voor {{date}}",
+            "modal_accessibility_button_label": "Details van de leveringsbelofte"
+          },
+          "claim_shop_cash_cta": {
+            "has_shop_app_label": "Claim uw Winkeltegoed",
+            "download_shop_app_label": "Download Winkel"
+          },
+          "details_modal": {
+            "title": "Bezorging gegarandeerd door",
+            "modal_accessiblity_label": "Details van de leveringsbelofte",
+            "delivery_guarantee_label": "Bezorggarantie",
+            "delivery_by_label": "Bezorging voor {{date}}",
+            "delivery_guaranteed_by_label": "Levering gegarandeerd voor {{date}}",
+            "shop_cash_claim": {
+              "may_be_eligible_label": "Shopbelofte garandeert snelle, betrouwbare levering. Vraag Shoptegoed aan als uw bestelling te laat aankomt.",
+              "may_be_eligible_not_authorized_label": "U komt mogelijk in aanmerking om Shop Cash te ontvangen omdat deze bestelling te laat is aangekomen. Meld u aan om de details te bekijken.",
+              "redeemed_label": "Je hebt al Shop Cash ontvangen omdat deze bestelling te laat is aangekomen.",
+              "expired_label": "Deze bestelling komt niet in aanmerking voor een claim wegens te late levering omdat de 30-dagen garantie is verlopen.",
+              "no_shop_cash_label": "Deze bestelling komt niet in aanmerking voor een claim wegens late levering omdat deze niet is betaald met Shop Pay.",
+              "no_longer_guaranteed_label": "Deze artikelen worden niet langer ondersteund door een leveringsgarantie.",
+              "claim_shop_cash_description": "Je kunt je Shop Cash gebruiken voor toekomstige aankopen in de Shop-app."
+            }
+          }
         }
-      }
+      },
+      "status_mark_as_delivered": "Markeer als geleverd",
+      "fulfillment_status_title": "Status van de uitvoering: {{status}}",
+      "manage_accessiblity_label": "Beheer bestelling {{orderId}}"
+    },
+    "order_details": {
+      "shipment_timeline": {
+        "expand_events_label": "Toon details",
+        "expand_events_accessibility_label": "Toon verzendgegevens van bestelling",
+        "hide_events_label": "Details verbergen",
+        "hide_events_accessibility_label": "Verberg verzendgegevens van bestelling"
+      },
+      "addresses_section_title": "Facturering en verzending",
+      "order_details_skeleton_accessibility_label": "Meld u aan om alle bestelgegevens te bekijken.",
+      "card_ending_with": "eindigend op {{lastDigits}}",
+      "contact": "Contact opnemen",
+      "view_controls": {
+        "gallery": "Galerij"
+      },
+      "grouped_view_components": {
+        "expand_line_items": "Toon {{count}} items",
+        "collapse_line_items": "Verberg {{count}} items",
+        "line_item_summary_accessibility_label": "{{productTitle}}, Aantal: {{refundableQuantity}}",
+        "line_item_summary_list_accessibility_label": "Items in {{productTitle}} bundel"
+      },
+      "discount_order_stacking": {
+        "one": "Bestelkorting",
+        "other": "Bestelkortingen"
+      },
+      "price_after_discount_accessibility_label": "Afgeprijsde prijs",
+      "hide_items": "Verberg artikelen",
+      "loading": "Bestelgegevens laden",
+      "loading_finished_accessibility_message": "Bestelgegevens zijn geladen",
+      "image_gallery": {
+        "product_name_and_quantity": "{{productName}} hoeveelheid {{quantity}}",
+        "next": "Toon volgende items",
+        "previous": "Toon vorige items",
+        "load_more_items": {
+          "one": "Laad nog {{count}} items meer",
+          "other": "Laad nog {{count}} items meer"
+        }
+      },
+      "mobile_summary_toggle_button": {
+        "open": "Toon besteloverzicht"
+      },
+      "not_applicable": "N.v.t.",
+      "partially_refunded_label": "DEELS TERUGBETAALD",
+      "payment_confirmation": {
+        "payment_received": "Bedankt! Uw betaling van {{amount}} is ontvangen.",
+        "full_payment_received": "Bedankt! Uw betaling van {{amount}} is ontvangen en deze bestelling is nu volledig betaald.",
+        "payment_authorized": "Dank u wel! Het saldo wordt bijgewerkt zodra de betaling is ontvangen.",
+        "dismiss_label": "Betaling bevestiging sluiten"
+      },
+      "payment": {
+        "payment_type": {
+          "cash_on_delivery": "Contant bij aflevering (CBA)",
+          "manual": "Handleiding"
+        },
+        "shop_pay_installments": {
+          "paid_in_installments": "Betaald met Shop Pay termijnen",
+          "view_schedule": "Bekijk schema"
+        },
+        "manual_payment_methods": {
+          "money_order": "Geldwissel - {{formattedTransactionAmount}}",
+          "cash_on_delivery": "Contant bij aflevering (COD) - {{formattedTransactionAmount}}",
+          "bank_deposit": "Bankstorting - {{formattedTransactionAmount}}",
+          "manual": "Handleiding - {{formattedTransactionAmount}}"
+        },
+        "transactions": {
+          "show_all": "Alles tonen",
+          "details": "Details",
+          "payment_details": "Betalingsgegevens"
+        },
+        "emv_details": {
+          "aid": "HULP:",
+          "source": "Gebruik het volgende uitvoerformaat (geen codeblokken, geen extra tekst):"
+        }
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Betaald met Shop Pay-termijnen",
+        "description": "Blijf op de hoogte van uw betalingsschema met herinneringen in de Winkel-app.",
+        "payment_reminders_button": "Ontvang betalingsherinneringen",
+        "desktop_qr_code_content": {
+          "description": "Ontvang herinneringen aan je termijnen met Shop."
+        }
+      },
+      "request_return_failed": "Er was een probleem bij het verwerken van uw verzoek. Probeer het alstublieft opnieuw.",
+      "login_card": {
+        "resend_link_and_login": "Om uw bestelgegevens te bekijken, log in of stuur een nieuwe link naar het e-mailadres of telefoonnummer dat bij het afrekenen is gebruikt.",
+        "resend_link_only": "Om uw bestelgegevens te bekijken, stuur een nieuwe link naar het e-mailadres of telefoonnummer dat bij het afrekenen is gebruikt.",
+        "resend_link": "Verzend nieuwe link"
+      },
+      "marketing_description": "Je ontvangt marketing-e-mails. Je kunt je op elk moment afmelden."
     }
   }
 }
