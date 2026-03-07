@@ -1819,22 +1819,23 @@
         "pick_up_next_day": "Klar för avhämtning nästa dag",
         "pickup_point_method_definition": "Skicka till upphämtningsställe",
         "retail_method_definition": "Detaljhandel leverans",
-        "company_location_no_address_banner": "Beställningar som skickas till platser utan adress kommer att skickas för granskning.",
+        "company_location_no_address_banner": "Beställningar som skickas till platser utan adress kommer att granskas.",
         "none_method_definition": "Ingen frakt",
-        "subscription_pickup_information": "Denna leveransmetod kommer att gälla för alla artiklar i denna beställning och för alla framtida beställningar för denna prenumeration.",
-        "pickup_point_map_title": "Karta över upphämtningsställen"
+        "subscription_pickup_information": "Denna leveransmetod kommer att gälla för alla varor i denna beställning och för alla framtida beställningar för denna prenumeration.",
+        "pickup_point_map_title": "Karta över upphämtningsställen",
+        "pick_up_in_two_to_four_hours": "Klar för avhämtning om 4 timmar"
       },
       "customer_account": {
         "save_my_information_label": "Spara denna information till nästa gång",
-        "invalid_address": "Det valda adressen är ogiltig. %{update_address_link} eller välj en annan adress.",
+        "invalid_address": "Den valda adressen är ogiltig. %{update_address_link} eller välj en annan adress.",
         "incomplete_address": "Den valda adressen är ofullständig. %{update_address_link} eller välj en annan adress.",
         "rollup_accessibility_label": "Kontoinställningar",
-        "invalid_shipping_method_summary": "Välj en giltig leveransadress för att se tillgängliga leveransmetoder"
+        "invalid_shipping_method_summary": "Välj en giltig leveransadress för att se tillgängliga leveranssätt"
       },
       "remote_merchandise_only": {
-        "remote_only_notice": "Dessa föremål säljs och skickas av andra butiker. Checkout hos varje butik för att slutföra ditt köp.",
+        "remote_only_notice": "Dessa varor säljs och skickas av andra butiker. Slutför köpet hos varje butik.",
         "return_to_store_label": "Återvänd till butiken",
-        "checkout_on_shop_label": "Slutför köpet på %{shop_name}",
+        "checkout_on_shop_label": "Slutför köp på %{shop_name}",
         "single_shop_transition": "Omdirigerar dig till %{advertiser} för att slutföra ditt köp."
       },
       "stock": {
@@ -1843,52 +1844,57 @@
         "items_unavailable_notice": "Vissa artiklar finns inte längre tillgängliga.",
         "quantity_column_header": "Antal",
         "removed_from_cart_notice": "Borttagen från kundvagnen",
-        "reduced_label": "Nedsatt",
+        "reduced_label": "Nedsatt pris",
         "reduced_with_quantity_label": "Endast %{quantity_available} kvar",
-        "remove_from_cart_button_label": "Ta bort från kundvagn",
+        "remove_from_cart_button_label": "Ta bort från kundvagnen",
         "go_back_to_cart_button_label": "Gå tillbaka till min kundvagn",
         "return_to_store_label": "Återvänd till butiken",
         "continue_cta_label": "Fortsätt till kassan",
         "empty_cart_label": "Din kundvagn är tom",
         "quantity_update": {
-          "page_title": "Uppdatering av kvantitet",
-          "title": "Uppdatering av kvantitet",
-          "description": "Tillgängliga kvantiteter för dessa artiklar har ändrats och uppdateras i din kundvagn."
+          "page_title": "Uppdatering av mängd",
+          "title": "Uppdatering av mängd",
+          "description": "Tillgängliga mängder för dessa artiklar har ändrats och uppdateras i din kundvagn."
         },
         "unpurchasable_product": {
-          "title": "Ej köpbar produkt",
-          "header": "Vissa artiklar togs bort från din kundvagn",
-          "message": "Dessa artiklar är inte tillgängliga för B2B-beställningar."
+          "title": "Produkten kan inte köpas",
+          "header": "Några varor togs bort från din kundvagn",
+          "message": "Dessa varor finns inte tillgängliga för företagsbeställningar.",
+          "status_column_header": "Ej tillgänglig"
         },
         "unpurchasable_product_generic": {
-          "title": "Ej köpbar produkt",
-          "header": "Vissa artiklar togs bort från din kundvagn",
-          "message": "Dessa artiklar finns inte tillgängliga."
+          "title": "Produkten kan inte köpas",
+          "header": "Några varor togs bort från din kundvagn",
+          "message": "Dessa artiklar finns inte tillgängliga.",
+          "status_column_header": "Ej tillgänglig"
         },
         "unfulfillable_product": {
           "message": {
-            "one": "%{delivery_method} är inte längre tillgängligt för denna vara.",
+            "one": "%{delivery_method} är inte längre tillgängligt för denna artikel.",
             "other": "%{delivery_method} är inte längre tillgängligt för dessa artiklar."
+          },
+          "default_message": {
+            "one": "Den valda leveransmetoden är inte längre tillgänglig för denna vara."
           }
         },
         "unshippable_product": {
           "message": {
             "one": "Den här varan kommer att tas bort från din kundvagn eftersom det inte finns några leveransmetoder tillgängliga för din adress.",
-            "other": "Dessa artiklar kommer att tas bort från din kundvagn eftersom det inte finns några leveransmetoder tillgängliga för din adress."
+            "other": "Dessa varor kommer att tas bort från din kundvagn eftersom det inte finns några leveransmetoder tillgängliga för din adress."
           }
         },
         "price_update": {
-          "description": "Priserna för dessa artiklar har ändrats och är uppdaterade i din kundvagn."
+          "description": "Priserna för dessa varor har ändrats och är uppdaterade i din kundvagn."
         },
         "price_and_quantity_update": {
-          "title": "Pris- och kvantitetsuppdatering",
-          "description": "Priser och tillgängliga kvantiteter för dessa artiklar har ändrats och uppdateras i din kundvagn."
+          "title": "Pris- och mängduppdatering",
+          "description": "Priser och tillgängliga mängder för dessa varor har ändrats och uppdateras i din kundvagn."
         },
         "out_of_stock": {
-          "description": "Dessa artiklar finns inte längre tillgängliga och har tagits bort från din kundvagn.",
-          "items_unavailable": "Vissa artiklar finns inte längre tillgängliga och har tagits bort från din kundvagn."
+          "description": "Dessa varor finns inte längre tillgängliga och har tagits bort från din kundvagn.",
+          "items_unavailable": "Vissa varor finns inte längre tillgängliga och har tagits bort från din kundvagn."
         },
-        "out_of_stock_in_context_label": "Denna produkt är inte tillgänglig i ditt land/region."
+        "out_of_stock_in_context_label": "Denna produkt finns inte tillgänglig i ditt land/din region."
       },
       "contextual_availability": {
         "title": {
@@ -1896,89 +1902,94 @@
           "other": "Otillgängliga produkter"
         },
         "products_not_available": {
-          "one": "Den här produkten kommer att tas bort från din kundvagn eftersom den inte är tillgänglig i ditt land/region.",
-          "other": "Dessa produkter kommer att tas bort från din kundvagn eftersom de inte är tillgängliga i ditt land/region."
+          "one": "Den här produkten kommer att tas bort från din kundvagn eftersom den inte finns tillgänglig i ditt land/område.",
+          "other": "Dessa produkter kommer att tas bort från din kundvagn eftersom de inte finns tillgängliga i ditt land/område."
         },
         "all_products_in_cart_unavailable": {
-          "one": "Denna produkt är inte tillgänglig i ditt land/region.",
-          "other": "Dessa produkter är inte tillgängliga i ditt land/region."
+          "one": "Denna produkt finns inte tillgänglig i ditt land/din region.",
+          "other": "Dessa produkter finns inte tillgängliga i ditt land/din region."
         },
         "unavailable_label": "Ej tillgänglig"
       },
       "merchandise_unavailable_in_buyer_location": {
         "banner_title": {
-          "some_products_one": "Denna produkt finns inte tillgänglig för leverans till %{location_name}.",
+          "some_products_one": "Denna produkt kan inte levereras till %{location_name}.",
           "some_products_other": "Dessa produkter finns inte tillgängliga för leverans till %{location_name}.",
           "all_products_one": "Produkten i din kundvagn kan inte levereras till %{location_name}.",
-          "all_products_other": "Produkterna i din kundvagn kan inte levereras till %{location_name}."
+          "all_products_other": "Produkterna i din kundvagn finns inte tillgängliga för leverans till %{location_name}."
         },
         "cart_updated": "Din kundvagn har uppdaterats.",
         "change_address_only": "Byt leveransadress för att fortsätta.",
         "change_address_or_remove": "Byt leveransadress eller %{remove_action}.",
-        "empty_cart_action": "töm kundvagnen och återgå till butiken"
+        "empty_cart_action": "töm kundvagnen och återgå till butiken",
+        "remove_items_action": {
+          "one": "ta bort otillgänglig vara"
+        }
       },
       "deliverability": {
         "not_deliverable": {
           "message": {
             "one": "Den här varan kommer att tas bort från din kundvagn eftersom det inte finns några leveransmetoder tillgängliga för din adress.",
-            "other": "Dessa artiklar kommer att tas bort från din kundvagn eftersom det inte finns några leveransmetoder tillgängliga för din adress."
+            "other": "Dessa varor kommer att tas bort från din kundvagn eftersom det inte finns några leveransmetoder tillgängliga för din adress."
           }
         }
       },
       "order_summary": {
         "title": "Orderöversikt",
         "view_all_items": {
-          "other": "Visa alla %{count} föremål"
+          "other": "Visa alla %{count} artiklar",
+          "one": "Visa %{count} objekt"
         },
         "more_items_modal": {
           "clear_search": "Rensa sökning",
           "empty_results": "Inga resultat hittades för \"%{searchText}\". Kontrollera stavningen eller använd ett annat ord eller uttryck.",
-          "number_items_shown": "%{shownNumber} av %{totalNumber} föremål"
+          "number_items_shown": "%{shownNumber} av %{totalNumber} artiklar"
         },
         "order_name_label": "Beställ %{name}",
-        "shopping_cart_label": "Shoppingvagn",
+        "shopping_cart_label": "Varukorg",
         "discount_not_found": "Det gick inte att hitta någon giltig rabatt som matchar den angivna koden",
         "discount_code_applied": "Rabattkod tillämpad",
-        "discount_code_applied_with_code": "Rabattkod %{code} har tillämpats",
-        "discount_code_replaced": "Rabattkod %{old_code} borttagen och %{code} har tillämpats",
+        "discount_code_applied_with_code": "Rabattkoden %{code} har tillämpats",
+        "discount_code_replaced": "Rabattkoden %{old_code} har tagits bort och %{code} har tillämpats",
         "discount_code_allocations_mismatch": "Din <strong style=\"text-transform:uppercase\">%{code}</strong> rabattkod har ändrats. Granska din kundvagn och försök igen.",
-        "order_discounts_apply_to_local_shop": "Beställningsrabatter gäller endast för varor från %{shop_name}",
+        "order_discounts_apply_to_local_shop": "Rabatter vid beställning gäller endast för varor från %{shop_name}",
         "gift_card_applied": "Presentkort tillämpat",
         "gift_cards_apply_to_local_shop": "Presentkort gäller endast för varor från %{shop_name}",
         "add_discount_or_gift_card": "Lägg till en rabattkod eller presentkort",
-        "remove_gift_card_label": "Rensa presentkort",
+        "remove_gift_card_label": "Tydligt presentkort",
         "return_restocking_fee_label": "påfyllningsavgift",
         "free_shipping_discount_label": "Fri frakt",
-        "apply_discount_button_label": "Verkställ",
+        "apply_discount_button_label": "Använd",
         "applied_discount_message": "%{amount} rabatt på totalorderpriset",
         "discount_has_been_applied": "Rabatt har tillämpats",
         "gift_card_has_been_applied": "Presentkort har använts",
         "gift_card_has_been_removed": "Presentkort har tagits bort",
         "gift_card_subscriptions_notice": "Presentkort gäller endast för din första betalning",
-        "discount_already_applied": "En rabatt har tillämpats på denna beställning. Du kan inte lägga till en annan rabatt.",
+        "discount_already_applied": "En rabatt har tillämpats på denna beställning. Du kan inte lägga till en ytterligare rabatt.",
         "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> rabattkod är inte giltig för varorna i din kundvagn",
         "discount_requires_customer_notice": "Ange din leveransinformation för att använda rabattkoden <strong style=\"text-transform:uppercase\">%{code}</strong>",
         "customer_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> rabattkod är inte tillgänglig för dig just nu",
         "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> rabattkod kräver berättigad kund",
         "shipping_information_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> rabattkod är inte tillgänglig för din leveransadress",
-        "pickup_label": "Upphämtning i butik",
-        "no_pickup_location": "Det finns inga upphämtningsplatser tillgängliga.",
+        "pickup_label": "Hämta i butik",
+        "no_pickup_location": "Det finns inga upphämtningsställen tillgängliga.",
         "pickup_unavailable_banner_title": {
-          "other": "Inga butiker tillgängliga med dina varor"
+          "other": "Inga butiker tillgängliga med dina varor",
+          "one": "Inga butiker har din vara tillgänglig"
         },
         "pickup_unavailable_banner_title_with_country": {
           "one": "Inga butiker tillgängliga i %{country} med din vara",
           "other": "Inga butiker tillgängliga i %{country} med dina varor"
         },
         "pickup_unavailable_banner_body": {
-          "ship_to_address": "Leveransadress"
+          "ship_to_address": "Skicka till adress"
         },
         "calculating_shipping": "Beräknar…",
         "calculating": "Beräknar…",
-        "shipping_discount_title": "Frakt Rabatt",
+        "shipping_discount_title": "Fraktavdrag",
         "estimated_taxes_label_short": "Beräknad",
         "estimated_taxes_finalization_tooltip_content_short": "Skatt fastställd efter betalning",
-        "order_total_label": "Ordertotal",
+        "order_total_label": "Orderbelopp",
         "price_before_discount_aria_text": "Originalpris",
         "total_due_label": "Totalt att betala",
         "total_paid_label": "Totalt betalt",
@@ -1986,8 +1997,8 @@
         "total_outstanding_label": "Belopp att betala",
         "total_due_today_label": "Totalt att betala idag",
         "total_due_later_label": "Totalt att betala senare",
-        "payment_due_label": "Betalning förfaller",
-        "cost_table_title": "Kostnadssammanfattning",
+        "payment_due_label": "Betalning förfallen",
+        "cost_table_title": "Kostnadsöversikt",
         "price_per_item": {
           "accessibility_label": "%{price} per styck",
           "label": "%{price}/st"
@@ -2003,26 +2014,26 @@
         "unit_price": {
           "per_item": {
             "single": "%{price} styck",
-            "one": "%{price} per %{count} styck",
-            "other": "%{price} per %{count} stycken"
+            "one": "%{price} per %{count} artikel",
+            "other": "%{price} per %{count} artiklar"
           }
         },
         "multiple_shipping_lines_label": "Frakt totalt",
         "recurring_total_tooltip": "Inkluderar inte frakt, skatt, tullavgifter eller eventuella tillämpliga rabatter.",
         "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> kunde inte användas tillsammans med dina befintliga rabatter.",
-        "percent_off_shipping": "%{percent}% rabatt på frakten",
-        "amount_off_shipping": "%{amount} rabatt på frakten",
+        "percent_off_shipping": "%{percent}% rabatt på frakt",
+        "amount_off_shipping": "%{amount} rabatt på frakt",
         "deferred_payment_info": {
           "title": "Betalning av %{amount_due} förfaller den %{due_at}",
           "description_html": "För frågor om din beställning, %{contact_us}.",
-          "paid_today": "Totalt betalat idag",
-          "paid_today_next": "Betald idag",
-          "due_on_fulfillment_title": "Betalning av %{amount_due} ska ske vid leverans",
+          "paid_today": "Totalt betalt idag",
+          "paid_today_next": "Betalat idag",
+          "due_on_fulfillment_title": "Betalning av %{amount_due} förfaller vid leverans",
           "due_on_receipt_title": "Betalning av %{amount_due} ska ske vid mottagandet"
         },
         "deferred_balance_info": {
           "title": "Saldo på {{amount_due}} förfaller den {{due_at}}",
-          "due_on_fulfillment_title": "Saldo på {{amount_due}} ska betalas vid leverans"
+          "due_on_fulfillment_title": "Saldo på {{amount_due}} förfaller vid fullgörande"
         },
         "payment_terms_totals": {
           "due_today": "Totalt att betala idag",
@@ -2030,23 +2041,32 @@
           "due_later": "Totalt att betala %{due_at}",
           "due_on_fulfillment": "Totalt att betala vid leverans",
           "due_on_fulfillment_next": "Förfallodag vid fullgörande",
-          "due_on_receipt": "Totalt att betala vid mottagande",
+          "due_on_receipt": "Totalt att betala vid mottagandet",
           "due_later_checkout_to_draft": "Totalt att betala senare",
           "total_paid": "Totalt betalt"
         },
-        "maximum_discount_code_limit_reached": "Du har nått det högsta antalet rabattkoder. Ta bort en befintlig kod för att använda <strong style=\"text-transform:uppercase\">%{code}</strong>.",
+        "maximum_discount_code_limit_reached": "Du har nått det maximala antalet rabattkoder. Ta bort en befintlig kod för att använda <strong style=\"text-transform:uppercase\">%{code}</strong>.",
         "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> fungerar inte just nu. Kontakta oss för hjälp.",
         "due_on_fulfillment": "Förfallodag vid fullgörande",
-        "duties_label": "Tullar",
+        "duties_label": "Skyldigheter",
         "recurring_total_multiple_label": "Denna beställning har en återkommande avgift för flera artiklar.",
         "deferred_total_due_date_label": "Totalt att betala {{date}}",
         "full_price": "Fullt pris: %{price}",
         "custom_discount": "Anpassad rabatt",
         "collapse_component_information": {
-          "other": "Dölj %{count} föremål"
+          "other": "Dölj %{count} artiklar",
+          "one": "Dölj %{count} objekt"
         },
         "alternative_payment_currency_total": "Debiterad %{amount_due}",
-        "discount_applies_to_subscription_items_only": "Denna rabatt gäller endast för prenumerationsartiklar"
+        "discount_applies_to_subscription_items_only": "Denna rabatt gäller endast för prenumerationsvaror",
+        "discount_order_stacking": {
+          "other": "Beställningsrabatter"
+        },
+        "tip_label": "Tips",
+        "shipping_default_value": "Beräknas i nästa steg",
+        "product_change_label": "Byt",
+        "recurring_total_label": "Återkommande totalbelopp",
+        "deferred_total_due_date_label_next": "Förfallodag %{date}"
       },
       "shipping": {
         "shipping_method_rollup_accessibility_label": "Fraktmetodsalternativ",
@@ -2058,14 +2078,14 @@
         "subscription_local_delivery": "Prenumeration lokal leverans",
         "subscription_pickup": "Prenumerationsupphämtning",
         "waiting_on_rate_notice": "Hämtar tillgängliga fraktpriser…",
-        "waiting_on_pickup_location_notice": "Hämtplatser som blir tillgängliga…",
-        "no_rates_for_cart_or_destination_notice": "Det finns inga fraktmetoder tillgängliga för din kundvagn eller adress",
+        "waiting_on_pickup_location_notice": "Hämtplatser som finns tillgängliga laddas…",
+        "no_rates_for_cart_or_destination_notice": "Det finns inga leveransmetoder tillgängliga för din kundvagn eller adress",
         "no_pickup_location_notice": "Minst en av dina produkter finns inte tillgänglig för upphämtning",
         "no_rates_contact_notice": "Kontakta oss för mer information",
         "cheapest_rate_label": "Billigast",
-        "delivery_today": "Samma dag leverans %{time}",
+        "delivery_today": "Leverans samma dag %{time}",
         "delivery_tomorrow": "Leverans nästa dag %{time}",
-        "arrives_time_range": "Levereras %{min_time}–%{max_time}",
+        "arrives_time_range": "Levereras om %{min_time}–%{max_time}",
         "estimated_time": "Beräknad %{time}",
         "estimated_time_range": "Beräknad %{min_time}–%{max_time}",
         "default_description": "Skickas inom 1 arbetsdag",
@@ -2074,7 +2094,7 @@
         "shipping_line_phone": "Din budbärare kan använda detta nummer för att kontakta dig.",
         "shipping_line_delivery_phone_label": "Mobiltelefonnummer",
         "shipping_line_delivery_phone": "Du kan bli kontaktad med uppdateringar om din leverans.",
-        "shipping_line_delivery_instructions": "Ange nödvändig information som dörrkoder eller instruktioner för avlämning.",
+        "shipping_line_delivery_instructions": "Ange nödvändig information som dörrkoder eller lämninginstruktioner.",
         "other_method": {
           "zero": "Inga andra metoder tillgängliga",
           "one": "%{count} annan metod tillgänglig på",
@@ -2108,7 +2128,7 @@
           },
           "subscription_delivery_frequency": {
             "day": {
-              "other": "varje %{count} dagar"
+              "other": "var %{count}:e dag"
             },
             "week": {
               "other": "varje %{count} veckor"
@@ -2137,9 +2157,9 @@
             "other": "För de första %{count} beställningarna"
           }
         },
-        "one_time_purchase_shipping": "Engångsfrakt",
+        "one_time_purchase_shipping": "Engångsleverans",
         "shipping_information_required_notice": "Fraktinformation krävs. {{link}}.",
-        "shipping_information_redirect_link": "Ange din information här",
+        "shipping_information_redirect_link": "Ange dina uppgifter här",
         "loading_progressive_rates": "Söker efter fler priser…",
         "no_other_methods_available": "Inga andra metoder tillgängliga",
         "duties_and_taxes_options": {
@@ -2147,15 +2167,15 @@
           "ddp_caption": "Inga extra avgifter vid leverans"
         },
         "shipping_used_as_billing_notice": "Detta kommer också att användas som din faktureringsadress för denna beställning.",
-        "shipping_address_title": "Skickas till",
-        "shipping_address_rollup_accessibility_label": "Fraktalternativ till adress",
+        "shipping_address_title": "Skicka till",
+        "shipping_address_rollup_accessibility_label": "Leveransadressalternativ",
         "third_party_address_timeout": "Det gick inte att ladda adresser. Försök igen eller använd en annan adress.",
-        "third_party_address_error": "Ett fel uppstod vid inläsning av adressval. Ange din adress manuellt nedan.",
+        "third_party_address_error": "Ett fel uppstod vid inläsning av adressvalet. Ange din adress manuellt nedan.",
         "third_party_payment_timeout": "Det gick inte att ladda betalningsmetoder. Försök igen eller använd en annan betalningsmetod.",
         "third_party_payment_error": "Ett fel uppstod vid inläsning av betalningsvalet. Använd en annan betalningsmetod.",
-        "delete": "Ta bort",
+        "delete": "Radera",
         "address_more": "Fler åtgärder för denna adress",
-        "address_confirm": "Är du säker på att du vill ta bort den här adressen från ditt konto?",
+        "address_confirm": "Är du säker på att du vill ta bort denna adress från ditt konto?",
         "address_form": {
           "generic_error": "Det uppstod ett problem när din adress skulle sparas. Försök igen.",
           "one_time_address_subtitle": "Använd en engångsadress för denna beställning"
@@ -2167,16 +2187,31 @@
         "split_shipping_merchandise_quantity_label_additional": "+%{quantity} till",
         "split_shipping_merchandise_shipment_number": "Sändning %{number} av %{total}",
         "pre_order_ships_now": "Skickas nu",
-        "pre_order_ships_later": "Skickas senare",
-        "pre_order_ships_date": "Skickas %{date}",
+        "pre_order_ships_later": "Levereras senare",
+        "pre_order_ships_date": "Levereras %{date}",
         "split_shipping_shipment_notice": "Din beställning kommer att anlända om %{quantity_shipments}",
-        "split_shipping_first_shipment_notice": "Din första beställning kommer att anlända om %{quantity_shipments}",
-        "split_shipping_multiple_shipment_notice": "Din beställning kommer att levereras i flera leveranser",
+        "split_shipping_first_shipment_notice": "Din första beställning kommer att anlända i %{quantity_shipments}",
+        "split_shipping_multiple_shipment_notice": "Din beställning kommer att levereras i flera omgångar",
         "split_shipping_multiple_shipment_notice_one_time_purchase": "Din beställning kommer att levereras i %{quantity} leveranser",
         "split_shipping_more_shipping_options": "Fler fraktalternativ",
         "split_shipping_shipment_number": "Sändning %{number}",
         "split_shipping_merchandise_quantity_label_inline_primary": "Antal: %{quantity}",
-        "split_shipping_option_recommended": "Rekommenderad"
+        "split_shipping_option_recommended": "Rekommenderad",
+        "arrives_time": "Anländer %{time}",
+        "unbranded_description_same_day": "Skickas samma arbetsdag",
+        "unbranded_description_with_fulfillment_days": {
+          "other": "Levereras inom %{count} arbetsdagar"
+        },
+        "unbranded_description_with_fulfillment_weeks": {
+          "one": "Levereras om %{count} vecka",
+          "other": "Levereras inom %{count} veckor"
+        },
+        "address_delete": "Ta bort adress",
+        "method_summary": {
+          "incomplete_address_entered": "Ange en fullständig leveransadress för att se tillgängliga leveranssätt",
+          "incomplete_address_selected": "Välj en fullständig leveransadress för att se tillgängliga leveranssätt"
+        },
+        "split_shipping_shipped_by_shop": "Skickat av %{shop_name}"
       },
       "localized_fields": {
         "additional_information": {
