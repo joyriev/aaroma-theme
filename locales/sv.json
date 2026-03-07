@@ -721,21 +721,24 @@
       "humanize": {
         "lessThanOneWeekAgo": "{{weekday}} klockan {{time}}",
         "yesterday": "Igår kl {{time}}",
-        "today": "Idag klockan {{time}}",
+        "today": "Idag kl {{time}}",
         "tomorrow": "Imorgon klockan {{time}}",
-        "lessThanOneWeekAway": "{{weekday}} klockan {{time}}"
+        "lessThanOneWeekAway": "{{weekday}} klockan {{time}}",
+        "lessThanOneHourAgo": {
+          "other": "för {{count}} minuter sedan"
+        }
       }
     },
-    "enable_javascript": "För att visa ditt konto, aktivera JavaScript i dina webbläsarinställningar eller logga in med en annan webbläsare.",
+    "enable_javascript": "För att se ditt konto, aktivera JavaScript i webbläsarens inställningar eller logga in med en annan webbläsare.",
     "navigation_and_structure": {
       "account_menu": {
         "hide_accessibility_label": "Dölj kontomenyn"
       },
-      "contact_email_subject": "Kontakt från {{shopName}} nätbutik",
+      "contact_email_subject": "Kontakt från {{shopName}} onlinebutik",
       "delete_confirmation": {
-        "delete": "Ta bort"
+        "delete": "Radera"
       },
-      "loading_policy_content_accessibility_label": "Laddar policys innehåll",
+      "loading_policy_content_accessibility_label": "Läser in policyns innehåll",
       "logout_overlay_label": "Loggar ut...",
       "orders_link_label": "Beställningar",
       "shop_logo_accessibility_label": "{{shopName}} logotyp",
@@ -743,7 +746,12 @@
       "location_switcher_toast_message": "Plats ändrad till {{locationName}}",
       "try_new_search": "Prova en ny sökning",
       "view_details": "Visa detaljer",
-      "skip_to_content": "Hoppa till innehåll"
+      "skip_to_content": "Hoppa till innehåll",
+      "close_menu_accessibility_label": "Stäng huvudmenyn",
+      "contact_link": "Kontaktuppgifter",
+      "loading_message": "Läser in",
+      "policy_load_error": "Kunde inte ladda {{policyName}}",
+      "open_menu_accessibility_label": "Öppna huvudmenyn"
     },
     "announcement_bar": {
       "expand_label": "Expandera meddelandefältet",
@@ -756,11 +764,12 @@
         "email_help_text": "E-post kan inte redigeras",
         "editable_email_help_text": "Denna e-post används för inloggning och orderuppdateringar.",
         "errors": {
-          "name_too_long": "{{fieldName}} är för långt (maximalt är 255 tecken)",
-          "name_cannot_contain_url": "{{fieldName}} kan inte innehålla webbadress",
-          "name_cannot_contain_html_tags": "{{fieldName}} kan inte innehålla HTML-taggar",
-          "email_cant_be_blank": "E-post kan inte vara tom"
-        }
+          "name_too_long": "{{fieldName}} är för långt (maximalt 255 tecken)",
+          "name_cannot_contain_url": "{{fieldName}} får inte innehålla URL",
+          "name_cannot_contain_html_tags": "{{fieldName}} får inte innehålla HTML-taggar",
+          "email_cant_be_blank": "E-post får inte vara tom"
+        },
+        "phone_number_help_text": "Telefonnumret kan inte ändras"
       },
       "verify_new_email_modal": {
         "title": "Verifiera e-post",
@@ -769,7 +778,8 @@
         "email_resend_button_accessibility_label": "Skicka verifieringskoden igen",
         "verify_button_accessibility_label": "Verifiera engångslösenordet",
         "email_resend_button_success_toast_message": "Verifieringskod skickad",
-        "email_resend_button_error_banner_message": "Kunde inte skicka verifieringskod"
+        "email_resend_button_error_banner_message": "Kunde inte skicka verifieringskod",
+        "email_resend_button_failure_banner_message": "Kunde inte skicka verifieringskod"
       },
       "email_update_success_modal": {
         "title": "Verifiera e-post",
@@ -779,11 +789,12 @@
       "email_update_confirmation_message": "E-post uppdaterad till {{email}}",
       "people": {
         "pagination": {
-          "load_more": "Ladda mer",
+          "load_more": "Ladda fler",
           "load_more_accessibility_label": "Ladda fler personer",
           "loading_accessibility_label": "Laddar personer"
         }
-      }
+      },
+      "loading_finished_accessibility_message": "Kontoinformation har laddats in"
     },
     "orders": {
       "list_layout_accessibility_label": "Layoutalternativ",
@@ -791,34 +802,34 @@
       "list_title_with_pending_orders": "Beställningar:",
       "list_title_confirmed_orders_accessibility_label": "Beställningar: bekräftade",
       "list_title_pending_orders_accessibility_label": "Beställningar: väntande",
-      "switch_order_type_pending_orders_accessibility_label": "Byt ordertyp, visar för närvarande väntande ordrar",
+      "switch_order_type_pending_orders_accessibility_label": "Byt ordertyp, visar för närvarande väntande beställningar",
       "switch_order_type_confirmed_orders_accessibility_label": "Byt ordertyp, visar för närvarande bekräftade beställningar",
       "order_list": {
         "column_headers": {
           "order": "Beställning"
         },
-        "empty_state_order_source_description": "Endast beställningar gjorda av {{email}} kommer att visas här.",
+        "empty_state_order_source_description": "Endast beställningar gjorda av {{email}} visas här.",
         "empty_state_subtitle": "Gå till butiken för att lägga en beställning.",
-        "empty_state_title": "Inga beställningar än",
+        "empty_state_title": "Inga beställningar än så länge",
         "empty_state_with_location_title": "Inga beställningar för {{locationName}}",
         "empty_state_title_for_pending_orders": "Inga väntande beställningar",
-        "no_order_banner": "För att testa din tillägg på sidan Orderstatus, skapa en order.",
-        "estimated_shortform": "Grundat {{date}}",
+        "no_order_banner": "För att testa din tillägg på sidan för orderstatus, skapa en beställning.",
+        "estimated_shortform": "Upprättat {{date}}",
         "estimated_delivery": "Förväntad {{date}}",
-        "one_images_accessibility_label": "Beställningen innehåller {{lineItemName1}}",
-        "two_images_accessibility_label": "Beställningen innehåller {{lineItemName1}}, {{lineItemName2}}",
-        "three_images_accessibility_label": "Beställningen innehåller {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}",
-        "four_images_accessibility_label": "Beställningen innehåller {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}, {{lineItemName4}}",
-        "more_than_three_products_accessibility_label": "Beställningen innehåller {{lineItemName1}}, {{lineItemName2}} och {{numberOfAdditionalProducts}} ytterligare produkter",
-        "more_than_four_products_accessibility_label": "Beställningen innehåller {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}} och {{numberOfAdditionalProducts}} ytterligare produkter",
+        "one_images_accessibility_label": "Beställningen inkluderar {{lineItemName1}}",
+        "two_images_accessibility_label": "Beställningen inkluderar {{lineItemName1}}, {{lineItemName2}}",
+        "three_images_accessibility_label": "Beställningen inkluderar {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}",
+        "four_images_accessibility_label": "Beställningen inkluderar {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}, {{lineItemName4}}",
+        "more_than_three_products_accessibility_label": "Beställningen innehåller {{lineItemName1}}, {{lineItemName2}} och {{numberOfAdditionalProducts}} fler produkter",
+        "more_than_four_products_accessibility_label": "Beställningen inkluderar {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}} och {{numberOfAdditionalProducts}} fler produkter",
         "carousel": {
-          "one_products_accessibility_label": "Beställningen innehåller {{lineItemName1}} antal {{lineItemQuantity1}}",
-          "two_products_accessibility_label": "Beställningen innehåller {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}",
-          "three_products_accessibility_label": "Beställningen innehåller {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}, {{lineItemName3}} antal {{lineItemQuantity3}}",
-          "four_products_accessibility_label": "Beställningen innehåller {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}, {{lineItemName3}} antal {{lineItemQuantity3}}, {{lineItemName4}} antal {{lineItemQuantity4}}",
+          "one_products_accessibility_label": "Beställningen inkluderar {{lineItemName1}} antal {{lineItemQuantity1}}",
+          "two_products_accessibility_label": "Beställningen inkluderar {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}",
+          "three_products_accessibility_label": "Beställningen inkluderar {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}, {{lineItemName3}} antal {{lineItemQuantity3}}",
+          "four_products_accessibility_label": "Beställningen inkluderar {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}, {{lineItemName3}} antal {{lineItemQuantity3}}, {{lineItemName4}} antal {{lineItemQuantity4}}",
           "five_products_accessibility_label": "Beställningen innehåller {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}, {{lineItemName3}} antal {{lineItemQuantity3}}, {{lineItemName4}} antal {{lineItemQuantity4}}, {{lineItemName5}} antal {{lineItemQuantity5}}",
-          "six_products_accessibility_label": "Beställningen innehåller {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}, {{lineItemName3}} antal {{lineItemQuantity3}}, {{lineItemName4}} antal {{lineItemQuantity4}}, {{lineItemName5}} antal {{lineItemQuantity5}}, {{lineItemName6}} antal {{lineItemQuantity6}}",
-          "six_and_more_products_accessibility_label": "Beställningen innehåller {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}, {{lineItemName3}} antal {{lineItemQuantity3}}, {{lineItemName4}} antal {{lineItemQuantity4}}, {{lineItemName5}} antal {{lineItemQuantity5}}, {{lineItemName6}} antal {{lineItemQuantity6}} och mer"
+          "six_products_accessibility_label": "Beställningen inkluderar {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}, {{lineItemName3}} antal {{lineItemQuantity3}}, {{lineItemName4}} antal {{lineItemQuantity4}}, {{lineItemName5}} antal {{lineItemQuantity5}}, {{lineItemName6}} antal {{lineItemQuantity6}}",
+          "six_and_more_products_accessibility_label": "Beställningen inkluderar {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}, {{lineItemName3}} antal {{lineItemQuantity3}}, {{lineItemName4}} antal {{lineItemQuantity4}}, {{lineItemName5}} antal {{lineItemQuantity5}}, {{lineItemName6}} antal {{lineItemQuantity6}} och mer"
         },
         "no_filtered_results_description": "Ta bort eller justera filter för att se dina beställningar",
         "order_link": "Visa beställning {{name}}",
@@ -827,7 +838,7 @@
           "nav_accessibility_label": "Navigeringsknappar för beställningar",
           "next_accessibility_label": "Nästa beställningar",
           "previous_accessibility_label": "Tidigare beställningar",
-          "load_more": "Ladda mer",
+          "load_more": "Ladda fler",
           "load_more_accessibility_label": "Ladda fler beställningar"
         },
         "order_status_message": {
@@ -845,13 +856,13 @@
             "overdue": "Betalning förfallen",
             "due": "Betalning förfaller {{date}}",
             "due_today": "Betalning förfaller idag",
-            "due_without_date": "Betalning förfaller",
-            "due_on_fulfillment": "Betalning förfaller vid leverans",
+            "due_without_date": "Betalning förfallen",
+            "due_on_fulfillment": "Betalning vid leverans",
             "payment_not_due": "Betalning inte förfallen än"
           },
           "list_view": {
             "overdue": "Försenad",
-            "due_without_date": "Förfallen",
+            "due_without_date": "Förfallodag",
             "due_on_fulfillment": "Förfallodag vid fullgörande",
             "payment_not_due": "Inte förfallen än"
           }
@@ -868,14 +879,14 @@
             "descending": "Ordernummer (högst till lägst)"
           },
           "order_total": {
-            "ascending": "Ordertotal (lågt till högt)",
-            "descending": "Ordertotal (hög till låg)"
+            "ascending": "Order totalt (lågt till högt)",
+            "descending": "Ordertotal (störst till minst)"
           }
         },
         "filter": {
           "clear_section": "Rensa avsnittet",
           "clear_all": "Rensa allt",
-          "apply": "Verkställ",
+          "apply": "Använd",
           "date": {
             "title": "Beställningsdatum",
             "today": "Idag",
@@ -887,20 +898,21 @@
           }
         },
         "view_order": "Visa beställning",
-        "view_order_accessibility_label": "Visa beställning {{orderName}}"
+        "view_order_accessibility_label": "Visa beställning {{orderName}}",
+        "delivered": "Levererat {{date}}"
       },
       "order_status": {
         "attempted_delivery_label": "Försökt leverans",
-        "ready_for_pickup_description": "Dessa artiklar är klara för avhämtning. Vänligen ta med din orderbekräftelse när du hämtar din beställning.",
-        "ready_for_pickup_location": "Din beställning är klar för upphämtning på platsen",
-        "picked_up_label": "Upphämtad",
+        "ready_for_pickup_description": "Dessa varor är klara för avhämtning. Vänligen ta med din orderbekräftelse när du hämtar din beställning.",
+        "ready_for_pickup_location": "Din beställning är klar för avhämtning på platsen",
+        "picked_up_label": "Hämtad",
         "canceled_title": "Din beställning har avbrutits",
-        "come_back": "Kom tillbaka till den här sidan för uppdateringar om statusen för din leverans.",
+        "come_back": "Kom tillbaka till den här sidan för uppdateringar om ditt försändelsestatus.",
         "confirmed_title": "Din beställning är bekräftad",
-        "confirmed_description_pickup": "Du kommer att få ett e-postmeddelande när din beställning är klar för upphämtning.",
+        "confirmed_description_pickup": "Du kommer att få ett e-postmeddelande när din beställning är klar för avhämtning.",
         "confirmed_description_digital": "Du kommer att få ett e-postmeddelande när din beställning är klar.",
-        "confirmed_description_gift_card_text": "Du kommer att få ett sms när din beställning är klar.",
-        "complete_label": "Fullständig",
+        "confirmed_description_gift_card_text": "Du får ett sms när din beställning är klar.",
+        "complete_label": "Färdigställ",
         "delivered_description_gift_card": {
           "other": "Presentkort skickades via e-post."
         },
@@ -917,25 +929,26 @@
           "other": "Presentkort skickades om"
         },
         "gift_resend_failure": {
-          "one": "Det uppstod ett problem med att skicka om ditt presentkort. Försök igen eller kontakta oss."
+          "one": "Det uppstod ett problem när vi försökte skicka ditt presentkort igen. Försök igen eller kontakta oss.",
+          "other": "Det uppstod ett problem när vi försökte skicka dina presentkort igen. Försök igen eller kontakta oss."
         },
         "confirmed_gift_card_additional_description": {
-          "one": "Presentkortet kommer att skickas i ett separat e-postmeddelande."
+          "one": "Presentkortet kommer att skickas i ett separat mejl."
         },
         "confirmed_gift_card_additional_description_text": {
           "one": "Presentkortet kommer att skickas i ett separat meddelande.",
-          "other": "Varje presentkort kommer att skickas i ett separat meddelande."
+          "other": "Varje presentkort skickas i ett separat meddelande."
         },
         "status_timestamp": "Uppdaterad {{date}}",
         "estimated_delivery": "Förväntad {{date}}",
         "expected_by": "Förväntas den {{date}}",
-        "was_expected_by": "Förväntad senast {{date}}",
+        "was_expected_by": "Förväntades den {{date}}",
         "delivered": "Anlände {{date}}",
-        "buy_with_prime_logo_accessibility_label": "Amazon Buy with Prime-logotyp",
+        "buy_with_prime_logo_accessibility_label": "Amazon Köp med Prime-logotyp",
         "in_review_title": "Din beställning granskas",
         "last_updated": "Senast uppdaterad {{date}}",
         "multiple_statuses_label": "Flera orderstatusar",
-        "out_for_delivery_label": "Utleverans pågår",
+        "out_for_delivery_label": "Utlevereras",
         "submitted_label": "Inlämnad",
         "submitted_description": "Granska beställning och betalningsuppgifter.",
         "track_shipment": "Spåra försändelse",
@@ -951,33 +964,35 @@
             "external_promise_brand_label": "Leverans av",
             "not_delivered_by_label": "Levereras efter {{date}}",
             "modal_accessibility_button_label": "Detaljer om leveranslöfte",
-            "track_with_shop_button_label": "Spåra med Shop",
-            "claim_shop_cash_button_label": "Kräv Shop Cash"
+            "track_with_shop_button_label": "Spåra med Butik",
+            "claim_shop_cash_button_label": "Lös in butikskredit",
+            "download_shop_app_button_label": "Ladda ner butik för att följa"
           },
           "details_modal": {
-            "expired_delivery_guarantee_description": "Denna beställnings 30-dagars Shop Promise-garanti har gått ut.",
+            "expired_delivery_guarantee_description": "Denna beställnings 30-dagars Butiksgaranti har löpt ut.",
             "expired_badge_label": "Utgånget",
             "order_includes_guarantees_label": "Din beställning inkluderar {{deliveryAgreementsCount}} garantier",
             "order_includes_guarantees_description": "Shop Promise garanterar snabb och pålitlig leverans. Begär Shop Cash om din beställning anländer efter {{date}}.",
             "delivered_after_label": "Levereras efter {{date}}",
-            "delivered_after_description": "Eftersom din beställning kom fram sent, har du rätt att kräva {{amount}} Butikskredit.",
-            "claimed_shop_cash_description": "Eftersom denna beställning anlände sent, har du begärt {{amount}} Butikskredit.",
-            "eligible_to_claim_shop_cash_description": "Eftersom din beställning kom fram sent, har du rätt att kräva {{amount}} Butikskredit.",
-            "learn_more_button_label": "Lär dig mer",
-            "claim_shop_cash_button_label": "Kräv Shop Cash",
-            "scan_to_claim_shop_cash_label": "Skanna för att hämta {{amount}} butikskassa"
+            "delivered_after_description": "Eftersom din beställning kom fram sent, har du rätt att kräva {{amount}} Shop Cash.",
+            "claimed_shop_cash_description": "Eftersom denna beställning anlände sent, har du krävt {{amount}} Shop Cash.",
+            "eligible_to_claim_shop_cash_description": "Eftersom din beställning kom fram sent, har du rätt att kräva {{amount}} Shop Cash.",
+            "learn_more_button_label": "Läs mer",
+            "claim_shop_cash_button_label": "Lös in butikskredit",
+            "scan_to_claim_shop_cash_label": "Skanna för att hämta {{amount}} Shop Cash",
+            "view_balance_in_shop_button_label": "Visa saldo i butik"
           }
         },
         "delivery_promise": {
           "promise_line": {
             "single_brand_label": "Leverans garanterad av",
             "mixed_brands_label": "Leverans garanterad",
-            "not_delivered_by_label": "Inte levererat före {{date}}",
+            "not_delivered_by_label": "Ej levererat före {{date}}",
             "modal_accessibility_button_label": "Detaljer om leveranslöfte"
           },
           "claim_shop_cash_cta": {
-            "has_shop_app_label": "Lös in din Shop Cash",
-            "no_shop_app_label": "{{appDownloadLink}} för att hämta butikskredit",
+            "has_shop_app_label": "Hämta din butikskredit",
+            "no_shop_app_label": "{{appDownloadLink}} för att hämta Shop Cash",
             "download_shop_app_label": "Ladda ner butik"
           },
           "details_modal": {
@@ -987,34 +1002,35 @@
             "delivery_guaranteed_by_label": "Leverans garanterad senast {{date}}",
             "shop_cash_claim": {
               "may_be_eligible_label": "Shop Promise garanterar snabb och pålitlig leverans. Begär Shop Cash om din beställning kommer för sent.",
-              "may_be_eligible_not_authorized_label": "Du kan vara berättigad att kräva Shop Cash eftersom denna beställning anlände sent. Logga in för att se detaljer.",
+              "may_be_eligible_not_authorized_label": "Du kan ha rätt att få Shop Cash eftersom denna beställning kom fram för sent. Logga in för att se detaljer.",
               "redeemed_label": "Du har redan hämtat Shop Cash eftersom denna beställning anlände sent.",
-              "expired_label": "Denna beställning är inte berättigad till ett krav på sen leverans eftersom 30-dagars garantin har löpt ut.",
-              "no_shop_cash_label": "Denna beställning är inte berättigad till ett krav på sen leverans eftersom den inte betalades med Shop Pay.",
-              "no_longer_guaranteed_label": "Dessa artiklar omfattas inte längre av någon leveransgaranti.",
-              "claim_shop_cash_title": "Skanna för att hämta ut {{amount}} i butikskassa",
-              "claim_shop_cash_description": "Du kan använda din Shop Cash vid framtida köp i Shop-appen."
+              "expired_label": "Denna beställning är inte berättigad till ett krav på sen leverans eftersom 30-dagars garantin har gått ut.",
+              "no_shop_cash_label": "Denna beställning är inte berättigad till en reklamation för sen leverans eftersom den inte betalades med Shop Pay.",
+              "no_longer_guaranteed_label": "Dessa varor omfattas inte längre av någon leveransgaranti.",
+              "claim_shop_cash_title": "Skanna för att hämta {{amount}} i Shop Cash",
+              "claim_shop_cash_description": "Du kan använda dina Shop Cash vid framtida köp i Shop-appen."
             }
           }
-        }
+        },
+        "resume_tracking": "Fortsätt spårning"
       },
       "fulfillment_status_title": "Leveransstatus: {{status}}",
-      "buy_again_accessibility_label": "Köp igen för beställning {{orderId}}",
+      "buy_again_accessibility_label": "Köp igen för order {{orderId}}",
       "manage_accessiblity_label": "Hantera beställning {{orderId}}"
     },
     "order_details": {
       "shipment_timeline": {
         "expand_events_accessibility_label": "Visa detaljer för orderleverans",
-        "hide_events_accessibility_label": "Dölj leveransdetaljer för beställningen"
+        "hide_events_accessibility_label": "Dölj leveransuppgifter för beställningen"
       },
-      "order_details_skeleton_accessibility_label": "Logga in för att se alla orderdetaljer.",
+      "order_details_skeleton_accessibility_label": "Logga in för att se alla orderuppgifter.",
       "card_ending_with": "slutar med {{lastDigits}}",
       "contact": "Kontakt",
       "fully_refunded_label": "ÅTERBETALD",
       "grouped_view_components": {
-        "collapse_line_items": "Dölj {{count}} föremål",
+        "collapse_line_items": "Dölj {{count}} objekt",
         "line_item_summary_accessibility_label": "{{productTitle}}, Antal: {{refundableQuantity}}",
-        "line_item_summary_list_accessibility_label": "Artiklar i {{productTitle}} paketet"
+        "line_item_summary_list_accessibility_label": "Artiklar i {{productTitle}}-paketet"
       },
       "loading": "Laddar orderdetaljer",
       "loading_finished_accessibility_message": "Orderdetaljer har laddats",
@@ -1139,7 +1155,12 @@
       "adjusted_payment": "Justering av betalning",
       "adjusted_total": "Justerat totalt",
       "due_on_fulfillment": "Förfallodag vid fullgörande",
-      "due_on_receipt": "Betalas vid mottagandet"
+      "due_on_receipt": "Betalas vid mottagandet",
+      "order_details": "Orderuppgifter",
+      "contact_information": "Kontaktuppgifter",
+      "discount_order_stacking": {
+        "other": "Beställningsrabatter"
+      }
     },
     "addresses": {
       "back_button_accessibility_label": "Tillbaka till redigering av adress {{address}}",
@@ -3826,8 +3847,8 @@
           "visibility": "Vi kommer endast att se om du har öppnat e-postmeddelandet, som en del av den totala öppningsfrekvensen för e-post."
         },
         "updated_policy": {
-          "status_html": "<b>E-postöppningsspårning rapporteras.</b>",
-          "visibility": "Vi har uppdaterat vår policy och spårar nu e-postöppningar. Öppningsfrekvenser för e-post kommer att rapporteras anonymt. Vi kommer endast att se om du har öppnat ett e-postmeddelande som en del av den totala öppningsfrekvensen.",
+          "status_html": "<b>Öppning av e-postmeddelande rapporteras.</b>",
+          "visibility": "Vi har uppdaterat vår policy och spårar nu när e-post öppnas. Öppningsfrekvenser för e-post kommer att rapporteras anonymt. Vi kommer endast att se om du har öppnat ett e-postmeddelande som en del av den totala öppningsfrekvensen.",
           "opt_out_html": "Om du inte vill dela denna information kan du <a style='text-decoration:underline;' href='%{link}'>avregistrera dig.</a>"
         }
       },
@@ -3837,32 +3858,34 @@
       }
     },
     "search": {
-      "error": "Det uppstod ett problem när dina sökresultat skulle laddas. Vänligen uppdatera sidan eller försök igen senare.",
+      "error": "Det uppstod ett problem när sökresultaten skulle laddas. Vänligen uppdatera sidan eller försök igen senare.",
       "sorting": {
         "price_descending": "Pris, högst till lägst"
       }
     },
     "page_titles": {
-      "shopping_cart": "Din Varukorg",
+      "shopping_cart": "Din kundvagn",
       "order": "Beställ %{name}",
       "search_results": {
         "one": "Sök: %{count} resultat hittades för \"%{terms}\"",
         "other": "Sök: %{count} resultat hittades för \"%{terms}\""
       },
       "collections": "Kollektioner",
-      "not_found": "404 Ej hittad",
+      "not_found": "404 Hittades inte",
       "checkpoint": "Kontrollpunkt"
     },
     "cart": {
       "discounts_with_count": "%{count} rabatter har tillämpats"
     },
     "challenge": {
-      "message": "För att fortsätta, låt oss veta att du inte är en robot.",
-      "error": "Ditt svar var inte korrekt, försök igen."
+      "message": "För att fortsätta, vänligen bekräfta att du inte är en robot.",
+      "error": "Ditt svar var inte rätt, försök igen.",
+      "submit_button_text": "Skicka in"
     },
     "checkpoint": {
       "message": "Lös Captcha för att fortsätta",
-      "error": "Captcha-validering misslyckades"
+      "error": "Captcha-verifiering misslyckades",
+      "submit_button_text": "Skicka in"
     },
     "store_availability": {
       "pick_up_time": {
@@ -3879,9 +3902,9 @@
       }
     },
     "subscriptions": {
-      "buyer_consent_product": "Denna vara är ett återkommande eller uppskjutet köp. Genom att fortsätta godkänner jag %{cancellationPolicyLink} och ger dig tillåtelse att debitera min betalningsmetod till de priser, den frekvens och de datum som anges på denna sida tills min beställning är fullbordad eller jag avbeställer, om det är tillåtet.",
-      "buyer_consent_cart": "En eller flera av varorna i din kundvagn är ett återkommande eller uppskjutet köp. Genom att fortsätta godkänner jag %{cancellationPolicyLink} och ger dig tillåtelse att debitera min betalningsmetod till de priser, den frekvens och de datum som anges på denna sida tills min beställning är fullföljd eller jag avbokar, om det är tillåtet.",
-      "cancellation_policy": "avbokningspolicy"
+      "buyer_consent_product": "Den här varan är ett återkommande eller uppskjutet köp. Genom att fortsätta godkänner jag %{cancellationPolicyLink} och ger dig tillåtelse att debitera min betalningsmetod till de priser, den frekvens och de datum som anges på denna sida tills min beställning är fullföljd eller jag avbokar, om det är tillåtet.",
+      "buyer_consent_cart": "En eller flera av varorna i din kundvagn är ett återkommande eller uppskjutet köp. Genom att fortsätta godkänner jag %{cancellationPolicyLink} och ger dig tillåtelse att debitera min betalningsmetod till de priser, frekvenser och datum som anges på denna sida tills min beställning är fullföljd eller jag avbokar, om det är tillåtet.",
+      "cancellation_policy": "avbokningsregler"
     }
   }
 }
