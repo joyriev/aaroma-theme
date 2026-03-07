@@ -2305,7 +2305,7 @@
         },
         "subtitle_no_match": "Denne adresse stemmer ikke overens med nogen af dine gemte adresser.",
         "subtitle_must_use": "Din ordre vil blive sendt til denne adresse.",
-        "return_to_cart": "Vend tilbage til kurven"
+        "return_to_cart": "Gå tilbage til kurv"
       },
       "marketplaces": {
         "legal_notice": {
@@ -2318,7 +2318,7 @@
       },
       "local_pickup": {
         "location_information": {
-          "one": "Der er %{count} sted med lager tæt på dig",
+          "one": "Der er %{count} lagerplads tæt på dig",
           "other": "Der er %{count} steder med lager tæt på dig"
         },
         "toggle_location": "Skift placering",
@@ -2326,14 +2326,18 @@
         "no_stores_found": "Ingen butikker fundet",
         "all_stores_far_away": {
           "title": "De nærmeste steder er mere end %{distance} væk",
-          "description": "Vælg et sted eller %{ship_to_address_link}",
-          "ship_to_address_link": "sendes til adresse",
-          "change_location_link": "Skift din placering"
+          "description": "Vælg en placering eller %{ship_to_address_link}",
+          "ship_to_address_link": "leveringsadresse",
+          "change_location_link": "Skift din placering",
+          "title_with_item": {
+            "one": "Den nærmeste butik med din vare er mere end %{distance} fra %{location}"
+          },
+          "title_with_specific_location": "Den nærmeste butik med din vare er mere end %{distance} væk fra %{location}"
         },
         "selected_pickup_option_no_longer_available": {
           "title": "Din tidligere valgte placering er ikke længere tilgængelig",
           "description": "Vælg en ny placering eller %{ship_to_address_link}",
-          "ship_to_address_link": "sendes til adresse"
+          "ship_to_address_link": "leveringsadresse"
         },
         "could_not_resolve_address": "Din adresse kunne ikke findes. Prøv igen eller brug en anden adresse",
         "paginator": {
@@ -2342,6 +2346,39 @@
         "reveal_more_label": {
           "one": "Vis %{count} flere steder",
           "other": "Vis %{count} flere steder"
+        },
+        "location_closest": "Tætteste sted med din vare",
+        "location_information_far_away": {
+          "one": "Der er %{count} sted med din vare",
+          "other": "Der er %{count} steder med din vare"
+        },
+        "location_nearby": {
+          "one": "Der er %{count} nærliggende placering med din vare",
+          "other": "Der er %{count} nærliggende steder med din vare"
+        },
+        "location_nearby_short": {
+          "one": "%{count} nærliggende sted med din vare",
+          "other": "%{count} nærliggende steder med din vare"
+        },
+        "location_far_away": {
+          "one": "%{count} sted med din vare",
+          "other": "%{count} steder med din vare"
+        },
+        "toggle_more_locations": {
+          "one": "%{count} flere steder",
+          "other": "%{count} flere steder"
+        },
+        "toggle_multiple_locations": "%{count}+ flere steder",
+        "pickup_unavailable_banner_title": {
+          "one": "Ingen steder med din vare",
+          "other": "Ingen steder med dine ting"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Ingen steder i %{country} med din vare",
+          "other": "Ingen steder i %{country} med dine varer"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_items": "Send dine varer"
         }
       },
       "captcha": {
@@ -2351,18 +2388,18 @@
         }
       },
       "discount_errors": {
-        "generic_error": "Din ordre kunne ikke behandles, fordi din rabatkode ikke længere er tilgængelig. Gennemgå din ordretotal og prøv igen."
+        "generic_error": "Din ordre kunne ikke behandles, fordi din rabatkode ikke længere er gyldig. Gennemgå din ordretotal og prøv igen."
       },
       "b2b_errors": {
         "lost_b2b_purchasing_permissions": "Du har ikke længere tilladelse til at afgive B2B-ordrer. %{logout_url} for i stedet at afgive en personlig ordre.",
-        "lost_permissions_title": "Ingen placeringstilladelser"
+        "lost_permissions_title": "Ingen tilladelser til placering"
       },
       "shop_pay_external": {
-        "title": "Shop Pay Betaling",
+        "title": "Shop Betaling Checkout",
         "errors": {
           "problem_loading": "Der opstod et problem med at indlæse Shop Pay",
-          "try_again_later": "Tjek din forbindelse eller luk dette vindue og prøv igen om et øjeblik.",
-          "checkout_has_expired": "Din betaling er udløbet. Luk dette vindue og prøv at betale igen fra {{shopName}}."
+          "try_again_later": "Tjek din forbindelse, eller luk dette vindue og prøv igen om et øjeblik.",
+          "checkout_has_expired": "Din betaling er udløbet. Luk dette vindue og prøv at gennemføre betalingen igen fra {{shopName}}."
         },
         "return_to_store": "Gå tilbage til {{shopName}}",
         "return_to_store_simple": "Vend tilbage til butikken"
@@ -2373,7 +2410,7 @@
         "redirect_hint": "Du vil blive bedt om at logge ind med {{walletName}}.",
         "logged_in": "Forbundet til {{email}}",
         "shipping_line_label": "Forsendelse",
-        "payment_in_progress_title": "Betaling i gang",
+        "payment_in_progress_title": "Betaling under behandling",
         "payment_in_progress_body": "Din betaling behandles. Din ordre vil snart være færdig.",
         "redirection_notice": "Du vil blive omdirigeret til {{walletName}} for at fuldføre dit køb",
         "errors": {
@@ -2386,7 +2423,7 @@
             "instructions": "{{walletName}} er i øjeblikket ikke tilgængelig for din ordre. For at fortsætte dit køb, vælg en anden betalingsmetode."
           },
           "generic": "Der opstod et problem med {{walletName}}. Prøv igen eller brug en anden betalingsmetode.",
-          "discount_code": "Kan ikke anvende denne rabatkode. Tjek din kode og prøv igen.",
+          "discount_code": "Kan ikke anvende denne rabatkode. Gennemgå din kode og prøv igen.",
           "detour": {
             "stock_problems": "Nogle varer er ikke længere tilgængelige. Luk {{walletName}} og prøv igen.",
             "price_change": "Nogle varepriser er ændret. Luk {{walletName}} for at gennemgå din ordre og prøv igen.",
@@ -2410,15 +2447,15 @@
             "postal_code": "Indtast et gyldigt postnummer",
             "billing_phone": "Indtast et gyldigt telefonnummer til faktureringsadressen",
             "reduction_code": "Indtast en gyldig rabatkode eller gavekort",
-            "billing_zip": "Indtast en gyldig faktureringsadresse postnummer / postnummer"
+            "billing_zip": "Indtast et gyldigt faktureringsadresse postnummer"
           },
           "missing": {
             "first_name": "Indtast et fornavn",
-            "billing_first_name": "Indtast et faktureringsadresses fornavn",
+            "billing_first_name": "Indtast et fornavn til faktureringsadressen",
             "last_name": "Indtast et efternavn",
             "address1": "Indtast en adresse",
             "billing_address1": "Indtast en faktureringsadresse",
-            "address2": "Indtast en lejlighed, suite osv.",
+            "address2": "Gå ind i en lejlighed, suite osv.",
             "billing_address2": "Indtast en faktureringsadresse lejlighed, suite osv.",
             "city": "Indtast en by",
             "billing_city": "Indtast en faktureringsadresse by",
@@ -2426,7 +2463,7 @@
             "billing_province": "Vælg en faktureringsadresse stat / provins",
             "country": "Vælg et land/område",
             "zip": "Indtast et postnummer",
-            "billing_zip": "Indtast en faktureringsadresse postnummer / postkode",
+            "billing_zip": "Indtast en faktureringsadresse postnummer",
             "phone": "Indtast et telefonnummer",
             "contact_info": "Indtast kontaktoplysninger"
           },
@@ -2435,38 +2472,40 @@
             "last_name_too_long": "Efternavn indeholder for mange bogstaver",
             "address_too_long": "Adressefeltet er for langt"
           },
-          "select_different_shipping_address_to_resolve_errors": "Din leveringsadresse er ugyldig. Vælg en anden adresse eller brug en ny."
+          "select_different_shipping_address_to_resolve_errors": "Din leveringsadresse er ugyldig. Vælg en anden adresse eller brug en ny.",
+          "processing_error_checkout_as_guest": "Der opstod et problem med behandlingen af din betaling. Prøv igen eller {{checkout_as_guest_link}}."
         },
         "scrim": {
-          "continue_purchase_in_window": "Fortsæt dit køb i {{walletName}} vinduet",
-          "and_return_to_checkout": "og vend tilbage til Checkout"
+          "continue_purchase_in_window": "Fortsæt dit køb i {{walletName}}-vinduet",
+          "and_return_to_checkout": "og vend tilbage til Kassen"
         },
-        "place_order": "Afgiv ordre"
+        "place_order": "Afgiv ordre",
+        "recovery_notice": "Der er et problem med dine ordreoplysninger. Opdater dine oplysninger for at fuldføre betalingen."
       },
       "note": {
-        "length_exceeds_maximum": "Reducer størrelsen på noten til 5000 eller færre tegn."
+        "length_exceeds_maximum": "Formindsk notens størrelse til 5000 eller færre tegn."
       },
       "one": {
         "errors": {
           "merchandise": {
             "gift_card_price_must_be_greater_than_zero": "Gavekortets pris skal være større end 0.",
-            "gift_card_price_must_not_exceed_limit": "Gavekortets pris må ikke overstige %{gift_card_limit}.",
+            "gift_card_price_must_not_exceed_limit": "Prisen på gavekortet må ikke overstige %{gift_card_limit}.",
             "subtotal_limit_reached": "Den maksimale værdi af linjeposter er nået.",
-            "signature_mismatch": "Vareunderskrift stemmer ikke overens for linje %{stable_id}."
+            "signature_mismatch": "Uoverensstemmelse i vareunderskrift for linje %{stable_id}."
           }
         }
       },
       "remote": {
         "errors": {
-          "only_remote_merchandise_lines": "Kassen indeholder kun fjernvarer. En omdirigering til den eksterne butik er nødvendig for at fuldføre købet.",
-          "currency_mismatch": "Denne vare kan ikke tilføjes til din kurv, fordi den kommer fra en butik, der bruger en anden valuta.",
+          "only_remote_merchandise_lines": "Kassen indeholder kun fjernvarer. Du skal omdirigeres til fjernbutikken for at fuldføre købet.",
+          "currency_mismatch": "Denne vare kan ikke lægges i din kurv, fordi den kommer fra en butik, der bruger en anden valuta.",
           "currency_mismatch_removal": "En vare blev fjernet fra din kurv, fordi den kommer fra en butik, der bruger en anden valuta.",
-          "max_remote_shops_exceeded": "Dette produkt kan ikke tilføjes, fordi din kurv allerede har det maksimale fra andre butikker."
+          "max_remote_shops_exceeded": "Dette produkt kan ikke tilføjes, fordi din kurv allerede indeholder det maksimale antal fra andre butikker."
         }
       },
       "units": {
         "centiliter": "kl",
-        "meter": "min",
+        "meter": "m",
         "pound": "lb",
         "inch": "i",
         "square_foot": "ft²"
@@ -2476,7 +2515,7 @@
       },
       "editor": {
         "navigation": {
-          "store_logo_accessibility_label": "Gå til Online Butik"
+          "store_logo_accessibility_label": "Gå til netbutik"
         }
       },
       "tooltip": {
@@ -2484,12 +2523,12 @@
       },
       "required_extensions": {
         "errors": {
-          "interaction_required": "En udvidelsesinteraktion er påkrævet for at fuldføre betalingen."
+          "interaction_required": "En udvidelsesinteraktion er nødvendig for at fuldføre betalingen."
         }
       },
       "taxes": {
         "vat_number": {
-          "domestic_order": "Omvendt betalingspligt gælder kun for grænseoverskridende EU-ordrer. Standard moms opkræves for lokale ordrer.",
+          "domestic_order": "Omvendt betalingspligt gælder kun for grænseoverskridende EU-ordrer. Almindelig moms opkræves for lokale ordrer.",
           "status": {
             "invalid_format": {
               "at": "Østrigske momsnumre indeholder AT og 9 tegn",
@@ -2501,7 +2540,7 @@
               "fr": "Franske momsnumre indeholder FR og 11 tegn",
               "de": "Tyske momsnumre indeholder DE og 9 tegn",
               "gr": "Græske momsnumre indeholder EL og 9 tegn",
-              "hu": "Ungarske momsnumre indeholder HU og 8 tegn",
+              "hu": "Ungarns momsnumre indeholder HU og 8 tegn",
               "it": "Italienske momsnumre indeholder IT og 11 tegn",
               "lt": "Litauiske momsnumre indeholder LT og 9-12 tegn",
               "lu": "Luxembourg momsnumre indeholder LU og 8 tegn",
@@ -2518,18 +2557,32 @@
             },
             "invalid_number": {
               "mt": "Indtast et gyldigt maltesisk momsnummer",
-              "nl": "Indtast et gyldigt momsnummer for Nederlandene",
+              "nl": "Indtast et gyldigt momsnummer fra Nederlandene",
               "si": "Indtast et gyldigt slovensk momsnummer",
               "gb": "Indtast et gyldigt momsnummer for Storbritannien"
             },
             "service_unavailable": "Valideringstjeneste utilgængelig",
             "service_error": "Valideringstjeneste utilgængelig"
+          },
+          "accessibility": {
+            "status": {
+              "validating": "Validering af momsnummer er i gang",
+              "valid": "Momsnummer er gyldigt",
+              "applied": "Momsfritagelse er blevet anvendt",
+              "domestic": "Momsfritagelse ikke anvendt",
+              "invalid_number": "Momsfritagelse mislykkedes",
+              "service_unavailable": "Kan ikke bekræfte momsundtagelse",
+              "service_error": "Kan ikke bekræfte momsundtagelse"
+            }
           }
         }
       },
       "split_delivery": {
         "delivery_method": "Opdelt leveringsmetode",
-        "delivery_method_menu": "Opdel leveringsmetode-menu"
+        "delivery_method_menu": "Menu for opdeling af leveringsmetode",
+        "pickup_all_items": "Hent alle varer",
+        "items_for_pickup": "Genstande til afhentning",
+        "items_for_shipping": "Varer til forsendelse"
       },
       "embed": {
         "header": {
@@ -2554,6 +2607,11 @@
         "title_with_products": {
           "one": "Køb %{product_name} og %{count} andre varer"
         }
+      },
+      "too_many_requests": {
+        "title": "For mange forsøg på betaling",
+        "body": "Vent venligst et par minutter og prøv igen fra din indkøbskurv.",
+        "return_to_cart": "Gå tilbage til kurv"
       }
     },
     "sentence": {
@@ -2571,9 +2629,9 @@
     "addresses": {
       "pincode": "Pinkode",
       "region": "Region",
-      "state_and_territory": "Stat/fylke",
+      "state_and_territory": "Stat/område",
       "county": "Amt",
-      "governorate": "Guvernørdømme"
+      "governorate": "Provins"
     },
     "collections": {
       "sorting": {
@@ -2586,16 +2644,16 @@
     "errors": {
       "blank": "kan ikke være tom",
       "blocked_address": "Denne placering understøttes ikke",
-      "credit_card_session_expired": "Kreditkortautorisationen er udløbet, indtast venligst dine betalingsoplysninger igen. Dit kort er ikke blevet opkrævet.",
+      "credit_card_session_expired": "Kreditkorttilladelsen er udløbet, indtast venligst dine betalingsoplysninger igen. Dit kort er ikke blevet opkrævet.",
       "empty": "kan ikke være tom",
       "invalid_email": "skal være en gyldig e-mailadresse",
       "discount_expired": "Denne rabat er ikke længere gyldig",
-      "discount_limit_reached": "Denne rabat har nået sin brugsgrænse",
+      "discount_limit_reached": "Denne rabat har nået sin bruggrænse",
       "discount_not_found": "Kan ikke finde en gyldig rabat, der matcher den indtastede kode",
-      "customer_already_used_once_per_customer_discount_notice": "Denne rabat har nået sin brugsgrænse",
+      "customer_already_used_once_per_customer_discount_notice": "Denne rabat har nået sin bruggrænse",
       "gift_card_already_applied": "Koden er allerede blevet anvendt ved din betaling",
       "gift_card_currency_mismatch": "Dit gavekort er i %{gift_card_currency}. Kontakt os for at få det udstedt igen i %{checkout_currency}.",
-      "gift_card_depleted": "Der er ikke flere midler tilbage på dette gavekort",
+      "gift_card_depleted": "Der er ikke flere penge tilbage på dette gavekort",
       "gift_card_expired": "Gavekortet er udløbet",
       "contains_html_tags": "kan ikke indeholde HTML-tags",
       "password_mismatch": "skal matche den angivne adgangskode",
@@ -2605,39 +2663,39 @@
       "not_supported": "understøttes ikke",
       "full_name_required": "Indtast et fornavn og efternavn",
       "invalid_for_card_type": "er ikke gyldig",
-      "invalid_start_date_or_issue_number_for_debit": "en gyldig startdato eller udstedelsesnummer er påkrævet",
+      "invalid_start_date_or_issue_number_for_debit": "en gyldig startdato eller udgave nummer er påkrævet",
       "reset_password_html": "Denne e-mailadresse er allerede tilknyttet en konto. Hvis denne konto er din, kan du <a href=\"/account/login#recover\">nulstille din adgangskode</a>",
-      "verify_email": "Vi har sendt en e-mail til %{customer_email}, klik venligst på det medfølgende link for at bekræfte din e-mailadresse.",
+      "verify_email": "Vi har sendt en e-mail til %{customer_email}, klik venligst på det vedhæftede link for at bekræfte din e-mailadresse.",
       "product_not_available": "produktet er ikke offentliggjort for denne kunde.",
       "shop_404": {
-        "title": "Opret en e-handelswebside og sælg online! E-handelssoftware fra Shopify",
+        "title": "Opret en netbutik og sælg online! Handelssoftware fra Shopify",
         "heros": {
-          "store_unavailable": "Beklager, denne butik er i øjeblikket utilgængelig.",
+          "store_unavailable": "Beklager, denne butik er i øjeblikket ikke tilgængelig.",
           "store_not_exist": "Denne butik findes ikke.",
           "no_storefront": "Denne butik har endnu ikke en hjemmeside."
         },
         "owner_ctas": {
-          "header": "Er du butiksindehaveren?",
-          "fix_domain": "Færdiggør opsætningen af din nye webadresse ved at gå til %{domain_settings_link}. Klik på \"Forbind domæne\" og indtast: %{domain}.<br>Hvis du har problemer med at komme ind i din butik, prøv siden %{forgot_your_store_link}.",
+          "header": "Er du butiksejer?",
+          "fix_domain": "Færdiggør opsætningen af din nye webadresse ved at gå til %{domain_settings_link}. Klik på \"Tilslut domæne\" og indtast: %{domain}.<br>Hvis du har problemer med at komme ind i din butik, så prøv siden %{forgot_your_store_link}.",
           "forgot_your_store_link_text": "glemte din butik",
-          "add_storefront": "Du kan opsætte din hjemmeside ved at tilføje Online Butik-kanalen i din %{admin_link}. Hvis du har problemer med at komme ind i din butik, så prøv siden %{forgot_your_store_link}."
+          "add_storefront": "Du kan opsætte din hjemmeside ved at tilføje Online Store-kanalen i din %{admin_link}. Hvis du har problemer med at få adgang til din butik, kan du prøve siden %{forgot_your_store_link}."
         },
         "ctas": {
           "sell_in_person": {
             "header": "Sælg personligt",
-            "caption": "Få de funktioner, du har brug for til at drive din detailbutik, uanset om du er ved at starte op eller udvide."
+            "caption": "Få de funktioner, du har brug for til at drive din butik, uanset om du er ved at starte op eller udvide."
           },
           "open_a_store": {
             "header": "Åbn en ny Shopify-butik",
-            "caption": "Start en 3-dages gratis prøveperiode, og fortsæt derefter for $1/måned i de næste 3 måneder."
+            "caption": "Start en 3-dages gratis prøveperiode, og fortsæt derefter for 1 $/måned i de næste 3 måneder."
           },
           "editions": {
-            "header": "Checkout Shopify Editions",
-            "caption": "Med over 100 produktopdateringer kan du være mere produktiv og kreativ samt mere kraftfuld i handel, end du nogensinde havde forestillet dig.",
+            "header": "Se Shopify Udgivelser",
+            "caption": "Med over 100 produktopdateringer kan du være mere produktiv og kreativ samt stærkere i handel, end du nogensinde havde forestillet dig.",
             "link_text": "Udforsk de nyeste udgaver"
           },
           "store_owner": {
-            "header": "Er du butiksindehaveren?",
+            "header": "Er du butiksejer?",
             "caption": "Har du problemer med at få adgang til din butik? Prøv funktionen %{forgot_your_store_link}. Hvis du ønsker at genaktivere din butik, kontakt %{shopify_support_link}.",
             "shopify_support_link_text": "Shopify support"
           }
@@ -2651,10 +2709,10 @@
         "unsubscribe_error": "Fejl ved afmelding",
         "no_account_found": "Ingen konto fundet med den e-mail.",
         "invalid_credentials": "Forkert e-mail eller adgangskode.",
-        "denylisted_reset_password": "Din konto kunne ikke tilgås, fordi den nuværende adgangskode ikke er sikker. Du vil modtage en e-mail for at opdatere din adgangskode."
+        "denylisted_reset_password": "Din konto kunne ikke tilgås, fordi det nuværende kodeord ikke er sikkert. Du vil modtage en e-mail for at opdatere dit kodeord."
       },
       "address": {
-        "updated": "Adresse opdateret med succes.",
+        "updated": "Adressen er opdateret med succes.",
         "error_updating": "Fejl ved opdatering af adresse",
         "error_creating": "Fejl ved oprettelse af adresse.",
         "deleted": "Adresse slettet med succes",
@@ -2668,51 +2726,52 @@
       "order": {
         "financial_status": {
           "unpaid": "Ubetalt",
-          "voided": "Ugyldig"
+          "voided": "Aflyst"
         },
         "fulfillment_status": {
           "fulfilled": "Opfyldt",
-          "complete": "Fuldstændig",
+          "complete": "Færdig",
           "unfulfilled": "Uopfyldt"
         },
         "cancel_reason": {
           "inventory": "Varer ikke tilgængelige",
           "fraud": "Falsk ordre",
-          "customer": "Kunden ændrede/annullerede ordren",
-          "staff": "Personale fejl"
+          "customer": "Kunden ændrede/annullerede bestillingen",
+          "staff": "Personale fejl",
+          "declined": "Betalingen blev afvist"
         },
-        "cash_on_delivery": "Kontant ved Levering (COD)"
+        "cash_on_delivery": "Betaling ved levering (COD)"
       },
       "cart": {
         "not_found": "Kurv ikke fundet",
         "only_n_items_available": "Du kan kun tilføje %{count} %{name} til kurven.",
         "too_many_items_in_cart": "Du kan ikke tilføje flere %{name} til kurven.",
         "only_one_added_to_cart": "Kun 1 vare blev tilføjet til din kurv på grund af tilgængelighed.",
-        "only_n_added_to_cart": "Kun %{quantity} varer blev tilføjet til din indkøbskurv på grund af tilgængelighed.",
+        "only_n_added_to_cart": "Der blev kun tilføjet %{quantity} varer til din kurv på grund af tilgængelighed.",
         "maximum_available_quantity_reached": "Den maksimale mængde af denne vare er allerede i din kurv.",
         "less_than_minimum": "Denne vare har en minimum på %{min}.",
         "more_than_maximum": "Denne vare har en maksimum på %{max}.",
         "not_respect_step": "Du kan kun tilføje denne vare i trin af %{step}.",
-        "all_items_in_cart": "Alle %{count} %{name} er i din kurv.",
+        "all_items_in_cart": "Alle %{count} %{name} er i din indkøbskurv.",
         "empty_update": "kan ikke opdatere tom indkøbskurv",
         "missing_parameters": "ingen gyldig id- eller linjeparameter",
-        "generic_error": "Kurvfejl",
+        "generic_error": "Fejl i kurv",
         "invalid_input": "%{parameter} parameter er ugyldig.",
         "too_many_line_items_error": "Din kurv kan ikke indeholde mere end %{max} varer.",
-        "link_expired": "Link udløbet",
+        "link_expired": "Linket er udløbet",
         "link_no_longer_exists": "Link findes ikke længere.",
-        "stock_problems_html": "Én eller flere varer er ikke længere tilgængelige. Vi har opdateret din <a href='%{link}'>indkøbskurv</a>.",
+        "stock_problems_html": "En eller flere varer er ikke længere tilgængelige. Vi har opdateret din <a href='%{link}'>indkøbskurv</a>.",
         "changed": "Kurv ændret",
-        "items_changed": "Et eller flere elementer er ændret.",
+        "items_changed": "Én eller flere varer er ændret.",
         "variant_requires_selling_plan": "Variant kan kun købes med en salgsplan.",
-        "selling_plan_not_available_for_company_locations": "Der kan kun foretages ét enkelt køb for B2B-ordrer",
+        "selling_plan_not_available_for_company_locations": "Kun engangskøb er tilgængeligt for B2B-ordrer",
         "digital_product_not_available_for_company_locations": "Denne vare kan ikke tilføjes til en B2B-bestilling",
         "buyer_cannot_purchase_for_company_locations": "Du kan ikke købe til denne placering",
         "selling_plan_not_applicable": "Kan ikke anvende salgsplan på variant",
         "shipping_address_not_required": "Denne kurv kræver ikke forsendelse",
-        "shipping_address_invalid": "Der opstod et problem med at beregne dine forsendelsespriser. Fortsæt til kassen for at vælge en forsendelsespris, inden du fuldfører din ordre.",
-        "bundle_requires_components": "Sammensat produktet '%{name}' kan ikke lægges i kurven.",
-        "gift_card_with_components_not_supported": "Sammensat produktet '%{name}' kan ikke lægges i kurven.",
+        "shipping_address_invalid": "Der opstod et problem med at beregne dine forsendelsespriser. Fortsæt til kassen for at vælge en forsendelsespris, inden du fuldfører din bestilling.",
+        "bundle_requires_components": "Sammensatte produkt '%{name}' kan ikke tilføjes til kurven.",
+        "gift_card_with_components_not_supported": "Sammensatte produkt '%{name}' kan ikke tilføjes til kurven.",
         "gift_card_price_must_be_greater_than_zero": "Sammensat produktet '%{name}' kan ikke lægges i kurven.",
         "gift_card_recipient_validation_error": "Den angivne gavekortmodtager er ugyldig",
         "view_lines_limit_reached": "Linjer må være mindre end eller lig med %{limit}",
