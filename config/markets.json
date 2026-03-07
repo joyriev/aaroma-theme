@@ -9,7 +9,7 @@
  */
 {
   "markets": {
-    "sweden": {
+    "denmark": {
       "parent": "@default"
     }
   }
