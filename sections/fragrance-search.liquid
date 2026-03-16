@@ -3328,6 +3328,34 @@ window.fcToggleZoeken = function() {
     return null;
   }
 
+  // ===== GET RECOMMENDATION FROM CATALOG (FOR REAL PERFUME DETAILS) =====
+  function getAanbevolenParfum(parfum) {
+    if (!parfum || !parfum.merk) return null;
+    
+    // Find other perfumes from the same brand
+    const zelfdeMarkParfums = window.allPerfumes.filter(p => 
+      p.merk === parfum.merk && 
+      p.id !== parfum.id
+    );
+    
+    if (zelfdeMarkParfums.length > 0) {
+      // Return a random one for variety
+      return zelfdeMarkParfums[Math.floor(Math.random() * zelfdeMarkParfums.length)];
+    }
+    
+    // Fallback: find a perfume with similar gender preference
+    const zelfdeGeslachtParfums = window.allPerfumes.filter(p => 
+      p.geslacht === parfum.geslacht && 
+      p.id !== parfum.id
+    );
+    
+    if (zelfdeGeslachtParfums.length > 0) {
+      return zelfdeGeslachtParfums[Math.floor(Math.random() * zelfdeGeslachtParfums.length)];
+    }
+    
+    return null;
+  }
+
   // ===== TEXT NORMALISEREN (voor zoeken met Nederlandse karakters) =====
   function normaliseerTekst(tekst) {
     if (!tekst) return '';
@@ -3493,6 +3521,21 @@ window.fcToggleZoeken = function() {
     `;
   }
 
+  // ===== RENDER CATALOG PERFUME CARD =====
+  function renderParfumKaart(parfum, badge) {
+    return `
+      <div class="fc-product-card">
+        <div class="fc-badge">${badge}</div>
+        <div class="fc-product-inner">
+          <img class="fc-product-image" src="${parfum.afbeelding}" alt="${parfum.naam}" loading="lazy">
+          <div class="fc-product-title">${parfum.naam}</div>
+          <div class="fc-product-brand">${parfum.merk}</div>
+          <button class="fc-add-to-cart" onclick="event.stopPropagation(); window.fcToonParfumDetails('${parfum.id}')">Bekijk details</button>
+        </div>
+      </div>
+    `;
+  }
+
   // ===== DETAILS VAN ECHTE PARFUM TONEN =====
   window.fcToonParfumDetails = function(parfumId) {
     // Find perfume in catalog by searching through all brands
@@ -3530,9 +3573,10 @@ window.fcToggleZoeken = function() {
       html += '<div class="fc-grid-2col">';
       html += renderProductKaart(onsProduct, 'Ruikt naar...');
       
-      const aanbevolen = getAanbevolenProduct(onsProduct);
-      if (aanbevolen) {
-        html += renderProductKaart(aanbevolen, 'Misschien vind je dit ook leuk');
+      // Show recommendation from catalog (other perfumes from same brand)
+      const aanbevolenParfum = getAanbevolenParfum(parfum);
+      if (aanbevolenParfum) {
+        html += renderParfumKaart(aanbevolenParfum, 'Misschien vind je dit ook leuk');
       } else {
         html += '<div class="fc-product-card" style="visibility: hidden;"></div>';
       }
