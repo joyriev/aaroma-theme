@@ -134,7 +134,7 @@ window.NederlandseParfumCatalogus = {
       id: "ysl_black_opium",
       naam: "Black Opium",
       merk: "Yves Saint Laurent",
-      afbeelding: "https://aaroma.co/cdn/shop/files/black_opium.webp?v=1772339894",
+      afbeelding: "https://aaroma.co/cdn/shop/files/ysl-black-opium-edp_jtgB.webp?v=1762632057",
       topnoten: ["Koffie", "Roze Peper", "Sinaasappelbloesem"],
       hartnoten: ["Jasmijn", "Bittere amandel", "Zoethout"],
       basisnoten: ["Vanille", "Ceder", "Patchouli"],
