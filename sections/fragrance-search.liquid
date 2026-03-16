@@ -2209,7 +2209,13 @@ window.fcToggleZoeken = function() {
 
   // ===== ZOEKEN IN ECHTE PARFUMS =====
   function zoekEchteParfums(query) {
-    if (!query || query.length < 1 || !window.NederlandseParfumCatalogus) return [];
+    if (!query || query.length < 1) return [];
+    
+    // Check if catalog is loaded
+    if (!window.NederlandseParfumCatalogus) {
+      console.warn('NederlandseParfumCatalogus not loaded yet');
+      return [];
+    }
     
     const genormaliseerdeQuery = normaliseerTekst(query);
     const queryZonderSpaties = genormaliseerdeQuery.replace(/\s+/g, '');
@@ -2580,8 +2586,26 @@ window.fcToggleZoeken = function() {
     }
   };
 
+  // ===== WAIT FOR CATALOG TO LOAD =====
+  function waitForCatalog(callback, attempts = 0) {
+    if (window.NederlandseParfumCatalogus) {
+      console.log('✓ Catalog loaded successfully');
+      if (callback) callback();
+    } else if (attempts < 20) {
+      console.log(`Waiting for catalog... attempt ${attempts + 1}`);
+      setTimeout(() => waitForCatalog(callback, attempts + 1), 100);
+    } else {
+      console.warn('⚠️ Catalog failed to load after 2 seconds');
+    }
+  }
+
   // ===== INIT =====
   document.addEventListener('DOMContentLoaded', function() {
+    // Wait for catalog to load before initializing search
+    waitForCatalog(() => {
+      console.log('Catalog ready, initializing search');
+    });
+
     if (zoekInput) {
       zoekInput.addEventListener('keyup', handelZoekopdracht);
     }
