@@ -10,6 +10,9 @@
   - GESLACHTSSPECIFIEKE AANBEVELINGEN
 {% endcomment %}
 
+<!-- Load perfume catalog from file -->
+<script src="{{ 'perfume-catalog-aaroma.js' | asset_url }}"></script>
+
 <style>
 /* ===== PREMIUM FRAGRANCE CODE POPUP ===== */
 .fc-float-wrapper {
@@ -2264,7 +2267,19 @@ window.fcToggleZoeken = function() {
 
   // ===== DETAILS VAN ECHTE PARFUM TONEN =====
   window.fcToonParfumDetails = function(parfumId) {
-    const parfum = window.NederlandseParfumCatalogus._index[parfumId];
+    // Find perfume in catalog by searching through all brands
+    let parfum = null;
+    if (window.NederlandseParfumCatalogus) {
+      for (let merkKey in window.NederlandseParfumCatalogus) {
+        if (merkKey.startsWith('_')) continue;
+        const parfums = window.NederlandseParfumCatalogus[merkKey];
+        if (Array.isArray(parfums)) {
+          parfum = parfums.find(p => p.id === parfumId);
+          if (parfum) break;
+        }
+      }
+    }
+    
     if (!parfum) return;
     
     huidigeWeergave = 'detail';
@@ -2355,35 +2370,51 @@ window.fcToggleZoeken = function() {
     inhoud.innerHTML = '<div class="fc-loading">Zoeken...</div>';
     
     setTimeout(() => {
-      const echteParfums = zoekEchteParfums(query);
-      const onzeProducten = zoekProducten(query);
+      // Zoeken in hardcoded producten (onze collection)
+      const hardcodedResultaten = zoekProducten(query);
+      
+      // Zoeken in echte parfums uit catalogus
+      const echteParfumsResultaten = zoekEchteParfums(query);
       
       let html = '';
       
-      // Toon echte parfums eerst
-      if (echteParfums.length > 0) {
-        html += `<div class="fc-section-title">Echte parfums (${echteParfums.length})</div>`;
-        
-        echteParfums.slice(0, 8).forEach(resultaat => {
-          const p = resultaat.parfum;
-          html += `
-            <div class="fc-real-perfume-item" onclick="window.fcToonParfumDetails('${p.id}')">
-              <img class="fc-real-perfume-image" src="${p.afbeelding}" alt="${p.naam}" loading="lazy">
-              <div class="fc-real-perfume-info">
-                <div class="fc-real-perfume-name">${p.naam}</div>
-                <div class="fc-real-perfume-brand">${p.merk}</div>
-                <div class="fc-real-perfume-year">${p.jaar || ''}</div>
-              </div>
-            </div>
-          `;
+      // ===== EERST: Toon echte parfums uit catalogus =====
+      if (echteParfumsResultaten.length > 0) {
+        // Group by brand
+        const parfumsPerMerk = {};
+        echteParfumsResultaten.forEach(resultaat => {
+          const merk = resultaat.parfum.merk;
+          if (!parfumsPerMerk[merk]) {
+            parfumsPerMerk[merk] = [];
+          }
+          parfumsPerMerk[merk].push(resultaat);
         });
+        
+        // Display each brand and its perfumes
+        for (const [merk, parfums] of Object.entries(parfumsPerMerk)) {
+          html += `<div class="fc-section-title">✨ ${merk.toUpperCase()} (${parfums.length})</div>`;
+          
+          parfums.slice(0, 8).forEach(resultaat => {
+            const p = resultaat.parfum;
+            html += `
+              <div class="fc-real-perfume-item" onclick="window.fcToonParfumDetails('${p.id}')">
+                <img class="fc-real-perfume-image" src="${p.afbeelding}" alt="${p.naam}" loading="lazy">
+                <div class="fc-real-perfume-info">
+                  <div class="fc-real-perfume-name">${p.naam}</div>
+                  <div class="fc-real-perfume-brand">${p.merk}</div>
+                  <div class="fc-real-perfume-year">${p.jaar || ''}</div>
+                </div>
+              </div>
+            `;
+          });
+        }
       }
       
-      // Toon onze producten
-      if (onzeProducten.length > 0) {
-        html += `<div class="fc-section-title">Onze producten (${onzeProducten.length})</div>`;
+      // ===== TWEEDE: Toon onze producten =====
+      if (hardcodedResultaten.length > 0) {
+        html += `<div class="fc-section-title">🛍️ Onze collectie</div>`;
         
-        onzeProducten.slice(0, 8).forEach(match => {
+        hardcodedResultaten.slice(0, 8).forEach(match => {
           const p = match.product;
           const prijsFormatted = '€' + (p.prijs / 100).toFixed(2).replace('.', ',');
           
@@ -2399,7 +2430,7 @@ window.fcToggleZoeken = function() {
         });
       }
       
-      if (echteParfums.length === 0 && onzeProducten.length === 0) {
+      if (echteParfumsResultaten.length === 0 && hardcodedResultaten.length === 0) {
         html = '<div class="fc-no-results">Geen producten gevonden voor "' + query + '"</div>';
       }
       
