@@ -10,8 +10,111 @@
   - GESLACHTSSPECIFIEKE AANBEVELINGEN
 {% endcomment %}
 
-<!-- Load perfume catalog from file -->
-<script src="{{ 'perfume-catalog-aaroma.js' | asset_url }}"></script>
+<script>
+// ===== NEDERLANDSE PARFUM CATALOGUS - DIRECT EMBEDDED =====
+window.NederlandseParfumCatalogus = {
+  // ===== MAISON FRANCIS KURKDJIAN =====
+  maisonFrancisKurkdjian: [
+    {
+      id: "mfk_baccarat_rouge_540",
+      naam: "Baccarat Rouge 540",
+      merk: "Maison Francis Kurkdjian",
+      afbeelding: "https://aaroma.co/cdn/shop/files/baccarat_rouge.webp?v=1772339894",
+      topnoten: ["Saffraan", "Jasmijn"],
+      hartnoten: ["Ceder", "Amberhout"],
+      basisnoten: ["Ambroxan", "Ethyl Maltol", "Amber"],
+      beschrijving: "Een iconische en luxueuze geur die de alchemie van kristal vastlegt.",
+      jaar: "2015",
+      geslacht: "Unisex",
+      productnummers: ["466"]
+    }
+  ],
+  
+  // ===== TOM FORD =====
+  tomFord: [
+    {
+      id: "tom_ford_lost_cherry",
+      naam: "Lost Cherry",
+      merk: "Tom Ford",
+      afbeelding: "https://aaroma.co/cdn/shop/files/lost_cherry.webp?v=1772339894",
+      topnoten: ["Kers", "Amandel", "Likeur"],
+      hartnoten: ["Kers", "Roos", "Jasmijn"],
+      basisnoten: ["Vanille", "Benzoë", "Ceder"],
+      beschrijving: "Een verleidelijke en speelse geur die de essentie van een verboden fruit vastlegt.",
+      jaar: "2018",
+      geslacht: "Unisex",
+      productnummers: ["438"]
+    },
+    {
+      id: "tom_ford_vanille_fatale",
+      naam: "Vanille Fatale",
+      merk: "Tom Ford",
+      afbeelding: "https://aaroma.co/cdn/shop/files/vanille_fatale.webp?v=1772339894",
+      topnoten: ["Saffraan", "Neroli", "Bergamot"],
+      hartnoten: ["Vanille", "Koffie", "Leer"],
+      basisnoten: ["Amber", "Mirre", "Benzoë"],
+      beschrijving: "Een donkere en bedwelmende vanillegeur.",
+      jaar: "2017",
+      geslacht: "Unisex",
+      productnummers: ["053"]
+    },
+    {
+      id: "tom_ford_tobacco_vanille",
+      naam: "Tobacco Vanille",
+      merk: "Tom Ford",
+      afbeelding: "https://aaroma.co/cdn/shop/files/tobacco_vanille.webp?v=1772339894",
+      topnoten: ["Tabak", "Specerijen"],
+      hartnoten: ["Vanille", "Cacao", "Tonka"],
+      basisnoten: ["Gedroogd fruit", "Houtnoten"],
+      beschrijving: "Een warme en kruidige geur met rijke tabaks- en vanillenoten.",
+      jaar: "2007",
+      geslacht: "Unisex",
+      productnummers: ["193"]
+    },
+    {
+      id: "tom_ford_fucking_fabulous",
+      naam: "Fucking Fabulous",
+      merk: "Tom Ford",
+      afbeelding: "https://aaroma.co/cdn/shop/files/fucking_fabulous.webp?v=1772339894",
+      topnoten: ["Salie", "Lavendel"],
+      hartnoten: ["Leer", "Amandel", "Vanille"],
+      basisnoten: ["Tonka", "Amber", "Houtnoten"],
+      beschrijving: "Een gedurfde, provocerende geur met leer- en amandelnoten.",
+      jaar: "2017",
+      geslacht: "Unisex",
+      productnummers: ["232"]
+    },
+    {
+      id: "tom_ford_ombre_leather",
+      naam: "Ombre Leather",
+      merk: "Tom Ford",
+      afbeelding: "https://aaroma.co/cdn/shop/files/ombre_leather.webp?v=1772339894",
+      topnoten: ["Kardemom", "Jasmijn", "Immortelle"],
+      hartnoten: ["Leer", "Patchouli", "Viooltje"],
+      basisnoten: ["Amber", "Berken teer", "Muskus"],
+      beschrijving: "Een gedurfde en sensuele geur die leer eert.",
+      jaar: "2018",
+      geslacht: "Unisex",
+      productnummers: ["474"]
+    },
+    {
+      id: "tom_ford_oud_wood",
+      naam: "Oud Wood",
+      merk: "Tom Ford",
+      afbeelding: "https://aaroma.co/cdn/shop/files/oud_wood.webp?v=1772339894",
+      topnoten: ["Rozenhout", "Kardemom", "Peper"],
+      hartnoten: ["Sandelhout", "Vetiver", "Oud"],
+      basisnoten: ["Tonka", "Amber", "Vanille"],
+      beschrijving: "Een mysterieuze en exotische mix van zeldzaam oud-hout.",
+      jaar: "2007",
+      geslacht: "Unisex",
+      productnummers: ["287"]
+    }
+  ]
+};
+
+console.log('✓ NederlandseParfumCatalogus loaded');
+</script>
 
 <style>
 /* ===== PREMIUM FRAGRANCE CODE POPUP ===== */
@@ -2586,25 +2689,10 @@ window.fcToggleZoeken = function() {
     }
   };
 
-  // ===== WAIT FOR CATALOG TO LOAD =====
-  function waitForCatalog(callback, attempts = 0) {
-    if (window.NederlandseParfumCatalogus) {
-      console.log('✓ Catalog loaded successfully');
-      if (callback) callback();
-    } else if (attempts < 20) {
-      console.log(`Waiting for catalog... attempt ${attempts + 1}`);
-      setTimeout(() => waitForCatalog(callback, attempts + 1), 100);
-    } else {
-      console.warn('⚠️ Catalog failed to load after 2 seconds');
-    }
-  }
-
   // ===== INIT =====
   document.addEventListener('DOMContentLoaded', function() {
-    // Wait for catalog to load before initializing search
-    waitForCatalog(() => {
-      console.log('Catalog ready, initializing search');
-    });
+    console.log('Initializing search popup...');
+    console.log('Catalog available:', !!window.NederlandseParfumCatalogus);
 
     if (zoekInput) {
       zoekInput.addEventListener('keyup', handelZoekopdracht);
