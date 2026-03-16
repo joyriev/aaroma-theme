@@ -114,6 +114,17 @@ window.NederlandseParfumCatalogus = {
 };
 
 console.log('✓ NederlandseParfumCatalogus loaded');
+
+// ===== BUILD allPerfumes ARRAY FROM CATALOG =====
+window.allPerfumes = [];
+for (let merkKey in window.NederlandseParfumCatalogus) {
+  if (merkKey.startsWith('_')) continue;
+  const parfums = window.NederlandseParfumCatalogus[merkKey];
+  if (Array.isArray(parfums)) {
+    window.allPerfumes.push(...parfums);
+  }
+}
+console.log('✓ allPerfumes array built:', window.allPerfumes.length, 'perfumes');
 </script>
 
 <style>
@@ -2314,42 +2325,77 @@ window.fcToggleZoeken = function() {
   function zoekEchteParfums(query) {
     if (!query || query.length < 1) return [];
     
-    // Check if catalog is loaded
-    if (!window.NederlandseParfumCatalogus) {
-      console.warn('NederlandseParfumCatalogus not loaded yet');
+    // Use allPerfumes array built by combineCatalogs
+    if (!window.allPerfumes || window.allPerfumes.length === 0) {
+      console.warn('allPerfumes array not built yet');
       return [];
     }
     
-    const genormaliseerdeQuery = normaliseerTekst(query);
-    const queryZonderSpaties = genormaliseerdeQuery.replace(/\s+/g, '');
+    const queryLower = query.toLowerCase().trim();
+    const queryNormalized = normaliseerTekst(queryLower);
     const resultaten = [];
     
-    for (let merkKey in window.NederlandseParfumCatalogus) {
-      if (merkKey.startsWith('_')) continue;
-      const parfums = window.NederlandseParfumCatalogus[merkKey];
-      if (!Array.isArray(parfums)) continue;
+    window.allPerfumes.forEach(parfum => {
+      const parfumNaam = normaliseerTekst(parfum.naam);
+      const parfumMerk = normaliseerTekst(parfum.merk);
       
-      parfums.forEach(parfum => {
-        let score = 0;
-        const zoekNaam = normaliseerTekst(parfum.naam);
-        const zoekMerk = normaliseerTekst(parfum.merk);
-        const zoekNaamZonderSpaties = zoekNaam.replace(/\s+/g, '');
-        
-        if (zoekNaam === genormaliseerdeQuery || zoekNaamZonderSpaties === queryZonderSpaties) {
-          score = 100;
-        } else if (zoekNaam.includes(genormaliseerdeQuery) || zoekNaamZonderSpaties.includes(queryZonderSpaties)) {
-          score = 90;
-        } else if (zoekMerk.includes(genormaliseerdeQuery)) {
-          score = 80;
-        } else if (parfum.productnummers && parfum.productnummers.some(num => num === query)) {
-          score = 95;
-        }
-        
-        if (score > 60) {
-          resultaten.push({ parfum, score });
-        }
-      });
-    }
+      let score = 0;
+      let matchType = '';
+      
+      // Exact brand match (highest priority)
+      if (parfumMerk === queryNormalized) {
+        score = 1000;
+        matchType = 'exact-brand';
+      }
+      // Brand starts with query
+      else if (parfumMerk.startsWith(queryNormalized)) {
+        score = 900;
+        matchType = 'brand-starts-with';
+      }
+      // Brand contains query as word
+      else if (parfumMerk.includes(' ' + queryNormalized + ' ') || 
+               parfumMerk.startsWith(queryNormalized + ' ') || 
+               parfumMerk.endsWith(' ' + queryNormalized)) {
+        score = 850;
+        matchType = 'brand-word-match';
+      }
+      // Exact name match
+      else if (parfumNaam === queryNormalized) {
+        score = 700;
+        matchType = 'exact-name';
+      }
+      // Name starts with query
+      else if (parfumNaam.startsWith(queryNormalized)) {
+        score = 600;
+        matchType = 'name-starts-with';
+      }
+      // Name contains query as word
+      else if (parfumNaam.includes(' ' + queryNormalized + ' ') || 
+               parfumNaam.startsWith(queryNormalized + ' ') || 
+               parfumNaam.endsWith(' ' + queryNormalized)) {
+        score = 500;
+        matchType = 'name-word-match';
+      }
+      // Brand contains query
+      else if (parfumMerk.includes(queryNormalized)) {
+        score = 800;
+        matchType = 'brand-contains';
+      }
+      // Name contains query
+      else if (parfumNaam.includes(queryNormalized)) {
+        score = 400;
+        matchType = 'name-contains';
+      }
+      // Product number match
+      else if (parfum.productnummers && parfum.productnummers.some(num => num === query)) {
+        score = 950;
+        matchType = 'product-number';
+      }
+      
+      if (score > 0) {
+        resultaten.push({ parfum, score, matchType });
+      }
+    });
     
     return resultaten.sort((a, b) => b.score - a.score);
   }
