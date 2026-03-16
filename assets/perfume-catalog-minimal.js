@@ -1,5 +1,5 @@
 // ===== NEDERLANDSE PARFUM CATALOGUS - COMPLEET MET ALLE ECHTE MERKEN =====
-// Opslaan als: assets/parfum-catalogus-nederlands.js
+// Opslaan als: assets/perfume-catalog-minimal.js
 // TOTAAL: 63 Echte Parfums van Aaroma met correcte afbeeldingen
 
 window.NederlandseParfumCatalogus = {
