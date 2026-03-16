@@ -393,9 +393,9 @@
       "title": "Account activeren",
       "subtext": "Maak uw wachtwoord aan om uw account te activeren.",
       "password": "Wachtwoord",
-      "password_confirm": "Wachtwoord bevestigen",
+      "password_confirm": "Bevestig wachtwoord",
       "submit": "Account activeren",
-      "cancel": "Uitnodiging afwijzen"
+      "cancel": "Afwijzen uitnodiging"
     },
     "addresses": {
       "title": "Adressen",
@@ -407,48 +407,48 @@
       "company": "Bedrijf",
       "address1": "Adres 1",
       "address2": "Adres 2",
-      "city": "Plaats",
+      "city": "Stad",
       "country": "Land/regio",
       "province": "Provincie",
       "zip": "Postcode",
-      "phone": "Telefoonnummer",
-      "set_default": "Als standaard adres instellen",
+      "phone": "Telefoon",
+      "set_default": "Instellen als standaardadres",
       "add": "Adres toevoegen",
       "update": "Adres bijwerken",
       "cancel": "Annuleren",
       "edit": "Bewerken",
       "delete": "Verwijderen",
-      "delete_confirm": "Weet je zeker dat je dit adres wilt verwijderen?"
+      "delete_confirm": "Weet u zeker dat u dit adres wilt verwijderen?"
     },
     "log_in": "Inloggen",
     "log_out": "Uitloggen",
     "login_page": {
       "cancel": "Annuleren",
       "create_account": "Account aanmaken",
-      "email": "E‑mail",
+      "email": "E-mail",
       "forgot_password": "Wachtwoord vergeten?",
       "guest_continue": "Doorgaan",
       "guest_title": "Doorgaan als gast",
       "password": "Wachtwoord",
-      "title": "Inloggegevens",
+      "title": "Inloggen",
       "sign_in": "Inloggen",
       "submit": "Verzenden",
       "alternate_provider_separator": "of"
     },
     "orders": {
-      "title": "Besteloverzicht",
+      "title": "Bestelgeschiedenis",
       "order_number": "Bestelling",
       "order_number_link": "Bestelnummer {{ number }}",
       "date": "Datum",
-      "payment_status": "Betaalstatus",
-      "fulfillment_status": "Fulfilmentstatus",
+      "payment_status": "Betalingsstatus",
+      "fulfillment_status": "Status van de bestelling",
       "total": "Totaal",
       "none": "Je hebt nog geen bestellingen geplaatst."
     },
     "recover_password": {
-      "title": "Wachtwoord opnieuw instellen",
-      "subtext": "Wij sturen je een e-mail om je wachtwoord opnieuw in te stellen",
-      "success": "We hebben je een e-mail gestuurd met een link om je wachtwoord opnieuw in te stellen."
+      "title": "Stel uw wachtwoord opnieuw in",
+      "subtext": "We sturen je een e-mail om je wachtwoord opnieuw in te stellen",
+      "success": "We hebben je een e-mail gestuurd met een link om je wachtwoord bij te werken."
     },
     "register": {
       "title": "Account aanmaken",
@@ -466,29 +466,29 @@
       "submit": "Wachtwoord opnieuw instellen"
     },
     "order": {
-      "title": "Bestelling {{ name }}",
+      "title": "Bestel {{ name }}",
       "date_html": "Geplaatst op {{ date }}",
       "cancelled_html": "Bestelling geannuleerd op {{ date }}",
       "cancelled_reason": "Reden: {{ reason }}",
       "billing_address": "Factuuradres",
-      "payment_status": "Betaalstatus",
-      "shipping_address": "Bezorgadres",
-      "fulfillment_status": "Fulfilmentstatus",
+      "payment_status": "Betalingsstatus",
+      "shipping_address": "Verzendadres",
+      "fulfillment_status": "Status van de bestelling",
       "discount": "Korting",
       "shipping": "Verzending",
       "tax": "Belasting",
       "product": "Product",
-      "sku": "SKU",
+      "sku": "Artikelnummer",
       "price": "Prijs",
       "quantity": "Aantal",
       "total": "Totaal",
-      "fulfilled_at_html": "Voldaan {{ date }}",
-      "track_shipment": "Volg verzending",
+      "fulfilled_at_html": "Verzonden {{ date }}",
+      "track_shipment": "Volg zending",
       "tracking_url": "Volglink",
-      "tracking_company": "Vervoerder",
-      "tracking_number": "Trackingnummer",
-      "subtotal": "Subtotaal",
-      "total_duties": "Douanerechten",
+      "tracking_company": "Drager",
+      "tracking_number": "Volgnummer",
+      "subtotal": "Tussentotaal",
+      "total_duties": "Belastingen",
       "total_refunded": "Terugbetaald"
     }
   },
@@ -624,7 +624,7 @@
         "card_fields_container_prefix": "Veldcontainer voor:",
         "card_fields_unavailable_html": {
           "one": "Betalingen met creditcard en betaalpas zijn momenteel niet beschikbaar.<br><a href=\"%{current_url}\">Ververs deze pagina</a> of probeer het later opnieuw.",
-          "other": "Betalingen met creditcard en betaalpas zijn momenteel niet beschikbaar.<br><a href=\"%{current_url}\">Ververs deze pagina</a> of probeer een andere betaalmethode."
+          "other": "Betalingen met creditcard en pinpas zijn momenteel niet beschikbaar.<br><a href=\"%{current_url}\">Ververs deze pagina</a> of probeer een andere betaalmethode."
         },
         "card_fields_processing_error": "Er was een probleem bij het verwerken van de betaling. Probeer deze pagina te vernieuwen of controleer uw internetverbinding.",
         "technical_error": "Betalingen kunnen op dit moment niet worden verwerkt vanwege een technisch probleem. Probeer het over een paar minuten opnieuw.",
@@ -648,14 +648,14 @@
         "usdc_cashback_title": "1% geld terug",
         "usdc_cashback_additional_info": "Ontvang 1% terug in USDC op Base binnen 30 dagen.",
         "usdc_cashback_terms": "Voorwaarden van toepassing",
-        "purchase_options_card_update_agreement_label_html": "Door uw betaalmethode bij te werken, geeft u toestemming voor betalingen voor elke terugkerende of uitgestelde aankoop volgens het <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">annuleringsbeleid</a> van deze winkel.",
+        "purchase_options_card_update_agreement_label_html": "Door uw betaalmethode bij te werken, geeft u toestemming voor betalingen voor elke terugkerende of uitgestelde aankoop volgens het <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">%{cancellation_policy}</a> van deze winkel.",
         "subscription_card_update_agreement_label": "Het wijzigen van de betaalmethode zal uw abonnement en toekomstige terugkerende betalingen bijwerken.",
         "subscription_agreement_label": "Een of meer artikelen in uw winkelwagen zijn een uitgestelde of abonnementsaankoop. Door door te gaan met uw betaling, gaat u ermee akkoord dat uw betaalmethode automatisch wordt belast tegen de prijs en frequentie die op deze pagina staan vermeld, totdat het eindigt of u annuleert. Alle annuleringen zijn onderhevig aan de %{cancelled}.",
         "subscription_agreement_cancelled": "annuleringsbeleid",
         "subscription_heading": "Abonnementsvoorwaarden",
         "subscription_agreement_label_html": "Ik begrijp dat ik akkoord ga met een abonnement. Dit wordt verlengd tegen de vermelde prijs en frequentie totdat het eindigt of wordt\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">geannuleerd</a>.",
-        "purchase_options_agreement_label": "Een of meer artikelen in uw winkelwagen zijn een uitgestelde of terugkerende aankoop. Door door te gaan met uw betaling, gaat u akkoord dat uw betaalmethode automatisch wordt belast tegen de prijs en frequentie die op deze pagina staan vermeld totdat het eindigt of u annuleert. Alle annuleringen zijn onderhevig aan de %{cancellation_policy_label}.",
-        "purchase_options_agreement_label_html": "Ik begrijp dat een of meer artikelen in mijn winkelwagen een uitgestelde of terugkerende aankoop zijn. Door door te gaan, ga ik akkoord met het\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">annuleringsbeleid</a>\nen machtig ik u om mijn betaalmethode te belasten tegen de prijzen, frequentie en data die op deze pagina staan vermeld totdat mijn\nbestelling is voltooid of ik annuleer, indien toegestaan.",
+        "purchase_options_agreement_label": "Een of meer artikelen in uw winkelwagen zijn een uitgestelde, abonnement- of terugkerende aankoop. Door door te gaan met uw betaling, gaat u ermee akkoord dat uw betaalmethode automatisch wordt belast tegen de prijs en frequentie die op deze pagina staan vermeld totdat het eindigt of u annuleert. Alle annuleringen zijn onderhevig aan de %{cancellation_policy_label}.",
+        "purchase_options_agreement_label_html": "Ik begrijp dat een of meer artikelen in mijn winkelwagen een uitgestelde, abonnement- of terugkerende aankoop zijn. Door door te gaan, ga ik akkoord met de\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">annuleringsvoorwaarden</a>\nen machtig ik u om mijn betaalmethode te belasten tegen de prijzen, frequentie en data die op deze pagina staan vermeld totdat mijn\nbestelling is voltooid of ik annuleer, indien toegestaan.",
         "purchase_options_agreement_label_wallets": "Door door te gaan met uw betaling, gaat u akkoord met de toekomstige kosten die op deze pagina staan vermeld en het annuleringsbeleid.",
         "change_currency_section_description": "Selecteer een valutaoptie",
         "no_real_orders_dev_store": "Deze winkel kan geen echte bestellingen of echte betalingen accepteren.",
@@ -674,7 +674,7 @@
           "error_authorizing": "Fout bij het autoriseren van betaling"
         },
         "account_connected": "Account verbonden.",
-        "mor_disclaimer_html": "Door hieronder te klikken en uw bestelling te voltooien, gaat u akkoord met de aankoop van uw artikel(en) via Global-e als handelaar van registratie voor deze transactie, volgens de <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Algemene Voorwaarden</a> van Global-e en het <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Privacybeleid</a>. Global-e is een internationale fulfilmentdienstverlener voor %{shop_name}",
+        "mor_disclaimer_html": "Door hieronder te klikken en uw bestelling te voltooien, gaat u akkoord met de aankoop van uw artikel(en) via Global-e als handelaar van registratie voor deze transactie, volgens de <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Algemene Voorwaarden</a> van Global-e en het <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Privacybeleid</a>. Global-e is een internationale fulfilmentdienstverlener voor %{shop_name}.",
         "pending_payment": {
           "due_notice": "Uw betaling van %{amount_due} is verschuldigd op %{due_date}.",
           "multibanco": {
@@ -798,7 +798,8 @@
         "bank_account_missing": "Bankrekening moet worden gekoppeld",
         "bank_account_generic_error": "Kon bankrekening niet toevoegen. Probeer het later opnieuw.",
         "separate_payments_label": "Je artikelen komen uit meer dan één winkel. Je wordt in %{separate_payments_link} gefactureerd.",
-        "separate_payments_text": "gescheiden betalingen"
+        "separate_payments_text": "gescheiden betalingen",
+        "add_new_payment_method": "Voeg een nieuwe betaalmethode toe"
       },
       "shipping_errors": {
         "unavailable_addresses_only_countries": "Uw bestelling kan alleen worden verzonden naar {{countriesList}}. Voeg een nieuw adres toe om door te gaan.",
@@ -872,7 +873,8 @@
         "expired_buyer_action": "De betaalmethode is verlopen. Probeer het opnieuw.",
         "name_mismatch": "Controleer uw kaartgegevens. De naam op uw kaart en het factuuradres komen niet overeen.",
         "paypal_over_capture": "Uw totaalbedrag is bijgewerkt. Betaal met {{walletName}} om uw bestelling te voltooien.",
-        "captcha_required": "Voer betalingsgegevens in en los de captcha op om uw aankoop te voltooien."
+        "captcha_required": "Voer betalingsgegevens in en los de captcha op om uw aankoop te voltooien.",
+        "payment_credential_delegation_error": "Er was een probleem bij het verwerken van uw betaling. Kies een nieuwe betaalmethode."
       },
       "stock": {
         "out_of_stock_in_context_label": "Dit product is niet beschikbaar in uw land/regio.",
@@ -1820,7 +1822,8 @@
         "split_shipping_first_shipment_notice": "Je eerste bestelling arriveert in %{quantity_shipments}",
         "split_shipping_multiple_shipment_notice": "Uw bestelling wordt in meerdere zendingen geleverd",
         "split_shipping_more_shipping_options": "Meer verzendmogelijkheden",
-        "add_shipping_address": "Voeg verzendadres toe"
+        "add_shipping_address": "Voeg verzendadres toe",
+        "add_new_delivery_address": "Voeg een nieuw afleveradres toe"
       },
       "localized_fields": {
         "additional_information": {
@@ -1908,7 +1911,7 @@
         "payment_gateway_unsupported_for_subscriptions": "Deze betaalmethode is niet beschikbaar voor abonnementbestellingen.",
         "payment_gateway_unsupported_for_deferred_purchase_options": "Deze betaalmethode is niet beschikbaar voor uitgestelde aankoopopties.",
         "payment_gateway_unsupported_for_country": "Deze betaalmethode is niet beschikbaar voor het land waarnaar u verzendt.",
-        "payment_gateway_unsupported_for_development_store_html": "Om een testbestelling te plaatsen, moet je een test-betaalgateway gebruiken. Lees meer over <a href=\"%{docs_link}\">het testen van bestellingen in ontwikkelwinkels</a>.",
+        "payment_gateway_unsupported_for_development_store_html": "Om een testbestelling te plaatsen, moet je een testbetaalgateway gebruiken. Lees meer over <a href=\"%{docs_link}\">het testen van bestellingen in ontwikkelwinkels</a>.",
         "payment_gateway_unsupported_for_order_above_maximum_orders_html": "Je hebt het limiet bereikt voor bestellingen in ontwikkelwinkels met deze betalingsverwerker. Om een nieuwe bestelling te plaatsen, moet je een test-betaalgateway gebruiken. Lees meer over <a href=\"%{docs_link}\">het testen van bestellingen in ontwikkelwinkels</a>.",
         "purchase_options_agreement_blank": "Om door te gaan met uw aankoop, gaat u akkoord met de uitgestelde of terugkerende aankoopvoorwaarden.",
         "physical_gift_card_invalid_quantity": "Fysieke cadeaubonregelitems moeten een hoeveelheid hebben die overeenkomt met het aantal cadeauboncodes.",
@@ -1925,7 +1928,8 @@
         "must_use_available_delivery_address": "Het afleveradres moet worden gekozen uit de beschikbare afleveradressen.",
         "must_use_available_shipping_rate": "Verzendtarief moet worden gekozen uit de beschikbare verzendtarieven.",
         "split_by_delivery_method_not_allowed": "Verdeling per bezorgmethode is niet toegestaan voor deze sessie of winkel.",
-        "split_by_delivery_method_unsupported_method_type": "Gesplitst op bezorgmethode geprobeerd met een niet-ondersteund type bezorgmethode."
+        "split_by_delivery_method_unsupported_method_type": "Gesplitst op bezorgmethode geprobeerd met een niet-ondersteund type bezorgmethode.",
+        "split_by_delivery_method_requires_merchandise_from_single_location": "Splitsen op leveringsmethode vereist dat individuele merchandise regels vanuit één locatie worden vervuld."
       },
       "store_credit_errors": {
         "generic_error": "Er was een probleem met uw winkeltegoed. Probeer het opnieuw of laad de pagina opnieuw."
@@ -1944,7 +1948,8 @@
         "invalid_stable_id_target": "De merchandise-instructie voor %{position} %{name} verwijst naar stable ID %{stable_id}, maar die stable ID staat niet in de merchandise-lijnen.",
         "duplicate_variant_id": "De merchandise-instructie voor %{position} %{name} bevat een dubbele variant-ID %{variant_id}.",
         "invalid_variant_id_target": "De instructie voor de merchandise %{name} verwijst naar variant-ID %{variant_id}, maar die variant zit niet in de merchandise-lijnen.",
-        "invalid_price_override_target": "De prijswijzigingsinstructie voor artikelregel %{stable_id} is ongeldig omdat het een onderdeel van een bundel is."
+        "invalid_price_override_target": "De prijswijzigingsinstructie voor artikelregel %{stable_id} is ongeldig omdat het een onderdeel van een bundel is.",
+        "discount_not_supported": "De instructie voor het toepassen van de handelskorting op goederen ondersteunt dit soort korting niet."
       },
       "alternative_payment_method_banner": {
         "express_checkout": "Snel afrekenen",
@@ -2056,7 +2061,15 @@
           "change_delivery_method_link_label": "Wijzig bezorgmethode",
           "no_purchase_order_number": "(Geen inkoopordernummer)",
           "due_after_order_reviewed_html": "Verschuldigd nadat de bestelling is beoordeeld",
-          "review_title_free_order": "Beoordeel en voltooi uw bestelling"
+          "review_title_free_order": "Beoordeel en voltooi uw bestelling",
+          "pickup_items_at": {
+            "one": "Haal %{count} artikel op bij",
+            "other": "Haal %{count} artikelen op bij"
+          },
+          "ship_items_to": {
+            "one": "Verzend %{count} artikel naar",
+            "other": "Verzend %{count} artikelen naar"
+          }
         },
         "block_title": "Controleer uw gegevens"
       },
@@ -2367,7 +2380,26 @@
         "items_for_pickup": "Items om af te halen",
         "items_for_shipping": "Te verzenden artikelen",
         "delivery_method": "Gesplitste leveringsmethode",
-        "delivery_method_menu": "Gesplitste bezorgmethode menu"
+        "delivery_method_menu": "Gesplitste bezorgmethode menu",
+        "inventory_issue_banner": {
+          "heading": {
+            "cannot_be_picked_up": {
+              "other": "%{count} items kunnen niet worden opgehaald"
+            }
+          },
+          "remove_item": {
+            "one": "Verwijder artikel",
+            "other": "Items verwijderen"
+          },
+          "ship_separately": {
+            "one": "verzend het apart",
+            "other": "verzend ze apart"
+          },
+          "pick_them_up_in_store": {
+            "one": "haal het in de winkel op",
+            "other": "haal ze in de winkel op"
+          }
+        }
       },
       "captcha": {
         "title": "Voltooi de CAPTCHA om door te gaan",
@@ -2749,7 +2781,7 @@
         "invalid_input": "%{parameter} parameter is ongeldig.",
         "too_many_line_items_error": "Je winkelwagen mag niet meer dan %{max} artikelen bevatten.",
         "link_no_longer_exists": "De link bestaat niet meer.",
-        "stock_problems_html": "Een of meer artikelen zijn niet langer beschikbaar. We hebben een <a href='%{link}'>bijgewerkte winkelwagen</a> voor je klaargezet.",
+        "stock_problems_html": "Een of meer artikelen zijn niet langer beschikbaar. We hebben een <a href='%{link}'>bijgewerkte winkelwagen</a> voor je gemaakt.",
         "items_changed": "Een of meer artikelen zijn gewijzigd.",
         "variant_requires_selling_plan": "Variant kan alleen worden gekocht met een verkoopplan.",
         "selling_plan_not_available_for_company_locations": "Alleen eenmalige aankoop is beschikbaar voor B2B-bestellingen",
@@ -2800,7 +2832,7 @@
         "opt_out": {
           "opted_out_html": "<b>U heeft zich afgemeld voor het volgen van het openen van e-mails.</b>",
           "visibility": "We zullen niet zien of je onze e-mails hebt geopend.",
-          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Aanmelden</a> voor het volgen van geopende e-mails.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Meld je aan</a> voor het volgen van het openen van e-mails.",
           "preview_bar": "Je bekijkt een voorbeeld van wat klanten zullen zien wanneer ze zich afmelden voor het bijhouden van het openen van e-mails."
         },
         "no_longer_track": {
@@ -2814,7 +2846,7 @@
         "updated_policy": {
           "status_html": "<b>Het openen van e-mail wordt gevolgd.</b>",
           "visibility": "We hebben ons beleid bijgewerkt en volgen nu het openen van e-mails. Het openen van e-mails wordt anoniem gerapporteerd. We zien alleen of u een e-mail hebt geopend als onderdeel van het totale percentage geopende e-mails.",
-          "opt_out_html": "Als u deze informatie niet wilt delen, kunt u zich <a style='text-decoration:underline;' href='%{link}'>uitschrijven.</a>"
+          "opt_out_html": "Als u deze informatie niet wilt delen, kunt u zich <a style='text-decoration:underline;' href='%{link}'>afmelden.</a>"
         }
       }
     },
