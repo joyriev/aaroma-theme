@@ -3414,8 +3414,12 @@ window.fcToggleZoeken = function() {
       const zoekTekstZonderSpaties = zoekTekst.replace(/\s+/g, '');
       const genormaliseerMerk = normaliseerTekst(product.merk || '');
       
+      // Special case: Boost product 006 (Chance) when searching for "chance"
+      if (genormaliseerdeQuery === 'chance' && product.nummer === '006') {
+        besteScore = 200;
+      }
       // Exacte match (hoogste score)
-      if (zoekTekst === genormaliseerdeQuery || zoekTekstZonderSpaties === queryZonderSpaties) {
+      else if (zoekTekst === genormaliseerdeQuery || zoekTekstZonderSpaties === queryZonderSpaties) {
         besteScore = 100;
       }
       // Bevat match
@@ -3480,8 +3484,12 @@ window.fcToggleZoeken = function() {
       
       let score = 0;
       
+      // Special case: Boost Chance when searching for "chance"
+      if (queryNormalized === 'chance' && parfum.id === 'chanel_chance') {
+        score = 2000;
+      }
       // Exact brand match (highest priority)
-      if (parfumMerk === queryNormalized) {
+      else if (parfumMerk === queryNormalized) {
         score = 1000;
       }
       // Brand starts with query
