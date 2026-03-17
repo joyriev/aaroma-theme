@@ -26,7 +26,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een iconische en luxueuze geur die de alchemie van kristal vastlegt.",
       jaar: "2015",
       geslacht: "Unisex",
-      productnummers: ["466"]
+      productnummers: ["466"],
+      variantIds: {"466": "47751558332554"}
     }
   ],
 
@@ -43,7 +44,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een verleidelijke en speelse geur die de essentie van een verboden fruit vastlegt.",
       jaar: "2018",
       geslacht: "Unisex",
-      productnummers: ["438"]
+      productnummers: ["438"],
+      variantIds: {"438": "47751558332554"}
     },
     {
       id: "tom_ford_vanille_fatale",
@@ -56,7 +58,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een donkere en bedwelmende vanillegeur.",
       jaar: "2017",
       geslacht: "Unisex",
-      productnummers: ["053"]
+      productnummers: ["053"],
+      variantIds: {"053": "47751575601290"}
     },
     {
       id: "tom_ford_tobacco_vanille",
@@ -69,7 +72,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een warme en kruidige geur met rijke tabaks- en vanillenoten.",
       jaar: "2007",
       geslacht: "Unisex",
-      productnummers: ["193"]
+      productnummers: ["193"],
+      variantIds: {"193": "47751574814858"}
     },
     {
       id: "tom_ford_fucking_fabulous",
@@ -82,7 +86,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een gedurfde, provoceerde geur met leer- en amandelnoten.",
       jaar: "2017",
       geslacht: "Unisex",
-      productnummers: ["232"]
+      productnummers: ["232"],
+      variantIds: {"232": "47751578058890"}
     },
     {
       id: "tom_ford_ombre_leather",
@@ -108,7 +113,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een mysterieuze en exotische mix van zeldzaam oud-hout.",
       jaar: "2007",
       geslacht: "Unisex",
-      productnummers: ["287"]
+      productnummers: ["287"],
+      variantIds: {"287": "47751576682634"}
     },
     {
       id: "tom_ford_cherry_smoke",
@@ -121,7 +127,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een verleidelijke en rokerige kersengeur.",
       jaar: "2020",
       geslacht: "Unisex",
-      productnummers: ["434"]
+      productnummers: ["434"],
+      variantIds: {"434": "47751556497546"}
     }
   ],
 
@@ -131,27 +138,15 @@ window.NederlandseParfumCatalogus = {
       id: "ysl_black_opium",
       naam: "Black Opium",
       merk: "Yves Saint Laurent",
-      afbeelding: "https://aaroma.co/cdn/shop/files/black_opium.webp?v=1772339894",
+      afbeelding: "https://aaroma.co/cdn/shop/files/ysl-black-opium-edp_jtgB.webp?v=1762632057",
       topnoten: ["Koffie", "Roze Peper", "Sinaasappelbloesem"],
       hartnoten: ["Jasmijn", "Bittere amandel", "Zoethout"],
       basisnoten: ["Vanille", "Ceder", "Patchouli"],
       beschrijving: "Een gedurfde en edgy geur die de geest van rockcultuur vastlegt.",
       jaar: "2014",
       geslacht: "Vrouwelijk",
-      productnummers: ["501"]
-    },
-    {
-      id: "ysl_libre",
-      naam: "Libre",
-      merk: "Yves Saint Laurent",
-      afbeelding: "https://aaroma.co/cdn/shop/files/libre.webp?v=1772339894",
-      topnoten: ["Lavendel", "Bergamot", "Mandarijn"],
-      hartnoten: ["Sinaasappelbloesem", "Jasmijn", "Roos"],
-      basisnoten: ["Vanille", "Amber", "Muskus"],
-      beschrijving: "Een vrije en gedurfde geur voor de zelfverzekerde vrouw.",
-      jaar: "2019",
-      geslacht: "Vrouwelijk",
-      productnummers: ["034"]
+      productnummers: ["501"],
+      variantIds: {"501": "47255562616970"}
     },
     {
       id: "ysl_manifesto",
@@ -164,7 +159,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een warme, houtachtige en toch frisse geur.",
       jaar: "2012",
       geslacht: "Vrouwelijk",
-      productnummers: ["134"]
+      productnummers: ["134"],
+      variantIds: {"134": "47751568195722"}
     },
     {
       id: "ysl_opium",
@@ -177,7 +173,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een legendarische oosterse geur die zowel kruidig als sensueel is.",
       jaar: "1977",
       geslacht: "Vrouwelijk",
-      productnummers: ["083"]
+      productnummers: ["083"],
+      variantIds: {"083": "47751566393482"}
     },
     {
       id: "ysl_y",
@@ -190,7 +187,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een frisse en houtachtige geur die een nieuwe generatie vertegenwoordigt.",
       jaar: "2017",
       geslacht: "Mannelijk",
-      productnummers: ["283"]
+      productnummers: ["283"],
+      variantIds: {"283": "47751559643274"}
     }
   ],
 
@@ -207,7 +205,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een moderne en edgy geur die de geest van de Romeinse jeugdcultuur vastlegt.",
       jaar: "2019",
       geslacht: "Vrouwelijk",
-      productnummers: ["469"]
+      productnummers: ["469"],
+      variantIds: {"469": "47751558332554"}
     },
     {
       id: "valentino_uomo_born_in_roma",
@@ -220,7 +219,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een frisse en aromatische geur voor de moderne man.",
       jaar: "2019",
       geslacht: "Mannelijk",
-      productnummers: ["360"]
+      productnummers: ["360"],
+      variantIds: {"360": "47751571636362"}
     }
   ],
 
@@ -237,7 +237,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een moderne en paradoxale geur die speelt met contrasten.",
       jaar: "2022",
       geslacht: "Vrouwelijk",
-      productnummers: ["437"]
+      productnummers: ["437"],
+      variantIds: {"437": "47751558332554"}
     },
     {
       id: "prada_candy",
@@ -250,7 +251,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een speelse en heerlijke gourmand-geur.",
       jaar: "2011",
       geslacht: "Vrouwelijk",
-      productnummers: ["182"]
+      productnummers: ["182"],
+      variantIds: {"182": "47751567278218"}
     }
   ],
 
@@ -267,7 +269,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een verleidelijke en mysterieuze geur die de dualiteit van een moderne vrouw vastlegt.",
       jaar: "2016",
       geslacht: "Vrouwelijk",
-      productnummers: ["461"]
+      productnummers: ["461"],
+      variantIds: {"461": "47751558332554"}
     },
     {
       id: "carolina_very_good_girl",
@@ -280,7 +283,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een gedurfde en frisse interpretatie van de iconische Good Girl-geur.",
       jaar: "2020",
       geslacht: "Vrouwelijk",
-      productnummers: ["404"]
+      productnummers: ["404"],
+      variantIds: {"404": "47751563870346"}
     }
   ],
 
@@ -297,7 +301,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een tijdloze en verfijnde geur voor mannen die de geest van vrijheid belichaamt.",
       jaar: "2010",
       geslacht: "Mannelijk",
-      productnummers: ["252"]
+      productnummers: ["252"],
+      variantIds: {"252": "47255558094986"}
     },
     {
       id: "chanel_allure_homme_sport",
@@ -310,7 +315,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een frisse en sportieve geur voor de dynamische man.",
       jaar: "2004",
       geslacht: "Mannelijk",
-      productnummers: ["222"]
+      productnummers: ["222"],
+      variantIds: {"222": "47751567016074"}
     },
     {
       id: "chanel_coco_mademoiselle",
@@ -323,7 +329,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een frisse en moderne oosterse geur.",
       jaar: "2001",
       geslacht: "Vrouwelijk",
-      productnummers: ["067", "139"]
+      productnummers: ["067", "139"],
+      variantIds: {"067": "47751577075850", "139": "47751577567370"}
     },
     {
       id: "chanel_chance",
@@ -336,7 +343,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een levendige en onverwachte bloemengeur.",
       jaar: "2003",
       geslacht: "Vrouwelijk",
-      productnummers: ["006"]
+      productnummers: ["006"],
+      variantIds: {"006": "47751575699594"}
     },
     {
       id: "chanel_coco",
@@ -349,7 +357,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een weelderige en sensuele oosterse geur.",
       jaar: "1984",
       geslacht: "Vrouwelijk",
-      productnummers: ["079"]
+      productnummers: ["079"],
+      variantIds: {"079": "47751573930122"}
     }
   ],
 
@@ -366,7 +375,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een frisse, krachtige en wilde geur die vrijheid en mannelijkheid symboliseert.",
       jaar: "2015",
       geslacht: "Mannelijk",
-      productnummers: ["230", "338", "366"]
+      productnummers: ["230", "338", "366"],
+      variantIds: {"338": "47751564329098", "366": "47751578648714"}
     },
     {
       id: "dior_fahrenheit",
@@ -379,7 +389,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een revolutionaire geur die bloemige, houtachtige en leerachtige noten combineert.",
       jaar: "1988",
       geslacht: "Mannelijk",
-      productnummers: ["206", "350"]
+      productnummers: ["206", "350"],
+      variantIds: {"206": "47751575208074"}
     },
     {
       id: "dior_jadore",
@@ -392,7 +403,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een bloemenboeket van uitzonderlijke rijkdom.",
       jaar: "1999",
       geslacht: "Vrouwelijk",
-      productnummers: ["159"]
+      productnummers: ["159"],
+      variantIds: {"159": "47751577174154"}
     },
     {
       id: "dior_hypnotic_poison",
@@ -405,7 +417,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een mysterieuze en sensuele geur.",
       jaar: "1998",
       geslacht: "Vrouwelijk",
-      productnummers: ["145"]
+      productnummers: ["145"],
+      variantIds: {"145": "47751576780938"}
     },
     {
       id: "dior_miss_dior_le_parfum",
@@ -418,7 +431,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "De meest geconcentreerde en luxueuze versie van Miss Dior.",
       jaar: "2017",
       geslacht: "Vrouwelijk",
-      productnummers: ["196"]
+      productnummers: ["196"],
+      variantIds: {"196": "47751576584330"}
     },
     {
       id: "dior_homme_intense",
@@ -431,7 +445,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een verfijnde en krachtige interpretatie van Dior Homme.",
       jaar: "2011",
       geslacht: "Mannelijk",
-      productnummers: ["277"]
+      productnummers: ["277"],
+      variantIds: {"277": "47751568654474"}
     }
   ],
 
@@ -448,7 +463,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een stralende en vreugdevolle geur.",
       jaar: "2012",
       geslacht: "Vrouwelijk",
-      productnummers: ["412", "101"]
+      productnummers: ["412", "101"],
+      variantIds: {"101": "47751578353802"}
     },
     {
       id: "lancome_tresor",
@@ -461,7 +477,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een romantische en tijdloze geur.",
       jaar: "1990",
       geslacht: "Vrouwelijk",
-      productnummers: ["141"]
+      productnummers: ["141"],
+      variantIds: {"141": "47751572324490"}
     },
     {
       id: "lancome_idole",
@@ -474,7 +491,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een moderne en elegante geur voor de nieuwe generatie vrouwen.",
       jaar: "2019",
       geslacht: "Vrouwelijk",
-      productnummers: ["55"]
+      productnummers: ["55"],
+      variantIds: {"55": "47751576977546"}
     }
   ],
 
@@ -501,14 +519,15 @@ window.NederlandseParfumCatalogus = {
       id: "paco_one_million",
       naam: "1 Million",
       merk: "Paco Rabanne",
-      afbeelding: "https://aaroma.co/cdn/shop/files/1_million.webp?v=1772339894",
+      afbeelding: "https://aaroma.co/cdn/shop/files/Paco_Rabanne_One_Million.avif?v=1762632686",
       topnoten: ["Grapefruit", "Munt", "Mandarijn"],
       hartnoten: ["Kaneel", "Roos", "Specerijen"],
       basisnoten: ["Leer", "Amber", "Patchouli"],
       beschrijving: "Een gedurfde en verleidelijke geur voor de man die zijn waarde kent.",
       jaar: "2008",
       geslacht: "Mannelijk",
-      productnummers: ["275", "334"]
+      productnummers: ["275", "334"],
+      variantIds: {"275": "47751577665674", "334": "47751563051146"}
     },
     {
       id: "paco_invictus",
@@ -521,7 +540,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een frisse en krachtige geur voor de zegevierende man.",
       jaar: "2013",
       geslacht: "Mannelijk",
-      productnummers: ["228"]
+      productnummers: ["228"],
+      variantIds: {"228": "47751573209226"}
     },
     {
       id: "paco_phantom",
@@ -534,7 +554,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een futuristische en verbonden geur voor een nieuwe generatie.",
       jaar: "2021",
       geslacht: "Mannelijk",
-      productnummers: ["399"]
+      productnummers: ["399"],
+      variantIds: {"399": "47751563739274"}
     },
     {
       id: "paco_lady_million",
@@ -560,7 +581,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een levendige en moderne geur.",
       jaar: "2022",
       geslacht: "Vrouwelijk",
-      productnummers: ["498"]
+      productnummers: ["498"],
+      variantIds: {"498": "47751576387722"}
     }
   ],
 
@@ -577,7 +599,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een iconische en verleidelijke geur voor de moderne man.",
       jaar: "1995",
       geslacht: "Mannelijk",
-      productnummers: ["247"]
+      productnummers: ["247"],
+      variantIds: {"247": "47751577272458"}
     },
     {
       id: "jpg_ultra_male",
@@ -590,7 +613,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een krachtige en verleidelijke geur die de grenzen van mannelijkheid verlegt.",
       jaar: "2015",
       geslacht: "Mannelijk",
-      productnummers: ["349"]
+      productnummers: ["349"],
+      variantIds: {"349": "47751570096266"}
     },
     {
       id: "jpg_scandal",
@@ -603,7 +627,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een gedurfde en speelse geur met een gourmand-hart.",
       jaar: "2017",
       geslacht: "Vrouwelijk",
-      productnummers: ["192"]
+      productnummers: ["192"],
+      variantIds: {"192": "47751577862282"}
     },
     {
       id: "jpg_la_belle",
@@ -616,7 +641,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een verleidelijke en verslavende gourmand-geur.",
       jaar: "2019",
       geslacht: "Vrouwelijk",
-      productnummers: ["412"]
+      productnummers: ["412"],
+      variantIds: {"412": "47751575306378"}
     },
     {
       id: "jpg_classique",
@@ -629,7 +655,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een iconische en sensuele geur voor de vrouw.",
       jaar: "1993",
       geslacht: "Vrouwelijk",
-      productnummers: ["442"]
+      productnummers: ["442"],
+      variantIds: {"442": "47751573635210"}
     }
   ],
 
@@ -659,7 +686,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een revolutionaire gourmand-geur.",
       jaar: "1992",
       geslacht: "Vrouwelijk",
-      productnummers: ["113"]
+      productnummers: ["113"],
+      variantIds: {"113": "47751564034186"}
     }
   ],
 
@@ -676,7 +704,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een frisse en elegante rozengeur.",
       jaar: "2008",
       geslacht: "Vrouwelijk",
-      productnummers: ["024"]
+      productnummers: ["024"],
+      variantIds: {"024": "47751574028426"}
     }
   ],
 
@@ -693,7 +722,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een tijdloze aquatische klassieker die de essentie van de Middellandse Zee vastlegt.",
       jaar: "1996",
       geslacht: "Mannelijk",
-      productnummers: ["221"]
+      productnummers: ["221"],
+      variantIds: {"221": "47751572619402"}
     },
     {
       id: "armani_code",
@@ -706,7 +736,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een verfijnde en verleidelijke geur voor de moderne man.",
       jaar: "2004",
       geslacht: "Mannelijk",
-      productnummers: ["260"]
+      productnummers: ["260"],
+      variantIds: {"260": "47751566229642"}
     },
     {
       id: "armani_code_for_women",
@@ -719,7 +750,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een verleidelijke en elegante oosterse bloemengeur.",
       jaar: "2006",
       geslacht: "Vrouwelijk",
-      productnummers: ["135"]
+      productnummers: ["135"],
+      variantIds: {"135": "47751571243146"}
     },
     {
       id: "armani_stronger_with_you_intensely",
@@ -732,7 +764,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een intensere en krachtigere interpretatie van Stronger With You.",
       jaar: "2019",
       geslacht: "Mannelijk",
-      productnummers: ["318"]
+      productnummers: ["318"],
+      variantIds: {"318": "47751574519946"}
     },
     {
       id: "armani_my_way",
@@ -745,7 +778,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een stralende en ethische geur.",
       jaar: "2020",
       geslacht: "Vrouwelijk",
-      productnummers: ["140"]
+      productnummers: ["140"],
+      variantIds: {"140": "47751575896202"}
     },
     {
       id: "armani_diamonds",
@@ -758,7 +792,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een sprankelende en elegante geur.",
       jaar: "2000",
       geslacht: "Vrouwelijk",
-      productnummers: ["040"]
+      productnummers: ["040"],
+      variantIds: {"040": "47751559250058"}
     },
     {
       id: "armani_emporio_he",
@@ -771,7 +806,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een frisse en mannelijke geur voor de moderne man.",
       jaar: "1998",
       geslacht: "Mannelijk",
-      productnummers: ["242"]
+      productnummers: ["242"],
+      variantIds: {"242": "47751555973258"}
     }
   ],
 
@@ -788,7 +824,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een klassieke en verfijnde geur voor de succesvolle moderne man.",
       jaar: "1998",
       geslacht: "Mannelijk",
-      productnummers: ["234"]
+      productnummers: ["234"],
+      variantIds: {"234": "47751576191114"}
     },
     {
       id: "boss_the_scent",
@@ -801,7 +838,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een verleidelijke en magnetische geur.",
       jaar: "2015",
       geslacht: "Mannelijk",
-      productnummers: ["184", "270"]
+      productnummers: ["184", "270"],
+      variantIds: {"184": "47751565836426", "270": "47751569440906"}
     },
     {
       id: "boss_hugo",
@@ -814,7 +852,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een frisse en energieke geur voor de jonge en dynamische man.",
       jaar: "1995",
       geslacht: "Mannelijk",
-      productnummers: ["223"]
+      productnummers: ["223"],
+      variantIds: {"223": "47751558332554"}
     },
     {
       id: "boss_alive",
@@ -853,7 +892,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een frisse en zorgeloze geur.",
       jaar: "2003",
       geslacht: "Vrouwelijk",
-      productnummers: ["148"]
+      productnummers: ["148"],
+      variantIds: {"148": "47751562461322"}
     }
   ],
 
@@ -896,7 +936,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een tijdloze en romantische geur voor vrouwen.",
       jaar: "1988",
       geslacht: "Vrouwelijk",
-      productnummers: ["106"]
+      productnummers: ["106"],
+      variantIds: {"106": "47751560560778"}
     }
   ],
 
@@ -913,7 +954,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een frisse en zonnige geur die de essentie van de Middellandse Zee vastlegt.",
       jaar: "2001",
       geslacht: "Vrouwelijk",
-      productnummers: ["017"]
+      productnummers: ["017"],
+      variantIds: {"017": "47751578255498"}
     },
     {
       id: "dolce_the_one",
@@ -943,7 +985,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een mysterieuze en verleidelijke geur.",
       jaar: "2006",
       geslacht: "Vrouwelijk",
-      productnummers: ["142"]
+      productnummers: ["142"],
+      variantIds: {"142": "47751558496394"}
     }
   ],
 
@@ -960,7 +1003,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een poëtische en delicate geur.",
       jaar: "2000",
       geslacht: "Vrouwelijk",
-      productnummers: ["074"]
+      productnummers: ["074"],
+      variantIds: {"074": "47751568916618"}
     }
   ],
 
@@ -977,7 +1021,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een krachtige en originele geur die de aarde eert.",
       jaar: "2006",
       geslacht: "Mannelijk",
-      productnummers: ["227"]
+      productnummers: ["227"],
+      variantIds: {"227": "47751572127882"}
     }
   ],
 
@@ -994,7 +1039,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een frisse en zuivere geur geïnspireerd door de frisheid van de zee.",
       jaar: "1988",
       geslacht: "Mannelijk",
-      productnummers: ["200"]
+      productnummers: ["200"],
+      variantIds: {"200": "47751562625162"}
     }
   ],
 
@@ -1011,7 +1057,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een liefdevolle, kruidige en verleidelijke geur.",
       jaar: "1989",
       geslacht: "Mannelijk",
-      productnummers: ["211"]
+      productnummers: ["211"],
+      variantIds: {"211": "47751567638666"}
     }
   ],
 
@@ -1062,7 +1109,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een frisse en aquatische geur geïnspireerd door de Middellandse Zee.",
       jaar: "2005",
       geslacht: "Mannelijk",
-      productnummers: ["305"]
+      productnummers: ["305"],
+      variantIds: {"305": "47751560691850"}
     }
   ],
 
@@ -1079,7 +1127,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een houtachtige en kruidige oosterse geur met een mannelijk karakter.",
       jaar: "2012",
       geslacht: "Mannelijk",
-      productnummers: ["317"]
+      productnummers: ["317"],
+      variantIds: {"317": "47751548633226"}
     }
   ],
 
@@ -1096,7 +1145,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een frisse en levendige bloemengeur.",
       jaar: "2001",
       geslacht: "Vrouwelijk",
-      productnummers: ["163"]
+      productnummers: ["163"],
+      variantIds: {"163": "47751571734666"}
     }
   ],
 
@@ -2078,7 +2128,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Fahrenheit - No. 206",
       afbeelding: "https://aaroma.co/cdn/shop/files/206M_c.webp?v=1772181850&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-206m",
-      variant: null,
+      variant: 47751575208074,
       prijs: 1495,
       merk: "Dior Fahrenheit",
       merkSleutel: "dior",
@@ -2092,7 +2142,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Acqua Di Gio - No. 221",
       afbeelding: "https://aaroma.co/cdn/shop/files/221M_c.webp?v=1772181799&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-221m",
-      variant: null,
+      variant: 47751572619402,
       prijs: 1495,
       merk: "Giorgio Armani Acqua Di Gio",
       merkSleutel: "armani",
@@ -2106,7 +2156,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Allure Homme Sport - No. 222",
       afbeelding: "https://aaroma.co/cdn/shop/files/222M_c.webp?v=1772181716&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-222m",
-      variant: null,
+      variant: 47751567016074,
       prijs: 1495,
       merk: "Chanel Allure Homme Sport",
       merkSleutel: "chanel",
@@ -2120,7 +2170,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Hugo - No. 223",
       afbeelding: "https://aaroma.co/cdn/shop/files/223M_c.webp?v=1772181624&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-223m",
-      variant: null,
+      variant: 47751558332554,
       prijs: 1495,
       merk: "Hugo Boss Hugo",
       merkSleutel: "hugoboss",
@@ -2134,7 +2184,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Terre - No. 227",
       afbeelding: "https://aaroma.co/cdn/shop/files/227M_c.webp?v=1772181789&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-227m",
-      variant: null,
+      variant: 47751572127882,
       prijs: 1495,
       merk: "Hermès Terre d'Hermès",
       merkSleutel: "hermes",
@@ -2148,7 +2198,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Invictus - No. 228",
       afbeelding: "https://aaroma.co/cdn/shop/files/228M_c.webp?v=1772181814&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-228m",
-      variant: null,
+      variant: 47751573209226,
       prijs: 1495,
       merk: "Paco Rabanne Invictus",
       merkSleutel: "pacorabanne",
@@ -2177,7 +2227,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Bottled - No. 234",
       afbeelding: "https://aaroma.co/cdn/shop/files/234M_c.webp?v=1772181872&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-234m",
-      variant: null,
+      variant: 47751576191114,
       prijs: 1495,
       merk: "Hugo Boss Bottled",
       merkSleutel: "hugoboss",
@@ -2191,7 +2241,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Emporio He - No. 242",
       afbeelding: "https://aaroma.co/cdn/shop/files/242M_c.webp?v=1772181594&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-293m",
-      variant: null,
+      variant: 47751555973258,
       prijs: 1495,
       merk: "Giorgio Armani Emporio He",
       merkSleutel: "armani",
@@ -2205,7 +2255,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Le Male - No. 247",
       afbeelding: "https://aaroma.co/cdn/shop/files/247M_c.webp?v=1772617813&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-247m",
-      variant: null,
+      variant: 47751577272458,
       prijs: 1495,
       merk: "Jean Paul Gaultier Le Male",
       merkSleutel: "jpg",
@@ -2233,7 +2283,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Bleu - No. 252",
       afbeelding: "https://aaroma.co/cdn/shop/files/252M_c.webp?v=1772181829&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-252m",
-      variant: null,
+      variant: 47751574126730,
       prijs: 1495,
       merk: "Chanel Bleu de Chanel",
       merkSleutel: "chanel",
@@ -2247,7 +2297,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Code - No. 260",
       afbeelding: "https://aaroma.co/cdn/shop/files/260M_c.webp?v=1772181706&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-260m",
-      variant: null,
+      variant: 47751566229642,
       prijs: 1495,
       merk: "Giorgio Armani Code",
       merkSleutel: "armani",
@@ -2261,7 +2311,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... The Scent - No. 270",
       afbeelding: "https://aaroma.co/cdn/shop/files/270M_c.webp?v=1772181751&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-270m",
-      variant: null,
+      variant: 47751569440906,
       prijs: 1495,
       merk: "Hugo Boss The Scent",
       merkSleutel: "hugoboss",
@@ -2275,7 +2325,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like… One Million - No. 275",
       afbeelding: "https://aaroma.co/cdn/shop/files/275M_c.webp?v=1772181901&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-275m",
-      variant: null,
+      variant: 47751577665674,
       prijs: 1495,
       merk: "Paco Rabanne 1 Million",
       merkSleutel: "pacorabanne",
@@ -2289,7 +2339,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Homme Intense - No. 277",
       afbeelding: "https://aaroma.co/cdn/shop/files/277M_c.webp?v=1772181741&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-277m",
-      variant: null,
+      variant: 47751568654474,
       prijs: 1495,
       merk: "Dior Homme Intense",
       merkSleutel: "dior",
@@ -2346,7 +2396,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like.. Aqva Pour Homme - No. 305",
       afbeelding: "https://aaroma.co/cdn/shop/files/305M_c.webp?v=1772181653&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-305m",
-      variant: null,
+      variant: 47751560691850,
       prijs: 1495,
       merk: "Bvlgari Aqva Pour Homme",
       merkSleutel: "bvlgari",
@@ -2360,7 +2410,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like… Quiet King - No. 317",
       afbeelding: "https://aaroma.co/cdn/shop/files/317M_c.png?v=1772181514&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-317m",
-      variant: null,
+      variant: 47751548633226,
       prijs: 1495,
       merk: "Quiet King",
       merkSleutel: "quietking",
@@ -2374,7 +2424,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Stronger With You Intensely - No. 318",
       afbeelding: "https://aaroma.co/cdn/shop/files/318M_c.webp?v=1772181837&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-318m",
-      variant: null,
+      variant: 47751574519946,
       prijs: 1495,
       merk: "Giorgio Armani Stronger With You",
       merkSleutel: "armani",
@@ -2388,7 +2438,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... One Million Elixir - No. 334",
       afbeelding: "https://aaroma.co/cdn/shop/files/334M_c.webp?v=1772181681&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-334m",
-      variant: null,
+      variant: 47751563051146,
       prijs: 1495,
       merk: "Paco Rabanne 1 Million Elixir",
       merkSleutel: "pacorabanne",
@@ -2402,7 +2452,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Sauvage Parfum - No. 338",
       afbeelding: "https://aaroma.co/cdn/shop/files/338M_c.webp?v=1772181698&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-338m",
-      variant: null,
+      variant: 47751564329098,
       prijs: 1495,
       merk: "Dior Sauvage Parfum",
       merkSleutel: "dior",
@@ -2416,7 +2466,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Ultra Male - No. 349",
       afbeelding: "https://aaroma.co/cdn/shop/files/349M_c.webp?v=1772181758&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-349m",
-      variant: null,
+      variant: 47751570096266,
       prijs: 1495,
       merk: "Jean Paul Gaultier Ultra Male",
       merkSleutel: "jpg",
@@ -2430,7 +2480,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Uomo Born in Roma - No. 360",
       afbeelding: "https://aaroma.co/cdn/shop/files/360M_c.webp?v=1772181778&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-360m",
-      variant: null,
+      variant: 47751571636362,
       prijs: 1495,
       merk: "Valentino Uomo Born in Roma",
       merkSleutel: "valentino",
@@ -2444,7 +2494,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Phantom - No. 399",
       afbeelding: "https://aaroma.co/cdn/shop/files/399M_c.webp?v=1772181689&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-399m",
-      variant: null,
+      variant: 47751563739274,
       prijs: 1495,
       merk: "Paco Rabanne Phantom",
       merkSleutel: "pacorabanne",
@@ -2459,7 +2509,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Chance - No. 006",
       afbeelding: "https://aaroma.co/cdn/shop/files/006W_c.webp?v=1772181862&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-006w",
-      variant: null,
+      variant: 47751575699594,
       prijs: 1495,
       merk: "Chanel Chance",
       merkSleutel: "chanel",
@@ -2473,7 +2523,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Light Blue - No. 017",
       afbeelding: "https://aaroma.co/cdn/shop/files/017W_c.webp?v=1772181912&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-017w",
-      variant: null,
+      variant: 47751578255498,
       prijs: 1495,
       merk: "Dolce & Gabbana Light Blue",
       merkSleutel: "dolcegabbana",
@@ -2487,7 +2537,7 @@ window.fcToggleZoeken = function() {
       titel: "Riecht wie... ÄQUIVALENT - No. 024",
       afbeelding: "https://aaroma.co/cdn/shop/files/024W_c.webp?v=1772181827&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-024w",
-      variant: null,
+      variant: 47751574028426,
       prijs: 1495,
       merk: "Chloé",
       merkSleutel: "chloe",
@@ -2501,7 +2551,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Armani Diamonds - No. 040",
       afbeelding: "https://aaroma.co/cdn/shop/files/040Wc.webp?v=1772181636&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-040w",
-      variant: null,
+      variant: 47751559250058,
       prijs: 1495,
       merk: "Giorgio Armani Diamonds",
       merkSleutel: "armani",
@@ -2515,7 +2565,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Vanille Fatale - No. 053",
       afbeelding: "https://aaroma.co/cdn/shop/files/053W_c.webp?v=1772181859&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-053w-m",
-      variant: null,
+      variant: 47751575601290,
       prijs: 1495,
       merk: "Tom Ford Vanille Fatale",
       merkSleutel: "tomford",
@@ -2529,7 +2579,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Idole - No. 55",
       afbeelding: "https://aaroma.co/cdn/shop/files/055W_c.webp?v=1772181888&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-055w",
-      variant: null,
+      variant: 47751576977546,
       prijs: 1495,
       merk: "Lancôme Idôle",
       merkSleutel: "lancome",
@@ -2543,7 +2593,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Boss Woman - No. 60",
       afbeelding: "https://aaroma.co/cdn/shop/files/060W_c.webp?v=1772181810&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-060w",
-      variant: null,
+      variant: 47751573110922,
       prijs: 1495,
       merk: "Hugo Boss Woman",
       merkSleutel: "hugoboss",
@@ -2557,7 +2607,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Mademoiselle Intense - No. 067",
       afbeelding: "https://aaroma.co/cdn/shop/files/067W_c.webp?v=1772181889&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-067w",
-      variant: null,
+      variant: 47751577075850,
       prijs: 1495,
       merk: "Chanel Coco Mademoiselle Intense",
       merkSleutel: "chanel",
@@ -2571,7 +2621,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Flower - No. 074",
       afbeelding: "https://aaroma.co/cdn/shop/files/074W_c.webp?v=1772181744&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-074w",
-      variant: null,
+      variant: 47751568916618,
       prijs: 1495,
       merk: "Kenzo Flower",
       merkSleutel: "kenzo",
@@ -2585,7 +2635,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Coco - No. 079",
       afbeelding: "https://aaroma.co/cdn/shop/files/079W_c.webp?v=1772181823&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-079w",
-      variant: null,
+      variant: 47751573930122,
       prijs: 1495,
       merk: "Chanel Coco",
       merkSleutel: "chanel",
@@ -2599,7 +2649,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Laurent Opium - No. 083",
       afbeelding: "https://aaroma.co/cdn/shop/files/083W_c.webp?v=1772181708&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-083w",
-      variant: null,
+      variant: 47751566393482,
       prijs: 1495,
       merk: "Yves Saint Laurent Opium",
       merkSleutel: "ysl",
@@ -2627,7 +2677,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... ALIVE - No. 098",
       afbeelding: "https://aaroma.co/cdn/shop/files/098W_c.webp?v=1772181762&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-021w",
-      variant: null,
+      variant: 47751570260106,
       prijs: 1495,
       merk: "Hugo Boss Alive",
       merkSleutel: "hugoboss",
@@ -2641,7 +2691,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... La Vie Est Belle - No. 101",
       afbeelding: "https://aaroma.co/cdn/shop/files/101W_c.webp?v=1772181914&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-101w",
-      variant: null,
+      variant: 47751578353802,
       prijs: 1495,
       merk: "Lancôme La Vie Est Belle",
       merkSleutel: "lancome",
@@ -2655,7 +2705,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Eternity - No. 106",
       afbeelding: "https://aaroma.co/cdn/shop/files/106W_c.webp?v=1772709868&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-106w",
-      variant: null,
+      variant: 47751560560778,
       prijs: 1495,
       merk: "Calvin Klein Eternity",
       merkSleutel: "calvinklein",
@@ -2669,7 +2719,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Angel - No. 113",
       afbeelding: "https://aaroma.co/cdn/shop/files/113W_c.webp?v=1772181695&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-113w",
-      variant: null,
+      variant: 47751564034186,
       prijs: 1495,
       merk: "Mugler Angel",
       merkSleutel: "mugler",
@@ -2697,7 +2747,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Laurent Manifesto - No. 134",
       afbeelding: "https://aaroma.co/cdn/shop/files/134W_c.webp?v=1772181733&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-134w",
-      variant: null,
+      variant: 47751568195722,
       prijs: 1495,
       merk: "Yves Saint Laurent Manifesto",
       merkSleutel: "ysl",
@@ -2711,7 +2761,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Code for Woman - No. 135",
       afbeelding: "https://aaroma.co/cdn/shop/files/23068_366.png?v=1772181772",
       url: "https://aaroma.co/en/products/magic-perfume-no-135w",
-      variant: null,
+      variant: 47751571243146,
       prijs: 1495,
       merk: "Giorgio Armani Code for Women",
       merkSleutel: "armani",
@@ -2725,7 +2775,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Mademoiselle - No. 139",
       afbeelding: "https://aaroma.co/cdn/shop/files/139W_c.webp?v=1772181899&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-139w",
-      variant: null,
+      variant: 47751577567370,
       prijs: 1495,
       merk: "Chanel Coco Mademoiselle",
       merkSleutel: "chanel",
@@ -2739,7 +2789,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... MY WAY - No. 140",
       afbeelding: "https://aaroma.co/cdn/shop/files/140W_c.webp?v=1772181866&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-140w",
-      variant: null,
+      variant: 47751575896202,
       prijs: 1495,
       merk: "Giorgio Armani My Way",
       merkSleutel: "armani",
@@ -2753,7 +2803,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Tresor - No. 141",
       afbeelding: "https://aaroma.co/cdn/shop/files/141W_c.webp?v=1772181793&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-141w",
-      variant: null,
+      variant: 47751572324490,
       prijs: 1495,
       merk: "Lancôme Trésor",
       merkSleutel: "lancome",
@@ -2767,7 +2817,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Ange Ou Demon - No. 142",
       afbeelding: "https://aaroma.co/cdn/shop/files/142W_c.webp?v=1772181626&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-142w",
-      variant: null,
+      variant: 47751558496394,
       prijs: 1495,
       merk: "Givenchy Ange Ou Demon",
       merkSleutel: "givenchy",
@@ -2781,7 +2831,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Hypnotic Poison - No. 145",
       afbeelding: "https://aaroma.co/cdn/shop/files/145W_c.webp?v=1772181884&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-145w",
-      variant: null,
+      variant: 47751576780938,
       prijs: 1495,
       merk: "Dior Hypnotic Poison",
       merkSleutel: "dior",
@@ -2795,7 +2845,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Boss Orange - No. 148",
       afbeelding: "https://aaroma.co/cdn/shop/files/148W_c.webp?v=1772181676&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-148w",
-      variant: null,
+      variant: 47751562461322,
       prijs: 1495,
       merk: "Hugo Boss Boss Orange",
       merkSleutel: "hugoboss",
@@ -2823,7 +2873,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... J'Adore - No. 159",
       afbeelding: "https://aaroma.co/cdn/shop/files/159W_c.webp?v=1772181892&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-159w",
-      variant: null,
+      variant: 47751577174154,
       prijs: 1495,
       merk: "Dior J'Adore",
       merkSleutel: "dior",
@@ -2837,7 +2887,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Rush 2 - No. 163",
       afbeelding: "https://aaroma.co/cdn/shop/files/163W_c.webp?v=1772181781&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-163w",
-      variant: null,
+      variant: 47751571734666,
       prijs: 1495,
       merk: "Rush 2",
       merkSleutel: "rush",
@@ -2851,7 +2901,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Candy - No. 182",
       afbeelding: "https://aaroma.co/cdn/shop/files/182W_c.webp?v=1772181719&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-182w",
-      variant: null,
+      variant: 47751567278218,
       prijs: 1495,
       merk: "Prada Candy",
       merkSleutel: "prada",
@@ -2865,7 +2915,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... The Scent - No. 184",
       afbeelding: "https://aaroma.co/cdn/shop/files/184W_c.webp?v=1772181700&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-184w",
-      variant: null,
+      variant: 47751565836426,
       prijs: 1495,
       merk: "Hugo Boss The Scent",
       merkSleutel: "hugoboss",
@@ -2879,7 +2929,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... SCANDAL - No. 192",
       afbeelding: "https://aaroma.co/cdn/shop/files/192W_c.webp?v=1772181905&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-192w",
-      variant: null,
+      variant: 47751577862282,
       prijs: 1495,
       merk: "Jean Paul Gaultier Scandal",
       merkSleutel: "jpg",
@@ -2908,7 +2958,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Miss Dior Le Parfum - No. 196",
       afbeelding: "https://aaroma.co/cdn/shop/files/196W_c.webp?v=1772181880&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-196w",
-      variant: null,
+      variant: 47751576584330,
       prijs: 1495,
       merk: "Dior Miss Dior Le Parfum",
       merkSleutel: "dior",
@@ -2922,7 +2972,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Joop Homme - No. 211",
       afbeelding: "https://aaroma.co/cdn/shop/files/211M_c.webp?v=1772181725&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-211m",
-      variant: null,
+      variant: 47751567638666,
       prijs: 1495,
       merk: "Joop! Homme",
       merkSleutel: "joop",
@@ -2936,7 +2986,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Very Good Girl - No. 404",
       afbeelding: "https://aaroma.co/cdn/shop/files/404W_c.webp?v=1772181693&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-404w",
-      variant: null,
+      variant: 47751563870346,
       prijs: 1495,
       merk: "Carolina Herrera Very Good Girl",
       merkSleutel: "carolinaherrera",
@@ -2950,7 +3000,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... La Belle - No. 412",
       afbeelding: "https://aaroma.co/cdn/shop/files/412W_c.webp?v=1772181853&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-412w",
-      variant: null,
+      variant: 47751575306378,
       prijs: 1495,
       merk: "Jean Paul Gaultier La Belle",
       merkSleutel: "jpg",
@@ -2991,8 +3041,8 @@ window.fcToggleZoeken = function() {
     {
       id: "aroma_438",
       titel: "Smells Like... Forbidden Fruit EXTRACT",
-      afbeelding: "https://aaroma.co/cdn/shop/files/forbidden_fruit_extract_clean_1.png?crop=center&height=100&v=1762238776&width=100",
-      url: "https://aaroma.co/en/products/forbidden-fruit-extract?_pos=7&_sid=af9d9acc7&_ss=r",
+      afbeelding: "https://aaroma.co/cdn/shop/files/forbidden_fruit_extract_clean_1.png?v=1762238776",
+      url: "https://aaroma.co/en/products/forbidden-fruit-extract?_pos=1&_psq=Forbidden+Fruit+EXTRACT&_ss=e&_v=1.0",
       variant: 47254409838730,
       prijs: 3595,
       merk: "Tom Ford Forbidden Fruit",
@@ -3008,7 +3058,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Classique Essence de Parfum - No. 442",
       afbeelding: "https://aaroma.co/cdn/shop/files/442W_c.webp?v=1772181818&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-442w",
-      variant: null,
+      variant: 47751573635210,
       prijs: 1495,
       merk: "Jean Paul Gaultier Classique",
       merkSleutel: "jpg",
@@ -3078,7 +3128,7 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Fame - No. 498",
       afbeelding: "https://aaroma.co/cdn/shop/files/498W_c.webp?v=1772181877&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-498w",
-      variant: null,
+      variant: 47751576387722,
       prijs: 1495,
       merk: "Paco Rabanne Fame",
       merkSleutel: "pacorabanne",
@@ -3101,6 +3151,21 @@ window.fcToggleZoeken = function() {
       geinspireerdDoor: "Yves Saint Laurent Y",
       type: "premium",
       zoektermen: ["apple ember", "yves saint laurent y", "ysl y", "apple", "ember", "30ml"]
+    },
+    {
+      id: "royal_summit_elixir",
+      titel: "Royal Summit ELIXIR - 30ML",
+      afbeelding: "https://cdn.shopify.com/s/files/1/0610/1073/9338/files/royal_summit_elixir_clean.png?v=1762249422&width=533",
+      url: "https://aaroma.co/en/products/royal-summit-elixir?variant=47255558094986",
+      variant: 47255558094986,
+      prijs: 3595,
+      merk: "Creed Aventus",
+      merkSleutel: "creed",
+      nummer: "royal_summit",
+      geslacht: "male",
+      geinspireerdDoor: "Creed Aventus",
+      type: "premium",
+      zoektermen: ["royal summit", "elixir", "creed aventus", "aventus", "pineapple", "premium"]
     },
     {
       id: "aroma_501",
@@ -3150,8 +3215,8 @@ window.fcToggleZoeken = function() {
     {
       id: "tomford_premium_forbidden_fruit",
       titel: "Forbidden Fruit EXTRACT",
-      afbeelding: "https://aaroma.co/cdn/shop/files/premium_forbidden_fruit.webp",
-      url: "https://aaroma.co/en/products/premium-forbidden-fruit-extract",
+      afbeelding: "https://aaroma.co/cdn/shop/files/forbidden_fruit_extract_clean_1.png?v=1762238776",
+      url: "https://aaroma.co/en/products/forbidden-fruit-extract?_pos=1&_psq=Forbidden+Fruit+EXTRACT&_ss=e&_v=1.0",
       variant: 47254409838730,
       prijs: 4795,
       merk: "Tom Ford Forbidden Fruit",
@@ -3237,7 +3302,6 @@ window.fcToggleZoeken = function() {
     '283': 'apple_ember',  // Y → Apple Ember
     '132': '501',  // Black Opium → Dark Mystique COLLECTION
     '501': 'premium_438',  // Dark Mystique → Forbidden Fruit (Premium)
-    '034': '083',  // Libre → Opium
     '083': '134',  // Opium → Manifesto
     '134': '283',  // Manifesto → Y
     
