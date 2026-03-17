@@ -3392,6 +3392,10 @@ window.fcToggleZoeken = function() {
       else if ((genormaliseerdeQuery.includes('he') || genormaliseerdeQuery.includes('emporio')) && product.nummer === '242') {
         besteScore = 200;
       }
+      // Special case: Boost Calvin Klein products (209, 215, 106) when searching for "ck"
+      else if (genormaliseerdeQuery.includes('ck') && (product.nummer === '209' || product.nummer === '215' || product.nummer === '106')) {
+        besteScore = 200;
+      }
       // Exacte match (hoogste score)
       else if (zoekTekst === genormaliseerdeQuery || zoekTekstZonderSpaties === queryZonderSpaties) {
         besteScore = 100;
@@ -3468,6 +3472,10 @@ window.fcToggleZoeken = function() {
       }
       // Special case: Boost Emporio He when searching for "he" or "emporio"
       else if ((queryNormalized.includes('he') || queryNormalized.includes('emporio')) && parfum.id === 'armani_emporio_he') {
+        score = 2000;
+      }
+      // Special case: Boost Calvin Klein when searching for "ck"
+      else if (queryNormalized.includes('ck') && (parfum.id === 'ck_one' || parfum.id === 'ck_eternity_men' || parfum.id === 'ck_eternity_women')) {
         score = 2000;
       }
       // Exact brand match (highest priority)
