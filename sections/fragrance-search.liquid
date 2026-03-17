@@ -3433,6 +3433,10 @@ window.fcToggleZoeken = function() {
       if (genormaliseerdeQuery.includes('chance') && product.nummer === '006') {
         besteScore = 200;
       }
+      // Special case: Boost product 275 (1 Million) when searching for "one" (includes "one million", etc.)
+      else if (genormaliseerdeQuery.includes('one') && product.nummer === '275') {
+        besteScore = 200;
+      }
       // Exacte match (hoogste score)
       else if (zoekTekst === genormaliseerdeQuery || zoekTekstZonderSpaties === queryZonderSpaties) {
         besteScore = 100;
@@ -3501,6 +3505,10 @@ window.fcToggleZoeken = function() {
       
       // Special case: Boost Chance when searching for "chance" (includes "chance chanel", "chanel chance", etc.)
       if (queryNormalized.includes('chance') && parfum.id === 'chanel_chance') {
+        score = 2000;
+      }
+      // Special case: Boost 1 Million when searching for "one" (includes "one million", etc.)
+      else if (queryNormalized.includes('one') && parfum.id === 'paco_one_million') {
         score = 2000;
       }
       // Exact brand match (highest priority)
