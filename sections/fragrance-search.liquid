@@ -3405,6 +3405,10 @@ window.fcToggleZoeken = function() {
       else if (genormaliseerdeQuery.includes('jpg') && (product.nummer === '247' || product.nummer === '349' || product.nummer === '192' || product.nummer === '412')) {
         besteScore = 200;
       }
+      // Brand boost: Search by brand abbreviation or name (using merkSleutel)
+      else if (product.merkSleutel && genormaliseerdeQuery.includes(product.merkSleutel)) {
+        besteScore = 180;
+      }
       // Exacte match (hoogste score)
       else if (zoekTekst === genormaliseerdeQuery || zoekTekstZonderSpaties === queryZonderSpaties) {
         besteScore = 100;
@@ -3490,6 +3494,52 @@ window.fcToggleZoeken = function() {
       // Special case: Boost Jean Paul Gaultier when searching for "jpg"
       else if (queryNormalized.includes('jpg') && (parfum.id === 'jpg_le_male' || parfum.id === 'jpg_ultra_male' || parfum.id === 'jpg_scandal' || parfum.id === 'jpg_la_belle')) {
         score = 2000;
+      }
+      // Brand abbreviation and name boosts (comprehensive brand search)
+      else if (queryNormalized === 'ysl' || queryNormalized.includes('ysl')) {
+        if (parfumMerk.toLowerCase().includes('yves saint laurent') || parfumMerk.toLowerCase().includes('ysl')) {
+          score = 1950;
+        }
+      }
+      else if (queryNormalized === 'jpg' || queryNormalized === 'gaultier') {
+        if (parfumMerk.toLowerCase().includes('jean paul gaultier')) {
+          score = 1950;
+        }
+      }
+      else if (queryNormalized === 'ck' || queryNormalized === 'calvin') {
+        if (parfumMerk.toLowerCase().includes('calvin klein')) {
+          score = 1950;
+        }
+      }
+      else if (queryNormalized === 'dior' || queryNormalized === 'cd') {
+        if (parfumMerk.toLowerCase().includes('dior')) {
+          score = 1950;
+        }
+      }
+      else if (queryNormalized === 'chanel' || queryNormalized === 'cc') {
+        if (parfumMerk.toLowerCase().includes('chanel')) {
+          score = 1950;
+        }
+      }
+      else if (queryNormalized === 'armani' || queryNormalized === 'ga') {
+        if (parfumMerk.toLowerCase().includes('armani')) {
+          score = 1950;
+        }
+      }
+      else if (queryNormalized === 'gucci') {
+        if (parfumMerk.toLowerCase().includes('gucci')) {
+          score = 1950;
+        }
+      }
+      else if (queryNormalized === 'prada') {
+        if (parfumMerk.toLowerCase().includes('prada')) {
+          score = 1950;
+        }
+      }
+      else if (queryNormalized === 'tom' || queryNormalized === 'tomford' || queryNormalized === 'tf') {
+        if (parfumMerk.toLowerCase().includes('tom ford')) {
+          score = 1950;
+        }
       }
       // Exact brand match (highest priority)
       else if (parfumMerk === queryNormalized) {
