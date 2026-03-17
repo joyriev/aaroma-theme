@@ -3589,20 +3589,8 @@ window.fcToggleZoeken = function() {
     
     let html = `<button class="fc-back-btn" onclick="window.fcGaTerug()">Terug</button>`;
     
-    if (onsProduct) {
-      html += `<div class="fc-subsection-title">Onze versie</div>`;
-      html += '<div class="fc-grid-2col">';
-      html += renderProductKaart(onsProduct, 'Ruikt naar...');
-      
-      // Show hardcoded product recommendation from our collection
-      const aanbevolProduct = getAanbevolenProduct(onsProduct);
-      if (aanbevolProduct) {
-        html += renderProductKaart(aanbevolProduct, 'Misschien vind je dit ook leuk');
-      } else {
-        html += '<div class="fc-product-card" style="visibility: hidden;"></div>';
-      }
-      html += '</div>';
-    } else if (parfum.id === 'creed_aventus') {
+    // Check for hardcoded special cases first (these override generic logic)
+    if (parfum.id === 'creed_aventus') {
       // Hardcoded recommendation for Aventus
       html += `<div class="fc-subsection-title">Onze versie</div>`;
       html += '<div class="fc-grid-2col">';
@@ -3643,6 +3631,19 @@ window.fcToggleZoeken = function() {
       }
       if (acquaDiGioProduct) {
         html += renderProductKaart(acquaDiGioProduct, 'Misschien vind je dit ook leuk');
+      } else {
+        html += '<div class="fc-product-card" style="visibility: hidden;"></div>';
+      }
+      html += '</div>';
+    } else if (onsProduct) {
+      html += `<div class="fc-subsection-title">Onze versie</div>`;
+      html += '<div class="fc-grid-2col">';
+      html += renderProductKaart(onsProduct, 'Ruikt naar...');
+      
+      // Show hardcoded product recommendation from our collection
+      const aanbevolProduct = getAanbevolenProduct(onsProduct);
+      if (aanbevolProduct) {
+        html += renderProductKaart(aanbevolProduct, 'Misschien vind je dit ook leuk');
       } else {
         html += '<div class="fc-product-card" style="visibility: hidden;"></div>';
       }
