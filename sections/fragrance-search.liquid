@@ -3549,6 +3549,21 @@ window.fcToggleZoeken = function() {
         html += '<div class="fc-product-card" style="visibility: hidden;"></div>';
       }
       html += '</div>';
+    } else if (parfum.id === 'creed_aventus') {
+      // Hardcoded recommendation for Aventus
+      html += `<div class="fc-subsection-title">Onze versie</div>`;
+      html += '<div class="fc-grid-2col">';
+      const royalSummitProduct = hardcodedProducten.find(p => p.nummer === 'royal_summit');
+      const bluProduct = hardcodedProducten.find(p => p.nummer === '252');
+      if (royalSummitProduct) {
+        html += renderProductKaart(royalSummitProduct, 'Ruikt naar...');
+      }
+      if (bluProduct) {
+        html += renderProductKaart(bluProduct, 'Misschien vind je dit ook leuk');
+      } else {
+        html += '<div class="fc-product-card" style="visibility: hidden;"></div>';
+      }
+      html += '</div>';
     } else {
       html += `<div class="fc-subsection-title">Geen bijpassend product gevonden</div>`;
       html += '<div class="fc-grid-2col"><div class="fc-product-card" style="visibility: hidden;"></div><div class="fc-product-card" style="visibility: hidden;"></div></div>';
