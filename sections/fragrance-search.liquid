@@ -452,7 +452,7 @@ window.NederlandseParfumCatalogus = {
       id: "lancome_la_vie_est_belle",
       naam: "La Vie Est Belle",
       merk: "Lancôme",
-      afbeelding: "https://aaroma.co/cdn/shop/files/Lancome_La_Vie_Est_Belle.avif?v=1762633307",
+      afbeelding: "https://aaroma.co/cdn/shop/files/la_vie_est_belle.webp?v=1772339894",
       topnoten: ["Zwarte bes", "Peer", "Sinaasappelbloesem"],
       hartnoten: ["Iris", "Jasmijn", "Sinaasappelbloesem"],
       basisnoten: ["Praliné", "Vanille", "Patchouli", "Tonka"],
@@ -3277,7 +3277,7 @@ window.fcToggleZoeken = function() {
     '024': '141',  // Chloé → Trésor
     '163': '074',  // Rush 2 → Flower
     '094': '017',  // The One → Light Blue
-    '017': '094',  // Light Blue → The One
+    '017': '221',  // Light Blue → Acqua Di Gio
     '142': '132',  // Ange Ou Demon → Black Opium
     '469': '360',  // Born in Roma (V) → Uomo Born in Roma (M)
     '360': '469',  // Uomo Born in Roma (M) → Born in Roma (V)
@@ -3345,6 +3345,47 @@ window.fcToggleZoeken = function() {
   }
 
   // ===== TEXT NORMALISEREN (voor zoeken met Nederlandse karakters) =====
+  // ===== FUZZY MATCHING FOR TYPOS AND MISSPELLINGS =====
+  function levenshteinDistance(str1, str2) {
+    const len1 = str1.length;
+    const len2 = str2.length;
+    const matrix = Array(len2 + 1).fill(null).map(() => Array(len1 + 1).fill(0));
+    
+    for (let i = 0; i <= len1; i++) matrix[0][i] = i;
+    for (let j = 0; j <= len2; j++) matrix[j][0] = j;
+    
+    for (let j = 1; j <= len2; j++) {
+      for (let i = 1; i <= len1; i++) {
+        const indicator = str1[i - 1] === str2[j - 1] ? 0 : 1;
+        matrix[j][i] = Math.min(
+          matrix[j][i - 1] + 1,
+          matrix[j - 1][i] + 1,
+          matrix[j - 1][i - 1] + indicator
+        );
+      }
+    }
+    return matrix[len2][len1];
+  }
+
+  function isFuzzyMatch(text, query) {
+    if (!text || !query) return false;
+    
+    // Remove spaces entirely for comparison
+    const textClean = text.replace(/\s+/g, '');
+    const queryClean = query.replace(/\s+/g, '');
+    
+    // Exact match (after space removal)
+    if (textClean === queryClean) return true;
+    
+    // Starts with (no space)
+    if (textClean.startsWith(queryClean)) return true;
+    
+    // Fuzzy match: allow up to 2 character differences
+    const distance = levenshteinDistance(textClean, queryClean);
+    const maxDistance = Math.max(2, Math.floor(queryClean.length * 0.25));
+    return distance <= maxDistance;
+  }
+
   function normaliseerTekst(tekst) {
     if (!tekst) return '';
     return tekst.toLowerCase()
@@ -3371,6 +3412,7 @@ window.fcToggleZoeken = function() {
       let besteScore = 0;
       const zoekTekst = normaliseerTekst(product.titel);
       const zoekTekstZonderSpaties = zoekTekst.replace(/\s+/g, '');
+      const genormaliseerMerk = normaliseerTekst(product.merk || '');
       
       // Exacte match (hoogste score)
       if (zoekTekst === genormaliseerdeQuery || zoekTekstZonderSpaties === queryZonderSpaties) {
@@ -3379,6 +3421,14 @@ window.fcToggleZoeken = function() {
       // Bevat match
       else if (zoekTekst.includes(genormaliseerdeQuery) || zoekTekstZonderSpaties.includes(queryZonderSpaties)) {
         besteScore = 90;
+      }
+      // Fuzzy match titel
+      else if (isFuzzyMatch(zoekTekst, genormaliseerdeQuery)) {
+        besteScore = 85;
+      }
+      // Fuzzy match merk
+      else if (isFuzzyMatch(genormaliseerMerk, genormaliseerdeQuery)) {
+        besteScore = 88;
       }
       // Productnummer match
       else if (product.nummer && product.nummer === query) {
@@ -3444,6 +3494,10 @@ window.fcToggleZoeken = function() {
                parfumMerk.endsWith(' ' + queryNormalized)) {
         score = 850;
       }
+      // Fuzzy match brand (typos/misspellings like "dior" vs "dir")
+      else if (isFuzzyMatch(parfumMerk, queryNormalized)) {
+        score = 875;
+      }
       // Exact name match
       else if (parfumNaam === queryNormalized) {
         score = 700;
@@ -3457,6 +3511,10 @@ window.fcToggleZoeken = function() {
                parfumNaam.startsWith(queryNormalized + ' ') || 
                parfumNaam.endsWith(' ' + queryNormalized)) {
         score = 500;
+      }
+      // Fuzzy match name (typos like "oudwood" vs "oud wood")
+      else if (isFuzzyMatch(parfumNaam, queryNormalized)) {
+        score = 550;
       }
       // Brand contains query
       else if (parfumMerk.includes(queryNormalized)) {
@@ -3555,6 +3613,36 @@ window.fcToggleZoeken = function() {
       }
       if (bluProduct) {
         html += renderProductKaart(bluProduct, 'Misschien vind je dit ook leuk');
+      } else {
+        html += '<div class="fc-product-card" style="visibility: hidden;"></div>';
+      }
+      html += '</div>';
+    } else if (parfum.id === 'lancome_la_vie_est_belle') {
+      // Hardcoded recommendation for La Vie Est Belle
+      html += `<div class="fc-subsection-title">Onze versie</div>`;
+      html += '<div class="fc-grid-2col">';
+      const laVieProduct = hardcodedProducten.find(p => p.nummer === '101');
+      const tresorProduct = hardcodedProducten.find(p => p.nummer === '141');
+      if (laVieProduct) {
+        html += renderProductKaart(laVieProduct, 'Ruikt naar...');
+      }
+      if (tresorProduct) {
+        html += renderProductKaart(tresorProduct, 'Misschien vind je dit ook leuk');
+      } else {
+        html += '<div class="fc-product-card" style="visibility: hidden;"></div>';
+      }
+      html += '</div>';
+    } else if (parfum.id === 'dolce_light_blue') {
+      // Hardcoded recommendation for Light Blue
+      html += `<div class="fc-subsection-title">Onze versie</div>`;
+      html += '<div class="fc-grid-2col">';
+      const lightBlueProduct = hardcodedProducten.find(p => p.nummer === '017');
+      const acquaDiGioProduct = hardcodedProducten.find(p => p.nummer === '221');
+      if (lightBlueProduct) {
+        html += renderProductKaart(lightBlueProduct, 'Ruikt naar...');
+      }
+      if (acquaDiGioProduct) {
+        html += renderProductKaart(acquaDiGioProduct, 'Misschien vind je dit ook leuk');
       } else {
         html += '<div class="fc-product-card" style="visibility: hidden;"></div>';
       }
