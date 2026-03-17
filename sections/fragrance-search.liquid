@@ -3396,6 +3396,10 @@ window.fcToggleZoeken = function() {
       else if (genormaliseerdeQuery.includes('ck') && (product.nummer === '209' || product.nummer === '215' || product.nummer === '106')) {
         besteScore = 200;
       }
+      // Special case: Boost Jean Paul Gaultier products (247, 349, 192, 412) when searching for "jpg"
+      else if (genormaliseerdeQuery.includes('jpg') && (product.nummer === '247' || product.nummer === '349' || product.nummer === '192' || product.nummer === '412')) {
+        besteScore = 200;
+      }
       // Exacte match (hoogste score)
       else if (zoekTekst === genormaliseerdeQuery || zoekTekstZonderSpaties === queryZonderSpaties) {
         besteScore = 100;
@@ -3476,6 +3480,10 @@ window.fcToggleZoeken = function() {
       }
       // Special case: Boost Calvin Klein when searching for "ck"
       else if (queryNormalized.includes('ck') && (parfum.id === 'ck_one' || parfum.id === 'ck_eternity_men' || parfum.id === 'ck_eternity_women')) {
+        score = 2000;
+      }
+      // Special case: Boost Jean Paul Gaultier when searching for "jpg"
+      else if (queryNormalized.includes('jpg') && (parfum.id === 'jpg_le_male' || parfum.id === 'jpg_ultra_male' || parfum.id === 'jpg_scandal' || parfum.id === 'jpg_la_belle')) {
         score = 2000;
       }
       // Exact brand match (highest priority)
