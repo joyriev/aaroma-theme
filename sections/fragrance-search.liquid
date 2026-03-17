@@ -302,7 +302,7 @@ window.NederlandseParfumCatalogus = {
       jaar: "2010",
       geslacht: "Mannelijk",
       productnummers: ["252"],
-      variantIds: {"252": "47255558094986"}
+      variantIds: {"252": "47751574126730"}
     },
     {
       id: "chanel_allure_homme_sport",
@@ -866,7 +866,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een levendige en energieke geur.",
       jaar: "2019",
       geslacht: "Vrouwelijk",
-      productnummers: ["098"]
+      productnummers: ["098"],
+      variantIds: {"098": "47751570260106"}
     },
     {
       id: "boss_woman",
@@ -879,7 +880,8 @@ window.NederlandseParfumCatalogus = {
       beschrijving: "Een klassieke en elegante geur.",
       jaar: "2000",
       geslacht: "Vrouwelijk",
-      productnummers: ["60"]
+      productnummers: ["60"],
+      variantIds: {"60": "47751573110922"}
     },
     {
       id: "boss_orange",
@@ -2120,7 +2122,7 @@ window.fcToggleZoeken = function() {
 
 <script>
 (function() {
-  // ===== ALLE 63 HARDCODED PRODUCTEN VAN AAROMA =====
+  // ===== ALLE HARDCODED PRODUCTEN VAN AAROMA MET JUISTE VARIANT IDs =====
   const hardcodedProducten = [
     // ===== DIOR =====
     {
@@ -2128,13 +2130,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Fahrenheit - No. 206",
       afbeelding: "https://aaroma.co/cdn/shop/files/206M_c.webp?v=1772181850&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-206m",
-      variant: null,
+      variant: 47751575208074,
       prijs: 1495,
       merk: "Dior Fahrenheit",
       merkSleutel: "dior",
       nummer: "206",
       geslacht: "male",
       geinspireerdDoor: "Dior Fahrenheit",
+      type: "standard",
       zoektermen: ["fahrenheit", "206", "dior fahrenheit", "smells like"]
     },
     {
@@ -2142,13 +2145,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Acqua Di Gio - No. 221",
       afbeelding: "https://aaroma.co/cdn/shop/files/221M_c.webp?v=1772181799&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-221m",
-      variant: null,
+      variant: 47751572619402,
       prijs: 1495,
       merk: "Giorgio Armani Acqua Di Gio",
       merkSleutel: "armani",
       nummer: "221",
       geslacht: "male",
       geinspireerdDoor: "Giorgio Armani Acqua Di Gio",
+      type: "standard",
       zoektermen: ["acqua di gio", "221", "armani acqua di gio", "smells like"]
     },
     {
@@ -2156,13 +2160,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Allure Homme Sport - No. 222",
       afbeelding: "https://aaroma.co/cdn/shop/files/222M_c.webp?v=1772181716&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-222m",
-      variant: null,
+      variant: 47751567016074,
       prijs: 1495,
       merk: "Chanel Allure Homme Sport",
       merkSleutel: "chanel",
       nummer: "222",
       geslacht: "male",
       geinspireerdDoor: "Chanel Allure Homme Sport",
+      type: "standard",
       zoektermen: ["allure homme sport", "222", "chanel allure homme sport", "smells like"]
     },
     {
@@ -2170,13 +2175,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Hugo - No. 223",
       afbeelding: "https://aaroma.co/cdn/shop/files/223M_c.webp?v=1772181624&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-223m",
-      variant: null,
+      variant: 47751558332554,
       prijs: 1495,
       merk: "Hugo Boss Hugo",
       merkSleutel: "hugoboss",
       nummer: "223",
       geslacht: "male",
       geinspireerdDoor: "Hugo Boss Hugo",
+      type: "standard",
       zoektermen: ["hugo", "223", "hugo boss hugo", "smells like"]
     },
     {
@@ -2184,13 +2190,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Terre - No. 227",
       afbeelding: "https://aaroma.co/cdn/shop/files/227M_c.webp?v=1772181789&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-227m",
-      variant: null,
+      variant: 47751572127882,
       prijs: 1495,
       merk: "Hermès Terre d'Hermès",
       merkSleutel: "hermes",
       nummer: "227",
       geslacht: "male",
       geinspireerdDoor: "Hermès Terre d'Hermès",
+      type: "standard",
       zoektermen: ["terre", "227", "hermes terre", "smells like"]
     },
     {
@@ -2198,13 +2205,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Invictus - No. 228",
       afbeelding: "https://aaroma.co/cdn/shop/files/228M_c.webp?v=1772181814&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-228m",
-      variant: null,
+      variant: 47751573209226,
       prijs: 1495,
       merk: "Paco Rabanne Invictus",
       merkSleutel: "pacorabanne",
       nummer: "228",
       geslacht: "male",
       geinspireerdDoor: "Paco Rabanne Invictus",
+      type: "standard",
       zoektermen: ["invictus", "228", "paco rabanne invictus", "smells like"]
     },
     {
@@ -2227,13 +2235,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Bottled - No. 234",
       afbeelding: "https://aaroma.co/cdn/shop/files/234M_c.webp?v=1772181872&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-234m",
-      variant: null,
+      variant: 47751576191114,
       prijs: 1495,
       merk: "Hugo Boss Bottled",
       merkSleutel: "hugoboss",
       nummer: "234",
       geslacht: "male",
       geinspireerdDoor: "Hugo Boss Bottled",
+      type: "standard",
       zoektermen: ["bottled", "234", "hugo boss bottled", "smells like"]
     },
     {
@@ -2241,13 +2250,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Emporio He - No. 242",
       afbeelding: "https://aaroma.co/cdn/shop/files/242M_c.webp?v=1772181594&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-293m",
-      variant: null,
+      variant: 47751555973258,
       prijs: 1495,
       merk: "Giorgio Armani Emporio He",
       merkSleutel: "armani",
       nummer: "242",
       geslacht: "male",
       geinspireerdDoor: "Giorgio Armani Emporio He",
+      type: "standard",
       zoektermen: ["emporio he", "242", "armani he", "smells like"]
     },
     {
@@ -2255,41 +2265,29 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Le Male - No. 247",
       afbeelding: "https://aaroma.co/cdn/shop/files/247M_c.webp?v=1772617813&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-247m",
-      variant: null,
+      variant: 47751577272458,
       prijs: 1495,
       merk: "Jean Paul Gaultier Le Male",
       merkSleutel: "jpg",
       nummer: "247",
       geslacht: "male",
       geinspireerdDoor: "Jean Paul Gaultier Le Male",
+      type: "standard",
       zoektermen: ["le male", "247", "jean paul gaultier le male", "smells like"]
-    },
-    {
-      id: "aroma_248",
-      titel: "Smells Like... Eros - No. 248",
-      afbeelding: "https://aaroma.co/cdn/shop/files/248M_c.webp?v=1772181790&width=533",
-      url: "https://aaroma.co/en/products/magic-perfume-no-248m",
-      variant: null,
-      prijs: 1495,
-      merk: "Versace Eros",
-      merkSleutel: "versace",
-      nummer: "248",
-      geslacht: "male",
-      geinspireerdDoor: "Versace Eros",
-      zoektermen: ["eros", "248", "versace eros", "smells like"]
     },
     {
       id: "aroma_252",
       titel: "Smells Like... Bleu - No. 252",
       afbeelding: "https://aaroma.co/cdn/shop/files/252M_c.webp?v=1772181829&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-252m",
-      variant: null,
+      variant: 47751574126730,
       prijs: 1495,
       merk: "Chanel Bleu de Chanel",
       merkSleutel: "chanel",
       nummer: "252",
       geslacht: "male",
       geinspireerdDoor: "Chanel Bleu de Chanel",
+      type: "standard",
       zoektermen: ["bleu", "252", "chanel bleu", "smells like"]
     },
     {
@@ -2297,13 +2295,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Code - No. 260",
       afbeelding: "https://aaroma.co/cdn/shop/files/260M_c.webp?v=1772181706&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-260m",
-      variant: null,
+      variant: 47751566229642,
       prijs: 1495,
       merk: "Giorgio Armani Code",
       merkSleutel: "armani",
       nummer: "260",
       geslacht: "male",
       geinspireerdDoor: "Giorgio Armani Code",
+      type: "standard",
       zoektermen: ["code", "260", "armani code", "smells like"]
     },
     {
@@ -2311,13 +2310,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... The Scent - No. 270",
       afbeelding: "https://aaroma.co/cdn/shop/files/270M_c.webp?v=1772181751&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-270m",
-      variant: null,
+      variant: 47751569440906,
       prijs: 1495,
       merk: "Hugo Boss The Scent",
       merkSleutel: "hugoboss",
       nummer: "270",
       geslacht: "male",
       geinspireerdDoor: "Hugo Boss The Scent",
+      type: "standard",
       zoektermen: ["the scent", "270", "hugo boss the scent", "smells like"]
     },
     {
@@ -2325,13 +2325,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like… One Million - No. 275",
       afbeelding: "https://aaroma.co/cdn/shop/files/275M_c.webp?v=1772181901&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-275m",
-      variant: null,
+      variant: 47751577665674,
       prijs: 1495,
       merk: "Paco Rabanne 1 Million",
       merkSleutel: "pacorabanne",
       nummer: "275",
       geslacht: "male",
       geinspireerdDoor: "Paco Rabanne 1 Million",
+      type: "standard",
       zoektermen: ["one million", "275", "paco rabanne 1 million", "smells like"]
     },
     {
@@ -2339,13 +2340,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Homme Intense - No. 277",
       afbeelding: "https://aaroma.co/cdn/shop/files/277M_c.webp?v=1772181741&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-277m",
-      variant: null,
+      variant: 47751568654474,
       prijs: 1495,
       merk: "Dior Homme Intense",
       merkSleutel: "dior",
       nummer: "277",
       geslacht: "male",
       geinspireerdDoor: "Dior Homme Intense",
+      type: "standard",
       zoektermen: ["homme intense", "277", "dior homme intense", "smells like"]
     },
     {
@@ -2360,6 +2362,7 @@ window.fcToggleZoeken = function() {
       nummer: "283",
       geslacht: "male",
       geinspireerdDoor: "Yves Saint Laurent Y",
+      type: "standard",
       zoektermen: ["y", "283", "ysl y", "smells like"]
     },
     {
@@ -2378,31 +2381,18 @@ window.fcToggleZoeken = function() {
       zoektermen: ["oud wood", "287", "tom ford oud wood", "smells like"]
     },
     {
-      id: "aroma_288",
-      titel: "Smells Like... Aventus - No. 288",
-      afbeelding: "https://aaroma.co/cdn/shop/files/288M_c.webp?v=1772181795&width=533",
-      url: "https://aaroma.co/en/products/magic-perfume-no-288m",
-      variant: null,
-      prijs: 1495,
-      merk: "Creed Aventus",
-      merkSleutel: "creed",
-      nummer: "288",
-      geslacht: "male",
-      geinspireerdDoor: "Creed Aventus",
-      zoektermen: ["aventus", "288", "creed aventus", "smells like"]
-    },
-    {
       id: "aroma_305",
       titel: "Smells Like.. Aqva Pour Homme - No. 305",
       afbeelding: "https://aaroma.co/cdn/shop/files/305M_c.webp?v=1772181653&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-305m",
-      variant: null,
+      variant: 47751560691850,
       prijs: 1495,
       merk: "Bvlgari Aqva Pour Homme",
       merkSleutel: "bvlgari",
       nummer: "305",
       geslacht: "male",
       geinspireerdDoor: "Bvlgari Aqva Pour Homme",
+      type: "standard",
       zoektermen: ["aqva", "305", "bvlgari aqva", "smells like"]
     },
     {
@@ -2410,13 +2400,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like… Quiet King - No. 317",
       afbeelding: "https://aaroma.co/cdn/shop/files/317M_c.png?v=1772181514&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-317m",
-      variant: null,
+      variant: 47751548633226,
       prijs: 1495,
       merk: "Quiet King",
       merkSleutel: "quietking",
       nummer: "317",
       geslacht: "male",
       geinspireerdDoor: "Quiet King",
+      type: "standard",
       zoektermen: ["quiet king", "317", "smells like"]
     },
     {
@@ -2424,13 +2415,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Stronger With You Intensely - No. 318",
       afbeelding: "https://aaroma.co/cdn/shop/files/318M_c.webp?v=1772181837&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-318m",
-      variant: null,
+      variant: 47751574519946,
       prijs: 1495,
       merk: "Giorgio Armani Stronger With You",
       merkSleutel: "armani",
       nummer: "318",
       geslacht: "male",
       geinspireerdDoor: "Giorgio Armani Stronger With You",
+      type: "standard",
       zoektermen: ["stronger with you", "318", "armani stronger with you", "smells like"]
     },
     {
@@ -2438,13 +2430,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... One Million Elixir - No. 334",
       afbeelding: "https://aaroma.co/cdn/shop/files/334M_c.webp?v=1772181681&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-334m",
-      variant: null,
+      variant: 47751563051146,
       prijs: 1495,
       merk: "Paco Rabanne 1 Million Elixir",
       merkSleutel: "pacorabanne",
       nummer: "334",
       geslacht: "male",
       geinspireerdDoor: "Paco Rabanne 1 Million Elixir",
+      type: "standard",
       zoektermen: ["one million elixir", "334", "paco rabanne 1 million elixir", "smells like"]
     },
     {
@@ -2452,13 +2445,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Sauvage Parfum - No. 338",
       afbeelding: "https://aaroma.co/cdn/shop/files/338M_c.webp?v=1772181698&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-338m",
-      variant: null,
+      variant: 47751564329098,
       prijs: 1495,
       merk: "Dior Sauvage Parfum",
       merkSleutel: "dior",
       nummer: "338",
       geslacht: "male",
       geinspireerdDoor: "Dior Sauvage Parfum",
+      type: "standard",
       zoektermen: ["sauvage parfum", "338", "dior sauvage", "smells like"]
     },
     {
@@ -2466,13 +2460,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Ultra Male - No. 349",
       afbeelding: "https://aaroma.co/cdn/shop/files/349M_c.webp?v=1772181758&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-349m",
-      variant: null,
+      variant: 47751570096266,
       prijs: 1495,
       merk: "Jean Paul Gaultier Ultra Male",
       merkSleutel: "jpg",
       nummer: "349",
       geslacht: "male",
       geinspireerdDoor: "Jean Paul Gaultier Ultra Male",
+      type: "standard",
       zoektermen: ["ultra male", "349", "jean paul gaultier ultra male", "smells like"]
     },
     {
@@ -2480,27 +2475,44 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Uomo Born in Roma - No. 360",
       afbeelding: "https://aaroma.co/cdn/shop/files/360M_c.webp?v=1772181778&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-360m",
-      variant: null,
+      variant: 47751571636362,
       prijs: 1495,
       merk: "Valentino Uomo Born in Roma",
       merkSleutel: "valentino",
       nummer: "360",
       geslacht: "male",
       geinspireerdDoor: "Valentino Uomo Born in Roma",
+      type: "standard",
       zoektermen: ["uomo born in roma", "360", "valentino uomo", "smells like"]
+    },
+    {
+      id: "aroma_366",
+      titel: "Smells Like... Sauvage Elixir - No. 366",
+      afbeelding: "https://aaroma.co/cdn/shop/files/366M_c.webp?v=1772181919&width=533",
+      url: "https://aaroma.co/en/products/magic-perfume-no-366m-2",
+      variant: 47751578648714,
+      prijs: 1495,
+      merk: "Dior Sauvage Elixir",
+      merkSleutel: "dior",
+      nummer: "366",
+      geslacht: "male",
+      geinspireerdDoor: "Dior Sauvage Elixir",
+      type: "standard",
+      zoektermen: ["sauvage elixir", "366", "dior sauvage elixir", "smells like"]
     },
     {
       id: "aroma_399",
       titel: "Smells Like... Phantom - No. 399",
       afbeelding: "https://aaroma.co/cdn/shop/files/399M_c.webp?v=1772181689&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-399m",
-      variant: null,
+      variant: 47751563739274,
       prijs: 1495,
       merk: "Paco Rabanne Phantom",
       merkSleutel: "pacorabanne",
       nummer: "399",
       geslacht: "male",
       geinspireerdDoor: "Paco Rabanne Phantom",
+      type: "standard",
       zoektermen: ["phantom", "399", "paco rabanne phantom", "smells like"]
     },
     // ===== VROUWELIJKE PRODUCTEN =====
@@ -2509,13 +2521,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Chance - No. 006",
       afbeelding: "https://aaroma.co/cdn/shop/files/006W_c.webp?v=1772181862&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-006w",
-      variant: null,
+      variant: 47751575699594,
       prijs: 1495,
       merk: "Chanel Chance",
       merkSleutel: "chanel",
       nummer: "006",
       geslacht: "female",
       geinspireerdDoor: "Chanel Chance",
+      type: "standard",
       zoektermen: ["chance", "006", "chanel chance", "smells like"]
     },
     {
@@ -2523,13 +2536,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Light Blue - No. 017",
       afbeelding: "https://aaroma.co/cdn/shop/files/017W_c.webp?v=1772181912&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-017w",
-      variant: null,
+      variant: 47751578255498,
       prijs: 1495,
       merk: "Dolce & Gabbana Light Blue",
       merkSleutel: "dolcegabbana",
       nummer: "017",
       geslacht: "female",
       geinspireerdDoor: "Dolce & Gabbana Light Blue",
+      type: "standard",
       zoektermen: ["light blue", "017", "dolce gabbana light blue", "smells like"]
     },
     {
@@ -2537,13 +2551,14 @@ window.fcToggleZoeken = function() {
       titel: "Riecht wie... ÄQUIVALENT - No. 024",
       afbeelding: "https://aaroma.co/cdn/shop/files/024W_c.webp?v=1772181827&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-024w",
-      variant: null,
+      variant: 47751574028426,
       prijs: 1495,
       merk: "Chloé",
       merkSleutel: "chloe",
       nummer: "024",
       geslacht: "female",
       geinspireerdDoor: "Chloé",
+      type: "standard",
       zoektermen: ["chloe", "024", "smells like"]
     },
     {
@@ -2551,13 +2566,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Armani Diamonds - No. 040",
       afbeelding: "https://aaroma.co/cdn/shop/files/040Wc.webp?v=1772181636&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-040w",
-      variant: null,
+      variant: 47751559250058,
       prijs: 1495,
       merk: "Giorgio Armani Diamonds",
       merkSleutel: "armani",
       nummer: "040",
       geslacht: "female",
       geinspireerdDoor: "Giorgio Armani Diamonds",
+      type: "standard",
       zoektermen: ["diamonds", "040", "armani diamonds", "smells like"]
     },
     {
@@ -2565,13 +2581,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Vanille Fatale - No. 053",
       afbeelding: "https://aaroma.co/cdn/shop/files/053W_c.webp?v=1772181859&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-053w-m",
-      variant: null,
+      variant: 47751575601290,
       prijs: 1495,
       merk: "Tom Ford Vanille Fatale",
       merkSleutel: "tomford",
       nummer: "053",
       geslacht: "female",
       geinspireerdDoor: "Tom Ford Vanille Fatale",
+      type: "standard",
       zoektermen: ["vanille fatale", "053", "tom ford vanille fatale", "smells like"]
     },
     {
@@ -2579,13 +2596,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Idole - No. 55",
       afbeelding: "https://aaroma.co/cdn/shop/files/055W_c.webp?v=1772181888&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-055w",
-      variant: null,
+      variant: 47751576977546,
       prijs: 1495,
       merk: "Lancôme Idôle",
       merkSleutel: "lancome",
       nummer: "55",
       geslacht: "female",
       geinspireerdDoor: "Lancôme Idôle",
+      type: "standard",
       zoektermen: ["idole", "55", "lancome idole", "smells like"]
     },
     {
@@ -2593,13 +2611,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Boss Woman - No. 60",
       afbeelding: "https://aaroma.co/cdn/shop/files/060W_c.webp?v=1772181810&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-060w",
-      variant: null,
+      variant: 47751573110922,
       prijs: 1495,
       merk: "Hugo Boss Woman",
       merkSleutel: "hugoboss",
       nummer: "60",
       geslacht: "female",
       geinspireerdDoor: "Hugo Boss Woman",
+      type: "standard",
       zoektermen: ["boss woman", "60", "hugo boss woman", "smells like"]
     },
     {
@@ -2607,13 +2626,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Mademoiselle Intense - No. 067",
       afbeelding: "https://aaroma.co/cdn/shop/files/067W_c.webp?v=1772181889&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-067w",
-      variant: null,
+      variant: 47751577075850,
       prijs: 1495,
       merk: "Chanel Coco Mademoiselle Intense",
       merkSleutel: "chanel",
       nummer: "067",
       geslacht: "female",
       geinspireerdDoor: "Chanel Coco Mademoiselle Intense",
+      type: "standard",
       zoektermen: ["mademoiselle intense", "067", "chanel coco mademoiselle", "smells like"]
     },
     {
@@ -2621,13 +2641,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Flower - No. 074",
       afbeelding: "https://aaroma.co/cdn/shop/files/074W_c.webp?v=1772181744&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-074w",
-      variant: null,
+      variant: 47751568916618,
       prijs: 1495,
       merk: "Kenzo Flower",
       merkSleutel: "kenzo",
       nummer: "074",
       geslacht: "female",
       geinspireerdDoor: "Kenzo Flower",
+      type: "standard",
       zoektermen: ["flower", "074", "kenzo flower", "smells like"]
     },
     {
@@ -2635,13 +2656,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Coco - No. 079",
       afbeelding: "https://aaroma.co/cdn/shop/files/079W_c.webp?v=1772181823&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-079w",
-      variant: null,
+      variant: 47751573930122,
       prijs: 1495,
       merk: "Chanel Coco",
       merkSleutel: "chanel",
       nummer: "079",
       geslacht: "female",
       geinspireerdDoor: "Chanel Coco",
+      type: "standard",
       zoektermen: ["coco", "079", "chanel coco", "smells like"]
     },
     {
@@ -2649,41 +2671,29 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Laurent Opium - No. 083",
       afbeelding: "https://aaroma.co/cdn/shop/files/083W_c.webp?v=1772181708&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-083w",
-      variant: null,
+      variant: 47751566393482,
       prijs: 1495,
       merk: "Yves Saint Laurent Opium",
       merkSleutel: "ysl",
       nummer: "083",
       geslacht: "female",
       geinspireerdDoor: "Yves Saint Laurent Opium",
+      type: "standard",
       zoektermen: ["opium", "083", "ysl opium", "smells like"]
-    },
-    {
-      id: "aroma_094",
-      titel: "Smells Like... The One - No. 094",
-      afbeelding: "https://aaroma.co/cdn/shop/files/094W_c.webp?v=1772181915&width=533",
-      url: "https://aaroma.co/en/products/magic-perfume-no-094w",
-      variant: null,
-      prijs: 1495,
-      merk: "Dolce & Gabbana The One",
-      merkSleutel: "dolcegabbana",
-      nummer: "094",
-      geslacht: "female",
-      geinspireerdDoor: "Dolce & Gabbana The One",
-      zoektermen: ["the one", "094", "dolce gabbana the one", "smells like"]
     },
     {
       id: "aroma_098",
       titel: "Smells Like... ALIVE - No. 098",
       afbeelding: "https://aaroma.co/cdn/shop/files/098W_c.webp?v=1772181762&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-021w",
-      variant: null,
+      variant: 47751570260106,
       prijs: 1495,
       merk: "Hugo Boss Alive",
       merkSleutel: "hugoboss",
       nummer: "098",
       geslacht: "female",
       geinspireerdDoor: "Hugo Boss Alive",
+      type: "standard",
       zoektermen: ["alive", "098", "hugo boss alive", "smells like"]
     },
     {
@@ -2691,13 +2701,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... La Vie Est Belle - No. 101",
       afbeelding: "https://aaroma.co/cdn/shop/files/101W_c.webp?v=1772181914&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-101w",
-      variant: null,
+      variant: 47751578353802,
       prijs: 1495,
       merk: "Lancôme La Vie Est Belle",
       merkSleutel: "lancome",
       nummer: "101",
       geslacht: "female",
       geinspireerdDoor: "Lancôme La Vie Est Belle",
+      type: "standard",
       zoektermen: ["la vie est belle", "101", "lancome la vie est belle", "smells like"]
     },
     {
@@ -2705,13 +2716,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Eternity - No. 106",
       afbeelding: "https://aaroma.co/cdn/shop/files/106W_c.webp?v=1772709868&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-106w",
-      variant: null,
+      variant: 47751560560778,
       prijs: 1495,
       merk: "Calvin Klein Eternity",
       merkSleutel: "calvinklein",
       nummer: "106",
       geslacht: "female",
       geinspireerdDoor: "Calvin Klein Eternity",
+      type: "standard",
       zoektermen: ["eternity", "106", "calvin klein eternity", "smells like"]
     },
     {
@@ -2719,41 +2731,29 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Angel - No. 113",
       afbeelding: "https://aaroma.co/cdn/shop/files/113W_c.webp?v=1772181695&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-113w",
-      variant: null,
+      variant: 47751564034186,
       prijs: 1495,
       merk: "Mugler Angel",
       merkSleutel: "mugler",
       nummer: "113",
       geslacht: "female",
       geinspireerdDoor: "Mugler Angel",
+      type: "standard",
       zoektermen: ["angel", "113", "mugler angel", "smells like"]
-    },
-    {
-      id: "aroma_129",
-      titel: "Smells Like... Si - No. 129",
-      afbeelding: "https://aaroma.co/cdn/shop/files/129W_c.webp?v=1772181794&width=533",
-      url: "https://aaroma.co/en/products/magic-perfume-no-129w",
-      variant: null,
-      prijs: 1495,
-      merk: "Giorgio Armani Si",
-      merkSleutel: "armani",
-      nummer: "129",
-      geslacht: "female",
-      geinspireerdDoor: "Giorgio Armani Si",
-      zoektermen: ["si", "129", "armani si", "smells like"]
     },
     {
       id: "aroma_134",
       titel: "Smells Like... Laurent Manifesto - No. 134",
       afbeelding: "https://aaroma.co/cdn/shop/files/134W_c.webp?v=1772181733&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-134w",
-      variant: null,
+      variant: 47751568195722,
       prijs: 1495,
       merk: "Yves Saint Laurent Manifesto",
       merkSleutel: "ysl",
       nummer: "134",
       geslacht: "female",
       geinspireerdDoor: "Yves Saint Laurent Manifesto",
+      type: "standard",
       zoektermen: ["manifesto", "134", "ysl manifesto", "smells like"]
     },
     {
@@ -2761,13 +2761,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Code for Woman - No. 135",
       afbeelding: "https://aaroma.co/cdn/shop/files/23068_366.png?v=1772181772",
       url: "https://aaroma.co/en/products/magic-perfume-no-135w",
-      variant: null,
+      variant: 47751571243146,
       prijs: 1495,
       merk: "Giorgio Armani Code for Women",
       merkSleutel: "armani",
       nummer: "135",
       geslacht: "female",
       geinspireerdDoor: "Giorgio Armani Code for Women",
+      type: "standard",
       zoektermen: ["code for women", "135", "armani code for women", "smells like"]
     },
     {
@@ -2775,13 +2776,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Mademoiselle - No. 139",
       afbeelding: "https://aaroma.co/cdn/shop/files/139W_c.webp?v=1772181899&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-139w",
-      variant: null,
+      variant: 47751577567370,
       prijs: 1495,
       merk: "Chanel Coco Mademoiselle",
       merkSleutel: "chanel",
       nummer: "139",
       geslacht: "female",
       geinspireerdDoor: "Chanel Coco Mademoiselle",
+      type: "standard",
       zoektermen: ["mademoiselle", "139", "chanel coco mademoiselle", "smells like"]
     },
     {
@@ -2789,13 +2791,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... MY WAY - No. 140",
       afbeelding: "https://aaroma.co/cdn/shop/files/140W_c.webp?v=1772181866&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-140w",
-      variant: null,
+      variant: 47751575896202,
       prijs: 1495,
       merk: "Giorgio Armani My Way",
       merkSleutel: "armani",
       nummer: "140",
       geslacht: "female",
       geinspireerdDoor: "Giorgio Armani My Way",
+      type: "standard",
       zoektermen: ["my way", "140", "armani my way", "smells like"]
     },
     {
@@ -2803,13 +2806,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Tresor - No. 141",
       afbeelding: "https://aaroma.co/cdn/shop/files/141W_c.webp?v=1772181793&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-141w",
-      variant: null,
+      variant: 47751572324490,
       prijs: 1495,
       merk: "Lancôme Trésor",
       merkSleutel: "lancome",
       nummer: "141",
       geslacht: "female",
       geinspireerdDoor: "Lancôme Trésor",
+      type: "standard",
       zoektermen: ["tresor", "141", "lancome tresor", "smells like"]
     },
     {
@@ -2817,13 +2821,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Ange Ou Demon - No. 142",
       afbeelding: "https://aaroma.co/cdn/shop/files/142W_c.webp?v=1772181626&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-142w",
-      variant: null,
+      variant: 47751558496394,
       prijs: 1495,
       merk: "Givenchy Ange Ou Demon",
       merkSleutel: "givenchy",
       nummer: "142",
       geslacht: "female",
       geinspireerdDoor: "Givenchy Ange Ou Demon",
+      type: "standard",
       zoektermen: ["ange ou demon", "142", "givenchy ange ou demon", "smells like"]
     },
     {
@@ -2831,13 +2836,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Hypnotic Poison - No. 145",
       afbeelding: "https://aaroma.co/cdn/shop/files/145W_c.webp?v=1772181884&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-145w",
-      variant: null,
+      variant: 47751576780938,
       prijs: 1495,
       merk: "Dior Hypnotic Poison",
       merkSleutel: "dior",
       nummer: "145",
       geslacht: "female",
       geinspireerdDoor: "Dior Hypnotic Poison",
+      type: "standard",
       zoektermen: ["hypnotic poison", "145", "dior hypnotic poison", "smells like"]
     },
     {
@@ -2845,41 +2851,29 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Boss Orange - No. 148",
       afbeelding: "https://aaroma.co/cdn/shop/files/148W_c.webp?v=1772181676&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-148w",
-      variant: null,
+      variant: 47751562461322,
       prijs: 1495,
       merk: "Hugo Boss Boss Orange",
       merkSleutel: "hugoboss",
       nummer: "148",
       geslacht: "female",
       geinspireerdDoor: "Hugo Boss Boss Orange",
+      type: "standard",
       zoektermen: ["boss orange", "148", "hugo boss orange", "smells like"]
-    },
-    {
-      id: "aroma_150",
-      titel: "Smells Like... Emporio She - No. 150",
-      afbeelding: "https://aaroma.co/cdn/shop/files/150W_c.webp?v=1772181791&width=533",
-      url: "https://aaroma.co/en/products/magic-perfume-no-150w",
-      variant: null,
-      prijs: 1495,
-      merk: "Giorgio Armani Emporio She",
-      merkSleutel: "armani",
-      nummer: "150",
-      geslacht: "female",
-      geinspireerdDoor: "Giorgio Armani Emporio She",
-      zoektermen: ["emporio she", "150", "armani she", "smells like"]
     },
     {
       id: "aroma_159",
       titel: "Smells Like... J'Adore - No. 159",
       afbeelding: "https://aaroma.co/cdn/shop/files/159W_c.webp?v=1772181892&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-159w",
-      variant: null,
+      variant: 47751577174154,
       prijs: 1495,
       merk: "Dior J'Adore",
       merkSleutel: "dior",
       nummer: "159",
       geslacht: "female",
       geinspireerdDoor: "Dior J'Adore",
+      type: "standard",
       zoektermen: ["jadore", "159", "dior j'adore", "smells like"]
     },
     {
@@ -2887,13 +2881,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Rush 2 - No. 163",
       afbeelding: "https://aaroma.co/cdn/shop/files/163W_c.webp?v=1772181781&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-163w",
-      variant: null,
+      variant: 47751571734666,
       prijs: 1495,
       merk: "Rush 2",
       merkSleutel: "rush",
       nummer: "163",
       geslacht: "female",
       geinspireerdDoor: "Rush 2",
+      type: "standard",
       zoektermen: ["rush 2", "163", "smells like"]
     },
     {
@@ -2901,13 +2896,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Candy - No. 182",
       afbeelding: "https://aaroma.co/cdn/shop/files/182W_c.webp?v=1772181719&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-182w",
-      variant: null,
+      variant: 47751567278218,
       prijs: 1495,
       merk: "Prada Candy",
       merkSleutel: "prada",
       nummer: "182",
       geslacht: "female",
       geinspireerdDoor: "Prada Candy",
+      type: "standard",
       zoektermen: ["candy", "182", "prada candy", "smells like"]
     },
     {
@@ -2915,13 +2911,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... The Scent - No. 184",
       afbeelding: "https://aaroma.co/cdn/shop/files/184W_c.webp?v=1772181700&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-184w",
-      variant: null,
+      variant: 47751565836426,
       prijs: 1495,
       merk: "Hugo Boss The Scent",
       merkSleutel: "hugoboss",
       nummer: "184",
       geslacht: "female",
       geinspireerdDoor: "Hugo Boss The Scent",
+      type: "standard",
       zoektermen: ["the scent", "184", "hugo boss the scent", "smells like"]
     },
     {
@@ -2929,13 +2926,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... SCANDAL - No. 192",
       afbeelding: "https://aaroma.co/cdn/shop/files/192W_c.webp?v=1772181905&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-192w",
-      variant: null,
+      variant: 47751577862282,
       prijs: 1495,
       merk: "Jean Paul Gaultier Scandal",
       merkSleutel: "jpg",
       nummer: "192",
       geslacht: "female",
       geinspireerdDoor: "Jean Paul Gaultier Scandal",
+      type: "standard",
       zoektermen: ["scandal", "192", "jean paul gaultier scandal", "smells like"]
     },
     {
@@ -2958,13 +2956,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Miss Dior Le Parfum - No. 196",
       afbeelding: "https://aaroma.co/cdn/shop/files/196W_c.webp?v=1772181880&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-196w",
-      variant: null,
+      variant: 47751576584330,
       prijs: 1495,
       merk: "Dior Miss Dior Le Parfum",
       merkSleutel: "dior",
       nummer: "196",
       geslacht: "female",
       geinspireerdDoor: "Dior Miss Dior Le Parfum",
+      type: "standard",
       zoektermen: ["miss dior", "196", "dior miss dior", "smells like"]
     },
     {
@@ -2972,13 +2971,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Joop Homme - No. 211",
       afbeelding: "https://aaroma.co/cdn/shop/files/211M_c.webp?v=1772181725&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-211m",
-      variant: null,
+      variant: 47751567638666,
       prijs: 1495,
       merk: "Joop! Homme",
       merkSleutel: "joop",
       nummer: "211",
       geslacht: "male",
       geinspireerdDoor: "Joop! Homme",
+      type: "standard",
       zoektermen: ["joop", "211", "joop homme", "smells like"]
     },
     {
@@ -2986,13 +2986,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... Very Good Girl - No. 404",
       afbeelding: "https://aaroma.co/cdn/shop/files/404W_c.webp?v=1772181693&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-404w",
-      variant: null,
+      variant: 47751563870346,
       prijs: 1495,
       merk: "Carolina Herrera Very Good Girl",
       merkSleutel: "carolinaherrera",
       nummer: "404",
       geslacht: "female",
       geinspireerdDoor: "Carolina Herrera Very Good Girl",
+      type: "standard",
       zoektermen: ["very good girl", "404", "carolina herrera very good girl", "smells like"]
     },
     {
@@ -3000,13 +3001,14 @@ window.fcToggleZoeken = function() {
       titel: "Smells Like... La Belle - No. 412",
       afbeelding: "https://aaroma.co/cdn/shop/files/412W_c.webp?v=1772181853&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-412w",
-      variant: null,
+      variant: 47751575306378,
       prijs: 1495,
       merk: "Jean Paul Gaultier La Belle",
       merkSleutel: "jpg",
       nummer: "412",
       geslacht: "female",
       geinspireerdDoor: "Jean Paul Gaultier La Belle",
+      type: "standard",
       zoektermen: ["la belle", "412", "jean paul gaultier la belle", "smells like"]
     },
     {
@@ -3025,116 +3027,33 @@ window.fcToggleZoeken = function() {
       zoektermen: ["cherry smoke", "434", "tom ford cherry smoke", "smells like"]
     },
     {
-      id: "aroma_437",
-      titel: "Smells Like... Paradoxe - No. 437",
-      afbeelding: "https://aaroma.co/cdn/shop/files/437W_c.webp?v=1772181829&width=533",
-      url: "https://aaroma.co/en/products/magic-perfume-no-437w",
-      variant: null,
-      prijs: 1495,
-      merk: "Prada Paradoxe",
-      merkSleutel: "prada",
-      nummer: "437",
-      geslacht: "female",
-      geinspireerdDoor: "Prada Paradoxe",
-      zoektermen: ["paradoxe", "437", "prada paradoxe", "smells like"]
-    },
-    {
-      id: "aroma_438",
-      titel: "Smells Like... Forbidden Fruit EXTRACT",
-      afbeelding: "https://aaroma.co/cdn/shop/files/forbidden_fruit_extract_clean_1.png?v=1762238776",
-      url: "https://aaroma.co/en/products/forbidden-fruit-extract?_pos=1&_psq=Forbidden+Fruit+EXTRACT&_ss=e&_v=1.0",
-      variant: 47254409838730,
-      prijs: 3595,
-      merk: "Tom Ford Forbidden Fruit",
-      merkSleutel: "tomford",
-      nummer: "438",
-      geslacht: "unisex",
-      geinspireerdDoor: "Tom Ford Lost Cherry",
-      type: "standard",
-      zoektermen: ["forbidden fruit", "lost cherry", "extract", "438", "tom ford"]
-    },
-    {
       id: "aroma_442",
       titel: "Smells Like... Classique Essence de Parfum - No. 442",
       afbeelding: "https://aaroma.co/cdn/shop/files/442W_c.webp?v=1772181818&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-442w",
-      variant: null,
+      variant: 47751573635210,
       prijs: 1495,
       merk: "Jean Paul Gaultier Classique",
       merkSleutel: "jpg",
       nummer: "442",
       geslacht: "female",
       geinspireerdDoor: "Jean Paul Gaultier Classique",
+      type: "standard",
       zoektermen: ["classique", "442", "jean paul gaultier classique", "smells like"]
-    },
-    {
-      id: "aroma_461",
-      titel: "Smells Like... Good Girl - No. 461",
-      afbeelding: "https://aaroma.co/cdn/shop/files/461W_c.webp?v=1772181816&width=533",
-      url: "https://aaroma.co/en/products/magic-perfume-no-461w",
-      variant: null,
-      prijs: 1495,
-      merk: "Carolina Herrera Good Girl",
-      merkSleutel: "carolinaherrera",
-      nummer: "461",
-      geslacht: "female",
-      geinspireerdDoor: "Carolina Herrera Good Girl",
-      zoektermen: ["good girl", "461", "carolina herrera good girl", "smells like"]
-    },
-    {
-      id: "aroma_466",
-      titel: "Smells Like... Baccarat Rouge - No. 466",
-      afbeelding: "https://aaroma.co/cdn/shop/files/466W_c.webp?v=1772181812&width=533",
-      url: "https://aaroma.co/en/products/magic-perfume-no-466w",
-      variant: null,
-      prijs: 1495,
-      merk: "Maison Francis Kurkdjian Baccarat Rouge",
-      merkSleutel: "mfk",
-      nummer: "466",
-      geslacht: "female",
-      geinspireerdDoor: "Maison Francis Kurkdjian Baccarat Rouge",
-      zoektermen: ["baccarat", "466", "mfk baccarat", "smells like"]
-    },
-    {
-      id: "aroma_469",
-      titel: "Smells Like... Born in Roma - No. 469",
-      afbeelding: "https://aaroma.co/cdn/shop/files/469W_c.webp?v=1772181805&width=533",
-      url: "https://aaroma.co/en/products/magic-perfume-no-469w",
-      variant: null,
-      prijs: 1495,
-      merk: "Valentino Born in Roma",
-      merkSleutel: "valentino",
-      nummer: "469",
-      geslacht: "female",
-      geinspireerdDoor: "Valentino Born in Roma",
-      zoektermen: ["born in roma", "469", "valentino born in roma", "smells like"]
-    },
-    {
-      id: "aroma_474",
-      titel: "Smells Like... Ombre Leather - No. 474",
-      afbeelding: "https://aaroma.co/cdn/shop/files/474W_c.webp?v=1772181801&width=533",
-      url: "https://aaroma.co/en/products/magic-perfume-no-474w",
-      variant: null,
-      prijs: 1495,
-      merk: "Tom Ford Ombre Leather",
-      merkSleutel: "tomford",
-      nummer: "474",
-      geslacht: "female",
-      geinspireerdDoor: "Tom Ford Ombre Leather",
-      zoektermen: ["ombre leather", "474", "tom ford ombre leather", "smells like"]
     },
     {
       id: "aroma_498",
       titel: "Smells Like... Fame - No. 498",
       afbeelding: "https://aaroma.co/cdn/shop/files/498W_c.webp?v=1772181877&width=533",
       url: "https://aaroma.co/en/products/magic-perfume-no-498w",
-      variant: null,
+      variant: 47751576387722,
       prijs: 1495,
       merk: "Paco Rabanne Fame",
       merkSleutel: "pacorabanne",
       nummer: "498",
       geslacht: "female",
       geinspireerdDoor: "Paco Rabanne Fame",
+      type: "standard",
       zoektermen: ["fame", "498", "paco rabanne fame", "smells like"]
     },
     {
@@ -3171,7 +3090,7 @@ window.fcToggleZoeken = function() {
       id: "aroma_501",
       titel: "Dark Mystique COLLECTION",
       afbeelding: "https://aaroma.co/cdn/shop/files/dark_mystique_collection_clean.png?v=1762249750",
-      url: "https://aaroma.co/en/products/dark-mystique-collection?_pos=3&_sid=87cb2eeb4&_ss=r",
+      url: "https://aaroma.co/en/products/dark-mystique-collection",
       variant: 47255562616970,
       prijs: 3595,
       merk: "Dark Mystique",
@@ -3179,6 +3098,7 @@ window.fcToggleZoeken = function() {
       nummer: "501",
       geslacht: "unisex",
       geinspireerdDoor: "Dark Mystique",
+      type: "premium",
       zoektermen: ["dark mystique", "collection", "501", "dark"]
     },
     // ===== PREMIUM TOM FORD =====
@@ -3216,7 +3136,7 @@ window.fcToggleZoeken = function() {
       id: "tomford_premium_forbidden_fruit",
       titel: "Forbidden Fruit EXTRACT",
       afbeelding: "https://aaroma.co/cdn/shop/files/forbidden_fruit_extract_clean_1.png?v=1762238776",
-      url: "https://aaroma.co/en/products/forbidden-fruit-extract?_pos=1&_psq=Forbidden+Fruit+EXTRACT&_ss=e&_v=1.0",
+      url: "https://aaroma.co/en/products/forbidden-fruit-extract",
       variant: 47254409838730,
       prijs: 4795,
       merk: "Tom Ford Forbidden Fruit",
@@ -3230,8 +3150,8 @@ window.fcToggleZoeken = function() {
     {
       id: "tomford_premium_desert_throne",
       titel: "Desert Throne ABSOLUE",
-      afbeelding: "https://aaroma.co/cdn/shop/files/desert_throne_absolue_clean_1.png?crop=center&height=100&v=1762238483&width=100",
-      url: "https://aaroma.co/en/products/desert-throne-absolue?_pos=1&_psq=Desert+Throne+ABSOLUE&_ss=e&_v=1.0",
+      afbeelding: "https://aaroma.co/cdn/shop/files/desert_throne_absolue_clean_1.png?v=1762238483&width=100",
+      url: "https://aaroma.co/en/products/desert-throne-absolue",
       variant: 47254248030346,
       prijs: 3595,
       merk: "Tom Ford Desert Throne",
@@ -3245,8 +3165,8 @@ window.fcToggleZoeken = function() {
     {
       id: "tomford_premium_leather_legacy",
       titel: "Leather Legacy PARFUM",
-      afbeelding: "https://aaroma.co/cdn/shop/files/leather_legacy_parfum_clean_1.png?crop=center&height=100&v=1762233984&width=100",
-      url: "https://aaroma.co/en/products/leather-legacy-parfum?_pos=1&_sid=b32d07b79&_ss=r",
+      afbeelding: "https://aaroma.co/cdn/shop/files/leather_legacy_parfum_clean_1.png?v=1762233984&width=100",
+      url: "https://aaroma.co/en/products/leather-legacy-parfum",
       variant: 47253717745802,
       prijs: 3595,
       merk: "Tom Ford Leather Legacy",
@@ -3413,28 +3333,6 @@ window.fcToggleZoeken = function() {
     return null;
   }
 
-  // ===== GET RECOMMENDATION FROM HARDCODED PERFUME MAPPINGS =====
-  function getAanbevolenParfum(parfum) {
-    if (!parfum || !parfum.id) return null;
-    
-    // Find all products that are inspired by this perfume
-    const geinspireeerdProducts = hardcodedProducten.filter(p => 
-      p.geinspireerdDoor === parfum.naam || 
-      p.geinspireerdDoor === parfum.merk
-    );
-    
-    if (geinspireeerdProducts.length > 0) {
-      // Recommend a related product from the same brand if available
-      const sameBrand = hardcodedProducten.find(p =>
-        p.merkSleutel === (parfum.id.split('_')[0] || '') &&
-        p.id !== geinspireeerdProducts[0].id
-      );
-      return sameBrand || geinspireeerdProducts[0];
-    }
-    
-    return null;
-  }
-
   // ===== TEXT NORMALISEREN (voor zoeken met Nederlandse karakters) =====
   function normaliseerTekst(tekst) {
     if (!tekst) return '';
@@ -3520,60 +3418,50 @@ window.fcToggleZoeken = function() {
       const parfumMerk = normaliseerTekst(parfum.merk);
       
       let score = 0;
-      let matchType = '';
       
       // Exact brand match (highest priority)
       if (parfumMerk === queryNormalized) {
         score = 1000;
-        matchType = 'exact-brand';
       }
       // Brand starts with query
       else if (parfumMerk.startsWith(queryNormalized)) {
         score = 900;
-        matchType = 'brand-starts-with';
       }
       // Brand contains query as word
       else if (parfumMerk.includes(' ' + queryNormalized + ' ') || 
                parfumMerk.startsWith(queryNormalized + ' ') || 
                parfumMerk.endsWith(' ' + queryNormalized)) {
         score = 850;
-        matchType = 'brand-word-match';
       }
       // Exact name match
       else if (parfumNaam === queryNormalized) {
         score = 700;
-        matchType = 'exact-name';
       }
       // Name starts with query
       else if (parfumNaam.startsWith(queryNormalized)) {
         score = 600;
-        matchType = 'name-starts-with';
       }
       // Name contains query as word
       else if (parfumNaam.includes(' ' + queryNormalized + ' ') || 
                parfumNaam.startsWith(queryNormalized + ' ') || 
                parfumNaam.endsWith(' ' + queryNormalized)) {
         score = 500;
-        matchType = 'name-word-match';
       }
       // Brand contains query
       else if (parfumMerk.includes(queryNormalized)) {
         score = 800;
-        matchType = 'brand-contains';
       }
       // Name contains query
       else if (parfumNaam.includes(queryNormalized)) {
         score = 400;
-        matchType = 'name-contains';
       }
       // Product number match
       else if (parfum.productnummers && parfum.productnummers.some(num => num === query)) {
         score = 950;
-        matchType = 'product-number';
       }
       
       if (score > 0) {
-        resultaten.push({ parfum, score, matchType });
+        resultaten.push({ parfum, score });
       }
     });
     
@@ -3599,8 +3487,6 @@ window.fcToggleZoeken = function() {
       </div>
     `;
   }
-
-  // ===== RENDER CATALOG PERFUME CARD =====
 
   // ===== DETAILS VAN ECHTE PARFUM TONEN =====
   window.fcToonParfumDetails = function(parfumId) {
