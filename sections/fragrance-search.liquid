@@ -2254,7 +2254,7 @@ window.fcToggleZoeken = function() {
       geslacht: "male",
       geinspireerdDoor: "Giorgio Armani Emporio He",
       type: "standard",
-      zoektermen: ["emporio he", "242", "armani he", "smells like"]
+      zoektermen: ["emporio he", "242", "armani he", "smells like", "emporio", "he"]
     },
     {
       id: "aroma_247",
@@ -3437,6 +3437,10 @@ window.fcToggleZoeken = function() {
       else if (genormaliseerdeQuery.includes('one') && product.nummer === '275') {
         besteScore = 200;
       }
+      // Special case: Boost product 242 (Emporio He) when searching for "he" or "emporio"
+      else if ((genormaliseerdeQuery.includes('he') || genormaliseerdeQuery.includes('emporio')) && product.nummer === '242') {
+        besteScore = 200;
+      }
       // Exacte match (hoogste score)
       else if (zoekTekst === genormaliseerdeQuery || zoekTekstZonderSpaties === queryZonderSpaties) {
         besteScore = 100;
@@ -3509,6 +3513,10 @@ window.fcToggleZoeken = function() {
       }
       // Special case: Boost 1 Million when searching for "one" (includes "one million", etc.)
       else if (queryNormalized.includes('one') && parfum.id === 'paco_one_million') {
+        score = 2000;
+      }
+      // Special case: Boost Emporio He when searching for "he" or "emporio"
+      else if ((queryNormalized.includes('he') || queryNormalized.includes('emporio')) && parfum.id === 'armani_emporio_he') {
         score = 2000;
       }
       // Exact brand match (highest priority)
