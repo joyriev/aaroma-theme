@@ -679,7 +679,7 @@ window.NederlandseParfumCatalogus = {
       id: "mugler_angel",
       naam: "Angel",
       merk: "Mugler",
-      afbeelding: "https://aaroma.co/cdn/shop/files/angel.webp?v=1772339894",
+      afbeelding: "https://aaroma.co/cdn/shop/files/angel_edp.webp?v=1772373610",
       topnoten: ["Suikerspin", "Bergamot", "Ananas", "Kokos"],
       hartnoten: ["Honing", "Rode bessen", "Perzik", "Pruim", "Abrikoos"],
       basisnoten: ["Patchouli", "Vanille", "Chocolade", "Karamel"],
