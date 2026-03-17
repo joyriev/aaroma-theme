@@ -662,19 +662,7 @@ window.NederlandseParfumCatalogus = {
 
   // ===== MUGLER =====
   mugler: [
-    {
-      id: "mugler_alien",
-      naam: "Alien",
-      merk: "Mugler",
-      afbeelding: "https://aaroma.co/cdn/shop/files/alien.webp?v=1772339894",
-      topnoten: ["Jasmijn", "Amber"],
-      hartnoten: ["Houtnoten", "Muskus"],
-      basisnoten: ["Vanille", "Ceder"],
-      beschrijving: "Een mysterieuze en sensuele geur.",
-      jaar: "2005",
-      geslacht: "Vrouwelijk",
-      productnummers: ["004"]
-    },
+   
     {
       id: "mugler_angel",
       naam: "Angel",
