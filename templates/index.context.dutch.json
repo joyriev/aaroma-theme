@@ -12,5 +12,13 @@
     "market": "dutch"
   },
   "parent": "index.json",
-  "sections": {}
+  "sections": {
+    "home_hero_banner_qmaB3G": {
+      "settings": {
+        "image": "shopify://shop_images/magic_ribbon_header_netherlands.webp",
+        "mobile_image": "shopify://shop_images/magic_ribbon_header_netherlands_mobile.webp"
+      },
+      "blocks": {}
+    }
+  }
 }
