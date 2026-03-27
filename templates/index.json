@@ -255,8 +255,8 @@
         "review_MKcdVw": {
           "type": "review",
           "settings": {
-            "heading": "Highly recommend.",
-            "content": "<p>From customer service to the product itself, the experience was excellent. Everything arrived as expected, and I’d happily purchase again.</p>",
+            "heading": "Zeker een aanrader.",
+            "content": "<p>Van de klantenservice tot het product zelf: de hele ervaring was uitstekend. Alles werd geleverd zoals verwacht en ik bestel hier graag opnieuw.</p>",
             "author": "Benjamin M.",
             "date": "2 days ago",
             "rating": 5,
@@ -267,8 +267,8 @@
         "review_kCUEm4": {
           "type": "review",
           "settings": {
-            "heading": "Arrived perfectly.",
-            "content": "<p>The product was well packaged, arrived in great condition, and the scent quality exceeded my expectations. Very happy with this purchase.</p>",
+            "heading": "Perfect aangekomen.",
+            "content": "<p>Het product was goed verpakt, kwam in perfecte staat aan en de geurkwaliteit overtrof mijn verwachtingen. Zeer tevreden met deze aankoop.</p>",
             "author": "Sharley A.",
             "date": "2 days ago",
             "rating": 5,
@@ -279,8 +279,8 @@
         "review_EbFNac": {
           "type": "review",
           "settings": {
-            "heading": "Great value for money.",
-            "content": "<p>I was genuinely impressed by the quality. The scent holds up well and feels comparable to much more expensive brands.</p>",
+            "heading": "Uitstekende prijs-kwaliteitverhouding.",
+            "content": "<p>Ik was echt onder de indruk van de kwaliteit. De geur blijft goed hangen en is vergelijkbaar met veel duurdere merken.</p>",
             "author": "Santosh K.",
             "date": "2 days ago",
             "rating": 5,
@@ -297,8 +297,8 @@
       "name": "Review Grid",
       "settings": {
         "background_color": "#ffffff",
-        "heading": "What our Customers Say",
-        "review_text": "4.9/5 based on 2,400+ reviews",
+        "heading": "Wat onze klanten zeggen",
+        "review_text": "4,9/5 op basis van 2.400+ beoordelingen",
         "button_text": "Read all reviews",
         "button_link": "shopify://collections/all",
         "padding_top": 72,
