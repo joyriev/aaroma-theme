@@ -164,32 +164,32 @@
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/icons_eu.png",
-            "perk_title": "Made in the EU",
-            "perk_content": "Vegan, cruelty-free, and made in the EU."
+            "perk_title": "Gemaakt in de EU",
+            "perk_content": "Vegan, dierproefvrij en geproduceerd in de EU."
           }
         },
         "perks_Ynh4gw": {
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/icons_quality.png",
-            "perk_title": "French Quality Standard",
-            "perk_content": "Crafted with the same attention to detail as designer brands."
+            "perk_title": "Franse kwaliteitsstandaard",
+            "perk_content": "Vervaardigd met dezelfde oog voor detail als designermerken."
           }
         },
         "perks_Cj3EAR": {
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/icons_guarantee.png",
-            "perk_title": "Money-Back Guarantee",
-            "perk_content": "We accept products back within 60 days for a refund."
+            "perk_title": "Geld-terug-garantie",
+            "perk_content": "Je kunt je product binnen 60 dagen retourneren voor een volledige terugbetaling."
           }
         },
         "perks_iX4iTY": {
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/icons_time.png",
-            "perk_title": "Long-Lasting",
-            "perk_content": "Lasts for 12+ hours (some say longer)."
+            "perk_title": "Langdurig effect",
+            "perk_content": "Blijft 12+ uur zitten (sommigen zeggen zelfs langer)."
           }
         }
       },
@@ -240,10 +240,10 @@
       "name": "Popular Products",
       "settings": {
         "background_color": "#fcfbf9",
-        "title": "Popular Products",
-        "description": "<p>“Hands down the best dupes I’ve tried. They last for hours once applied—and I’m already planning my next order.”<br/>— <strong>Jim Rogers</strong></p>",
+        "title": "Populaire producten",
+        "description": "<p>“Zonder twijfel de beste dupes die ik heb geprobeerd. Ze blijven urenlang zitten na het aanbrengen — en ik ben mijn volgende bestelling al aan het plannen.” ~ <strong>Jim Rogers</strong></p>",
         "collection": "top-sellers",
-        "button_text": "View All",
+        "button_text": "Bekijk alles",
         "button_link": "shopify://collections/all",
         "padding_top": 72,
         "padding_bottom": 72
@@ -255,8 +255,8 @@
         "review_MKcdVw": {
           "type": "review",
           "settings": {
-            "heading": "Highly recommend.",
-            "content": "<p>From customer service to the product itself, the experience was excellent. Everything arrived as expected, and I’d happily purchase again.</p>",
+            "heading": "Zeker een aanrader.",
+            "content": "<p>Van de klantenservice tot het product zelf: de hele ervaring was uitstekend. Alles werd geleverd zoals verwacht en ik bestel hier graag opnieuw.</p>",
             "author": "Benjamin M.",
             "date": "2 days ago",
             "rating": 5,
@@ -267,8 +267,8 @@
         "review_kCUEm4": {
           "type": "review",
           "settings": {
-            "heading": "Arrived perfectly.",
-            "content": "<p>The product was well packaged, arrived in great condition, and the scent quality exceeded my expectations. Very happy with this purchase.</p>",
+            "heading": "Perfect aangekomen.",
+            "content": "<p>Het product was goed verpakt, kwam in perfecte staat aan en de geurkwaliteit overtrof mijn verwachtingen. Zeer tevreden met deze aankoop.</p>",
             "author": "Sharley A.",
             "date": "2 days ago",
             "rating": 5,
@@ -279,8 +279,8 @@
         "review_EbFNac": {
           "type": "review",
           "settings": {
-            "heading": "Great value for money.",
-            "content": "<p>I was genuinely impressed by the quality. The scent holds up well and feels comparable to much more expensive brands.</p>",
+            "heading": "Uitstekende prijs-kwaliteitverhouding.",
+            "content": "<p>Ik was echt onder de indruk van de kwaliteit. De geur blijft goed hangen en is vergelijkbaar met veel duurdere merken.</p>",
             "author": "Santosh K.",
             "date": "2 days ago",
             "rating": 5,
@@ -297,8 +297,8 @@
       "name": "Review Grid",
       "settings": {
         "background_color": "#ffffff",
-        "heading": "What our Customers Say",
-        "review_text": "4.9/5 based on 2,400+ reviews",
+        "heading": "Wat onze klanten zeggen",
+        "review_text": "4,9/5 op basis van 2.400+ beoordelingen",
         "button_text": "Read all reviews",
         "button_link": "shopify://collections/all",
         "padding_top": 72,
@@ -389,7 +389,7 @@
           "type": "category",
           "settings": {
             "image": "shopify://shop_images/website_bundle.webp",
-            "text": "Bundle & Save",
+            "text": "Bundel & bespaar",
             "link": "shopify://collections/bundle-save"
           }
         },
@@ -397,7 +397,7 @@
           "type": "category",
           "settings": {
             "image": "shopify://shop_images/tryscent_male_02.png",
-            "text": "For Him",
+            "text": "Voor hem",
             "link": "shopify://collections/men"
           }
         },
@@ -405,7 +405,7 @@
           "type": "category",
           "settings": {
             "image": "shopify://shop_images/ugc12.png",
-            "text": "For Her",
+            "text": "Voor haar",
             "link": "shopify://collections/women"
           }
         },
@@ -497,7 +497,7 @@
         "heading_ax7WWJ": {
           "type": "heading",
           "settings": {
-            "content": "Why EU-Made Fragrances Hit Different?",
+            "content": "Waarom geuren uit de EU écht het verschil maken?",
             "heading_type": "h2",
             "font_size": 32,
             "mobile_font_size": 24
@@ -506,7 +506,7 @@
         "text_gzPVkb": {
           "type": "text",
           "settings": {
-            "content": "<ul><li>⁠Produced in EU facilities</li><li>⁠IFRA-compliant ingredients and formulations</li><li>No corner-cutting, no grey-market blending</li></ul><p>We Craft Perfumes under strict European cosmetic standards</p>",
+            "content": "<ul><li>Geproduceerd in Europese faciliteiten</li><li>Ingrediënten en formules volgens IFRA-richtlijnen</li><li>Geen concessies, geen grijze markt of twijfelachtige mengsels</li></ul><p>Wij ontwikkelen parfums volgens de strenge Europese cosmeticaregels.</p>",
             "mobile_content": "",
             "font_size": 18
           }
@@ -990,9 +990,9 @@
       ],
       "settings": {
         "background_color": "#fcfbf9",
-        "heading": "Join 10,000+ Happy Customers",
-        "review_text": "4.9/5 based on 10,000+ reviews",
-        "button_text": "Show more reviews",
+        "heading": "Sluit je aan bij 2.400+ tevreden klanten",
+        "review_text": "4,9/5 op basis van 2.400+ beoordelingen",
+        "button_text": "Meer beoordelingen bekijken",
         "button_link": "#",
         "padding_top": 60,
         "padding_bottom": 72
