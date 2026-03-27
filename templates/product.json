@@ -115,7 +115,7 @@
         "collapsible_tab_XYmgtQ": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Description",
+            "heading": "Beschrijving",
             "icon": "clipboard",
             "content": "{{ product.description }}",
             "page": ""
@@ -131,30 +131,21 @@
             "page": ""
           }
         },
-        "collapsible_tab_tUEYBx": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Why are your perfumes so affordable?",
-            "icon": "perfume",
-            "content": "<p>Not even close. Every Aaroma scent is a 25% Eau de Parfum, one of the highest concentrations you can get. Most designer brands stop at 15–20%. We go further. What that means for you: Lasts up to 10–12 hours Projects stronger, lingers longer You need fewer sprays It’s not body spray. It’s a statement.</p>",
-            "page": ""
-          }
-        },
         "collapsible_tab_nhKiAc": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Is it a perfumed water?",
+            "heading": "Is het geparfumeerd water?",
             "icon": "perfume",
-            "content": "<p>Not even close. Every Aaroma scent is a 25% Eau de Parfum, one of the highest concentrations you can get. Most designer brands stop at 15–20%. We go further. What that means for you: Lasts up to 10–12 hours Projects stronger, lingers longer You need fewer sprays It’s not body spray. It’s a statement.</p>",
+            "content": "<p>Absoluut niet. Elke Aaroma-geur is een 25% Eau de Parfum, een van de hoogste concentraties die er zijn. </p><p>De meeste designermerken stoppen bij 15-20%. Wij gaan verder. Wat dat voor jou betekent: Blijft tot 10-12 uur zitten. </p><p>Verspreidt zich sterker en blijft langer hangen. Je hebt minder sprays nodig. Het is geen bodyspray. Het is een statement.</p>",
             "page": ""
           }
         },
         "collapsible_tab_pCrhqV": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Do Aaroma perfumes smell like designer fragrances?",
+            "heading": "Ruiken de parfums van Aaroma hetzelfde als designerparfums?",
             "icon": "perfume",
-            "content": "<p>Same notes. Same concentration. Same craftsmanship. We recreate each scent using high-grade oils and meticulous blending, so yes, it smells just like the one that costs five times more. In blind tests, people can’t tell them apart. The only difference? You’re not paying for a designer logo or a glass sculpture bottle. The luxury is in the scent — and that’s exactly what you’re getting.</p>",
+            "content": "<p>Dezelfde geurnoten. Dezelfde concentratie. Hetzelfde vakmanschap. </p><p>We creëren elke geur opnieuw met hoogwaardige oliën en een zorgvuldige mengtechniek, dus ja, het ruikt precies hetzelfde als de geur die vijf keer zo duur is. </p><p>In blinde tests kunnen mensen ze niet van elkaar onderscheiden. Het enige verschil? Je betaalt niet voor een designerlogo of een glazen flacon in de vorm van een sculptuur. </p><p>De luxe zit in de geur – en dat is precies wat je krijgt.</p>",
             "page": ""
           }
         },
@@ -171,18 +162,18 @@
         "collapsible_tab_pdYPYn": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Are your scents long-lasting?",
+            "heading": "Blijven uw geuren langdurig aanwezig?",
             "icon": "perfume",
-            "content": "<p>Absolutely. 12+ Hrs Each bottle holds a 25% EDP formula built to last through your day— from morning meetings to midnight memories. Spray it once, and it stays with you.</p>",
+            "content": "<p>Absoluut. Meer dan 12 uur. Elke fles bevat een 25% EDP-formule die de hele dag meegaat – van ochtendvergaderingen tot romantische momenten midden in de nacht. Eén spray, en de geur blijft de hele dag aanwezig.</p>",
             "page": ""
           }
         },
         "collapsible_tab_ydfzCq": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "COMPARATIVE ADVERTISING DISCLAIMER",
+            "heading": "DISCLAIMER VOOR VERGELIJKENDE ADVERTENTIES",
             "icon": "star",
-            "content": "<p>Please be aware that products mentioned throughout our site are a mere guide and in no circumstance should be mistaken for the actual high street, designer or Niche brand. Names and copyrights, used or unused, are properties of their respective manufacturers and/or designers.</p><p>These are simply inspirations, and are not ‘identical’ to any other fragrance or original.</p><p>Aaroma perfumes are not to be confused with originals and we have no affiliation with the</p>",
+            "content": "<p>Houd er rekening mee dat de producten die op onze site worden genoemd slechts als voorbeeld dienen en in geen geval mogen worden verward met de daadwerkelijke producten van bekende merken, designermerken of nichemerken. </p><p>Namen en auteursrechten, al dan niet gebruikt, zijn eigendom van de respectievelijke fabrikanten en/of ontwerpers. </p><p>Dit zijn slechts inspiraties en ze zijn niet 'identiek' aan andere geuren of originele producten. </p><p>Aroma-parfums mogen niet worden verward met originele producten en we hebben geen enkele band met de fabrikanten.</p>",
             "page": ""
           }
         },
@@ -213,7 +204,6 @@
         "cta_review_g7n3R8",
         "collapsible_tab_XYmgtQ",
         "collapsible_tab_PtUaDN",
-        "collapsible_tab_tUEYBx",
         "collapsible_tab_nhKiAc",
         "collapsible_tab_pCrhqV",
         "collapsible_tab_gkD4Ei",
