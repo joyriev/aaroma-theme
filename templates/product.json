@@ -233,47 +233,47 @@
       "disabled": true,
       "settings": {}
     },
-    "feature_highlights_F49xPK": {
+    "feature_highlights_TMTJXK": {
       "type": "feature-highlights",
       "blocks": {
-        "perks_DPGCpd": {
+        "perks_PBmdFH": {
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/icons_eu.png",
-            "perk_title": "Made in the EU",
-            "perk_content": "Vegan, cruelty-free, and made in the EU."
+            "perk_title": "Gemaakt in de EU",
+            "perk_content": "Vegan, dierproefvrij en geproduceerd in de EU."
           }
         },
-        "perks_EWQVaW": {
+        "perks_aUgYmM": {
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/icons_quality.png",
-            "perk_title": "French Quality Standard",
-            "perk_content": "Crafted with the same attention to detail as designer brands."
+            "perk_title": "Franse kwaliteitsstandaard",
+            "perk_content": "Vervaardigd met dezelfde oog voor detail als designermerken."
           }
         },
-        "perks_DrmURb": {
+        "perks_kBPq4e": {
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/icons_guarantee.png",
-            "perk_title": "Money-Back Guarantee",
-            "perk_content": "We accept products back within 60 days for a refund."
+            "perk_title": "Geld-terug-garantie",
+            "perk_content": "Je kunt je product binnen 60 dagen retourneren voor een volledige terugbetaling."
           }
         },
-        "perks_CTzfGb": {
+        "perks_6GRd88": {
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/icons_time.png",
-            "perk_title": "Long-Lasting",
-            "perk_content": "Lasts for 12+ hours (some say longer)."
+            "perk_title": "Langdurig effect",
+            "perk_content": "Blijft 12+ uur zitten (sommigen zeggen zelfs langer)."
           }
         }
       },
       "block_order": [
-        "perks_DPGCpd",
-        "perks_EWQVaW",
-        "perks_DrmURb",
-        "perks_CTzfGb"
+        "perks_PBmdFH",
+        "perks_aUgYmM",
+        "perks_kBPq4e",
+        "perks_6GRd88"
       ],
       "name": "Feature Highlights",
       "settings": {
@@ -1209,7 +1209,7 @@
   "order": [
     "main",
     "pdp_bundle_builder",
-    "feature_highlights_F49xPK",
+    "feature_highlights_TMTJXK",
     "cupid-video-reviews",
     "scent_breakdown_rG4H3T",
     "features_section_4U8qxa",
