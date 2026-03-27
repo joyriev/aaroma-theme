@@ -240,10 +240,10 @@
       "name": "Popular Products",
       "settings": {
         "background_color": "#fcfbf9",
-        "title": "Popular Products",
-        "description": "<p>“Hands down the best dupes I’ve tried. They last for hours once applied—and I’m already planning my next order.”<br/>— <strong>Jim Rogers</strong></p>",
+        "title": "Populaire producten",
+        "description": "<p>“Zonder twijfel de beste dupes die ik heb geprobeerd. Ze blijven urenlang zitten na het aanbrengen — en ik ben mijn volgende bestelling al aan het plannen.” — <strong>Jim Rogers</strong></p>",
         "collection": "top-sellers",
-        "button_text": "View All",
+        "button_text": "Bekijk alles",
         "button_link": "shopify://collections/all",
         "padding_top": 72,
         "padding_bottom": 72
