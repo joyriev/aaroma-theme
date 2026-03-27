@@ -657,6 +657,8 @@ body {
     </script>
   {% comment %} {% render 'navidium-script' %} {% endcomment %}
   {% comment %} {% render 'sb-preload-booster' %}  {% endcomment %}
-   {% section 'fragrance-search' %}
+   {% unless template.name == 'product' %}
+    {% section 'fragrance-search' %}
+   {% endunless %}
   </body>
 </html>
