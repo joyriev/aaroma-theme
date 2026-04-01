@@ -73,12 +73,14 @@
       "name": "Magic Hero",
       "settings": {
         "background_color": "#fcfbf9",
-        "title": "Magic Hero",
-        "subtitle": "Magic Hero",
-        "button_text": "GET NORDIC GLAD",
+        "background_image": "shopify://shop_images/banner_b437ab73-972d-433d-922b-817e1168a76c.jpg",
+        "mobile_background_image": "shopify://shop_images/tryscent-mobile-home-bg.png",
+        "title": "Koop 3 en krijg er 2 gratis",
+        "subtitle": "Koop 3 en krijg er 2 gratis",
+        "button_text": "",
         "button_link": "",
-        "second_button_text": "GET NORDIC GLADE",
-        "second_button_link": "",
+        "second_button_text": "Ontdek meer",
+        "second_button_link": "shopify://collections/top-sellers",
         "padding_top": 36,
         "padding_bottom": 36
       }
