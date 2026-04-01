@@ -67,6 +67,22 @@
       "disabled": true,
       "settings": {}
     },
+    "magic_hero_GLbzbL": {
+      "type": "magic-hero",
+      "disabled": true,
+      "name": "Magic Hero",
+      "settings": {
+        "background_color": "#fcfbf9",
+        "title": "Magic Hero",
+        "subtitle": "Magic Hero",
+        "button_text": "GET NORDIC GLAD",
+        "button_link": "",
+        "second_button_text": "GET NORDIC GLADE",
+        "second_button_link": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "home_hero_banner_qmaB3G": {
       "type": "home-hero-banner",
       "name": "Home Hero Banner",
@@ -1075,6 +1091,7 @@
   },
   "order": [
     "insta_story",
+    "magic_hero_GLbzbL",
     "home_hero_banner_qmaB3G",
     "marquee_labels_RLdqpN",
     "magazine_reviews_AeDF9g",
