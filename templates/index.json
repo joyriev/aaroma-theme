@@ -69,7 +69,7 @@
     },
     "magic_hero_GLbzbL": {
       "type": "magic-hero",
-      "disabled": true,
+      "disabled": false,
       "name": "Magic Hero",
       "settings": {
         "background_color": "#fcfbf9",
@@ -77,16 +77,17 @@
         "mobile_background_image": "shopify://shop_images/tryscent-mobile-home-bg.png",
         "title": "Koop 3 en krijg er 2 gratis",
         "subtitle": "Koop 3 en krijg er 2 gratis",
-        "button_text": "",
-        "button_link": "",
-        "second_button_text": "Ontdek meer",
-        "second_button_link": "shopify://collections/top-sellers",
+        "button_text": "Ontdek meer",
+        "button_link": "shopify://collections/top-sellers",
+        "second_button_text": "",
+        "second_button_link": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
     "home_hero_banner_qmaB3G": {
       "type": "home-hero-banner",
+      "disabled": true,
       "name": "Home Hero Banner",
       "settings": {
         "image": "shopify://shop_images/herobanner.webp",

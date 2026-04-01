@@ -1863,6 +1863,11 @@
     padding-bottom: 2px
 }
 
+.px-12 {
+    padding-left: 48px;
+    padding-right: 48px
+}
+
 .\!pb-3 {
     padding-bottom: 12px !important
 }
