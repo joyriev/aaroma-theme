@@ -27,6 +27,13 @@
             "number": 0
           }
         },
+        "text_8gxCPt": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Belangrijkste punten: </strong>{{ product.metafields.custom.top_notes.value.title.value }}",
+            "text_style": "body"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "disabled": true,
@@ -189,6 +196,7 @@
         "title",
         "selling_points_9tdid6",
         "cheaper_than_yDGYG9",
+        "text_8gxCPt",
         "variant_picker",
         "price",
         "quantity_selector",
