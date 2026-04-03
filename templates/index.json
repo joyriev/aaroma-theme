@@ -69,7 +69,6 @@
     },
     "magic_hero_GLbzbL": {
       "type": "magic-hero",
-      "disabled": false,
       "name": "Magic Hero",
       "settings": {
         "background_color": "#fcfbf9",
@@ -182,9 +181,9 @@
         "perks_CBpKqp": {
           "type": "perks",
           "settings": {
-            "perk_image": "shopify://shop_images/icons_eu.png",
-            "perk_title": "Gemaakt in de EU",
-            "perk_content": "Vegan, dierproefvrij en geproduceerd in de EU."
+            "perk_image": "shopify://shop_images/shipping.png",
+            "perk_title": "Gratis verzending",
+            "perk_content": "Bij bestellingen van meer dan €50"
           }
         },
         "perks_Ynh4gw": {
