@@ -11,6 +11,31 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
+    "announcement_bar_6UYB9c": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_RnCB3b": {
+          "type": "announcement",
+          "settings": {
+            "text": "Gratis verzending boven €50",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_RnCB3b"
+      ],
+      "name": "t:sections.announcement-bar.presets.name",
+      "settings": {
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "color_scheme": "",
+        "show_line_separator": true,
+        "show_social": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
+    },
     "marquee_labels_CjAgNU": {
       "type": "marquee-labels",
       "blocks": {
@@ -66,7 +91,7 @@
         "prepend_text": "Women's Day Sale",
         "link_text": "Buy 2 Get 1 Free!",
         "append_text": "Shop Now 👉",
-        "link": "shopify://products/tryscent-collection"
+        "link": ""
       }
     },
     "header": {
@@ -90,6 +115,7 @@
     }
   },
   "order": [
+    "announcement_bar_6UYB9c",
     "marquee_labels_CjAgNU",
     "offer_announcement_cN6pMF",
     "header"
