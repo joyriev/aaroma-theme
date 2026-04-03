@@ -323,6 +323,55 @@
         "padding_bottom": 36
       }
     },
+    "home_category_wNQCfP": {
+      "type": "home-category",
+      "blocks": {
+        "category_yXjfNN": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/website_bundle.webp",
+            "text": "Bundel & bespaar",
+            "link": "shopify://collections/bundle-save"
+          }
+        },
+        "category_JatE79": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/tryscent_male_02.png",
+            "text": "Voor hem",
+            "link": "shopify://collections/men"
+          }
+        },
+        "category_kcgbew": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/ugc12.png",
+            "text": "Voor haar",
+            "link": "shopify://collections/women"
+          }
+        },
+        "category_PLwfRa": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/website_unisex_1.webp",
+            "text": "Unisex",
+            "link": "shopify://collections/unisex"
+          }
+        }
+      },
+      "block_order": [
+        "category_yXjfNN",
+        "category_JatE79",
+        "category_kcgbew",
+        "category_PLwfRa"
+      ],
+      "name": "Home Categories",
+      "settings": {
+        "background_color": "#fcfbf9",
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
     "special_offer_bogo_nMzyNp": {
       "type": "special-offer-bogo",
       "blocks": {
@@ -396,55 +445,6 @@
       "settings": {
         "background_color": "#fcfbf9",
         "heading": "Shop By Bestsellers",
-        "padding_top": 72,
-        "padding_bottom": 72
-      }
-    },
-    "home_category_wNQCfP": {
-      "type": "home-category",
-      "blocks": {
-        "category_yXjfNN": {
-          "type": "category",
-          "settings": {
-            "image": "shopify://shop_images/website_bundle.webp",
-            "text": "Bundel & bespaar",
-            "link": "shopify://collections/bundle-save"
-          }
-        },
-        "category_JatE79": {
-          "type": "category",
-          "settings": {
-            "image": "shopify://shop_images/tryscent_male_02.png",
-            "text": "Voor hem",
-            "link": "shopify://collections/men"
-          }
-        },
-        "category_kcgbew": {
-          "type": "category",
-          "settings": {
-            "image": "shopify://shop_images/ugc12.png",
-            "text": "Voor haar",
-            "link": "shopify://collections/women"
-          }
-        },
-        "category_PLwfRa": {
-          "type": "category",
-          "settings": {
-            "image": "shopify://shop_images/website_unisex_1.webp",
-            "text": "Unisex",
-            "link": "shopify://collections/unisex"
-          }
-        }
-      },
-      "block_order": [
-        "category_yXjfNN",
-        "category_JatE79",
-        "category_kcgbew",
-        "category_PLwfRa"
-      ],
-      "name": "Home Categories",
-      "settings": {
-        "background_color": "#fcfbf9",
         "padding_top": 72,
         "padding_bottom": 72
       }
@@ -1100,10 +1100,10 @@
     "feature_highlights_wfUacV",
     "featured_on_H7jhJ4",
     "popular_products_pNDeh4",
+    "home_category_wNQCfP",
     "review_grid_H3xfHP",
     "special_offer_bogo_nMzyNp",
     "shop_by_fHtnnB",
-    "home_category_wNQCfP",
     "here_from_them_wccxKG",
     "image_and_text",
     "special_offer_bogo_NqVrAK",
