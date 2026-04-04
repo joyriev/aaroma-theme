@@ -72,8 +72,8 @@
       "name": "Magic Hero",
       "settings": {
         "background_color": "#fcfbf9",
-        "background_image": "shopify://shop_images/banner_b437ab73-972d-433d-922b-817e1168a76c.jpg",
-        "mobile_background_image": "shopify://shop_images/tryscent-mobile-home-bg.png",
+        "background_image": "shopify://shop_images/newheader.webp",
+        "mobile_background_image": "shopify://shop_images/newheader_mobile.webp",
         "title": "Koop 3 en krijg er 2 gratis",
         "subtitle": "Koop 3 en krijg er 2 gratis",
         "button_text": "Ontdek meer",
@@ -267,6 +267,55 @@
         "padding_bottom": 72
       }
     },
+    "home_category_wNQCfP": {
+      "type": "home-category",
+      "blocks": {
+        "category_yXjfNN": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/website_bundle.webp",
+            "text": "Bundel & bespaar",
+            "link": "shopify://collections/bundle-save"
+          }
+        },
+        "category_JatE79": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/tryscent_male_02.png",
+            "text": "Voor hem",
+            "link": "shopify://collections/men"
+          }
+        },
+        "category_kcgbew": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/ugc12.png",
+            "text": "Voor haar",
+            "link": "shopify://collections/women"
+          }
+        },
+        "category_PLwfRa": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/website_unisex_1.webp",
+            "text": "Unisex",
+            "link": "shopify://collections/unisex"
+          }
+        }
+      },
+      "block_order": [
+        "category_yXjfNN",
+        "category_JatE79",
+        "category_kcgbew",
+        "category_PLwfRa"
+      ],
+      "name": "Home Categories",
+      "settings": {
+        "background_color": "#fcfbf9",
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
     "review_grid_H3xfHP": {
       "type": "review-grid",
       "blocks": {
@@ -321,55 +370,6 @@
         "button_link": "shopify://collections/all",
         "padding_top": 72,
         "padding_bottom": 36
-      }
-    },
-    "home_category_wNQCfP": {
-      "type": "home-category",
-      "blocks": {
-        "category_yXjfNN": {
-          "type": "category",
-          "settings": {
-            "image": "shopify://shop_images/website_bundle.webp",
-            "text": "Bundel & bespaar",
-            "link": "shopify://collections/bundle-save"
-          }
-        },
-        "category_JatE79": {
-          "type": "category",
-          "settings": {
-            "image": "shopify://shop_images/tryscent_male_02.png",
-            "text": "Voor hem",
-            "link": "shopify://collections/men"
-          }
-        },
-        "category_kcgbew": {
-          "type": "category",
-          "settings": {
-            "image": "shopify://shop_images/ugc12.png",
-            "text": "Voor haar",
-            "link": "shopify://collections/women"
-          }
-        },
-        "category_PLwfRa": {
-          "type": "category",
-          "settings": {
-            "image": "shopify://shop_images/website_unisex_1.webp",
-            "text": "Unisex",
-            "link": "shopify://collections/unisex"
-          }
-        }
-      },
-      "block_order": [
-        "category_yXjfNN",
-        "category_JatE79",
-        "category_kcgbew",
-        "category_PLwfRa"
-      ],
-      "name": "Home Categories",
-      "settings": {
-        "background_color": "#fcfbf9",
-        "padding_top": 72,
-        "padding_bottom": 72
       }
     },
     "special_offer_bogo_nMzyNp": {
