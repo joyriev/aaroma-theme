@@ -1,24 +1,23 @@
 <div class="bc-rewards-bars-wrap" style="flex-direction: row;">
   <div class="bc-progress-wrap">
     {% assign cart_count = cart.item_count %}
-    {% assign progress_percentage = cart_count | times: 20 | at_most: 100 %}
+    {% assign progress_percentage = cart_count | times: 25 | at_most: 100 %}
 
     <div class="bc-progress-text" style="color: #000000;">
-      {% if cart_count >= 5 %}
-        🎉 Congratulazioni!
-        <strong>2 bottiglie gratis</strong>.
+      {% if cart_count >= 4 %}
+        🎉 3+1 aanbieding geactiveerd!
       {% else %}
-        Aggiungi
-        <strong>{{ 5 | minus: cart_count }}</strong>
-        bottiglie,
-        <strong>2 in omaggio</strong>.
+        Voeg
+        <strong>{{ 4 | minus: cart_count }}</strong>
+        flessen toe en krijg er
+        <strong>1 gratis</strong>.
       {% endif %}
     </div>
     <div class="bc-progress-bar" style="background-color: #E2E2E2; margin-bottom: 0;">
       <div class="bc-progress-fill" style="width: {{ progress_percentage }}%; background-color: #93D3FF;"></div>
       <div class="bc-checkpoints">
-        <div class="bc-checkpoint {% if cart_count >= 5 %}is-reached{% endif %}" style="left: 100%; 
-               background-color: {% if cart_count >= 5 %}#93D3FF{% else %}#E2E2E2{% endif %};
+        <div class="bc-checkpoint {% if cart_count >= 4 %}is-reached{% endif %}" style="left: 100%; 
+               background-color: {% if cart_count >= 4 %}#93D3FF{% else %}#E2E2E2{% endif %};
                color: #000000;">
           {{ 'icon-perfume.svg' | inline_asset_content }}
         </div>
@@ -31,11 +30,11 @@
 
     <div class="bc-progress-text" style="color: #000000;">
       {% if cart_total >= 5000 %}
-        🎉 Spedizione gratuita sbloccata!
+        🎉 Gratis verzending geactiveerd!
       {% else %}
-        Aggiungi
+        Voeg
         <strong>{{ 5000 | minus: cart_total | money }}</strong>
-        per la spedizione gratuita.
+        toe voor gratis verzending.
       {% endif %}
     </div>
     <div class="bc-progress-bar" style="background-color: #E2E2E2; margin-bottom: 0;">

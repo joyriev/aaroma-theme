@@ -1179,7 +1179,7 @@ console.log('✓ allPerfumes array built:', window.allPerfumes.length, 'perfumes
   position: fixed;
   bottom: 30px;
   right: 30px;
-  z-index: 9999;
+  z-index: 999;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
 
