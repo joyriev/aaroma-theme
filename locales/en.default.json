@@ -539,27 +539,52 @@
       "general": {
         "errors": {
           "tax": {
-            "new_tax_must_be_accepted": " "
+            "new_tax_must_be_accepted": "Taxes applicable to your order have changed. Please review your order and try again."
           }
         }
       },
       "order_summary": {
         "taxes_label": " Taxes",
-        "estimated_taxes_label": " ",
-        "information_estimated_taxes_label": " ",
-        "estimated_taxes_finalization_tooltip_content": " ",
-        "vat_label_html": " ",
-        "duties_included_label": " ",
-        "duties_and_taxes_label": " ",
-        "error_duties_tooltip": " "
+        "estimated_taxes_label": "Estimated tax",
+        "information_estimated_taxes_label": "Taxes (estimated)",
+        "estimated_taxes_finalization_tooltip_content": "The total tax amount will be confirmed via email or SMS after you have placed your order.",
+        "vat_label_html": "Including %{amount} VAT",
+        "duties_included_label": "Total is inclusive of taxes and duties. No additional costs on delivery.",
+        "duties_and_taxes_label": "Customs duties and taxes",
+        "error_duties_tooltip": "This order is shipped from another country, so customs duties and taxes may be charged upon delivery."
       },
       "shipping": {
-        "duties_and_taxes_title": " "
+        "duties_and_taxes_title": "Customs duties and taxes"
       },
       "payment": {
         "paypal_modal": {
-          "order_contains_fixed_selling_plans": " "
+          "order_contains_fixed_selling_plans": "Total may exclude taxes, shipping, deferred charges and some discounts. Proceed to checkout for the amount due today."
         }
+      }
+    }
+  },
+  "customer_accounts": {
+    "email_capture": {
+      "terms_of_service_link_text": "Terms and conditions",
+      "processing": "Processing...",
+      "step_one": {
+        "page_title": "Enter your email - %{shop_name}",
+        "heading": "Enter your email address",
+        "subheading": "Enter your email and we will send you a verification code",
+        "input_field_label": "Email",
+        "button": "Continue"
+      },
+      "error": {
+        "invalid": {
+          "invalid_email": "Please enter a valid email address",
+          "invalid_code": "Enter the correct 6-digit code"
+        }
+      }
+    },
+    "subscriptions": {
+      "update_success": {
+        "title": "Payment method updated",
+        "done_button": "Continue shopping"
       }
     }
   }
