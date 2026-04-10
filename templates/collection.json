@@ -16,7 +16,6 @@
           "type": "story",
           "settings": {
             "title": "LV",
-            "image": "shopify://shop_images/new-arribals.png",
             "link": "shopify://collections/louis-vuitton®"
           }
         },
@@ -24,7 +23,6 @@
           "type": "story",
           "settings": {
             "title": "Dior",
-            "image": "shopify://shop_images/dior.avif",
             "link": "shopify://collections/dior®"
           }
         },
@@ -32,7 +30,6 @@
           "type": "story",
           "settings": {
             "title": "Tom Ford",
-            "image": "shopify://shop_images/Tom_ford.avif",
             "link": "shopify://collections/tomford®"
           }
         },
@@ -40,7 +37,6 @@
           "type": "story",
           "settings": {
             "title": "Baccarat",
-            "image": "shopify://shop_images/Baccarat_Rouge.png",
             "link": "shopify://collections/baccarat-rouge®"
           }
         },
@@ -48,7 +44,6 @@
           "type": "story",
           "settings": {
             "title": "Creed",
-            "image": "shopify://shop_images/Creed.png",
             "link": "shopify://collections/creed®"
           }
         },
@@ -57,7 +52,6 @@
           "disabled": true,
           "settings": {
             "title": "Xerjoff",
-            "image": "shopify://shop_images/xerjoff.avif",
             "link": ""
           }
         }
@@ -84,7 +78,7 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
-        "products_per_page": 15,
+        "products_per_page": 36,
         "columns_desktop": 4,
         "columns_mobile": "2",
         "color_scheme": "scheme-2",
@@ -93,7 +87,7 @@
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": true,
-        "quick_add": "none",
+        "quick_add": "standard",
         "enable_filtering": true,
         "filter_type": "horizontal",
         "enable_sorting": true,
