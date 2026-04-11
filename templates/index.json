@@ -272,6 +272,7 @@
       "blocks": {
         "category_yXjfNN": {
           "type": "category",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/website_bundle.webp",
             "text": "Bundel & bespaar",
@@ -296,6 +297,7 @@
         },
         "category_PLwfRa": {
           "type": "category",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/website_unisex_1.webp",
             "text": "Unisex",
