@@ -517,25 +517,22 @@ body {
       }
     </style>
 
-    <a
-      href="/products/4-x-100ml-perfume-bottles"
-      class="timebar-section-bg"
-      style="background-image: url(https://downloadmsoffice.com/wp-content/uploads/2025/11/sale-bg.png);">
+    <div class="timebar-section-bg" style="background-image: url(https://downloadmsoffice.com/wp-content/uploads/2025/11/sale-bg.png);">
       <div class="timebar-container">
         <div class="timebar-row">
           <div class="timebar-sale-text">
-            Lenteactie – 
+            Opruiming!
           </div>
           <div id="flipdown" class="flipdown"></div>
           <div class="timebar-sale-text">
-            Koop 3, krijg 1 GRATIS
+            Krijg 4 voor de prijs van 3
           </div>
         </div>
       </div>
-    </a>
+    </div>
 
     <script>
-    document.addEventListener('DOMContentLoaded', () => {
+          document.addEventListener('DOMContentLoaded', () => {
       function getNextMidnightTimestamp() {
         const now = new Date();
         const nextMidnight = new Date();
@@ -552,7 +549,7 @@ body {
         .ifEnded(() => {
           console.log('Countdown ended');
         });
-    });
+          });
     </script>
 
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
@@ -655,10 +652,10 @@ body {
         });
       });
     </script>
-  {% comment %} {% render 'navidium-script' %} {% endcomment %}
-  {% comment %} {% render 'sb-preload-booster' %}  {% endcomment %}
-   {% unless template.name == 'product' %}
-    {% section 'fragrance-search' %}
-   {% endunless %}
+    {% comment %} {% render 'navidium-script' %} {% endcomment %}
+    {% comment %} {% render 'sb-preload-booster' %}  {% endcomment %}
+    {% unless template.name == 'product' %}
+      {% section 'fragrance-search' %}
+    {% endunless %}
   </body>
 </html>
