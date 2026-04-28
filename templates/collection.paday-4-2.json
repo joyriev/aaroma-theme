@@ -69,11 +69,41 @@
     },
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": false,
         "show_collection_image": false,
         "color_scheme": "scheme-2"
       }
+    },
+    "177738410212698ad2": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_af4bf3e_9DGtDY": {
+          "type": "ai_gen_block_af4bf3e",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Projekt_bez_nazwy_1.png",
+            "desktop_image_position": "center center",
+            "mobile_image": "shopify://shop_images/Projekt_bez_nazwy.png",
+            "mobile_image_position": "center center",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "show_text": false,
+            "heading": "Collection name",
+            "description": "<p>Discover our latest collection</p>",
+            "text_alignment": "center",
+            "text_color": "#ffffff",
+            "heading_size": 48,
+            "description_size": 16
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_af4bf3e_9DGtDY"
+      ],
+      "settings": {}
     },
     "product-grid": {
       "type": "main-collection-product-grid",
@@ -125,6 +155,7 @@
   "order": [
     "insta_story_6kD6Ki",
     "banner",
+    "177738410212698ad2",
     "product-grid",
     "rich_text_fnCgkL"
   ]
