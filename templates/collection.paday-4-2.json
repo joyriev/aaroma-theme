@@ -86,7 +86,7 @@
             "desktop_image_position": "center center",
             "mobile_image": "shopify://shop_images/Projekt_bez_nazwy.png",
             "mobile_image_position": "center center",
-            "show_overlay": true,
+            "show_overlay": false,
             "overlay_color": "#000000",
             "overlay_opacity": 30,
             "show_text": false,
