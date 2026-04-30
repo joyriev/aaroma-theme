@@ -1168,10 +1168,6 @@
     border-radius: 6px
 }
 
-.rounded-sm {
-    border-radius: 2px
-}
-
 .rounded-xl {
     border-radius: 12px
 }
@@ -2579,6 +2575,36 @@
     }
 }
 
+.shimmer-btn {
+    position: relative;
+    overflow: hidden;
+}
+
+.shimmer-btn:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -150%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to right, #fff0, #fff3, #fff0);
+    transform: skew(-25deg);
+    animation: shimmer 3s infinite;
+    z-index: 1;
+}
+
+@keyframes shimmer {
+  0% {
+    left: -150%;
+  }
+  80% {
+    left: 150%;
+  }
+  100% {
+    left: 150%;
+  }
+}
+
 .before\:absolute::before {
     content: var(--tw-content);
     position: absolute
@@ -2754,11 +2780,6 @@
 .hover\:bg-gray-300:hover {
     --tw-bg-opacity: 1;
     background-color: rgb(209 213 219 / var(--tw-bg-opacity, 1))
-}
-
-.hover\:bg-gray-900:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgb(17 24 39 / var(--tw-bg-opacity, 1))
 }
 
 .hover\:bg-green-700:hover {
@@ -3123,11 +3144,6 @@
     .md\:px-\[20px\] {
         padding-left: 20px;
         padding-right: 20px
-    }
-
-    .md\:py-1 {
-        padding-top: 4px;
-        padding-bottom: 4px
     }
 
     .md\:py-10 {
