@@ -9,64 +9,6 @@
  */
 {
   "sections": {
-    "insta_story": {
-      "type": "insta-story",
-      "blocks": {
-        "story_Pk4yRN": {
-          "type": "story",
-          "settings": {
-            "title": "Tom Ford",
-            "link": "shopify://collections/tomford®"
-          }
-        },
-        "story_VtmG7H": {
-          "type": "story",
-          "settings": {
-            "title": "Baccarat",
-            "link": "shopify://collections/baccarat-rouge®"
-          }
-        },
-        "story_wE66Dr": {
-          "type": "story",
-          "settings": {
-            "title": "LV",
-            "link": "shopify://collections/louis-vuitton®"
-          }
-        },
-        "story_nBtec6": {
-          "type": "story",
-          "settings": {
-            "title": "Creed",
-            "link": "shopify://collections/creed®"
-          }
-        },
-        "story_TRnKbC": {
-          "type": "story",
-          "settings": {
-            "title": "Dior",
-            "link": "shopify://collections/dior®"
-          }
-        },
-        "story_4qLwwC": {
-          "type": "story",
-          "disabled": true,
-          "settings": {
-            "title": "Xerjoff",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "story_Pk4yRN",
-        "story_VtmG7H",
-        "story_wE66Dr",
-        "story_nBtec6",
-        "story_TRnKbC",
-        "story_4qLwwC"
-      ],
-      "disabled": true,
-      "settings": {}
-    },
     "magic_hero_GLbzbL": {
       "type": "magic-hero",
       "name": "Magic Hero",
@@ -127,6 +69,12 @@
           "settings": {
             "label": "RISK-FREE 60 DAYS MONEY BACK GUARANTEE"
           }
+        },
+        "label_VYpx4b": {
+          "type": "label",
+          "settings": {
+            "label": "Free Shipping"
+          }
         }
       },
       "block_order": [
@@ -134,46 +82,12 @@
         "label_MXGigr",
         "label_iFULPM",
         "label_8KQqAa",
-        "label_LMktzF"
+        "label_LMktzF",
+        "label_VYpx4b"
       ],
       "disabled": true,
       "name": "Marquee Labels",
       "settings": {}
-    },
-    "magazine_reviews_AeDF9g": {
-      "type": "magazine-reviews",
-      "blocks": {
-        "review_LM3NkM": {
-          "type": "review",
-          "settings": {
-            "review_content": "“Everything I’ve ordered smells amazing and the scent really lasts!”"
-          }
-        },
-        "review_Lgzbga": {
-          "type": "review",
-          "settings": {
-            "review_content": "“A lovely pick for holiday vibes or a quick, charming gift.”"
-          }
-        },
-        "review_m4Wt3r": {
-          "type": "review",
-          "settings": {
-            "review_content": "“This feels so authentic, and last longer than we thought.”"
-          }
-        }
-      },
-      "block_order": [
-        "review_LM3NkM",
-        "review_Lgzbga",
-        "review_m4Wt3r"
-      ],
-      "disabled": true,
-      "name": "Magazine Reviews",
-      "settings": {
-        "background_color": "#f0f2ec",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
     },
     "feature_highlights_wfUacV": {
       "type": "feature-highlights",
@@ -258,13 +172,41 @@
       "name": "Popular Products",
       "settings": {
         "background_color": "#fcfbf9",
-        "title": "Populaire producten",
+        "title": "Bestsellers",
         "description": "<p>“Zonder twijfel de beste dupes die ik heb geprobeerd. Ze blijven urenlang zitten na het aanbrengen — en ik ben mijn volgende bestelling al aan het plannen.” ~ <strong>Jim Rogers</strong></p>",
         "collection": "top-sellers",
         "button_text": "Bekijk alles",
         "button_link": "shopify://collections/all",
         "padding_top": 72,
         "padding_bottom": 72
+      }
+    },
+    "popular_products_nC8A3n": {
+      "type": "popular-products",
+      "name": "Popular Products",
+      "settings": {
+        "background_color": "#fcfbf9",
+        "title": "Voor hem",
+        "description": "",
+        "collection": "men",
+        "button_text": "Bekijk alles",
+        "button_link": "shopify://collections/men",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "popular_products_nimyqA": {
+      "type": "popular-products",
+      "name": "Popular Products",
+      "settings": {
+        "background_color": "#fcfbf9",
+        "title": "Voor haar",
+        "description": "",
+        "collection": "women",
+        "button_text": "Bekijk alles",
+        "button_link": "shopify://collections/women",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "home_category_wNQCfP": {
@@ -311,6 +253,7 @@
         "category_kcgbew",
         "category_PLwfRa"
       ],
+      "disabled": true,
       "name": "Home Categories",
       "settings": {
         "background_color": "#fcfbf9",
@@ -372,143 +315,6 @@
         "button_link": "shopify://collections/all",
         "padding_top": 72,
         "padding_bottom": 36
-      }
-    },
-    "special_offer_bogo_nMzyNp": {
-      "type": "special-offer-bogo",
-      "blocks": {
-        "perk_wnTHMw": {
-          "type": "perk",
-          "settings": {
-            "text": "Lasts 12+ Hours"
-          }
-        },
-        "perk_VkFF3N": {
-          "type": "perk",
-          "settings": {
-            "text": "loved by 10,000+"
-          }
-        },
-        "perk_cG7y8p": {
-          "type": "perk",
-          "settings": {
-            "text": "60 day satisfaction guarantee"
-          }
-        }
-      },
-      "block_order": [
-        "perk_wnTHMw",
-        "perk_VkFF3N",
-        "perk_cG7y8p"
-      ],
-      "disabled": true,
-      "name": "Special Offer",
-      "settings": {
-        "offer_text": "Special Offer",
-        "offer_title": "Buy More, Get More Free",
-        "offer_description": "Choose your perfect bundle and receive matching free bottles in the same size: 30ml, 50ml, or 100ml.",
-        "offer_sub_description": "Scents that last all day. Luxury-inspired, up to 90% cheaper than designer brands.",
-        "offer_button_text": "Buy 4 for $44.00 Only",
-        "offer_button_link": "https://tryscent.co/products/4-x-100ml-perfume-bottles",
-        "padding_top": 72,
-        "padding_bottom": 72
-      }
-    },
-    "shop_by_fHtnnB": {
-      "type": "shop-by",
-      "blocks": {
-        "collection_t6NHM7": {
-          "type": "collection",
-          "settings": {
-            "heading": "Scents For Women",
-            "subheading": "100+ scents to choose from",
-            "button_text": "Explore",
-            "button_link": "shopify://collections/woman",
-            "collection": "woman"
-          }
-        },
-        "collection_zqtLKY": {
-          "type": "collection",
-          "settings": {
-            "heading": "Scents For Men",
-            "subheading": "100+ scents to choose from",
-            "button_text": "Explore",
-            "button_link": "shopify://collections/man",
-            "collection": "man"
-          }
-        }
-      },
-      "block_order": [
-        "collection_t6NHM7",
-        "collection_zqtLKY"
-      ],
-      "disabled": true,
-      "name": "Shop By",
-      "settings": {
-        "background_color": "#fcfbf9",
-        "heading": "Shop By Bestsellers",
-        "padding_top": 72,
-        "padding_bottom": 72
-      }
-    },
-    "here_from_them_wccxKG": {
-      "type": "here-from-them",
-      "blocks": {
-        "testimonial_3jMx8n": {
-          "type": "testimonial",
-          "settings": {
-            "name": "Marcus R.",
-            "quote": "I didn’t expect much, but this is my new signature. It smells expensive, lasts all day, and actually turns heads."
-          }
-        },
-        "testimonial_Bh4nVA": {
-          "type": "testimonial",
-          "settings": {
-            "name": "Marcus R.",
-            "quote": "I didn’t expect much, but this is my new signature. It smells expensive, lasts all day, and actually turns heads."
-          }
-        },
-        "testimonial_P4hxWQ": {
-          "type": "testimonial",
-          "settings": {
-            "name": "Marcus R.",
-            "quote": "I didn’t expect much, but this is my new signature. It smells expensive, lasts all day, and actually turns heads."
-          }
-        },
-        "testimonial_yja8kV": {
-          "type": "testimonial",
-          "settings": {
-            "name": "Marcus R.",
-            "quote": "I didn’t expect much, but this is my new signature. It smells expensive, lasts all day, and actually turns heads."
-          }
-        },
-        "testimonial_MGyB3e": {
-          "type": "testimonial",
-          "settings": {
-            "name": "Marcus R.",
-            "quote": "I didn’t expect much, but this is my new signature. It smells expensive, lasts all day, and actually turns heads."
-          }
-        },
-        "testimonial_EQziDc": {
-          "type": "testimonial",
-          "settings": {
-            "name": "Marcus R.",
-            "quote": "I didn’t expect much, but this is my new signature. It smells expensive, lasts all day, and actually turns heads."
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_3jMx8n",
-        "testimonial_Bh4nVA",
-        "testimonial_P4hxWQ",
-        "testimonial_yja8kV",
-        "testimonial_MGyB3e",
-        "testimonial_EQziDc"
-      ],
-      "disabled": true,
-      "name": "Here From Them Carousel",
-      "settings": {
-        "heading": "Hear From Them."
       }
     },
     "image_and_text": {
@@ -1020,6 +826,7 @@
     },
     "our_bestsellers_niPBnL": {
       "type": "our-bestsellers",
+      "disabled": true,
       "name": "Our Bestsellers",
       "settings": {
         "background_color": "#3f2120",
@@ -1094,19 +901,16 @@
     }
   },
   "order": [
-    "insta_story",
     "magic_hero_GLbzbL",
     "home_hero_banner_qmaB3G",
     "marquee_labels_RLdqpN",
-    "magazine_reviews_AeDF9g",
     "feature_highlights_wfUacV",
     "featured_on_H7jhJ4",
     "popular_products_pNDeh4",
+    "popular_products_nC8A3n",
+    "popular_products_nimyqA",
     "home_category_wNQCfP",
     "review_grid_H3xfHP",
-    "special_offer_bogo_nMzyNp",
-    "shop_by_fHtnnB",
-    "here_from_them_wccxKG",
     "image_and_text",
     "special_offer_bogo_NqVrAK",
     "massive_review_section",
