@@ -172,8 +172,8 @@
       "name": "Popular Products",
       "settings": {
         "background_color": "#fcfbf9",
-        "title": "Bestsellers",
-        "description": "<p>“Zonder twijfel de beste dupes die ik heb geprobeerd. Ze blijven urenlang zitten na het aanbrengen — en ik ben mijn volgende bestelling al aan het plannen.” ~ <strong>Jim Rogers</strong></p>",
+        "title": "Meest gekozen",
+        "description": "<p>Wat onze klanten keer op keer nabestellen.</p>",
         "collection": "top-sellers",
         "button_text": "Bekijk alles",
         "button_link": "shopify://collections/all",
