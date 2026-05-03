@@ -97,31 +97,31 @@
           "settings": {
             "perk_image": "shopify://shop_images/shipping.png",
             "perk_title": "Gratis verzending",
-            "perk_content": "Bij bestellingen van meer dan €45"
+            "perk_content": "Vanaf €45 — snel aan je deur"
           }
         },
         "perks_Ynh4gw": {
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/icons_quality.png",
-            "perk_title": "Franse kwaliteitsstandaard",
-            "perk_content": "Vervaardigd met dezelfde oog voor detail als designermerken."
+            "perk_title": "60 dagen garantie",
+            "perk_content": "Niet blij? Geld terug, geen vragen"
           }
         },
         "perks_Cj3EAR": {
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/icons_guarantee.png",
-            "perk_title": "Geld-terug-garantie",
-            "perk_content": "Je kunt je product binnen 60 dagen retourneren voor een volledige terugbetaling."
+            "perk_title": "EU-gecertificeerd",
+            "perk_content": "IFRA-conform, veilig op de huid"
           }
         },
         "perks_iX4iTY": {
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/icons_time.png",
-            "perk_title": "Langdurig effect",
-            "perk_content": "Blijft 12+ uur zitten (sommigen zeggen zelfs langer)."
+            "perk_title": "12+ uur houdbaarheid",
+            "perk_content": "Ochtend tot avond, één spray"
           }
         }
       },
