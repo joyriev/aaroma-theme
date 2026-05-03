@@ -323,7 +323,7 @@
         "heading_ax7WWJ": {
           "type": "heading",
           "settings": {
-            "content": "Waarom geuren uit de EU écht het verschil maken?",
+            "content": "Waarom Aaroma anders is",
             "heading_type": "h2",
             "font_size": 32,
             "mobile_font_size": 24
@@ -332,15 +332,25 @@
         "text_gzPVkb": {
           "type": "text",
           "settings": {
-            "content": "<ul><li>Geproduceerd in Europese faciliteiten</li><li>Ingrediënten en formules volgens IFRA-richtlijnen</li><li>Geen concessies, geen grijze markt of twijfelachtige mengsels</li></ul><p>Wij ontwikkelen parfums volgens de strenge Europese cosmeticaregels.</p>",
+            "content": "<p>Luxe ruiken is geen privilege. Het is een keuze.</p>",
             "mobile_content": "",
             "font_size": 18
+          }
+        },
+        "point_yJrEAL": {
+          "type": "point",
+          "settings": {
+            "icon": "shopify://shop_images/Screenshot_2026-05-03_at_9.32.50_PM.png",
+            "heading": "Gemaakt in Europa",
+            "description": "<p>Onze parfums worden vervaardigd in gecertificeerde Europese faciliteiten — dezelfde standaarden als de grote namen.</p>",
+            "mobile_description": ""
           }
         }
       },
       "block_order": [
         "heading_ax7WWJ",
-        "text_gzPVkb"
+        "text_gzPVkb",
+        "point_yJrEAL"
       ],
       "settings": {
         "background_color": "#ffffff",
