@@ -145,6 +145,10 @@
     top: 10px
 }
 
+.top-4 {
+    top: 16px
+}
+
 .top-5 {
     top: 20px
 }
@@ -161,6 +165,10 @@
     isolation: isolate
 }
 
+.-z-10 {
+    z-index: -10
+}
+
 .z-10 {
     z-index: 10
 }
@@ -171,6 +179,10 @@
 
 .z-\[999999\] {
     z-index: 999999
+}
+
+.z-\[99999\] {
+    z-index: 99999
 }
 
 .z-\[9999\] {
@@ -468,6 +480,13 @@
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2
+}
+
+.line-clamp-3 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3
 }
 
 .\!block {
@@ -787,6 +806,10 @@
 
 .max-w-\[100\%\] {
     max-width: 100%
+}
+
+.max-w-\[1000px\] {
+    max-width: 1000px
 }
 
 .max-w-\[100px\] {
@@ -1265,6 +1288,10 @@
     border-style: dashed
 }
 
+.border-none {
+    border-style: none
+}
+
 .border-\[\#12121233\] {
     border-color: #12121233
 }
@@ -1401,6 +1428,11 @@
     background-color: rgb(19 124 68 / var(--tw-bg-opacity, 1))
 }
 
+.bg-\[\#146b32\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(20 107 50 / var(--tw-bg-opacity, 1))
+}
+
 .bg-\[\#28A745\] {
     --tw-bg-opacity: 1;
     background-color: rgb(40 167 69 / var(--tw-bg-opacity, 1))
@@ -1470,6 +1502,11 @@
     background-color: rgb(240 242 236 / var(--tw-bg-opacity, 1))
 }
 
+.bg-\[\#f7f7f7\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(247 247 247 / var(--tw-bg-opacity, 1))
+}
+
 .bg-\[\#faf9f6\] {
     --tw-bg-opacity: 1;
     background-color: rgb(250 249 246 / var(--tw-bg-opacity, 1))
@@ -1505,6 +1542,10 @@
 
 .bg-black\/40 {
     background-color: rgb(0 0 0 / 0.4)
+}
+
+.bg-black\/50 {
+    background-color: rgb(0 0 0 / 0.5)
 }
 
 .bg-blue-100 {
@@ -2267,6 +2308,11 @@
     color: rgb(74 222 128 / var(--tw-text-opacity, 1))
 }
 
+.text-green-600 {
+    --tw-text-opacity: 1;
+    color: rgb(22 163 74 / var(--tw-text-opacity, 1))
+}
+
 .text-green-700 {
     --tw-text-opacity: 1;
     color: rgb(21 128 61 / var(--tw-text-opacity, 1))
@@ -2345,6 +2391,10 @@
     opacity: 0
 }
 
+.opacity-25 {
+    opacity: 0.25
+}
+
 .opacity-40 {
     opacity: 0.4
 }
@@ -2355,6 +2405,10 @@
 
 .opacity-70 {
     opacity: 0.7
+}
+
+.opacity-75 {
+    opacity: 0.75
 }
 
 .opacity-80 {
@@ -2519,6 +2573,10 @@
 
 .\[filter\:invert\(1\)\] {
     filter: invert(1)
+}
+
+.\[font-family\:\'Plus_Jakarta_Sans\'\] {
+    font-family: 'Plus Jakarta Sans'
 }
 
 .\[grid-area\:search\] {
@@ -2767,6 +2825,11 @@
     background-color: rgb(14 116 61 / var(--tw-bg-opacity, 1))
 }
 
+.hover\:bg-\[\#17803d\]:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(23 128 61 / var(--tw-bg-opacity, 1))
+}
+
 .hover\:bg-\[\#3f2120\]:hover {
     --tw-bg-opacity: 1;
     background-color: rgb(63 33 32 / var(--tw-bg-opacity, 1))
@@ -2775,6 +2838,11 @@
 .hover\:bg-\[\#6e281c\]:hover {
     --tw-bg-opacity: 1;
     background-color: rgb(110 40 28 / var(--tw-bg-opacity, 1))
+}
+
+.hover\:bg-gray-200:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(229 231 235 / var(--tw-bg-opacity, 1))
 }
 
 .hover\:bg-gray-300:hover {
@@ -2826,6 +2894,10 @@
 
 .hover\:opacity-75:hover {
     opacity: 0.75
+}
+
+.hover\:opacity-90:hover {
+    opacity: 0.9
 }
 
 .hover\:\[text-decoration\:none\]:hover {
@@ -2981,6 +3053,13 @@
         -webkit-line-clamp: 1
     }
 
+    .md\:line-clamp-5 {
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 5
+    }
+
     .md\:block {
         display: block
     }
@@ -3114,8 +3193,16 @@
         border-radius: 8px
     }
 
+    .md\:rounded-xl {
+        border-radius: 12px
+    }
+
     .md\:bg-\[center_75\%\] {
         background-position: center 75%
+    }
+
+    .md\:p-10 {
+        padding: 40px
     }
 
     .md\:p-4 {
