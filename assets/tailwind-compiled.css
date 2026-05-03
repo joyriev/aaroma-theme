@@ -2469,6 +2469,21 @@
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
 }
 
+.shadow-white {
+    --tw-shadow-color: #fff;
+    --tw-shadow: var(--tw-shadow-colored)
+}
+
+.shadow-white\/20 {
+    --tw-shadow-color: rgb(255 255 255 / 0.2);
+    --tw-shadow: var(--tw-shadow-colored)
+}
+
+.shadow-black\/20 {
+    --tw-shadow-color: rgb(0 0 0 / 0.2);
+    --tw-shadow: var(--tw-shadow-colored)
+}
+
 .outline {
     outline-style: solid
 }
