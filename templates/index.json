@@ -345,12 +345,32 @@
             "description": "<p>Onze parfums worden vervaardigd in gecertificeerde Europese faciliteiten — dezelfde standaarden als de grote namen.</p>",
             "mobile_description": ""
           }
+        },
+        "point_jDHtzX": {
+          "type": "point",
+          "settings": {
+            "icon": "shopify://shop_images/Screenshot_2026-05-03_at_9.37.47_PM.png",
+            "heading": "IFRA-gecertificeerde formules",
+            "description": "<p>Veilig op de huid. Geen grijze markt, geen dubieuze ingrediënten. Alleen wat hoort.</p>",
+            "mobile_description": ""
+          }
+        },
+        "point_Yp49mb": {
+          "type": "point",
+          "settings": {
+            "icon": "shopify://shop_images/Screenshot_2026-05-03_at_9.39.01_PM.png",
+            "heading": "Jij betaalt voor de geur, niet het merk",
+            "description": "<p>Tot 90% goedkoper dan designer. Omdat marketing geen geur heeft.</p>",
+            "mobile_description": ""
+          }
         }
       },
       "block_order": [
         "heading_ax7WWJ",
         "text_gzPVkb",
-        "point_yJrEAL"
+        "point_yJrEAL",
+        "point_jDHtzX",
+        "point_Yp49mb"
       ],
       "settings": {
         "background_color": "#ffffff",
