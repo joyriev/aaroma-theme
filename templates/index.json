@@ -309,8 +309,8 @@
       "name": "Review Grid",
       "settings": {
         "background_color": "#ffffff",
-        "heading": "Wat onze klanten zeggen",
-        "review_text": "4,9/5 op basis van 2.400+ beoordelingen",
+        "heading": "Wat klanten zeggen",
+        "review_text": "Geen incentives, geen neppe reviews. Gewoon echte mensen.",
         "button_text": "Read all reviews",
         "button_link": "shopify://collections/all",
         "padding_top": 72,
