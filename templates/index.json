@@ -268,7 +268,7 @@
           "type": "review",
           "settings": {
             "heading": "Zeker een aanrader.",
-            "content": "<p><em>\"Ik droeg No. 079 naar een etentje en drie mensen vroegen welk parfum ik op had. Eén iemand dacht dat het Chanel was.\"</em></p>",
+            "content": "<p><em>\"Ik droeg Nr. 079 naar een etentje en drie mensen vroegen welk parfum ik op had. Eén iemand dacht dat het Chanel was.\"</em></p>",
             "author": "Sanne V., Rotterdam",
             "date": "2 days ago",
             "rating": 5,
@@ -280,7 +280,7 @@
           "type": "review",
           "settings": {
             "heading": "Perfect aangekomen.",
-            "content": "<p><em>\"Na twaalf uur werk rook ik nog steeds. Dat lukt mijn flesje van €120 niet eens. Jij blijft. Het flesje niet.\"</em></p>",
+            "content": "<p><em>\"</em>Na twaalf uur werken ruik ik ’m nog steeds. Dat lukt mijn flesje van €120 niet eens. Deze blijft. Dat flesje niet<em>.\"</em></p>",
             "author": "Daan M., Utrecht",
             "date": "2 days ago",
             "rating": 5,
@@ -342,7 +342,7 @@
           "settings": {
             "icon": "shopify://shop_images/Screenshot_2026-05-03_at_9.32.50_PM.png",
             "heading": "Gemaakt in Europa",
-            "description": "<p>Onze parfums worden vervaardigd in gecertificeerde Europese faciliteiten — dezelfde standaarden als de grote namen.</p>",
+            "description": "<p>Onze parfums worden gemaakt in gecertificeerde Europese faciliteiten — volgens dezelfde standaarden als de grote namen.</p>",
             "mobile_description": ""
           }
         },
@@ -351,7 +351,7 @@
           "settings": {
             "icon": "shopify://shop_images/Screenshot_2026-05-03_at_9.37.47_PM.png",
             "heading": "IFRA-gecertificeerde formules",
-            "description": "<p>Veilig op de huid. Geen grijze markt, geen dubieuze ingrediënten. Alleen wat hoort.</p>",
+            "description": "<p>Veilig voor je huid. Geen grijze markt, geen dubieuze ingrediënten. Alleen wat hoort.</p>",
             "mobile_description": ""
           }
         },
@@ -359,8 +359,8 @@
           "type": "point",
           "settings": {
             "icon": "shopify://shop_images/Screenshot_2026-05-03_at_9.39.01_PM.png",
-            "heading": "Jij betaalt voor de geur, niet het merk",
-            "description": "<p>Tot 90% goedkoper dan designer. Omdat marketing geen geur heeft.</p>",
+            "heading": "Jij betaalt voor de geur, niet voor het merk",
+            "description": "<p>Tot 90% goedkoper dan designerparfums. Zonder dure campagnes, luxe winkels of merkopslag.</p>",
             "mobile_description": ""
           }
         }
