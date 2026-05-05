@@ -85,7 +85,7 @@
               {%- elsif product.selected_or_first_available_variant.available == false or quantity_rule_soldout -%}
                 {{ 'products.product.sold_out' | t }}
               {%- else -%}
-                {{ 'products.product.add_to_cart' | t }}
+                {{ 'Toevogegen aan winkelwagen' | t }}
               {%- endif -%}
             </span>
             <div class="ml-2 pl-2 border-0 border-l flex items-center border-solid border-gray-200/20">
