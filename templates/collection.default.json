@@ -22,10 +22,10 @@
       "name": "Popular Products",
       "settings": {
         "background_color": "#fcfbf9",
-        "title": "Popular Products",
+        "title": "🔥Heetste Zomergeuren 2026🔥",
         "description": "",
-        "collection": "",
-        "button_text": "View All",
+        "collection": "heetste-zomergeuren-2026",
+        "button_text": "Bekijk alles",
         "button_link": "shopify://collections/all",
         "padding_top": 36,
         "padding_bottom": 36
