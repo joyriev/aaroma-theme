@@ -3947,6 +3947,24 @@
           "invalid_code": "Geben Sie den korrekten 6-stelligen Code ein"
         }
       }
+    },
+    "email_capture": {
+      "terms_of_service_link_text": "Bedingungen",
+      "processing": "Wird bearbeitet…",
+      "step_one": {
+        "page_title": "Geben Sie Ihre E-Mail-Adresse ein – %{shop_name}",
+        "heading": "Geben Sie Ihre E-Mail-Adresse ein",
+        "subheading": "Geben Sie Ihre E-Mail-Adresse ein und wir senden Ihnen einen Verifizierungscode",
+        "input_field_label": "E-Mail",
+        "button": "Weiter"
+      },
+      "error": {
+        "invalid": {
+          "invalid_email": "Geben Sie eine gültige E-Mail-Adresse ein",
+          "invalid_code": "Geben Sie den richtigen 6-stelligen Code ein"
+        }
+      },
+      "privacy_link_text": "Datenschutz"
     }
   }
 }
