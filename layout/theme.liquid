@@ -525,7 +525,7 @@ body {
           </div>
           <div id="flipdown" class="flipdown"></div>
           <div class="timebar-sale-text">
-            Koop 4, krijg 2 gratis 🎁
+            Koop 3, krijg 1 gratis 🎁
           </div>
         </div>
       </div>
@@ -567,7 +567,7 @@ body {
       class="content-for-layout focus-none"
       role="main"
       tabindex="-1">
-      {% capture ICART_FULL_PAGE_LAYOUT %}{{ content_for_layout }}{% endcapture %}{% include 'icart-variables', ICART_FULL_PAGE_LAYOUT: ICART_FULL_PAGE_LAYOUT %}
+      {{ content_for_layout }}
     </main>
 
     {% sections 'footer-group' %}
@@ -657,6 +657,6 @@ body {
     {% unless template.name == 'product' %}
       {% section 'fragrance-search' %}
     {% endunless %}
-    {% render 'checkout-modal' %}
+  {% comment %} {% render 'checkout-modal' %} {% endcomment %}
   </body>
 </html>
