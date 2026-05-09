@@ -109,7 +109,7 @@
         "currency_code_enabled": {
           "label": "Valutacodes"
         },
-        "paragraph": "Prijzen in winkelwagen en bij checkout tonen altijd de valutacodes"
+        "paragraph": "Prijzen Toevoegen aan winkelwagen en bij checkout tonen altijd de valutacodes"
       }
     },
     "layout": {

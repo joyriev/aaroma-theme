@@ -126,7 +126,7 @@
         "minimum_of": "Minimaal {{ quantity }}",
         "maximum_of": "Maximaal {{ quantity }}",
         "multiples_of": "Stappen van {{ quantity }}",
-        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> in winkelwagen",
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> Toevoegen aan winkelwagen",
         "note": "Bekijk hoeveelheidregels",
         "min_of": "Minimaal {{ quantity }}",
         "max_of": "Maximaal {{ quantity }}"
@@ -282,7 +282,7 @@
     },
     "cart": {
       "title": "Je winkelwagen",
-      "caption": "Artikelen in winkelwagen",
+      "caption": "Artikelen Toevoegen aan winkelwagen",
       "remove_title": "{{ title }} verwijderen",
       "note": "Speciale instructies voor bestelling",
       "checkout": "Afrekenen",
@@ -2777,7 +2777,7 @@
         "not_respect_step": "Je kunt dit item alleen toevoegen in stappen van %{step}.",
         "all_items_in_cart": "Alle %{count} %{name} zitten in je winkelwagen.",
         "missing_parameters": "geen geldige id- of regelparameter",
-        "generic_error": "Fout in winkelwagen",
+        "generic_error": "Fout Toevoegen aan winkelwagen",
         "invalid_input": "%{parameter} parameter is ongeldig.",
         "too_many_line_items_error": "Je winkelwagen mag niet meer dan %{max} artikelen bevatten.",
         "link_no_longer_exists": "De link bestaat niet meer.",
