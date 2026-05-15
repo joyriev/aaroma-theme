@@ -148,6 +148,8 @@
             name: "{{ bundle_product.title }}",
             image: "{{ bundle_product.featured_image | image_url }}",
             nuta: "{{ bundle_product.metafields.custom.nuta |  replace: ',', '' }}",
+            inspiration_image: "{{ bundle_product.metafields.custom.inspiration.value.image | image_url: width: 90, height: 90 }}",
+            inspiration_name: "{{ bundle_product.metafields.custom.inspiration.value.name }}",
             tags: {{ bundle_product.tags | json }},
             variants: {
               {% for variant in bundle_product.variants %}
@@ -180,6 +182,13 @@
       },
       isProductSelected(productId) {
         return this.selectedProducts.some(product => product.id === productId);
+      },
+      isProductVisible(product) {
+        const matchesCategory = product.tags.some(tag => {
+          return tag === this.activeCategory;
+        }) || this.activeCategory === 'All';
+        const matchesSearch = this.searchText === '' || product.name.toLowerCase().includes(this.searchText.toLowerCase());
+        return matchesCategory && matchesSearch;
       },
       doCheckout() {
 
