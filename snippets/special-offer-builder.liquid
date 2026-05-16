@@ -214,7 +214,7 @@
         // Add each selected product as a separate property
         this.selectedProducts.forEach((product, index) => {
           properties[`Bottle ${index + 1}`] = 
-            `${product.name} Inspired by ${product.nuta} - ${this.selectedVariant}`;
+            `${product.name} Inspired by ${product.inspiration_name} - ${this.selectedVariant}`;
         });
         // Prepare cart items
         const items = {
