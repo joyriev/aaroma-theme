@@ -2527,8 +2527,68 @@
             "header": "View Shopify editions",
             "caption": "With more than 100 product improvements, you can be more productive and creative, and more powerful in business than you ever thought possible.",
             "link_text": "Discover the latest releases"
+          },
+          "sell_in_person": {
+            "header": "Sell personally",
+            "caption": "Get the features you need to run your store, whether you're just starting out or want to expand.",
+            "link_text": "Start free trial period"
+          },
+          "open_a_store": {
+            "caption": "Start a free 3-day trial, then continue for $1/month for the next 3 months."
+          },
+          "store_owner": {
+            "header": "Are you the retailer?",
+            "caption": "Having trouble accessing your store? Try the %{forgot_your_store_link} feature. If you want to reactivate your store, please contact %{shopify_support_link}."
           }
+        },
+        "title": "Create an online store and sell online! Online store software from Shopify",
+        "heros": {
+          "store_unavailable": "Sorry, this store is currently not available.",
+          "store_not_exist": "This shop does not exist.",
+          "no_storefront": "This shop does not have a website yet."
+        },
+        "links": {
+          "explore_other_stores": "Discover other stores",
+          "start_free_trial": "Start a free trial period"
+        },
+        "owner_ctas": {
+          "header": "Are you the retailer?",
+          "fix_domain": "Complete setting up your new web address via %{domain_settings_link}. Click on \"Connect Domain\" and enter: %{domain}.<br>If you have trouble logging into your store, try the page %{forgot_your_store_link}.",
+          "forgot_your_store_link_text": "forgot your cart",
+          "add_storefront": "You can set up your website by adding the Online Store channel in your %{admin_link}. If you have trouble opening your store, try the page %{forgot_your_store_link}.",
+          "admin_link_text": "administrator"
         }
+      },
+      "taken": "is already in use",
+      "too_short": "is too short (minimum %{count} characters)",
+      "too_long": "is too long (maximum %{count} characters)",
+      "verify_email": "We have sent an email to %{customer_email}, please click on the attached link to verify your email address."
+    },
+    "links": {
+      "learn_more": "More information"
+    },
+    "notices": {
+      "address": {
+        "updated": "Address successfully updated.",
+        "error_updating": "Error updating the address",
+        "created": "Address successfully created",
+        "error_creating": "Error creating the address.",
+        "deleted": "Address successfully deleted",
+        "error_deleting": "Error removing the address."
+      },
+      "cart": {
+        "all_items_in_cart": "All %{count} %{name} are in your shopping cart.",
+        "empty_update": "cannot update empty shopping cart",
+        "generic_error": "Error Adding to Cart",
+        "changed": "Shopping cart changed",
+        "digital_product_not_available_for_company_locations": "This item cannot be added to a B2B order",
+        "bundle_requires_components": "The bundle product '%{name}' cannot be added to the shopping cart.",
+        "gift_card_with_components_not_supported": "The bundle product '%{name}' cannot be added to the shopping cart.",
+        "gift_card_price_must_be_greater_than_zero": "The bundle product '%{name}' cannot be added to the shopping cart.",
+        "cart_too_large": "Shopping cart is too large.",
+        "gift_card_recipient_validation_error": "The specified recipient of the gift voucher is invalid",
+        "buyer_cannot_purchase_for_company_locations": "You cannot buy for this location",
+        "cart_attributes_error": "Cart features contain invalid data."
       }
     }
   },
