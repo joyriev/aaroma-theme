@@ -868,7 +868,26 @@
         }
       },
       "shipping": {
-        "duties_and_taxes_title": "Customs duties and taxes"
+        "duties_and_taxes_title": "Customs duties and taxes",
+        "estimated_delivery_date_range": "%{minimum} to %{maximum} working days",
+        "arrives_time": "Arrives in %{time}",
+        "arrives_time_range": "Arrival within %{min_time}–%{max_time}",
+        "delivery_tomorrow": "Next day delivery %{time}",
+        "duties_and_taxes_options": {
+          "ddu_caption": "Additional charges may be applied",
+          "ddp_caption": "No extra charges upon delivery"
+        },
+        "delete": "Remove",
+        "address_more": "More offers for this address",
+        "address_delete": "Remove address",
+        "address_confirm": "Are you sure you want to remove this address from your account?",
+        "address_form": {
+          "generic_error": "There was a problem saving your address. Please try again."
+        },
+        "different_shipping_method_summary": "Enter a different delivery address to view the available shipping methods",
+        "invalid_shipping_method_summary": "Enter a valid delivery address to see the available shipping methods",
+        "default_description": "Shipping within 1 working day",
+        "invalid_shipping_method_summary_selected": "Select a different delivery address to view the available shipping methods"
       },
       "payment": {
         "paypal_modal": {
@@ -1776,7 +1795,8 @@
           "other": "This order will be shipped to an address provided by {{merchant}}. Choose a shipping address."
         },
         "subtitle_no_match": "This address does not match any of your saved addresses.",
-        "return_to_cart": "Back to shopping cart"
+        "return_to_cart": "Back to shopping cart",
+        "title": "Billing address"
       },
       "remote_policies": {
         "unavailable_policy": "No %{policy_name} has been specified for this store. For more information, you can contact %{shop_name} directly."
