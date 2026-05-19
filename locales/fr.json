@@ -2212,7 +2212,65 @@
         },
         "split_shipping_first_shipment_notice": "Votre première commande arrive en %{quantity_shipments}",
         "shipping_method_rollup_accessibility_label": "Options de méthode d'expédition",
-        "shipping_address_rollup_accessibility_label": "Options d'expédition vers l'adresse"
+        "shipping_address_rollup_accessibility_label": "Options d'expédition vers l'adresse",
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "one": "pour %{count} livraison",
+            "other": "pour %{count} livraisons"
+          },
+          "initial_order_discounted": "Frais de port d'abord %{discounted_shipping_cost}, puis %{frequency_description}",
+          "prepaid_initial_order_discounted": "Frais de livraison initiaux %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Premiers frais de livraison %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "Frais de livraison initiaux %{discounted_shipping_price} %{prepaid_delivery_frequency}, puis %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Frais de livraison initiaux %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), puis %{shipping_price} %{billing_cycle}",
+          "recurring_order_shipping_price": "suivi par %{recurring_order_shipping_price}",
+          "first_n_order_free": {
+            "other": "Premières %{count} commandes gratuites"
+          },
+          "free_for_first_n_order": {
+            "other": "Pour les %{count} premières commandes"
+          },
+          "free_shipping_cycles": {
+            "one": "Livraison gratuite pour encore %{count} livraison(s)",
+            "other": "Livraison gratuite pour encore %{count} livraisons"
+          },
+          "free_shipping_cycles_delivery_not_included": {
+            "one": "Livraison gratuite pour %{count} livraison",
+            "other": "Livraison gratuite pour %{count} livraisons"
+          },
+          "first_n_order_free_with_cycle": {
+            "one": "Livraison gratuite pour encore %{count} livraisons, puis %{recurring_order_shipping_price}",
+            "other": "Livraison gratuite pour encore %{count} livraisons, puis %{recurring_order_shipping_price}"
+          },
+          "first_n_order_free_with_cycle_delivery_not_included": {
+            "one": "Livraison gratuite pour %{count} livraison, ensuite %{recurring_order_shipping_price}",
+            "other": "Livraison gratuite pour %{count} livraisons, puis %{recurring_order_shipping_price}"
+          },
+          "prepaid_free_shipping_with_cycles": {
+            "one": "Livraison gratuite pour le premier %{cycle}, puis %{recurring_order_shipping_price}",
+            "other": "Livraison gratuite pour le premier %{cycle}, puis %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle": {
+            "one": "%{shipping_price} pour %{count} livraison supplémentaire",
+            "other": "%{shipping_price} pour %{count} livraisons supplémentaires (%{per_delivery_cost})"
+          },
+          "prepaid_order_one_cycle_delivery_not_included": {
+            "one": "%{shipping_price} pour %{count} livraison"
+          },
+          "prepaid_order_no_cycle": {
+            "one": "%{shipping_price} pour %{count} livraison supplémentaire, suivi de %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} pour %{count} livraisons supplémentaires (%{per_delivery_cost}), suivi de %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "one": "%{shipping_price} pour %{count} livraison, suivi de %{recurring_order_shipping_price}"
+          }
+        },
+        "split_shipping_shipped_by_shop": "Envoyé par %{shop_name}",
+        "split_shipping_multiple_shipment_quantity_label": "%{quantity} envois",
+        "split_shipping_multiple_shipment_notice_one_time_purchase": "Votre commande sera livrée en %{quantity} envois",
+        "split_shipping_option_free": "Livraison gratuite",
+        "split_shipping_option_custom": "Personnalisé",
+        "split_shipping_shipment_notice": "Votre commande arrive en %{quantity_shipments}"
       },
       "session_errors": {
         "session_already_finished": "Cette commande a déjà été soumise. Vous pouvez retourner au magasin pour commencer une nouvelle commande."
