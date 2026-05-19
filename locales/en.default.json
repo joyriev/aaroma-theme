@@ -859,7 +859,13 @@
         "product_image_quantity_label": "Number",
         "total_due_today_label": "Total to pay today",
         "total_due_later_label": "Total to be paid later",
-        "total_due_label": "Total to pay"
+        "total_due_label": "Total to pay",
+        "unit_price": {
+          "accessible_separator": "by",
+          "per_item": {
+            "one": "%{price} per %{count} piece"
+          }
+        }
       },
       "shipping": {
         "duties_and_taxes_title": "Customs duties and taxes"
@@ -867,7 +873,34 @@
       "payment": {
         "paypal_modal": {
           "order_contains_fixed_selling_plans": "Total may exclude taxes, shipping, deferred charges and some discounts. Proceed to checkout for the amount due today."
-        }
+        },
+        "amazon_payments_label": "Amazon Payment",
+        "amazon_payments_login_hint": "You are asked to log in with Amazon.",
+        "amazon_payments_logout": "Sign out of Amazon Pay",
+        "amazon_payments_failed_mfa_challenge": "The chosen payment method could not be used. Please select another method or contact your bank or card issuer.",
+        "amazon_payments_abandoned_mfa_challenge": "Your payment could not be completed. Please try another payment method or contact your bank or card issuer.",
+        "amazon_payments_could_not_enqueue_authorize": "There was a problem processing your payment. Please try again or use a different payment method.",
+        "bank_picker_label": "Bench",
+        "bancontact_label": "Bank contact",
+        "billing_address_not_supported_for_payment_method_error": "This payment method is not available for your billing address and currency. Please try another payment method.",
+        "apple_pay_payment_error": "Your payment could not be completed. Please try again or use a different payment method.",
+        "apple": {
+          "connect": "Click to link your Apple Pay account",
+          "not_available": "Apple Pay is not available in this browser. To link your Apple Pay account, you must use Safari on an Apple device."
+        },
+        "billing_address_associated_with_mandate": "Use the address linked to the payment method",
+        "billing_address_associated_with_mandate_info": "If you want to change your billing address, please remove your credit card details and enter them again",
+        "billing_address_invalid_phone": "Enter the phone number in your billing address for {{label}} {{last_digits}} to continue.",
+        "billing_address_invalid_phone_no_card": "Update the telephone number in your billing address to continue.",
+        "alternative_payment_currency_total_notice": "Note: %{amount_due} will be charged.",
+        "afterpay_label": "Pay afterwards",
+        "alternative_payment_currency_total_manual_payment_notice": "Note: the converted total amount is %{amount_due}.",
+        "bank_account_type": {
+          "checking": "Check"
+        },
+        "bank_account_connect": "Link bank account",
+        "bank_account_missing": "Bank account must be linked",
+        "bank_account_generic_error": "Could not add bank account. Please try again later."
       },
       "contact": {
         "change_company_location_link_label": "Change company address",
