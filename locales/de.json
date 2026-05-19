@@ -1427,7 +1427,7 @@
         "company_attention_label": "Firma/Aufmerksamkeit",
         "optional_company_attention_label": "Firma/Aufmerksamkeit (optional)",
         "optional_company_label": "Unternehmen (optional)",
-        "address2_label": "Wohnung, Suite usw.",
+        "address2_label": "Wohnung, Suite, usw.",
         "optional_address2_label": "Wohnung, Suite usw. (optional)",
         "country_label": "Land/Region",
         "province_label": "Provinz",
@@ -1445,10 +1445,10 @@
         "phone_rollup_accessibility_label": "Telefonoptionen",
         "phone_country_code_label": "Telefonnummer Ländervorwahl",
         "phone_tooltip": "Falls wir Sie bezüglich Ihrer Bestellung kontaktieren müssen",
-        "civic_number_warning": "Fügen Sie eine Hausnummer hinzu, falls Sie eine haben",
+        "civic_number_warning": "Fügen Sie eine Hausnummer hinzu, wenn Sie eine haben",
         "different_shipping_address_label": "An eine andere Adresse liefern lassen",
         "different_shipping_address_text": "Verwenden Sie für diese Bestellung eine Einmaladresse",
-        "change_company_location_link_label": "Firmenstandort ändern",
+        "change_company_location_link_label": "Firmenadresse ändern",
         "change_location_link_label": "Standort ändern",
         "ship_to_company": "Liefern an {{companyName}}",
         "suburb_label": "Vorort"
@@ -2015,10 +2015,12 @@
         }
       },
       "alternative_payment_method_banner": {
-        "express_checkout": "Express-Kasse",
-        "or_check_out_another_way": "Oder auf eine andere Weise zur Kasse gehen",
+        "express_checkout": "Schnell bezahlen",
+        "or_check_out_another_way": "Oder sehen Sie sich eine andere Möglichkeit an",
         "or_pay_with_credit_card": "Oder mit Kreditkarte bezahlen",
-        "show_more_options": "Mehr Optionen anzeigen"
+        "show_more_options": "Mehr Optionen anzeigen",
+        "or": "VON",
+        "hide_more_options": "Weitere Optionen verbergen"
       },
       "post_purchase": {
         "escape_confirmation": "Sie haben für Ihre Bestellung bezahlt.",
@@ -2183,16 +2185,17 @@
       "change_currency": {
         "credit_card_will_be_charged_html": "Ihre Kreditkarte wird mit %{amount} belastet",
         "payment_total_label": "Gesamtzahlung",
-        "change_currency_link": "Wechsel zu %{currency_name}",
+        "change_currency_link": "Wechseln zu %{currency_name}",
         "card_provider_fx_charges_warning": "Ihr Kartenanbieter kann Gebühren für Transaktionen in %{currency_code} erheben.",
-        "currency_not_supported_by_shop": "Die von Ihnen gewählte Währung ist nicht mehr verfügbar. Alle Preise sind jetzt in %{currency_code}."
+        "currency_not_supported_by_shop": "Die von Ihnen ausgewählte Währung ist nicht mehr verfügbar. Alle Preise sind jetzt in %{currency_code}."
       },
       "change_country": {
-        "cart_updated_based_on_country": "Ihr Warenkorb wurde basierend auf Ihrem Versandland aktualisiert.",
-        "cart_and_currency_updated_based_on_country": "Ihr Warenkorb und die Währung wurden basierend auf Ihrem Versandland aktualisiert."
+        "cart_updated_based_on_country": "Dein Warenkorb wurde basierend auf deinem Versandland aktualisiert.",
+        "cart_and_currency_updated_based_on_country": "Ihr Warenkorb und Ihre Währung wurden basierend auf dem Versandland aktualisiert.",
+        "currency_updated_for_country": "Valuta aktualisiert für %{country}"
       },
       "change_cart_localization": {
-        "verify_shipping_address": "Ihr Land/Ihre Region wurde aktualisiert. Geben Sie Ihre Lieferadresse ein, um mit dem Checkout fortzufahren."
+        "verify_shipping_address": "Ihr Land/Ihre Region wurde aktualisiert. Bitte geben Sie Ihre Versandadresse ein, um mit dem Bezahlen fortzufahren."
       },
       "tips": {
         "description": "Zeigen Sie Ihre Unterstützung für das Team bei %{shop_name}",
@@ -2258,7 +2261,7 @@
         }
       },
       "cart_checkout_validation": {
-        "runtime_error": "Bei der Verarbeitung Ihrer Anfrage ist ein Problem aufgetreten. Bitte wenden Sie sich an den Ladenbesitzer."
+        "runtime_error": "Bei der Verarbeitung Ihrer Anfrage ist ein Problem aufgetreten. Bitte wenden Sie sich an den Händler."
       },
       "no_address_location": {
         "title": "Ort ohne Adresse",
@@ -2277,7 +2280,7 @@
         "session_already_finished": "Diese Bestellung wurde bereits aufgegeben. Sie können zum Geschäft zurückkehren, um eine neue Bestellung zu starten."
       },
       "artifact_errors": {
-        "artifact_dissatisfaction_without_violation": "Bei der Verarbeitung Ihrer Bestellung ist ein Problem aufgetreten. Versuchen Sie es in ein paar Minuten erneut."
+        "artifact_dissatisfaction_without_violation": "Bei der Bearbeitung Ihrer Bestellung ist ein Problem aufgetreten. Bitte versuchen Sie es in ein paar Minuten erneut."
       },
       "pickup_point": {
         "title": "Abholpunkt",
@@ -2648,6 +2651,25 @@
         "items_for_pickup": "Artikel zur Abholung",
         "delivery_method": "Geteilte Liefermethode",
         "delivery_method_menu": "Liefermethode für Teillieferungen-Menü"
+      },
+      "billing": {
+        "billing_address_title": "Rechnung stellen an",
+        "same_as_shipping": "Gleich wie die Lieferadresse",
+        "add_address": "Verwenden Sie eine andere Adresse",
+        "delete": "Entfernen",
+        "address_delete": "Adresse entfernen",
+        "address_confirm": "Sind Sie sicher, dass Sie diese Adresse aus Ihrem Konto entfernen möchten?",
+        "address_form": {
+          "cancel": "Abbrechen"
+        },
+        "billing_address_rollup_accessibility_label": "Rechnungstellung an Optionen"
+      },
+      "company_location": {
+        "location_title": "Betriebsstandort",
+        "location_rollup_accessibility_label": "Optionen für den Betriebsstandort"
+      },
+      "address_management": {
+        "saved_with_store": "Gespeichert in diesem Geschäft"
       }
     },
     "sentence": {

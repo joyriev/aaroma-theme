@@ -562,7 +562,24 @@
         }
       },
       "contact": {
-        "change_company_location_link_label": "Change company address"
+        "change_company_location_link_label": "Change company address",
+        "contact_method_title": "Get in touch",
+        "email_or_phone_label": "Email address or mobile phone number",
+        "email_or_phone_placeholder": "Email address or mobile phone number",
+        "optional_address2_label": "Apartment, suite, and so forth (optional)",
+        "country_code": "Country/region code",
+        "governorate_label": "Government",
+        "governorate_placeholder": "Government",
+        "phone_label": "Telephone",
+        "optional_phone_label": "Telephone (optional)",
+        "phone_placeholder": "Telephone",
+        "postcode_label": "Postal code",
+        "postcode_placeholder": "Postal code",
+        "different_shipping_address_label": "Send to a different address",
+        "optional_zip_code_label": "Postal code (optional)",
+        "optional_postcode_label": "Postal code (optional)",
+        "phone_rollup_accessibility_label": "Telephone options",
+        "phone_country_code_label": "Country code phone number"
       },
       "alternative_payment_method_banner": {
         "express_checkout": "Quick checkout",
