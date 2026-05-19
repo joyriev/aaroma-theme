@@ -2330,7 +2330,48 @@
         }
       },
       "throttle": {
-        "cart_summary_heading": "Your shopping cart"
+        "cart_summary_heading": "Your shopping cart",
+        "line_to_check_out": "You are standing in line to pay",
+        "merchandise": {
+          "sold_out": "Sold out"
+        },
+        "inventory": {
+          "partial_inventory_banner": "A part of your shopping cart is sold out and will not be available for checkout.",
+          "sold_out": {
+            "heading": "Your shopping cart is sold out",
+            "no_storefront_body": "Unfortunately, the item you want to buy is no longer available.",
+            "link": "Back to shop"
+          }
+        },
+        "estimated_wait_time": {
+          "calculating": "Calculate estimated waiting time"
+        },
+        "footer": {
+          "heading": "Do not refresh this page, it will update automatically.",
+          "body": "Items in your shopping cart are not reserved until you complete the purchase."
+        }
+      },
+      "tips": {
+        "not_available_with_spi": "Not available with Shop Pay installment payments"
+      },
+      "units": {
+        "milligram": "milligram",
+        "kilogram": "kilogram",
+        "milliliter": "milliliter",
+        "liter": "I",
+        "cubic_meter": "cubic meter",
+        "centimeter": "centimeter",
+        "ounce": "ounce",
+        "fluid_ounce": "liquid oz",
+        "gallon": "girl",
+        "foot": "foot",
+        "item": "article"
+      },
+      "too_many_requests": {
+        "title": "Too many attempts to check out",
+        "body": "Please wait a few minutes and try again from your shopping cart.",
+        "return_to_cart": "Back to shopping cart",
+        "body_no_cart": "Wait a few minutes and try again."
       }
     },
     "addresses": {

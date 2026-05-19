@@ -551,7 +551,26 @@
         "return_to_cart": "Retour au panier"
       },
       "shipping_errors": {
-        "unavailable_addresses_only_countries": "Votre commande ne peut être expédiée qu'à {{countriesList}}. Ajoutez une nouvelle adresse pour continuer."
+        "unavailable_addresses_only_countries": "Votre commande ne peut être expédiée qu'à {{countriesList}}. Ajoutez une nouvelle adresse pour continuer.",
+        "shipping_method": "Les options de livraison pour votre commande ont été modifiées. Veuillez vérifier votre choix.",
+        "shipping_method_not_available": "Votre panier a été mis à jour et les articles que vous avez ajoutés ne peuvent pas être expédiés à votre adresse. Supprimez les articles pour finaliser votre commande.",
+        "shipping_method_not_available_generic": {
+          "one": "Votre commande ne peut pas être envoyée à l'adresse indiquée. Vérifiez votre adresse pour vous assurer qu'elle est correcte et réessayez, ou choisissez une autre adresse.",
+          "other": "Certains articles dans votre panier ne peuvent pas être expédiés à l'adresse que vous avez indiquée. Vérifiez votre adresse pour vous assurer qu'elle est correcte et réessayez, ou choisissez une autre adresse."
+        },
+        "shipping_method_not_available_updated": {
+          "one": "L'article que vous avez ajouté n'est pas expédié à votre emplacement. Supprimez-le pour passer à la caisse, ou contactez le magasin.",
+          "other": "Un ou plusieurs articles que vous avez ajoutés ne peuvent pas être expédiés à votre adresse. Supprimez-les pour passer à la caisse, ou contactez le magasin."
+        },
+        "payment_method_not_supported": "Vous ne pouvez pas utiliser ce mode de paiement pour %{country}. Utilisez un autre mode de paiement pour envoyer vers ce pays.",
+        "empty_state": "Saisissez votre adresse de livraison pour voir les modes de livraison disponibles.",
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "Les articles dans le panier ne répondent pas aux exigences de prix ou de poids pour être éligibles à la livraison. Mettez à jour votre panier et réessayez.",
+        "title": "Expédition non disponible",
+        "invalid_selected_address": "L'adresse de livraison sélectionnée n'est pas valide",
+        "invalid_selected_address_with_update_link": "L'adresse de livraison sélectionnée n'est pas valide. %{update_address_link} ou choisissez une autre adresse",
+        "unavailable_selected_address": "Expédition non disponible pour l'adresse sélectionnée",
+        "unavailable_selected_address_for_region": "La livraison n'est pas disponible pour {{region}}. Choisissez une autre adresse pour continuer",
+        "unavailable_address_country": "La livraison n'est pas possible vers le pays que vous avez choisi. Utilisez une autre adresse pour continuer."
       },
       "payment_errors": {
         "shop_pay_wallet_not_available": "Shop Pay n'est pas disponible pour cette caisse.",
@@ -2263,17 +2282,65 @@
           },
           "prepaid_order_no_cycle_delivery_not_included": {
             "one": "%{shipping_price} pour %{count} livraison, suivi de %{recurring_order_shipping_price}"
-          }
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "other": "tous les %{count} jours"
+            },
+            "week": {
+              "other": "toutes les %{count} semaines"
+            },
+            "month": {
+              "other": "tous les %{count} mois"
+            },
+            "year": {
+              "other": "tous les %{count} ans"
+            }
+          },
+          "subscription_free_with_frequency_label": "Livraison gratuite %{delivery_frequency}"
         },
         "split_shipping_shipped_by_shop": "Envoyé par %{shop_name}",
         "split_shipping_multiple_shipment_quantity_label": "%{quantity} envois",
         "split_shipping_multiple_shipment_notice_one_time_purchase": "Votre commande sera livrée en %{quantity} envois",
         "split_shipping_option_free": "Livraison gratuite",
         "split_shipping_option_custom": "Personnalisé",
-        "split_shipping_shipment_notice": "Votre commande arrive en %{quantity_shipments}"
+        "split_shipping_shipment_notice": "Votre commande arrive en %{quantity_shipments}",
+        "waiting_on_rate_notice": "Récupération des tarifs d'expédition disponibles…",
+        "waiting_on_pickup_location_notice": "Récupération des points de retrait disponibles…",
+        "subscription_shipping": "Livraison par abonnement",
+        "subscription_local_delivery": "Livraison d'abonnement locale",
+        "subscription_pickup": "Retrait par abonnement",
+        "two_day_delivery": "Livraison en 2 jours %{time}",
+        "unbranded_default_description": "Prêt pour l'expédition",
+        "third_party_address_timeout": "Impossible de charger l'adresse. Veuillez réessayer ou utiliser une autre adresse.",
+        "third_party_address_error": "Une erreur s'est produite lors du chargement du choix d'adresse. Veuillez saisir votre adresse manuellement ci-dessous.",
+        "third_party_payment_timeout": "Impossible de charger les méthodes de paiement. Veuillez réessayer ou utiliser une autre méthode de paiement.",
+        "third_party_payment_error": "Une erreur s'est produite lors du chargement du choix de paiement. Veuillez utiliser un autre mode de paiement.",
+        "unbranded_description_same_day": "Expédié le même jour ouvrable",
+        "unbranded_description_with_fulfillment_days": {
+          "one": "Expédition le jour ouvrable suivant",
+          "other": "Expédié sous %{count} jours ouvrables"
+        },
+        "unbranded_description_with_fulfillment_weeks": {
+          "one": "Expédié dans %{count} semaine",
+          "other": "Livraison sous %{count} semaines"
+        }
       },
       "session_errors": {
         "session_already_finished": "Cette commande a déjà été soumise. Vous pouvez retourner au magasin pour commencer une nouvelle commande."
+      },
+      "shop_policies": {
+        "contact_information": "Prendre contact",
+        "cookie_preferences": "Biscuits"
+      },
+      "shop_pay_external": {
+        "errors": {
+          "problem_loading": "Il y a un problème avec le chargement de Shop Pay",
+          "checkout_has_expired": "Votre processus de paiement a expiré. Fermez cette fenêtre et essayez de nouveau de payer chez {{shopName}}."
+        },
+        "return_to_store": "Retour à {{shopName}}",
+        "return_to_store_simple": "Retour au magasin",
+        "title": "Payer avec Shop Pay"
       }
     },
     "attributes": {
