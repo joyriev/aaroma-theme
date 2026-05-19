@@ -1237,20 +1237,21 @@
             "title_empty": "Der Titel der Ware ist leer."
           },
           "buyer_identity": {
-            "business_customer_does_not_match_company": "Der Firmenkontakt hat keinen Zugriff auf das Unternehmen.",
+            "business_customer_does_not_match_company": "Der Firmenkontakt hat keinen Zugang zum Unternehmen.",
             "customer_account_required": "Sie müssen sich anmelden, um fortzufahren.",
             "company_location_required": "Der Kunde muss einen Firmenstandort auswählen, um fortzufahren.",
-            "company_purchase_permission_required": "Der Kunde hat keine Berechtigung, Firmenbestellungen aufzugeben.",
-            "personal_order_not_allowed": "Persönliche Bestellungen sind für diesen Shop nicht erlaubt.",
-            "lost_access_to_company": "Der Kunde hat den Zugriff auf alle Unternehmen verloren.",
-            "contact_info_does_not_match_customer_account": "Die Kontaktinformationen müssen mit dem Konto übereinstimmen, bei dem Sie angemeldet sind.",
+            "company_purchase_permission_required": "Der Kunde hat keine Erlaubnis, Firmenbestellungen aufzugeben.",
+            "personal_order_not_allowed": "Persönliche Bestellungen sind in diesem Geschäft nicht erlaubt.",
+            "lost_access_to_company": "Der Kunde hat den Zugang zu jedem Unternehmen verloren.",
+            "contact_info_does_not_match_customer_account": "Kontaktdaten müssen mit dem Konto übereinstimmen, mit dem Sie angemeldet sind.",
             "phone_number_does_not_match_expected_pattern": "Die angegebene Telefonnummer entspricht nicht dem erwarteten Muster.",
-            "email_required": "Eine E-Mail ist erforderlich, wenn die Ware über ein Abonnement gekauft wird.",
-            "checkout_completion_target_is_missing": "Das Ziel für den Abschluss der Zur Kasse fehlt.",
-            "invalid_customer_profile": "Ein ungültiges Kundenprofil wurde bereitgestellt.",
-            "customer_profile_access_restricted": "Zur Kasse hat keine Berechtigung, auf das Kundenprofil zuzugreifen.",
-            "checkout_completion_target_is_invalid_proc": "Ungültiges Ziel für den Abschluss des Checkouts.",
-            "buyer_identity_presentment_currency_does_not_match": "Bei der Verarbeitung Ihrer Bestellung ist ein Problem aufgetreten. Versuchen Sie es in ein paar Minuten erneut."
+            "email_required": "Eine E-Mail-Adresse ist erforderlich, wenn die Waren im Abonnement gekauft werden.",
+            "checkout_completion_target_is_missing": "Ziel für den Abschluss der Kasse fehlt.",
+            "invalid_customer_profile": "Es wurde ein ungültiges Kundenprofil angegeben.",
+            "customer_profile_access_restricted": "Die Kasse hat keine Berechtigung, auf das Kundenprofil zuzugreifen.",
+            "checkout_completion_target_is_invalid_proc": "Ungültiges Abschlussziel für die Bezahlung.",
+            "buyer_identity_presentment_currency_does_not_match": "Bei der Bearbeitung Ihrer Bestellung ist ein Problem aufgetreten. Bitte versuchen Sie es in ein paar Minuten erneut.",
+            "missing_contact_method": "Es fehlt eine gültige Kontaktmöglichkeit."
           },
           "delivery": {
             "only_one_delivery_line_allowed": "Der Warenkorb darf nur eine Lieferzeile enthalten.",
@@ -1264,13 +1265,13 @@
             "origin_location_id_required": "Eine Ursprungsstandort-ID ist erforderlich, wenn die Liefermethode RETAIL angefordert wird.",
             "invalid_origin_location_id": "Konnte keinen Ort finden, der mit der Ursprungsstandort-ID übereinstimmt.",
             "origin_location_id_not_allowed": "Die angeforderten Liefermethoden unterstützen keine Ursprungsstandort-ID.",
-            "auto_fulfill_not_allowed": "Diese Sitzung ist nicht berechtigt, das Erfüllungsverhalten zu überschreiben.",
-            "auto_fulfill_required": "Die automatische Erfüllung ist erforderlich, wenn die Versandmethode RETAIL angefordert wird.",
+            "auto_fulfill_not_allowed": "Diese Sitzung ist nicht berechtigt, das Abwicklungsverhalten zu überschreiben.",
+            "auto_fulfill_required": "Automatisch Ausführen ist erforderlich, wenn die VERKAUF-Liefermethode angefordert wird.",
             "prefetch_shipping_rates_used": "Vorab abgerufene Versandkosten sollten niemals Preise zurückgeben.",
             "fulfillment_constraints_not_satisfied": "Eine oder mehrere Erfüllungsbedingungen wurden nicht erfüllt.",
             "must_fulfill_from_constraint_not_satisfied": "Erfüllungsbedingungen sind nicht erfüllt, da Artikel nicht von den erforderlichen Standorten geliefert werden können.",
             "must_fulfill_from_same_location_constraint_not_satisfied": "Erfüllungsbedingungen sind nicht erfüllt, da Artikel nicht vom selben Standort aus geliefert werden können.",
-            "delivery_strategy_conditions_not_satisfied": "Lieferstrategien sind für diesen Standort verfügbar, aber ihre Bedingungen sind nicht erfüllt.",
+            "delivery_strategy_conditions_not_satisfied": "Liefermöglichkeiten sind für diesen Standort verfügbar, aber die Bedingungen dafür werden nicht erfüllt.",
             "out_of_stock_at_origin_location": "Kein Lagerbestand am Ursprungsort.",
             "invalid_signature": "Ungültige Rabatt-Signatur."
           },
@@ -1350,21 +1351,24 @@
             "optional_duties_not_permitted": "Die Ablehnung von Gebühren ist bei diesem Checkout nicht erlaubt."
           },
           "attribution": {
-            "retail_attribution_not_allowed": "Die Zurechnung im Einzelhandel ist für diesen Kaufabschluss nicht erlaubt.",
-            "retail_attribution_required": "Die Angabe des Einzelhandels ist für diesen Kaufabschluss erforderlich."
+            "retail_attribution_not_allowed": "Einzelhandelszuweisung ist für diese Abwicklung nicht erlaubt.",
+            "retail_attribution_required": "Winkelzuweisung ist für diese Abwicklung erforderlich."
           },
           "captcha": {
-            "metadata_missing": "Das Ausfüllen eines Captchas ist für diesen Checkout erforderlich.",
-            "metadata_mismatch": "Der angegebene Captcha-Anbieter und -Typ stimmen nicht mit den erwarteten Werten überein.",
-            "token_missing": "Ein Captcha-Token muss bereitgestellt werden, um diesen Kauf abzuschließen.",
-            "job_enqueue_failed": "Der Captcha-Validierungsauftrag konnte nicht in die Warteschlange eingereiht werden.",
-            "job_already_queued": "Die Captcha-Validierung wurde für dieses Captcha-Token bereits in die Warteschlange gestellt.",
-            "token_expired": "Das bereitgestellte Captcha-Token ist abgelaufen. Bitte lösen Sie ein neues Captcha, um den Kaufvorgang fortzusetzen.",
-            "token_invalid": "Das bereitgestellte Captcha-Token war ungültig. Bitte lösen Sie ein neues Captcha, um den Kaufvorgang fortzusetzen.",
-            "token_not_valid_for_session": "Der bereitgestellte Captcha kann bei diesem Checkout nicht verwendet werden."
+            "metadata_missing": "Das Ausfüllen eines Captchas ist für diese Abwicklung erforderlich.",
+            "metadata_mismatch": "Der angegebene Captcha-Anbieter und der Typ stimmen nicht mit den erwarteten Werten überein.",
+            "token_missing": "Es muss ein Captcha-Token angegeben werden, um diesen Kauf abzuschließen.",
+            "job_enqueue_failed": "Die Überprüfung des Captchas konnte nicht in die Warteschlange eingereiht werden.",
+            "job_already_queued": "Captcha-Überprüfung wurde bereits für dieses Captcha-Token in die Warteschlange gestellt.",
+            "token_expired": "Das angegebene Captcha-Token ist abgelaufen. Bitte lösen Sie eine neue Captcha, um mit dem Bezahlen fortzufahren.",
+            "token_invalid": "Das angegebene Captcha-Token war ungültig. Bitte lösen Sie eine neue Captcha, um mit dem Bezahlen fortzufahren.",
+            "token_not_valid_for_session": "Der angegebene Captcha-Code kann an dieser Kasse nicht verwendet werden."
           },
           "fx_reconciliation_override": {
             "shop_currency_mismatch": "Der erhaltene Betrag muss in der Währung des Geschäfts sein."
+          },
+          "checkout_source": {
+            "revoked": "Diese Kasse ist nicht mehr verfügbar."
           }
         },
         "full_price": "Vollpreis:",
@@ -1390,7 +1394,10 @@
           "weekdays_abbreviation": {
             "tuesday": "Du",
             "wednesday": "Wir",
-            "thursday": "Der"
+            "thursday": "Der",
+            "monday": "Montag",
+            "saturday": "Za",
+            "sunday": "Su"
           }
         },
         "datepicker": {
@@ -1412,7 +1419,9 @@
           }
         },
         "dropzone": {
-          "dragged_over": "Datei zum Hochladen hier ablegen"
+          "dragged_over": "Bestand zum Hochladen ablegen",
+          "add_file": "Bestand hinzufügen",
+          "invalid_file_type": "Bestandstyp wird nicht unterstützt"
         },
         "authenticate_purchase_button_label": "Zahlung bestätigen",
         "cart": "Einkaufswagen",
