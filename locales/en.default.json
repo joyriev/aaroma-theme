@@ -636,7 +636,18 @@
       },
       "delivery_options": {
         "pick_up_from_store": "Pick up in the shop",
-        "company_location_no_address_banner": "Orders sent to locations without an address are submitted for review."
+        "company_location_no_address_banner": "Orders sent to locations without an address are submitted for review.",
+        "ship": "Shipping",
+        "pick_up_in_two_hours": "Usually ready within 2 hours",
+        "pick_up_in_four_hours": "Usually ready within 4 hours",
+        "pick_up_next_day": "Ready for pickup the next day",
+        "pick_up_in_one_hour": "Usually ready within 1 hour",
+        "pick_up_in_twenty_four_hours": "Usually ready within 24 hours",
+        "pick_up_in_two_to_four_days": "Usually ready within 2-4 days",
+        "pick_up_in_five_or_more_days": "Usually ready within 5+ days",
+        "pickup_point_method_definition": "Shipping to pickup point",
+        "subscription_pickup_information": "This delivery method applies to all items in this order and to all future orders of this subscription.",
+        "pickup_point_map_title": "Pickup point card"
       },
       "customer_account": {
         "have_an_account_label": "Do you have an account?",
@@ -667,6 +678,57 @@
             "one": "This item will be removed from your shopping cart because there are no delivery methods available for your address.",
             "other": "These items will be removed from your shopping cart because there are no delivery methods available for your address."
           }
+        }
+      },
+      "field_errors": {
+        "address_city_blank": "Enter a town",
+        "address_address1_too_long": "The first address line is too long (maximum 255 characters)",
+        "address_address2_too_long": "The second address line is too long (maximum 255 characters)",
+        "address_address1_contains_html_tags": "Address line 1 may not contain HTML tags.",
+        "address_address2_contains_html_tags": "Address2 must not contain HTML tags.",
+        "address_address1_contains_emojis": "Address line 1 may not contain emojis",
+        "address_address2_contains_emojis": "Address2 must not contain emojis",
+        "address_address1_contains_mathematical_symbols": "The first address line must not contain mathematical symbols",
+        "address_address2_contains_mathematical_symbols": "The second address line must not contain mathematical symbols"
+      },
+      "failed_payment": {
+        "page_title": "Payment could not be processed",
+        "title": "Payment could not be processed",
+        "payment_not_processed_title": "Your payment could not be processed",
+        "payment_not_processed_text": "You are not yet charged. Return to your shopping cart to complete your purchase.",
+        "return_to_cart_button_label": "Back to shopping cart"
+      },
+      "error_page": {
+        "terminal": {
+          "title": "There was a problem with our cash register",
+          "action": {
+            "cta": "Refresh page"
+          }
+        },
+        "embed_errors": {
+          "storefront_password_required": "This shop is protected with a password",
+          "customer_account_required": "A customer account is required to complete the purchase",
+          "cart_completed": "This transaction has already been completed",
+          "invalid_cart": "The shopping cart is no longer valid",
+          "not_authorized": "Authentication failed at checkout. Please check your application details.",
+          "policy_violation": "Cannot complete the payment due to policy restrictions.",
+          "unrecoverable_failure": "Cannot load the checkout. Please try again."
+        }
+      },
+      "discount_errors": {
+        "generic_error": "Your order could not be processed because your discount code is no longer available. Please check the total amount of your order and try again."
+      },
+      "editor": {
+        "navigation": {
+          "store_logo_accessibility_label": "Go to the Webshop"
+        }
+      },
+      "embed": {
+        "shipping": {
+          "shipping_options": "View all shipping options"
+        },
+        "payment": {
+          "payment_options": "View all payment options"
         }
       }
     },
