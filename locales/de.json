@@ -68,8 +68,8 @@
   },
   "newsletter": {
     "label": "E-Mail",
-    "success": "Danke für dein Abonnement",
-    "button_label": "Abonnieren"
+    "success": "Danke für Ihre Anmeldung",
+    "button_label": "Abonniere dich"
   },
   "accessibility": {
     "skip_to_text": "Zum Inhalt springen",
@@ -111,30 +111,30 @@
   },
   "onboarding": {
     "product_title": "Beispiel Produktname",
-    "collection_title": "Der Name Ihrer Kollektion"
+    "collection_title": "Der Name Ihrer Sammlung"
   },
   "products": {
     "product": {
       "add_to_cart": "In den Warenkorb legen",
       "description": "Beschreibung",
-      "on_sale": "Verkauf",
+      "on_sale": "Ausverkauf",
       "quantity": {
-        "label": "Menge",
-        "input_label": "Menge für {{ product }}",
+        "label": "Anzahl",
+        "input_label": "Anzahl für {{ product }}",
         "increase": "Menge für {{ product }} erhöhen",
         "decrease": "Menge für {{ product }} verringern",
         "minimum_of": "Mindestens {{ quantity }}",
         "maximum_of": "Maximal {{ quantity }}",
         "multiples_of": "Schritte von {{ quantity }}",
-        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> im Warenkorb",
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> In den Warenkorb legen",
         "note": "Mengenregeln anzeigen",
         "min_of": "Mindestens {{ quantity }}",
         "max_of": "Maximal {{ quantity }}"
       },
       "price": {
         "from_price_html": "Ab {{ price }}",
-        "regular_price": "Regulärer Preis",
-        "sale_price": "Verkaufspreis",
+        "regular_price": "Reguliere Preis",
+        "sale_price": "Angebotspreis",
         "unit_price": "Stückpreis"
       },
       "share": "Dieses Produkt teilen",
@@ -145,35 +145,35 @@
       "xr_button": "Im Raum anzeigen",
       "xr_button_label": "Im Raum anzeigen, lädt Artikel im Fenster für erweiterte Realität",
       "pickup_availability": {
-        "view_store_info": "Geschäftsinformationen anzeigen",
+        "view_store_info": "Geschäftsinformationen ansehen",
         "check_other_stores": "Verfügbarkeit in anderen Geschäften prüfen",
-        "pick_up_available": "Abholung verfügbar",
-        "pick_up_available_at_html": "Abholung verfügbar bei <span class=\"color-foreground\">{{ location_name }}</span>",
+        "pick_up_available": "Abholung möglich",
+        "pick_up_available_at_html": "Abholung möglich bei <span class=\"color-foreground\">{{ location_name }}</span>",
         "pick_up_unavailable_at_html": "Abholung derzeit nicht verfügbar bei <span class=\"color-foreground\">{{ location_name }}</span>",
-        "unavailable": "Abholverfügbarkeit konnte nicht geladen werden",
-        "refresh": "Aktualisieren"
+        "unavailable": "Kann die Abholmöglichkeit nicht laden",
+        "refresh": "Erneuern"
       },
       "media": {
-        "open_media": "Medien {{ index }} im Fenster öffnen",
-        "play_model": "3D-Viewer abspielen",
+        "open_media": "Medien {{ index }} im Modaal öffnen",
+        "play_model": "3D-Ansicht abspielen",
         "play_video": "Video abspielen",
-        "gallery_viewer": "Galeriebetrachter",
-        "load_image": "Bild {{ index }} in der Galerieansicht laden",
-        "load_model": "3D-Modell {{ index }} in der Galerieansicht laden",
+        "gallery_viewer": "Galerieansicht",
+        "load_image": "Bild {{ index }} in der Galeriedarstellung laden",
+        "load_model": "3D-Modell {{ index }} in der Galeriedarstellung laden",
         "load_video": "Video {{ index }} in der Galerieansicht abspielen",
-        "image_available": "Bild {{ index }} ist jetzt in der Galerieansicht verfügbar"
+        "image_available": "Bild {{ index }} ist jetzt in der Galeriedarstellung verfügbar"
       },
       "view_full_details": "Vollständige Details anzeigen",
       "shipping_policy_html": "<a href=\"{{ link }}\">Versand</a> wird beim Bezahlen berechnet.",
       "choose_options": "Optionen wählen",
-      "choose_product_options": "Wählen Sie Optionen für {{ product_name }}",
+      "choose_product_options": "Wähle Optionen für {{ product_name }}",
       "value_unavailable": "{{ option_value }} - Nicht verfügbar",
       "variant_sold_out_or_unavailable": "Variante ausverkauft oder nicht verfügbar",
       "inventory_in_stock": "Auf Lager",
       "inventory_in_stock_show_count": "{{ quantity }} auf Lager",
-      "inventory_low_stock": "Wenig Lagerbestand",
-      "inventory_low_stock_show_count": "Wenig Vorrat: {{ quantity }} übrig",
-      "inventory_out_of_stock": "Nicht auf Lager",
+      "inventory_low_stock": "Wenig Vorrat",
+      "inventory_low_stock_show_count": "Wenig Vorrat: nur noch {{ quantity }} verfügbar",
+      "inventory_out_of_stock": "Nicht vorrätig",
       "inventory_out_of_stock_continue_selling": "Auf Lager",
       "sku": "Artikelnummer",
       "volume_pricing": {
@@ -184,41 +184,41 @@
         "price_at_each_html": "bei {{ price }} pro Stück"
       },
       "product_variants": "Produktvarianten",
-      "duties_included": "Pflichten inbegriffen."
+      "duties_included": "Inklusive Abholung."
     },
     "modal": {
-      "label": "Mediengalerie"
+      "label": "Mediathek"
     },
     "facets": {
       "apply": "Anwenden",
-      "clear": "Klar",
-      "clear_all": "Alle entfernen",
-      "from": "Von",
+      "clear": "Hell",
+      "clear_all": "Alles entfernen",
+      "from": "Ab",
       "filter_and_sort": "Filtern und sortieren",
       "filter_by_label": "Filter:",
-      "filter_button": "Filter",
+      "filter_button": "Filtern",
       "filters_selected": {
         "one": "{{ count }} ausgewählt",
         "other": "{{ count }} ausgewählt"
       },
       "max_price": "Der höchste Preis ist {{ price }}",
       "product_count": {
-        "one": "{{ product_count }} von {{ count }} Produkt",
-        "other": "{{ product_count }} von {{ count }} Erzeugnissen"
+        "one": "{{ product_count }} von den {{ count }} Produkten",
+        "other": "{{ product_count }} von den {{ count }} Produkten"
       },
       "product_count_simple": {
         "one": "{{ count }} Produkt",
         "other": "{{ count }} Produkte"
       },
-      "reset": "Zurücksetzen",
+      "reset": "Herstellung",
       "sort_button": "Sortieren",
       "sort_by_label": "Sortieren nach:",
-      "to": "Zu",
+      "to": "An",
       "clear_filter": "Filter entfernen",
       "filter_selected_accessibility": "{{ type }} ({{ count }} Filter ausgewählt)",
       "show_more": "Mehr anzeigen",
       "show_less": "Weniger anzeigen",
-      "filter_and_operator_subtitle": "Alle abgleichen"
+      "filter_and_operator_subtitle": "Alles vereinbaren"
     }
   },
   "templates": {
@@ -377,7 +377,7 @@
     "language_label": "Sprache",
     "update_language": "Sprache aktualisieren",
     "update_country": "Land/Region aktualisieren",
-    "search": "Suche",
+    "search": "Suchen",
     "popular_countries_regions": "Beliebte Länder/Regionen",
     "country_results_count": "{{ count }} Länder/Regionen gefunden"
   },
@@ -494,16 +494,16 @@
   },
   "gift_cards": {
     "issued": {
-      "title": "Hier ist dein Guthaben von {{ value }} auf der Geschenkkarte für {{ shop }}!",
-      "subtext": "Ihre Geschenkkarte",
-      "gift_card_code": "Geschenkkartencode",
-      "shop_link": "Online-Shop besuchen",
-      "add_to_apple_wallet": "Zur Apple Wallet hinzufügen",
-      "qr_image_alt": "QR-Code — scannen, um Geschenkkarte einzulösen",
-      "copy_code": "Geschenkkartencode kopieren",
+      "title": "Dies ist der Guthabenbetrag des Geschenkgutscheins im Wert von {{ value }} für {{ shop }}",
+      "subtext": "Ihr Geschenkgutschein",
+      "gift_card_code": "Geschenkgutschein-Code",
+      "shop_link": "Onlineshop besuchen",
+      "add_to_apple_wallet": "Zu Apple Wallet hinzufügen",
+      "qr_image_alt": "QR-Code — scannen, um den Geschenkgutschein einzulösen",
+      "copy_code": "Gutscheincode kopieren",
       "expired": "Abgelaufen",
-      "copy_code_success": "Code erfolgreich kopiert",
-      "how_to_use_gift_card": "Verwenden Sie den Geschenkkartencode online oder den QR-Code im Geschäft",
+      "copy_code_success": "Code kopiert",
+      "how_to_use_gift_card": "Verwenden Sie den Gutscheincode online oder den QR-Code im Geschäft",
       "expiration_date": "Läuft ab am {{ expires_on }}"
     }
   },
