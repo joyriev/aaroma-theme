@@ -540,15 +540,15 @@
     "checkout": {
       "review_address_modal": {
         "subtitle": {
-          "one": "Cette commande sera expédiée à l'adresse fournie par {{merchant}}.",
-          "other": "Cette commande sera expédiée à une adresse fournie par {{merchant}}. Sélectionnez une adresse de livraison."
+          "one": "Cette commande sera envoyée à l'adresse indiquée par {{merchant}}.",
+          "other": "Cette commande sera envoyée à une adresse fournie par {{merchant}}. Choisissez une adresse de livraison."
         },
-        "title": "Vérifier l'adresse",
-        "subtitle_must_use": "Votre commande sera expédiée à cette adresse.",
+        "title": "Adresse d'évaluation",
+        "subtitle_must_use": "Votre commande sera envoyée à cette adresse.",
         "subtitle_no_match": "Cette adresse ne correspond à aucune de vos adresses enregistrées.",
         "continue": "Continuer avec cette adresse",
-        "use_saved_address": "Utiliser une adresse différente",
-        "return_to_cart": "Retourner au panier"
+        "use_saved_address": "Utilisez une autre adresse",
+        "return_to_cart": "Retour au panier"
       },
       "shipping_errors": {
         "unavailable_addresses_only_countries": "Votre commande ne peut être expédiée qu'à {{countriesList}}. Ajoutez une nouvelle adresse pour continuer."
@@ -2072,7 +2072,94 @@
         }
       },
       "remote_merchandise_only": {
-        "checkout_on_shop_label": "Payer chez %{shop_name}"
+        "checkout_on_shop_label": "Payer chez %{shop_name}",
+        "remote_only_notice": "Ces articles sont vendus et expédiés par d'autres magasins. Finalisez votre achat auprès de chaque magasin séparément.",
+        "return_to_store_label": "Retour au magasin",
+        "single_shop_transition": "Nous vous redirigeons vers %{advertiser} pour finaliser votre achat.",
+        "detail_item_label": {
+          "one": "{{count}} articles",
+          "other": "{{count}} articles"
+        }
+      },
+      "review": {
+        "title": "Évaluation",
+        "review_title": "Finalisez votre commande",
+        "checkout_as_guest": "Payer en tant qu'invité",
+        "blocks": {
+          "contact_method_title": "Prendre contact",
+          "shipping_address_title": "Envoyer à",
+          "shipping_method_title": "Méthode d’expédition",
+          "payment_method_title": "Méthode de paiement",
+          "change_billing_address_link_label": "Modifier l'adresse de facturation",
+          "change_shipping_address_link_label": "Modifier l'adresse de livraison",
+          "change_shipping_method_link_label": "Modifier le mode d'expédition",
+          "pick_up_in_store_shipping_method_html": "Retrait en magasin · %{location_name}",
+          "purchase_order_number_title": "Numéro de commande (PO)",
+          "change_purchase_order_number_label": "Modifier le numéro de commande d'achat",
+          "change_delivery_method_link_label": "Modifier la méthode de livraison",
+          "no_address": "(Pas d'adresse)",
+          "no_purchase_order_number": "(Pas de numéro de commande d'achat)",
+          "due_after_order_reviewed_html": "Dû après évaluation de la commande",
+          "review_title_free_order": "Évaluez et finalisez votre commande",
+          "company_location": "Emplacement de l'entreprise",
+          "change_company_location_link_label": "Modifier l'adresse de l'entreprise",
+          "pickup_items_at": {
+            "one": "Récupérez %{count} article(s) chez",
+            "other": "Récupérez %{count} articles chez"
+          },
+          "ship_items_to": {
+            "one": "Envoyer %{count} article vers",
+            "other": "Envoyer %{count} articles à"
+          }
+        },
+        "block_title": "Vérifiez vos données",
+        "checkout_a_different_way": "Essayez une autre méthode",
+        "review_and_confirm_title": "Évaluer et confirmer",
+        "account_more_actions": "Plus d'actions pour ce compte"
+      },
+      "remote_policies": {
+        "unavailable_policy": "Aucune %{policy_name} n'a été spécifiée pour cette boutique. Pour plus d'informations, vous pouvez contacter directement %{shop_name}."
+      },
+      "required_extensions": {
+        "errors": {
+          "interaction_required": "Une interaction d'extension est requise pour terminer le traitement."
+        }
+      },
+      "shipping": {
+        "estimated_delivery_date": {
+          "one": "%{count} jour ouvrable"
+        },
+        "estimated_delivery_time": "Livraison estimée %{time}",
+        "estimated_delivery_time_range": "Livraison estimée %{min_time}–%{max_time}",
+        "arrives_time": "Arrive dans %{time}",
+        "arrives_time_range": "Arrivée dans %{min_time}–%{max_time}",
+        "estimated_time": "Estimé %{time}",
+        "estimated_time_range": "Estimé entre %{min_time} et %{max_time}",
+        "duties_and_taxes_title": "Droits de douane et taxes",
+        "duties_and_taxes_options": {
+          "ddu_caption": "Des frais supplémentaires peuvent être facturés",
+          "ddp_caption": "Pas de frais supplémentaires à la livraison"
+        },
+        "address_update": "Mettre à jour l'adresse",
+        "add_address": "Utilisez une autre adresse",
+        "add_delivery_instructions": "Ajouter des instructions de livraison",
+        "address_more": "Plus d'offres pour cette adresse",
+        "address_edit": "Modifier l'adresse",
+        "address_delete": "Supprimer l'adresse",
+        "address_confirm": "Êtes-vous sûr de vouloir supprimer cette adresse de votre compte ?",
+        "address_form": {
+          "generic_error": "Il y a eu un problème lors de l'enregistrement de votre adresse. Veuillez réessayer.",
+          "one_time_address_subtitle": "Utilisez une adresse unique pour cette commande",
+          "edit": "Modifier l'adresse"
+        },
+        "different_shipping_method_summary": "Saisissez une autre adresse de livraison pour voir les méthodes d'expédition disponibles",
+        "invalid_shipping_method_summary": "Saisissez une adresse de livraison valide pour voir les méthodes d'expédition disponibles",
+        "default_description": "Expédition sous 1 jour ouvrable",
+        "invalid_shipping_method_summary_selected": "Sélectionnez une autre adresse de livraison pour voir les méthodes d'expédition disponibles",
+        "choose_new_address": "Choisissez une nouvelle adresse"
+      },
+      "session_errors": {
+        "session_already_finished": "Cette commande a déjà été soumise. Vous pouvez retourner au magasin pour commencer une nouvelle commande."
       }
     },
     "attributes": {
