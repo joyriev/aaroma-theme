@@ -1917,7 +1917,10 @@
         "unavailable_address_country": "Shipping is not possible to the country you selected. Use a different address to continue"
       },
       "shop_policies": {
-        "contact_information": "Get in touch"
+        "contact_information": "Get in touch",
+        "terms_of_service": "Terms of Use",
+        "terms_of_sale": "Terms of Sale",
+        "purchase_options_policy": "Policy rules for purchase options"
       },
       "shop_pay_external": {
         "errors": {
@@ -1927,6 +1930,58 @@
         "return_to_store": "Back to {{shopName}}",
         "return_to_store_simple": "Back to shop",
         "title": "Checkout with Shop Pay"
+      },
+      "stock": {
+        "page_title": "Stock problems",
+        "go_back_to_cart_button_label": "Go back to my shopping cart",
+        "empty_cart_label": "Your shopping cart is empty",
+        "item_label": {
+          "one": "{{count}} items"
+        },
+        "continue_cta_label": "Continue to checkout",
+        "out_of_stock": {
+          "description": "These items are no longer available and have been removed from your shopping cart.",
+          "items_unavailable": "Some items are no longer available and have been removed from your shopping cart."
+        },
+        "price_and_quantity_update": {
+          "description": "The prices and available quantities of these items have been changed and updated in your shopping cart."
+        }
+      },
+      "split_delivery": {
+        "pickup_all_items": "Pack all items",
+        "items_for_pickup": "Items to pick up",
+        "inventory_issue_banner": {
+          "heading": {
+            "cannot_be_picked_up": {
+              "one": "%{count} items cannot be retrieved",
+              "other": "%{count} items cannot be retrieved"
+            },
+            "cannot_be_shipped": {
+              "one": "%{count} items cannot be shipped",
+              "other": "%{count} items cannot be shipped"
+            }
+          },
+          "remove_item": {
+            "one": "Remove item",
+            "other": "Remove items"
+          },
+          "ship_separately": {
+            "one": "ship it separately",
+            "other": "send them separately"
+          },
+          "pick_them_up_in_store": {
+            "one": "pick it up in the store",
+            "other": "pick them up in the store"
+          }
+        },
+        "items_for_shipping": "Items to be shipped",
+        "items_moved_to_shipping_toast": "Items that cannot be picked up have been moved to shipping",
+        "cross_border": {
+          "modal": {
+            "content": "This resets all items for shipping. Your pickup and shipping locations must be in the same country."
+          },
+          "banner": "Your delivery method has been updated"
+        }
       }
     },
     "addresses": {

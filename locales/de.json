@@ -2240,29 +2240,29 @@
       "payment_gateway": {
         "bank_deposit_label": "Banküberweisung",
         "cash_on_delivery_label": "Barzahlung bei Lieferung (CBA)",
-        "money_order_label": "Postanweisung",
+        "money_order_label": "Postscheckschein",
         "deferred_payment_label": "Wählen Sie später die Zahlungsmethode aus",
-        "fixed_payment_label": "Ihre Zahlung ist fällig am {{dueDate}}.",
-        "generic_payment_terms": "Sie sind auf {{translatedName}} Bedingungen. Ihre Zahlung ist fällig am {{dueDate}}.",
+        "fixed_payment_label": "Ihre Zahlung ist am {{dueDate}} fällig.",
+        "generic_payment_terms": "Sie haben Zahlungsbedingungen bei {{translatedName}}. Ihre Zahlung ist fällig am {{dueDate}}.",
         "login_prompt": {
           "no_access": {
-            "message": "{{logIn}} bei einem Konto mit Zugang zu diesem Ort, um gespeicherte Zahlungsmethoden hinzuzufügen oder zu verwenden.",
+            "message": "{{logIn}} bei einem Konto mit Zugriff auf diesen Standort, um gespeicherte Zahlungsmethoden hinzuzufügen oder zu verwenden.",
             "link": "Anmelden"
           }
         },
         "direct_payment_terms": "Du stimmst den Bedingungen von {{translatedName}} zu. Deine Karte wird am {{dueDate}} belastet.",
         "fixed_direct_payment_terms": "Ihre Karte wird am {{dueDate}} belastet.",
-        "order_due_on_fulfillment_choose_later": "Ihre Zahlung wird fällig, sobald Ihre Bestellung erfüllt ist.",
-        "order_due_on_fulfillment_payment": "Ihre Karte wird belastet, sobald Ihre Bestellung ausgeführt wurde.",
+        "order_due_on_fulfillment_choose_later": "Ihre Zahlung ist fällig, sobald Ihre Bestellung abgeschlossen ist.",
+        "order_due_on_fulfillment_payment": "Ihre Karte wird belastet, sobald Ihre Bestellung abgeschlossen ist.",
         "order_due_on_receipt_choose_later": "Ihre Zahlung ist bei Erhalt fällig.",
-        "order_deposit_due_now": "{{depositAmount}} ist heute fällig. Der Restbetrag richtet sich nach den Bedingungen von {{translatedName}} und ist am {{dueDate}} fällig.",
-        "order_deposit_due_on_fulfillment": "{{depositAmount}} ist heute fällig. Der Restbetrag wird fällig, sobald Ihre Bestellung ausgeführt ist.",
-        "order_deposit_due_on_receipt": "{{depositAmount}} ist heute fällig. Der Restbetrag wird später fällig.",
-        "order_deposit_due_on_fixed_date": "{{depositAmount}} ist heute fällig. Der Restbetrag wird am {{dueDate}} fällig.",
+        "order_deposit_due_now": "{{depositAmount}} ist heute fällig. Der Restbetrag unterliegt den Bedingungen von {{translatedName}} und ist am {{dueDate}} fällig.",
+        "order_deposit_due_on_fulfillment": "{{depositAmount}} ist heute fällig. Der Restbetrag wird bezahlt, sobald Ihre Bestellung abgeschlossen ist.",
+        "order_deposit_due_on_receipt": "{{depositAmount}} ist heute fällig. Der Restbetrag wird später bezahlt.",
+        "order_deposit_due_on_fixed_date": "{{depositAmount}} ist heute fällig. Der Restbetrag ist am {{dueDate}} fällig.",
         "draft_order_payment_due_later_no_terms": "Ihre Zahlung ist fällig, sobald Ihre Bestellung bestätigt wurde.",
         "draft_order_payment_due_later_no_terms_payment_selected": "Ihre Karte wird belastet, sobald Ihre Bestellung bestätigt wurde.",
         "draft_order_payment_due_later_terms": "Du wirst unter den Bedingungen von {{translatedName}} sein, sobald deine Bestellung bestätigt wurde.",
-        "draft_order_payment_due_on_fulfillment": "Ihre Zahlung wird fällig, sobald Ihre Bestellung bestätigt und ausgeführt wurde.",
+        "draft_order_payment_due_on_fulfillment": "Ihre Zahlung ist fällig, sobald Ihre Bestellung bestätigt und ausgeführt wurde.",
         "draft_order_deposit_due_later": "{{depositAmount}} ist fällig, sobald Ihre Bestellung bestätigt wurde. Der Restbetrag wird gemäß den Bedingungen von {{translatedName}} bezahlt.",
         "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} ist fällig, sobald Ihre Bestellung bestätigt wurde. Der Restbetrag wird bezahlt, sobald Ihre Bestellung abgeschlossen ist.",
         "credit_or_debit_card_label": "Kreditkarte/Lastschriftkarte"
@@ -2450,9 +2450,9 @@
       "pickup_point": {
         "title": "Abholpunkt",
         "selector_tabs": "Abholort-Auswahl",
-        "could_not_resolve_address": "Ihre Adresse konnte nicht gefunden werden. Versuchen Sie es erneut oder verwenden Sie eine andere Adresse.",
-        "no_pickup_points_near_you": "Keine Abholstellen in der Nähe der ausgewählten Adresse gefunden",
-        "no_pickup_points_near_location": "Keine Abholstellen in Ihrer Nähe gefunden",
+        "could_not_resolve_address": "Ihre Adresse konnte nicht gefunden werden. Bitte versuchen Sie es erneut oder verwenden Sie eine andere Adresse",
+        "no_pickup_points_near_you": "Keine Abholstellen in der Nähe der gewählten Adresse gefunden",
+        "no_pickup_points_near_location": "Keine Abholstellen in der Nähe Ihres Standorts gefunden",
         "pickup_unavailable_banner_title": {
           "one": "Keine Abholstellen für Ihren Artikel verfügbar",
           "other": "Keine Abholstellen für Ihre Artikel verfügbar"
@@ -2460,8 +2460,8 @@
         "no_pickup_points_found": "Keine Abholstellen gefunden",
         "paginator": {
           "header": {
-            "one": "Zeigt %{first} - %{last} von %{count} Punkt",
-            "other": "Zeige %{first} - %{last} von %{count} Punkten"
+            "one": "Anzeigen %{first} - %{last} von %{count} Einträgen",
+            "other": "Anzeigen %{first} - %{last} von %{count} Punkten"
           },
           "selected_pickup_point_label": {
             "one": "%{pickup_point_index} von %{count} Punkt",
@@ -2480,11 +2480,14 @@
         "waiting_on_pickup_point_location_notice": "Suche nach Abholstellen...",
         "geolocation": {
           "errors": {
-            "unsuported_by_browser": "Die Geolokalisierung wird von Ihrem Browser nicht unterstützt. Versuchen Sie es erneut oder verwenden Sie einen anderen Browser.",
-            "permission_not_allowed": "Standortfreigabe erlauben.",
+            "unsuported_by_browser": "Die Standortbestimmung wird von Ihrem Browser nicht unterstützt. Versuchen Sie es erneut oder verwenden Sie einen anderen Browser.",
+            "permission_not_allowed": "Erlauben Sie die Freigabe Ihres Standorts.",
             "permission_denied": "Standort konnte nicht ermittelt werden. Bitte versuchen Sie es erneut."
-          }
-        }
+          },
+          "shared_location_button": "Standort verwenden"
+        },
+        "search_button": "Suchen",
+        "open_twenty_four_hours": "24 Stunden am Tag, 7 Tage die Woche geöffnet"
       },
       "error_page": {
         "terminal": {
@@ -2903,6 +2906,12 @@
       },
       "notifications": {
         "title": "Meldungen"
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Aktueller Kontostand %{amount}",
+        "credit_card_expires_on_notice": "Läuft ab am %{month}/%{year}",
+        "express_payment_gateway_label": "Drucken aus",
+        "manual_payment_gateway_label": "Anleitung"
       }
     },
     "sentence": {
