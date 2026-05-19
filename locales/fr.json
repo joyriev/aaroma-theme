@@ -617,6 +617,66 @@
           "range_start": "Commencer l'accès",
           "in_range": "À portée de main",
           "range_end": "Fin de la gamme"
+        },
+        "errors": {
+          "line_item_limit_reached": "Le nombre maximal d'articles de ligne a été atteint.",
+          "merchandise": {
+            "merchandise_not_found": "Produit non trouvé.",
+            "merchandise_variant_not_found": "Variante de produit non trouvée.",
+            "merchandise_not_applicable": "La variante du produit ne peut pas être achetée.",
+            "bundle_products_not_supported_for_b2b": "Les articles combinés ne peuvent pas être ajoutés aux commandes B2B pour ce site.",
+            "gift_card_quantity_mismatch": "Lors de la saisie des codes de bons cadeaux, le nombre d'articles et le nombre de codes de bons cadeaux doivent correspondre.",
+            "gift_card_not_supported": "Les bons cadeaux ne sont pas acceptés à cette caisse.",
+            "gift_card_not_unique": "Le bon cadeau avec le code {{code}} apparaît plusieurs fois lors de ce paiement. Les codes sont formatés avant comparaison.",
+            "gift_card_used": "Le code cadeau {{code}} a déjà été attribué à un bon cadeau. Les codes sont formatés avant la comparaison.",
+            "gift_card_invalid": "Le code cadeau {{code}} est invalide.",
+            "gift_card_code_changed": "Le code de la carte cadeau {{proposed_code}} a été modifié en {{formatted_code}} pour respecter les règles de format.",
+            "gift_card_with_attributes_not_supported": "Les bons cadeaux avec des propriétés personnalisées ne sont pas pris en charge à cette caisse.",
+            "gift_card_with_components_not_supported": "Les bons cadeaux avec des pièces détachées ne sont pas pris en charge à cette caisse.",
+            "inventory_not_found": "Aucun stock trouvé pour cet article.",
+            "duplicated_stable_id": "Cette gamme de produits a le même ID stable qu'une autre gamme.",
+            "minimum_quantity_not_met": "La quantité de certains articles ne répond pas au minimum requis.",
+            "bundle_requires_components": "Ce produit composé ne contient aucune pièce.",
+            "mixed_currencies": "La caisse contient des articles en différentes devises.",
+            "combined_listing_parent_not_purchasable": "Les produits principaux des annonces combinées ne peuvent pas être achetés directement."
+          },
+          "delivery": {
+            "only_one_delivery_line_allowed": "Le panier ne peut contenir qu'une seule ligne de livraison.",
+            "wrong_number_of_delivery_lines": "Pour chaque groupe de marchandises, une ligne de livraison doit être indiquée.",
+            "external_delivery_promise_error": "Une erreur s'est produite lors de la récupération de la promesse de livraison externe.",
+            "options_instructions_invalid": "Les instructions fournies ne correspondent pas au modèle attendu.",
+            "pickup_points_unavailable": "Les points de retrait ne sont actuellement pas disponibles.",
+            "local_pickup_delivery_line_detail_changed": "La stratégie actuelle de retrait pour la livraison locale doit être modifiée pour pouvoir continuer.",
+            "local_pickup_no_delivery_strategy_available": "Aucune méthode de retrait ou de livraison disponible trouvée.",
+            "origin_location_id_required": "Un identifiant de lieu d'origine est requis lors de la demande de LIVRAISON EN MAGASIN.",
+            "invalid_origin_location_id": "Impossible de trouver un emplacement correspondant à l'ID de l'emplacement d'origine.",
+            "origin_location_id_not_allowed": "Les méthodes de livraison demandées ne prennent pas en charge l'ID de lieu d'origine.",
+            "prefetch_shipping_rates_used": "Les tarifs d'expédition préalablement récupérés ne doivent jamais renvoyer de tarifs.",
+            "fulfillment_constraints_not_satisfied": "Une ou plusieurs conditions de livraison ne sont pas remplies.",
+            "must_fulfill_from_constraint_not_satisfied": "Les conditions d'exécution ne sont pas remplies car les articles ne peuvent pas être livrés depuis les emplacements requis.",
+            "must_fulfill_from_same_location_constraint_not_satisfied": "Les conditions d'exécution ne sont pas remplies car les articles ne peuvent pas être livrés depuis le même emplacement.",
+            "out_of_stock_at_origin_location": "Pas de stock à l'emplacement d'origine.",
+            "invalid_signature": "Signature de réduction invalide.",
+            "selected_pickup_option_no_longer_available": "L'option de retrait précédemment choisie n'est plus disponible.",
+            "mixed_destination_countries": "La livraison n'est pas disponible car les règles de livraison couvrent plusieurs pays."
+          },
+          "discount": {
+            "custom_discount_not_honoured": "La remise personnalisée indiquée n'a pas été appliquée.",
+            "unsupported_expectation": "La règle de réduction spécifiée contenait une attente que la politique n'a pas pu interpréter.",
+            "additional_requested_discount_code_discarded": "{{code}} est valide mais non applicable. Veuillez vérifier les conditions de réduction.",
+            "allocations_mismatch": "Votre code de réduction a été modifié. Consultez votre panier et réessayez.",
+            "discount_title_too_long": "Le titre de la réduction ne doit pas dépasser 255 caractères.",
+            "additional_requested_discount_discarded": "Votre réduction est valide mais non applicable. Veuillez vérifier les conditions de la réduction.",
+            "mixed_destination_countries": "Les réductions ne sont pas disponibles car les règles de livraison couvrent plusieurs pays."
+          },
+          "inventory": {
+            "missing_quantity_value": "Le champ de quantité est manquant dans les règles de stock de l'acheteur.",
+            "changing_behavior_not_allowed": "Ce client n'a pas l'autorisation de modifier le comportement des stocks.",
+            "only_one_inventory_behavior_allowed": "Actuellement, un seul comportement de stock est autorisé par processus de paiement."
+          },
+          "fx_reconciliation_override": {
+            "shop_currency_mismatch": "Le montant reçu doit être en monnaie du magasin."
+          }
         }
       },
       "payment_gateway": {

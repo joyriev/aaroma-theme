@@ -540,6 +540,44 @@
         "errors": {
           "tax": {
             "new_tax_must_be_accepted": "Taxes applicable to your order have changed. Please review your order and try again."
+          },
+          "buyer_identity": {
+            "business_customer_does_not_match_company": "Company contact person does not have access to the company.",
+            "customer_account_required": "You must log in to continue.",
+            "contact_info_does_not_match_customer_account": "Contact details must match the account with which you are logged in.",
+            "phone_number_does_not_match_expected_pattern": "The provided telephone number does not match the expected pattern.",
+            "email_required": "An email address is required when goods are purchased with a subscription.",
+            "missing_contact_method": "A valid contact method is missing.",
+            "checkout_completion_target_is_missing": "Goal for completing the checkout is missing.",
+            "customer_profile_access_restricted": "The register does not have permission to access the customer profile.",
+            "checkout_completion_target_is_invalid_proc": "Invalid completion goal for checkout.",
+            "company_location_required": "The customer must choose a business location to continue.",
+            "lost_access_to_company": "The customer has lost access to every company.",
+            "company_purchase_permission_required": "The customer does not have permission to place business orders.",
+            "personal_order_not_allowed": "Personal orders are not allowed in this shop.",
+            "buyer_identity_presentment_currency_does_not_match": "There was a problem processing your order. Please try again in a few minutes."
+          },
+          "delivery": {
+            "destination_address_required": "A destination address is required to proceed.",
+            "auto_fulfill_not_allowed": "This session is not authorized to override the handling behavior.",
+            "auto_fulfill_required": "Automatic execution is required when the SALE delivery method is requested.",
+            "delivery_strategy_conditions_not_satisfied": "Delivery methods are available for this location, but the conditions are not met."
+          },
+          "attribution": {
+            "retail_attribution_not_allowed": "Retail allocation is not allowed for this transaction.",
+            "retail_attribution_required": "Store allocation is required for this transaction."
+          },
+          "captcha": {
+            "metadata_missing": "Filling out a captcha is required for this process.",
+            "metadata_mismatch": "The specified captcha provider and type do not match the expected values.",
+            "token_missing": "A captcha token must be provided to complete this purchase.",
+            "job_enqueue_failed": "The validation of the captcha could not be placed in the waiting line.",
+            "token_expired": "The provided captcha token has expired. Complete a new captcha to continue with the checkout.",
+            "token_invalid": "The provided captcha token was invalid. Complete a new captcha to continue with checkout.",
+            "token_not_valid_for_session": "The entered captcha cannot be used at this checkout."
+          },
+          "checkout_source": {
+            "revoked": "This cash register is no longer available."
           }
         },
         "breadcrumb": "Breadcrumb trail",
@@ -556,6 +594,18 @@
         "datepicker": {
           "in_range": "Within reach",
           "range_end": "End of the assortment"
+        },
+        "dates": {
+          "weekdays_abbreviation": {
+            "monday": "Monday",
+            "tuesday": "You",
+            "thursday": "The",
+            "saturday": "For",
+            "sunday": "Dry"
+          }
+        },
+        "dropzone": {
+          "dragged_over": "Place file down to upload"
         }
       },
       "order_summary": {

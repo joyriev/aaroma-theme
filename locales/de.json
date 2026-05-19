@@ -1457,24 +1457,25 @@
         "region_none": "Keine Auswahl getroffen"
       },
       "delivery_options": {
-        "ship": "Schiff",
-        "ship_to_address": "Lieferadresse",
+        "ship": "Versenden",
+        "ship_to_address": "An Adresse senden",
         "pick_up_from_store": "Abholung im Geschäft",
         "pick_up_locations": "Abholorte",
-        "pick_up_in_one_hour": "Normalerweise in 1 Stunde fertig",
-        "pick_up_in_two_hours": "Normalerweise in 2 Stunden fertig",
-        "pick_up_in_four_hours": "Normalerweise in 4 Stunden fertig",
-        "pick_up_in_twenty_four_hours": "Normalerweise in 24 Stunden fertig",
-        "pick_up_in_two_to_four_days": "Normalerweise in 2-4 Tagen fertig",
-        "pick_up_in_five_or_more_days": "Normalerweise in 5+ Tagen fertig",
+        "pick_up_in_one_hour": "Normalerweise innerhalb einer Stunde fertig",
+        "pick_up_in_two_hours": "Normalerweise innerhalb von 2 Stunden fertig",
+        "pick_up_in_four_hours": "Normalerweise innerhalb von 4 Stunden fertig",
+        "pick_up_in_twenty_four_hours": "In der Regel innerhalb von 24 Stunden fertig",
+        "pick_up_in_two_to_four_days": "Normalerweise innerhalb von 2-4 Tagen fertig",
+        "pick_up_in_five_or_more_days": "In der Regel innerhalb von mehr als 5 Tagen fertig",
         "pick_up_in_zero_to_two_hours": "Bereit zur Abholung in 2 Stunden",
         "pick_up_in_two_to_four_hours": "Bereit zur Abholung in 4 Stunden",
         "pick_up_immediately": "Bereit zur Abholung",
         "pick_up_next_day": "Bereit zur Abholung am nächsten Tag",
-        "pickup_point_method_definition": "An eine Abholstelle liefern",
+        "pickup_point_method_definition": "Versand an Abholstelle",
         "company_location_no_address_banner": "Bestellungen, die an Orte ohne Adresse gesendet werden, werden zur Prüfung eingereicht.",
-        "subscription_pickup_information": "Diese Liefermethode gilt für alle Artikel in dieser Bestellung und für alle zukünftigen Bestellungen dieses Abonnements.",
-        "none_method_definition": "Keine Lieferung"
+        "subscription_pickup_information": "Diese Versandmethode gilt für alle Artikel in dieser Bestellung und für alle zukünftigen Bestellungen dieses Abonnements.",
+        "none_method_definition": "Keine Lieferung",
+        "pickup_point_map_title": "Abholpunktkarte"
       },
       "customer_account": {
         "have_an_account_label": "Hast du ein Konto?",
@@ -1926,83 +1927,105 @@
       },
       "field_errors": {
         "address_address1_too_long": "Die erste Adresszeile ist zu lang (maximal 255 Zeichen)",
-        "address_address1_contains_emojis": "Address1 darf keine Emojis enthalten",
-        "address_address1_contains_html_tags": "Address1 darf keine HTML-Tags enthalten.",
-        "address_address2_blank": "Geben Sie eine Wohnung, Suite usw. ein.",
+        "address_address1_contains_emojis": "Adresszeile 1 darf keine Emojis enthalten",
+        "address_address1_contains_html_tags": "Adresszeile 1 darf keine HTML-Tags enthalten.",
+        "address_address2_blank": "Geben Sie ein Apartment, eine Suite usw. ein.",
         "address_address2_too_long": "Die zweite Adresszeile ist zu lang (maximal 255 Zeichen)",
-        "address_address2_contains_emojis": "Address2 darf keine Emojis enthalten",
-        "address_address2_contains_html_tags": "Address2 darf keine HTML-Tags enthalten.",
+        "address_address2_contains_emojis": "Adres2 darf keine Emojis enthalten",
+        "address_address2_contains_html_tags": "Adres2 darf keine HTML-Tags enthalten.",
         "address_city_blank": "Geben Sie eine Stadt ein",
         "address_country_blank": "Wählen Sie ein Land/Region aus",
-        "address_country_not_supported": "Wir liefern nicht in dieses Land oder diese Region. Geben Sie eine neue Versandadresse ein und versuchen Sie es erneut.",
+        "address_country_not_supported": "Wir versenden nicht in dieses Land oder diese Region. Bitte geben Sie eine neue Versandadresse ein und versuchen Sie es erneut.",
         "address_province_blank": "Wählen Sie einen Bundesstaat / eine Provinz aus",
         "address_province_invalid": "Wählen Sie einen gültigen Bundesstaat / eine gültige Provinz aus",
         "address_company_blank": "Geben Sie einen Firmennamen ein",
         "address_company_too_long": "Der Firmenname ist zu lang (maximal 255 Zeichen)",
         "address_company_contains_emojis": "Das Unternehmen darf keine Emojis enthalten",
         "address_company_contains_html_tags": "Das Unternehmen darf keine HTML-Tags enthalten.",
-        "address_company_contains_mathematical_symbols": "Firma darf keine mathematischen Symbole enthalten",
+        "address_company_contains_mathematical_symbols": "Der Firmenname darf keine mathematischen Zeichen enthalten",
         "address_phone_blank": "Geben Sie eine gültige Telefonnummer ein",
         "address_phone_invalid": "Geben Sie eine gültige Telefonnummer ein",
         "address_zip_blank": "Geben Sie eine Postleitzahl ein",
-        "address_zip_too_long": "Die Postleitzahl ist zu lang (maximal 255 Zeichen)",
+        "address_zip_too_long": "Postleitzahl ist zu lang (maximal 255 Zeichen)",
         "address_zip_invalid_for_country": "Geben Sie eine gültige Postleitzahl für %{country} ein",
         "address_zip_invalid_for_province": "Geben Sie eine gültige Postleitzahl für %{province} ein",
         "address_zip_invalid_for_country_and_province": "Geben Sie eine gültige Postleitzahl für %{province}, %{country} ein",
-        "address_zip_contains_emojis": "PLZ / Postleitzahl darf keine Emojis enthalten",
-        "address_zip_contains_mathematical_symbols": "Die Postleitzahl darf keine mathematischen Symbole enthalten",
+        "address_zip_contains_emojis": "Postleitzahl darf keine Emojis enthalten",
+        "address_zip_contains_mathematical_symbols": "Postleitzahl darf keine mathematischen Zeichen enthalten",
         "address_generic_invalid": "Ungültige Eingabe",
-        "credit_card_name_blank": "Geben Sie Ihren Namen genau so ein, wie er auf Ihrer Karte steht",
-        "credit_card_name_invalid": "Geben Sie Ihren Namen genau so ein, wie er auf Ihrer Karte steht",
+        "credit_card_name_blank": "Geben Sie Ihren Namen genau so ein, wie er auf Ihrer Karte geschrieben steht",
+        "credit_card_name_invalid": "Geben Sie Ihren Namen genau so ein, wie er auf Ihrer Karte geschrieben steht",
         "credit_card_number_invalid": "Geben Sie eine gültige Kartennummer ein",
         "credit_card_expiry_invalid": "Geben Sie ein gültiges Ablaufdatum ein",
         "credit_card_month_invalid": "Geben Sie einen gültigen Ablaufmonat ein",
         "credit_card_year_invalid": "Geben Sie ein gültiges Ablaufjahr ein",
-        "credit_card_start_invalid": "Geben Sie ein gültiges Kartenstartdatum ein",
+        "credit_card_start_invalid": "Geben Sie ein gültiges Startdatum der Karte ein",
         "credit_card_start_month_invalid": "Geben Sie einen gültigen Startmonat der Karte ein",
         "credit_card_start_year_invalid": "Geben Sie ein gültiges Startjahr der Karte ein",
         "credit_card_number_blank": "Geben Sie eine Kartennummer ein",
-        "credit_card_verification_value_blank": "Geben Sie den CVV- oder Sicherheitscode auf Ihrer Karte ein",
-        "delivery_line_detail_changed": "Einige Lieferdetails könnten sich geändert haben. Überprüfen Sie Ihre Versandmethode und versuchen Sie es erneut.",
-        "reduction_code_code_not_found": "Geben Sie einen gültigen Rabattcode oder eine Geschenkkarte ein",
+        "credit_card_verification_value_blank": "Geben Sie den CVV- oder Sicherheitscode Ihrer Karte ein",
+        "delivery_line_detail_changed": "Einige Lieferdaten könnten geändert worden sein. Überprüfen Sie Ihre Versandmethode und versuchen Sie es erneut.",
+        "reduction_code_code_not_found": "Geben Sie einen gültigen Rabattcode oder Gutschein ein",
         "reduction_code_discount_not_found": "Geben Sie einen gültigen Rabattcode ein",
-        "reduction_code_gift_card_code_invalid": "Geben Sie eine gültige Geschenkkarte ein",
-        "reduction_code_gift_card_unusable": "Sie können eine Geschenkkarte nicht verwenden, um eine weitere Geschenkkarte zu kaufen.",
-        "reduction_code_gift_cards_not_supported_with_deferred_purchase_options": "Geschenkkarten werden bei Kauf auf Rechnung nicht unterstützt.",
+        "reduction_code_gift_card_code_invalid": "Geben Sie einen gültigen Geschenkgutschein ein",
+        "reduction_code_gift_card_unusable": "Du kannst einen Geschenkgutschein nicht verwenden, um einen anderen Geschenkgutschein zu kaufen.",
+        "reduction_code_gift_cards_not_supported_with_deferred_purchase_options": "Geschenkgutscheine werden bei aufgeschobenen Kaufoptionen nicht unterstützt.",
         "shipping_line_phone_blank": "Geben Sie eine Telefonnummer ein, um diese Liefermethode zu verwenden",
         "shipping_line_phone_invalid": "Geben Sie eine gültige Telefonnummer ein",
         "tips_invalid_tip_amount": "Geben Sie ein Trinkgeld unter %{amount} ein",
-        "gift_card_already_applied": "Diese Geschenkkarte wurde bereits auf Ihre Bestellung angewendet",
-        "gift_card_disabled": "Diese Geschenkkarte ist nicht mehr verfügbar",
-        "gift_card_expired": "Diese Geschenkkarte ist abgelaufen",
-        "gift_card_depleted": "Diese Geschenkkarte hat kein Guthaben mehr.",
-        "gift_card_currency_mismatch": "Nur Geschenkkarten in %{checkout_currency} können für diese Bestellung verwendet werden",
-        "gift_cards_not_supported_with_deferred_purchase_options": "Geschenkkarten werden bei Kauf auf Rechnung nicht unterstützt.",
-        "gift_card_buying_gift_card": "Sie können eine Geschenkkarte nicht verwenden, um eine andere Geschenkkarte zu kaufen.",
+        "gift_card_already_applied": "Dieser Geschenkgutschein wurde bereits auf Ihre Bestellung angewendet",
+        "gift_card_disabled": "Dieser Geschenkgutschein ist nicht mehr verfügbar",
+        "gift_card_expired": "Dieser Geschenkgutschein ist abgelaufen",
+        "gift_card_depleted": "Dieser Geschenkgutschein hat kein Guthaben mehr",
+        "gift_card_currency_mismatch": "Nur Geschenkgutscheine in %{checkout_currency} können mit dieser Bestellung verwendet werden",
+        "gift_cards_not_supported_with_deferred_purchase_options": "Geschenkgutscheine werden bei aufgeschobenen Kaufoptionen nicht unterstützt.",
+        "gift_card_buying_gift_card": "Du kannst keinen Geschenkgutschein verwenden, um einen anderen Geschenkgutschein zu kaufen.",
         "payment_gateway_missing": "Wählen Sie eine Zahlungsmethode.",
-        "payment_gateway_needs_paid_plan_error": "Diese Zahlungsmethode ist im Shop derzeit nicht verfügbar",
-        "payment_gateway_not_in_test_mode": "ist nicht für Testbestellungen eingerichtet. Dieser Shop kann keine echten Bestellungen oder echten Zahlungen annehmen.",
-        "payment_gateway_incompatible_with_multi_currency": "Um diesen Kauf in Ihrer lokalen Währung abzuschließen, müssen Sie mit Kreditkarte bezahlen.",
+        "payment_gateway_needs_paid_plan_error": "Diese Zahlungsmethode ist im Geschäft derzeit nicht verfügbar",
+        "payment_gateway_not_in_test_mode": "ist nicht eingerichtet, um Bestellungen zu testen. Dieser Laden kann keine echten Bestellungen oder echten Zahlungen annehmen.",
+        "payment_gateway_incompatible_with_multi_currency": "Um diese Zahlung in Ihrer Landeswährung abzuschließen, müssen Sie mit einer Kreditkarte bezahlen.",
         "payment_gateway_unsupported_for_deferred_purchase_options": "Diese Zahlungsmethode ist für aufgeschobene Kaufoptionen nicht verfügbar.",
-        "payment_gateway_unsupported_for_country": "Diese Zahlungsmethode ist für Ihr Versandland nicht verfügbar.",
-        "payment_gateway_unsupported_for_development_store_html": "Um eine Testbestellung aufzugeben, müssen Sie ein Test-Zahlungstor verwenden. Erfahren Sie mehr über <a href=\"%{docs_link}\">das Testen von Bestellungen in Entwicklungsfilialen</a>.",
-        "payment_gateway_unsupported_for_order_above_maximum_orders_html": "Sie haben das Limit für Bestellungen in Entwicklungsläden mit diesem Zahlungsabwickler erreicht. Um eine weitere Bestellung aufzugeben, müssen Sie ein Testzahlungstor verwenden. Erfahren Sie mehr über <a href=\"%{docs_link}\">das Testen von Bestellungen in Entwicklungsläden</a>.",
+        "payment_gateway_unsupported_for_country": "Diese Zahlungsmethode ist für das Land, in das Sie versenden, nicht verfügbar.",
+        "payment_gateway_unsupported_for_development_store_html": "Um eine Testbestellung aufzugeben, müssen Sie ein Testzahlungsgateway verwenden. Erfahren Sie mehr über <a href=\"%{docs_link}\">das Testen von Bestellungen in Entwicklungsshops</a>.",
+        "payment_gateway_unsupported_for_order_above_maximum_orders_html": "Du hast das Limit für Bestellungen in Entwicklungsshops mit diesem Zahlungsanbieter erreicht. Um eine neue Bestellung aufzugeben, musst du ein Test-Zahlungsgateway verwenden. Erfahre mehr über <a href=\"%{docs_link}\">das Testen von Bestellungen in Entwicklungsshops</a>.",
         "purchase_options_agreement_blank": "Um mit Ihrem Kauf fortzufahren, stimmen Sie den Bedingungen für aufgeschobene oder wiederkehrende Käufe zu.",
-        "physical_gift_card_invalid_quantity": "Physische Geschenkkarten-Positionen müssen eine Menge haben, die der Anzahl der Geschenkkartencodes entspricht.",
-        "physical_gift_card_duplicate_code": "Der physische Geschenkkarten-Posten enthält einen doppelten Code.",
-        "physical_gift_card_invalid_code": "Der physische Geschenkkartencode ist ungültig.",
+        "physical_gift_card_invalid_quantity": "Physische Geschenkgutscheinpositionsartikel müssen eine Menge haben, die der Anzahl der Geschenkgutscheincodes entspricht.",
+        "physical_gift_card_duplicate_code": "Physische Geschenkgutscheinzeile enthält doppelten Code.",
+        "physical_gift_card_invalid_code": "Der Code des physischen Geschenkgutscheins ist ungültig.",
         "email_blank": "Geben Sie eine E-Mail-Adresse ein",
         "phone_blank": "Geben Sie eine Telefonnummer ein",
-        "address_country_invalid": "Wählen Sie ein Land/eine Region aus der Liste aus",
+        "address_country_invalid": "Wählen Sie ein Land/Gebiet aus der Liste aus",
         "address_zip_invalid": "Geben Sie eine gültige Postleitzahl ein",
-        "gift_card_invalid": "Geschenkkarte „••••%{last_four_characters}“ ist nicht mehr gültig",
+        "gift_card_invalid": "Gutschein \"••••%{last_four_characters}\" ist nicht mehr gültig",
         "vaulting_agreement_blank": "Ihre Zahlungsmethode muss gespeichert werden, da die Zahlung für den Restbetrag dieser Bestellung später fällig ist.",
         "sms_marketing_phone_invalid": "Geben Sie eine gültige Telefonnummer ein",
-        "shipping_method_invalid_phone_number": "Aktualisieren Sie die Telefonnummer in Ihrer Lieferadresse, um verfügbare Versandmethoden zu sehen.",
-        "address_suggestion_did_you_mean_html": "Meinten Sie %{html}?",
-        "split_cart_international_shipping_not_supported": "Alle Artikel müssen bei internationalem Versand dieselbe Versandart verwenden. Aktualisieren Sie die Versandart oder erstellen Sie mehrere Bestellungen.",
-        "invalid_delivery_address_reference_handle": "Der Verweis auf die Lieferadresse konnte keiner verfügbaren Lieferadresse zugeordnet werden.",
-        "split_by_delivery_method_not_allowed": "Die Aufteilung nach Versandart ist für diese Sitzung oder diesen Shop nicht erlaubt."
+        "shipping_method_invalid_phone_number": "Aktualisieren Sie die Telefonnummer in Ihrer Lieferadresse, um die verfügbaren Versandmethoden zu sehen.",
+        "address_suggestion_did_you_mean_html": "Meintest du %{html}?",
+        "split_cart_international_shipping_not_supported": "Alle Artikel müssen bei internationalem Versand dieselbe Versandmethode verwenden. Aktualisieren Sie die Versandmethode oder erstellen Sie mehrere Bestellungen.",
+        "invalid_delivery_address_reference_handle": "Die Lieferadresse konnte keinem der verfügbaren Lieferadressen zugeordnet werden.",
+        "split_by_delivery_method_not_allowed": "Verteilung nach Liefermethode ist für diese Sitzung oder diesen Shop nicht erlaubt.",
+        "address_address1_blank": "Geben Sie eine Adresse ein",
+        "address_address1_contains_mathematical_symbols": "Die erste Adresszeile darf keine mathematischen Zeichen enthalten",
+        "address_address2_contains_mathematical_symbols": "Die zweite Adresszeile darf keine mathematischen Zeichen enthalten",
+        "address_first_name_blank": "Geben Sie einen Vornamen ein",
+        "address_last_name_blank": "Geben Sie einen Nachnamen ein",
+        "address_city_too_long": "Der Ortsname ist zu lang (maximal 255 Zeichen)",
+        "address_last_name_contains_html_tags": "Nachname darf keine HTML-Tags enthalten.",
+        "address_city_contains_html_tags": "Der Ortsname darf keine HTML-Tags enthalten.",
+        "address_first_name_contains_emojis": "Der Vorname darf keine Emojis enthalten",
+        "address_last_name_contains_emojis": "Der Nachname darf keine Emojis enthalten",
+        "address_city_contains_emojis": "Die Stadt darf keine Emojis enthalten",
+        "address_first_name_contains_url": "Der Vorname darf keine URL enthalten",
+        "address_first_name_contains_mathematical_symbols": "Der Vorname darf keine mathematischen Zeichen enthalten",
+        "address_last_name_contains_mathematical_symbols": "Der Nachname darf keine mathematischen Zeichen enthalten",
+        "address_city_contains_mathematical_symbols": "Der Ortsname darf keine mathematischen Zeichen enthalten",
+        "handle_phone_invalid": "Geben Sie eine gültige Telefonnummer ein",
+        "handle_email_invalid": "Geben Sie eine gültige E-Mail-Adresse ein",
+        "email_invalid": "Geben Sie eine gültige E-Mail-Adresse ein",
+        "email_or_phone_blank": "Geben Sie eine E-Mail-Adresse oder Telefonnummer ein",
+        "email_or_phone_invalid": "Geben Sie eine gültige E-Mail-Adresse oder eine Mobiltelefonnummer ein",
+        "split_by_delivery_method_unsupported_method_type": "Getrennt nach Liefermethode versucht mit einem nicht unterstützten Liefermethodentyp.",
+        "split_by_delivery_method_requires_merchandise_from_single_location": "Aufteilung nach Liefermethode erfordert, dass einzelne Warenpositionen von einem einzigen Standort aus erfüllt werden."
       },
       "store_credit_errors": {
         "generic_error": "Es gab ein Problem mit Ihrem Guthaben. Versuchen Sie es erneut oder laden Sie die Seite neu."
@@ -2075,10 +2098,10 @@
         "close": "Die Herausforderung abschließen"
       },
       "failed_payment": {
-        "page_title": "Die Zahlung konnte nicht verarbeitet werden",
-        "title": "Die Zahlung konnte nicht verarbeitet werden",
+        "page_title": "Zahlung konnte nicht verarbeitet werden",
+        "title": "Zahlung konnte nicht verarbeitet werden",
         "payment_not_processed_title": "Ihre Zahlung konnte nicht verarbeitet werden",
-        "payment_not_processed_text": "Ihnen wurde nichts berechnet. Kehren Sie zu Ihrem Warenkorb zurück, um Ihren Kauf abzuschließen."
+        "payment_not_processed_text": "Du wurdest noch nicht belastet. Kehre zu deinem Warenkorb zurück, um deinen Einkauf abzuschließen."
       },
       "payment_gateway": {
         "bank_deposit_label": "Bankeinzahlung",
@@ -2332,17 +2355,18 @@
           "message": "Aktualisieren Sie diese Seite oder versuchen Sie es in ein paar Minuten erneut",
           "action": {
             "cta": "Seite aktualisieren"
-          }
+          },
+          "title": "Es gab ein Problem mit unserer Kasse"
         },
         "embed_errors": {
-          "storefront_password_required": "Dieser Shop ist passwortgeschützt",
+          "storefront_password_required": "Dieser Laden ist mit einem Passwort geschützt",
           "customer_account_required": "Ein Kundenkonto ist erforderlich, um den Kauf abzuschließen",
-          "cart_completed": "Dieser Checkout wurde bereits abgeschlossen",
+          "cart_completed": "Diese Abwicklung ist bereits abgeschlossen",
           "invalid_cart": "Der Warenkorb ist nicht mehr gültig",
-          "not_authorized": "Die Authentifizierung beim Zur Kasse schlug fehl. Überprüfen Sie Ihre Anwendungsanmeldedaten.",
-          "killswitch_enabled": "Zur Kasse ist vorübergehend nicht verfügbar",
-          "policy_violation": "Checkout konnte aufgrund von Einschränkungen in der Richtlinienkonfiguration nicht abgeschlossen werden",
-          "unrecoverable_failure": "Konnte den Bezahlvorgang nicht laden. Bitte erneut versuchen"
+          "not_authorized": "Authentifizierung beim Bezahlen fehlgeschlagen. Überprüfen Sie Ihre Anwendungsdaten.",
+          "killswitch_enabled": "Die Bezahlung ist vorübergehend nicht verfügbar",
+          "policy_violation": "Die Zahlung kann aufgrund von Richtlinienbeschränkungen nicht abgeschlossen werden.",
+          "unrecoverable_failure": "Die Kasse kann nicht geladen werden. Bitte versuchen Sie es erneut."
         }
       },
       "notice_banner": {
@@ -2432,7 +2456,7 @@
         "failed_to_copy": "Kopieren fehlgeschlagen"
       },
       "discount_errors": {
-        "generic_error": "Ihre Bestellung konnte nicht bearbeitet werden, da Ihr Rabattcode nicht mehr verfügbar ist. Überprüfen Sie Ihren Gesamtbestellwert und versuchen Sie es erneut."
+        "generic_error": "Ihre Bestellung konnte nicht bearbeitet werden, da Ihr Rabattcode nicht mehr verfügbar ist. Überprüfen Sie den Gesamtbetrag Ihrer Bestellung und versuchen Sie es erneut."
       },
       "b2b_errors": {
         "lost_b2b_purchasing_permissions": "Sie haben keine Berechtigung mehr, B2B-Bestellungen aufzugeben. %{logout_url}, um stattdessen eine persönliche Bestellung aufzugeben.",
@@ -2565,7 +2589,7 @@
       },
       "editor": {
         "navigation": {
-          "store_logo_accessibility_label": "Zum Online-Shop navigieren"
+          "store_logo_accessibility_label": "Gehe zum Webshop"
         }
       },
       "tooltip": {
@@ -2676,6 +2700,17 @@
       },
       "address_management": {
         "saved_with_store": "Gespeichert in diesem Geschäft"
+      },
+      "embed": {
+        "header": {
+          "review_order": "Bewerten Sie Ihre Bestellung"
+        },
+        "shipping": {
+          "shipping_options": "Alle Versandoptionen ansehen"
+        },
+        "payment": {
+          "payment_options": "Alle Zahlungsmöglichkeiten ansehen"
+        }
       }
     },
     "sentence": {
