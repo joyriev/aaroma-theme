@@ -2588,7 +2588,49 @@
         "cart_too_large": "Shopping cart is too large.",
         "gift_card_recipient_validation_error": "The specified recipient of the gift voucher is invalid",
         "buyer_cannot_purchase_for_company_locations": "You cannot buy for this location",
-        "cart_attributes_error": "Cart features contain invalid data."
+        "cart_attributes_error": "Cart features contain invalid data.",
+        "only_n_items_available": "You can only add %{count} %{name} to the shopping cart.",
+        "too_many_items_in_cart": "You can no longer add %{name} to the shopping cart.",
+        "too_many_line_items_error": "Your shopping cart may not contain more than %{max} items.",
+        "link_no_longer_exists": "The link no longer exists.",
+        "stock_problems_html": "One or more items are no longer available. We have created an <a href='%{link}'>updated shopping cart</a> for you.",
+        "items_changed": "One or more items have been changed.",
+        "variant_requires_selling_plan": "Variant can only be purchased with a sales plan.",
+        "shipping_address_not_required": "This shopping cart requires no shipping",
+        "shipping_address_invalid": "There was a problem calculating your shipping costs. Proceed to checkout to choose a shipping rate before completing your order.",
+        "selling_plan_not_applicable": "Cannot apply sales plan to variant",
+        "view_lines_limit_reached": "Rules must be less than or equal to %{limit}",
+        "merchandise_line_transformers": {
+          "run_error": "An error has occurred in your shopping cart."
+        },
+        "only_one_added_to_cart": "Only 1 item has been added to your shopping cart due to availability.",
+        "only_n_added_to_cart": "Only %{quantity} items have been added to your shopping cart due to availability.",
+        "maximum_available_quantity_reached": "The maximum quantity of this item is already in your shopping cart.",
+        "not_found": "Shopping cart not found"
+      },
+      "customer": {
+        "password_reset_error": "Error resetting the password",
+        "no_account_found": "No account was found with that email address.",
+        "invalid_credentials": "Incorrect email address or password.",
+        "denylisted_reset_password": "Your account could not be opened because the current password is not secure. You will receive an email to update your password.",
+        "signup_disabled": "Creating a customer account is disabled.",
+        "subscribe_error": "Error during registration",
+        "unsubscribe_error": "Error during unsubscribe"
+      },
+      "order": {
+        "cancel_reason": {
+          "declined": "Payment refused",
+          "inventory": "Items not available",
+          "customer": "Customer has changed/canceled the order",
+          "staff": "Personnel error"
+        },
+        "cash_on_delivery": "Cash on delivery (COD)"
+      },
+      "line_item": {
+        "item_status": {
+          "decrement_item": "Deleted %{delta} of %{total}",
+          "decrement_return_line_item": "%{delta} removed from return"
+        }
       }
     }
   },
