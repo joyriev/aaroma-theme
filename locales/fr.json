@@ -1448,7 +1448,57 @@
         "discount_code_replaced": "Code promo %{old_code} supprimé et %{code} a été appliqué",
         "from_multiple_stores_heading": "De plusieurs magasins",
         "discount_applies_to_subscription_items_only": "Cette réduction s'applique uniquement aux articles d'abonnement",
-        "estimated_taxes_finalization_tooltip_content_short": "Taxe établie après paiement"
+        "estimated_taxes_finalization_tooltip_content_short": "Taxe établie après paiement",
+        "order_name_label": "Commander %{name}",
+        "gift_card_title": "Bon cadeau",
+        "gift_card_label": "Bon cadeau",
+        "gift_card_placeholder": "Bon cadeau",
+        "gift_card_and_discount_title": "Code de réduction ou bon cadeau",
+        "gift_card_and_discount_label": "Code de réduction ou bon cadeau",
+        "gift_card_and_discount_placeholder": "Code de réduction ou bon cadeau",
+        "gift_card_has_been_applied": "Le bon cadeau a été appliqué",
+        "gift_card_has_been_removed": "Le bon cadeau a été supprimé",
+        "gift_card_savings_notice": "À %{gift_card_amount} en cartes-cadeaux",
+        "pickup_label": "Retrait en magasin",
+        "no_pickup_location": "Il n’y a aucun lieu de retrait disponible.",
+        "information_estimated_taxes_label": "Taxes (estimées)",
+        "gift_card_ending": "Cadeau cadeau se terminant par %{last_characters}",
+        "multiple_shipping_lines_label": "Total d'expédition",
+        "original_price": "Prix d'origine",
+        "gift_card_subscriptions_notice": "Les bons cadeaux ne s'appliquent qu'à votre premier paiement",
+        "percent_off_shipping": "%{percent}% de réduction sur la livraison",
+        "payment_terms_totals": {
+          "due_today": "Total à payer aujourd'hui",
+          "due_later": "Total à payer %{due_at}",
+          "due_later_checkout_to_draft": "Total à payer plus tard",
+          "due_on_fulfillment": "Total à payer à la livraison",
+          "due_on_receipt": "Montant total à payer à la réception",
+          "due_today_next": "Jour de péremption aujourd'hui",
+          "due_on_fulfillment_next": "Date d'expiration lors de l'exécution"
+        },
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> ne pouvait pas être utilisé en combinaison avec vos réductions existantes.",
+        "maximum_discount_code_limit_reached": "Vous avez atteint le nombre maximal de codes de réduction. Supprimez un code existant pour utiliser <strong style=\"text-transform:uppercase\">%{code}</strong>.",
+        "may_be_charged_on_delivery": "Peut être payé à la livraison",
+        "full_price": "Prix total : %{price}",
+        "group_title_label": "Partie de \"%{group_title}\"",
+        "gift_card_applied": "Bon cadeau appliqué",
+        "more_items_modal": {
+          "empty_results": "Aucun résultat trouvé pour \"%{searchText}\". Vérifiez l'orthographe ou utilisez un autre mot ou une autre expression.",
+          "search_item": "Chercher"
+        },
+        "number_items": {
+          "one": "%{count} article",
+          "other": "%{count} articles"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_to_address": "Envoyer à l'adresse"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Aucun magasin ne propose votre article",
+          "other": "Aucun magasin disponible avec vos articles"
+        },
+        "order_discounts_apply_to_local_shop": "Les réductions sur les commandes s'appliquent uniquement aux articles de %{shop_name}",
+        "gift_cards_apply_to_local_shop": "Les bons cadeaux sont valables uniquement pour les articles de %{shop_name}"
       },
       "order_payment_collection": {
         "changes_summary": {
