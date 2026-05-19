@@ -2825,6 +2825,57 @@
           },
           "vaulted": "Numéro BTW : %{number}"
         }
+      },
+      "tips": {
+        "description": "Montre ton soutien à l'équipe chez %{shop_name}",
+        "custom_label": "Conseil personnalisé",
+        "update_tip": "Conseil de mise à jour",
+        "message": "Merci, nous apprécions cela.",
+        "not_available_with_spi": "Non disponible avec les paiements échelonnés Shop Pay"
+      },
+      "throttle": {
+        "line_to_check_out": "Vous êtes dans la file pour payer",
+        "inventory": {
+          "partial_inventory_banner": "Une partie de votre panier est en rupture de stock et ne sera pas disponible pour le paiement.",
+          "sold_out": {
+            "storefront_body": "Retournez au magasin pour continuer vos achats",
+            "no_storefront_body": "Malheureusement, l'article que vous souhaitez acheter n'est plus disponible.",
+            "link": "Retour au magasin"
+          }
+        },
+        "title": "File d'attente",
+        "time_to_checkout_title": "Il est temps de payer - {{shopName}}",
+        "estimated_wait_time": {
+          "calculating": "Calculer le temps d'attente estimé",
+          "less_than_one": "Temps d'attente estimé : moins d'une minute",
+          "one": "Temps d'attente estimé : {{count}} minute",
+          "other": "Temps d'attente estimé : {{count}} minutes"
+        },
+        "last_checked": "(Dernière vérification : {{time}})",
+        "footer": {
+          "heading": "Ne rafraîchissez pas cette page, elle se met à jour automatiquement.",
+          "body": "Les articles dans votre panier ne sont pas réservés tant que vous n'avez pas finalisé l'achat."
+        },
+        "too_many_attempts": {
+          "message": "Trop de tentatives"
+        }
+      },
+      "units": {
+        "liter": "l",
+        "ounce": "once",
+        "fluid_ounce": "once liquide",
+        "gallon": "fille",
+        "inch": "dans"
+      },
+      "tooltip": {
+        "accessibility_label_context": "Plus d'informations sur %{context}",
+        "additional_payment_methods": "Méthodes de paiement supplémentaires"
+      },
+      "too_many_requests": {
+        "title": "Trop de tentatives de paiement",
+        "body": "Veuillez patienter quelques minutes et réessayez depuis votre panier.",
+        "return_to_cart": "Retour au panier",
+        "body_no_cart": "Attendez quelques minutes et réessayez."
       }
     },
     "attributes": {

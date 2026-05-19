@@ -2720,25 +2720,25 @@
         "return_to_store_simple": "Zurück zum Laden"
       },
       "wallets": {
-        "return_to_store": "Zurück zum Geschäft",
+        "return_to_store": "Zurück zum Laden",
         "return_to_checkout": "Zurück zur Kasse",
-        "redirect_hint": "Sie werden gebeten, sich mit {{walletName}} anzumelden.",
+        "redirect_hint": "Du wirst gebeten, dich mit {{walletName}} anzumelden.",
         "logged_in": "Verbunden mit {{email}}",
-        "payment_in_progress_title": "Zahlung wird durchgeführt",
+        "payment_in_progress_title": "Zahlung läuft",
         "payment_in_progress_body": "Ihre Zahlung wird bearbeitet. Ihre Bestellung wird in Kürze abgeschlossen.",
-        "redirection_notice": "Sie werden zu {{walletName}} weitergeleitet, um Ihren Kauf abzuschließen",
+        "redirection_notice": "Du wirst zu {{walletName}} weitergeleitet, um deinen Kauf abzuschließen",
         "errors": {
           "unavailable": {
             "description": "{{walletName}} war nicht verfügbar. Verwenden Sie eine andere Zahlungsmethode oder versuchen Sie es später erneut.",
-            "instructions": "Es gab ein Problem mit {{walletName}}. Kehren Sie zum Laden zurück, um es erneut zu versuchen, oder wählen Sie eine andere Zahlungsmethode.",
-            "unavailable_for_country": "{{walletName}} ist in {{countryName}} nicht verfügbar. Wählen Sie eine andere Zahlungsmethode, um Ihren Kauf abzuschließen."
+            "instructions": "Es gab ein Problem mit {{walletName}}. Gehen Sie zurück zum Shop, um es erneut zu versuchen, oder wählen Sie eine andere Zahlungsmethode.",
+            "unavailable_for_country": "{{walletName}} ist in {{countryName}} nicht verfügbar. Wählen Sie eine andere Zahlungsmethode, um Ihren Kauf abzuschließen"
           },
           "unavailable_terminal": {
-            "instructions": "{{walletName}} steht für Ihre Bestellung derzeit nicht zur Verfügung. Um Ihren Einkauf fortzusetzen, wählen Sie eine andere Zahlungsmethode."
+            "instructions": "{{walletName}} ist derzeit für Ihre Bestellung nicht verfügbar. Um Ihren Kauf fortzusetzen, wählen Sie eine andere Zahlungsmethode."
           },
           "generic": "Es gab ein Problem mit {{walletName}}. Bitte versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
           "discount_code": "Dieser Gutscheincode kann nicht angewendet werden. Bitte überprüfen Sie Ihren Code und versuchen Sie es erneut.",
-          "terminal": "Es gab ein Problem mit {{walletName}}. Verwenden Sie eine andere Zahlungsmethode.",
+          "terminal": "Es gab ein Problem mit {{walletName}}. Bitte verwenden Sie eine andere Zahlungsmethode.",
           "detour": {
             "stock_problems": "Einige Artikel sind nicht mehr verfügbar. Schließen Sie {{walletName}} und versuchen Sie es erneut.",
             "price_change": "Einige Artikelpreise wurden geändert. Schließe {{walletName}}, um deine Bestellung anzusehen und es erneut zu versuchen.",
@@ -2747,10 +2747,10 @@
           },
           "unsupported": {
             "address": "Der Händler kann an diese Adresse nicht liefern",
-            "wallet_is_unavailable": "{{walletName}} kann mit dieser Adresse nicht verwendet werden. Wählen Sie eine andere Adresse oder schließen Sie {{walletName}}, um Ihren Kauf abzuschließen."
+            "wallet_is_unavailable": "{{walletName}} kann mit dieser Adresse nicht verwendet werden. Wählen Sie eine andere Adresse oder schließen Sie {{walletName}}, um Ihren Kauf abzuschließen"
           },
           "outdated": {
-            "shipping_method": "Die Versandoptionen für Ihre Bestellung haben sich geändert. Überprüfen Sie Ihre Auswahl.",
+            "shipping_method": "Die Versandoptionen für Ihre Bestellung wurden geändert. Bitte überprüfen Sie Ihre Auswahl.",
             "payment_terms": "Die Zahlungsbedingungen wurden geändert. Bitte überprüfen Sie Ihre Bestellung"
           },
           "invalid": {
@@ -2791,14 +2791,16 @@
             "first_name_too_long": "Vorname enthält zu viele Buchstaben",
             "last_name_too_long": "Nachname enthält zu viele Buchstaben"
           },
-          "select_different_shipping_address_to_resolve_errors": "Ihre Versandadresse ist ungültig. Wählen Sie eine andere Adresse oder verwenden Sie eine neue."
+          "select_different_shipping_address_to_resolve_errors": "Ihre Versandadresse ist ungültig. Wählen Sie eine andere Adresse oder verwenden Sie eine neue Adresse.",
+          "processing_error_checkout_as_guest": "Bei der Verarbeitung Ihrer Zahlung ist ein Problem aufgetreten. Bitte versuchen Sie es erneut oder {{checkout_as_guest_link}}."
         },
         "scrim": {
           "continue_purchase_in_window": "Fahren Sie mit Ihrem Kauf im {{walletName}} Fenster fort",
-          "and_return_to_checkout": "und kehre zur Kasse zurück"
+          "and_return_to_checkout": "und zurück zur Kasse"
         },
         "place_order": "Bestellung aufgeben",
-        "call_to_action": "Bezahlen mit {{walletName}}"
+        "call_to_action": "Bezahlen mit {{walletName}}",
+        "recovery_notice": "Es gibt ein Problem mit Ihren Bestelldaten. Aktualisieren Sie Ihre Informationen, um die Zahlung abzuschließen."
       },
       "note": {
         "length_exceeds_maximum": "Verringern Sie die Größe der Notiz auf 5000 oder weniger Zeichen."
@@ -3047,7 +3049,7 @@
     "collections": {
       "sorting": {
         "best_selling": "Bestseller",
-        "price_ascending": "Preis, aufsteigend",
+        "price_ascending": "Preis, von niedrig bis hoch",
         "price_descending": "Preis, von hoch nach niedrig",
         "date_descending": "Datum, neu nach alt"
       }
@@ -3218,24 +3220,24 @@
       },
       "open_tracking": {
         "opt_in": {
-          "opted_in_html": "<b>Sie haben sich für die E-Mail-Öffnungsnachverfolgung angemeldet.</b>",
-          "visibility": "Die Öffnungsraten von E-Mails werden anonym gemeldet. Wir sehen nur, ob Sie eine E-Mail im Rahmen einer aggregierten Öffnungsrate geöffnet haben.",
-          "opt_out_html": "Sie können <a style='text-decoration:underline;' href='%{link}'>das Nachverfolgen des Öffnens von E-Mails ablehnen</a>, wenn Sie diese Information nicht teilen möchten.",
-          "preview_bar": "Sie sehen eine Vorschau dessen, was Kunden sehen werden, wenn sie sich für die E-Mail-Öffnungsnachverfolgung anmelden."
+          "opted_in_html": "<b>Sie haben sich angemeldet, um das Öffnen von E-Mails zu verfolgen.</b>",
+          "visibility": "E-Mail-Öffnungsraten werden anonym gemeldet. Wir sehen nur, ob Sie eine E-Mail geöffnet haben, als Teil einer zusammengefassten E-Mail-Öffnungsrate.",
+          "opt_out_html": "Du kannst dich <a style='text-decoration:underline;' href='%{link}'>abmelden</a>, um das Verfolgen des Öffnens von E-Mails zu deaktivieren, wenn du diese Informationen nicht teilen möchtest.",
+          "preview_bar": "Sie sehen ein Beispiel dessen, was Kunden sehen werden, wenn sie sich dafür entscheiden, das Öffnen von E-Mails verfolgen zu lassen."
         },
         "opt_out": {
-          "opted_out_html": "<b>Sie haben sich vom E-Mail-Öffnungs-Tracking abgemeldet.</b>",
-          "visibility": "Wir werden nicht sehen, ob Sie unsere E-Mails geöffnet haben.",
-          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Zustimmen</a> zur Nachverfolgung des Öffnens von E-Mails.",
-          "preview_bar": "Sie sehen eine Vorschau dessen, was Kunden sehen werden, wenn sie das Tracking des Öffnens von E-Mails ablehnen."
+          "opted_out_html": "<b>Sie haben sich vom Verfolgen des Öffnens von E-Mails abgemeldet.</b>",
+          "visibility": "Wir werden nicht sehen, ob du unsere E-Mails geöffnet hast.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Melde dich an</a>, um das Öffnen von E-Mails zu verfolgen.",
+          "preview_bar": "Sie sehen ein Beispiel dessen, was Kunden sehen werden, wenn sie sich vom Tracking des Öffnens von E-Mails abmelden."
         },
         "no_longer_track": {
-          "status_html": "<b>Wir verfolgen keine E-Mail-Öffnungen mehr.</b>",
-          "privacy_policy": "Nachdem diese E-Mail gesendet wurde, haben wir unsere Datenschutzrichtlinie aktualisiert und verfolgen keine Öffnungen mehr."
+          "status_html": "<b>Wir verfolgen keine einzige E-Mail-Öffnung mehr.</b>",
+          "privacy_policy": "Nachdem diese E-Mail versendet wurde, haben wir unsere Datenschutzrichtlinie aktualisiert und verfolgen das Öffnen von Nachrichten nicht mehr."
         },
         "track": {
-          "status_html": "<b>E-Mail-Öffnungs-Tracking wird gemeldet.</b>",
-          "visibility": "Wir sehen nur, ob Sie die E-Mail geöffnet haben, als Teil der gesamten Öffnungsrate der E-Mails."
+          "status_html": "<b>Das Öffnen der E-Mail wird verfolgt.</b>",
+          "visibility": "Wir werden nur sehen, ob du die E-Mail geöffnet hast, als Teil des gesamten Prozentsatzes der geöffneten E-Mails."
         },
         "updated_policy": {
           "status_html": "<b>E-Mail-Öffnungs-Tracking wird gemeldet.</b>",
@@ -3272,9 +3274,9 @@
       "submit_button_text": "Versenden"
     },
     "checkpoint": {
-      "message": "Lösen Sie das Captcha, um fortzufahren",
+      "message": "Löse das Captcha, um fortzufahren",
       "error": "Captcha-Validierung fehlgeschlagen",
-      "submit_button_text": "Absenden"
+      "submit_button_text": "Versenden"
     },
     "store_availability": {
       "pick_up_time": {
