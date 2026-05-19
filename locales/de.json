@@ -879,11 +879,12 @@
       },
       "merchant_instruction_errors": {
         "invalid_entrypoint_for_remote_negotiation": "Die Fernverhandlungsanweisung kann nicht an eine Nicht-Fernverhandlungssitzung übermittelt werden.",
-        "empty_stable_id": "Die Anweisung für die Ware %{position} %{name} enthält eine leere stabile Kennung.",
-        "invalid_stable_id_target": "Die Warenanweisung für %{position} %{name} verweist auf die Stall-ID %{stable_id}, aber diese Stall-ID ist nicht in den Warenlinien enthalten.",
-        "duplicate_variant_id": "Die %{position} %{name} Warenanweisung enthält eine doppelte Varianten-ID %{variant_id}.",
-        "invalid_variant_id_target": "Die %{name} Warenanweisung verweist auf die Varianten-ID %{variant_id}, aber diese Variante ist nicht in den Warenlinien enthalten.",
-        "invalid_price_override_target": "Die Preisüberschreibungsanweisung für den Artikel %{stable_id} ist ungültig, da es sich um eine Bündelkomponente handelt."
+        "empty_stable_id": "Die Merchandise-Anleitung für %{position} %{name} enthält eine leere stabile ID.",
+        "invalid_stable_id_target": "Die Merchandise-Anweisung für %{position} %{name} verweist auf die Stable-ID %{stable_id}, aber diese Stable-ID ist nicht in den Merchandise-Zeilen enthalten.",
+        "duplicate_variant_id": "Die Merchandise-Anleitung für %{position} %{name} enthält eine doppelte Varianten-ID %{variant_id}.",
+        "invalid_variant_id_target": "Die Anweisung für die Merchandise %{name} bezieht sich auf die Varianten-ID %{variant_id}, aber diese Variante ist nicht in den Merchandise-Linien enthalten.",
+        "invalid_price_override_target": "Die Preisänderungsanweisung für Artikelzeile %{stable_id} ist ungültig, da sie Teil eines Bundles ist.",
+        "discount_not_supported": "Die Anleitung zur Anwendung des Handelsrabatts auf Waren unterstützt diese Art von Rabatt nicht."
       },
       "thank_you": {
         "thank_you_item_label": {
@@ -1600,15 +1601,15 @@
           "all_products_one": "Das Produkt in Ihrem Warenkorb ist nicht für die Lieferung nach %{location_name} verfügbar.",
           "all_products_other": "Die Produkte in Ihrem Warenkorb sind nicht für die Lieferung nach %{location_name} verfügbar."
         },
-        "indeterminate_location_fallback": "Ihr Standort",
+        "indeterminate_location_fallback": "je Standort",
         "cart_updated": "Ihr Warenkorb wurde aktualisiert.",
-        "change_address_only": "Lieferadresse ändern, um fortzufahren.",
-        "change_address_or_remove": "Lieferadresse ändern oder %{remove_action}.",
+        "change_address_only": "Ändern Sie die Lieferadresse, um fortzufahren.",
+        "change_address_or_remove": "Ändern Sie die Lieferadresse oder %{remove_action}.",
         "remove_items_action": {
           "one": "nicht verfügbaren Artikel entfernen",
           "other": "nicht verfügbare Artikel entfernen"
         },
-        "empty_cart_action": "Warenkorb leeren und zum Geschäft zurückkehren"
+        "empty_cart_action": "Warenkorb legen und zum Geschäft zurückkehren"
       },
       "deliverability": {
         "not_deliverable": {
@@ -1938,7 +1939,7 @@
           "shipping_credential_cn": "Einwohneridentifikationsnummer",
           "tax_credential_it": "Steuernummer (optional)",
           "tax_credential_co": "Personalausweis/Umsatzsteuer-Identifikationsnummer",
-          "tax_credential_type_co": "Typ Ausweis",
+          "tax_credential_type_co": "Typ Personalausweis",
           "shipping_credential_co": "Personalausweis/Umsatzsteuer-Identifikationsnummer",
           "shipping_credential_type_co": "Typ Personalausweis",
           "tax_credential_ec": "USt-IdNr./Steuernummer/Mehrwertsteuer",
@@ -1947,14 +1948,14 @@
           "shipping_credential_gt": "USt/Mehrwertsteuer",
           "tax_credential_id": "NPWP",
           "shipping_credential_id": "NPWP",
-          "tax_credential_type_mx": "Steuersystem",
+          "tax_credential_type_mx": "Steuerliche Regelung",
           "tax_credential_use_mx": "Verwendung von CFDI",
-          "tax_credential_py": "USt-IdNr./RUC/USt-IdNr.",
+          "tax_credential_py": "USt-IdNr./Steuernummer/Mehrwertsteuer",
           "shipping_credential_py": "USt-IdNr./Steuernummer/Mehrwertsteuer",
-          "tax_credential_pt": "NIF/UST-ID",
+          "tax_credential_pt": "USt-IdNr./MwSt",
           "shipping_credential_pt": "USt-IdNr./MwSt",
           "shipping_credential_tw": "Nationale Identitätsnummer/Umsatzsteuer-Identifikationsnummer",
-          "tax_credential_tr": "Türkische Republik Identifikationsnummer/USt-IdNr.",
+          "tax_credential_tr": "Republik Türkei Identifikationsnummer/Mehrwertsteuer",
           "shipping_credential_tr": "Republik Türkei Identifikationsnummer/Mehrwertsteuer",
           "tax_credential_br": "BSN/KVK",
           "shipping_credential_br": "BSN/KVK",
@@ -2192,28 +2193,28 @@
         "block_title": "Überprüfen Sie Ihre Angaben"
       },
       "marketing": {
-        "accept_marketing_checkbox_label": "Senden Sie mir E-Mails mit Neuigkeiten und Angeboten",
-        "post_accept_marketing_checkbox_label": "Sie sind für den Erhalt von E-Mail-News und Angeboten angemeldet",
-        "pending_accept_marketing_checkbox_label": "Überprüfen Sie Ihre E-Mails, um Ihr Abonnement für Neuigkeiten und Angebote zu bestätigen",
-        "accept_sms_checkbox_label": "Schreib mir mit Neuigkeiten und Angeboten",
+        "accept_marketing_checkbox_label": "Schicken Sie mir E-Mails mit Neuigkeiten und Angeboten",
+        "post_accept_marketing_checkbox_label": "Sie sind angemeldet, um E-Mail-Neuigkeiten und Angebote zu erhalten",
+        "pending_accept_marketing_checkbox_label": "Überprüfen Sie Ihre E-Mails, um Ihre Anmeldung für Neuigkeiten und Angebote zu bestätigen",
+        "accept_sms_checkbox_label": "Schick mir eine Nachricht mit Neuigkeiten und Angeboten",
         "disclaimer": {
-          "privacy_policy": "Datenschutzrichtlinie",
+          "privacy_policy": "Datenschutzerklärung",
           "terms_of_service": "Nutzungsbedingungen"
         },
         "sms": {
           "disclaimer": {
-            "privacy_policy": "Datenschutzrichtlinie",
+            "privacy_policy": "Datenschutzerklärung",
             "terms_of_service": "Nutzungsbedingungen",
-            "description_html": "Indem Sie sich per SMS anmelden, stimmen Sie zu, wiederkehrende automatisierte Werbenachrichten, einschließlich Warenkorberinnerungen, an die angegebene Telefonnummer zu erhalten. Die Zustimmung ist keine Voraussetzung für den Kauf. Antworten Sie mit STOP, um sich abzumelden. Antworten Sie mit HILFE für Unterstützung. Die Nachrichtenhäufigkeit variiert. Es können Nachrichten- und Datentarife anfallen. Sehen Sie unsere %{privacy_policy_link} und %{terms_of_service_link} ein.",
-            "description_transactional_html": "Sie können SMS-Nachrichten zu Bestellbestätigungen und Versandaktualisierungen erhalten. Antworten Sie mit STOP, um sich abzumelden. Antworten Sie mit HILFE für Unterstützung. Die Nachrichtenhäufigkeit variiert. Es können Nachrichten- und Datentarife anfallen. Sehen Sie unsere %{privacy_policy_modal_link} und %{terms_of_service_modal_link} ein."
+            "description_html": "Indem Sie sich per SMS anmelden, stimmen Sie dem Erhalt wiederkehrender automatisierter Marketingnachrichten, einschließlich Warenkorberinnerungen, an die angegebene Telefonnummer zu. Die Zustimmung ist keine Voraussetzung für einen Kauf. Antworten Sie mit STOP, um sich abzumelden. Antworten Sie mit HELP für Hilfe. Die Häufigkeit der Nachrichten kann variieren. Nachrichten- und Datengebühren können anfallen. Lesen Sie unsere %{privacy_policy_link} und %{terms_of_service_link}.",
+            "description_transactional_html": "Sie können SMS-Nachrichten zu Bestellbestätigungen und Versandupdates erhalten. Antworten Sie mit STOP, um sich abzumelden. Antworten Sie mit HILFE für Unterstützung. Die Häufigkeit der Nachrichten kann variieren. Es können Gebühren für Nachrichten und Daten anfallen. Lesen Sie unsere %{privacy_policy_modal_link} und %{terms_of_service_modal_link}."
           },
-          "get_offers_by_text": "Angebote per SMS erhalten"
+          "get_offers_by_text": "Erhalte Angebote per SMS"
         },
         "unsubscribe": {
-          "title": "Sie haben sich abgemeldet",
-          "description": "Sie erhalten keine weiteren Erinnerungen an Ihren Warenkorb von uns."
+          "title": "Du hast dich abgemeldet",
+          "description": "Du erhältst keine Erinnerungen mehr von uns zu deinem Warenkorb."
         },
-        "accept_shop_pay_marketing_checkbox_label": "Melden Sie mich für Neuigkeiten und Angebote dieses Geschäfts an"
+        "accept_shop_pay_marketing_checkbox_label": "Melden Sie sich für Neuigkeiten und Angebote dieses Geschäfts an"
       },
       "shop_policies": {
         "select_policy_label": "Wählen Sie eine Richtlinie aus",
@@ -2227,11 +2228,11 @@
         "unavailable_policy": "Für diesen Laden wurde keine %{policy_name} bereitgestellt. Für weitere Informationen wenden Sie sich bitte direkt an %{shop_name}."
       },
       "mor_policies": {
-        "terms_and_conditions": "Geschäftsbedingungen des Händlers",
-        "privacy_policy": "Datenschutzerklärung des Händlers im Auftrag"
+        "terms_and_conditions": "Bedingungen des Handelsverkäufers",
+        "privacy_policy": "Datenschutzerklärung des Handelsregisterinhabers"
       },
       "markets": {
-        "invalid_market_manager_error": "Überprüfen Sie Ihre Kontaktinformationen, bevor Sie die Zahlung abschließen"
+        "invalid_market_manager_error": "Überprüfen Sie Ihre Kontaktdaten, bevor Sie die Zahlung abschließen"
       },
       "order_payment_collection": {
         "custom_line_item_description": "Zu zahlender Betrag für Bestellung %{order_name}",
@@ -2332,9 +2333,9 @@
       "no_address_location": {
         "title": "Ort ohne Adresse",
         "header": "Für diesen Standort ist keine Versandadresse vorhanden",
-        "alt_header": "Fehlende Versandadresse",
+        "alt_header": "Fehlende Lieferadresse",
         "message": "Kontaktieren Sie uns, um eine Adresse für diesen Standort hinzuzufügen, um den Kauf abzuschließen.",
-        "email_us_button_label": "Senden Sie uns eine E-Mail"
+        "email_us_button_label": "Schicken Sie uns eine E-Mail"
       },
       "order_errors": {
         "creation_failure": "Bei der Erstellung Ihrer Bestellung ist ein Problem aufgetreten. Versuchen Sie es erneut oder kontaktieren Sie uns für weitere Informationen.",
@@ -2443,7 +2444,7 @@
       "marketplaces": {
         "legal_notice": {
           "legal_text": "Bewertung",
-          "link_label": "{{partnerDisplayName}} Geschäftsbedingungen"
+          "link_label": "{{partnerDisplayName}} Allgemeine Geschäftsbedingungen"
         }
       },
       "online_store_chat": {

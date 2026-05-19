@@ -756,9 +756,9 @@
         "taxes_label": " Taxes",
         "estimated_taxes_label": "Estimated tax",
         "information_estimated_taxes_label": "Taxes (estimated)",
-        "estimated_taxes_finalization_tooltip_content": "The total tax amount will be confirmed via email or SMS after you have placed your order.",
+        "estimated_taxes_finalization_tooltip_content": "The total tax amount will be confirmed by email or text message after you have placed your order.",
         "vat_label_html": "Including %{amount} VAT",
-        "duties_included_label": "Total is inclusive of taxes and duties. No additional costs on delivery.",
+        "duties_included_label": "Total is inclusive of taxes and customs duties. No additional charges upon delivery.",
         "duties_and_taxes_label": "Customs duties and taxes",
         "error_duties_tooltip": "This order is shipped from another country, so customs duties and taxes may be charged upon delivery.",
         "add_discount_or_gift_card": "Add a discount code or gift voucher",
@@ -780,7 +780,29 @@
         "cost_table_item_column_header": "Article",
         "deposit_label": "Great Council",
         "deferred_total_due_date_label_next": "Expiration date %{date}",
-        "automatic_discount_tooltip": "Automatically applied discounts cannot be removed"
+        "automatic_discount_tooltip": "Automatically applied discounts cannot be removed",
+        "free_shipping_discount_label": "Free delivery",
+        "discount_already_applied": "A discount has been applied to this order. You cannot add an additional discount.",
+        "discount_requires_customer_notice": "Enter your shipping details to apply the discount code <strong style=\"text-transform:uppercase\">%{code}</strong>",
+        "discount_and_gift_card_savings_notice": "On %{discount_amount} in discounts and %{gift_card_amount} in gift cards",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> is currently not working. Please contact us for assistance.",
+        "due_on_fulfillment": "Expiration date upon execution",
+        "duties_label": "Taxes",
+        "discount_discovery": {
+          "merchandise_quantity_label": {
+            "one": "%{count} items"
+          },
+          "back_to_finalize_order": "Back to complete order"
+        },
+        "discount_not_found": "Cannot find a valid discount that matches the entered code",
+        "enter_shipping_address": "Enter the delivery address",
+        "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> discount code requires an eligible customer",
+        "discount_code_allocations_mismatch": "Your <strong style=\"text-transform:uppercase\">%{code}</strong> discount code has been changed. Check your shopping cart and try again.",
+        "from_other_stores_heading": "From other shops",
+        "discount_code_replaced": "Discount code %{old_code} removed and %{code} applied",
+        "from_multiple_stores_heading": "From multiple shops",
+        "discount_applies_to_subscription_items_only": "This discount applies only to subscription items",
+        "estimated_taxes_finalization_tooltip_content_short": "Tax assessed after payment"
       },
       "shipping": {
         "duties_and_taxes_title": "Customs duties and taxes"
