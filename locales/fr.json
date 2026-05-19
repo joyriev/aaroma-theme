@@ -3128,7 +3128,59 @@
         "gift_card_with_components_not_supported": "Le produit groupé '%{name}' ne peut pas être ajouté au panier.",
         "gift_card_price_must_be_greater_than_zero": "Le produit groupé '%{name}' ne peut pas être ajouté au panier.",
         "gift_card_recipient_validation_error": "Le destinataire indiqué du bon cadeau est invalide",
-        "cart_attributes_error": "Les caractéristiques du panier contiennent des données invalides."
+        "cart_attributes_error": "Les caractéristiques du panier contiennent des données invalides.",
+        "only_n_items_available": "Vous ne pouvez ajouter que %{count} %{name} au panier.",
+        "too_many_items_in_cart": "Vous ne pouvez plus ajouter %{name} au panier.",
+        "missing_parameters": "paramètre d'identifiant ou de ligne non valide",
+        "too_many_line_items_error": "Votre panier ne peut pas contenir plus de %{max} articles.",
+        "link_expired": "Lien expiré",
+        "stock_problems_html": "Un ou plusieurs articles ne sont plus disponibles. Nous avons créé un <a href='%{link}'>panier mis à jour</a> pour vous.",
+        "product_sold_out": "Le produit '%{name}' est déjà en rupture de stock.",
+        "variant_not_found": "Impossible de trouver la variante",
+        "variant_requires_selling_plan": "La variante ne peut être achetée qu'avec un plan de vente.",
+        "shipping_address_not_required": "Ce panier ne nécessite pas d'expédition",
+        "shipping_address_invalid": "Il y a eu un problème lors du calcul de vos frais de livraison. Passez à la caisse pour choisir un tarif d'expédition avant de finaliser votre commande.",
+        "selling_plan_not_applicable": "Impossible d'appliquer le plan de vente à la variante",
+        "selling_plan_not_available_for_company_locations": "Seule une achat unique est disponible pour les commandes B2B",
+        "product_not_available": "Produit non disponible",
+        "not_respect_step": "Vous ne pouvez ajouter cet article qu'en quantités de %{step}.",
+        "view_lines_limit_reached": "Les règles doivent être inférieures ou égales à %{limit}",
+        "merchandise_line_transformers": {
+          "run_error": "Une erreur s'est produite dans votre panier."
+        },
+        "invalid_input": "Le paramètre %{parameter} est invalide.",
+        "only_one_added_to_cart": "Un seul article a été ajouté à votre panier en raison de la disponibilité.",
+        "only_n_added_to_cart": "Seulement %{quantity} articles ont été ajoutés à votre panier en raison de la disponibilité.",
+        "merchandise_not_applicable": "L'article ne peut pas être acheté tel que configuré.",
+        "not_found": "Panier non trouvé"
+      },
+      "customer": {
+        "no_account_found": "Aucun compte n'a été trouvé avec cette adresse e-mail.",
+        "invalid_credentials": "Adresse e-mail ou mot de passe incorrect.",
+        "denylisted_reset_password": "Votre compte n'a pas pu être ouvert car le mot de passe actuel n'est pas sécurisé. Vous recevrez un e-mail pour mettre à jour votre mot de passe.",
+        "signup_disabled": "La création d'un compte client est désactivée.",
+        "subscribe_error": "Erreur lors de l'inscription",
+        "unsubscribe_error": "Erreur lors de la désinscription"
+      },
+      "order": {
+        "financial_status": {
+          "authorized": "Autorisé",
+          "paid": "Payé",
+          "partially_paid": "Partiellement payé"
+        },
+        "cancel_reason": {
+          "inventory": "Articles non disponibles"
+        },
+        "cash_on_delivery": "Paiement à la livraison (CBA)"
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "Ajouté %{delta}",
+          "increment_item": "Ajouté %{delta}",
+          "decrement_item": "Supprimé %{delta} sur %{total}",
+          "decrement_fulfilled_line_item": "Rendu %{delta} sur %{total}",
+          "decrement_return_line_item": "%{delta} retiré du retour"
+        }
       }
     },
     "filters": {
