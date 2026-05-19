@@ -1597,7 +1597,38 @@
         "currency": {
           "no_longer_supported": "The store currency is no longer supported."
         },
-        "installments_payment_method_incompatible": "The selected payment method cannot be used for installment payments. Please choose a different payment method."
+        "installments_payment_method_incompatible": "The selected payment method cannot be used for installment payments. Please choose a different payment method.",
+        "rejected_transaction": "Your payment was declined. Please try again or use a different payment method.",
+        "order_total_changed": "The total amount of your order has changed. Please check it and try again.",
+        "payment_processing": "Your payment cannot be processed due to technical reasons. Please try again or use a different payment method.",
+        "paypal_zero_amount": "You cannot use PayPal for orders of %{amount}. Confirm that your order is correct and pay without PayPal.",
+        "paypal_invalid_token": "PayPal was not available. Please try again or use a different payment method.",
+        "pay_later_failed": "An error occurred while processing your payment with Pay Later. Please choose another payment method and try again.",
+        "three_d_secure_failed": "Your payment could not be verified. Please try again or use a different payment method.",
+        "three_d_secure_throttled": "Too many attempts; please wait before trying again",
+        "subscription_agreement_blank": "To purchase a subscription, your payment details must be saved. To continue, please confirm that you agree or remove subscription items from your order.",
+        "three_d_secure_failed_duplicate": "The 3D Secure authentication of the credit card failed because another one is already in progress.",
+        "payment_processing_no_retry": "Your payment cannot be processed due to technical reasons. Please try another payment method.",
+        "multiple_deferred_payment_not_allowed": "Only one deferred payment is allowed per application. Please check your application and try again.",
+        "shipping_must_match_billing": "Invoice address must match the delivery address. Use a different payment method.",
+        "pick_up_card": "Your card has been declined. Please try again or use a different payment method.",
+        "processing_error": "There was a problem processing your payment. Please try again or use a different payment method.",
+        "test_mode_live_card": "This shop cannot accept real orders or real payments.",
+        "transient_error": "There was a problem processing your payment. Please try refreshing this page or check your internet connection.",
+        "missing_shipping_address": "Your payment could not be processed because your delivery address is missing. Please add a delivery address and try again.",
+        "invalid_shipping_address": "Your payment could not be processed because we could not find your shipping address. Please check your shipping address and try again.",
+        "successful_offsite_with_gift_card_error": "There was a problem processing your gift card payment. Please try again or use a different payment method.",
+        "method_not_available": "The requested payment method is not available. Please choose another payment method and try again.",
+        "selected_payment_method": "There was a problem with your chosen payment method and you have not been charged. Please try again or use a different payment method.",
+        "payment_method_billing_address": "There was a problem with the billing address of your chosen payment method and you have not been charged. Please check the address and try again or use a different payment method.",
+        "processing_error_checkout_as_guest": "There was a problem processing your payment. Please try again with a different payment method or {{checkout_as_guest_link}}.",
+        "payment_above_threshold": "The amount to be paid is higher than the cash limit for this region. Reduce the total and try again.",
+        "risky": "There was a problem processing your payment. Please try again or use a different payment method.",
+        "three_d_secure_failed_payment_method": "Your card could not be verified. Please try again or add a different card.",
+        "name_mismatch": "Check your card details. The name on your card and the billing address do not match.",
+        "payment_method_not_applicable": "This payment method is not applicable. Please use a different payment method.",
+        "paypal_over_capture": "Your total amount has been updated. Pay with {{walletName}} to complete your order.",
+        "payment_credential_delegation_error": "There was a problem processing your payment. Please choose a new payment method."
       },
       "payment_challenge_modal": {
         "instructions": "Complete your purchase with your {{paymentMethod}} code",
@@ -1609,6 +1640,17 @@
         },
         "close": "Complete the challenge",
         "open_app_text": "Open the {{paymentMethod}} app"
+      },
+      "payment_gateway": {
+        "bank_deposit_label": "Bank transfer",
+        "cash_on_delivery_label": "Cash on delivery (COD)",
+        "deferred_payment_label": "Choose the payment method later",
+        "direct_payment_terms": "You agree to the terms of {{translatedName}}. Your card will be charged on {{dueDate}}.",
+        "draft_order_payment_due_later_no_terms": "Your payment is due once your order has been confirmed.",
+        "draft_order_payment_due_later_terms": "You will be subject to {{translatedName}} terms once your order is confirmed.",
+        "draft_order_deposit_due_later": "{{depositAmount}} is due as soon as your order is confirmed. The remaining amount will be paid according to the terms of {{translatedName}}.",
+        "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} is due once your order is confirmed. The remaining amount will be paid once your order is completed.",
+        "credit_or_debit_card_label": "Credit card/Debit card"
       }
     },
     "addresses": {
