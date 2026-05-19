@@ -541,6 +541,21 @@
           "tax": {
             "new_tax_must_be_accepted": "Taxes applicable to your order have changed. Please review your order and try again."
           }
+        },
+        "breadcrumb": "Breadcrumb trail",
+        "authenticate_purchase_button_label": "Verify payment",
+        "cart": "Shopping cart",
+        "continue_to_shipping_method": "Proceed to shipping",
+        "continue_to_payment_method": "Proceed to payment",
+        "continue_to_review": "Check order",
+        "back_to_cart": "Back to shopping cart",
+        "back_to_contact_information": "Back to information",
+        "back_to_shipping_method": "Back to shipping",
+        "back_to_payment_method": "Back to payment",
+        "continue_to_payment_plans_button_label": "Proceed to payment plans",
+        "datepicker": {
+          "in_range": "Within reach",
+          "range_end": "End of the assortment"
         }
       },
       "order_summary": {
@@ -767,7 +782,9 @@
         "shipping_method_invalid_phone_number": "Update the phone number in your delivery address to see the available shipping methods.",
         "split_by_delivery_method_not_allowed": "Distribution by delivery method is not allowed for this session or store.",
         "split_by_delivery_method_unsupported_method_type": "Split by delivery method attempted with an unsupported type of delivery method.",
-        "split_by_delivery_method_requires_merchandise_from_single_location": "Splitting by delivery method requires that individual merchandise lines be fulfilled from a single location."
+        "split_by_delivery_method_requires_merchandise_from_single_location": "Splitting by delivery method requires that individual merchandise lines be fulfilled from a single location.",
+        "tips_invalid_tip_amount": "Enter a tip of less than %{amount}",
+        "vaulting_agreement_blank": "Your payment method must be saved because the payment of the remaining amount of this order is due later."
       },
       "failed_payment": {
         "page_title": "Payment could not be processed",
