@@ -954,7 +954,7 @@
           "other": "%{count} Artikel"
         },
         "thank_you_from_shop": "Von %{shop_name}",
-        "title": "Vielen Dank für Ihren Einkauf!",
+        "title": "Vielen Dank für Ihren Kauf!",
         "confirmation_email_sent_text": "Eine Bestätigungs-E-Mail wurde an %{email} gesendet",
         "return_to_store_link_label": "Mit dem Einkaufen fortfahren",
         "print_link_label": "Bon drucken",
@@ -964,7 +964,7 @@
         "failed_pending_payment_page_title": "Es gibt ein Problem mit Ihrer Zahlung",
         "contact_information_title": "Kontaktdaten",
         "shipping_address_map_title": "Google-Karte mit einer Markierung der Versandadresse: %{address}",
-        "tracking_number": "Sendungsnummer:",
+        "tracking_number": "Volgnummer:",
         "company_tracking_number": "%{company} Sendungsnummer:",
         "estimated_arrival": "Geschätztes Lieferdatum:",
         "estimated_delivery": "Aktuelle Liefererwartung:",
@@ -977,8 +977,8 @@
         "gift_card_confirmation_by_email": "Wenn Sie es nicht erhalten haben, senden Sie die E-Mail bitte erneut oder kontaktieren Sie uns.",
         "gift_card_title": "Geschenkgutscheine",
         "resend_gift_cards": "Geschenkgutscheine erneut senden",
-        "thank_you_title": "Ihre Bestellung ist bestätigt",
-        "thank_you_title_payment": "Ihre Zahlung ist bestätigt",
+        "thank_you_title": "Ihre Bestellung wurde bestätigt",
+        "thank_you_title_payment": "Ihre Zahlung wurde bestätigt",
         "thank_you_title_review": "Ihre Bestellung wurde zur Überprüfung eingereicht",
         "thank_you_title_payments_app_pending_default": "Ihre Zahlung wird bearbeitet",
         "thank_you_title_payments_app_pending_buyer_action_required": "Ihre Bestellung wurde erhalten",
@@ -1017,37 +1017,37 @@
           "other": "Einige Artikel sind nicht bestätigt"
         },
         "thank_you_unconfirmed_items_description": {
-          "one": "Ihnen wurde hierfür nichts berechnet",
-          "other": "Für diese wurden Ihnen keine Kosten berechnet"
+          "one": "Dir wurden hierfür keine Kosten berechnet",
+          "other": "Dir wurden hierfür keine Kosten berechnet"
         },
         "thank_you_from_other_store": "Von einem anderen Geschäft",
         "thank_you_payments_app_failed_pending_payment": "Du wurdest für deine Bestellung nicht belastet. Gehe zurück zu deinem Warenkorb, um deine Bestellung anzusehen und erneut zu bezahlen.",
         "thank_you_payments_app_failed_pending_payment_payment": "Du wurdest für deine Bestellung nicht belastet. Gehe zurück zu deinem Warenkorb, um deine Bestellung anzusehen und erneut zu bezahlen.",
         "thank_you_payments_app_failed_pending_payment_pick_up": "Du wurdest für deine Bestellung nicht belastet. Gehe zurück zu deinem Warenkorb, um deine Bestellung anzusehen und erneut zu bezahlen.",
-        "thank_you_payments_app_pending_payment_description_default_with_missing": "Kontaktieren Sie uns per E-Mail oder Telefon, um eine Auftragsbestätigung zu erhalten.",
-        "thank_you_payments_app_pending_payment_description_default_with_missing_payment": "Kontaktieren Sie uns per E-Mail oder Telefon, um eine Auftragsbestätigung zu erhalten.",
-        "thank_you_payments_app_pending_payment_description_default_with_missing_pick_up": "Kontaktieren Sie uns per E-Mail oder Telefon, um eine Auftragsbestätigung zu erhalten.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing": "Kontaktieren Sie uns per E-Mail oder Telefon, um eine Bestellbestätigung zu erhalten.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing_payment": "Kontaktieren Sie uns per E-Mail oder Telefon, um eine Bestellbestätigung zu erhalten.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing_pick_up": "Kontaktieren Sie uns per E-Mail oder Telefon, um eine Bestellbestätigung zu erhalten.",
         "thank_you_payments_app_pending_payment_description_default_with_email_and_phone": "Sie erhalten in Kürze eine Bestätigungs-E-Mail mit Ihrer Bestellnummer.",
         "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_payment": "Sie erhalten in Kürze eine Bestätigungs-E-Mail mit Ihrer Bestellnummer.",
         "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_pick_up": "Sie erhalten in Kürze eine Bestätigungs-E-Mail mit Ihrer Bestellnummer.",
         "thank_you_payments_app_pending_payment_description_default_with_email": "Sie erhalten in Kürze eine Bestätigungs-E-Mail mit Ihrer Bestellnummer.",
         "thank_you_payments_app_pending_payment_description_default_with_email_payment": "Sie erhalten in Kürze eine Bestätigungs-E-Mail mit Ihrer Bestellnummer.",
         "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "Sie erhalten in Kürze eine Bestätigungs-E-Mail mit Ihrer Bestellnummer.",
-        "thank_you_payments_app_pending_payment_description_default_with_phone": "Sie erhalten in Kürze eine Bestätigungsnachricht mit Ihrer Bestellnummer.",
-        "thank_you_payments_app_pending_payment_description_default_with_phone_payment": "Sie erhalten in Kürze eine Bestätigungsnachricht mit Ihrer Bestellnummer.",
-        "thank_you_payments_app_pending_payment_description_default_with_phone_pick_up": "Sie erhalten in Kürze eine Bestätigungsnachricht mit Ihrer Bestellnummer.",
-        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing": "Kontaktieren Sie uns per E-Mail oder Telefon, um eine Auftragsbestätigung zu erhalten.",
-        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Kontaktieren Sie uns per E-Mail oder Telefon, um eine Auftragsbestätigung zu erhalten.",
-        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_pick_up": "Kontaktieren Sie uns per E-Mail oder Telefon, um eine Auftragsbestätigung zu erhalten.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone": "Sie erhalten in Kürze eine Bestätigungsmeldung mit Ihrer Bestellnummer.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_payment": "Sie erhalten in Kürze eine Bestätigungsmeldung mit Ihrer Bestellnummer.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_pick_up": "Sie erhalten in Kürze eine Bestätigungsmeldung mit Ihrer Bestellnummer.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing": "Kontaktieren Sie uns per E-Mail oder Telefon, um eine Bestellbestätigung zu erhalten.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Kontaktieren Sie uns per E-Mail oder Telefon, um eine Bestellbestätigung zu erhalten.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_pick_up": "Kontaktieren Sie uns per E-Mail oder Telefon, um eine Bestellbestätigung zu erhalten.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Nach Abschluss Ihrer Zahlung erhalten Sie eine Bestätigungs-E-Mail mit Ihrer Bestellnummer.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "Nach Abschluss Ihrer Zahlung erhalten Sie eine Bestätigungs-E-Mail mit Ihrer Bestellnummer.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "Nach Abschluss Ihrer Zahlung erhalten Sie eine Bestätigungs-E-Mail mit Ihrer Bestellnummer.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email": "Nach Abschluss Ihrer Zahlung erhalten Sie eine Bestätigungs-E-Mail mit Ihrer Bestellnummer.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "Nach Abschluss Ihrer Zahlung erhalten Sie eine Bestätigungs-E-Mail mit Ihrer Bestellnummer.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Nach Abschluss Ihrer Zahlung erhalten Sie eine Bestätigungs-E-Mail mit Ihrer Bestellnummer.",
-        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone": "Nach Abschluss Ihrer Zahlung erhalten Sie eine Bestätigungsnachricht mit Ihrer Bestellnummer.",
-        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Nach Abschluss Ihrer Zahlung erhalten Sie eine Bestätigungsnachricht mit Ihrer Bestellnummer.",
-        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Nach Abschluss Ihrer Zahlung erhalten Sie eine Bestätigungsnachricht mit Ihrer Bestellnummer.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone": "Nach Abschluss Ihrer Zahlung erhalten Sie eine Bestätigung per SMS mit Ihrer Bestellnummer.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Nach Abschluss Ihrer Zahlung erhalten Sie eine Bestätigung per SMS mit Ihrer Bestellnummer.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Nach Abschluss Ihrer Zahlung erhalten Sie eine Bestätigung per SMS mit Ihrer Bestellnummer.",
         "thank_you_payments_app_pending_payment_description_provider_action_required_default": "Ihre Zahlung wird bearbeitet. Sie erhalten eine E-Mail, sobald Ihre Zahlung bestätigt wurde.",
         "track_your_order_link_text": "Verfolgen Sie Ihre Bestellung",
         "checkout_again": "Erneut bezahlen",
@@ -1155,7 +1155,7 @@
         "cancelled_description": "Ihre Bestellung wurde am %{date} storniert. Kontaktieren Sie uns, wenn Sie Fragen haben.",
         "customer_validation_error": "Geben Sie eine gültige E-Mail-Adresse oder Bestellnummer ein.",
         "customer_validation_error_phone": "Geben Sie eine gültige Telefonnummer oder Bestellnummer ein.",
-        "unfulfilled_items_title": "Vorbereitung für den Versand",
+        "unfulfilled_items_title": "Auf den Versand vorbereiten",
         "unfulfilled_items_description": "Wir bereiten diese Artikel derzeit für den Versand vor.",
         "marker": {
           "current": "Aktueller Versandort"
@@ -1188,7 +1188,7 @@
             "title": "Oder sende einen Link an dein Telefon"
           }
         },
-        "view_business_customer_account": "Konto anzeigen",
+        "view_business_customer_account": "Konto ansehen",
         "breadcrumbs_submitted": "Eingereicht",
         "breadcrumbs_in_review": "In Bewertung",
         "missing_shipping_address_banner": {
@@ -1231,12 +1231,12 @@
           "other": "Es gab ein Problem beim erneuten Versenden Ihrer Geschenkgutscheine. Bitte versuchen Sie es erneut oder kontaktieren Sie uns."
         },
         "vat_invoices": {
-          "title": "Mehrwertsteuerrechnungen"
+          "title": "btw-rechnungen"
         },
-        "verify_shop_account_title": "Überprüfen Sie Ihr Shop-Konto",
-        "verify_shop_account_message": "Ihre Informationen wurden bei Shop gespeichert, verifizieren Sie Ihr Konto, um es automatisch in Millionen von Geschäften zu verwenden.",
+        "verify_shop_account_title": "Verifizieren Sie Ihr Shop-Konto",
+        "verify_shop_account_message": "Ihre Daten sind bei Shop gespeichert, verifizieren Sie Ihr Konto, um diese automatisch in Millionen von Geschäften zu verwenden.",
         "verify_shop_account_cta": "Verifizieren Sie Ihr Konto",
-        "verify_shop_account_confirmation": "Zur Kasse-Daten gespeichert",
+        "verify_shop_account_confirmation": "Zahlungsdaten gespeichert",
         "announcement": {
           "collapse": "Zusammenfalten",
           "expand": "Ausklappen"
@@ -2417,11 +2417,12 @@
         "verify_shipping_address": "Ihr Land/Ihre Region wurde aktualisiert. Bitte geben Sie Ihre Versandadresse ein, um mit dem Bezahlen fortzufahren."
       },
       "tips": {
-        "description": "Zeigen Sie Ihre Unterstützung für das Team bei %{shop_name}",
+        "description": "Zeige deine Unterstützung für das Team bei %{shop_name}",
         "presets_description": "Wählen Sie einen Trinkgeldprozentsatz aus",
-        "custom_label": "Benutzerdefinierte Spitze",
+        "custom_label": "Angepasster Tipp",
         "update_tip": "Aktualisierungstipp",
-        "message": "Danke, wir wissen das zu schätzen."
+        "message": "Danke, wir wissen das zu schätzen.",
+        "not_available_with_spi": "Nicht verfügbar mit Shop Pay-Ratenzahlungen"
       },
       "open_graph_meta_tag": {
         "title_with_products": {
@@ -2454,29 +2455,29 @@
       },
       "throttle": {
         "too_many_attempts": {
-          "description": "Versuchen Sie es in ein paar Minuten noch einmal"
+          "description": "Versuchen Sie es in ein paar Minuten erneut"
         },
-        "line_to_check_out": "Du stehst in der Schlange zur Kasse",
+        "line_to_check_out": "Du stehst in der Schlange, um zu bezahlen",
         "cart_summary_heading": "Ihr Warenkorb",
         "inventory": {
           "partial_inventory_banner": "Ein Teil Ihres Warenkorbs ist ausverkauft und wird beim Bezahlen nicht verfügbar sein.",
           "sold_out": {
             "heading": "Ihr Warenkorb ist ausverkauft",
-            "storefront_body": "Zurück zum Geschäft, um weiter einzukaufen",
+            "storefront_body": "Gehe zurück zum Laden, um weiter einzukaufen",
             "no_storefront_body": "Leider ist der Artikel, den Sie kaufen möchten, nicht mehr verfügbar.",
-            "link": "Zurück zum Geschäft"
+            "link": "Zurück zum Laden"
           }
         },
         "time_to_checkout_title": "Zeit zum Bezahlen - {{shopName}}",
         "estimated_wait_time": {
-          "calculating": "Berechnung der geschätzten Wartezeit",
+          "calculating": "Geschätzte Wartezeit berechnen",
           "one": "Geschätzte Wartezeit: {{count}} Minute",
           "other": "Geschätzte Wartezeit: {{count}} Minuten"
         },
-        "last_checked": "(Zuletzt geprüft: {{time}})",
+        "last_checked": "(Zuletzt überprüft: {{time}})",
         "footer": {
-          "heading": "Aktualisieren Sie diese Seite nicht, sie wird automatisch aktualisiert.",
-          "body": "Artikel in Ihrem Warenkorb sind erst reserviert, wenn Sie den Kauf abschließen."
+          "heading": "Bitte diese Seite nicht aktualisieren, sie wird automatisch aktualisiert.",
+          "body": "Artikel in Ihrem Warenkorb sind nicht reserviert, bis Sie den Kauf abschließen."
         }
       },
       "cart_checkout_validation": {
@@ -2735,14 +2736,14 @@
           "unavailable_terminal": {
             "instructions": "{{walletName}} steht für Ihre Bestellung derzeit nicht zur Verfügung. Um Ihren Einkauf fortzusetzen, wählen Sie eine andere Zahlungsmethode."
           },
-          "generic": "Es gab ein Problem mit {{walletName}}. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
-          "discount_code": "Dieser Rabattcode kann nicht angewendet werden. Überprüfen Sie Ihren Code und versuchen Sie es erneut.",
+          "generic": "Es gab ein Problem mit {{walletName}}. Bitte versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
+          "discount_code": "Dieser Gutscheincode kann nicht angewendet werden. Bitte überprüfen Sie Ihren Code und versuchen Sie es erneut.",
           "terminal": "Es gab ein Problem mit {{walletName}}. Verwenden Sie eine andere Zahlungsmethode.",
           "detour": {
             "stock_problems": "Einige Artikel sind nicht mehr verfügbar. Schließen Sie {{walletName}} und versuchen Sie es erneut.",
-            "price_change": "Einige Artikelpreise haben sich geändert. Schließe {{walletName}}, um deine Bestellung zu überprüfen und es erneut zu versuchen.",
-            "queue": "Sie wurden in eine Warteschlange zum Bezahlen eingereiht. Schließen Sie {{walletName}}, um fortzufahren.",
-            "currency_change": "Sie können mit {{walletName}} keine andere Adresse verwenden. Nutzen Sie die ursprüngliche Adresse oder probieren Sie eine andere Zahlungsmethode aus."
+            "price_change": "Einige Artikelpreise wurden geändert. Schließe {{walletName}}, um deine Bestellung anzusehen und es erneut zu versuchen.",
+            "queue": "Du wurdest in eine Warteschlange zum Bezahlen eingereiht. Schließe {{walletName}}, um fortzufahren.",
+            "currency_change": "Du kannst keine andere Adresse mit {{walletName}} verwenden. Nutze die ursprüngliche Adresse oder versuche eine andere Zahlungsmethode."
           },
           "unsupported": {
             "address": "Der Händler kann an diese Adresse nicht liefern",
@@ -2750,21 +2751,21 @@
           },
           "outdated": {
             "shipping_method": "Die Versandoptionen für Ihre Bestellung haben sich geändert. Überprüfen Sie Ihre Auswahl.",
-            "payment_terms": "Die Zahlungsbedingungen haben sich geändert. Überprüfen Sie Ihre Bestellung"
+            "payment_terms": "Die Zahlungsbedingungen wurden geändert. Bitte überprüfen Sie Ihre Bestellung"
           },
           "invalid": {
-            "shipping_address": "Geben Sie eine gültige Versandadresse ein",
+            "shipping_address": "Geben Sie eine gültige Lieferadresse ein",
             "billing_address": "Geben Sie eine gültige Rechnungsadresse ein",
-            "shipping_option": "Wählen Sie eine gültige Versandoption",
+            "shipping_option": "Wählen Sie eine gültige Versandart aus",
             "email": "Geben Sie eine gültige E-Mail-Adresse ein",
             "zone": "Geben Sie einen gültigen Bundesstaat / eine gültige Provinz ein",
-            "billing_zone": "Geben Sie einen gültigen Bundesland-/Provinz der Rechnungsadresse ein",
-            "emirate": "Geben Sie ein gültiges Emirat ein",
+            "billing_zone": "Geben Sie einen gültigen Bundesstaat / eine gültige Provinz der Rechnungsadresse ein",
+            "emirate": "Geben Sie eine gültige Emirate ein",
             "postal_code": "Geben Sie eine gültige Postleitzahl ein",
             "phone": "Geben Sie eine gültige Telefonnummer ein",
-            "billing_phone": "Geben Sie eine gültige Telefonnummer der Rechnungsadresse ein",
-            "reduction_code": "Geben Sie einen gültigen Rabattcode oder eine Geschenkkarte ein",
-            "billing_zip": "Geben Sie eine gültige Rechnungsadresse PLZ / Postleitzahl ein"
+            "billing_phone": "Geben Sie eine gültige Telefonnummer für die Rechnungsadresse ein",
+            "reduction_code": "Geben Sie einen gültigen Rabattcode oder Gutschein ein",
+            "billing_zip": "Geben Sie eine gültige Postleitzahl für die Rechnungsadresse ein"
           },
           "missing": {
             "first_name": "Geben Sie einen Vornamen ein",
@@ -2772,22 +2773,23 @@
             "last_name": "Geben Sie einen Nachnamen ein",
             "address1": "Geben Sie eine Adresse ein",
             "billing_address1": "Geben Sie eine Rechnungsadresse ein",
-            "address2": "Geben Sie eine Wohnung, Suite usw. ein.",
-            "billing_address2": "Geben Sie eine Rechnungsadresse, Wohnung, Suite usw. ein.",
+            "address2": "Geben Sie ein Apartment, eine Suite usw. ein.",
+            "billing_address2": "Geben Sie eine Rechnungsadresse ein, Apartment, Suite usw.",
             "city": "Geben Sie eine Stadt ein",
-            "billing_city": "Geben Sie eine Rechnungsadresse Stadt ein",
+            "billing_city": "Geben Sie eine Rechnungsadressstadt ein",
             "province": "Wählen Sie einen Bundesstaat / eine Provinz aus",
-            "billing_province": "Wählen Sie einen Bundesstaat / eine Provinz für die Rechnungsadresse aus",
+            "billing_province": "Wählen Sie eine Rechnungsadresse Provinz / Region aus",
             "country": "Wählen Sie ein Land/Region aus",
             "zip": "Geben Sie eine Postleitzahl ein",
-            "billing_zip": "Geben Sie eine Rechnungsadresse PLZ / Postleitzahl ein",
-            "phone": "Geben Sie eine Telefonnummer ein"
+            "billing_zip": "Geben Sie eine Rechnungsadresse Postleitzahl ein",
+            "phone": "Geben Sie eine Telefonnummer ein",
+            "contact_info": "Geben Sie die Kontaktdaten ein"
           },
           "formatting": {
-            "name_contains_emojis": "Emoji aus deinem Namen entfernen",
+            "name_contains_emojis": "Entferne Emojis aus deinem Namen",
             "postal_code_contains_emoji": "Entfernen Sie Emojis aus Ihrer Postleitzahl",
-            "first_name_too_long": "Der Vorname enthält zu viele Buchstaben",
-            "last_name_too_long": "Der Nachname enthält zu viele Buchstaben"
+            "first_name_too_long": "Vorname enthält zu viele Buchstaben",
+            "last_name_too_long": "Nachname enthält zu viele Buchstaben"
           },
           "select_different_shipping_address_to_resolve_errors": "Ihre Versandadresse ist ungültig. Wählen Sie eine andere Adresse oder verwenden Sie eine neue."
         },
@@ -2795,7 +2797,8 @@
           "continue_purchase_in_window": "Fahren Sie mit Ihrem Kauf im {{walletName}} Fenster fort",
           "and_return_to_checkout": "und kehre zur Kasse zurück"
         },
-        "place_order": "Bestellung aufgeben"
+        "place_order": "Bestellung aufgeben",
+        "call_to_action": "Bezahlen mit {{walletName}}"
       },
       "note": {
         "length_exceeds_maximum": "Verringern Sie die Größe der Notiz auf 5000 oder weniger Zeichen."
@@ -2824,12 +2827,13 @@
         }
       },
       "units": {
-        "centiliter": "kl",
-        "meter": "xm",
+        "centiliter": "cl",
+        "meter": "m",
         "ounce": "Unze",
         "pound": "Pfund",
         "gallon": "Mädchen",
-        "inch": "ein"
+        "inch": "in",
+        "fluid_ounce": "flüssiger Ozon"
       },
       "memberships": {
         "delivery_promise_unfulfillable": "Die Adresse wird für die aktuelle Mitgliedschaft nicht unterstützt.",
@@ -3009,6 +3013,11 @@
         "credit_card_expires_on_notice": "Läuft ab am %{month}/%{year}",
         "express_payment_gateway_label": "Drucken aus",
         "manual_payment_gateway_label": "Anleitung"
+      },
+      "too_many_requests": {
+        "title": "Zu viele Versuche, den Bezahlvorgang abzuschließen",
+        "body": "Bitte warten Sie ein paar Minuten und versuchen Sie es erneut von Ihrem Warenkorb aus.",
+        "body_no_cart": "Warten Sie ein paar Minuten und versuchen Sie es erneut."
       }
     },
     "sentence": {
