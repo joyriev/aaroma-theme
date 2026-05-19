@@ -2385,7 +2385,8 @@
             "currency_change": "You cannot use a different address with {{walletName}}. Use the original address, or try another payment method."
           },
           "outdated": {
-            "payment_terms": "The payment terms have changed. Please check your order"
+            "payment_terms": "The payment terms have changed. Please check your order",
+            "shipping_method": "The shipping options for your order have been changed. Please check your selection."
           },
           "invalid": {
             "shipping_address": "Enter a valid delivery address",
@@ -2413,8 +2414,35 @@
             "name_contains_emojis": "Remove emoji from your name",
             "postal_code_contains_emoji": "Remove emoji from your postal code"
           },
-          "discount_code": "Cannot apply this discount code. Please check your code and try again."
-        }
+          "discount_code": "Cannot apply this discount code. Please check your code and try again.",
+          "unavailable": {
+            "description": "{{walletName}} was not available. Please use another payment method or try again later.",
+            "instructions": "There was a problem with {{walletName}}. Go back to the store to try again or choose another payment method.",
+            "unavailable_for_country": "{{walletName}} is not available in {{countryName}}. Choose another payment method to complete your purchase"
+          },
+          "terminal": "There was a problem with {{walletName}}. Please use a different payment method.",
+          "unsupported": {
+            "address": "The merchant cannot deliver to this address",
+            "postal_code": "This location is not supported",
+            "wallet_is_unavailable": "{{walletName}} cannot be used with this address. Choose a different address or close {{walletName}} to complete your purchase"
+          },
+          "select_different_shipping_address_to_resolve_errors": "Your shipping address is invalid. Please choose a different address or use a new address.",
+          "unavailable_terminal": {
+            "instructions": "{{walletName}} is currently not available for your order. To continue your purchase, please choose another payment method."
+          },
+          "processing_error_checkout_as_guest": "There was a problem processing your payment. Please try again or {{checkout_as_guest_link}}."
+        },
+        "return_to_store": "Back to shop",
+        "redirect_hint": "You are asked to log in with {{walletName}}.",
+        "logged_in": "Connected with {{email}}",
+        "payment_in_progress_body": "Your payment is being processed. Your order will be completed shortly.",
+        "redirection_notice": "You will be redirected to {{walletName}} to complete your purchase",
+        "return_to_checkout": "Back to checkout",
+        "scrim": {
+          "continue_purchase_in_window": "Continue with your purchase in the {{walletName}} window",
+          "and_return_to_checkout": "and back to Checkout"
+        },
+        "recovery_notice": "There is a problem with your order details. Please update your information to complete the payment."
       }
     },
     "addresses": {
@@ -2430,6 +2458,41 @@
       "message": "To continue, please let us know that you are not a robot.",
       "error": "Your answer was not correct, please try again.",
       "submit_button_text": "Shipping"
+    },
+    "collections": {
+      "sorting": {
+        "best_selling": "Best-selling",
+        "price_ascending": "Price, from low to high",
+        "price_descending": "Price, from high to low"
+      }
+    },
+    "checkpoint": {
+      "message": "Solve the captcha to continue",
+      "submit_button_text": "Shipping"
+    },
+    "email_marketing": {
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>You have signed up to track the opening of emails.</b>",
+          "visibility": "Email open rates are reported anonymously. We will only see if you have opened an email as part of a combined email open rate.",
+          "opt_out_html": "You can <a style='text-decoration:underline;' href='%{link}'>unsubscribe</a> from tracking email opens if you do not want to share this information.",
+          "preview_bar": "You are viewing a preview of what customers will see when they choose to track the opening of emails."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>You have unsubscribed from tracking the opening of emails.</b>",
+          "visibility": "We will not see if you have opened our emails.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Sign up</a> to track the opening of emails.",
+          "preview_bar": "You are viewing a preview of what customers will see when they unsubscribe from email open tracking."
+        },
+        "no_longer_track": {
+          "status_html": "<b>We no longer track any email openings.</b>",
+          "privacy_policy": "After this email was sent, we updated our privacy policy and no longer track message openings."
+        },
+        "track": {
+          "status_html": "<b>Email opening is being tracked.</b>",
+          "visibility": "We will only see if you have opened the email as part of the total percentage of opened emails."
+        }
+      }
     }
   },
   "customer_accounts": {
