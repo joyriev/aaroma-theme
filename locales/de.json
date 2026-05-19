@@ -427,12 +427,12 @@
       "create_account": "Konto erstellen",
       "email": "E-Mail",
       "forgot_password": "Passwort vergessen?",
-      "guest_continue": "Fortsetzen",
+      "guest_continue": "Fortfahren",
       "guest_title": "Als Gast fortfahren",
       "password": "Passwort",
       "title": "Anmelden",
       "sign_in": "Anmelden",
-      "submit": "Absenden",
+      "submit": "Versenden",
       "alternate_provider_separator": "oder"
     },
     "orders": {
@@ -441,9 +441,9 @@
       "order_number_link": "Bestellnummer {{ number }}",
       "date": "Datum",
       "payment_status": "Zahlungsstatus",
-      "fulfillment_status": "Erfüllungsstatus",
+      "fulfillment_status": "Bestellstatus",
       "total": "Gesamt",
-      "none": "Sie haben noch keine Bestellungen aufgegeben."
+      "none": "Du hast noch keine Bestellungen aufgegeben."
     },
     "recover_password": {
       "title": "Setzen Sie Ihr Passwort zurück",
@@ -466,30 +466,30 @@
       "submit": "Passwort zurücksetzen"
     },
     "order": {
-      "title": "Bestellen Sie {{ name }}",
-      "date_html": "Platziert am {{ date }}",
-      "cancelled_html": "Bestellung am {{ date }} storniert",
-      "cancelled_reason": "Grund: {{ reason }}",
+      "title": "Bestelle {{ name }}",
+      "date_html": "Veröffentlicht am {{ date }}",
+      "cancelled_html": "Bestellung storniert am {{ date }}",
+      "cancelled_reason": "Gründe: {{ reason }}",
       "billing_address": "Rechnungsadresse",
       "payment_status": "Zahlungsstatus",
       "shipping_address": "Lieferadresse",
-      "fulfillment_status": "Erfüllungsstatus",
+      "fulfillment_status": "Bestellstatus",
       "discount": "Rabatt",
       "shipping": "Versand",
-      "tax": "Steuer",
+      "tax": "Belastung",
       "product": "Produkt",
       "sku": "Artikelnummer",
       "price": "Preis",
-      "quantity": "Menge",
-      "total": "Gesamt",
-      "fulfilled_at_html": "Erfüllt am {{ date }}",
+      "quantity": "Anzahl",
+      "total": "Insgesamt",
+      "fulfilled_at_html": "Versendet {{ date }}",
       "track_shipment": "Sendung verfolgen",
-      "tracking_url": "Tracking-Link",
-      "tracking_company": "Anbieter",
-      "tracking_number": "Sendungsnummer",
+      "tracking_url": "Folgelink",
+      "tracking_company": "Dräger",
+      "tracking_number": "Losnummer",
       "subtotal": "Zwischensumme",
-      "total_duties": "Zölle",
-      "total_refunded": "Erstattet"
+      "total_duties": "Steuern",
+      "total_refunded": "Zurückerstattet"
     }
   },
   "gift_cards": {
