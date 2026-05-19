@@ -802,7 +802,42 @@
         "discount_code_replaced": "Discount code %{old_code} removed and %{code} applied",
         "from_multiple_stores_heading": "From multiple shops",
         "discount_applies_to_subscription_items_only": "This discount applies only to subscription items",
-        "estimated_taxes_finalization_tooltip_content_short": "Tax assessed after payment"
+        "estimated_taxes_finalization_tooltip_content_short": "Tax assessed after payment",
+        "gift_card_title": "Gift voucher",
+        "gift_card_label": "Gift voucher",
+        "gift_card_placeholder": "Gift voucher",
+        "gift_card_and_discount_title": "Discount code or gift voucher",
+        "gift_card_and_discount_label": "Discount code or gift voucher",
+        "gift_card_and_discount_placeholder": "Discount code or gift voucher",
+        "gift_card_has_been_applied": "Gift voucher has been applied",
+        "gift_card_has_been_removed": "Gift voucher has been removed",
+        "gift_card_savings_notice": "On %{gift_card_amount} in gift cards",
+        "pickup_label": "Pick up in the shop",
+        "gift_card_ending": "Gift card ending in %{last_characters}",
+        "gift_card_subscriptions_notice": "Gift vouchers apply only to your first payment",
+        "percent_off_shipping": "%{percent}% discount on shipping",
+        "payment_terms_totals": {
+          "due_today": "Total to pay today",
+          "due_later": "Total to pay %{due_at}",
+          "due_later_checkout_to_draft": "Total to be paid later",
+          "due_on_fulfillment": "Total to be paid upon delivery",
+          "due_on_receipt": "Total to be paid upon receipt",
+          "due_today_next": "Expiration date today",
+          "due_on_fulfillment_next": "Expiration date upon execution"
+        },
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> could not be used in combination with your existing discounts.",
+        "maximum_discount_code_limit_reached": "You have reached the maximum number of discount codes. Remove an existing code to use <strong style=\"text-transform:uppercase\">%{code}</strong>.",
+        "order_total_label": "Order total",
+        "may_be_charged_on_delivery": "Can be paid upon delivery",
+        "gift_card_applied": "Gift voucher applied",
+        "more_items_modal": {
+          "clear_search": "Clear search query"
+        },
+        "number_items": {
+          "one": "%{count} items"
+        },
+        "order_discounts_apply_to_local_shop": "Discounts on orders apply only to items from %{shop_name}",
+        "gift_cards_apply_to_local_shop": "Gift vouchers are only valid for items from %{shop_name}"
       },
       "shipping": {
         "duties_and_taxes_title": "Customs duties and taxes"
