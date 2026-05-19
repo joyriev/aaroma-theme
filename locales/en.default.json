@@ -1743,7 +1743,48 @@
         }
       },
       "remote_merchandise_only": {
-        "checkout_on_shop_label": "Checkout at %{shop_name}"
+        "checkout_on_shop_label": "Checkout at %{shop_name}",
+        "remote_only_notice": "These items are sold and shipped by other stores. Complete your purchase separately at each store.",
+        "return_to_store_label": "Back to shop",
+        "single_shop_transition": "We will direct you to %{advertiser} to complete your purchase.",
+        "detail_item_label": {
+          "one": "{{count}} items"
+        }
+      },
+      "review": {
+        "title": "Assessment",
+        "checkout_as_guest": "Checkout as guest",
+        "blocks": {
+          "contact_method_title": "Get in touch",
+          "shipping_address_title": "Shipping to",
+          "change_contact_method_link_label": "Change contact details",
+          "change_purchase_order_number_label": "Change purchase order number",
+          "no_purchase_order_number": "(No purchase order number)",
+          "due_after_order_reviewed_html": "Owed after the order has been reviewed",
+          "company_location": "Business location",
+          "change_company_location_link_label": "Change company address",
+          "pickup_items_at": {
+            "one": "Pick up %{count} item(s) at",
+            "other": "Pick up %{count} items at"
+          }
+        },
+        "block_title": "Check your details",
+        "checkout_a_different_way": "Try another way"
+      },
+      "review_address_modal": {
+        "subtitle": {
+          "other": "This order will be shipped to an address provided by {{merchant}}. Choose a shipping address."
+        },
+        "subtitle_no_match": "This address does not match any of your saved addresses.",
+        "return_to_cart": "Back to shopping cart"
+      },
+      "remote_policies": {
+        "unavailable_policy": "No %{policy_name} has been specified for this store. For more information, you can contact %{shop_name} directly."
+      },
+      "required_extensions": {
+        "errors": {
+          "interaction_required": "An extension interaction is required to complete the handling."
+        }
       }
     },
     "addresses": {
