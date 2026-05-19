@@ -2427,7 +2427,7 @@
         "recurring_totals_with_initial_order_shipping_discount": "Erste Zahlung %{total_price_with_discount}, danach %{recurring_total}",
         "recurring_totals_with_policies": {
           "first_cycles": {
-            "other": "Erste %{count} Zahlungen jeweils %{total_price}"
+            "other": "Erste %{count} Zahlungen von jeweils %{total_price}"
           },
           "following_cycles": ", dann %{total_price} alle %{interval}"
         },
@@ -2845,55 +2845,55 @@
         "vat_number": {
           "field": {
             "label": "Umsatzsteuer-Identifikationsnummer (optional)",
-            "tooltip": "Validiert die USt-IdNr. und wendet bei berechtigten Bestellungen automatisch das Reverse-Charge-Verfahren an"
+            "tooltip": "Validiert die Umsatzsteuer-Identifikationsnummer und wendet automatisch die Umkehrung der Steuerschuldnerschaft auf Bestellungen an, wenn dies zutrifft"
           },
-          "add": "Eine Umsatzsteuer-Identifikationsnummer hinzufügen",
+          "add": "Fügen Sie eine Umsatzsteuer-Identifikationsnummer hinzu",
           "vaulted": "Umsatzsteuer-Identifikationsnummer: %{number}",
-          "badge": "Umsatzsteuer-Identifikationsnummer: %{number}",
-          "domestic_order": "Die Umkehrung der Steuerschuldnerschaft gilt nur für grenzüberschreitende Bestellungen innerhalb der EU. Für lokale Bestellungen wird die reguläre Mehrwertsteuer berechnet.",
+          "badge": "BTW-Nummer: %{number}",
+          "domestic_order": "Die Verlegungsregelung gilt nur für grenzüberschreitende Bestellungen innerhalb der EU. Für lokale Bestellungen wird die Standard-Mehrwertsteuer berechnet.",
           "status": {
             "invalid_format": {
-              "at": "Österreichische USt-IdNr. enthalten AT und 9 Zeichen",
+              "at": "Österreichische Umsatzsteuernummern enthalten AT und 9 Zeichen",
               "be": "Belgische Mehrwertsteuernummern enthalten BE und 10 Zeichen",
-              "bg": "Bulgarische USt-IdNr. enthalten BG und 9-10 Zeichen",
-              "hr": "Kroatien-Umsatzsteuernummern enthalten HR und 11 Zeichen",
-              "cy": "Zypriotische Mehrwertsteuernummern enthalten CY und 9 Zeichen",
-              "cz": "Umsatzsteuer-Identifikationsnummern der Tschechischen Republik enthalten CZ und 8-10 Zeichen",
-              "dk": "Dänische Mehrwertsteuernummern enthalten DK und 8 Zeichen",
-              "ee": "Estnische Umsatzsteuer-Identifikationsnummern enthalten EE und 9 Zeichen",
-              "fi": "Finnische Mehrwertsteuernummern enthalten FI und 8 Zeichen",
+              "bg": "Bulgarische USt-Nummern enthalten BG und 9-10 Zeichen",
+              "hr": "Kroatische USt-Nummern enthalten HR und 11 Zeichen",
+              "cy": "Zypern USt-Nummern enthalten CY und 9 Zeichen",
+              "cz": "Tschechische USt-Nummern enthalten CZ und 8-10 Zeichen",
+              "dk": "Dänische USt-Nummer enthält DK und 8 Zeichen",
+              "ee": "Estnische USt-Nummern enthalten EE und 9 Zeichen",
+              "fi": "Finse USt-IdNr. enthalten FI und 8 Zeichen",
               "fr": "Französische Mehrwertsteuernummern enthalten FR und 11 Zeichen",
-              "de": "Deutsche Umsatzsteuer-Identifikationsnummern enthalten DE und 9 Zeichen",
-              "gr": "Griechische Umsatzsteuer-Identifikationsnummern enthalten EL und 9 Zeichen",
-              "hu": "Ungarische Umsatzsteuer-Identifikationsnummern enthalten HU und 8 Zeichen",
-              "ie": "Irische Mehrwertsteuernummern enthalten IE und 8-9 Zeichen",
-              "it": "Italienische Umsatzsteuer-Identifikationsnummern enthalten IT und 11 Zeichen",
-              "lv": "Lettische USt-Nummern enthalten LV und 11 Zeichen",
-              "lt": "Litauische USt-Nummern enthalten LT und 9-12 Zeichen",
+              "de": "Deutsche Mehrwertsteuernummern enthalten DE und 9 Zeichen",
+              "gr": "Griechische USt-Nummern enthalten EL und 9 Zeichen",
+              "hu": "Ungarische Mehrwertsteuernummern enthalten HU und 8 Zeichen",
+              "ie": "Irische USt-Nummern enthalten IE und 8-9 Zeichen",
+              "it": "Italienische Mehrwertsteuernummern enthalten IT und 11 Zeichen",
+              "lv": "Letzte btw-Nummern enthalten LV und 11 Zeichen",
+              "lt": "Litauische Mehrwertsteuernummern enthalten LT und 9-12 Zeichen",
               "lu": "Luxemburgische Mehrwertsteuernummern enthalten LU und 8 Zeichen",
-              "mt": "Maltesische Mehrwertsteuernummern enthalten MT und 8 Zeichen",
-              "nl": "Niederländische Umsatzsteuer-Identifikationsnummern enthalten NL und 12 Zeichen",
-              "pl": "Polnische USt-IdNr. enthalten PL und 10 Zeichen",
-              "pt": "Portugiesische Mehrwertsteuernummern enthalten PT und 9 Zeichen",
-              "ro": "Rumänische Umsatzsteuer-Identifikationsnummern enthalten RO und 10 Zeichen",
+              "mt": "Maltesische USt-Nummern enthalten MT und 8 Zeichen",
+              "nl": "Niederländische Mehrwertsteuernummern enthalten NL und 12 Zeichen",
+              "pl": "Polnische USt-Nummern enthalten PL und 10 Zeichen",
+              "pt": "Portugiesische USt-Nummern enthalten PT und 9 Zeichen",
+              "ro": "Rumänische USt-Nummern enthalten RO und 10 Zeichen",
               "sk": "Slowakische Mehrwertsteuernummern enthalten SK und 10 Zeichen",
-              "si": "Slowenische Umsatzsteuer-Identifikationsnummern enthalten SI und 8 Zeichen",
-              "es": "Spanische Umsatzsteuer-Identifikationsnummern enthalten ES und 9 Zeichen",
-              "se": "Schwedische Mehrwertsteuernummern enthalten SE und 12 Zeichen",
-              "gb": "Die Mehrwertsteuernummern des Vereinigten Königreichs enthalten GB oder XI und 5-12 Zeichen"
+              "si": "Slowenische Mehrwertsteuernummern enthalten SI und 8 Zeichen",
+              "es": "Spanische Mehrwertsteuernummern enthalten ES und 9 Zeichen",
+              "se": "Schwedische USt-Nummern enthalten SE und 12 Zeichen",
+              "gb": "Britische Mehrwertsteuernummern enthalten GB oder XI und 5-12 Zeichen"
             },
             "invalid_number": {
-              "at": "Geben Sie eine gültige österreichische USt-IdNr. ein",
-              "be": "Geben Sie eine gültige belgische USt-IdNr. ein",
-              "bg": "Geben Sie eine gültige bulgarische USt-IdNr. ein",
+              "at": "Geben Sie eine gültige österreichische Umsatzsteuer-Identifikationsnummer ein",
+              "be": "Geben Sie eine gültige belgische Umsatzsteuer-Identifikationsnummer ein",
+              "bg": "Geben Sie eine gültige bulgarische Umsatzsteuer-Identifikationsnummer ein",
               "hr": "Geben Sie eine gültige kroatische USt-IdNr. ein",
-              "cy": "Geben Sie eine gültige zypriotische USt-IdNr. ein",
-              "cz": "Geben Sie eine gültige tschechische USt-IdNr. ein",
+              "cy": "Geben Sie eine gültige zypriotische Umsatzsteuer-Identifikationsnummer ein",
+              "cz": "Geben Sie eine gültige tschechische Umsatzsteuer-Identifikationsnummer ein",
               "dk": "Geben Sie eine gültige dänische USt-IdNr. ein",
               "ee": "Geben Sie eine gültige estnische USt-IdNr. ein",
               "fi": "Geben Sie eine gültige finnische USt-IdNr. ein",
               "fr": "Geben Sie eine gültige französische Umsatzsteuer-Identifikationsnummer ein",
-              "de": "Geben Sie eine gültige deutsche USt-IdNr. ein",
+              "de": "Geben Sie eine gültige deutsche Umsatzsteuer-Identifikationsnummer ein",
               "gr": "Geben Sie eine gültige griechische USt-IdNr. ein",
               "hu": "Geben Sie eine gültige ungarische USt-IdNr. ein",
               "ie": "Geben Sie eine gültige irische USt-IdNr. ein",
@@ -2914,6 +2914,17 @@
             },
             "service_unavailable": "Validierungs-Gottesdienst nicht verfügbar",
             "service_error": "Validierungs-Gottesdienst nicht verfügbar"
+          },
+          "accessibility": {
+            "status": {
+              "validating": "Die Überprüfung der Umsatzsteuer-Identifikationsnummer läuft gerade.",
+              "valid": "Die BTW-Nummer ist gültig",
+              "applied": "Mehrwertsteuerbefreiung wurde angewendet",
+              "domestic": "Mehrwertsteuerbefreiung nicht angewendet",
+              "invalid_number": "Mehrwertsteuerbefreiung fehlgeschlagen",
+              "service_unavailable": "Nicht in der Lage, die Mehrwertsteuerbefreiung zu überprüfen",
+              "service_error": "Nicht in der Lage, die Mehrwertsteuerbefreiung zu überprüfen"
+            }
           }
         }
       },

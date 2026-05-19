@@ -2365,13 +2365,56 @@
         "fluid_ounce": "liquid oz",
         "gallon": "girl",
         "foot": "foot",
-        "item": "article"
+        "item": "article",
+        "square_meter": "square meters",
+        "pound": "pound",
+        "square_foot": "square feet"
       },
       "too_many_requests": {
         "title": "Too many attempts to check out",
         "body": "Please wait a few minutes and try again from your shopping cart.",
         "return_to_cart": "Back to shopping cart",
         "body_no_cart": "Wait a few minutes and try again."
+      },
+      "wallets": {
+        "errors": {
+          "generic": "There was a problem with {{walletName}}. Please try again or use a different payment method.",
+          "detour": {
+            "price_change": "Some item prices have changed. Close {{walletName}} to view your order and try again.",
+            "queue": "You have been placed in a queue to check out. Close {{walletName}} to continue.",
+            "currency_change": "You cannot use a different address with {{walletName}}. Use the original address, or try another payment method."
+          },
+          "outdated": {
+            "payment_terms": "The payment terms have changed. Please check your order"
+          },
+          "invalid": {
+            "shipping_address": "Enter a valid delivery address",
+            "email": "Enter a valid email address",
+            "zone": "Enter a valid state/province",
+            "postal_code": "Enter a valid postal code",
+            "reduction_code": "Enter a valid discount code or gift voucher",
+            "billing_must_match_shipping": "Must match the delivery address",
+            "phone": "Enter a valid telephone number",
+            "billing_zone": "Enter a valid state/province of the billing address",
+            "billing_phone": "Enter a valid telephone number for the billing address",
+            "billing_zip": "Enter a valid postal code for the billing address"
+          },
+          "missing": {
+            "city": "Enter a town",
+            "zip": "Enter a postal code",
+            "phone": "Enter a telephone number",
+            "billing_first_name": "Enter a first name for the billing address",
+            "billing_address2": "Enter a billing address, apartment, suite, etc.",
+            "billing_province": "Select an invoice address province / region",
+            "billing_zip": "Enter a billing address postal code",
+            "contact_info": "Enter contact details"
+          },
+          "formatting": {
+            "name_contains_emojis": "Remove emoji from your name",
+            "postal_code_contains_emoji": "Remove emoji from your postal code"
+          },
+          "discount_code": "Cannot apply this discount code. Please check your code and try again."
+        }
       }
     },
     "addresses": {
