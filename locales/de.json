@@ -532,12 +532,12 @@
         },
         "crypto_modal": {
           "error": {
-            "refresh": "Aktualisieren",
+            "refresh": "Erneuern",
             "close": "schließen",
-            "sandbox_error": "Etwas ist schiefgelaufen",
+            "sandbox_error": "Es ist etwas schiefgelaufen",
             "web_component_error": "Beim Laden dieser Seite ist ein Problem aufgetreten"
           },
-          "header": "Zahle %{total_price} USDC bei %{shop_name}"
+          "header": "Bezahlen Sie %{shop_name} %{total_price} USDC"
         },
         "network_card_payment_options": "Wählen Sie ein Kartennetzwerk",
         "network_card_persistence_description": "Das ausgewählte Netzwerk wird zusammen mit Ihrer Zahlungsmethode für zukünftige Transaktionen gespeichert.",
@@ -547,10 +547,10 @@
         "amazon_payments_abandoned_mfa_challenge": "Ihre Zahlung konnte nicht abgeschlossen werden. Versuchen Sie eine andere Zahlungsmethode oder wenden Sie sich an Ihre Bank oder Kartenherausgeber.",
         "amazon_payments_could_not_enqueue_authorize": "Bei der Verarbeitung Ihrer Zahlung ist ein Problem aufgetreten. Bitte versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
         "amount_left_to_pay_label": "Zahlung fällig:",
-        "discount_button_action_label": "Rabattcode Anwenden",
+        "discount_button_action_label": "Rabattcode anwenden",
         "discount_show_more_warnings": {
-          "one": "Zeige %{count} weitere",
-          "other": "Zeige %{count} weitere"
+          "one": "Zeige noch %{count} mehr",
+          "other": "Zeige noch %{count} mehr"
         },
         "gift_card_code_label": "Geschenkkartencode",
         "gift_card_balance_label": "Gleichgewicht:",
@@ -567,7 +567,7 @@
         "card_expiry_placeholder": "Verfallsdatum (MM / JJ)",
         "credit_card_start_month": "Startmonat",
         "credit_card_start_year": "Startjahr",
-        "delete_customer_mandate_modal_body": "Wenn Sie diese Karte entfernen, müssen Sie sie erneut hinzufügen, bevor Sie sie für Zahlungen verwenden können.",
+        "delete_customer_mandate_modal_body": "Wenn Sie diese Karte entfernen, müssen Sie sie erneut hinzufügen, bevor Sie damit bezahlen können.",
         "delete_customer_mandate_modal_cancel": "Abbrechen",
         "card_verification_confirm": "Geben Sie zur Überprüfung den Sicherheitscode Ihrer Karte ein.",
         "card_expiry_date_explanation": "Kartenablaufdatum im Format: Monat, Monat, Jahr, Jahr",
@@ -579,11 +579,14 @@
         "card_issue_number_label": "Ausgabennummer",
         "card_issue_number_placeholder": "Ausgabennummer",
         "paypal_disconnect": "Trennen",
-        "expiry_long": "(Läuft ab %{month}/%{year})",
-        "expiry_short": "(Verf. %{month}/%{year})",
+        "expiry_long": "(Verfällt %{month}/%{year})",
+        "expiry_short": "(Verfällt %{month}/%{year})",
         "crypto_payment_method": {
-          "description": "Sichere Verbindung zu Ihrer Wallet im Base-Netzwerk herstellen",
-          "tooltip": "Ihr Wallet-Guthaben und Ihre Adresse werden nicht geteilt und nur der angeforderte Betrag kann abgebucht werden"
+          "description": "Stellen Sie eine sichere Verbindung mit Ihrer Geldbörse im Base-Netzwerk her",
+          "tooltip": "Ihr Geldbeutelguthaben und Ihre Adresse werden nicht weitergegeben, und nur der angeforderte Betrag kann abgebucht werden",
+          "cashback_descriptor": {
+            "one": "Du erhältst dein Cashback nach %{count} Tagen"
+          }
         },
         "saved_by_payment_method": "Gespeichert durch %{payment_method}",
         "pay_with_payment_method": "Bezahlen mit %{payment_method}",
@@ -592,7 +595,7 @@
         "billing_address_associated_with_mandate": "Verwenden Sie die Adresse, die mit der Zahlungsmethode verknüpft ist",
         "billing_address_associated_with_mandate_info": "Wenn Sie Ihre Rechnungsadresse ändern möchten, löschen Sie bitte Ihre Kreditkartendaten und geben Sie sie erneut ein",
         "free_order_notice_html": "Ihre Bestellung ist <strong>kostenlos</strong>. Keine Zahlung ist erforderlich.",
-        "express_checkout_free_order": "Für eine kostenlose Bestellung wird Ihnen nichts berechnet",
+        "express_checkout_free_order": "Du wirst für eine kostenlose Bestellung nicht belastet.",
         "order_covered_by_gift_cards_notice": {
           "one": "Ihre Bestellung wird durch Ihre Geschenkkarte abgedeckt.",
           "other": "Ihre Bestellung wird durch Ihre Geschenkkarten abgedeckt."
@@ -725,19 +728,23 @@
           "cancel": "Abbrechen"
         },
         "delete_credit_card_modal": {
-          "confirmation": "Sind Sie sicher, dass Sie das {{brandName}} mit der Endung {{lastDigits}} löschen möchten?",
-          "cancel": "Abbrechen"
+          "confirmation": "Bist du sicher, dass du das {{brandName}}, das auf {{lastDigits}} endet, löschen möchtest?",
+          "cancel": "Abbrechen",
+          "title": "Karte entfernen",
+          "delete": "Entfernen"
         },
         "edit_credit_card_modal": {
           "cancel": "Abbrechen",
           "description": "Sie können nur die Rechnungsadresse Ihrer Karte ändern.",
           "fields": {
-            "name": "Name auf der Karte"
+            "name": "Name auf der Karte",
+            "expiry": "Verfallsdatum",
+            "billing": "Rechnung stellen an"
           }
         },
         "expired_cards_info": {
-          "one": "Es gibt %{count} abgelaufene Karte, die Sie in Ihrem Konto ansehen und bearbeiten können.",
-          "other": "Es gibt %{count} abgelaufene Karten, die Sie in Ihrem Konto ansehen und bearbeiten können."
+          "one": "Es gibt %{count} abgelaufene Karte, die du in deinem Konto ansehen und bearbeiten kannst.",
+          "other": "Es gibt %{count} abgelaufene Karten, die du in deinem Konto ansehen und bearbeiten kannst."
         },
         "local_payment_method_receiver_notice": "Nachdem Sie Ihre Bestellung aufgegeben haben, erhalten Sie die Zahlungsdetails. Tätigen Sie die Zahlung an einem Geldautomaten oder online innerhalb von {{dueDays}} Tagen.",
         "order_edit_banner_title": "Zahlung von {{amount_owed}} ist erforderlich",
@@ -775,7 +782,7 @@
         },
         "gift_card_checkbox_label": "Geschenkkarte anwenden",
         "custom_onsite_payment_method_modal": {
-          "title": "Benutzerdefinierte Vor-Ort-Zahlungsbestätigung"
+          "title": "Angepasste Zahlungsbestätigung vor Ort"
         },
         "markets_pro_disclaimer_label": "Indem Sie Ihre Bestellung aufgeben, erklären Sie sich damit einverstanden, bei Global-e als Händler im Register zu kaufen, unterliegt den %{markets_pro_terms} und %{privacy_policy} von Global-e und teilen Ihre Informationen mit %{shop_name}.",
         "markets_pro_disclaimer_terms_and_conditions": "Allgemeine Geschäftsbedingungen",
@@ -809,7 +816,22 @@
         "card_expiration_year_label": "Verfallsjahr",
         "card_information_notice": "Alle Transaktionen sind sicher und verschlüsselt. Kreditkartendaten werden niemals gespeichert.",
         "card_vaulted_company_location": "Karte für diesen Ort gespeichert",
-        "choose_new_payment_method": "Wählen Sie eine neue Zahlungsmethode aus"
+        "choose_new_payment_method": "Wählen Sie eine neue Zahlungsmethode aus",
+        "detected_card_brand": "Erkanntes Kartenzeichen: {brand}",
+        "ends_with_label": "endend auf %{last_digits}",
+        "different_billing_address_label": "Verwenden Sie eine andere Rechnungsadresse",
+        "expired_payment_method": "Die gewählte Zahlungsmethode ist abgelaufen",
+        "discount_codes_removed_summary": {
+          "other": "%{count} Gutscheincodes wurden entfernt"
+        },
+        "discount_codes_modified_summary": {
+          "one": "%{count} Rabattcode wurde angepasst",
+          "other": "%{count} Rabattcodes wurden angepasst"
+        },
+        "discount_codes_removed_or_modified_summary": {
+          "one": "%{count} Rabattcode wurde entfernt oder geändert",
+          "other": "%{count} Gutscheincodes wurden entfernt oder geändert"
+        }
       },
       "shipping_errors": {
         "unavailable_addresses_only_countries": "Ihre Bestellung kann nur an {{countriesList}} versandt werden. Fügen Sie eine neue Adresse hinzu, um fortzufahren.",

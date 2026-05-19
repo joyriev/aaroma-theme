@@ -608,7 +608,55 @@
         "bank_account_vaulted_company_location": "Compte bancaire enregistré pour ce lieu",
         "bank_account_generic_error": "Impossible d'ajouter le compte bancaire. Veuillez réessayer plus tard.",
         "add_payment_method": "Ajouter un mode de paiement",
-        "add_new_payment_method": "Ajoutez un nouveau mode de paiement"
+        "add_new_payment_method": "Ajoutez un nouveau mode de paiement",
+        "card_pay_with": "Payer avec :",
+        "card_security_notice": "Toutes les transactions sont sécurisées et cryptées.",
+        "card_expiry_label": "Date d'expiration (MM / AA)",
+        "card_expiry_placeholder": "Date d'expiration (MM / AA)",
+        "card_expiry_date_explanation": "Date d'expiration de la carte au format : mois, mois, année, année",
+        "card_verification_value_explanation": "Code de sécurité à 3 chiffres généralement situé au dos de votre carte. Les cartes American Express ont un code à 4 chiffres à l'avant.",
+        "card_verification_value_explanation_amex": "Code de sécurité à 4 chiffres au recto de votre carte",
+        "card_verification_value_explanation_other": "Code de sécurité à 3 chiffres au dos de votre carte",
+        "card_start_label": "Date de délivrance (MM / AA)",
+        "card_start_placeholder": "Date de délivrance (MM / AA)",
+        "card_issue_number_label": "Numéro d'édition",
+        "card_issue_number_placeholder": "Numéro d'édition",
+        "card_fields_container_prefix": "Conteneur à déchets pour :",
+        "card_fields_unavailable_html": {
+          "one": "Les paiements par carte de crédit et carte de débit ne sont actuellement pas disponibles.<br><a href=\"%{current_url}\">Actualisez cette page</a> ou réessayez plus tard.",
+          "other": "Les paiements par carte de crédit et carte bancaire ne sont actuellement pas disponibles.<br><a href=\"%{current_url}\">Actualisez cette page</a> ou essayez un autre mode de paiement."
+        },
+        "card_fields_processing_error": "Un problème est survenu lors du traitement du paiement. Veuillez actualiser cette page ou vérifier votre connexion Internet.",
+        "card_expiration_month_label": "Mois de traitement",
+        "card_expiration_year_label": "Date d'expiration année",
+        "card_information_notice": "Toutes les transactions sont sécurisées et cryptées. Les informations de carte de crédit ne sont jamais enregistrées.",
+        "credit_card_start_month": "Mois de début",
+        "credit_card_start_year": "Année de début",
+        "card_security_vault_notice": "Nous avons besoin de vos informations pour les paiements futurs. Toutes les transactions sont sécurisées et cryptées.",
+        "card_verification_confirm": "Saisissez le code de sécurité de votre carte à des fins de vérification.",
+        "credit_card_vaulting_sign_in_banner_title": "Enregistrez les informations de votre carte de crédit",
+        "credit_card_vaulting_sign_in_banner_info": "Connectez-vous ou créez un compte pour enregistrer votre carte de crédit pour de futurs achats.",
+        "credit_card_vaulting_sign_in_banner_button_label": "Connexion",
+        "clear": "Clair",
+        "billing_must_match_shipping_notice": "L'adresse de facturation de votre mode de paiement doit correspondre à l'adresse de livraison.",
+        "brand_not_available": "Ce magasin n'accepte pas {{brand}}. Utilisez une autre carte pour payer.",
+        "card_fields": {
+          "errors": {
+            "required": {
+              "issue_date": "Veuillez saisir une date de délivrance valide",
+              "issue_number": "Veuillez saisir un numéro de dépense valide"
+            },
+            "invalid": {
+              "verification_value": "Veuillez saisir un CVV ou un code de sécurité valide"
+            }
+          }
+        },
+        "business_customer_vaulting_payment_label": "Enregistrez ce mode de paiement lors du passage à la caisse et autorisez %{company} à l'utiliser pour des achats futurs à cet endroit. Toutes les personnes de contact assignées à cet emplacement peuvent utiliser ce mode de paiement.",
+        "cashapppay_label": "Payer avec Cash App",
+        "billing_address_rollup_accessibility_label": "Options d'adresse de facturation",
+        "business_customer_with_bank_account_vaulting_payment_label": "Enregistrez ce mode de paiement lors du passage à la caisse et autorisez %{company} à débiter votre compte pour les achats futurs que vous approuvez pour ce lieu, jusqu'à ce que vous révoquiez cette autorisation. Toutes les personnes de contact assignées à ce lieu peuvent utiliser ce mode de paiement.",
+        "continue_to_guest_checkout": "Passer à la caisse en tant qu'invité",
+        "choose_new_payment_method": "Choisissez un nouveau mode de paiement"
       },
       "thank_you": {
         "thank_you_item_label": {
