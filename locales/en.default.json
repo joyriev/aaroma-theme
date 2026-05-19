@@ -983,7 +983,50 @@
         "discount_codes_removed_or_modified_summary": {
           "one": "%{count} discount code has been removed or modified",
           "other": "%{count} discount codes have been removed or modified"
-        }
+        },
+        "gift_card_code_label": "Gift voucher code",
+        "free_order_notice_html": "Your order is <strong>free</strong>. Payment is not required.",
+        "offsite_gateway_redirect_hint": "You will be redirected to %{gateway_label} to complete your purchase.",
+        "no_js_credit_card_fields_redirect_hint": "You will be redirected to add your payment details.",
+        "no_method_error": "This shop cannot accept payments at the moment.",
+        "not_configured_error": "This shop cannot accept payments at the moment.",
+        "generic_incorrect_card_info": "Your payment details could not be verified. Please check your card information and try again.",
+        "klarna_slice_it_label": "Financing with Klarna",
+        "no_real_orders_dev_store": "This shop cannot accept real orders or real payments.",
+        "no_taxes_banner_content": "No taxes are charged on this order. Once you have received the payment, no further taxes can be added.",
+        "ftd_vault_credit_card_label": "Save this credit card in my account for faster order processing",
+        "google": {
+          "connect": "Click to connect to your Google Pay account"
+        },
+        "mor_disclaimer_html": "By clicking below and completing your order, you agree to the purchase of your item(s) through Global-e as the merchant of record for this transaction, according to the <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Terms and Conditions</a> of Global-e and the <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Privacy Policy</a>. Global-e is an international fulfillment service provider for %{shop_name}.",
+        "multibanco_label": "Multibank",
+        "location_billing_address_label": "Invoice address location",
+        "location_shipping_address_label": "Shipping address location",
+        "no_working_method_error": "This store cannot accept payments at the moment. Refresh this page or come back later.",
+        "local_payment_method_receiver_notice": "After placing your order, you will receive the payment details. Make the payment at an ATM or online within {{dueDays}} days.",
+        "gift_card_wrapper": {
+          "heading": "Gift voucher",
+          "apply_gift_card_label": "Using a gift voucher",
+          "payment_tag": "Gift voucher",
+          "apply_another_gift_card_label": "Use another gift voucher",
+          "gift_card_label": "Gift voucher %{identifier}",
+          "add_label": "Add a gift voucher",
+          "manage_label": "Manage gift vouchers"
+        },
+        "markets_pro_disclaimer_label": "By placing your order, you agree to the purchase from Global-e as the registered seller, subject to the %{markets_pro_terms} and %{privacy_policy} of Global-e, and you share your data with %{shop_name}.",
+        "markets_pro_disclaimer_terms_and_conditions": "General Terms and Conditions",
+        "markets_pro_disclaimer_privacy_policy": "Privacy policy",
+        "markets_pro_disclaimer_terms_and_conditions_title": "Terms of the Merchant Seller",
+        "markets_pro_disclaimer_privacy_policy_title": "Privacy policy of the Trade Register holder",
+        "gift_card_store_credit": {
+          "add_label": "Add a gift voucher or store credit",
+          "manage_label": "Manage gift vouchers or store credit"
+        },
+        "gift_cards_unavailable": "Your gift certificate can no longer be applied to this order and has been removed",
+        "gift_card_checkbox_label": "Apply gift voucher",
+        "grabpay_label": "PackPay",
+        "network_card_persistence_description": "The selected network will be saved with your payment method for future purchases.",
+        "new_bank_account_disclaimer": "By completing your order, you authorize %{shop_name} to debit the account number below via ACH for the displayed amount and at the specified time."
       },
       "contact": {
         "change_company_location_link_label": "Change company address",
