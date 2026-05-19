@@ -579,7 +579,15 @@
         "optional_zip_code_label": "Postal code (optional)",
         "optional_postcode_label": "Postal code (optional)",
         "phone_rollup_accessibility_label": "Telephone options",
-        "phone_country_code_label": "Country code phone number"
+        "phone_country_code_label": "Country code phone number",
+        "state_label": "Condition",
+        "state_placeholder": "Condition",
+        "state_and_territory_label": "State/region",
+        "state_and_territory_placeholder": "State/region",
+        "zip_code_label": "Postal code",
+        "zip_code_placeholder": "Postal code",
+        "shipping_used_as_billing_notice": "This is also used as your billing address for this order.",
+        "storefront_link": "website of the merchant"
       },
       "alternative_payment_method_banner": {
         "express_checkout": "Quick checkout",
@@ -625,6 +633,41 @@
       },
       "address_management": {
         "saved_with_store": "Saved at this store"
+      },
+      "delivery_options": {
+        "pick_up_from_store": "Pick up in the shop",
+        "company_location_no_address_banner": "Orders sent to locations without an address are submitted for review."
+      },
+      "customer_account": {
+        "have_an_account_label": "Do you have an account?",
+        "sign_in_link_label": "Log in",
+        "sign_out_link_label": "Log out",
+        "invalid_address": "The selected address is invalid. %{update_address_link} or select another address.",
+        "incomplete_address": "Selected address is incomplete. %{update_address_link} or choose a different address.",
+        "rollup_label": "Invoice",
+        "invalid_shipping_method_summary": "Select a valid delivery address to view the available shipping methods"
+      },
+      "customer_payment_methods": {
+        "update_card_button_label": "Update map",
+        "delete_customer_mandate": {
+          "generic_error": "There was a problem processing your request.",
+          "success_message": "Your payment method has been successfully removed"
+        }
+      },
+      "contextual_availability": {
+        "products_not_available": {
+          "one": "This product will be removed from your shopping cart because it is not available in your country/region.",
+          "other": "These products will be removed from your shopping cart because they are not available in your country/region."
+        },
+        "unavailable_label": "Not available"
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "message": {
+            "one": "This item will be removed from your shopping cart because there are no delivery methods available for your address.",
+            "other": "These items will be removed from your shopping cart because there are no delivery methods available for your address."
+          }
+        }
       }
     },
     "addresses": {
