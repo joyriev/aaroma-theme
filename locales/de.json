@@ -1205,11 +1205,11 @@
         },
         "errors": {
           "only_empty_terms_accepted": "Diese Richtlinie akzeptiert nur leere Bedingungen.",
-          "session_identifier_not_unique_error": "Bei Ihrer Bestellung ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+          "session_identifier_not_unique_error": "Bei Ihrer Bestellung ist ein Fehler aufgetreten, bitte versuchen Sie erneut zu bezahlen.",
           "line_item_limit_reached": "Die maximale Anzahl der Positionen ist erreicht.",
-          "session_is_already_finished": "Diese Kassensitzung wurde bereits abgeschlossen.",
+          "session_is_already_finished": "Dieser Bezahlvorgang wurde bereits abgeschlossen.",
           "merchandise": {
-            "only_value_constraint": "Nur exakte Werte sind bei der Wareneingabe erlaubt.",
+            "only_value_constraint": "Nur genaue Werte sind in der Eingabe für Waren erlaubt.",
             "merchandise_not_found": "Produkt nicht gefunden.",
             "merchandise_variant_not_found": "Produktvariante nicht gefunden.",
             "merchandise_not_applicable": "Produktvariante kann nicht gekauft werden.",
@@ -1222,19 +1222,19 @@
             "gift_card_invalid": "Gutscheincode {{code}} ist ungültig.",
             "gift_card_with_attributes_not_supported": "Geschenkgutscheine mit angepassten Eigenschaften werden an dieser Kasse nicht unterstützt.",
             "gift_card_with_components_not_supported": "Geschenkgutscheine mit Einzelteilen werden an dieser Kasse nicht unterstützt.",
-            "selling_plan_not_supported_b2b": "Abonnements werden für den B2B-Checkout nicht unterstützt.",
-            "price_mismatch": "Der zuvor vorgeschlagene Preis für diese Ware war ungültig und wurde aktualisiert.",
+            "selling_plan_not_supported_b2b": "Abonnements werden beim B2B-Checkout nicht unterstützt.",
+            "price_mismatch": "Der zuvor vorgeschlagene Preis für diesen Artikel war ungültig und wurde aktualisiert.",
             "inventory_not_found": "Für diesen Artikel wurde kein Vorrat gefunden.",
             "product_not_published": "Produkt ist nicht veröffentlicht.",
             "product_not_published_in_buyer_location": "Produkt ist am Standort des Käufers nicht veröffentlicht.",
             "duplicated_stable_id": "Diese Produktreihe hat dieselbe stabile Kennung wie eine andere Reihe.",
             "minimum_quantity_not_met": "Die Menge mancher Artikel entspricht nicht dem erforderlichen Mindestmaß.",
             "maximum_quantity_exceeded": "Die Menge einiger Artikel überschreitet das zulässige Maximum.",
-            "quantity_increment_not_met": "Die Menge einiger Artikel entspricht nicht den Bestellgrenzen.",
-            "quantity_rules_not_met": "Die Menge einiger Artikel entspricht nicht den Bestellgrenzen.",
+            "quantity_increment_not_met": "Die Menge mancher Artikel entspricht nicht den Bestellgrenzen.",
+            "quantity_rules_not_met": "Die Menge mancher Artikel entspricht nicht den Bestellgrenzen.",
             "bundle_requires_components": "Dieses zusammengesetzte Produkt enthält keine Teile.",
-            "title_too_long": "Der Titel der Ware ist zu lang.",
-            "title_empty": "Der Titel der Ware ist leer.",
+            "title_too_long": "Der Titel des Produkts ist zu lang.",
+            "title_empty": "Der Produkttitel ist leer.",
             "gift_card_code_changed": "Geschenkkartencode {{proposed_code}} wurde in {{formatted_code}} geändert, um den Formatierungsregeln zu entsprechen.",
             "combined_listing_parent_not_purchasable": "Hauptprodukte aus kombinierten Einträgen können nicht direkt gekauft werden."
           },
@@ -1299,34 +1299,36 @@
             "delivery_terms_must_be_defined": "Lieferbedingungen müssen festgelegt werden.",
             "merchandise_discount_terms_must_be_defined": "Die Bedingungen für den Warenrabatt müssen festgelegt werden.",
             "delivery_discount_terms_must_be_defined": "Lieferungsrabattbedingungen müssen festgelegt werden.",
-            "allocated_required": "Fehlendes 'allocated'-Feld.",
+            "allocated_required": "Fehlendes 'zugewiesenes' Feld.",
             "value_required": "Fehlendes 'value'-Feld.",
             "line_splits_not_supported": "Das Feld „merchandise lines“ muss so aufgeteilt werden, dass jede einzelne eine einzelne Zeilenkomponente im Verkäuferangebot enthält."
           },
           "payment": {
-            "manual_payments_not_allowed_for_b2b": "Manuelle Zahlungen sind in B2B-Shops nicht erlaubt.",
-            "total_amount_mismatch": "Gesamtbetrag zur Zahlung stimmt nicht mit der Summe der Zahlungsbeträge überein.",
+            "manual_payments_not_allowed_for_b2b": "Manuelle Zahlungen sind in B2B-Geschäften nicht erlaubt.",
+            "total_amount_mismatch": "Der insgesamt zu zahlende Betrag stimmt nicht mit der Summe der Zahlungsbeträge überein.",
             "subscription_terms_not_accepted": "Abonnementbedingungen nicht akzeptiert.",
             "missing_session_id": "Fehlende Sitzungsinformationen der Kreditkarte.",
-            "gateway_not_supported": "Das Payment-Gateway unterstützt das Speichern der Zahlungsmethode nicht.",
-            "credit_card_last_name_required": "'Nachname' darf nicht nil sein.",
+            "gateway_not_supported": "Betaalpoort unterstützt das Speichern der Zahlungsmethode nicht.",
+            "credit_card_last_name_required": "'Nachname' darf nicht leer sein.",
             "credit_card_update_failed": "Aktualisierung der Kreditkarte fehlgeschlagen.",
-            "missing_retail_attributions": "Retail-Zuschreibungen sind für manuell eingegebene Kreditkartenzahlungen erforderlich.",
-            "unexpected_retail_attributions": "Einzelhandelszuordnungen wurden unerwartet für die Kreditkartenzahlung bereitgestellt.",
-            "invalid_card_source": "Diese Sitzung hat keine Berechtigung, diese Kartenquelle zu verwenden.",
-            "wallet_content_missing": "Der Inhalt der Brieftasche fehlt.",
-            "payment_instrument_not_found": "Zahlungsmethode konnte nicht gefunden werden",
-            "unauthorized_capture_method": "Die Konfiguration der Zahlungsmethode für die Erfassung ist nicht erlaubt.",
+            "missing_retail_attributions": "Winkelbeschreibungen sind für manuell eingegebene Kreditkartenzahlungen erforderlich.",
+            "unexpected_retail_attributions": "Winkelinformationen unerwartet für die Zahlung mit Kreditkarte bereitgestellt.",
+            "invalid_card_source": "Diese Sitzung hat keine Erlaubnis, diese Kartenquelle zu verwenden.",
+            "wallet_content_missing": "Inhalt des Portemonnaies fehlt.",
+            "payment_instrument_not_found": "Zahlungsmethode nicht gefunden",
+            "unauthorized_capture_method": "Das Einrichten der Zahlungsmethode für Lastschrift ist nicht erlaubt.",
             "saved_payment_methods_not_allowed": "Gespeicherte Zahlungsmethoden sind nicht erlaubt.",
-            "saved_payment_methods_cvv_verification_disabled": "Die ausgewählte Zahlungsmethode erfordert eine CVV-Überprüfung, die für diesen Shop nicht aktiviert ist. Wählen Sie eine andere Zahlungsmethode.",
-            "store_credit_not_enabled": "Guthaben ist für diesen Shop nicht aktiviert.",
-            "store_credit_account_not_found": "Guthabenkonto nicht gefunden.",
-            "store_credit_account_mismatch": "Das Guthabenkonto stimmt nicht mit der Käuferidentität überein.",
-            "store_credit_mismatched_currency": "Die Währung des Guthabenkontos stimmt nicht mit der Währung beim Checkout überein.",
-            "store_credit_insufficient_funds": "Es sind nicht genügend Mittel auf dem Guthabenkonto vorhanden.",
-            "store_credit_buying_gift_card": "Sie können Guthaben aus dem Geschäft nicht verwenden, um eine Geschenkkarte zu kaufen.",
-            "gift_cards_not_allowed_for_b2b": "Geschenkkarten sind in B2B-Geschäften nicht erlaubt.",
-            "method_required": "Eine Zahlungsmethode muss vorgeschlagen werden."
+            "saved_payment_methods_cvv_verification_disabled": "Die gewählte Zahlungsmethode erfordert eine CVV-Überprüfung, die für diesen Laden nicht aktiviert ist. Wählen Sie eine andere Zahlungsmethode.",
+            "store_credit_not_enabled": "Guthaben für diesen Laden ist nicht aktiviert.",
+            "store_credit_account_not_found": "Winkelkreditkonto nicht gefunden.",
+            "store_credit_account_mismatch": "Der Winkelkreditkonto stimmt nicht mit der Identität des Käufers überein.",
+            "store_credit_mismatched_currency": "Die Währung des Ladenkreditkontos stimmt nicht mit der Währung an der Kasse überein.",
+            "store_credit_insufficient_funds": "Auf dem Guthabenkonto für den Laden ist nicht genug Guthaben vorhanden.",
+            "store_credit_buying_gift_card": "Du kannst kein Guthaben aus dem Geschäft verwenden, um einen Geschenkgutschein zu kaufen.",
+            "gift_cards_not_allowed_for_b2b": "Geschenkgutscheine sind in B2B-Geschäften nicht erlaubt.",
+            "method_required": "Es muss eine Zahlungsmethode vorgeschlagen werden.",
+            "saved_payment_methods_not_enabled": "Gespeicherte Zahlungsmethoden sind für diesen Laden nicht aktiviert.",
+            "paypal_express_address_invalid": "PayPal gab eine ungültige Adresse zurück."
           },
           "tip": {
             "not_accepted_by_shop": "Der Shop akzeptiert keine Trinkgelder.",
@@ -1336,14 +1338,14 @@
             "tips_not_allowed_for_deferred_purchase_options": "Trinkgelder werden für aufgeschobene Kaufoptionen noch nicht unterstützt."
           },
           "sale_attribution": {
-            "draft_order_not_exist": "Dieser Entwurfsauftrag existiert im aktuellen Shop nicht.",
-            "staff_member_not_exist": "Dieses Personal existiert im aktuellen Geschäft nicht.",
-            "location_not_exist": "Dieser Standort existiert im aktuellen Shop nicht.",
-            "point_of_sale_device_not_exist": "Dieses Verkaufsstellen-Gerät existiert im aktuellen Geschäft nicht.",
-            "unresolvable_target_merchandise_lines": "Die vorgeschlagenen Verkaufszuordnungen sind im aktuellen Verhandlungskontext nicht auflösbar."
+            "draft_order_not_exist": "Diese Konzeptbestellung existiert nicht im gegenwärtigen Geschäft.",
+            "staff_member_not_exist": "Dieser Stab ist im aktuellen Geschäft nicht verfügbar.",
+            "location_not_exist": "Dieser Standort existiert im aktuellen Geschäft nicht.",
+            "point_of_sale_device_not_exist": "Diese Registrierkasse existiert im aktuellen Geschäft nicht.",
+            "unresolvable_target_merchandise_lines": "Die vorgeschlagenen Verkaufszuweisungen können angesichts der aktuellen Verhandlungssituation nicht gelöst werden."
           },
           "non_negotiable": {
-            "missing_non_negotiable_terms": "Ihr Kaufangebot sollte nicht verhandelbare_Bedingungen enthalten.",
+            "missing_non_negotiable_terms": "Ihr Kaufangebot muss nicht verhandelbare Bedingungen enthalten.",
             "invalid_signature": "Die Unterschrift für {{target_terms}} ist ungültig."
           },
           "inventory": {
@@ -1352,7 +1354,7 @@
             "only_one_inventory_behavior_allowed": "Derzeit ist pro Bezahlvorgang nur ein Lagerverhalten erlaubt."
           },
           "optional_duties": {
-            "optional_duties_not_permitted": "Die Ablehnung von Gebühren ist bei diesem Checkout nicht erlaubt."
+            "optional_duties_not_permitted": "Die Ablehnung von Einfuhrzöllen ist an dieser Kasse nicht gestattet."
           },
           "attribution": {
             "retail_attribution_not_allowed": "Einzelhandelszuweisung ist für diese Abwicklung nicht erlaubt.",
