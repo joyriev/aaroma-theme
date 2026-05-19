@@ -1060,6 +1060,45 @@
         "location_nearby_short_other_items": {
           "one": "%{count} location nearby with your items",
           "other": "%{count} locations nearby with your items"
+        },
+        "reveal_more_label": {
+          "one": "Show %{count} more locations"
+        },
+        "selected_pickup_option_no_longer_available": {
+          "ship_to_address_link": "shipping address"
+        },
+        "toggle_more_locations": {
+          "one": "%{count} more location(s)"
+        }
+      },
+      "localized_fields": {
+        "additional_information": {
+          "tax_credential_br": "BSN/KVK",
+          "shipping_credential_br": "BSN/KVK",
+          "shipping_credential_kr": "Personal customs code",
+          "shipping_credential_cn": "Resident identification number",
+          "tax_credential_it": "Tax number (optional)",
+          "tax_credential_co": "Identity card/VAT",
+          "shipping_credential_co": "Identity card/VAT",
+          "shipping_credential_type_co": "Type Identity Card",
+          "tax_credential_ec": "CI/Tax ID/VAT",
+          "shipping_credential_ec": "CI/Tax ID/VAT",
+          "tax_credential_gt": "Tax ID/VAT",
+          "shipping_credential_gt": "Tax ID/VAT",
+          "tax_credential_id": "Taxpayer Identification Number",
+          "shipping_credential_id": "Taxpayer Identification Number",
+          "tax_credential_my": "TIN/Registration number",
+          "shipping_credential_my": "TIN/Registration number",
+          "shipping_credential_mx": "Request for Comments",
+          "tax_credential_mx": "Request for Comments",
+          "shipping_credential_py": "CI/Tax ID/VAT",
+          "tax_credential_pe": "ID number/Tax number/Foreign ID",
+          "shipping_credential_pe": "ID number/Tax number/Foreign ID",
+          "shipping_credential_pt": "Tax ID/VAT",
+          "tax_credential_es": "ID Number/Tax Identification Number",
+          "shipping_credential_es": "ID Number/Tax Identification Number",
+          "shipping_credential_tw": "National identity number/VAT number",
+          "shipping_credential_tr": "Republic of Turkey Identification Number/VAT"
         }
       }
     },

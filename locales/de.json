@@ -1180,7 +1180,7 @@
       },
       "general": {
         "remove_chip": "Artikel entfernen",
-        "page_title": "Zur Kasse",
+        "page_title": "Bezahlen",
         "skip_to_content": "Zum Inhalt springen",
         "breadcrumb": "Brotkrümelpfad",
         "continue_button_label": "Fortfahren",
@@ -1197,8 +1197,8 @@
         "autocomplete_multi_item": "{{number}} Artikel verfügbar",
         "forwarding_indicator": {
           "new_window": "Öffnet in einem neuen Fenster.",
-          "external": "Öffnet eine externe Website.",
-          "external_and_new_window": "Öffnet eine externe Website in einem neuen Fenster."
+          "external": "Öffnet externe Webseite.",
+          "external_and_new_window": "Öffnet externe Webseite in einem neuen Fenster."
         },
         "checkout_context": {
           "step_one": "%{shop_name} - Zur Kasse gehen"
@@ -1289,19 +1289,20 @@
             "mixed_destination_countries": "Rabatte sind nicht verfügbar, da die Lieferbedingungen mehrere Länder abdecken."
           },
           "tax": {
-            "unresolvable_tax_terms": "Die vorgeschlagenen Bedingungen sind im aktuellen Verhandlungskontext nicht lösbar.",
+            "unresolvable_tax_terms": "Die vorgeschlagenen Bedingungen sind angesichts der gegenwärtigen Verhandlungslage unlösbar.",
             "delivery_price_is_abstract": "Der zugehörige Lieferpreis ist abstrakt.",
-            "tax_inclusivity_mismatch": "Neu verhandeln mit dem konkreten Wert von totalTaxAndDutyAmount oder totalAmountIncludedInTarget.",
+            "tax_inclusivity_mismatch": "Verhandeln Sie erneut mit einem konkreten Wert für totalTaxAndDutyAmount oder totalAmountIncludedInTarget.",
             "tax_exemption_not_supported": "Steuerbefreiungen werden für die aktuelle Verhandlungssitzung nicht unterstützt.",
-            "delivery_tax_exemption_not_supported": "Steuerbefreiungen für Lieferlinien werden derzeit nicht unterstützt.",
+            "delivery_tax_exemption_not_supported": "Steuerbefreiungen für Lieferregeln werden derzeit nicht unterstützt.",
             "proposed_allocations_required": "Fehlendes Feld 'vorgeschlagene Zuweisungen'.",
-            "merchandise_terms_must_be_defined": "Die Bedingungen für Waren müssen definiert werden.",
+            "merchandise_terms_must_be_defined": "Bedingungen für Waren müssen festgelegt werden.",
             "delivery_terms_must_be_defined": "Lieferbedingungen müssen festgelegt werden.",
-            "merchandise_discount_terms_must_be_defined": "Die Bedingungen für den Warenrabatt müssen festgelegt werden.",
-            "delivery_discount_terms_must_be_defined": "Lieferungsrabattbedingungen müssen festgelegt werden.",
+            "merchandise_discount_terms_must_be_defined": "Bedingungen für Preisnachlässe auf Waren müssen festgelegt werden.",
+            "delivery_discount_terms_must_be_defined": "Die Bedingungen für den Liefernachlass müssen festgelegt werden.",
             "allocated_required": "Fehlendes 'zugewiesenes' Feld.",
-            "value_required": "Fehlendes 'value'-Feld.",
-            "line_splits_not_supported": "Das Feld „merchandise lines“ muss so aufgeteilt werden, dass jede einzelne eine einzelne Zeilenkomponente im Verkäuferangebot enthält."
+            "value_required": "Fehlendes 'Wert'-Feld.",
+            "line_splits_not_supported": "Das Feld 'assortimentlijnen' muss so aufgeteilt werden, dass jede Zeilenkomponente einzeln im Verkäuferangebot erscheint.",
+            "new_tax_must_be_accepted": "Die auf deine Bestellung anfallenden Steuern wurden geändert. Überprüfe deine Bestellung und versuche es erneut."
           },
           "payment": {
             "manual_payments_not_allowed_for_b2b": "Manuelle Zahlungen sind in B2B-Geschäften nicht erlaubt.",
@@ -1331,11 +1332,11 @@
             "paypal_express_address_invalid": "PayPal gab eine ungültige Adresse zurück."
           },
           "tip": {
-            "not_accepted_by_shop": "Der Shop akzeptiert keine Trinkgelder.",
+            "not_accepted_by_shop": "Winkel nimmt keine Trinkgelder an.",
             "only_one_tip_line_allowed": "Mehrere Tippzeilen werden nicht unterstützt.",
-            "tips_not_allowed_for_b2b": "Trinkgelder sind in B2B-Geschäften nicht erlaubt.",
-            "currency_change_reset": "Trinkgeld wurde aufgrund der Währungsänderung zurückgesetzt.",
-            "tips_not_allowed_for_deferred_purchase_options": "Trinkgelder werden für aufgeschobene Kaufoptionen noch nicht unterstützt."
+            "tips_not_allowed_for_b2b": "Trinkgeld ist in B2B-Geschäften nicht erlaubt.",
+            "currency_change_reset": "Der Tipp wurde aufgrund des Währungswechsels zurückgesetzt.",
+            "tips_not_allowed_for_deferred_purchase_options": "Trinkgeld wird für aufgeschobene Kaufoptionen noch nicht unterstützt."
           },
           "sale_attribution": {
             "draft_order_not_exist": "Diese Konzeptbestellung existiert nicht im gegenwärtigen Geschäft.",
@@ -1377,23 +1378,24 @@
             "revoked": "Diese Kasse ist nicht mehr verfügbar."
           }
         },
-        "full_price": "Vollpreis:",
+        "full_price": "Gesamtpreis:",
         "title": "Kasse - {{shopName}}",
-        "full_title": "{{pageTitle}} - {{shopName}} - Kasse",
-        "loading": "Lädt…",
-        "loading_title": "Kasse - {{shopName}}",
+        "full_title": "{{pageTitle}} - {{shopName}} - Bezahlen",
+        "loading": "Wird geladen…",
+        "loading_title": "Bezahlen - {{shopName}}",
         "google_map_title": "Google Karte",
         "submit_order_button_label": "Bestellung absenden",
-        "submit_for_review_button_label": "Zur Überprüfung einreichen",
+        "submit_for_review_button_label": "Zur Begutachtung einreichen",
         "submit_for_review_notice_label": "Die Zahlung ist erst fällig, nachdem Ihre Bestellung überprüft wurde",
         "back_button_label": "Zurückgeben",
         "choose_delivery_strategy": "Wählen Sie eine Liefermethode aus",
         "autocomplete_powered_by_google": "Angetrieben von {{brandName}}",
-        "processing": "Verarbeitung…",
+        "processing": "Verarbeitung läuft…",
         "stepper": {
-          "decrease": "Verringere {{type}}",
-          "minimum_reached": "Mindestanzahl von {{value}} erreicht",
-          "maximum_reached": "Maximal {{value}} erreicht"
+          "decrease": "Verkleinern {{type}}",
+          "minimum_reached": "Mindestmenge von {{value}} erreicht",
+          "maximum_reached": "Maximaler Van von {{value}} erreicht",
+          "increase": "Erhöhen {{type}}"
         },
         "remove_item": "Entferne %{label}",
         "dates": {
@@ -1415,13 +1417,17 @@
         },
         "list_formatter": {
           "and": {
-            "lastWordConnector": "{{previousWords}}, und {{lastWord}}"
+            "lastWordConnector": "{{previousWords}}, in {{lastWord}}"
+          },
+          "or": {
+            "lastWordConnector": "{{previousWords}}, von {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} von {{secondWord}}"
           }
         },
         "map": {
           "cluster_title": {
-            "one": "Gruppe von {{number}} Markierungen",
-            "other": "Gruppe von {{number}} Markierungen"
+            "one": "Cluster von {{number}} Markern",
+            "other": "Cluster von {{number}} Markierungen"
           }
         },
         "dropzone": {
@@ -1432,7 +1438,12 @@
         "authenticate_purchase_button_label": "Zahlung bestätigen",
         "cart": "Einkaufswagen",
         "back_to_payment_method": "Zurück zur Bezahlung",
-        "continue_to_payment_plans_button_label": "Weiter zu Zahlungsplänen"
+        "continue_to_payment_plans_button_label": "Weiter zu Zahlungsplänen",
+        "expand_notice_label": "Mehr ansehen",
+        "submit": "Versenden",
+        "sheet": {
+          "expand": "Ausklappen"
+        }
       },
       "payment_collection": {
         "cancelled": "Diese Zahlung ist nicht mehr erforderlich. Besuchen Sie die Bestellseite für weitere Details.",
