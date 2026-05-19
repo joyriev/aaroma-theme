@@ -2017,10 +2017,66 @@
             "one": ", and %{count} payment of %{total_price}",
             "other": ", and %{count} payments of each %{total_price}"
           }
+        },
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "other": "First %{count} payments of each %{total_price}"
+          },
+          "following_cycles": ", and %{total_price} every %{interval}"
         }
       },
       "store_credit_errors": {
         "generic_error": "There was a problem with your store credit. Please try again or reload the page."
+      },
+      "taxes": {
+        "tax_details": "Additional tax information",
+        "vat_number": {
+          "field": {
+            "tooltip": "Validates the VAT number and automatically applies the reverse charge mechanism to orders when applicable"
+          },
+          "domestic_order": "The reverse charge mechanism only applies to cross-border orders within the EU. For local orders, the standard VAT is charged.",
+          "status": {
+            "invalid_format": {
+              "at": "Austrian VAT numbers contain AT and 9 characters",
+              "be": "Belgian VAT numbers contain BE and 10 characters",
+              "bg": "Bulgarian VAT numbers contain BG and 9-10 characters",
+              "hr": "Croatian VAT numbers contain HR and 11 characters",
+              "cz": "Czech VAT numbers contain CZ and 8-10 characters",
+              "dk": "Danish VAT number contains DK and 8 characters",
+              "ee": "Estonian VAT numbers contain EE and 9 characters",
+              "fi": "Finnish VAT numbers contain FI and 8 characters",
+              "fr": "French VAT numbers contain FR and 11 characters",
+              "de": "German VAT numbers contain DE and 9 characters",
+              "gr": "Greek VAT numbers contain EL and 9 characters",
+              "hu": "Hungarian VAT numbers contain HU and 8 characters",
+              "ie": "Irish VAT numbers contain IE and 8-9 characters",
+              "it": "Italian VAT numbers contain IT and 11 characters",
+              "lv": "The VAT numbers contain LV and 11 characters",
+              "lt": "Lithuanian VAT numbers contain LT and 9-12 characters",
+              "nl": "Dutch VAT numbers contain NL and 12 characters",
+              "pl": "Polish VAT numbers contain PL and 10 characters",
+              "pt": "Portuguese VAT numbers contain PT and 9 characters",
+              "ro": "Romanian VAT numbers contain RO and 10 characters",
+              "sk": "Slovak VAT numbers contain SK and 10 characters",
+              "si": "Slovenian VAT numbers contain SI and 8 characters",
+              "es": "Spanish VAT numbers contain ES and 9 characters",
+              "se": "Swedish VAT numbers contain SE and 12 characters",
+              "gb": "British VAT numbers contain GB or XI and 5-12 characters"
+            },
+            "invalid_number": {
+              "at": "Enter a valid Austrian VAT number",
+              "be": "Enter a valid Belgian VAT number",
+              "bg": "Enter a valid Bulgarian VAT number",
+              "cy": "Enter a valid Cypriot VAT number",
+              "de": "Enter a valid German VAT number"
+            }
+          },
+          "accessibility": {
+            "status": {
+              "validating": "The validation of the VAT number is in progress"
+            }
+          }
+        }
       }
     },
     "addresses": {
