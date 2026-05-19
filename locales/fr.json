@@ -969,7 +969,60 @@
         "checkout_on_remote_shop_link_text": "Payer chez %{remoteShopName}",
         "checkout_on_another_store": "Payer dans un autre magasin",
         "checkout_again": "Payer à nouveau",
-        "cashback_notice": "Vous recevrez votre cashback après 30 jours"
+        "cashback_notice": "Vous recevrez votre cashback après 30 jours",
+        "customer_information_title": "Données de commande",
+        "estimated_arrival": "Date de livraison estimée :",
+        "confirmed_title": "Votre commande est confirmée",
+        "confirmed_description": "Nous avons bien reçu votre commande et sommes en train de la préparer. Revenez sur cette page pour des mises à jour concernant le statut de votre envoi.",
+        "in_transit": "En chemin",
+        "in_transit_description": "Vous recevrez des mises à jour sur l'avancement.",
+        "delivered_description_html": "Votre commande a été livrée à l'adresse que vous avez indiquée. Si vous ne l'avez pas reçue, ou si vous rencontrez d'autres problèmes, %{contact_us}.",
+        "contact_us": "Contactez-nous",
+        "contact_us_lowercase": "contactez-nous",
+        "contact_us_html": "Besoin d'aide ? %{contact_us}",
+        "failed_title": "Votre commande n'a pas pu être livrée",
+        "customer_information_hidden_fields_message": "Connectez-vous pour voir toutes les informations client.",
+        "customer_validation_error": "Veuillez saisir une adresse courriel valide ou un numéro de commande.",
+        "customer_validation_error_phone": "Veuillez saisir un numéro de téléphone ou de commande valide.",
+        "fulfillment": {
+          "unfulfilled_table_title": "Les articles sont préparés pour l'expédition",
+          "quantity_label": "Nombre"
+        },
+        "delivery_information_label": "Informations de livraison :",
+        "gift_card_sent_confirmation": "Bons cadeaux envoyés",
+        "delivered_local_description_html": "Vous n'avez pas encore reçu votre commande ? %{let_us_know}.",
+        "gift_card_confirmation_by_text": "Si vous ne l'avez pas reçu, renvoyez le texte ou contactez-nous.",
+        "gift_card_confirmation_by_email": "Si vous ne l'avez pas reçu, renvoyez l'e-mail ou contactez-nous.",
+        "gift_card_title": "Bons cadeaux",
+        "estimated_delivery": "Délai de livraison actuel :",
+        "first_payment_complete": "Premier paiement effectué",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "Vous recevrez un SMS avec votre bon cadeau dans quelques minutes.",
+          "other": "Vous recevrez un SMS avec vos bons cadeaux dans quelques minutes."
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "one": "Vous recevrez un e-mail avec votre bon cadeau dans quelques minutes.",
+          "other": "Vous recevrez un e-mail avec vos bons cadeaux dans quelques minutes."
+        },
+        "gift_card_email_title": {
+          "one": "Le bon cadeau a été envoyé par courriel",
+          "other": "Les bons cadeaux ont été envoyés par courriel"
+        },
+        "gift_card_text_title": {
+          "one": "Le bon cadeau a été envoyé par SMS",
+          "other": "Les bons cadeaux ont été envoyés par SMS"
+        },
+        "gift_card_resent_confirmation": {
+          "one": "Le bon cadeau a été renvoyé.",
+          "other": "Les bons cadeaux ont été renvoyés."
+        },
+        "gift_card_resend_failure": {
+          "one": "Il y a eu un problème lors de la réexpédition de votre bon cadeau. Veuillez réessayer ou nous contacter.",
+          "other": "Il y a eu un problème lors de la réexpédition de vos bons cadeaux. Veuillez réessayer ou contactez-nous."
+        },
+        "failed_pending_payment_page_title": "Il y a un problème avec votre paiement",
+        "confirmed_items_count": "%{confirmed_count} des %{total_count} articles sont confirmés",
+        "confirmed_orders_title": "Vos commandes ont été confirmées"
       },
       "general": {
         "remove_chip": "Supprimer l'article",
