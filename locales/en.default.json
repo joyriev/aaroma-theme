@@ -872,7 +872,7 @@
       },
       "payment": {
         "paypal_modal": {
-          "order_contains_fixed_selling_plans": "Total may exclude taxes, shipping, deferred charges and some discounts. Proceed to checkout for the amount due today."
+          "order_contains_fixed_selling_plans": "The total may be exclusive of taxes, shipping, deferred charges, and some discounts. Proceed to the checkout for the amount due today."
         },
         "amazon_payments_label": "Amazon Payment",
         "amazon_payments_login_hint": "You are asked to log in with Amazon.",
@@ -1026,7 +1026,39 @@
         "gift_card_checkbox_label": "Apply gift voucher",
         "grabpay_label": "PackPay",
         "network_card_persistence_description": "The selected network will be saved with your payment method for future purchases.",
-        "new_bank_account_disclaimer": "By completing your order, you authorize %{shop_name} to debit the account number below via ACH for the displayed amount and at the specified time."
+        "new_bank_account_disclaimer": "By completing your order, you authorize %{shop_name} to debit the account number below via ACH for the displayed amount and at the specified time.",
+        "order_covered_by_gift_cards_notice": {
+          "one": "Your order is covered by your gift certificate.",
+          "other": "Your order is covered by your gift vouchers."
+        },
+        "paypal": {
+          "connect": "Click to link your PayPal account"
+        },
+        "pending_payment": {
+          "multibanco": {
+            "instruction_html": "Make your payment at Multibanco or online using the details below. For questions or to update payment information, %{contact_us}.",
+            "amount": "Quantity",
+            "find_nearest_atm": "Find the nearest ATM"
+          }
+        },
+        "order_covered_by_redeemables_notice": "Your order is insured.",
+        "order_edit_banner_title": "Payment of {{amount_owed}} is required",
+        "order_edit_banner_subtitle": "Your order {{order_number}} has been updated. Review these changes and then pay to confirm your order.",
+        "order_edit_banner_multiple_items_removed": "Deleted {{amount}}",
+        "order_edit_banner_items_return_line_item_removed": {
+          "with_quantities": "{{delta}} removed from return"
+        },
+        "order_edit_banner_multiple_items_return_line_item_removed": "{{amount}} removed from return",
+        "payment_method_not_available_for_shipping_address_error": "Payment method not available for the chosen delivery address. Please select another payment method.",
+        "paypal_wallet_label": "PayPal wallet",
+        "payment_method_update_failed": "Updating payment method failed.",
+        "payment_flexibility_terms_id_mismatch": "Payment flexibility terms ID does not match",
+        "offsite_gateway_review_page_redirect_hint": "After you have reviewed your order, you will be redirected to %{gateway_label} to complete your purchase.",
+        "offsite_gateway_redirect_hint_no_button_label": "You will be redirected to %{gateway_label} to complete your purchase.",
+        "payment_method_incompatible_with_payment_terms": "Payment method is not compatible with the payment terms.",
+        "payment_option": {
+          "accessibility_label": "Choose a payment method"
+        }
       },
       "contact": {
         "change_company_location_link_label": "Change company address",
