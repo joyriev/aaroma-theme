@@ -2011,7 +2011,68 @@
         "pickup_unavailable_banner_title": {
           "one": "Aucun point de retrait disponible pour votre article",
           "other": "Aucun point de retrait disponible pour vos articles"
+        },
+        "title": "Point de retrait",
+        "selector_tabs": "Sélecteur de point de retrait",
+        "waiting_on_pickup_point_location_notice": "Recherche de points de retrait..."
+      },
+      "processing": {
+        "redirecting_notice": "Veuillez patienter pendant que nous vous redirigeons.",
+        "continue_to_payment_gateway_notice": "Passez au paiement pour ajouter vos informations de paiement.",
+        "continue_to_payment_gateway_button_label": "Passer au paiement",
+        "complete_your_purchase_title_error": "Corrigez vos informations de paiement",
+        "continue_to_payment_gateway_notice_error": "Vos informations de paiement n'ont pas pu être vérifiées.",
+        "continue_to_payment_gateway_button_label_error": "Mettez à jour les informations de paiement",
+        "page_title": "Traiter la commande",
+        "title": "Traiter la commande",
+        "you_will_receive_confirmation": "Nous recevons actuellement de nombreuses commandes. Vous recevrez bientôt une confirmation par e-mail ou SMS. Si vous ne la recevez pas dans l'heure, veuillez nous en informer.",
+        "wait": {
+          "medium": {
+            "one": "Votre commande est en cours de traitement. Le temps d'attente estimé est de %{count} minute.",
+            "other": "Votre commande est en cours de traitement. Le temps d'attente estimé est de %{count} minutes."
+          },
+          "long": "Vous recevrez un e-mail dès que votre commande aura été traitée. Il y a actuellement un grand nombre de commandes.",
+          "no_auto_refresh_html": "Si vous n'êtes pas redirigé automatiquement, %{link}.",
+          "refresh_this_page": "rafraîchir cette page"
+        },
+        "you_will_not_be_charged": "Vous ne serez pas encore facturé",
+        "redirecting_to_bank": "Rediriger vers {{bank}}",
+        "modal_notice": "Nous prenons contact avec {{paymentMethod}}",
+        "remote_shops_payments_processing": "Traiter les paiements"
+      },
+      "post_purchase": {
+        "page_title": "Après achat",
+        "title": "Après achat",
+        "escape_confirmation": "Vous avez payé votre commande.",
+        "escape_action": "Voir la confirmation de commande ›",
+        "components": {
+          "expand": "Voir plus",
+          "processing": "Traitement en cours…",
+          "submit": "Expédition"
         }
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "Le bon cadeau a déjà été appliqué à votre commande",
+          "insufficient_funds": "Ce bon cadeau n'a plus de crédit.",
+          "expired": "Ce bon cadeau a expiré",
+          "not_available": "Ce bon cadeau n'est plus disponible",
+          "invalid": "Entrez un bon cadeau valide",
+          "generic": "Le bon cadeau n'a pas pu être ajouté à la caisse",
+          "throttle_limit_exceeded": "Vous avez dépassé le nombre maximal de tentatives. Veuillez réessayer plus tard.",
+          "no_longer_available": "Ce bon cadeau ne peut plus être utilisé à cette caisse"
+        }
+      },
+      "remote": {
+        "errors": {
+          "currency_mismatch": "Cet article ne peut pas être ajouté à votre panier car il provient d'une boutique utilisant une autre devise.",
+          "max_remote_shops_exceeded": "Ce produit ne peut pas être ajouté car votre panier contient déjà le nombre maximum d'articles provenant d'autres magasins.",
+          "currency_mismatch_removal": "Un article a été retiré de votre panier car il provient d'une boutique utilisant une autre devise.",
+          "only_remote_merchandise_lines": "Le panier contient uniquement des articles de vendeurs externes. Pour finaliser l'achat, vous serez redirigé vers la boutique externe."
+        }
+      },
+      "remote_merchandise_only": {
+        "checkout_on_shop_label": "Payer chez %{shop_name}"
       }
     },
     "attributes": {
