@@ -141,11 +141,11 @@
       },
       "share": "Partager ce produit",
       "sold_out": "Épuisé",
-      "unavailable": "Non disponible(s)",
-      "vendor": "Fournisseur",
+      "unavailable": "Non disponible",
+      "vendor": "Vendeur",
       "video_exit_message": "{{ title }} ouvre la vidéo en plein écran dans la même fenêtre.",
-      "xr_button": "Afficher dans son espace",
-      "xr_button_label": "Affichage dans votre espace, charge l'article dans une fenêtre de réalité augmentée",
+      "xr_button": "Voir dans votre espace",
+      "xr_button_label": "Voir dans votre espace, charger l'article dans la fenêtre pour réalité augmentée",
       "pickup_availability": {
         "view_store_info": "Voir les informations du magasin",
         "check_other_stores": "Vérifiez la disponibilité dans d'autres magasins",
@@ -165,12 +165,12 @@
         "load_video": "Lire la vidéo {{ index }} en mode galerie",
         "image_available": "Image {{ index }} est maintenant disponible en vue galerie"
       },
-      "view_full_details": "Afficher tous les détails",
+      "view_full_details": "Voir les détails complets",
       "shipping_policy_html": "<a href=\"{{ link }}\">Expédition</a> est calculée lors du paiement.",
       "choose_options": "Choisissez des options",
       "choose_product_options": "Choisissez les options pour {{ product_name }}",
-      "value_unavailable": "{{ option_value }} – indisponible",
-      "variant_sold_out_or_unavailable": "Variante épuisée ou indisponible",
+      "value_unavailable": "{{ option_value }} - Indisponible",
+      "variant_sold_out_or_unavailable": "Variante épuisée ou non disponible",
       "inventory_in_stock": "En stock",
       "inventory_in_stock_show_count": "{{ quantity }} en stock",
       "inventory_low_stock": "Peu de stock",
@@ -179,11 +179,11 @@
       "inventory_out_of_stock": "Rupture de stock",
       "inventory_out_of_stock_continue_selling": "En stock",
       "volume_pricing": {
-        "title": "Tarification basée sur le volume",
-        "note": "La tarification basée sur le volume est disponible",
-        "minimum": "{{ quantity }} ou plus",
+        "title": "Remise sur quantité",
+        "note": "Remise sur quantité disponible",
+        "minimum": "Plus de {{ quantity }}",
         "price_range": "{{ minimum }} - {{ maximum }}",
-        "price_at_each_html": "à {{ price }}/pièce"
+        "price_at_each_html": "à partir de {{ price }} par pièce"
       },
       "duties_included": "Pris inclus."
     },
@@ -521,19 +521,19 @@
   },
   "recipient": {
     "form": {
-      "checkbox": "Je veux envoyer ce produit comme cadeau",
-      "email_label": "E‑mail du destinataire",
-      "email": "E‑mail",
+      "checkbox": "Je veux envoyer ceci en cadeau",
+      "email_label": "Adresse e-mail du destinataire",
+      "email": "Adresse e‑mail",
       "name_label": "Nom du destinataire (facultatif)",
       "name": "Nom",
       "message_label": "Message (facultatif)",
       "message": "Message",
-      "max_characters": "{{ max_chars }} caractères au maximum",
-      "email_label_optional_for_no_js_behavior": "E‑mail du destinataire (facultatif)",
+      "max_characters": "Maximum {{ max_chars }} caractères",
+      "email_label_optional_for_no_js_behavior": "Adresse e-mail du destinataire (facultatif)",
       "send_on": "AAAA-MM-JJ",
-      "send_on_label": "Envoyer le (facultatif)",
-      "expanded": "Formulaire de destinataire de carte-cadeau agrandi",
-      "collapsed": "Formulaire de destinataire de carte-cadeau réduit"
+      "send_on_label": "Expédition le (optionnel)",
+      "expanded": "Formulaire pour destinataire de bon cadeau déplié",
+      "collapsed": "Formulaire pour destinataire de bon cadeau replié"
     }
   },
   "shopify": {
@@ -584,6 +584,25 @@
       "payment_gateway": {
         "bank_account_label": "Compte bancaire"
       }
+    },
+    "attributes": {
+      "email": "courriel",
+      "first_name": "prénom",
+      "last_name": "nom de famille",
+      "body": "corps"
+    },
+    "addresses": {
+      "zip_code": "Code postal",
+      "pincode": "Code PIN",
+      "state_and_territory": "État/région",
+      "county": "Graafschap",
+      "governorate": "Gouvernement",
+      "confirm": "Êtes-vous sûr de vouloir supprimer cette adresse ?"
+    },
+    "challenge": {
+      "message": "Pour continuer, veuillez confirmer que vous n'êtes pas un robot.",
+      "error": "Votre réponse était incorrecte, veuillez réessayer s'il vous plaît.",
+      "submit_button_text": "Expédition"
     }
   },
   "customer_accounts": {
