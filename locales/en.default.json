@@ -560,6 +560,54 @@
         "paypal_modal": {
           "order_contains_fixed_selling_plans": "Total may exclude taxes, shipping, deferred charges and some discounts. Proceed to checkout for the amount due today."
         }
+      },
+      "contact": {
+        "change_company_location_link_label": "Change company address"
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Quick checkout",
+        "or_pay_another_way": "Or pay in another way",
+        "or_check_out_another_way": "Or view another way"
+      },
+      "change_currency": {
+        "payment_total_label": "Total payment",
+        "card_provider_fx_charges_warning": "Your card provider may charge fees for transactions in %{currency_code}."
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Your shopping cart has been updated based on your shipping country.",
+        "cart_and_currency_updated_based_on_country": "Your shopping cart and currency have been updated based on the shipping country."
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "Your country/region has been updated. Please enter your shipping address to continue with checkout."
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "There was a problem processing your request. Please contact the retailer."
+      },
+      "billing": {
+        "billing_address_title": "Billing to",
+        "same_as_shipping": "Same as the delivery address",
+        "delete": "Remove",
+        "address_more": "More offers for this address",
+        "address_delete": "Remove address",
+        "address_confirm": "Are you sure you want to remove this address from your account?",
+        "billing_address_rollup_accessibility_label": "Billing to options"
+      },
+      "company_location": {
+        "location_title": "Business location",
+        "location_rollup_accessibility_label": "Options for business location"
+      },
+      "clipboard": {
+        "failed_to_copy": "Copying failed"
+      },
+      "artifact_errors": {
+        "artifact_dissatisfaction_without_violation": "There was a problem processing your order. Please try again in a few minutes."
+      },
+      "b2b_errors": {
+        "log_out_link_text": "Log out",
+        "lost_permissions_subtitle": "You no longer have permission to place B2B orders. Log out to place a personal order."
+      },
+      "address_management": {
+        "saved_with_store": "Saved at this store"
       }
     },
     "addresses": {
