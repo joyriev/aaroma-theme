@@ -3055,30 +3055,30 @@
       }
     },
     "errors": {
-      "credit_card_session_expired": "Die Autorisierung der Kreditkarte ist abgelaufen, bitte geben Sie Ihre Zahlungsinformationen erneut ein. Ihre Karte wurde nicht belastet.",
+      "credit_card_session_expired": "Die Autorisierung für die Kreditkarte ist abgelaufen, bitte geben Sie Ihre Zahlungsdaten erneut ein. Ihre Karte wurde nicht belastet.",
       "invalid_email": "muss eine gültige E-Mail-Adresse sein",
       "discount_limit_reached": "Dieser Rabatt hat sein Nutzungslimit erreicht",
-      "discount_not_found": "Es konnte kein gültiger Rabatt gefunden werden, der dem eingegebenen Code entspricht",
+      "discount_not_found": "Es konnte kein gültiger Rabatt gefunden werden, der mit dem eingegebenen Code übereinstimmt",
       "customer_already_used_once_per_customer_discount_notice": "Dieser Rabatt hat sein Nutzungslimit erreicht",
-      "gift_card_already_applied": "Der Code wurde bereits auf Ihren Checkout angewendet",
+      "gift_card_already_applied": "Der Code wurde bereits auf Ihren Bezahlvorgang angewendet",
       "gift_card_code_invalid": "Code ist ungültig",
-      "gift_card_currency_mismatch": "Ihre Geschenkkarte ist in %{gift_card_currency}. Kontaktieren Sie uns, um sie in %{checkout_currency} neu ausstellen zu lassen.",
-      "gift_card_depleted": "Auf dieser Geschenkkarte sind keine Guthaben mehr vorhanden",
-      "gift_card_disabled": "Geschenkkarte ist deaktiviert",
+      "gift_card_currency_mismatch": "Ihr Geschenkgutschein ist in %{gift_card_currency}. Kontaktieren Sie uns, um ihn in %{checkout_currency} neu ausstellen zu lassen.",
+      "gift_card_depleted": "Auf diesem Geschenkgutschein ist kein Guthaben mehr vorhanden",
+      "gift_card_disabled": "Gutschein ist deaktiviert",
       "bad_domain": "enthält einen ungültigen Domainnamen",
       "taken": "ist bereits vergeben",
       "too_short": "ist zu kurz (mindestens %{count} Zeichen)",
       "too_long": "ist zu lang (maximal %{count} Zeichen)",
       "contains_spaces": "beginnt oder endet mit Leerzeichen.",
-      "invalid_for_country": "ist für %{country} nicht gültig",
-      "invalid_for_country_and_province": "ist für %{province} und %{country} nicht gültig",
+      "invalid_for_country": "ist nicht gültig für %{country}",
+      "invalid_for_country_and_province": "ist nicht gültig für %{province} und %{country}",
       "invalid_state_in_country": "ist kein gültiger Bundesstaat in %{country}",
       "full_name_required": "Geben Sie einen Vor- und Nachnamen ein",
-      "invalid_for_card_type": "ist ungültig",
-      "invalid_type": "Entschuldigung, wir akzeptieren keine Karten dieses Typs",
-      "invalid_format": "Format ist ungültig",
+      "invalid_for_card_type": "ist nicht gültig",
+      "invalid_type": "Entschuldigung, wir akzeptieren keine Karten dieses Typs.",
+      "invalid_format": "Die Einteilung ist ungültig",
       "expired": "ist abgelaufen",
-      "invalid_start_date_or_issue_number_for_debit": "Ein gültiges Startdatum oder eine Ausgabennummer ist erforderlich",
+      "invalid_start_date_or_issue_number_for_debit": "Ein gültiges Anfangsdatum oder Ausgabennummer ist erforderlich",
       "reset_password_html": "Diese E-Mail-Adresse ist bereits mit einem Konto verknüpft. Wenn dieses Konto Ihnen gehört, können Sie <a href=\"/account/login#recover\">Ihr Passwort zurücksetzen</a>",
       "verify_email": "Wir haben eine E-Mail an %{customer_email} gesendet. Bitte klicken Sie auf den enthaltenen Link, um Ihre E-Mail-Adresse zu bestätigen.",
       "product_not_available": "Produkt ist für diesen Kunden nicht veröffentlicht.",
@@ -3112,8 +3112,8 @@
             "link_text": "Jetzt anmelden"
           },
           "editions": {
-            "header": "Zur Kasse Shopify Editions",
-            "caption": "Mit über 100 Produktaktualisierungen können Sie produktiver und kreativer sein und im Handel mächtiger als je zuvor.",
+            "header": "Shopify-Ausgaben ansehen",
+            "caption": "Mit über 100 Produktverbesserungen können Sie produktiver und kreativer sein und im Handel stärker auftreten, als Sie je gedacht hätten.",
             "link_text": "Entdecken Sie die neuesten Ausgaben"
           },
           "store_owner": {
@@ -3122,7 +3122,9 @@
             "shopify_support_link_text": "Shopify-Support"
           }
         }
-      }
+      },
+      "discount_disabled": "Dieser Rabatt ist deaktiviert",
+      "gift_card_expired": "Gutschein ist abgelaufen"
     },
     "notices": {
       "customer": {
@@ -3209,14 +3211,14 @@
     },
     "email_marketing": {
       "subscribed": {
-        "confirmation": "Vielen Dank, dass Sie sich für unseren Mailingliste angemeldet haben.",
+        "confirmation": "Vielen Dank für Ihre Anmeldung zu unserem Mailingliste.",
         "disclaimer": "Sie können sich jederzeit abmelden.",
-        "unsubscribe": "Abbestellen"
+        "unsubscribe": "Abmelden"
       },
       "unsubscribed": {
-        "confirmation": "Sie haben sich von unserem Mailingliste abgemeldet.",
-        "disclaimer": "Sie erhalten keine weiteren Marketing-Updates von uns. Sie können sich jederzeit wieder anmelden.",
-        "preview": "Sie sehen eine Vorschau dessen, was Kunden sehen werden, wenn sie sich abmelden."
+        "confirmation": "Du hast dich von unserem Mailingliste abgemeldet.",
+        "disclaimer": "Du erhältst keine Marketing-Updates mehr von uns. Du kannst dich jederzeit wieder anmelden.",
+        "preview": "Sie sehen ein Beispiel dessen, was Kunden sehen werden, wenn sie sich abmelden."
       },
       "open_tracking": {
         "opt_in": {
@@ -3240,10 +3242,14 @@
           "visibility": "Wir werden nur sehen, ob du die E-Mail geöffnet hast, als Teil des gesamten Prozentsatzes der geöffneten E-Mails."
         },
         "updated_policy": {
-          "status_html": "<b>E-Mail-Öffnungs-Tracking wird gemeldet.</b>",
-          "visibility": "Wir haben unsere Richtlinie aktualisiert und verfolgen jetzt das Öffnen von E-Mails. Die Öffnungsraten der E-Mails werden anonym gemeldet. Wir sehen nur, ob Sie eine E-Mail als Teil der gesamten Öffnungsrate geöffnet haben.",
+          "status_html": "<b>Das Öffnen der E-Mail wird verfolgt.</b>",
+          "visibility": "Wir haben unsere Richtlinie aktualisiert und verfolgen jetzt das Öffnen von E-Mails. Das Öffnen von E-Mails wird anonym gemeldet. Wir sehen nur, ob Sie eine E-Mail geöffnet haben, als Teil des gesamten Prozentsatzes der geöffneten E-Mails.",
           "opt_out_html": "Wenn Sie diese Informationen nicht teilen möchten, können Sie sich <a style='text-decoration:underline;' href='%{link}'>abmelden.</a>"
         }
+      },
+      "sms_unsubscribe_confirm": {
+        "message": "Sind Sie sicher, dass Sie sich von SMS-Marketing abmelden möchten?",
+        "button": "Abmelden"
       }
     },
     "filters": {
