@@ -1182,17 +1182,17 @@
         "remove_chip": "Artikel entfernen",
         "page_title": "Zur Kasse",
         "skip_to_content": "Zum Inhalt springen",
-        "breadcrumb": "Brotkrumen",
-        "continue_button_label": "Fortsetzen",
+        "breadcrumb": "Brotkrümelpfad",
+        "continue_button_label": "Fortfahren",
         "complete_purchase_button_label": "Bestellung abschließen",
         "pay_now_button_label": "Jetzt bezahlen",
-        "continue_to_shipping_method": "Weiter zur Versandabwicklung",
-        "continue_to_payment_method": "Zur Zahlung fortfahren",
-        "back_to_contact_information": "Zurück zur Information",
+        "continue_to_shipping_method": "Weiter zur Versandart",
+        "continue_to_payment_method": "Weiter zur Bezahlung",
+        "back_to_contact_information": "Zurück zu Informationen",
         "choose_shipping_method": "Wählen Sie eine Versandart",
         "choose_payment_method": "Wählen Sie eine Zahlungsmethode",
         "choose_billing_address": "Wählen Sie eine Rechnungsadresse aus",
-        "contact_us_html": "Kontaktieren Sie uns für weitere Informationen",
+        "contact_us_html": "Nehmen Sie für weitere Informationen Kontakt mit uns auf",
         "autocomplete_single_item": "1 Artikel verfügbar",
         "autocomplete_multi_item": "{{number}} Artikel verfügbar",
         "forwarding_indicator": {
@@ -1201,7 +1201,7 @@
           "external_and_new_window": "Öffnet eine externe Website in einem neuen Fenster."
         },
         "checkout_context": {
-          "step_one": "%{shop_name} - Kasse"
+          "step_one": "%{shop_name} - Zur Kasse gehen"
         },
         "errors": {
           "only_empty_terms_accepted": "Diese Richtlinie akzeptiert nur leere Bedingungen.",
@@ -1376,8 +1376,8 @@
         "submit_order_button_label": "Bestellung absenden",
         "submit_for_review_button_label": "Zur Überprüfung einreichen",
         "submit_for_review_notice_label": "Die Zahlung ist erst fällig, nachdem Ihre Bestellung überprüft wurde",
-        "back_button_label": "Zurück",
-        "choose_delivery_strategy": "Wählen Sie eine Liefermethode",
+        "back_button_label": "Zurückgeben",
+        "choose_delivery_strategy": "Wählen Sie eine Liefermethode aus",
         "autocomplete_powered_by_google": "Angetrieben von {{brandName}}",
         "processing": "Verarbeitung…",
         "stepper": {
@@ -1395,7 +1395,10 @@
         },
         "datepicker": {
           "show_previous_month": "Vorherigen Monat anzeigen, {{month}} {{year}}",
-          "in_range": "In Reichweite"
+          "in_range": "In Reichweite",
+          "show_next_month": "Zeige nächsten Monat, {{month}} {{year}}",
+          "range_start": "Bereich Anfang",
+          "range_end": "Ende des Sortiments"
         },
         "list_formatter": {
           "and": {
@@ -1410,7 +1413,11 @@
         },
         "dropzone": {
           "dragged_over": "Datei zum Hochladen hier ablegen"
-        }
+        },
+        "authenticate_purchase_button_label": "Zahlung bestätigen",
+        "cart": "Einkaufswagen",
+        "back_to_payment_method": "Zurück zur Bezahlung",
+        "continue_to_payment_plans_button_label": "Weiter zu Zahlungsplänen"
       },
       "payment_collection": {
         "cancelled": "Diese Zahlung ist nicht mehr erforderlich. Besuchen Sie die Bestellseite für weitere Details.",
@@ -1972,7 +1979,7 @@
         "reduction_code_gift_cards_not_supported_with_deferred_purchase_options": "Geschenkgutscheine werden bei aufgeschobenen Kaufoptionen nicht unterstützt.",
         "shipping_line_phone_blank": "Geben Sie eine Telefonnummer ein, um diese Liefermethode zu verwenden",
         "shipping_line_phone_invalid": "Geben Sie eine gültige Telefonnummer ein",
-        "tips_invalid_tip_amount": "Geben Sie ein Trinkgeld unter %{amount} ein",
+        "tips_invalid_tip_amount": "Geben Sie ein Trinkgeld von weniger als %{amount} ein",
         "gift_card_already_applied": "Dieser Geschenkgutschein wurde bereits auf Ihre Bestellung angewendet",
         "gift_card_disabled": "Dieser Geschenkgutschein ist nicht mehr verfügbar",
         "gift_card_expired": "Dieser Geschenkgutschein ist abgelaufen",
@@ -1997,7 +2004,7 @@
         "address_country_invalid": "Wählen Sie ein Land/Gebiet aus der Liste aus",
         "address_zip_invalid": "Geben Sie eine gültige Postleitzahl ein",
         "gift_card_invalid": "Gutschein \"••••%{last_four_characters}\" ist nicht mehr gültig",
-        "vaulting_agreement_blank": "Ihre Zahlungsmethode muss gespeichert werden, da die Zahlung für den Restbetrag dieser Bestellung später fällig ist.",
+        "vaulting_agreement_blank": "Ihre Zahlungsmethode muss gespeichert werden, da die Zahlung des Restbetrags dieser Bestellung später fällig ist.",
         "sms_marketing_phone_invalid": "Geben Sie eine gültige Telefonnummer ein",
         "shipping_method_invalid_phone_number": "Aktualisieren Sie die Telefonnummer in Ihrer Lieferadresse, um die verfügbaren Versandmethoden zu sehen.",
         "address_suggestion_did_you_mean_html": "Meintest du %{html}?",
