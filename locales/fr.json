@@ -579,7 +579,45 @@
         "thank_you_from_shop": "De %{shop_name}"
       },
       "general": {
-        "remove_chip": "Supprimer l'article"
+        "remove_chip": "Supprimer l'article",
+        "breadcrumb": "Fil d'Ariane",
+        "complete_purchase_button_label": "Terminer la commande",
+        "authenticate_purchase_button_label": "Vérifier le paiement",
+        "continue_to_shipping_method": "Passer à l'expédition",
+        "continue_to_payment_method": "Passer au paiement",
+        "back_to_contact_information": "Retour à l'information",
+        "back_to_shipping_method": "Retour à l'expédition",
+        "choose_shipping_method": "Choisissez un mode d'expédition",
+        "choose_payment_method": "Choisissez un mode de paiement",
+        "contact_us_html": "Contactez-nous pour plus d'informations",
+        "autocomplete_single_item": "1 article disponible",
+        "autocomplete_multi_item": "{{number}} articles disponibles",
+        "checkout_context": {
+          "step_one": "%{shop_name} - Payer"
+        },
+        "continue_to_payment_plans_button_label": "Passer aux plans de paiement",
+        "back_button_label": "Rendre",
+        "choose_delivery_strategy": "Choisissez un mode de livraison",
+        "autocomplete_powered_by_google": "Propulsé par {{brandName}}",
+        "dates": {
+          "months": {
+            "january": "janvier",
+            "february": "février",
+            "march": "mars",
+            "april": "avril",
+            "may": "mai",
+            "june": "juin",
+            "july": "juillet",
+            "september": "septembre",
+            "november": "novembre",
+            "december": "décembre"
+          }
+        },
+        "datepicker": {
+          "range_start": "Commencer l'accès",
+          "in_range": "À portée de main",
+          "range_end": "Fin de la gamme"
+        }
       },
       "payment_gateway": {
         "bank_account_label": "Compte bancaire"
@@ -857,7 +895,9 @@
         "shipping_method_invalid_phone_number": "Mettez à jour le numéro de téléphone dans votre adresse de livraison pour voir les méthodes d'expédition disponibles.",
         "split_by_delivery_method_not_allowed": "La répartition par méthode de livraison n'est pas autorisée pour cette session ou ce magasin.",
         "split_by_delivery_method_unsupported_method_type": "Divisé par méthode de livraison, essayé avec un type de méthode de livraison non pris en charge.",
-        "split_by_delivery_method_requires_merchandise_from_single_location": "La division par méthode de livraison nécessite que les lignes de marchandises individuelles soient exécutées depuis un seul emplacement."
+        "split_by_delivery_method_requires_merchandise_from_single_location": "La division par méthode de livraison nécessite que les lignes de marchandises individuelles soient exécutées depuis un seul emplacement.",
+        "tips_invalid_tip_amount": "Entrez un pourboire inférieur à %{amount}",
+        "vaulting_agreement_blank": "Votre méthode de paiement doit être enregistrée car le paiement du solde restant de cette commande sera dû ultérieurement."
       },
       "failed_payment": {
         "page_title": "Le paiement n'a pas pu être traité",
