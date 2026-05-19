@@ -2331,7 +2331,14 @@
       },
       "shop_policies": {
         "contact_information": "Prendre contact",
-        "cookie_preferences": "Biscuits"
+        "cookie_preferences": "Biscuits",
+        "terms_of_service": "Conditions d'utilisation",
+        "legal_notice": "Avis juridique",
+        "terms_of_sale": "Conditions de vente",
+        "purchase_options_policy": "Règles relatives aux options d'achat",
+        "policies_label": "Règles de politique",
+        "select_policy_label": "Sélectionnez une police",
+        "terms_and_policies": "Conditions et règles de politique"
       },
       "shop_pay_external": {
         "errors": {
@@ -2341,6 +2348,63 @@
         "return_to_store": "Retour à {{shopName}}",
         "return_to_store_simple": "Retour au magasin",
         "title": "Payer avec Shop Pay"
+      },
+      "stock": {
+        "page_title": "Problèmes de stock",
+        "go_back_to_cart_button_label": "Retourner à mon panier",
+        "item_label": {
+          "one": "{{count}} articles",
+          "other": "{{count}} articles"
+        },
+        "continue_cta_label": "Continuer vers le paiement",
+        "out_of_stock": {
+          "description": "Ces articles ne sont plus disponibles et ont été retirés de votre panier.",
+          "items_unavailable": "Certains articles ne sont plus disponibles et ont été retirés de votre panier."
+        },
+        "price_and_quantity_update": {
+          "description": "Les prix et les quantités disponibles de ces articles ont été modifiés et mis à jour dans votre panier."
+        },
+        "out_of_stock_in_context_label": "Ce produit n'est pas disponible dans votre pays/région."
+      },
+      "split_delivery": {
+        "pickup_all_items": "Emballer tous les articles",
+        "items_for_pickup": "Articles à retirer",
+        "delivery_method": "Méthode de livraison fractionnée",
+        "delivery_method_menu": "Menu de méthode de livraison fractionnée",
+        "inventory_issue_banner": {
+          "remove_items_or_ship": "%{ship_separately_link} de %{remove_items_link}",
+          "remove_items_or_pickup": "%{pickup_in_store_link} de %{remove_items_link}",
+          "heading": {
+            "cannot_be_picked_up": {
+              "one": "Impossible de récupérer %{count} article(s)"
+            }
+          },
+          "remove_item": {
+            "one": "Supprimer l'article",
+            "other": "Supprimer les articles"
+          },
+          "ship_separately": {
+            "one": "envoyez-le séparément",
+            "other": "envoyez-les séparément"
+          },
+          "pick_them_up_in_store": {
+            "one": "récupérez-le en magasin",
+            "other": "récupérez-les en magasin"
+          },
+          "remove_item_only": {
+            "one": "Supprimer l'article",
+            "other": "Supprimer les articles"
+          }
+        },
+        "items_for_shipping": "Articles à expédier",
+        "items_moved_to_shipping_toast": "Les articles qui ne peuvent pas être récupérés ont été déplacés vers l'expédition",
+        "cross_border": {
+          "modal": {
+            "content": "Cela réinitialise tous les articles pour l'expédition. Vos points de retrait et d'expédition doivent se trouver dans le même pays.",
+            "change_country": "Modifier le pays"
+          },
+          "banner": "Votre méthode de livraison a été mise à jour"
+        }
       }
     },
     "attributes": {
