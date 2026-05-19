@@ -141,9 +141,9 @@
       "sold_out": "Ausverkauft",
       "unavailable": "Nicht verfügbar",
       "vendor": "Verkäufer",
-      "video_exit_message": "{{ title }} öffnet das Vollbildvideo im selben Fenster.",
-      "xr_button": "Im Raum anzeigen",
-      "xr_button_label": "Im Raum anzeigen, lädt Artikel im Fenster für erweiterte Realität",
+      "video_exit_message": "{{ title }} öffnet Video im Vollbildmodus im selben Fenster.",
+      "xr_button": "Betrachten Sie es in Ihrem Raum",
+      "xr_button_label": "In Ihrem Raum ansehen, Artikel im Fenster für erweiterte Realität laden",
       "pickup_availability": {
         "view_store_info": "Geschäftsinformationen ansehen",
         "check_other_stores": "Verfügbarkeit in anderen Geschäften prüfen",
@@ -163,7 +163,7 @@
         "load_video": "Video {{ index }} in der Galerieansicht abspielen",
         "image_available": "Bild {{ index }} ist jetzt in der Galeriedarstellung verfügbar"
       },
-      "view_full_details": "Vollständige Details anzeigen",
+      "view_full_details": "Vollständige Details ansehen",
       "shipping_policy_html": "<a href=\"{{ link }}\">Versand</a> wird beim Bezahlen berechnet.",
       "choose_options": "Optionen wählen",
       "choose_product_options": "Wähle Optionen für {{ product_name }}",
@@ -179,9 +179,9 @@
       "volume_pricing": {
         "title": "Mengenrabatt",
         "note": "Mengenrabatt verfügbar",
-        "minimum": "{{ quantity }}+",
+        "minimum": "Mehr als {{ quantity }}",
         "price_range": "{{ minimum }}–{{ maximum }}",
-        "price_at_each_html": "bei {{ price }} pro Stück"
+        "price_at_each_html": "ab {{ price }} pro Stück"
       },
       "product_variants": "Produktvarianten",
       "duties_included": "Inklusive Abholung."
@@ -510,18 +510,18 @@
   "recipient": {
     "form": {
       "checkbox": "Ich möchte dies als Geschenk senden",
-      "email_label": "Empfänger-E-Mail",
-      "email": "E-Mail",
-      "name_label": "Empfängername (optional)",
+      "email_label": "E-Mail-Adresse Empfänger",
+      "email": "E-Mail-Adresse",
+      "name_label": "Name des Empfängers (optional)",
       "name": "Name",
-      "message_label": "Nachricht (optional)",
-      "message": "Nachricht",
-      "max_characters": "{{ max_chars }} Zeichen maximal",
-      "email_label_optional_for_no_js_behavior": "Empfänger-E-Mail (optional)",
+      "message_label": "Bericht (optional)",
+      "message": "Bericht",
+      "max_characters": "Maximal {{ max_chars }} Zeichen",
+      "email_label_optional_for_no_js_behavior": "E-Mail-Adresse des Empfängers (optional)",
       "send_on": "JJJJ-MM-TT",
-      "send_on_label": "Senden an (optional)",
-      "expanded": "Geschenkkarten-Empfängerformular erweitert",
-      "collapsed": "Geschenkkarten-Empfängerformular eingeklappt"
+      "send_on_label": "Versand am (optional)",
+      "expanded": "Formular für den Empfänger des Geschenkgutscheins entfaltet",
+      "collapsed": "Formular für Empfänger Geschenkgutschein eingeklappt"
     }
   },
   "shopify": {
@@ -2667,12 +2667,12 @@
     },
     "addresses": {
       "pincode": "PIN-Code",
-      "state": "Status",
-      "state_and_territory": "Bundesland/Territorium",
-      "county": "Landkreis",
+      "state": "Bundesland",
+      "state_and_territory": "Staat/Gebiet",
+      "county": "Grafschaft",
       "emirate": "Emirat",
-      "governorate": "Gouvernement",
-      "confirm": "Sind Sie sicher, dass Sie diese Adresse löschen möchten?"
+      "governorate": "Regierung",
+      "confirm": "Sind Sie sicher, dass Sie diese Adresse entfernen möchten?"
     },
     "collections": {
       "sorting": {
@@ -2897,9 +2897,9 @@
       "discounts_with_count": "%{count} Rabatte wurden angewendet"
     },
     "challenge": {
-      "message": "Um fortzufahren, lassen Sie uns wissen, dass Sie kein Roboter sind.",
-      "error": "Deine Antwort war nicht korrekt, bitte versuche es erneut.",
-      "submit_button_text": "Absenden"
+      "message": "Um fortzufahren, bestätigen Sie bitte, dass Sie kein Roboter sind.",
+      "error": "Ihre Antwort war nicht korrekt, bitte versuchen Sie es erneut.",
+      "submit_button_text": "Versenden"
     },
     "checkpoint": {
       "message": "Lösen Sie das Captcha, um fortzufahren",
