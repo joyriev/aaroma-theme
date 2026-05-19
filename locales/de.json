@@ -3023,12 +3023,12 @@
       }
     },
     "sentence": {
-      "two_words_connector": "und",
+      "two_words_connector": "de",
       "last_word_connector": ", und"
     },
     "pagination": {
-      "previous": "Zurück",
-      "next": "Weiter"
+      "previous": "Vorherige",
+      "next": "Nächste"
     },
     "links": {
       "powered_by_shopify": "Angetrieben von Shopify",
@@ -3148,17 +3148,21 @@
       },
       "order": {
         "financial_status": {
-          "voided": "Ungültig",
-          "refunded": "Erstattet",
-          "authorized": "Autorisierte"
+          "voided": "Abgesagt",
+          "refunded": "Zurückerstattet",
+          "authorized": "Autorisierte",
+          "pending": "In Bearbeitung",
+          "partially_refunded": "Teilweise zurückerstattet"
         },
         "fulfillment_status": {
           "complete": "Abgeschlossen",
-          "unfulfilled": "Unerfüllt",
-          "restocked": "Nachgefüllt"
+          "unfulfilled": "Nicht erfüllt",
+          "restocked": "Wieder auf Lager",
+          "fulfilled": "Ausgeführt"
         },
         "transaction_status": {
-          "failure": "Fehler"
+          "failure": "Fehlschlag",
+          "pending": "In Bearbeitung"
         },
         "cancel_reason": {
           "declined": "Zahlung abgelehnt",
@@ -3210,10 +3214,10 @@
         "invalid_password": "Passwort falsch, bitte versuchen Sie es erneut."
       },
       "tags": {
-        "add_articles": "Suche auf Artikel mit dem Schlagwort %{tag} eingrenzen",
-        "add_products": "Auswahl auf Produkte mit dem Schlagwort %{tag} eingrenzen",
-        "remove_articles": "Suche auf Artikel ausweiten, die nicht mit %{tag} gekennzeichnet sind",
-        "remove_products": "Entferne das Etikett %{tag}"
+        "add_articles": "Suchergebnisse auf Artikel mit dem Tag %{tag} beschränken",
+        "add_products": "Auswahl auf Produkte beschränken, die mit dem Tag %{tag} übereinstimmen",
+        "remove_articles": "Suche auch in Artikeln, die nicht mit %{tag} gekennzeichnet sind",
+        "remove_products": "Etikett %{tag} entfernen"
       },
       "address": {
         "deleted": "Adresse erfolgreich entfernt"
@@ -3272,14 +3276,21 @@
     "search": {
       "error": "Beim Laden Ihrer Suchergebnisse ist ein Problem aufgetreten. Bitte aktualisieren Sie die Seite oder versuchen Sie es später erneut.",
       "sorting": {
-        "price_ascending": "Preis, aufsteigend",
+        "price_ascending": "Preis, von niedrig bis hoch",
         "price_descending": "Preis, von hoch nach niedrig"
       }
     },
     "page_titles": {
       "blog_or_article_with_error": "Fehler - %{title}",
       "shopping_cart": "Ihr Warenkorb",
-      "checkpoint": "Kontrollpunkt"
+      "checkpoint": "Kontrollpunkt",
+      "account": "Rechnung",
+      "order": "Bestelle %{name}",
+      "search": "Suchen",
+      "search_results": {
+        "one": "Suchergebnis: %{count} Ergebnis gefunden für \"%{terms}\"",
+        "other": "Suchen: %{count} Ergebnisse gefunden für \"%{terms}\""
+      }
     },
     "cart": {
       "discounts_with_count": "%{count} Rabatte wurden angewendet"
@@ -3296,15 +3307,15 @@
     },
     "store_availability": {
       "pick_up_time": {
-        "one_hour": "Normalerweise in 1 Stunde fertig",
-        "two_hours": "Normalerweise in 2 Stunden fertig",
-        "four_hours": "Normalerweise in 4 Stunden fertig",
-        "twenty_four_hours": "Normalerweise in 24 Stunden fertig",
+        "one_hour": "Normalerweise innerhalb einer Stunde fertig",
+        "two_hours": "Normalerweise innerhalb von 2 Stunden fertig",
+        "four_hours": "Normalerweise innerhalb von 4 Stunden fertig",
+        "twenty_four_hours": "In der Regel innerhalb von 24 Stunden fertig",
         "two_to_four_days": "Normalerweise in 2-4 Tagen fertig",
-        "five_or_more_days": "Normalerweise in 5+ Tagen fertig",
+        "five_or_more_days": "In der Regel innerhalb von mehr als 5 Tagen fertig",
         "zero_to_two_hours": "Normalerweise in 2 Stunden fertig",
         "two_to_four_hours": "Normalerweise in 4 Stunden fertig",
-        "immediately": "Jetzt abholbereit",
+        "immediately": "Bereit zur Abholung",
         "next_day": "Bereit zur Abholung am nächsten Tag"
       }
     },

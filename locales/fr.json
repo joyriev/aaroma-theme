@@ -3069,7 +3069,72 @@
             "header": "Voir les éditions Shopify",
             "caption": "Avec plus de 100 améliorations de produit, vous pouvez être plus productif et créatif, et plus performant dans le commerce que vous ne l'auriez jamais imaginé.",
             "link_text": "Découvrez les dernières nouveautés"
+          },
+          "sell_in_person": {
+            "header": "Vente personnelle",
+            "caption": "Obtenez les fonctionnalités dont vous avez besoin pour gérer votre boutique, que vous débutiez ou que vous souhaitiez vous développer.",
+            "link_text": "Commencez votre période d'essai gratuite"
+          },
+          "open_a_store": {
+            "caption": "Commencez une période d'essai gratuite de 3 jours, puis continuez pour 1 $/mois pendant les 3 mois suivants.",
+            "link_text": "Inscrivez-vous maintenant"
+          },
+          "store_owner": {
+            "header": "Êtes-vous le commerçant ?",
+            "caption": "Vous avez du mal à accéder à votre boutique ? Essayez la fonction %{forgot_your_store_link}. Si vous souhaitez réactiver votre boutique, contactez %{shopify_support_link}.",
+            "shopify_support_link_text": "Assistance Shopify"
           }
+        },
+        "title": "Créez une boutique en ligne et vendez sur Internet ! Logiciel de boutique en ligne de Shopify",
+        "heros": {
+          "store_unavailable": "Désolé, ce magasin n'est pas disponible pour le moment.",
+          "store_not_exist": "Cette boutique n'existe pas.",
+          "no_storefront": "Cette boutique n'a pas encore de site web."
+        },
+        "links": {
+          "explore_other_stores": "Découvrez d'autres magasins",
+          "start_free_trial": "Commencez une période d'essai gratuite"
+        },
+        "owner_ctas": {
+          "header": "Êtes-vous le commerçant ?",
+          "fix_domain": "Finalisez la configuration de votre nouvelle adresse web via %{domain_settings_link}. Cliquez sur « Connecter le domaine » et saisissez : %{domain}.<br>Si vous rencontrez des problèmes pour vous connecter à votre boutique, essayez la page %{forgot_your_store_link}.",
+          "forgot_your_store_link_text": "vous avez oublié votre panier",
+          "add_storefront": "Vous pouvez configurer votre site web en ajoutant le canal Boutique en ligne dans votre %{admin_link}. Si vous rencontrez des problèmes pour ouvrir votre boutique, essayez la page %{forgot_your_store_link}.",
+          "admin_link_text": "administrateur"
+        }
+      },
+      "taken": "est déjà en service",
+      "too_short": "est trop court (au moins %{count} caractères)",
+      "too_long": "est trop long (maximum %{count} caractères)",
+      "verify_email": "Nous avons envoyé un e-mail à %{customer_email}, veuillez cliquer sur le lien joint pour vérifier votre adresse e-mail."
+    },
+    "links": {
+      "powered_by_shopify": "Propulsé par Shopify",
+      "learn_more": "Plus d'informations"
+    },
+    "notices": {
+      "address": {
+        "updated": "Adresse mise à jour avec succès.",
+        "created": "Adresse créée avec succès",
+        "deleted": "Adresse supprimée avec succès"
+      },
+      "cart": {
+        "all_items_in_cart": "Tous les %{count} %{name} sont dans votre panier.",
+        "empty_update": "impossible de mettre à jour le panier vide",
+        "generic_error": "Ajouter Fout au panier",
+        "changed": "Panier modifié",
+        "digital_product_not_available_for_company_locations": "Cet article ne peut pas être ajouté à une commande B2B",
+        "bundle_requires_components": "Le produit groupé '%{name}' ne peut pas être ajouté au panier.",
+        "gift_card_with_components_not_supported": "Le produit groupé '%{name}' ne peut pas être ajouté au panier.",
+        "gift_card_price_must_be_greater_than_zero": "Le produit groupé '%{name}' ne peut pas être ajouté au panier.",
+        "gift_card_recipient_validation_error": "Le destinataire indiqué du bon cadeau est invalide",
+        "cart_attributes_error": "Les caractéristiques du panier contiennent des données invalides."
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "out_of_stock": "Rupture de stock"
         }
       }
     }
