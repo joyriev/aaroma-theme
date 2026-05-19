@@ -930,7 +930,60 @@
         "cashapppay_label": "Cash App Payment",
         "billing_address_rollup_accessibility_label": "Invoice address options",
         "business_customer_with_bank_account_vaulting_payment_label": "Save this payment method at checkout and authorize %{company} to debit your account for future purchases you approve for this location until you revoke this authorization. All contacts assigned to this location can use the payment method.",
-        "continue_to_guest_checkout": "Proceed to checkout as guest"
+        "continue_to_guest_checkout": "Proceed to checkout as guest",
+        "discount_button_action_label": "Apply discount code",
+        "ends_with_label": "ending in %{last_digits}",
+        "express_checkout_free_order": "You will not be charged for a free order",
+        "eps_label": "eps transfer",
+        "expiry_short": "(Expires %{month}/%{year})",
+        "delete_customer_mandate_modal_body": "If you remove this card, you will need to add it again before you can use it to pay.",
+        "fact_billing_address_label": "Invoice address",
+        "expired_cards_info": {
+          "one": "There is %{count} expired card that you can view and edit in your account.",
+          "other": "There are %{count} expired cards that you can view and edit in your account."
+        },
+        "custom_onsite_payment_method_modal": {
+          "title": "Customized Payment Confirmation On Site"
+        },
+        "delete_credit_card_modal": {
+          "title": "Remove card",
+          "confirmation": "Are you sure you want to delete the {{brandName}} ending with {{lastDigits}}?",
+          "delete": "Remove"
+        },
+        "edit_credit_card_modal": {
+          "done": "Ready",
+          "description": "You can only change the billing address of your card.",
+          "fields": {
+            "billing": "Billing to"
+          }
+        },
+        "expired_payment_method": "The selected payment method has expired",
+        "crypto_modal": {
+          "error": {
+            "refresh": "Renew"
+          }
+        },
+        "crypto_payment_method": {
+          "description": "Connect safely with your wallet on the Base network",
+          "tooltip": "Your wallet balance and address will not be shared, and only the requested amount can be withdrawn",
+          "cashback_descriptor": {
+            "one": "You will receive your cashback after %{count} days",
+            "other": "You will receive your cashback after %{count} days"
+          }
+        },
+        "discount_codes_removed_summary": {
+          "one": "%{count} discount code has been removed",
+          "other": "%{count} discount codes have been removed"
+        },
+        "default": "Standard",
+        "discount_codes_modified_summary": {
+          "one": "%{count} discount code has been adjusted",
+          "other": "%{count} discount codes have been updated"
+        },
+        "discount_codes_removed_or_modified_summary": {
+          "one": "%{count} discount code has been removed or modified",
+          "other": "%{count} discount codes have been removed or modified"
+        }
       },
       "contact": {
         "change_company_location_link_label": "Change company address",

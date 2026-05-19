@@ -1367,6 +1367,63 @@
         "payment_not_processed_text": "Essayez de scanner à nouveau le code QR. Si cela ne fonctionne toujours pas, informez notre personnel et essayez un autre mode de paiement.",
         "payment_link_expired_text": "Essayez de scanner à nouveau le code QR.",
         "title": "Paiement hors site échoué"
+      },
+      "order_summary": {
+        "add_discount_or_gift_card": "Ajoutez un code de réduction ou un bon cadeau",
+        "apply_discount_button_label": "Appliquer",
+        "applied_discount_message": "%{amount} de réduction sur la valeur totale de la commande",
+        "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> code de réduction n'est pas valide pour les articles dans votre panier",
+        "customer_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> code de réduction n'est actuellement pas disponible pour vous",
+        "customer_already_used_once_per_customer_discount_notice": "Le code de réduction <strong style=\"text-transform:uppercase\">%{code}</strong> a déjà été utilisé",
+        "cost_table_title": "Aperçu des coûts",
+        "calculating_shipping": "Calcul en cours…",
+        "confirmation_number_label": "Confirmation #%{confirmation_number}",
+        "deferred_payment_info": {
+          "description_html": "Pour toute question concernant votre commande, %{contact_us}.",
+          "paid_today": "Total payé aujourd'hui",
+          "due_on_fulfillment_title": "Le paiement de %{amount_due} est dû à la livraison",
+          "due_on_receipt_title": "Le paiement de %{amount_due} est dû à réception",
+          "paid_today_next": "Payé aujourd'hui"
+        },
+        "amount_off_shipping": "%{amount} de réduction sur la livraison",
+        "deferred_total_due_date_label": "Total à payer {{date}}",
+        "custom_discount": "Remise personnalisée",
+        "collapse_component_information": {
+          "one": "Masquer %{count} article",
+          "other": "Masquer %{count} articles"
+        },
+        "alternative_payment_currency_total": "Facturé comme %{amount_due}",
+        "calculating": "Calcul en cours…",
+        "deferred_balance_info": {
+          "title": "Solde de {{amount_due}} dû le {{due_at}}",
+          "due_on_fulfillment_title": "Un solde de {{amount_due}} est dû à la livraison"
+        },
+        "deposit_label": "Storting",
+        "deferred_total_due_date_label_next": "Date d'expiration %{date}",
+        "compare_at_sale": "Soldes (%{sale_amount})",
+        "automatic_discount_tooltip": "Les remises appliquées automatiquement ne peuvent pas être supprimées"
+      },
+      "order_payment_collection": {
+        "changes_summary": {
+          "added": {
+            "other": "Ajouté %{count}"
+          },
+          "subtracted": "Supprimé %{count}",
+          "returned": "Retourné %{count}",
+          "return_line_item_removed": "%{count} supprimé(s) du retour"
+        },
+        "additional_payment_requested": "Le paiement de %{total_outstanding} est requis",
+        "checkout_review_and_pay": "Votre commande %{order_name} a été mise à jour. Consultez ces modifications puis payez pour confirmer votre commande."
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "one": "Achetez %{product_name} et %{count} autre article",
+          "other": "Achetez %{product_name} et %{count} autres articles"
+        }
+      },
+      "order_errors": {
+        "creation_failure": "Un problème est survenu lors de la création de votre commande. Veuillez réessayer ou contactez-nous pour plus d'informations.",
+        "network_failure": "Votre commande n'a pas pu être envoyée en raison d'une erreur réseau. Vérifiez votre connexion et réessayez."
       }
     },
     "attributes": {
