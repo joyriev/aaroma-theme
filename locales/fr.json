@@ -227,24 +227,24 @@
   },
   "templates": {
     "search": {
-      "no_results": "Aucun résultat trouvé pour « {{ terms }} ». Vérifiez l'orthographe ou utilisez un autre mot ou une autre expression.",
+      "no_results": "Aucun résultat trouvé pour « {{ terms }} ». Vérifiez l'orthographe ou utilisez un autre mot ou une autre expression.",
       "results_with_count": {
-        "one": "{{ count }} résultat",
-        "other": "{{ count }} résultats",
+        "one": "{{ count }} résultat",
+        "other": "{{ count }} résultats",
         "many": "{{ count }} résultats"
       },
-      "title": "Résultats de la recherche",
+      "title": "Résultats de recherche",
       "page": "Page",
       "products": "Produits",
-      "search_for": "Rechercher « {{ terms }} »",
+      "search_for": "Recherchez « {{ terms }} »",
       "results_with_count_and_term": {
-        "one": "{{ count }} résultat trouvé pour « {{ terms }} »",
-        "other": "{{ count }} résultats trouvés pour « {{ terms }} »",
+        "one": "{{ count }} résultat trouvé pour « {{ terms }} »",
+        "other": "{{ count }} résultats trouvés pour « {{ terms }} »",
         "many": "{{ count }} résultats trouvés pour « {{ terms }} »"
       },
       "results_pages_with_count": {
-        "one": "Page {{ count }}",
-        "other": "Pages {{ count }}",
+        "one": "{{ count }} page",
+        "other": "{{ count }} pages",
         "many": "Pages {{ count }}"
       },
       "results_suggestions_with_count": {
@@ -253,8 +253,8 @@
         "many": "{{ count }} suggestions"
       },
       "results_products_with_count": {
-        "one": "Produit {{ count }}",
-        "other": "Produits {{ count }}",
+        "one": "{{ count }} produit",
+        "other": "{{ count }} produits",
         "many": "Produits {{ count }}"
       },
       "suggestions": "Suggestions",
@@ -266,12 +266,12 @@
     "contact": {
       "form": {
         "name": "Nom",
-        "email": "E-mail",
+        "email": "Courriel",
         "phone": "Numéro de téléphone",
-        "comment": "Commentaire",
-        "send": "Envoyer",
-        "post_success": "Merci de nous avoir contactés. Nous vous répondrons dès que possible.",
-        "error_heading": "Veuillez ajuster les éléments suivants :",
+        "comment": "Remarque",
+        "send": "Expédition",
+        "post_success": "Merci de nous avoir contactés. Nous vous répondrons dans les plus brefs délais.",
+        "error_heading": "Modifiez ce qui suit :",
         "title": "Formulaire de contact"
       }
     },
@@ -3238,7 +3238,10 @@
         "twenty_four_hours": "Généralement prêt sous 24 heures",
         "five_or_more_days": "Généralement prêt en plus de 5 jours",
         "immediately": "Prêt à être retiré maintenant",
-        "next_day": "Prêt pour le retrait le lendemain"
+        "next_day": "Prêt pour le retrait le lendemain",
+        "two_to_four_days": "Généralement prêt sous 2 à 4 jours",
+        "zero_to_two_hours": "Généralement prêt en 2 heures",
+        "two_to_four_hours": "Habituellement prêt en 4 heures"
       }
     },
     "search": {
@@ -3247,6 +3250,11 @@
         "price_descending": "Prix, du plus élevé au plus bas"
       },
       "error": "Un problème est survenu lors du chargement de vos résultats de recherche. Actualisez la page ou réessayez plus tard."
+    },
+    "subscriptions": {
+      "buyer_consent_product": "Cet article est un achat récurrent ou différé. En continuant, j'accepte la %{cancellationPolicyLink} et vous autorise à débiter ma méthode de paiement aux prix, fréquences et dates indiqués sur cette page jusqu'à ce que ma commande soit terminée ou que j'annule, si cela est autorisé.",
+      "buyer_consent_cart": "Un ou plusieurs articles dans votre panier sont des achats récurrents ou différés. En continuant, j'accepte la %{cancellationPolicyLink} et vous autorise à débiter ma méthode de paiement aux prix, fréquences et dates indiqués sur cette page jusqu'à ce que ma commande soit terminée ou que j'annule, si cela est permis.",
+      "cancellation_policy": "politique d'annulation"
     }
   },
   "customer_accounts": {
