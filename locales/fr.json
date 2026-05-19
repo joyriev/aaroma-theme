@@ -72,42 +72,42 @@
     "button_label": "S'inscrire"
   },
   "accessibility": {
-    "skip_to_text": "Ignorer et passer au contenu",
+    "skip_to_text": "Passer au contenu",
     "close": "Fermer",
     "unit_price_separator": "par",
-    "vendor": "Fournisseur :",
+    "vendor": "Vendeur :",
     "error": "Erreur",
-    "refresh_page": "Le choix d'une sélection entraîne l'actualisation de la page entière.",
+    "refresh_page": "Faire un choix entraîne un rechargement complet de la page.",
     "link_messages": {
-      "new_window": "S'ouvre dans une nouvelle fenêtre.",
+      "new_window": "S’ouvre dans une nouvelle fenêtre.",
       "external": "Ouvre un site web externe."
     },
     "loading": "Chargement en cours...",
-    "skip_to_product_info": "Passer aux informations produits",
-    "total_reviews": "total des critiques",
+    "skip_to_product_info": "Aller aux informations sur le produit",
+    "total_reviews": "nombre total d'avis",
     "star_reviews_info": "{{ rating_value }} sur {{ rating_max }} étoiles",
-    "collapsible_content_title": "Contenu réductible",
+    "collapsible_content_title": "Contenu pliable",
     "complementary_products": "Produits complémentaires"
   },
   "blogs": {
     "article": {
-      "blog": "Blog",
-      "read_more_title": "Lire la suite : {{ title }}",
+      "blog": "Blogue",
+      "read_more_title": "En savoir plus : {{ title }}",
       "comments": {
-        "one": "{{ count }} commentaire",
-        "other": "{{ count }} commentaires",
+        "one": "{{ count }} commentaire",
+        "other": "{{ count }} commentaires",
         "many": "{{ count }} commentaires"
       },
       "moderated": "Veuillez noter que les commentaires doivent être approuvés avant d'être publiés.",
-      "comment_form_title": "Laisser un commentaire",
+      "comment_form_title": "Laissez un commentaire",
       "name": "Nom",
-      "email": "E-mail",
-      "message": "Commentaire",
-      "post": "Publier le commentaire",
+      "email": "Courriel",
+      "message": "Remarque",
+      "post": "Publier un commentaire",
       "back_to_blog": "Retour au blog",
-      "share": "Partager cet article",
-      "success": "Votre commentaire a bien été publié ! Merci !",
-      "success_moderated": "Votre commentaire a bien été publié. Nous le publierons sous peu, conformément au processus de modération de notre blog."
+      "share": "Partagez cet article",
+      "success": "Votre commentaire a été publié avec succès ! Merci beaucoup !",
+      "success_moderated": "Votre commentaire a été publié avec succès. Nous le publierons bientôt, car notre blog est en cours de modération."
     }
   },
   "onboarding": {
@@ -395,23 +395,23 @@
   },
   "customer": {
     "account": {
-      "title": "Compte",
-      "details": "Détails du compte",
+      "title": "Facture",
+      "details": "Informations du compte",
       "view_addresses": "Voir les adresses",
-      "return": "Retour aux détails du compte"
+      "return": "Retour aux informations du compte"
     },
-    "account_fallback": "Compte",
+    "account_fallback": "Facture",
     "activate_account": {
       "title": "Activer le compte",
-      "subtext": "Créez votre mot de passe pour activer le compte.",
+      "subtext": "Créez votre mot de passe pour activer votre compte.",
       "password": "Mot de passe",
       "password_confirm": "Confirmer le mot de passe",
       "submit": "Activer le compte",
-      "cancel": "Décliner l'invitation"
+      "cancel": "Refuser l'invitation"
     },
     "addresses": {
       "title": "Adresses",
-      "default": "Par défaut",
+      "default": "Standard",
       "add_new": "Ajouter une nouvelle adresse",
       "edit_address": "Modifier l'adresse",
       "first_name": "Prénom",
@@ -425,12 +425,12 @@
       "zip": "Code postal",
       "phone": "Téléphone",
       "set_default": "Définir comme adresse par défaut",
-      "add": "Ajouter l'adresse",
+      "add": "Ajouter une adresse",
       "update": "Mettre à jour l'adresse",
       "cancel": "Annuler",
       "edit": "Modifier",
       "delete": "Supprimer",
-      "delete_confirm": "Êtes-vous certain(e) de vouloir supprimer cette adresse ?"
+      "delete_confirm": "Êtes-vous sûr de vouloir supprimer cette adresse ?"
     },
     "log_in": "Connexion",
     "log_out": "Déconnexion",
