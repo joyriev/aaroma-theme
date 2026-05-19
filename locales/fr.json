@@ -570,11 +570,12 @@
       "payment": {
         "crypto_modal": {
           "error": {
-            "refresh": "Rafraîchir",
+            "refresh": "Renouveler",
             "close": "fermer",
-            "sandbox_error": "Quelque chose n'a pas fonctionné",
-            "web_component_error": "Il y a eu un problème de chargement de cette page"
-          }
+            "sandbox_error": "Il y a eu un problème",
+            "web_component_error": "Il y a eu un problème lors du chargement de cette page"
+          },
+          "header": "Payer %{shop_name} %{total_price} USDC"
         },
         "amazon_payments_label": "Paiement Amazon",
         "amazon_payments_login_hint": "Vous êtes invité à vous connecter avec Amazon.",
@@ -656,7 +657,60 @@
         "billing_address_rollup_accessibility_label": "Options d'adresse de facturation",
         "business_customer_with_bank_account_vaulting_payment_label": "Enregistrez ce mode de paiement lors du passage à la caisse et autorisez %{company} à débiter votre compte pour les achats futurs que vous approuvez pour ce lieu, jusqu'à ce que vous révoquiez cette autorisation. Toutes les personnes de contact assignées à ce lieu peuvent utiliser ce mode de paiement.",
         "continue_to_guest_checkout": "Passer à la caisse en tant qu'invité",
-        "choose_new_payment_method": "Choisissez un nouveau mode de paiement"
+        "choose_new_payment_method": "Choisissez un nouveau mode de paiement",
+        "discount_button_action_label": "Appliquer le code promo",
+        "detected_card_brand": "Marque de carte détectée : {brand}",
+        "different_billing_address_label": "Utilisez une autre adresse de facturation",
+        "eps_label": "virement EPS",
+        "different_credit_card_label": "Utilisez une autre carte de crédit",
+        "expiry_long": "(Expire %{month}/%{year})",
+        "expiry_short": "(Expire %{month}/%{year})",
+        "delete_customer_mandate_modal_title": "Supprimer cette carte de paiement ?",
+        "delete_customer_mandate_modal_body": "Si vous retirez cette carte, vous devrez la rajouter avant de pouvoir payer avec.",
+        "expired_cards_info": {
+          "one": "Il y a %{count} carte expirée, que vous pouvez consulter et modifier dans votre compte.",
+          "other": "Il y a %{count} cartes expirées, que vous pouvez consulter et modifier dans votre compte."
+        },
+        "custom_onsite_payment_method_modal": {
+          "title": "Confirmation de paiement personnalisée sur place"
+        },
+        "delete_credit_card_modal": {
+          "confirmation": "Êtes-vous sûr de vouloir supprimer le {{brandName}} qui se termine par {{lastDigits}} ?"
+        },
+        "edit_credit_card_modal": {
+          "done": "Prêt",
+          "description": "Vous pouvez uniquement modifier l'adresse de facturation de votre carte.",
+          "fields": {
+            "default": "Définir comme valeur par défaut",
+            "expiry": "Date d'expiration"
+          }
+        },
+        "expired_payment_method": "La méthode de paiement choisie a expiré",
+        "crypto_payment_method": {
+          "description": "Connectez-vous en toute sécurité à votre portefeuille sur le réseau Base",
+          "tooltip": "Le solde de votre portefeuille et votre adresse ne seront pas partagés et seul le montant demandé pourra être débité",
+          "cashback_descriptor": {
+            "one": "Vous recevrez votre cashback après %{count} jour(s)",
+            "other": "Vous recevrez votre cashback après %{count} jours"
+          }
+        },
+        "discount_show_more_warnings": {
+          "one": "Afficher encore %{count} de plus",
+          "other": "Afficher encore %{count} de plus"
+        },
+        "discount_codes_removed_summary": {
+          "one": "%{count} code de réduction a été supprimé",
+          "other": "%{count} codes de réduction ont été supprimés"
+        },
+        "default": "Standard",
+        "discount_codes_modified_summary": {
+          "one": "Le code promo %{count} a été modifié",
+          "other": "%{count} codes promo ont été modifiés"
+        },
+        "discount_codes_removed_or_modified_summary": {
+          "one": "Le code promo %{count} a été supprimé ou modifié",
+          "other": "%{count} codes promo ont été supprimés ou modifiés"
+        }
       },
       "thank_you": {
         "thank_you_item_label": {
