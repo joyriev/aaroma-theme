@@ -617,7 +617,15 @@
         "optional_pincode_label": "Code PIN (optionnel)",
         "email_rollup_accessibility_label": "Options de courriel",
         "phone_rollup_accessibility_label": "Options téléphoniques",
-        "phone_country_code_label": "Indicatif téléphonique international"
+        "phone_country_code_label": "Indicatif téléphonique international",
+        "state_and_territory_label": "État/région",
+        "state_and_territory_placeholder": "État/région",
+        "zip_code_label": "Code postal",
+        "zip_code_placeholder": "Code postal",
+        "ship_to_company": "Envoyer à {{companyName}}",
+        "shipping_used_as_billing_notice": "Cela sera également utilisé comme votre adresse de facturation pour cette commande.",
+        "storefront_link": "site web du commerçant",
+        "suburb_label": "Voorstad"
       },
       "alternative_payment_method_banner": {
         "express_checkout": "Paiement rapide",
@@ -676,6 +684,61 @@
       },
       "address_management": {
         "saved_with_store": "Enregistré dans ce magasin"
+      },
+      "delivery_options": {
+        "pick_up": "Retrait",
+        "pick_up_immediately": "Prêt à être retiré maintenant",
+        "none_method_definition": "Pas de livraison",
+        "pick_up_from_store": "Retrait en magasin",
+        "company_location_no_address_banner": "Les commandes envoyées à des lieux sans adresse sont soumises à évaluation."
+      },
+      "customer_account": {
+        "not_user_label": "Pas %{first_name}?",
+        "have_an_account_label": "As-tu un compte ?",
+        "sign_in_link_label": "Connexion",
+        "sign_out_link_label": "Se désinscrire",
+        "save_my_information_label": "Conservez cette information pour la prochaine fois",
+        "invalid_address": "L'adresse choisie est invalide. %{update_address_link} ou sélectionnez une autre adresse.",
+        "incomplete_address": "L'adresse sélectionnée est incomplète. %{update_address_link} ou choisissez une autre adresse.",
+        "rollup_label": "Facture",
+        "invalid_shipping_method_summary": "Sélectionnez une adresse de livraison valide pour voir les méthodes d'expédition disponibles",
+        "saved_address_option_link": "Utilisez une adresse enregistrée",
+        "saved_address_option_description": {
+          "one": "Vous avez {{count}} adresse enregistrée.",
+          "other": "Vous avez {{count}} adresses enregistrées."
+        },
+        "rollup_accessibility_label": "Options de compte"
+      },
+      "customer_payment_methods": {
+        "page_title": "Méthodes de paiement",
+        "title": "Méthodes de paiement",
+        "delete_customer_mandate": {
+          "generic_error": "Il y a eu un problème lors du traitement de votre demande.",
+          "success_message": "Votre méthode de paiement a été supprimée avec succès"
+        }
+      },
+      "contextual_availability": {
+        "products_not_available": {
+          "one": "Ce produit sera retiré de votre panier car il n'est pas disponible dans votre pays/région.",
+          "other": "Ces produits seront retirés de votre panier car ils ne sont pas disponibles dans votre pays/région."
+        },
+        "all_products_in_cart_unavailable": {
+          "one": "Ce produit n'est pas disponible dans votre pays/région."
+        },
+        "unavailable_label": "Non disponible"
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "one": "Aucune livraison disponible pour %{count} article",
+            "other": "Aucune livraison disponible pour %{count} articles"
+          },
+          "message": {
+            "one": "Cet article sera retiré de votre panier car aucune méthode de livraison n'est disponible pour votre adresse.",
+            "other": "Ces articles seront retirés de votre panier car aucune méthode de livraison n'est disponible pour votre adresse."
+          },
+          "label": "Pas de livraison"
+        }
       }
     },
     "attributes": {
