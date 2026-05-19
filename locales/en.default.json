@@ -2115,7 +2115,101 @@
         },
         "checkout_on_remote_shop_link_text": "Checkout at %{remoteShopName}",
         "checkout_on_another_store": "Pay at another shop",
-        "cashback_notice": "You will receive your cashback after 30 days"
+        "cashback_notice": "You will receive your cashback after 30 days",
+        "contact_information_title": "Contact details",
+        "estimated_arrival": "Estimated delivery date:",
+        "confirmed_title": "Your order has been confirmed",
+        "confirmed_description": "We have received your order and are preparing it. Return to this page for updates on the status of your shipment.",
+        "in_transit": "On the way",
+        "in_transit_description": "You will receive updates about the progress.",
+        "delivered_description_html": "Your order has been delivered to the address you provided. If you have not received it, or if you have other issues, %{contact_us}.",
+        "contact_us_lowercase": "get in touch with us",
+        "failed_title": "Your order could not be delivered",
+        "customer_information_hidden_fields_message": "Sign in to view all customer details.",
+        "customer_validation_error": "Enter a valid email address or order number.",
+        "fulfillment": {
+          "unfulfilled_table_title": "Items are being prepared for shipment",
+          "quantity_label": "Number"
+        },
+        "gift_card_sent_confirmation": "Gift vouchers sent",
+        "delivered_local_description_html": "Haven't received your order yet? %{let_us_know}.",
+        "gift_card_confirmation_by_text": "If you have not received it, please resend the text or contact us.",
+        "gift_card_confirmation_by_email": "If you have not received it, please resend the email or contact us.",
+        "gift_card_title": "Gift vouchers",
+        "estimated_delivery": "Current delivery expectation:",
+        "first_payment_complete": "First payment completed",
+        "in_store_purchase": "Purchase in the shop",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "You will receive a text message with your gift voucher within a few minutes.",
+          "other": "You will receive a text message with your gift vouchers within a few minutes."
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "one": "You will receive an email with your gift voucher within a few minutes.",
+          "other": "You will receive an email with your gift vouchers within a few minutes."
+        },
+        "gift_card_email_title": {
+          "one": "Gift voucher has been sent by e-mail",
+          "other": "Gift vouchers have been sent by e-mail"
+        },
+        "gift_card_text_title": {
+          "one": "Gift voucher has been sent by text message",
+          "other": "Gift vouchers have been sent by text message"
+        },
+        "gift_card_resent_confirmation": {
+          "one": "Gift voucher has been sent again.",
+          "other": "Gift vouchers have been sent again."
+        },
+        "gift_card_resend_failure": {
+          "one": "There was a problem resending your gift card. Please try again or contact us.",
+          "other": "There was a problem resending your gift cards. Please try again or contact us."
+        },
+        "failed_pending_payment_page_title": "There is a problem with your payment",
+        "confirmed_items_count": "%{confirmed_count} of the %{total_count} items are confirmed",
+        "confirmed_orders_title": "Your orders have been confirmed",
+        "order_status_confirmed_order_with_email": "You will receive an email as soon as your order is ready.",
+        "order_status_confirmed_order_with_phone": "You can receive a text message when your order is ready.",
+        "order_status_confirmed_order_with_email_and_phone": "You will receive an email as soon as your order is ready.",
+        "in_transit_description_days": "You should receive your order within the next %{number} days.",
+        "in_transit_description_tomorrow": "You should receive your order within the next day.",
+        "login_title": "Sign up to view all order details",
+        "login_description": "You can find your order number on the receipt you received by email.",
+        "login_description_phone": "You can find your order number on the receipt you received via SMS.",
+        "login_reorder_link_text": {
+          "one": "also buy this product",
+          "other": "also buy these products"
+        },
+        "login": "Log in",
+        "marker": {
+          "current": "Current shipping location"
+        },
+        "order_status_confirmed_order_with_email_pick_up": "You will receive an email as soon as your order is ready for pickup.",
+        "order_status_confirmed_order_with_phone_pick_up": "You will receive a text message as soon as your order is ready for pickup.",
+        "order_status_confirmed_order_with_email_and_phone_pick_up": "You will receive an email and a text message as soon as your order is ready to be picked up.",
+        "order_status_confirmed_order_local": "We are preparing your order for delivery.",
+        "order_status_confirmed_order_with_email_payment": "You have made a payment for your order on %{date}.",
+        "order_status_confirmed_order_with_phone_payment": "You have made a payment for your order on %{date}.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "You have made a payment for your order on %{date}.",
+        "missing_shipping_address_banner": {
+          "title": "Order has no shipping address"
+        },
+        "order_status_confirmed_with_installments_payment_return": "Refocus your attention on the sales assistant.",
+        "order_status_confirmed_with_installments_payment_confirm": "You will soon receive a confirmation email with your order number and details of your payment plan.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "After completing your payment, you will receive a confirmation email. Track your order with the Store app.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "After completing your payment, you will receive a confirmation email. Track your order with the Store app.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "After completing your payment, you will receive a confirmation text. Track your order with the Store app.",
+        "order_status_payments_app_failed_pending_payment": "You are not charged for your order. Go back to your shopping cart to view your order and pay again.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "After completing your payment, you will receive a confirmation email. Track your order with the Store app.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "After completing your payment, you will receive a confirmation email. Track your order with the Store app.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "After completing your payment, you will receive a confirmation email. Track your order with the Store app.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "After completing your payment, you will receive a confirmation email. Track your order with the Store app.",
+        "order_status_payments_app_failed_pending_payment_payment": "You are not charged for your order. Go back to your shopping cart to view your order and pay again.",
+        "order_status_payments_app_failed_pending_payment_pick_up": "You are not charged for your order. Go back to your shopping cart to view your order and pay again.",
+        "order_status_confirmed_order_local_pick_up": "We are preparing your order.",
+        "order_status_confirmed_order_local_payment": "We are preparing your order.",
+        "items_fulfilled_by_store": {
+          "one": "Items you have purchased will be delivered by %{remote_shop_name}.",
+          "other": "Items you have purchased are delivered by other stores."
+        }
       }
     },
     "addresses": {
