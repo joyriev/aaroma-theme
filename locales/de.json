@@ -1597,24 +1597,26 @@
       },
       "stock": {
         "page_title": "Lagerbestandsprobleme",
-        "title": "Nicht auf Lager",
+        "title": "Nicht vorrätig",
         "items_unavailable_notice": "Einige Artikel sind nicht mehr verfügbar.",
-        "quantity_column_header": "Menge",
-        "reduced_with_quantity_label": "Nur noch %{quantity_available} übrig",
+        "quantity_column_header": "Anzahl",
+        "reduced_with_quantity_label": "Nur noch %{quantity_available} verfügbar",
         "continue_shopping_button_label": "Fortfahren",
-        "return_to_store_label": "Zurück zum Geschäft",
+        "return_to_store_label": "Zurück zum Laden",
         "continue_cta_label": "Mit dem Bezahlen fortfahren",
         "empty_cart_label": "Ihr Warenkorb ist leer",
         "quantity_update": {
-          "description": "Die verfügbaren Mengen für diese Artikel haben sich geändert und wurden in Ihrem Warenkorb aktualisiert."
+          "description": "Die verfügbaren Mengen für diese Artikel wurden geändert und in Ihrem Warenkorb aktualisiert.",
+          "page_title": "Anzahl aktualisieren",
+          "title": "Anzahl aktualisieren"
         },
         "unpurchasable_product": {
-          "title": "Nicht kaufbares Produkt",
+          "title": "Nicht zum Verkauf stehendes Produkt",
           "header": "Einige Artikel wurden aus Ihrem Warenkorb entfernt",
-          "message": "Diese Artikel sind für B2B-Bestellungen nicht verfügbar."
+          "message": "Diese Artikel sind für Geschäftskundenbestellungen nicht verfügbar."
         },
         "unpurchasable_product_generic": {
-          "title": "Nicht kaufbares Produkt",
+          "title": "Nicht zum Verkauf stehendes Produkt",
           "header": "Einige Artikel wurden aus Ihrem Warenkorb entfernt"
         },
         "unfulfillable_product": {
@@ -1627,8 +1629,8 @@
         "unshippable_product": {
           "title": "Keine Lieferung verfügbar",
           "header": {
-            "one": "Keine Lieferung für %{count} Artikel verfügbar",
-            "other": "Keine Lieferung für %{count} Artikel verfügbar"
+            "one": "Keine Lieferung verfügbar für %{count} Artikel",
+            "other": "Keine Lieferung verfügbar für %{count} Artikel"
           },
           "message": {
             "one": "Dieser Artikel wird aus Ihrem Warenkorb entfernt, da für Ihre Adresse keine Liefermethoden verfügbar sind.",
@@ -1637,7 +1639,7 @@
           "status_column_header": "Keine Lieferung"
         },
         "price_update": {
-          "description": "Die Preise für diese Artikel haben sich geändert und wurden in Ihrem Warenkorb aktualisiert.",
+          "description": "Die Preise dieser Artikel wurden geändert und in Ihrem Warenkorb aktualisiert.",
           "updated_price": "Aktualisierter Preis"
         },
         "price_and_quantity_update": {
@@ -1647,7 +1649,8 @@
           "description": "Diese Artikel sind nicht mehr verfügbar und wurden aus Ihrem Warenkorb entfernt.",
           "items_unavailable": "Einige Artikel sind nicht mehr verfügbar und wurden aus Ihrem Warenkorb entfernt."
         },
-        "out_of_stock_in_context_label": "Dieses Produkt ist in Ihrem Land/Ihrer Region nicht verfügbar."
+        "out_of_stock_in_context_label": "Dieses Produkt ist in Ihrem Land/Ihrer Region nicht verfügbar.",
+        "reduced_label": "Verringert"
       },
       "contextual_availability": {
         "products_not_available": {
@@ -2183,7 +2186,7 @@
         "split_by_delivery_method_requires_merchandise_from_single_location": "Aufteilung nach Liefermethode erfordert, dass einzelne Warenpositionen von einem einzigen Standort aus erfüllt werden."
       },
       "store_credit_errors": {
-        "generic_error": "Es gab ein Problem mit Ihrem Guthaben. Versuchen Sie es erneut oder laden Sie die Seite neu."
+        "generic_error": "Es gab ein Problem mit Ihrem Guthaben. Bitte versuchen Sie es erneut oder laden Sie die Seite neu."
       },
       "redeemable_errors": {
         "gift_card": {
@@ -2420,8 +2423,8 @@
         }
       },
       "subscriptions": {
-        "recurring_totals": "%{total_price} alle %{interval}",
-        "recurring_totals_with_initial_order_shipping_discount": "Erste Zahlung %{total_price_with_discount}, dann %{recurring_total}",
+        "recurring_totals": "%{total_price} pro %{interval}",
+        "recurring_totals_with_initial_order_shipping_discount": "Erste Zahlung %{total_price_with_discount}, danach %{recurring_total}",
         "recurring_totals_with_policies": {
           "first_cycles": {
             "other": "Erste %{count} Zahlungen jeweils %{total_price}"
@@ -2430,8 +2433,8 @@
         },
         "recurring_totals_with_initial_order_shipping_discount_with_policies": {
           "first_cycles": {
-            "one": ", dann %{count} Zahlung bei %{total_price}",
-            "other": ", dann %{count} Zahlungen zu je %{total_price}"
+            "one": ", dann %{count} Zahlung von %{total_price}",
+            "other": ", dann %{count} Zahlungen von jeweils %{total_price}"
           }
         }
       },
