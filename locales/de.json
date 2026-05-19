@@ -578,7 +578,7 @@
         "card_start_placeholder": "Ausgabedatum (MM / JJ)",
         "card_issue_number_label": "Ausgabennummer",
         "card_issue_number_placeholder": "Ausgabennummer",
-        "paypal_disconnect": "Trennen",
+        "paypal_disconnect": "Verbindung trennen",
         "expiry_long": "(Verfällt %{month}/%{year})",
         "expiry_short": "(Verfällt %{month}/%{year})",
         "crypto_payment_method": {
@@ -597,13 +597,13 @@
         "free_order_notice_html": "Ihre Bestellung ist <strong>kostenlos</strong>. Eine Zahlung ist nicht erforderlich.",
         "express_checkout_free_order": "Du wirst für eine kostenlose Bestellung nicht belastet.",
         "order_covered_by_gift_cards_notice": {
-          "one": "Ihre Bestellung wird durch Ihre Geschenkkarte abgedeckt.",
-          "other": "Ihre Bestellung wird durch Ihre Geschenkkarten abgedeckt."
+          "one": "Ihre Bestellung wird durch Ihren Geschenkgutschein abgedeckt.",
+          "other": "Ihre Bestellung wird durch Ihre Geschenkgutscheine abgedeckt."
         },
         "offsite_gateway_redirect_hint": "Du wirst zu %{gateway_label} weitergeleitet, um deinen Kauf abzuschließen.",
         "offsite_gateway_review_page_redirect_hint": "Nachdem Sie Ihre Bestellung überprüft haben, werden Sie zu %{gateway_label} weitergeleitet, um Ihren Kauf abzuschließen.",
-        "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label} Gesamt %{total_shop_price}",
-        "offsite_gateway_redirect_hint_no_button_label": "Sie werden zu %{gateway_label} weitergeleitet, um Ihren Kauf abzuschließen.",
+        "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label} insgesamt %{total_shop_price}",
+        "offsite_gateway_redirect_hint_no_button_label": "Du wirst zu %{gateway_label} weitergeleitet, um deinen Kauf abzuschließen.",
         "receiver_payment_experience_hint": "Nach Aufgabe Ihrer Bestellung erhalten Sie die Zahlungsinformationen. Zahlen Sie bitte innerhalb von %{due_days} Tagen bei Multibanco oder online.",
         "billing_address_rollup_accessibility_label": "Rechnungsadresse-Optionen",
         "billing_address_description": "Wählen Sie die Adresse aus, die mit Ihrer Karte oder Zahlungsmethode übereinstimmt.",
@@ -620,7 +620,7 @@
         "not_configured_error": "Dieser Laden kann derzeit keine Zahlungen annehmen.",
         "missing_credit_card_error": "Geben Sie Ihre Kartendaten ein, um die Zahlung abzuschließen",
         "shop_pay_ideal_unavailable_error": "iDEAL ist für diese Bestellung nicht verfügbar. Wählen Sie eine andere Zahlungsmethode.",
-        "payment_method_not_available_for_shipping_address_error": "Zahlungsmethode für die ausgewählte Lieferadresse nicht verfügbar. Wählen Sie eine andere Zahlungsmethode.",
+        "payment_method_not_available_for_shipping_address_error": "Zahlungsmethode für die gewählte Lieferadresse nicht verfügbar. Bitte wählen Sie eine andere Zahlungsmethode.",
         "billing_address_not_supported_for_payment_method_error": "Diese Zahlungsmethode ist für Ihre Rechnungsadresse und Währung nicht verfügbar. Bitte versuchen Sie eine andere Zahlungsmethode.",
         "generic_incorrect_card_info": "Ihre Zahlungsdaten konnten nicht überprüft werden. Bitte prüfen Sie Ihre Kartendaten und versuchen Sie es erneut.",
         "sofort_label": "Sofort Banküberweisung",
@@ -668,16 +668,17 @@
         },
         "mor_disclaimer_html": "Indem Sie unten klicken und Ihre Bestellung abschließen, stimmen Sie dem Kauf Ihrer Artikel über Global-e als Händler der Registrierung für diese Transaktion gemäß den <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Allgemeinen Geschäftsbedingungen</a> von Global-e und der <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Datenschutzerklärung</a> zu. Global-e ist ein internationaler Fulfillment-Dienstleister für %{shop_name}.",
         "pending_payment": {
-          "due_notice": "Ihre Zahlung in Höhe von %{amount_due} ist fällig am %{due_date}.",
+          "due_notice": "Ihre Zahlung von %{amount_due} ist fällig am %{due_date}.",
           "multibanco": {
-            "buyer_action_info": "Ihre Zahlung in Höhe von %{amount_due} ist fällig.",
-            "instruction_html": "Leisten Sie Ihre Zahlung bei Multibanco oder online mit den untenstehenden Angaben. Bei Fragen oder zur Aktualisierung der Zahlungsdaten, %{contact_us}.",
+            "buyer_action_info": "Ihre Zahlung von %{amount_due} ist fällig.",
+            "instruction_html": "Führen Sie Ihre Zahlung bei Multibanco oder online mit den untenstehenden Angaben durch. Bei Fragen oder zur Aktualisierung der Zahlungsdaten %{contact_us}.",
             "entity": "Einheit",
-            "find_nearest_atm": "Nächsten Geldautomaten finden"
+            "find_nearest_atm": "Finden Sie den nächstgelegenen Geldautomaten",
+            "amount": "Menge"
           }
         },
-        "order_covered_by_store_credit_notice": "Ihre Bestellung wird durch Ihr Guthaben im Geschäft abgedeckt.",
-        "order_covered_by_redeemables_notice": "Ihre Bestellung ist abgedeckt.",
+        "order_covered_by_store_credit_notice": "Ihre Bestellung wird durch Ihr Ladenguthaben gedeckt.",
+        "order_covered_by_redeemables_notice": "Ihre Bestellung ist versichert.",
         "store_credit": {
           "label": "Guthaben im Geschäft",
           "apply_label": "Guthaben im Geschäft anwenden",
@@ -749,25 +750,27 @@
         },
         "local_payment_method_receiver_notice": "Nach Aufgabe Ihrer Bestellung erhalten Sie die Zahlungsinformationen. Führen Sie die Zahlung innerhalb von {{dueDays}} Tagen an einem Geldautomaten oder online durch.",
         "order_edit_banner_title": "Zahlung von {{amount_owed}} ist erforderlich",
-        "order_edit_banner_subtitle": "Ihre Bestellung {{order_number}} wurde aktualisiert. Überprüfen Sie diese Änderungen und bezahlen Sie dann, um Ihre Bestellung zu bestätigen.",
+        "order_edit_banner_subtitle": "Ihre Bestellung {{order_number}} wurde aktualisiert. Sehen Sie sich diese Änderungen an und bezahlen Sie anschließend, um Ihre Bestellung zu bestätigen.",
         "order_edit_banner_items_added": {
           "other": "Hinzugefügt %{count}"
         },
         "order_edit_banner_items_removed": {
-          "with_quantities": "Entfernt {{delta}} von {{quantity}}"
+          "with_quantities": "Entfernt {{delta}} von {{quantity}}",
+          "in_full": "Gelöscht"
         },
         "order_edit_banner_items_returned": {
           "in_full": "Zurückgegeben {{quantity}}",
           "with_quantities": "Zurückgegeben {{delta}} von {{quantity}}"
         },
         "order_edit_banner_items_return_line_item_removed": {
-          "in_full": "Vom Umtausch ausgeschlossen"
+          "in_full": "Aus Rücksendung entfernt",
+          "with_quantities": "{{delta}} aus Rücksendung entfernt"
         },
         "order_edit_banner_multiple_items_added": "Hinzugefügt {{amount}}",
-        "order_edit_banner_multiple_items_removed": "Entfernt {{amount}}",
+        "order_edit_banner_multiple_items_removed": "Gelöscht {{amount}}",
         "order_edit_banner_multiple_items_returned": "Zurückgegeben {{amount}}",
-        "order_edit_banner_single_item_return_line_item_removed": "Vom Umtausch ausgeschlossen",
-        "order_edit_banner_multiple_items_return_line_item_removed": "{{amount}} von der Rückgabe entfernt",
+        "order_edit_banner_single_item_return_line_item_removed": "Aus Rücksendung entfernt",
+        "order_edit_banner_multiple_items_return_line_item_removed": "{{amount}} aus der Rücksendung entfernt",
         "gift_card_wrapper": {
           "heading": "Geschenkgutschein",
           "apply_gift_card_label": "Einen Geschenkgutschein einlösen",
@@ -794,10 +797,10 @@
         "alternative_payment_currency_total_manual_payment_notice": "Hinweis: Der umgerechnete Gesamtbetrag beträgt %{amount_due}.",
         "waiting_on_taxes_message": "Wenn Ihre Steuern nicht innerhalb der nächsten Sekunden berechnet werden, aktualisieren Sie die Seite.",
         "waiting_on_taxes_notice": "Steuern berechnen",
-        "payment_method_rollup_accessibility_label": "Zahlungsmethodenoptionen",
-        "payment_method_incompatible_with_payment_terms": "Zahlungsmethode ist mit den Zahlungsbedingungen nicht kompatibel.",
+        "payment_method_rollup_accessibility_label": "Zahlungsmethoden Optionen",
+        "payment_method_incompatible_with_payment_terms": "Zahlungsmethode ist nicht mit den Zahlungsbedingungen vereinbar.",
         "proposed_gateway_unavailable": "Das vorgeschlagene Zahlungsgateway ist nicht verfügbar",
-        "pay_in_installments_split_pay_short": "4 Zahlungen zu je %{amount}",
+        "pay_in_installments_split_pay_short": "4 Zahlungen von %{amount}",
         "gift_cards_unavailable": "Ihr Geschenkgutschein kann für diese Bestellung nicht mehr verwendet werden und wurde entfernt",
         "payment_flexibility_terms_id_mismatch": "Zahlungsflexibilitätsbedingungen ID stimmt nicht überein",
         "bank_account_type": {
@@ -832,7 +835,12 @@
         "discount_codes_removed_or_modified_summary": {
           "one": "%{count} Rabattcode wurde entfernt oder geändert",
           "other": "%{count} Gutscheincodes wurden entfernt oder geändert"
-        }
+        },
+        "paypal_modal": {
+          "order_contains_fixed_selling_plans": "Insgesamt möglich ohne Steuern, Versand, aufgeschobene Kosten und einige Rabatte. Gehen Sie zur Kasse, um den heute fälligen Betrag zu sehen."
+        },
+        "order_edit_banner_single_item_removed": "Gelöscht",
+        "order_edit_banner_single_item_returned": "Zurückgesandt"
       },
       "shipping_errors": {
         "unavailable_addresses_only_countries": "Ihre Bestellung kann nur an {{countriesList}} versandt werden. Fügen Sie eine neue Adresse hinzu, um fortzufahren.",

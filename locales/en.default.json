@@ -1689,6 +1689,61 @@
           }
         },
         "open_twenty_four_hours": "Open 24 hours a day, 7 days a week"
+      },
+      "processing": {
+        "redirecting_notice": "Please wait while we redirect you.",
+        "continue_to_payment_gateway_notice": "Proceed to payment to add your payment details.",
+        "continue_to_payment_gateway_button_label": "Proceed to payment",
+        "complete_your_purchase_title_error": "Correct your payment details",
+        "continue_to_payment_gateway_notice_error": "Your payment details could not be verified.",
+        "continue_to_payment_gateway_button_label_error": "Update payment details",
+        "page_title": "Process order",
+        "title": "Process order",
+        "your_order_has_been_received_title": "Thank you for your order",
+        "you_will_receive_confirmation": "We are currently receiving many orders. You will receive a confirmation soon by email or SMS. If you do not receive it within an hour, please let us know.",
+        "wait": {
+          "short": "Your order is being processed.",
+          "medium": {
+            "one": "Your order is being processed. The estimated wait time is %{count} minute.",
+            "other": "Your order is being processed. The estimated wait time is %{count} minutes."
+          },
+          "long": "You will receive an email once your order has been processed. There is currently a large volume of orders.",
+          "no_auto_refresh_html": "If you are not redirected automatically, %{link}."
+        },
+        "you_will_not_be_charged": "You are not being charged yet",
+        "redirecting_to_bank": "Redirect to {{bank}}",
+        "modal_notice": "We will contact {{paymentMethod}}"
+      },
+      "post_purchase": {
+        "page_title": "After purchase",
+        "title": "After purchase",
+        "escape_confirmation": "You have paid for your order.",
+        "components": {
+          "expand": "See more",
+          "submit": "Shipping"
+        }
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "insufficient_funds": "This gift voucher has no remaining balance",
+          "expired": "This gift voucher has expired",
+          "not_available": "This gift voucher is no longer available",
+          "invalid": "Enter a valid gift voucher",
+          "generic": "The gift card could not be added at the checkout",
+          "throttle_limit_exceeded": "You have exceeded the maximum number of attempts. Please try again later.",
+          "no_longer_available": "This gift card can no longer be used at this checkout"
+        }
+      },
+      "remote": {
+        "errors": {
+          "currency_mismatch": "This item cannot be added to your shopping cart because it comes from a store that uses a different currency.",
+          "max_remote_shops_exceeded": "This product cannot be added because your shopping cart already contains the maximum number from other stores.",
+          "currency_mismatch_removal": "An item has been removed from your shopping cart because it comes from a store that uses a different currency.",
+          "only_remote_merchandise_lines": "The cart contains only goods from external sellers. To complete the purchase, you will be redirected to the external store."
+        }
+      },
+      "remote_merchandise_only": {
+        "checkout_on_shop_label": "Checkout at %{shop_name}"
       }
     },
     "addresses": {
