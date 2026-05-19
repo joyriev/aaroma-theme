@@ -1102,7 +1102,17 @@
         "simulated_express_checkout": "Wallets are not available in the editing preview view due to your region or browser",
         "swish_label": "Taciturn",
         "separate_payments_label": "Your items come from more than one store. You will be billed in %{separate_payments_link}.",
-        "separate_payments_text": "split payments"
+        "separate_payments_text": "split payments",
+        "waiting_on_payment_methods": "Retrieving available payment methods...",
+        "vaulting_agreement_label": "Save my payment details with %{company} for faster processing.",
+        "waiting_on_taxes_message": "If your taxes are not calculated within a few seconds, please refresh the page.",
+        "waiting_on_taxes_notice": "Calculate taxes",
+        "use_order_billing_address_label": "Use the billing address from the order",
+        "use_location_billing_address_label": "Use invoice address location",
+        "use_location_shipping_address_label": "Use shipping address of location",
+        "usdc_cashback_title": "1% money back",
+        "usdc_cashback_additional_info": "Receive 1% back in USDC on Base within 30 days.",
+        "usdc_cashback_terms": "Terms and conditions apply"
       },
       "contact": {
         "change_company_location_link_label": "Change company address",
@@ -1562,6 +1572,43 @@
       "order_errors": {
         "creation_failure": "There was a problem creating your order. Please try again, or contact us for more information.",
         "network_failure": "Your order could not be sent due to a network error. Please check your connection and try again."
+      },
+      "payment_errors": {
+        "generic_error": "There was a problem processing your payment. Please try again or use a different payment method.",
+        "credit_card_processing": "Your payment cannot be processed due to technical reasons. Please try again in a few minutes or use a different payment method.",
+        "insufficient_funds": "Your payment was declined due to insufficient funds. Please try again or use a different payment method.",
+        "checkout_amount_changed": "Your payment could not be processed because the amount to be paid was changed at checkout. Please check your order and try again.",
+        "deferred_payment_not_allowed": "Deferred payments are not allowed. Please check your order and try again.",
+        "deferred_payment_required": "This order requires a deferred payment. Please check your order and try again.",
+        "deferred_amount_changed": "Your payment could not be processed because the deferred payment amount has changed. Please check your order and try again.",
+        "deferred_date_changed": "Your payment could not be processed because the deferred payment date has been changed. Please check your order and try again.",
+        "decision_rule_block": "There was a problem processing your payment. Please contact the retailer.",
+        "cannot_verify": "Your payment details could not be verified. Please check your card information and try again.",
+        "expired_card": "Your card has expired. Please use a different payment method.",
+        "card_declined": "Your card has been declined. Please try again or use a different payment method.",
+        "call_issuer": "Your card has been declined. Use another payment method or contact your bank for more information.",
+        "development_store_order_limit_reached": "You have reached the limit for orders in the development store with this payment processor. To place a new order, you must use a test payment gateway. Learn more about %{development_store_order_testing_docs_link}.",
+        "development_store_with_order_limit": "To place a test order, you need to use a test payment gateway. Learn more about %{development_store_order_testing_docs_link}.",
+        "development_store_order_testing_docs_link": "test orders in development stores",
+        "amount_too_small": "The minimum payment amount must be greater than $0.50 USD. Please try again with a higher amount.",
+        "expired_buyer_action": "The payment method has expired. Please try again.",
+        "captcha_required": "Enter payment details and solve the captcha to complete your purchase.",
+        "cancelled_payment": "Your payment has been canceled. Please try again or use a different payment method.",
+        "currency": {
+          "no_longer_supported": "The store currency is no longer supported."
+        },
+        "installments_payment_method_incompatible": "The selected payment method cannot be used for installment payments. Please choose a different payment method."
+      },
+      "payment_challenge_modal": {
+        "instructions": "Complete your purchase with your {{paymentMethod}} code",
+        "qr_code": {
+          "instructions": "Complete your purchase with your {{paymentMethod}} code"
+        },
+        "external": {
+          "instructions": "Confirm the payment in your app to complete this purchase"
+        },
+        "close": "Complete the challenge",
+        "open_app_text": "Open the {{paymentMethod}} app"
       }
     },
     "addresses": {
