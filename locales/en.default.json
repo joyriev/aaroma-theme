@@ -2068,8 +2068,31 @@
               "be": "Enter a valid Belgian VAT number",
               "bg": "Enter a valid Bulgarian VAT number",
               "cy": "Enter a valid Cypriot VAT number",
-              "de": "Enter a valid German VAT number"
-            }
+              "de": "Enter a valid German VAT number",
+              "hr": "Enter a valid Croatian VAT number",
+              "dk": "Enter a valid Danish VAT number",
+              "ee": "Enter a valid Estonian VAT number",
+              "fi": "Enter a valid Finnish VAT number",
+              "fr": "Enter a valid French VAT number",
+              "gr": "Enter a valid Greek VAT number",
+              "hu": "Enter a valid Hungarian VAT number",
+              "ie": "Enter a valid Irish VAT number",
+              "it": "Enter a valid Italian VAT number",
+              "lv": "Enter a valid Latvian VAT number",
+              "lt": "Enter a valid Lithuanian VAT number",
+              "mt": "Enter a valid Maltese VAT number",
+              "nl": "Enter a valid Dutch VAT number",
+              "pl": "Enter a valid Polish VAT number",
+              "pt": "Enter a valid Portuguese VAT number",
+              "ro": "Enter a valid Romanian VAT number",
+              "sk": "Enter a valid Slovak VAT number",
+              "si": "Enter a valid Slovenian VAT number",
+              "es": "Enter a valid Spanish VAT number",
+              "se": "Enter a valid Swedish VAT number",
+              "gb": "Enter a valid UK VAT number"
+            },
+            "service_unavailable": "Validation service not available",
+            "service_error": "Validation service not available"
           },
           "accessibility": {
             "status": {
@@ -2077,6 +2100,22 @@
             }
           }
         }
+      },
+      "thank_you": {
+        "cancelled_page_title": "Order cancelled",
+        "billing_address_title": "Invoice address",
+        "attempted_delivery": "Delivery attempt",
+        "attempted_delivery_title": "An attempt has been made to deliver your order",
+        "attempted_delivery_description_html": "An attempt was made to deliver your order, but it was unsuccessful. %{contact_us} to arrange a new delivery attempt.",
+        "attempted_delivery_local_description_html": "We could not deliver your order. To schedule a new delivery, %{contact_us}.",
+        "breadcrumbs_in_review": "Under review",
+        "choose_payment_method_later": "Choose the payment method later",
+        "announcement": {
+          "expand": "Unfold"
+        },
+        "checkout_on_remote_shop_link_text": "Checkout at %{remoteShopName}",
+        "checkout_on_another_store": "Pay at another shop",
+        "cashback_notice": "You will receive your cashback after 30 days"
       }
     },
     "addresses": {
