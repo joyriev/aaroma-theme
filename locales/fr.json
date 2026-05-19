@@ -583,6 +583,69 @@
       },
       "payment_gateway": {
         "bank_account_label": "Compte bancaire"
+      },
+      "contact": {
+        "civic_number_warning": "Ajoutez un numéro de maison si vous en avez un",
+        "change_company_location_link_label": "Modifier l'adresse de l'entreprise",
+        "change_location_link_label": "Modifier l'emplacement"
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Paiement rapide",
+        "or": "DE",
+        "show_more_options": "Afficher plus d'options",
+        "hide_more_options": "Masquer plus d'options",
+        "or_pay_another_way": "Ou payez d'une autre manière",
+        "or_check_out_another_way": "Ou regardez une autre façon",
+        "or_pay_with_credit_card": "Ou payez par carte de crédit"
+      },
+      "change_currency": {
+        "change_currency_link": "Changer en %{currency_name}",
+        "card_provider_fx_charges_warning": "Votre fournisseur de carte peut facturer des frais pour les transactions en %{currency_code}.",
+        "currency_not_supported_by_shop": "La devise que vous avez sélectionnée n'est plus disponible. Tous les prix sont désormais en %{currency_code}."
+      },
+      "change_country": {
+        "cart_and_currency_updated_based_on_country": "Votre panier et la devise ont été mis à jour en fonction du pays d'expédition.",
+        "currency_updated_for_country": "Devise mise à jour pour %{country}"
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "Votre pays/région a été mis à jour. Veuillez saisir votre adresse de livraison pour continuer le paiement."
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "Un problème est survenu lors du traitement de votre demande. Veuillez contacter le commerçant."
+      },
+      "captcha": {
+        "title": "Complétez le CAPTCHA pour continuer",
+        "errors": {
+          "not_solved": "Complétez le CAPTCHA pour continuer"
+        }
+      },
+      "billing": {
+        "same_as_shipping": "Identique à l'adresse de livraison",
+        "add_address": "Utilisez une autre adresse",
+        "address_more": "Plus d'offres pour cette adresse",
+        "address_edit": "Modifier l'adresse",
+        "address_delete": "Supprimer l'adresse",
+        "address_confirm": "Êtes-vous sûr de vouloir supprimer cette adresse de votre compte ?",
+        "billing_address_rollup_accessibility_label": "Facturer aux options"
+      },
+      "company_location": {
+        "location_title": "Emplacement de l'entreprise",
+        "location_rollup_accessibility_label": "Options pour le lieu d'implantation de l'entreprise"
+      },
+      "clipboard": {
+        "failed_to_copy": "Échec de la copie"
+      },
+      "artifact_errors": {
+        "artifact_dissatisfaction_without_violation": "Un problème est survenu lors du traitement de votre commande. Veuillez réessayer dans quelques minutes."
+      },
+      "b2b_errors": {
+        "lost_b2b_purchasing_permissions": "Vous n'êtes plus autorisé à passer des commandes B2B. %{logout_url} pour passer une commande personnelle à la place.",
+        "log_out_link_text": "Se désinscrire",
+        "lost_permissions_subtitle": "Vous n'êtes plus autorisé à passer des commandes B2B. Déconnectez-vous pour passer une commande personnelle.",
+        "lost_permissions_title": "Aucune autorisation de localisation"
+      },
+      "address_management": {
+        "saved_with_store": "Enregistré dans ce magasin"
       }
     },
     "attributes": {
