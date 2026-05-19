@@ -1058,7 +1058,51 @@
         "payment_method_incompatible_with_payment_terms": "Payment method is not compatible with the payment terms.",
         "payment_option": {
           "accessibility_label": "Choose a payment method"
-        }
+        },
+        "same_billing_address_label": "Same as the delivery address",
+        "technical_error": "The payment cannot be processed at this moment due to a technical problem. Please try again in a few minutes.",
+        "sofort_label": "Direct bank transfer",
+        "subscription_agreement_label_html": "I understand that I agree to a subscription. This will be renewed at the stated price and frequency until it ends or is <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">cancelled</a>.",
+        "subscription_agreement_label": "One or more items in your shopping cart are a deferred or subscription purchase. By proceeding with your payment, you agree that your payment method will be automatically charged at the price and frequency listed on this page, until it ends or you cancel. All cancellations are subject to the %{cancelled}.",
+        "purchase_options_card_update_agreement_label_html": "By updating your payment method, you authorize payments for every recurring or deferred purchase according to the <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">%{cancellation_policy}</a> of this store.",
+        "receiver_payment_experience_hint": "After placing your order, you will receive the payment details. Make the payment at Multibanco or online within %{due_days} days.",
+        "purchase_options_agreement_label": "One or more items in your shopping cart are a deferred, subscription, or recurring purchase. By proceeding with your payment, you agree that your payment method will be automatically charged at the price and frequency listed on this page until it ends or you cancel. All cancellations are subject to the %{cancellation_policy_label}.",
+        "purchase_options_agreement_label_html": "I understand that one or more items in my shopping cart are a deferred, subscription, or recurring purchase. By continuing, I agree to the\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">cancellation terms</a>\nand authorize you to charge my payment method at the prices, frequency, and dates listed on this page until my\norder is complete or I cancel, if allowed.",
+        "store_credit": {
+          "apply_label": "Use store credit",
+          "buying_gift_card": "You cannot use store credit to buy a gift voucher",
+          "no_fixed_selling_plans": "You cannot use store credit with deferred purchase options"
+        },
+        "same_billing_address_checkbox_label": "Use the delivery address as the billing address",
+        "shipping_rate_updated": "Available shipping methods have been updated. Please confirm your choice before checking out.",
+        "preview_not_available": {
+          "title": "Example not available",
+          "content": "Do not worry, this fast checkout works for your customers.",
+          "button": "Okay"
+        },
+        "simulated_checkout": "Preview available soon",
+        "purchase_options_and_vaulting_agreement_label": "One or more items in your shopping cart are a deferred or subscription purchase. By proceeding with your payment, you agree that your payment method will be automatically charged at the price and frequency listed on this page until it ends or you cancel. All cancellations are subject to the %{cancellation_policy_label}.",
+        "saved_credit_cards_modal": {
+          "view_all_label": "View all saved maps",
+          "done": "Ready"
+        },
+        "purchase_order_number": {
+          "label": "Order number (optional)"
+        },
+        "shop_pay_installments_label": "Shop Pay installments",
+        "saved_credit_card_actions": {
+          "delete": "Remove"
+        },
+        "subscription_heading": "Subscription terms",
+        "purchase_options_agreement_label_wallets": "By proceeding with your payment, you agree to the future charges listed on this page and the cancellation policy.",
+        "saved_credit_card_cvv_verification": "Enter the security code of your card for verification purposes.",
+        "proposed_gateway_unavailable": "The suggested payment method is not available",
+        "shop_pay_ideal_unavailable_error": "iDEAL | Wero is not available for this order. Please choose another payment method.",
+        "przelewy24_label": "Transfers24",
+        "simulated_express_checkout": "Wallets are not available in the editing preview view due to your region or browser",
+        "swish_label": "Taciturn",
+        "separate_payments_label": "Your items come from more than one store. You will be billed in %{separate_payments_link}.",
+        "separate_payments_text": "split payments"
       },
       "contact": {
         "change_company_location_link_label": "Change company address",

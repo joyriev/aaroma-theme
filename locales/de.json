@@ -541,11 +541,11 @@
         },
         "network_card_payment_options": "Wählen Sie ein Kartennetzwerk",
         "network_card_persistence_description": "Das ausgewählte Netzwerk wird zusammen mit Ihrer Zahlungsmethode für zukünftige Transaktionen gespeichert.",
-        "amazon_payments_label": "Amazon Bezahlung",
-        "amazon_payments_login_hint": "Sie werden aufgefordert, sich mit Amazon anzumelden.",
-        "amazon_payments_failed_mfa_challenge": "Die ausgewählte Zahlungsmethode konnte nicht verwendet werden. Wählen Sie eine andere Methode oder wenden Sie sich an Ihre Bank oder Kartenherausgeber.",
-        "amazon_payments_abandoned_mfa_challenge": "Ihre Zahlung konnte nicht abgeschlossen werden. Versuchen Sie eine andere Zahlungsmethode oder wenden Sie sich an Ihre Bank oder den Kartenaussteller.",
-        "amazon_payments_could_not_enqueue_authorize": "Bei der Verarbeitung Ihrer Zahlung ist ein Problem aufgetreten. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
+        "amazon_payments_label": "Amazon Bezahlen",
+        "amazon_payments_login_hint": "Sie werden gebeten, sich mit Amazon anzumelden.",
+        "amazon_payments_failed_mfa_challenge": "Die gewählte Zahlungsmethode konnte nicht verwendet werden. Wählen Sie eine andere Methode oder wenden Sie sich an Ihre Bank oder Kartenherausgeber.",
+        "amazon_payments_abandoned_mfa_challenge": "Ihre Zahlung konnte nicht abgeschlossen werden. Versuchen Sie eine andere Zahlungsmethode oder wenden Sie sich an Ihre Bank oder Kartenherausgeber.",
+        "amazon_payments_could_not_enqueue_authorize": "Bei der Verarbeitung Ihrer Zahlung ist ein Problem aufgetreten. Bitte versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
         "amount_left_to_pay_label": "Zahlung fällig:",
         "discount_button_action_label": "Rabattcode Anwenden",
         "discount_show_more_warnings": {
@@ -589,8 +589,8 @@
         "pay_with_payment_method": "Bezahlen mit %{payment_method}",
         "different_credit_card_label": "Verwenden Sie eine andere Kreditkarte",
         "same_billing_address_label": "Wie Lieferadresse",
-        "billing_address_associated_with_mandate": "Adresse verwenden, die mit der Zahlungsmethode verknüpft ist",
-        "billing_address_associated_with_mandate_info": "Wenn Sie Ihre Rechnungsadresse ändern möchten, entfernen Sie bitte Ihre Kreditkartendaten und geben Sie sie erneut ein.",
+        "billing_address_associated_with_mandate": "Verwenden Sie die Adresse, die mit der Zahlungsmethode verknüpft ist",
+        "billing_address_associated_with_mandate_info": "Wenn Sie Ihre Rechnungsadresse ändern möchten, löschen Sie bitte Ihre Kreditkartendaten und geben Sie sie erneut ein",
         "free_order_notice_html": "Ihre Bestellung ist <strong>kostenlos</strong>. Keine Zahlung ist erforderlich.",
         "express_checkout_free_order": "Für eine kostenlose Bestellung wird Ihnen nichts berechnet",
         "order_covered_by_gift_cards_notice": {
@@ -618,7 +618,7 @@
         "missing_credit_card_error": "Geben Sie Ihre Kartendaten ein, um die Zahlung abzuschließen",
         "shop_pay_ideal_unavailable_error": "iDEAL ist für diese Bestellung nicht verfügbar. Wählen Sie eine andere Zahlungsmethode.",
         "payment_method_not_available_for_shipping_address_error": "Zahlungsmethode für die ausgewählte Lieferadresse nicht verfügbar. Wählen Sie eine andere Zahlungsmethode.",
-        "billing_address_not_supported_for_payment_method_error": "Diese Zahlungsmethode ist für Ihre Rechnungsadresse und Währung nicht verfügbar. Versuchen Sie eine andere Zahlungsmethode.",
+        "billing_address_not_supported_for_payment_method_error": "Diese Zahlungsmethode ist für Ihre Rechnungsadresse und Währung nicht verfügbar. Bitte versuchen Sie eine andere Zahlungsmethode.",
         "generic_incorrect_card_info": "Ihre Zahlungsdaten konnten nicht verifiziert werden. Überprüfen Sie Ihre Kartendaten und versuchen Sie es erneut.",
         "sofort_label": "Sofort Banküberweisung",
         "paypal_wallet_label": "PayPal-Brieftasche",
@@ -628,7 +628,7 @@
         "klarna_pay_now_label": "Jetzt mit Klarna bezahlen",
         "multibanco_label": "Multibank",
         "klarna_slice_it_label": "Finanzieren mit Klarna",
-        "afterpay_label": "Zahlung auf Rechnung",
+        "afterpay_label": "Nachträgliche Zahlung",
         "cashapppay_label": "Cash App Bezahlen",
         "blik_label": "Blick",
         "twint_label": "ZWEIFACH",
@@ -650,14 +650,14 @@
         "change_currency_section_description": "Wählen Sie eine Währungsoption aus",
         "no_real_orders_dev_store": "Dieser Shop kann keine echten Bestellungen oder echten Zahlungen annehmen.",
         "waiting_on_payment_methods": "Verfügbare Zahlungsmethoden werden geladen...",
-        "apple_pay_payment_error": "Ihre Zahlung konnte nicht abgeschlossen werden. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
+        "apple_pay_payment_error": "Ihre Zahlung konnte nicht abgeschlossen werden. Bitte versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
         "no_taxes_banner_content": "Für diese Bestellung werden keine Steuern berechnet. Sobald Sie die Zahlung erhalten haben, können keine Steuern mehr hinzugefügt werden.",
         "paypal": {
           "connect": "Klicken Sie, um Ihr PayPal-Konto zu verbinden"
         },
         "apple": {
-          "connect": "Klicken Sie, um Ihr Apple Pay-Konto zu verbinden",
-          "not_available": "Apple Pay ist in diesem Browser nicht verfügbar. Um Ihr Apple Pay-Konto zu verbinden, müssen Sie Safari auf einem Apple-Gerät verwenden."
+          "connect": "Klicken Sie, um Ihr Apple Pay-Konto zu verknüpfen",
+          "not_available": "Apple Pay ist in diesem Browser nicht verfügbar. Um Ihr Apple-Pay-Konto zu verknüpfen, müssen Sie Safari auf einem Apple-Gerät verwenden."
         },
         "google": {
           "connect": "Klicken Sie, um sich mit Ihrem Google Pay-Konto zu verbinden"
@@ -690,7 +690,7 @@
         "no_working_method_error": "Dieser Laden kann derzeit keine Zahlungen akzeptieren. Aktualisieren Sie diese Seite oder kommen Sie später wieder.",
         "brand_not_available": "Dieses Geschäft akzeptiert {{brand}} nicht. Verwenden Sie eine andere Karte zur Bezahlung.",
         "shipping_rate_updated": "Verfügbare Versandmethoden wurden aktualisiert. Bestätigen Sie Ihre Auswahl, bevor Sie zur Kasse gehen.",
-        "billing_address_invalid_phone": "Aktualisieren Sie die Telefonnummer in Ihrer Rechnungsadresse für {{label}} {{last_digits}}, um fortzufahren.",
+        "billing_address_invalid_phone": "Geben Sie die Telefonnummer in Ihrer Rechnungsadresse für {{label}} {{last_digits}} ein, um fortzufahren.",
         "billing_address_invalid_phone_no_card": "Aktualisieren Sie die Telefonnummer in Ihrer Rechnungsadresse, um fortzufahren.",
         "preview_not_available": {
           "content": "Keine Sorge, dieser Express-Checkout funktioniert für Ihre Kunden.",
@@ -782,7 +782,7 @@
         "markets_pro_disclaimer_privacy_policy": "Datenschutzrichtlinie",
         "markets_pro_disclaimer_terms_and_conditions_title": "Geschäftsbedingungen des Händlers",
         "markets_pro_disclaimer_privacy_policy_title": "Datenschutzerklärung des Händlers im Auftrag",
-        "alternative_payment_currency_total_notice": "Hinweis: Ihnen werden %{amount_due} berechnet.",
+        "alternative_payment_currency_total_notice": "Hinweis: Es wird %{amount_due} berechnet.",
         "alternative_payment_currency_total_manual_payment_notice": "Hinweis: Der umgerechnete Gesamtbetrag beträgt %{amount_due}.",
         "waiting_on_taxes_message": "Wenn Ihre Steuern nicht innerhalb der nächsten Sekunden berechnet werden, aktualisieren Sie die Seite.",
         "waiting_on_taxes_notice": "Steuern berechnen",
@@ -793,10 +793,18 @@
         "gift_cards_unavailable": "Ihre Geschenkkarte kann für diese Bestellung nicht mehr verwendet werden und wurde entfernt",
         "payment_flexibility_terms_id_mismatch": "Zahlungsflexibilitätsbedingungen ID stimmt nicht überein",
         "bank_account_type": {
-          "checking": "Überprüfung",
-          "savings": "Ersparnisse"
+          "checking": "Überprüfen",
+          "savings": "Einsparungen"
         },
-        "new_bank_account_disclaimer": "Indem Sie Ihre Bestellung abschließen, erteilen Sie %{shop_name} die Erlaubnis, das unten angegebene Konto per Lastschriftverfahren mit dem angegebenen Betrag und zum angegebenen Zeitpunkt zu belasten."
+        "new_bank_account_disclaimer": "Indem Sie Ihre Bestellung abschließen, erteilen Sie %{shop_name} die Erlaubnis, das unten angegebene Konto per Lastschriftverfahren mit dem angegebenen Betrag und zum angegebenen Zeitpunkt zu belasten.",
+        "amazon_payments_logout": "Abmelden bei Amazon Pay",
+        "bank_account_choose": "Wählen Sie ein Konto, um Ihren Kauf sicher abzuschließen",
+        "bank_account_connect_another": "Verbinde ein anderes Bankkonto",
+        "bank_account_connect": "Bankkonto verknüpfen",
+        "bank_account_missing": "Bankkonto muss verknüpft werden",
+        "bank_account_disclaimer": "ACH-Zahlungen können bis zu 4 Werktage zur Bearbeitung benötigen.",
+        "bank_account_generic_error": "Konnte das Bankkonto nicht hinzufügen. Bitte versuchen Sie es später erneut.",
+        "add_new_payment_method": "Fügen Sie eine neue Zahlungsmethode hinzu"
       },
       "shipping_errors": {
         "unavailable_addresses_only_countries": "Ihre Bestellung kann nur an {{countriesList}} versandt werden. Fügen Sie eine neue Adresse hinzu, um fortzufahren.",
@@ -1628,7 +1636,7 @@
         "from_other_stores_heading": "Von anderen Geschäften",
         "from_multiple_stores_heading": "Von mehreren Geschäften",
         "view_all_items": {
-          "one": "%{count} Artikel anzeigen"
+          "one": "Siehe %{count} Artikel"
         },
         "more_items_modal": {
           "clear_search": "Suchanfrage löschen",
@@ -1693,7 +1701,7 @@
         "order_total_label": "Bestellgesamtbetrag",
         "price_before_discount_aria_text": "Ursprünglicher Preis",
         "price_after_discount_aria_text": "Reduzierter Preis",
-        "total_savings": "Gesamtersparnis",
+        "total_savings": "Gesamte Einsparungen",
         "total_due_label": "Gesamt zu zahlen",
         "total_paid_label": "Insgesamt bezahlt",
         "deposit_label": "Storting",
@@ -1719,9 +1727,9 @@
         "order_total_updated_label": "Aktualisierte Gesamtzahl",
         "unit_price": {
           "per_item": {
-            "single": "je %{price}",
+            "single": "%{price} pro Stück",
             "one": "%{price} pro %{count} Stück",
-            "other": "%{price} für %{count} Stück"
+            "other": "%{price} pro %{count} Artikel"
           }
         },
         "gift_card_ending": "Gutschein endet auf %{last_characters}",
@@ -1799,7 +1807,9 @@
         "total_label": "Insgesamt",
         "tax_line": {
           "gst": "MwSt"
-        }
+        },
+        "vat_label_html": "Inklusive %{amount} MwSt.",
+        "updated_shipping_method": "Aktualisierte Versandmethode: %{shipping_method}"
       },
       "shipping": {
         "shipping_method_title": "Versandart",
