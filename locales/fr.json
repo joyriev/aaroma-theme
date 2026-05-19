@@ -758,7 +758,62 @@
         "grabpay_label": "Paiement en espèces",
         "network_card_persistence_description": "Le réseau choisi est enregistré avec votre méthode de paiement pour les achats futurs.",
         "new_bank_account_disclaimer": "En complétant votre commande, vous autorisez %{shop_name} à débiter le compte bancaire indiqué ci-dessous via ACH pour le montant affiché et à la date indiquée.",
-        "multiple_primary_payment_not_allowed": "Méthodes de paiement invalides"
+        "multiple_primary_payment_not_allowed": "Méthodes de paiement invalides",
+        "order_covered_by_gift_cards_notice": {
+          "one": "Votre commande est couverte par votre bon cadeau.",
+          "other": "Votre commande est couverte par vos bons cadeaux."
+        },
+        "paypal": {
+          "connect": "Cliquez pour lier votre compte PayPal"
+        },
+        "pending_payment": {
+          "due_notice": "Votre paiement de %{amount_due} est dû le %{due_date}.",
+          "multibanco": {
+            "instruction_html": "Effectuez votre paiement via Multibanco ou en ligne avec les informations ci-dessous. Pour toute question ou pour mettre à jour vos informations de paiement, %{contact_us}.",
+            "amount": "Quantité",
+            "find_nearest_atm": "Trouvez le distributeur automatique le plus proche",
+            "buyer_action_info": "Votre paiement de %{amount_due} est dû."
+          }
+        },
+        "paypal_modal": {
+          "order_contains_fixed_selling_plans": "Le total peut être hors taxes, frais d'expédition, frais différés et certaines remises. Passez à la caisse pour le montant dû aujourd'hui."
+        },
+        "payment_method_saved": "Méthode de paiement enregistrée",
+        "order_covered_by_redeemables_notice": "Votre commande est assurée.",
+        "order_edit_banner_title": "Paiement de {{amount_owed}} requis",
+        "order_edit_banner_subtitle": "Votre commande {{order_number}} a été mise à jour. Consultez ces modifications puis payez pour confirmer votre commande.",
+        "order_edit_banner_multiple_items_added": "Ajouté {{amount}}",
+        "order_edit_banner_multiple_items_removed": "Supprimé {{amount}}",
+        "order_edit_banner_single_item_returned": "Retourné",
+        "order_edit_banner_multiple_items_returned": "Retourné {{amount}}",
+        "order_edit_banner_items_added": {
+          "other": "Ajouté %{count}"
+        },
+        "order_edit_banner_items_removed": {
+          "in_full": "Supprimé",
+          "with_quantities": "Supprimé {{delta}} de {{quantity}}"
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "Retourné {{quantity}}",
+          "with_quantities": "Rendu {{delta}} de {{quantity}}"
+        },
+        "payment_method": "Méthode de paiement",
+        "order_edit_banner_items_return_line_item_removed": {
+          "with_quantities": "{{delta}} supprimé du retour"
+        },
+        "order_edit_banner_multiple_items_return_line_item_removed": "{{amount}} supprimé du retour",
+        "pay_in_installments_split_pay_short": "4 paiements de %{amount}",
+        "payment_method_not_available_for_shipping_address_error": "Méthode de paiement non disponible pour l'adresse de livraison choisie. Veuillez choisir une autre méthode de paiement.",
+        "paypal_disconnect": "Couper la connexion",
+        "paypal_wallet_label": "Portefeuille PayPal",
+        "payment_method_update_failed": "La mise à jour de la méthode de paiement a échoué.",
+        "payment_flexibility_terms_id_mismatch": "Les conditions de flexibilité de paiement ID ne correspondent pas",
+        "offsite_gateway_redirect_hint_no_button_label": "Vous allez être redirigé vers %{gateway_label} pour finaliser votre achat.",
+        "payment_method_incompatible_with_payment_terms": "La méthode de paiement n'est pas compatible avec les conditions de paiement.",
+        "payment_option": {
+          "accessibility_label": "Choisissez un mode de paiement"
+        },
+        "payment_method_rollup_accessibility_label": "Options de méthodes de paiement"
       },
       "thank_you": {
         "thank_you_item_label": {
