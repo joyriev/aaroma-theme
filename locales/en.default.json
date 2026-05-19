@@ -539,7 +539,18 @@
       "general": {
         "errors": {
           "tax": {
-            "new_tax_must_be_accepted": "Taxes applicable to your order have changed. Please review your order and try again."
+            "new_tax_must_be_accepted": "Taxes applicable to your order have changed, please check your order and try again.",
+            "allocated_required": "Missing 'assigned' field.",
+            "unresolvable_tax_terms": "The proposed conditions are unworkable given the current negotiation situation.",
+            "delivery_price_is_abstract": "The associated delivery price is abstract.",
+            "tax_inclusivity_mismatch": "Negotiate again with a specific value for totalTaxAndDutyAmount or totalAmountIncludedInTarget.",
+            "delivery_tax_exemption_not_supported": "Tax exemptions for delivery rules are currently not supported.",
+            "proposed_allocations_required": "Missing field 'suggested assignments'.",
+            "merchandise_terms_must_be_defined": "Conditions for goods must be established.",
+            "delivery_terms_must_be_defined": "Delivery terms must be established.",
+            "merchandise_discount_terms_must_be_defined": "Conditions for discount on goods must be established.",
+            "delivery_discount_terms_must_be_defined": "The conditions for the delivery discount must be established.",
+            "line_splits_not_supported": "The field 'assortment lines' must be split so that each line component appears separately in the seller proposal."
           },
           "buyer_identity": {
             "business_customer_does_not_match_company": "Company contact person does not have access to the company.",
@@ -611,7 +622,14 @@
             "maximum_quantity_exceeded": "The quantity of some items exceeds the allowed maximum.",
             "bundle_requires_components": "This bundled product contains no components.",
             "mixed_currencies": "The checkout contains items with different currencies.",
-            "combined_listing_parent_not_purchasable": "Main products of combined listings cannot be purchased directly."
+            "combined_listing_parent_not_purchasable": "Main products of combined listings cannot be purchased directly.",
+            "only_value_constraint": "Only exact values are allowed in the input for goods.",
+            "price_mismatch": "The previously suggested price for this item was invalid and has been updated.",
+            "quantity_increment_not_met": "The quantity of some items does not meet the order limits.",
+            "quantity_rules_not_met": "The quantity of some items does not meet the order limits.",
+            "title_too_long": "The product title is too long.",
+            "title_empty": "The product title is empty.",
+            "product_not_published_in_buyer_location": "Product is not published at the buyer's location."
           },
           "discount": {
             "discounts_not_allowed_for_b2b": "Discounts are not allowed in B2B shops.",
@@ -630,6 +648,54 @@
           },
           "fx_reconciliation_override": {
             "shop_currency_mismatch": "The received amount must be in the store currency."
+          },
+          "session_identifier_not_unique_error": "Something went wrong with your order, please try to complete the payment again.",
+          "only_empty_terms_accepted": "This policy only accepts empty conditions.",
+          "session_is_already_finished": "This checkout has already been completed.",
+          "payment": {
+            "manual_payments_not_allowed_for_b2b": "Manual payments are not allowed in B2B shops.",
+            "positive_amount_expected": "The amount to be paid must be greater than 0.",
+            "total_amount_mismatch": "The total amount to be paid does not match the sum of the payment amounts.",
+            "missing_session_id": "Missing session information from the credit card.",
+            "gateway_not_supported": "Payment gateway does not support saving the payment method.",
+            "credit_card_last_name_required": "'last name' must not be empty.",
+            "credit_card_update_failed": "Updating credit card failed.",
+            "invalid_address_type": "The specified address type is invalid for this payment method.",
+            "missing_retail_attributions": "Store descriptions are required for manually entered credit card payments.",
+            "unexpected_retail_attributions": "Store data unexpectedly provided for payment by credit card.",
+            "invalid_card_source": "This session does not have permission to use this map source.",
+            "wallet_content_missing": "Contents of wallet missing.",
+            "payment_instrument_not_found": "Payment method not found",
+            "unauthorized_capture_method": "Configuring the payment method for direct debit is not allowed.",
+            "saved_payment_methods_not_allowed": "Saved payment methods are not allowed.",
+            "saved_payment_methods_not_enabled": "Saved payment methods are not enabled for this shop.",
+            "store_credit_account_mismatch": "Store credit account does not match the buyer's identity.",
+            "store_credit_mismatched_currency": "The currency of the store credit account does not match the currency at checkout.",
+            "store_credit_insufficient_funds": "There is insufficient balance on the store credit account.",
+            "store_credit_buying_gift_card": "You cannot use store credit to buy a gift voucher.",
+            "gift_cards_not_allowed_for_b2b": "Gift vouchers are not allowed in business-to-business shops.",
+            "method_required": "A payment method must be suggested.",
+            "saved_payment_methods_cvv_verification_disabled": "The chosen payment method requires CVV verification, which is not enabled for this shop. Please choose another payment method."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "This concept order does not exist in the current shop.",
+            "staff_member_not_exist": "This staff does not exist in the current store.",
+            "location_not_exist": "This location does not exist in the current shop.",
+            "point_of_sale_device_not_exist": "This cash register does not exist in the current store.",
+            "unresolvable_target_merchandise_lines": "The proposed sales allocations cannot be resolved given the current negotiation situation."
+          },
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "Your purchase offer must contain non-negotiable conditions."
+          },
+          "optional_duties": {
+            "optional_duties_not_permitted": "Refusing import duties is not allowed at this checkout."
+          },
+          "tip": {
+            "not_accepted_by_shop": "The shop does not accept tips.",
+            "only_one_tip_line_allowed": "Multiple tip lines are not supported.",
+            "tips_not_allowed_for_b2b": "Tipping is not allowed in B2B shops.",
+            "currency_change_reset": "The tip has been reset due to the currency change.",
+            "tips_not_allowed_for_deferred_purchase_options": "Tips are not yet supported for deferred purchase options."
           }
         },
         "breadcrumb": "Breadcrumb trail",
@@ -658,7 +724,31 @@
         },
         "dropzone": {
           "dragged_over": "Place file down to upload"
-        }
+        },
+        "print_policies_link_label": "Prints",
+        "expand_notice_label": "See more",
+        "submit": "Shipping",
+        "stepper": {
+          "decrease": "Lower {{type}}"
+        },
+        "list_formatter": {
+          "and": {
+            "lastWordConnector": "{{previousWords}}, in {{lastWord}}"
+          },
+          "or": {
+            "lastWordConnector": "{{previousWords}}, of {{lastWord}}"
+          }
+        },
+        "map": {
+          "cluster_title": {
+            "one": "Cluster of {{number}} markers",
+            "other": "Cluster of {{number}} markings"
+          }
+        },
+        "sheet": {
+          "expand": "Unfold"
+        },
+        "finalize_order_accessibility_label": "Complete order"
       },
       "order_summary": {
         "taxes_label": " Taxes",

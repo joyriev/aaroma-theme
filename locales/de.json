@@ -1206,35 +1206,37 @@
         "errors": {
           "only_empty_terms_accepted": "Diese Richtlinie akzeptiert nur leere Bedingungen.",
           "session_identifier_not_unique_error": "Bei Ihrer Bestellung ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
-          "line_item_limit_reached": "Die maximale Anzahl der Positionen wurde erreicht.",
+          "line_item_limit_reached": "Die maximale Anzahl der Positionen ist erreicht.",
           "session_is_already_finished": "Diese Kassensitzung wurde bereits abgeschlossen.",
           "merchandise": {
             "only_value_constraint": "Nur exakte Werte sind bei der Wareneingabe erlaubt.",
             "merchandise_not_found": "Produkt nicht gefunden.",
             "merchandise_variant_not_found": "Produktvariante nicht gefunden.",
             "merchandise_not_applicable": "Produktvariante kann nicht gekauft werden.",
-            "mixed_currencies": "Zur Kasse enthält Positionen mit verschiedenen Währungen.",
-            "bundle_products_not_supported_for_b2b": "Gebündelte Artikel können für diesen Standort nicht zu B2B-Bestellungen hinzugefügt werden.",
-            "gift_card_quantity_mismatch": "Beim Angeben von Geschenkkartencodes müssen die Menge der Position und die Anzahl der Geschenkkartencodes übereinstimmen.",
-            "gift_card_not_supported": "Geschenkkarten werden an dieser Kasse nicht unterstützt.",
-            "gift_card_not_unique": "Geschenkgutschein mit dem Code {{code}} wird in diesem Bezahlvorgang mehrmals verwendet. Codes werden vor dem Vergleich formatiert.",
-            "gift_card_used": "Geschenkgutscheincode {{code}} ist bereits einem Geschenkgutschein zugewiesen. Codes werden vor dem Vergleich formatiert.",
-            "gift_card_invalid": "Geschenkgutscheincode {{code}} ist ungültig.",
-            "gift_card_with_attributes_not_supported": "Geschenkkarten mit benutzerdefinierten Attributen werden an diesem Checkout nicht unterstützt.",
-            "gift_card_with_components_not_supported": "Geschenkkarten mit Komponenten werden an dieser Kasse nicht unterstützt.",
+            "mixed_currencies": "Die Kasse enthält Artikel mit verschiedenen Währungen.",
+            "bundle_products_not_supported_for_b2b": "Kombinierte Artikel können nicht zu B2B-Bestellungen für diesen Standort hinzugefügt werden.",
+            "gift_card_quantity_mismatch": "Beim Eingeben von Geschenkgutscheincodes müssen die Anzahl der Artikel und die Anzahl der Geschenkgutscheincodes übereinstimmen.",
+            "gift_card_not_supported": "Geschenkgutscheine werden an dieser Kasse nicht akzeptiert.",
+            "gift_card_not_unique": "Gutscheincode {{code}} wird bei dieser Abrechnung mehrmals verwendet. Codes werden vor dem Vergleich formatiert.",
+            "gift_card_used": "Der Gutscheincode {{code}} ist bereits einem Gutschein zugewiesen. Codes werden vor dem Vergleich formatiert.",
+            "gift_card_invalid": "Gutscheincode {{code}} ist ungültig.",
+            "gift_card_with_attributes_not_supported": "Geschenkgutscheine mit angepassten Eigenschaften werden an dieser Kasse nicht unterstützt.",
+            "gift_card_with_components_not_supported": "Geschenkgutscheine mit Einzelteilen werden an dieser Kasse nicht unterstützt.",
             "selling_plan_not_supported_b2b": "Abonnements werden für den B2B-Checkout nicht unterstützt.",
             "price_mismatch": "Der zuvor vorgeschlagene Preis für diese Ware war ungültig und wurde aktualisiert.",
-            "inventory_not_found": "Für diese Ware wurde kein Lagerbestand gefunden.",
+            "inventory_not_found": "Für diesen Artikel wurde kein Vorrat gefunden.",
             "product_not_published": "Produkt ist nicht veröffentlicht.",
             "product_not_published_in_buyer_location": "Produkt ist am Standort des Käufers nicht veröffentlicht.",
-            "duplicated_stable_id": "Diese Warenlinie hat dieselbe Stable-ID wie eine andere Linie.",
-            "minimum_quantity_not_met": "Die Menge einiger Artikel erfüllt nicht die erforderliche Mindestanzahl.",
+            "duplicated_stable_id": "Diese Produktreihe hat dieselbe stabile Kennung wie eine andere Reihe.",
+            "minimum_quantity_not_met": "Die Menge mancher Artikel entspricht nicht dem erforderlichen Mindestmaß.",
             "maximum_quantity_exceeded": "Die Menge einiger Artikel überschreitet das zulässige Maximum.",
             "quantity_increment_not_met": "Die Menge einiger Artikel entspricht nicht den Bestellgrenzen.",
             "quantity_rules_not_met": "Die Menge einiger Artikel entspricht nicht den Bestellgrenzen.",
-            "bundle_requires_components": "Dieses Bündelprodukt hat keine Komponenten.",
+            "bundle_requires_components": "Dieses zusammengesetzte Produkt enthält keine Teile.",
             "title_too_long": "Der Titel der Ware ist zu lang.",
-            "title_empty": "Der Titel der Ware ist leer."
+            "title_empty": "Der Titel der Ware ist leer.",
+            "gift_card_code_changed": "Geschenkkartencode {{proposed_code}} wurde in {{formatted_code}} geändert, um den Formatierungsregeln zu entsprechen.",
+            "combined_listing_parent_not_purchasable": "Hauptprodukte aus kombinierten Einträgen können nicht direkt gekauft werden."
           },
           "buyer_identity": {
             "business_customer_does_not_match_company": "Der Firmenkontakt hat keinen Zugang zum Unternehmen.",
@@ -1254,35 +1256,37 @@
             "missing_contact_method": "Es fehlt eine gültige Kontaktmöglichkeit."
           },
           "delivery": {
-            "only_one_delivery_line_allowed": "Der Warenkorb darf nur eine Lieferzeile enthalten.",
-            "wrong_number_of_delivery_lines": "Für jede Warengruppe muss eine Lieferlinie angegeben werden.",
-            "external_delivery_promise_error": "Ein Fehler beim Abrufen des externen Lieferzusagens.",
+            "only_one_delivery_line_allowed": "Der Warenkorb darf nur eine Lieferposition enthalten.",
+            "wrong_number_of_delivery_lines": "Für jede Warengruppe muss eine Lieferzeile angegeben werden.",
+            "external_delivery_promise_error": "Ein Fehler beim Abrufen des externen Lieferzusicherungs.",
             "destination_address_required": "Eine Zieladresse ist erforderlich, um fortzufahren.",
             "pickup_points_unavailable": "Abholstellen sind derzeit nicht verfügbar.",
-            "local_pickup_delivery_line_detail_changed": "Die aktuelle Strategie für die lokale Abholung muss geändert werden, um fortzufahren.",
-            "selected_pickup_option_no_longer_available": "Die zuvor ausgewählte Abholoption ist nicht mehr verfügbar.",
-            "local_pickup_no_delivery_strategy_available": "Keine verfügbare Abhol-Lieferstrategie vor Ort gefunden.",
-            "origin_location_id_required": "Eine Ursprungsstandort-ID ist erforderlich, wenn die Liefermethode RETAIL angefordert wird.",
-            "invalid_origin_location_id": "Konnte keinen Ort finden, der mit der Ursprungsstandort-ID übereinstimmt.",
-            "origin_location_id_not_allowed": "Die angeforderten Liefermethoden unterstützen keine Ursprungsstandort-ID.",
+            "local_pickup_delivery_line_detail_changed": "Die aktuelle Abholstrategie für die lokale Lieferung muss geändert werden, um fortfahren zu können.",
+            "selected_pickup_option_no_longer_available": "Die zuvor gewählte Abholoption ist nicht mehr verfügbar.",
+            "local_pickup_no_delivery_strategy_available": "Keine verfügbare Abhol- oder Liefermethode gefunden.",
+            "origin_location_id_required": "Eine Herkunftsort-ID ist erforderlich, wenn die LIEFERUNG IM GESCHÄFT angefordert wird.",
+            "invalid_origin_location_id": "Konnte keinen Ort finden, der mit der Ursprungsort-ID übereinstimmt.",
+            "origin_location_id_not_allowed": "Die angeforderten Liefermethoden unterstützen keine Herkunftsort-ID.",
             "auto_fulfill_not_allowed": "Diese Sitzung ist nicht berechtigt, das Abwicklungsverhalten zu überschreiben.",
             "auto_fulfill_required": "Automatisch Ausführen ist erforderlich, wenn die VERKAUF-Liefermethode angefordert wird.",
-            "prefetch_shipping_rates_used": "Vorab abgerufene Versandkosten sollten niemals Preise zurückgeben.",
-            "fulfillment_constraints_not_satisfied": "Eine oder mehrere Erfüllungsbedingungen wurden nicht erfüllt.",
-            "must_fulfill_from_constraint_not_satisfied": "Erfüllungsbedingungen sind nicht erfüllt, da Artikel nicht von den erforderlichen Standorten geliefert werden können.",
-            "must_fulfill_from_same_location_constraint_not_satisfied": "Erfüllungsbedingungen sind nicht erfüllt, da Artikel nicht vom selben Standort aus geliefert werden können.",
+            "prefetch_shipping_rates_used": "Vorab berechnete Versandkosten dürfen niemals Kosten zurückgeben.",
+            "fulfillment_constraints_not_satisfied": "Eine oder mehrere Lieferbedingungen wurden nicht erfüllt.",
+            "must_fulfill_from_constraint_not_satisfied": "Ausführungsbedingungen werden nicht erfüllt, da Artikel nicht von den erforderlichen Standorten geliefert werden können.",
+            "must_fulfill_from_same_location_constraint_not_satisfied": "Voraussetzungen für die Ausführung werden nicht erfüllt, da Artikel nicht vom selben Standort geliefert werden können.",
             "delivery_strategy_conditions_not_satisfied": "Liefermöglichkeiten sind für diesen Standort verfügbar, aber die Bedingungen dafür werden nicht erfüllt.",
-            "out_of_stock_at_origin_location": "Kein Lagerbestand am Ursprungsort.",
-            "invalid_signature": "Ungültige Rabatt-Signatur."
+            "out_of_stock_at_origin_location": "Kein Vorrat am ursprünglichen Standort.",
+            "invalid_signature": "Ungültige Rabattunterschrift.",
+            "mixed_destination_countries": "Die Lieferung ist nicht verfügbar, da die Lieferbedingungen mehrere Länder abdecken."
           },
           "discount": {
             "discounts_not_allowed_for_b2b": "Rabatte sind in B2B-Geschäften nicht erlaubt.",
-            "custom_discount_not_honoured": "Der gewährte individuelle Rabatt wurde nicht berücksichtigt.",
-            "unsupported_expectation": "Die angegebene Rabattzeile enthielt eine Erwartung, die die Richtlinie nicht interpretieren konnte.",
+            "custom_discount_not_honoured": "Der angegebene benutzerdefinierte Rabatt wurde nicht gewährt.",
+            "unsupported_expectation": "Die angegebene Rabattregel enthielt eine Erwartung, die die Richtlinie nicht interpretieren konnte.",
             "additional_requested_discount_code_discarded": "{{code}} ist gültig, aber nicht anwendbar. Überprüfen Sie die Rabattbedingungen.",
-            "additional_requested_discount_discarded": "Ihr Rabatt ist gültig, aber nicht anwendbar. Überprüfen Sie die Rabattbedingungen.",
-            "allocations_mismatch": "Ihr Rabattcode wurde geändert. Überprüfen Sie Ihren Warenkorb und versuchen Sie es erneut.",
-            "discount_title_too_long": "Der Rabatt-Titel darf nicht länger als 255 Zeichen sein."
+            "additional_requested_discount_discarded": "Ihr Rabatt ist gültig, aber nicht anwendbar. Bitte überprüfen Sie die Rabattbedingungen.",
+            "allocations_mismatch": "Ihr Rabattcode wurde geändert. Sehen Sie sich Ihren Warenkorb an und versuchen Sie es erneut.",
+            "discount_title_too_long": "Der Rabatt-Titel darf nicht länger als 255 Zeichen sein.",
+            "mixed_destination_countries": "Rabatte sind nicht verfügbar, da die Lieferbedingungen mehrere Länder abdecken."
           },
           "tax": {
             "unresolvable_tax_terms": "Die vorgeschlagenen Bedingungen sind im aktuellen Verhandlungskontext nicht lösbar.",
@@ -1343,9 +1347,9 @@
             "invalid_signature": "Die Unterschrift für {{target_terms}} ist ungültig."
           },
           "inventory": {
-            "missing_quantity_value": "Das Mengenfeld fehlt in den Inventarzeilen des Käufers.",
-            "changing_behavior_not_allowed": "Dieser Kunde hat keine Berechtigung, das Inventarverhalten zu ändern.",
-            "only_one_inventory_behavior_allowed": "Derzeit ist pro Kasse nur ein Lagerverhalten erlaubt."
+            "missing_quantity_value": "Das Mengenfeld fehlt in den Lagerbestandszeilen des Käufers.",
+            "changing_behavior_not_allowed": "Dieser Kunde hat keine Erlaubnis, das Lagerverhalten zu ändern.",
+            "only_one_inventory_behavior_allowed": "Derzeit ist pro Bezahlvorgang nur ein Lagerverhalten erlaubt."
           },
           "optional_duties": {
             "optional_duties_not_permitted": "Die Ablehnung von Gebühren ist bei diesem Checkout nicht erlaubt."
@@ -1365,7 +1369,7 @@
             "token_not_valid_for_session": "Der angegebene Captcha-Code kann an dieser Kasse nicht verwendet werden."
           },
           "fx_reconciliation_override": {
-            "shop_currency_mismatch": "Der erhaltene Betrag muss in der Währung des Geschäfts sein."
+            "shop_currency_mismatch": "Der erhaltene Betrag muss in der Ladenwährung sein."
           },
           "checkout_source": {
             "revoked": "Diese Kasse ist nicht mehr verfügbar."
