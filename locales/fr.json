@@ -787,7 +787,10 @@
         "sheet": {
           "expand": "Déplier"
         },
-        "loading": "Chargement en cours…"
+        "loading": "Chargement en cours…",
+        "tooltip_accessibility_label": "Plus d'informations",
+        "submit_order_button_label": "Envoyer la commande",
+        "submit_for_review_notice_label": "Le paiement n'est dû qu'après que votre commande a été examinée"
       },
       "payment_gateway": {
         "bank_account_label": "Compte bancaire"
@@ -1106,6 +1109,134 @@
         },
         "shipping": {
           "shipping_options": "Voir toutes les options d'expédition"
+        }
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "Il y a %{count} emplacement avec du stock près de chez vous",
+          "other": "Il y a %{count} emplacements avec du stock près de chez vous"
+        },
+        "or": "DE",
+        "no_stores_found": "Aucun magasin trouvé",
+        "could_not_resolve_address": "Votre adresse n'a pas pu être trouvée. Veuillez réessayer ou utiliser une autre adresse.",
+        "paginator": {
+          "accessibility_label": "Pagination pour le retrait sur place",
+          "label": {
+            "one": "%{first} - %{last} sur %{count} magasin",
+            "other": "%{first} - %{last} sur %{count} magasins"
+          }
+        },
+        "all_stores_far_away": {
+          "title": "Les emplacements les plus proches sont à plus de %{distance}",
+          "description": "Sélectionnez un lieu ou %{ship_to_address_link}",
+          "ship_to_address_link": "adresse de livraison",
+          "change_location_link": "Modifiez votre emplacement",
+          "title_with_specific_location": "Le point de vente le plus proche avec votre article est à plus de %{distance} de %{location}",
+          "title_with_item": {
+            "one": "Le point de vente le plus proche avec votre article est à plus de %{distance} de %{location}",
+            "other": "Le point de vente le plus proche avec vos articles se trouve à plus de %{distance} de %{location}"
+          }
+        },
+        "location_closest": "Lieu le plus proche avec votre article",
+        "location_information_far_away": {
+          "one": "Il y a %{count} emplacement avec votre article",
+          "other": "Il y a %{count} emplacements avec votre article"
+        },
+        "location_nearby": {
+          "one": "Il y a %{count} emplacement à proximité avec votre article",
+          "other": "Il y a %{count} emplacements à proximité avec votre article"
+        },
+        "location_nearby_short": {
+          "one": "%{count} emplacement à proximité avec votre article",
+          "other": "%{count} emplacements à proximité avec votre article"
+        },
+        "location_closest_one_item": "Emplacement le plus proche avec votre article",
+        "location_closest_other_items": "Lieu le plus proche avec vos articles",
+        "location_information_far_away_one_item": {
+          "one": "Il y a %{count} emplacement avec votre article",
+          "other": "Il y a %{count} emplacements avec votre article"
+        },
+        "location_information_far_away_other_items": {
+          "one": "Il y a %{count} emplacement avec vos articles",
+          "other": "Il y a %{count} emplacements avec vos articles"
+        },
+        "location_nearby_one_item": {
+          "one": "Il y a %{count} emplacement à proximité avec votre article",
+          "other": "Il y a %{count} emplacements à proximité avec votre article"
+        },
+        "location_nearby_other_items": {
+          "one": "Il y a %{count} emplacement à proximité avec vos articles",
+          "other": "Il y a %{count} emplacements à proximité avec vos articles"
+        },
+        "location_nearby_short_one_item": {
+          "one": "%{count} emplacement à proximité avec votre article",
+          "other": "%{count} emplacements à proximité avec votre article"
+        },
+        "location_nearby_short_other_items": {
+          "one": "%{count} emplacement à proximité avec vos articles",
+          "other": "%{count} emplacements à proximité avec vos articles"
+        },
+        "location_far_away_one_item": {
+          "one": "%{count} emplacement avec votre article",
+          "other": "%{count} emplacements avec votre article"
+        },
+        "location_far_away_other_items": {
+          "one": "%{count} emplacement avec vos articles",
+          "other": "%{count} emplacements avec vos articles"
+        },
+        "toggle_location": "Modifier l'emplacement",
+        "search_button": "Trouver des magasins",
+        "reveal_more_label": {
+          "one": "Afficher %{count} emplacements de plus",
+          "other": "Afficher %{count} emplacements de plus"
+        },
+        "selected_pickup_option_no_longer_available": {
+          "title": "Votre emplacement précédemment choisi n'est plus disponible",
+          "description": "Sélectionnez un nouvel emplacement ou %{ship_to_address_link}",
+          "ship_to_address_link": "adresse de livraison"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_items": "Envoyez vos articles",
+          "search_elsewhere": "chercher ailleurs",
+          "ship_items_or_search_elsewhere": "%{ship_items} de %{search_elsewhere}"
+        },
+        "toggle_multiple_locations": "%{count}+ plus d'emplacements",
+        "toggle_more_locations": {
+          "one": "%{count} emplacement(s) de plus",
+          "other": "%{count} autres emplacements"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Aucun emplacement en %{country} avec votre article",
+          "other": "Aucun emplacement en %{country} avec vos articles"
+        }
+      },
+      "localized_fields": {
+        "additional_information": {
+          "tax_credential_br": "BSN/KVK",
+          "shipping_credential_br": "BSN/KVK",
+          "shipping_credential_cn": "Numéro d'identification des habitants",
+          "tax_credential_it": "Numéro fiscal (optionnel)",
+          "tax_credential_co": "Carte d'identité/TVA",
+          "shipping_credential_co": "Carte d'identité/TVA",
+          "shipping_credential_type_co": "Type Carte d'identité",
+          "tax_credential_cr": "Numéro d'identification/RUT",
+          "shipping_credential_cr": "Numéro d'identification/RUT",
+          "tax_credential_ec": "CI/RUC/TVA",
+          "shipping_credential_ec": "CI/RUC/TVA",
+          "tax_credential_gt": "NIF/TVA",
+          "shipping_credential_gt": "NIF/TVA",
+          "tax_credential_my": "Numéro d'identification fiscale/numéro d'enregistrement",
+          "shipping_credential_my": "Numéro d'identification fiscale/numéro d'enregistrement",
+          "shipping_credential_mx": "CFR",
+          "tax_credential_mx": "CFR",
+          "shipping_credential_py": "CI/RUC/TVA",
+          "tax_credential_pe": "NIF/RC/CE",
+          "shipping_credential_pe": "NIF/RC/CE",
+          "shipping_credential_pt": "NIF/TVA",
+          "tax_credential_es": "NIF/NIE",
+          "shipping_credential_es": "NIF/NIE",
+          "shipping_credential_tw": "Numéro d'identité nationale/numéro de TVA",
+          "shipping_credential_tr": "République de Turquie Numéro d'identification/TVA"
         }
       }
     },
