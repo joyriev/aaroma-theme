@@ -1650,7 +1650,45 @@
         "draft_order_payment_due_later_terms": "You will be subject to {{translatedName}} terms once your order is confirmed.",
         "draft_order_deposit_due_later": "{{depositAmount}} is due as soon as your order is confirmed. The remaining amount will be paid according to the terms of {{translatedName}}.",
         "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} is due once your order is confirmed. The remaining amount will be paid once your order is completed.",
-        "credit_or_debit_card_label": "Credit card/Debit card"
+        "credit_or_debit_card_label": "Credit card/Debit card",
+        "money_order_label": "Money order",
+        "generic_payment_terms": "You have payment terms with {{translatedName}}. Your payment is due on {{dueDate}}.",
+        "order_due_on_fulfillment_choose_later": "Your payment is due once your order is completed.",
+        "order_due_on_fulfillment_payment": "Your card will be charged once your order is complete.",
+        "draft_order_payment_due_on_fulfillment": "Your payment is due once your order has been confirmed and processed.",
+        "fixed_payment_label": "Your payment is due on {{dueDate}}.",
+        "order_deposit_due_now": "{{depositAmount}} is due today. The remaining amount is subject to the terms of {{translatedName}} and is due on {{dueDate}}.",
+        "order_deposit_due_on_fulfillment": "{{depositAmount}} is due today. The remaining amount will be paid once your order is completed.",
+        "order_due_on_receipt_choose_later": "Your payment is due upon receipt.",
+        "order_deposit_due_on_receipt": "{{depositAmount}} is due today. The remaining amount will be paid later.",
+        "order_deposit_due_on_fixed_date": "{{depositAmount}} is due today. The remaining amount is due on {{dueDate}}."
+      },
+      "payment_summary": {
+        "express_payment_gateway_label": "Print out",
+        "billing_address_title": "Invoice address"
+      },
+      "pickup_point": {
+        "could_not_resolve_address": "Your address could not be found. Please try again or use a different address",
+        "paginator": {
+          "header": {
+            "one": "Showing %{first} - %{last} of %{count} items"
+          },
+          "selected_page": {
+            "one": "%{first} - %{last} of %{count} points"
+          }
+        },
+        "number_of_pickup_points_near_location": {
+          "one": "%{count} pickup point near you",
+          "other": "%{count} pickup points near you"
+        },
+        "geolocation": {
+          "errors": {
+            "unsuported_by_browser": "Determining the location is not supported by your browser. Please try again or use a different browser.",
+            "permission_not_allowed": "Allow sharing of your location.",
+            "permission_denied": "Could not determine your location. Please try again."
+          }
+        },
+        "open_twenty_four_hours": "Open 24 hours a day, 7 days a week"
       }
     },
     "addresses": {
