@@ -561,7 +561,24 @@
             "destination_address_required": "A destination address is required to proceed.",
             "auto_fulfill_not_allowed": "This session is not authorized to override the handling behavior.",
             "auto_fulfill_required": "Automatic execution is required when the SALE delivery method is requested.",
-            "delivery_strategy_conditions_not_satisfied": "Delivery methods are available for this location, but the conditions are not met."
+            "delivery_strategy_conditions_not_satisfied": "Delivery methods are available for this location, but the conditions are not met.",
+            "only_one_delivery_line_allowed": "The shopping cart may contain only one delivery item.",
+            "wrong_number_of_delivery_lines": "A delivery line must be specified for each group of goods.",
+            "external_delivery_promise_error": "An error occurred while retrieving the external delivery promise.",
+            "options_instructions_invalid": "The given instructions do not match the expected pattern.",
+            "pickup_points_unavailable": "Pickup points are currently not available.",
+            "local_pickup_delivery_line_detail_changed": "The current pickup strategy for local delivery must be changed in order to continue.",
+            "local_pickup_no_delivery_strategy_available": "No available pickup delivery method found.",
+            "origin_location_id_required": "An origin location ID is required when IN-STORE PICKUP is requested.",
+            "invalid_origin_location_id": "Could not find a location that matches the origin location ID.",
+            "origin_location_id_not_allowed": "The requested delivery methods do not support origin location ID.",
+            "prefetch_shipping_rates_used": "Prepaid shipping rates must never return rates.",
+            "fulfillment_constraints_not_satisfied": "One or more delivery conditions have not been met.",
+            "must_fulfill_from_constraint_not_satisfied": "Execution requirements are not met because items cannot be delivered from the required locations.",
+            "must_fulfill_from_same_location_constraint_not_satisfied": "Execution requirements are not met because items cannot be delivered from the same location.",
+            "out_of_stock_at_origin_location": "No stock at the original location.",
+            "selected_pickup_option_no_longer_available": "The previously chosen pickup option is no longer available.",
+            "mixed_destination_countries": "Delivery is not available because the delivery rules cover multiple countries."
           },
           "attribution": {
             "retail_attribution_not_allowed": "Retail allocation is not allowed for this transaction.",
@@ -578,6 +595,41 @@
           },
           "checkout_source": {
             "revoked": "This cash register is no longer available."
+          },
+          "merchandise": {
+            "bundle_products_not_supported_for_b2b": "Combined items cannot be added to B2B orders for this location.",
+            "gift_card_quantity_mismatch": "When entering gift card codes, the number of items and the number of gift card codes must match.",
+            "gift_card_not_supported": "Gift vouchers are not supported at this checkout.",
+            "gift_card_not_unique": "Gift voucher with code {{code}} appears more than once in this checkout. Codes are formatted before comparison.",
+            "gift_card_used": "Gift card code {{code}} has already been assigned to a gift card. Codes are formatted prior to comparison.",
+            "gift_card_code_changed": "Gift card code {{proposed_code}} has been changed to {{formatted_code}} to comply with formatting rules.",
+            "gift_card_with_attributes_not_supported": "Gift vouchers with customized features are not supported at this checkout.",
+            "gift_card_with_components_not_supported": "Gift vouchers with parts are not supported at this checkout.",
+            "inventory_not_found": "No stock found for this item.",
+            "duplicated_stable_id": "This product line has the same stable ID as another line.",
+            "minimum_quantity_not_met": "The quantity of some items does not meet the required minimum.",
+            "maximum_quantity_exceeded": "The quantity of some items exceeds the allowed maximum.",
+            "bundle_requires_components": "This bundled product contains no components.",
+            "mixed_currencies": "The checkout contains items with different currencies.",
+            "combined_listing_parent_not_purchasable": "Main products of combined listings cannot be purchased directly."
+          },
+          "discount": {
+            "discounts_not_allowed_for_b2b": "Discounts are not allowed in B2B shops.",
+            "custom_discount_not_honoured": "The specified custom discount has not been honored.",
+            "unsupported_expectation": "The specified discount rule contained an expectation that the policy could not interpret.",
+            "additional_requested_discount_code_discarded": "{{code}} is valid but not applicable. Check the discount conditions.",
+            "allocations_mismatch": "Your discount code has been changed. Check your shopping cart and try again.",
+            "discount_title_too_long": "Discount title must not be longer than 255 characters.",
+            "additional_requested_discount_discarded": "Your discount is valid but not applicable. Check the discount conditions.",
+            "mixed_destination_countries": "Discounts are not available because the delivery rules cover multiple countries."
+          },
+          "inventory": {
+            "missing_quantity_value": "The quantity field is missing in the buyer's stock lines.",
+            "changing_behavior_not_allowed": "This customer does not have permission to change the stock behavior.",
+            "only_one_inventory_behavior_allowed": "Currently, only one stock behavior is allowed per checkout process."
+          },
+          "fx_reconciliation_override": {
+            "shop_currency_mismatch": "The received amount must be in the store currency."
           }
         },
         "breadcrumb": "Breadcrumb trail",
