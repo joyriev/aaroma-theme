@@ -1596,14 +1596,14 @@
         "checkout_on_shop_label": "Bezahlen bei %{shop_name}"
       },
       "stock": {
-        "page_title": "Inventarprobleme",
+        "page_title": "Lagerbestandsprobleme",
         "title": "Nicht auf Lager",
         "items_unavailable_notice": "Einige Artikel sind nicht mehr verfügbar.",
         "quantity_column_header": "Menge",
         "reduced_with_quantity_label": "Nur noch %{quantity_available} übrig",
-        "continue_shopping_button_label": "Fortsetzen",
+        "continue_shopping_button_label": "Fortfahren",
         "return_to_store_label": "Zurück zum Geschäft",
-        "continue_cta_label": "Zur Kasse gehen",
+        "continue_cta_label": "Mit dem Bezahlen fortfahren",
         "empty_cart_label": "Ihr Warenkorb ist leer",
         "quantity_update": {
           "description": "Die verfügbaren Mengen für diese Artikel haben sich geändert und wurden in Ihrem Warenkorb aktualisiert."
@@ -1641,7 +1641,7 @@
           "updated_price": "Aktualisierter Preis"
         },
         "price_and_quantity_update": {
-          "description": "Preise und verfügbare Mengen für diese Artikel haben sich geändert und wurden in Ihrem Warenkorb aktualisiert."
+          "description": "Die Preise und verfügbaren Mengen dieser Artikel wurden in Ihrem Warenkorb geändert und aktualisiert."
         },
         "out_of_stock": {
           "description": "Diese Artikel sind nicht mehr verfügbar und wurden aus Ihrem Warenkorb entfernt.",
@@ -2354,13 +2354,15 @@
         "accept_shop_pay_marketing_checkbox_label": "Melden Sie sich für Neuigkeiten und Angebote dieses Geschäfts an"
       },
       "shop_policies": {
-        "select_policy_label": "Wählen Sie eine Richtlinie aus",
+        "select_policy_label": "Wählen Sie eine Police aus",
         "refund_policy": "Rückerstattungsrichtlinie",
         "terms_of_service": "Nutzungsbedingungen",
         "legal_notice": "Rechtlicher Hinweis",
         "cookie_preferences": "Cookies",
         "terms_and_policies": "Bedingungen und Richtlinien",
-        "contact_information": "Kontakt aufnehmen"
+        "contact_information": "Kontakt aufnehmen",
+        "purchase_options_policy": "Richtlinien für Kaufoptionen",
+        "policies_label": "Beleidsregeln"
       },
       "remote_policies": {
         "unavailable_policy": "Für diesen Shop wurde keine %{policy_name} angegeben. Für weitere Informationen können Sie direkt %{shop_name} kontaktieren."
@@ -2913,9 +2915,39 @@
         }
       },
       "split_delivery": {
-        "items_for_pickup": "Artikel zur Abholung",
+        "items_for_pickup": "Artikel zum Abholen",
         "delivery_method": "Geteilte Liefermethode",
-        "delivery_method_menu": "Liefermethode für Teillieferungen-Menü"
+        "delivery_method_menu": "Gesplittetes Liefermethoden-Menü",
+        "pickup_all_items": "Packe alle Artikel ein",
+        "inventory_issue_banner": {
+          "remove_items_or_ship": "%{ship_separately_link} von %{remove_items_link}",
+          "remove_items_or_pickup": "%{pickup_in_store_link} von %{remove_items_link}",
+          "heading": {
+            "cannot_be_picked_up": {
+              "one": "%{count} Artikel können nicht abgerufen werden",
+              "other": "%{count} Artikel können nicht abgerufen werden"
+            },
+            "cannot_be_shipped": {
+              "one": "%{count} Artikel können nicht versendet werden"
+            }
+          },
+          "ship_separately": {
+            "one": "separat versenden",
+            "other": "versende sie separat"
+          },
+          "pick_them_up_in_store": {
+            "one": "im Geschäft abholen",
+            "other": "Hol sie im Geschäft ab"
+          }
+        },
+        "items_for_shipping": "Zu versendende Artikel",
+        "items_moved_to_shipping_toast": "Artikel, die nicht abgeholt werden können, wurden zum Versand verschoben",
+        "cross_border": {
+          "modal": {
+            "content": "Dadurch werden alle Artikel wieder auf Versand eingestellt. Deine Abhol- und Versandstandorte müssen sich im selben Land befinden."
+          },
+          "banner": "Jede Liefermethode wurde aktualisiert"
+        }
       },
       "billing": {
         "billing_address_title": "Rechnung stellen an",
