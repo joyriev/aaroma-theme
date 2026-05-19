@@ -887,7 +887,40 @@
         "different_shipping_method_summary": "Enter a different delivery address to view the available shipping methods",
         "invalid_shipping_method_summary": "Enter a valid delivery address to see the available shipping methods",
         "default_description": "Shipping within 1 working day",
-        "invalid_shipping_method_summary_selected": "Select a different delivery address to view the available shipping methods"
+        "invalid_shipping_method_summary_selected": "Select a different delivery address to view the available shipping methods",
+        "no_pickup_location_notice": "At least one of your products is not available for pickup",
+        "no_rates_for_country_notice": "No shipping costs found for this address.",
+        "shipping_line_phone": "Your courier can use this number to contact you.",
+        "other_method": {
+          "other": "%{count} other methods available from"
+        },
+        "shipping_line_delivery_phone": "You may be contacted with updates about your delivery.",
+        "shipping_line_delivery_instructions": "Enter the required information, such as door codes or delivery instructions.",
+        "one_time_purchase_shipping": "One-time shipment",
+        "shipping_information_redirect_link": "Enter your details here",
+        "loading_progressive_rates": "Search more rates…",
+        "shipping_method_combinations": {
+          "combination": "%{rest} in %{current}"
+        },
+        "shipping_used_as_billing_notice": "This is also used as your billing address for this order.",
+        "shipping_address_title": "Shipping to",
+        "method_summary": {
+          "incomplete_address_entered": "Enter a complete shipping address to view the available shipping methods",
+          "incomplete_address_selected": "Select a complete shipping address to view the available shipping methods"
+        },
+        "local_pickup": {
+          "rollup_accessibility_label": "Pickup options location"
+        },
+        "missing_shipping_address": "Shipping address missing",
+        "shipping_method_recurring_shipments_group_title": {
+          "other": "Recurring deliveries"
+        },
+        "pre_order_ships_later": "Shipping later",
+        "pre_order_ships_date": "Shipping on %{date}",
+        "split_shipping_multiple_shipment_notice": "Your order will be delivered in multiple shipments",
+        "prime_not_available": {
+          "default": "Prime delivery is not available for your order. Your shipping options have been updated."
+        }
       },
       "payment": {
         "paypal_modal": {
