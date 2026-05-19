@@ -2156,7 +2156,63 @@
         "invalid_shipping_method_summary": "Saisissez une adresse de livraison valide pour voir les méthodes d'expédition disponibles",
         "default_description": "Expédition sous 1 jour ouvrable",
         "invalid_shipping_method_summary_selected": "Sélectionnez une autre adresse de livraison pour voir les méthodes d'expédition disponibles",
-        "choose_new_address": "Choisissez une nouvelle adresse"
+        "choose_new_address": "Choisissez une nouvelle adresse",
+        "shipping_method_title": "Méthode d’expédition",
+        "no_rates_for_cart_or_destination_notice": "Aucune méthode d'expédition n'est disponible pour votre panier ou votre adresse",
+        "no_pickup_location_notice": "Au moins un de vos produits n'est pas disponible pour le retrait",
+        "no_rates_for_country_notice": "Aucun frais de livraison trouvé pour cette adresse.",
+        "no_rates_contact_notice": "Contactez-nous pour plus d'informations",
+        "shipping_line_phone_label": "Numéro de téléphone portable (obligatoire)",
+        "shipping_line_phone": "Votre coursier peut utiliser ce numéro pour vous contacter.",
+        "other_method": {
+          "zero": "Aucune autre méthode disponible",
+          "one": "%{count} autre méthode disponible chez"
+        },
+        "shipping_rate_discounted_amount": "Ancien prix : %{original_amount}. Nouveau prix : %{amount}",
+        "shipping_line_delivery_phone": "Vous pouvez être contacté avec des mises à jour concernant votre livraison.",
+        "optional_shipping_line_delivery_instructions_label": "Instructions de livraison (optionnel)",
+        "shipping_line_delivery_phone_label": "Numéro de téléphone mobile",
+        "shipping_line_delivery_instructions": "Saisissez les informations nécessaires, telles que les codes de porte ou les instructions de livraison.",
+        "one_time_purchase_shipping": "Envoi unique",
+        "shipping_information_required_notice": "Les informations d'expédition sont obligatoires. {{link}}.",
+        "loading_progressive_rates": "Rechercher plus de tarifs…",
+        "no_other_methods_available": "Aucune autre méthode disponible",
+        "shipping_method_combinations": {
+          "combination": "%{rest} en %{current}"
+        },
+        "shipping_used_as_billing_notice": "Cela sera également utilisé comme votre adresse de facturation pour cette commande.",
+        "shipping_address_title": "Envoyer à",
+        "method_summary": {
+          "incomplete_address_entered": "Saisissez une adresse de livraison complète pour voir les méthodes d'expédition disponibles",
+          "incomplete_address_selected": "Sélectionnez une adresse de livraison complète pour voir les méthodes d'expédition disponibles"
+        },
+        "local_pickup": {
+          "search_address": "Rechercher une adresse",
+          "rollup_title": "Lieu de retrait",
+          "rollup_accessibility_label": "Options de retrait lieu"
+        },
+        "missing_shipping_address": "Adresse de livraison manquante",
+        "shipping_method_first_shipment_group_title": {
+          "one": "Première expédition",
+          "other": "Premières livraisons"
+        },
+        "shipping_method_recurring_shipments_group_title": {
+          "other": "Livraisons récurrentes"
+        },
+        "split_shipping_merchandise_quantity_label_standard": "%{quantity} articles",
+        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} de plus",
+        "split_shipping_merchandise_shipment_number": "Envoi %{number} sur %{total}",
+        "pre_order_ships_now": "Expédié maintenant",
+        "pre_order_ships_later": "Expédition ultérieure",
+        "split_shipping_multiple_shipment_notice": "Votre commande sera livrée en plusieurs envois",
+        "split_shipping_more_shipping_options": "Plus d'options d'expédition",
+        "split_shipping_merchandise_quantity_label_inline_primary": "Quantité : %{quantity}",
+        "prime_not_available": {
+          "default": "La livraison Prime n'est pas disponible pour votre commande. Vos options de livraison ont été mises à jour."
+        },
+        "split_shipping_first_shipment_notice": "Votre première commande arrive en %{quantity_shipments}",
+        "shipping_method_rollup_accessibility_label": "Options de méthode d'expédition",
+        "shipping_address_rollup_accessibility_label": "Options d'expédition vers l'adresse"
       },
       "session_errors": {
         "session_already_finished": "Cette commande a déjà été soumise. Vous pouvez retourner au magasin pour commencer une nouvelle commande."
