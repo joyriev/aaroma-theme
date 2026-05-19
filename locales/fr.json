@@ -575,7 +575,40 @@
             "sandbox_error": "Quelque chose n'a pas fonctionné",
             "web_component_error": "Il y a eu un problème de chargement de cette page"
           }
-        }
+        },
+        "amazon_payments_label": "Paiement Amazon",
+        "amazon_payments_login_hint": "Vous êtes invité à vous connecter avec Amazon.",
+        "amazon_payments_logout": "Se déconnecter d'Amazon Pay",
+        "amazon_payments_failed_mfa_challenge": "La méthode de paiement choisie n'a pas pu être utilisée. Veuillez choisir une autre méthode ou contacter votre banque ou l'émetteur de votre carte.",
+        "amazon_payments_abandoned_mfa_challenge": "Votre paiement n'a pas pu être effectué. Veuillez essayer un autre mode de paiement ou contacter votre banque ou l'émetteur de votre carte.",
+        "amazon_payments_could_not_enqueue_authorize": "Un problème est survenu lors du traitement de votre paiement. Veuillez réessayer ou utiliser un autre mode de paiement.",
+        "amount_left_to_pay_label": "Paiement dû :",
+        "billing_address_description": "Sélectionnez l'adresse correspondant à votre carte ou mode de paiement.",
+        "billing_address_description_no_shipping_address": "Saisissez l'adresse correspondant à votre carte ou mode de paiement.",
+        "billing_address_not_supported_for_payment_method_error": "Cette méthode de paiement n'est pas disponible pour votre adresse de facturation et votre devise. Veuillez essayer une autre méthode de paiement.",
+        "apple_pay_payment_error": "Votre paiement n'a pas pu être effectué. Veuillez réessayer ou utiliser un autre mode de paiement.",
+        "apple": {
+          "not_available": "Apple Pay n'est pas disponible dans ce navigateur. Pour lier votre compte Apple Pay, vous devez utiliser Safari sur un appareil Apple."
+        },
+        "billing_address_associated_with_mandate": "Utilisez l'adresse associée au mode de paiement",
+        "billing_address_associated_with_mandate_info": "Si vous souhaitez modifier votre adresse de facturation, supprimez vos informations de carte de crédit et saisissez-les à nouveau",
+        "billing_address_invalid_phone": "Complétez le numéro de téléphone dans votre adresse de facturation pour {{label}} {{last_digits}} afin de continuer.",
+        "alternative_payment_currency_total_notice": "Remarque : un montant de %{amount_due} sera facturé.",
+        "add_credit_card_modal": {
+          "title": "Ajouter une carte"
+        },
+        "afterpay_label": "Payer plus tard",
+        "alternative_payment_currency_total_manual_payment_notice": "Remarque : le montant total converti est de %{amount_due}.",
+        "bank_account_type": {
+          "checking": "Vérifier"
+        },
+        "bank_account_connect": "Lier un compte bancaire",
+        "bank_account_missing": "Le compte bancaire doit être lié",
+        "bank_account_disclaimer": "Les paiements ACH peuvent prendre jusqu'à 4 jours ouvrables pour être traités.",
+        "bank_account_vaulted_company_location": "Compte bancaire enregistré pour ce lieu",
+        "bank_account_generic_error": "Impossible d'ajouter le compte bancaire. Veuillez réessayer plus tard.",
+        "add_payment_method": "Ajouter un mode de paiement",
+        "add_new_payment_method": "Ajoutez un nouveau mode de paiement"
       },
       "thank_you": {
         "thank_you_item_label": {
@@ -1498,7 +1531,62 @@
           "other": "Aucun magasin disponible avec vos articles"
         },
         "order_discounts_apply_to_local_shop": "Les réductions sur les commandes s'appliquent uniquement aux articles de %{shop_name}",
-        "gift_cards_apply_to_local_shop": "Les bons cadeaux sont valables uniquement pour les articles de %{shop_name}"
+        "gift_cards_apply_to_local_shop": "Les bons cadeaux sont valables uniquement pour les articles de %{shop_name}",
+        "title": "Récapitulatif de la commande",
+        "remove_gift_card_label": "Bon cadeau clair",
+        "remove_discount_label": "Supprimer le montant de la remise",
+        "shipping_information_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> code de réduction n'est pas disponible pour votre adresse de livraison",
+        "subtotal_label": "Total intermédiaire",
+        "tip_label": "Astuce",
+        "shipping_default_value": "Calculé à l'étape suivante",
+        "shipping_policy_link": "Frais de livraison",
+        "taxes_label": "Impôts",
+        "quantity_label": "Nombre",
+        "scroll_order_summary": "Faites défiler pour voir plus d'articles",
+        "recurring_total_tooltip": "Inclus sans frais de port, taxes, droits d'importation ou éventuelles remises.",
+        "recurring_total_multiple_label": "Cette commande contient des frais récurrents pour plusieurs articles.",
+        "price_per_item": {
+          "accessibility_label": "%{price} par pièce"
+        },
+        "return_restocking_fee_label": "Indemnité complémentaire",
+        "return_shipping_fee_label": "Retour de marchandise",
+        "shipping_discount_title": "Réduction sur l'envoi",
+        "subtotal_label_with_quantity": {
+          "one": "Sous-total · %{count} article",
+          "other": "Sous-total · %{count} articles"
+        },
+        "product_image_quantity_label": "Nombre",
+        "price_before_discount_aria_text": "Prix d'origine",
+        "total_due_today_label": "Total à payer aujourd'hui",
+        "total_due_later_label": "Total à payer plus tard",
+        "total_due_label": "Montant total à payer",
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Aucun magasin disponible en %{country} avec votre article",
+          "other": "Aucun magasin disponible en %{country} avec vos articles"
+        },
+        "tax_line": {
+          "hst": "HST",
+          "gst": "TVA",
+          "pst": "HNP",
+          "rst": "RST",
+          "qst": "QST",
+          "vpt": "VPT"
+        },
+        "vat_label_html": "Inclus %{amount} TVA",
+        "total_updated_label": "Prix total mis à jour :",
+        "unit_price": {
+          "per_item": {
+            "single": "%{price} par pièce",
+            "one": "%{price} par %{count} pièce",
+            "other": "%{price} pour %{count} articles"
+          }
+        },
+        "total_updated_label_with_price": "Prix total mis à jour : %{totalPrice}",
+        "updated_shipping_method": "Méthode d'expédition mise à jour : %{shipping_method}",
+        "view_all_items": {
+          "one": "Voir %{count} article",
+          "other": "Voir tous les %{count} articles"
+        }
       },
       "order_payment_collection": {
         "changes_summary": {
