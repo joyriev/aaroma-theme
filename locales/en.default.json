@@ -960,7 +960,25 @@
         "split_shipping_shipped_by_shop": "Sent by %{shop_name}",
         "split_shipping_multiple_shipment_notice_one_time_purchase": "Your order will be delivered in %{quantity} shipments",
         "split_shipping_option_free": "Free delivery",
-        "split_shipping_option_custom": "Adjusted"
+        "split_shipping_option_custom": "Adjusted",
+        "waiting_on_rate_notice": "Retrieving available shipping rates…",
+        "waiting_on_pickup_location_notice": "Retrieving available pickup locations…",
+        "subscription_shipping": "Subscription shipment",
+        "subscription_local_delivery": "Subscription delivery local",
+        "unbranded_default_description": "Ready for dispatch",
+        "third_party_address_timeout": "Cannot load the address. Please try again or use a different address.",
+        "third_party_address_error": "An error occurred while loading the address selection. Please enter your address manually below.",
+        "third_party_payment_timeout": "Cannot load payment methods. Please try again or use a different payment method.",
+        "third_party_payment_error": "An error occurred while loading the payment option. Please use a different payment method.",
+        "unbranded_description_same_day": "Shipped the same working day",
+        "unbranded_description_with_fulfillment_days": {
+          "one": "Shipping on the next working day",
+          "other": "Will be shipped within %{count} working days"
+        },
+        "unbranded_description_with_fulfillment_weeks": {
+          "one": "Will be shipped in %{count} week",
+          "other": "Shipping within %{count} weeks"
+        }
       },
       "payment": {
         "paypal_modal": {
@@ -1878,6 +1896,37 @@
         "errors": {
           "interaction_required": "An extension interaction is required to complete the handling."
         }
+      },
+      "shipping_errors": {
+        "shipping_method": "The shipping options for your order have been changed. Please check your selection.",
+        "shipping_method_not_available": "Your shopping cart has been updated, and the items you added cannot be shipped to your address. Remove the items to complete your order.",
+        "shipping_method_not_available_generic": {
+          "one": "Your order cannot be shipped to the specified address. Please check your address to make sure it is correct and try again, or choose a different address.",
+          "other": "Some items in your shopping cart cannot be shipped to the address you provided. Please check your address to make sure it is correct and try again, or choose a different address."
+        },
+        "shipping_method_not_available_updated": {
+          "one": "The item you added is not shipped to your location. Remove it to check out, or contact the store.",
+          "other": "One or more items you added are not shipped to your location. Remove them to check out, or contact the store."
+        },
+        "payment_method_not_supported": "You cannot use this payment method for %{country}. Use a different payment method to ship to this country.",
+        "empty_state": "Enter your shipping address to view the available shipping methods.",
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "The items in the shopping cart do not meet the price or weight requirements to qualify for shipping. Please update your shopping cart and try again.",
+        "invalid_selected_address_with_update_link": "The selected shipping address is not valid. %{update_address_link} or choose a different address",
+        "unavailable_selected_address": "Shipping not available for the selected address",
+        "unavailable_selected_address_for_region": "Shipping is not available for {{region}}. Please choose a different address to continue",
+        "unavailable_address_country": "Shipping is not possible to the country you selected. Use a different address to continue"
+      },
+      "shop_policies": {
+        "contact_information": "Get in touch"
+      },
+      "shop_pay_external": {
+        "errors": {
+          "problem_loading": "There is a problem loading Shop Pay",
+          "checkout_has_expired": "Your checkout process has expired. Close this window and try checking out again at {{shopName}}."
+        },
+        "return_to_store": "Back to {{shopName}}",
+        "return_to_store_simple": "Back to shop",
+        "title": "Checkout with Shop Pay"
       }
     },
     "addresses": {
