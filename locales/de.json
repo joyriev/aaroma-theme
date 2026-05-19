@@ -1935,27 +1935,31 @@
       "localized_fields": {
         "additional_information": {
           "shipping_credential_kr": "Persönlicher Zollcode",
-          "shipping_credential_cn": "Ausweisnummer",
-          "tax_credential_it": "Steueridentifikationsnummer (optional)",
-          "tax_credential_co": "Ausweis/Mehrwertsteuer",
+          "shipping_credential_cn": "Einwohneridentifikationsnummer",
+          "tax_credential_it": "Steuernummer (optional)",
+          "tax_credential_co": "Personalausweis/Umsatzsteuer-Identifikationsnummer",
           "tax_credential_type_co": "Typ Ausweis",
-          "shipping_credential_co": "Ausweis/Mehrwertsteuer",
-          "shipping_credential_type_co": "Typ Ausweis",
-          "tax_credential_ec": "USt-IdNr./RUC/USt-IdNr.",
-          "shipping_credential_ec": "USt-IdNr./RUC/USt-IdNr.",
-          "tax_credential_gt": "NIT/UST",
-          "shipping_credential_gt": "NIT/UST",
-          "tax_credential_id": "Steueridentifikationsnummer",
-          "shipping_credential_id": "Steueridentifikationsnummer",
+          "shipping_credential_co": "Personalausweis/Umsatzsteuer-Identifikationsnummer",
+          "shipping_credential_type_co": "Typ Personalausweis",
+          "tax_credential_ec": "USt-IdNr./Steuernummer/Mehrwertsteuer",
+          "shipping_credential_ec": "USt-IdNr./Steuernummer/Mehrwertsteuer",
+          "tax_credential_gt": "USt/Mehrwertsteuer",
+          "shipping_credential_gt": "USt/Mehrwertsteuer",
+          "tax_credential_id": "NPWP",
+          "shipping_credential_id": "NPWP",
           "tax_credential_type_mx": "Steuersystem",
           "tax_credential_use_mx": "Verwendung von CFDI",
           "tax_credential_py": "USt-IdNr./RUC/USt-IdNr.",
-          "shipping_credential_py": "USt-IdNr./RUC/USt-IdNr.",
+          "shipping_credential_py": "USt-IdNr./Steuernummer/Mehrwertsteuer",
           "tax_credential_pt": "NIF/UST-ID",
-          "shipping_credential_pt": "NIF/UST-ID",
-          "shipping_credential_tw": "Nationale Identifikationsnummer/USt-IdNr.",
+          "shipping_credential_pt": "USt-IdNr./MwSt",
+          "shipping_credential_tw": "Nationale Identitätsnummer/Umsatzsteuer-Identifikationsnummer",
           "tax_credential_tr": "Türkische Republik Identifikationsnummer/USt-IdNr.",
-          "shipping_credential_tr": "Türkische Republik Identifikationsnummer/USt-IdNr."
+          "shipping_credential_tr": "Republik Türkei Identifikationsnummer/Mehrwertsteuer",
+          "tax_credential_br": "BSN/KVK",
+          "shipping_credential_br": "BSN/KVK",
+          "tax_credential_my": "TIN/Registrationsnummer",
+          "shipping_credential_my": "TIN/Registrationsnummer"
         }
       },
       "field_errors": {
@@ -2453,7 +2457,7 @@
         },
         "toggle_location": "Standort ändern",
         "cancel": "Abbrechen",
-        "your_location": "Ihr Standort",
+        "your_location": "je Standort",
         "search_button": "Geschäfte finden",
         "no_stores_found": "Keine Geschäfte gefunden",
         "all_stores_far_away": {
@@ -2467,8 +2471,8 @@
           }
         },
         "selected_pickup_option_no_longer_available": {
-          "title": "Ihr zuvor ausgewählter Standort ist nicht mehr verfügbar",
-          "description": "Wählen Sie einen neuen Ort oder %{ship_to_address_link}",
+          "title": "Ihr zuvor gewählter Standort ist nicht mehr verfügbar",
+          "description": "Wählen Sie einen neuen Standort oder %{ship_to_address_link}",
           "ship_to_address_link": "Lieferadresse"
         },
         "could_not_resolve_address": "Ihre Adresse konnte nicht gefunden werden. Bitte versuchen Sie es erneut oder verwenden Sie eine andere Adresse",
@@ -2502,7 +2506,24 @@
           "other": "%{count} Standorte mit Ihrem Artikel"
         },
         "location_closest_one_item": "Nächstgelegener Ort mit deinem Artikel",
-        "location_closest_other_items": "Nächster Standort mit deinen Artikeln"
+        "location_closest_other_items": "Nächster Standort mit deinen Artikeln",
+        "pickup_unavailable_banner_body": {
+          "ship_items": "Versenden Sie Ihre Artikel",
+          "search_elsewhere": "anderswo suchen",
+          "ship_items_or_search_elsewhere": "%{ship_items} von %{search_elsewhere}"
+        },
+        "toggle_multiple_locations": "%{count}+ weitere Standorte",
+        "toggle_more_locations": {
+          "one": "%{count} weitere Standort(e)"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Keine Standorte mit Ihrem Artikel",
+          "other": "Keine Standorte mit Ihren Artikeln"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Keine Standorte in %{country} mit Ihrem Artikel",
+          "other": "Keine Standorte in %{country} mit Ihren Artikeln"
+        }
       },
       "captcha": {
         "title": "Vervollständigen Sie das CAPTCHA, um fortzufahren",

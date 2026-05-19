@@ -1133,7 +1133,10 @@
         "privacy_policy": "Privacy policy of the Trade Register holder"
       },
       "no_address_location": {
-        "alt_header": "Missing delivery address"
+        "alt_header": "Missing delivery address",
+        "title": "Location without address",
+        "header": "You do not have a shipping address for this location",
+        "message": "Contact us to add an address for this location to complete the purchase."
       },
       "marketplaces": {
         "legal_notice": {
@@ -1164,6 +1167,46 @@
       },
       "memberships": {
         "items_split_across_locations_unsupported": "Prime delivery is not available for your order. Your shipping options have been updated."
+      },
+      "notice_banner": {
+        "return_to_cart_link_text": "Back to shopping cart",
+        "subscription_changed": "One of your subscriptions has been changed.",
+        "company_location_changed": "Your shopping cart has been updated. Check your order before submitting it.",
+        "individual_violations_title": {
+          "PaymentViolations": "Invoice address",
+          "OtherViolations": "Order information",
+          "UnhandledViolations": "Order information"
+        },
+        "all_violations_content": "Call us or {{emailLink}} to update this information and complete your order:",
+        "editable_shipping_address_violations_email_link": "get in touch with us",
+        "company_location_changed_product_removed": "Your shopping cart has been updated because some products are not available at this location. Please check your order before submitting it.",
+        "calculating_shipping": "The shipping costs are still being calculated. Please try again in a few seconds. Nothing has been charged yet.",
+        "calculating_taxes": "Taxes are still being calculated. Please try again in a few seconds. Nothing has been charged yet.",
+        "generic_processing_error": {
+          "body": "You are not charged. Please try again or use a different payment method."
+        },
+        "contact_information": {
+          "title": "Contact details are invalid",
+          "email_link": "get in touch with us"
+        },
+        "payment_method_not_available_with_payment_terms": "The payment method you selected is no longer available because the payment for this order is now being made on {{paymentTerms}} terms.",
+        "payment_method_not_available_with_fulfillment_terms": "The payment method you selected is no longer available because payment for this order is now due upon delivery",
+        "payment_method_not_available_with_fixed_terms": "The payment method you selected is no longer available because the payment for this order is due later.",
+        "payment_method_not_available_with_review_requirement": "The payment method you selected is no longer available because payment is due once your order is confirmed."
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "The value of the gift card must be greater than 0.",
+            "subtotal_limit_reached": "The maximum value of the ordered items has been reached.",
+            "gift_card_price_must_not_exceed_limit": "The price of the gift card must not exceed %{gift_card_limit}.",
+            "signature_mismatch": "Signature of merchandise does not match for line %{stable_id}."
+          }
+        }
+      },
+      "offsite_payment_failed": {
+        "payment_not_processed_text": "Try scanning the QR code again. If it still doesn't work, please inform our staff and try a different payment method.",
+        "title": "Payment outside the site failed"
       }
     },
     "addresses": {
