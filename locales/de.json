@@ -10,20 +10,20 @@
 {
   "general": {
     "password_page": {
-      "login_form_heading": "Geschäft mit Passwort betreten:",
-      "login_password_button": "Mit Passwort eingeben",
+      "login_form_heading": "Winkel mit Passwort betreten:",
+      "login_password_button": "Mit Passwort anmelden",
       "login_form_password_label": "Passwort",
       "login_form_password_placeholder": "Ihr Passwort",
       "login_form_error": "Falsches Passwort!",
       "login_form_submit": "Eingeben",
-      "admin_link_html": "Sind Sie der Ladenbesitzer? <a href=\"/admin\" class=\"link underlined-link\">Hier einloggen</a>",
-      "powered_by_shopify_html": "Dieser Laden wird betrieben von {{ shopify }}"
+      "admin_link_html": "Sind Sie der Händler? <a href=\"/admin\" class=\"link underlined-link\">Hier einloggen</a>",
+      "powered_by_shopify_html": "Dieser Shop wird betrieben von {{ shopify }}"
     },
     "social": {
       "alt_text": {
         "share_on_facebook": "Auf Facebook teilen",
-        "share_on_twitter": "Auf X teilen",
-        "share_on_pinterest": "An Pinterest anheften"
+        "share_on_twitter": "Teilen auf X",
+        "share_on_pinterest": "Anheften auf Pinterest"
       },
       "links": {
         "twitter": "X (Twitter)",
@@ -37,32 +37,32 @@
         "tiktok": "TikTok"
       }
     },
-    "continue_shopping": "Einkauf fortsetzen",
+    "continue_shopping": "Mit dem Einkaufen fortfahren",
     "pagination": {
-      "label": "Seitennummerierung",
+      "label": "Seitenzahlen",
       "page": "Seite {{ number }}",
       "next": "Nächste Seite",
       "previous": "Vorherige Seite"
     },
     "search": {
-      "search": "Suche",
+      "search": "Suchen",
       "reset": "Suchbegriff löschen"
     },
     "cart": {
       "view": "Warenkorb ansehen ({{ count }})",
-      "item_added": "Artikel zu Ihrem Warenkorb hinzugefügt",
+      "item_added": "Artikel zum Warenkorb hinzugefügt",
       "view_empty_cart": "Warenkorb ansehen"
     },
     "share": {
       "copy_to_clipboard": "Link kopieren",
-      "share_url": "Verbindung",
+      "share_url": "Link",
       "success_message": "Link in die Zwischenablage kopiert",
-      "close": "Teilen schließen"
+      "close": "Teile schließen"
     },
     "slider": {
-      "of": "von",
-      "next_slide": "Nach rechts wischen",
-      "previous_slide": "Nach links wischen",
+      "of": "Lieferwagen",
+      "next_slide": "Wische nach rechts",
+      "previous_slide": "Wische nach links",
       "name": "Schieberegler"
     }
   },
@@ -442,13 +442,13 @@
       "date": "Datum",
       "payment_status": "Zahlungsstatus",
       "fulfillment_status": "Bestellstatus",
-      "total": "Gesamt",
+      "total": "Insgesamt",
       "none": "Du hast noch keine Bestellungen aufgegeben."
     },
     "recover_password": {
       "title": "Setzen Sie Ihr Passwort zurück",
-      "subtext": "Wir senden Ihnen eine E-Mail, um Ihr Passwort zurückzusetzen",
-      "success": "Wir haben Ihnen eine E-Mail mit einem Link zum Aktualisieren Ihres Passworts gesendet."
+      "subtext": "Wir senden dir eine E-Mail, um dein Passwort zurückzusetzen",
+      "success": "Wir haben dir eine E-Mail mit einem Link zum Aktualisieren deines Passworts geschickt."
     },
     "register": {
       "title": "Konto erstellen",
@@ -459,7 +459,7 @@
       "submit": "Erstellen"
     },
     "reset_password": {
-      "title": "Passwort für das Konto zurücksetzen",
+      "title": "Konto-Passwort zurücksetzen",
       "subtext": "Geben Sie ein neues Passwort ein",
       "password": "Passwort",
       "password_confirm": "Passwort bestätigen",

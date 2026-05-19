@@ -10,20 +10,20 @@
 {
   "general": {
     "password_page": {
-      "login_form_heading": "Enter store using password:",
-      "login_password_button": "Enter using password",
+      "login_form_heading": "Enter shop with password:",
+      "login_password_button": "Log in with password",
       "login_form_password_label": "Password",
       "login_form_password_placeholder": "Your password",
       "login_form_error": "Wrong password!",
       "login_form_submit": "Enter",
-      "admin_link_html": "Are you the store owner? <a href=\"/admin\" class=\"link underlined-link\">Log in here</a>",
-      "powered_by_shopify_html": "This shop will be powered by {{ shopify }}"
+      "admin_link_html": "Are you the retailer? <a href=\"/admin\" class=\"link underlined-link\">Log in here</a>",
+      "powered_by_shopify_html": "This store is powered by {{ shopify }}"
     },
     "social": {
       "alt_text": {
         "share_on_facebook": "Share on Facebook",
         "share_on_twitter": "Share on X",
-        "share_on_pinterest": "Pin on Pinterest"
+        "share_on_pinterest": "Pin to Pinterest"
       },
       "links": {
         "twitter": "X (Twitter)",
@@ -50,19 +50,19 @@
     },
     "cart": {
       "view": "View cart ({{ count }})",
-      "view_empty_cart": "View cart",
-      "item_added": "Item added to your cart"
+      "view_empty_cart": "View shopping cart",
+      "item_added": "Item added to your shopping cart"
     },
     "share": {
-      "close": "Close share",
+      "close": "Close parts",
       "copy_to_clipboard": "Copy link",
       "share_url": "Link",
       "success_message": "Link copied to clipboard"
     },
     "slider": {
-      "of": "of",
-      "next_slide": "Slide right",
-      "previous_slide": "Slide left",
+      "of": "from",
+      "next_slide": "Swipe right",
+      "previous_slide": "Swipe left",
       "name": "Slider"
     }
   },
@@ -420,8 +420,8 @@
       "city": "City",
       "country": "Country/region",
       "province": "Province",
-      "zip": "Postal/ZIP code",
-      "phone": "Phone",
+      "zip": "Postal code",
+      "phone": "Telephone",
       "set_default": "Set as default address",
       "add": "Add address",
       "update": "Update address",
@@ -436,40 +436,40 @@
       "cancel": "Cancel",
       "create_account": "Create account",
       "email": "Email",
-      "forgot_password": "Forgot your password?",
+      "forgot_password": "Forgot password?",
       "guest_continue": "Continue",
-      "guest_title": "Continue as a guest",
+      "guest_title": "Continue as guest",
       "password": "Password",
-      "title": "Login",
-      "sign_in": "Sign in",
-      "submit": "Submit",
+      "title": "Log in",
+      "sign_in": "Log in",
+      "submit": "Shipping",
       "alternate_provider_separator": "or"
     },
     "order": {
       "title": "Order {{ name }}",
-      "date_html": "Placed on {{ date }}",
-      "cancelled_html": "Order Cancelled on {{ date }}",
+      "date_html": "Posted on {{ date }}",
+      "cancelled_html": "Order canceled on {{ date }}",
       "cancelled_reason": "Reason: {{ reason }}",
-      "billing_address": "Billing Address",
-      "payment_status": "Payment Status",
-      "shipping_address": "Shipping Address",
-      "fulfillment_status": "Fulfillment Status",
+      "billing_address": "Invoice address",
+      "payment_status": "Payment status",
+      "shipping_address": "Shipping address",
+      "fulfillment_status": "Order status",
       "discount": "Discount",
       "shipping": "Shipping",
       "tax": "Tax",
       "product": "Product",
-      "sku": "SKU",
+      "sku": "Item number",
       "price": "Price",
-      "quantity": "Quantity",
+      "quantity": "Number",
       "total": "Total",
-      "total_refunded": "Refunded",
-      "fulfilled_at_html": "Fulfilled {{ date }}",
+      "total_refunded": "Reimbursed",
+      "fulfilled_at_html": "Sent {{ date }}",
       "track_shipment": "Track shipment",
-      "tracking_url": "Tracking link",
-      "tracking_company": "Carrier",
-      "tracking_number": "Tracking number",
+      "tracking_url": "Follow link",
+      "tracking_company": "Dräger",
+      "tracking_number": "Serial number",
       "subtotal": "Subtotal",
-      "total_duties": "Duties"
+      "total_duties": "Taxes"
     },
     "orders": {
       "title": "Order history",
@@ -477,14 +477,14 @@
       "order_number_link": "Order number {{ number }}",
       "date": "Date",
       "payment_status": "Payment status",
-      "fulfillment_status": "Fulfillment status",
+      "fulfillment_status": "Order status",
       "total": "Total",
-      "none": "You haven't placed any orders yet."
+      "none": "You have not placed any orders yet."
     },
     "recover_password": {
       "title": "Reset your password",
       "subtext": "We will send you an email to reset your password",
-      "success": "We've sent you an email with a link to update your password."
+      "success": "We have sent you an email with a link to update your password."
     },
     "register": {
       "title": "Create account",
