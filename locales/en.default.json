@@ -1945,7 +1945,35 @@
         },
         "price_and_quantity_update": {
           "description": "The prices and available quantities of these items have been changed and updated in your shopping cart."
-        }
+        },
+        "quantity_column_header": "Number",
+        "status_column_header": "Condition",
+        "removed_from_cart_notice": "Removed from shopping cart",
+        "reduced_with_quantity_label": "Only %{quantity_available} left available",
+        "quantity_update": {
+          "page_title": "Update quantity",
+          "title": "Update quantity",
+          "description": "The available quantities for these items have changed and have been updated in your shopping cart."
+        },
+        "unpurchasable_product": {
+          "title": "Product not for sale",
+          "header": "Some items have been removed from your shopping cart",
+          "message": "These items are not available for business orders."
+        },
+        "unpurchasable_product_generic": {
+          "title": "Product not for sale",
+          "header": "Some items have been removed from your shopping cart"
+        },
+        "unshippable_product": {
+          "message": {
+            "one": "This item will be removed from your shopping cart because there are no delivery methods available for your address.",
+            "other": "These items will be removed from your shopping cart because there are no delivery methods available for your address."
+          }
+        },
+        "price_update": {
+          "description": "The prices of these items have changed and have been updated in your shopping cart."
+        },
+        "return_to_store_label": "Back to shop"
       },
       "split_delivery": {
         "pickup_all_items": "Pack all items",
@@ -1982,6 +2010,17 @@
           },
           "banner": "Your delivery method has been updated"
         }
+      },
+      "subscriptions": {
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", and %{count} payment of %{total_price}",
+            "other": ", and %{count} payments of each %{total_price}"
+          }
+        }
+      },
+      "store_credit_errors": {
+        "generic_error": "There was a problem with your store credit. Please try again or reload the page."
       }
     },
     "addresses": {
