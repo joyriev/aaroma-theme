@@ -3013,7 +3013,63 @@
           "visibility": "Nous ne verrons si vous avez ouvert l'e-mail que dans le cadre du pourcentage total d'e-mails ouverts."
         },
         "updated_policy": {
-          "opt_out_html": "Si vous ne souhaitez pas partager ces informations, vous pouvez vous <a style='text-decoration:underline;' href='%{link}'>désinscrire.</a>"
+          "opt_out_html": "Si vous ne souhaitez pas partager ces informations, vous pouvez vous <a style='text-decoration:underline;' href='%{link}'>désinscrire.</a>",
+          "status_html": "<b>L'ouverture de l'e-mail est suivie.</b>",
+          "visibility": "Nous avons mis à jour notre politique et suivons désormais l'ouverture des e-mails. L'ouverture des e-mails est rapportée de manière anonyme. Nous voyons uniquement si vous avez ouvert un e-mail dans le cadre du pourcentage total d'e-mails ouverts."
+        }
+      },
+      "subscribed": {
+        "confirmation": "Merci pour votre inscription à notre liste de diffusion.",
+        "disclaimer": "Vous pouvez vous désinscrire à tout moment.",
+        "unsubscribe": "Se désinscrire"
+      },
+      "unsubscribed": {
+        "confirmation": "Vous vous êtes désinscrit de notre liste de diffusion.",
+        "disclaimer": "Vous ne recevrez plus de mises à jour marketing de notre part. Vous pouvez vous réabonner à tout moment.",
+        "preview": "Vous regardez un aperçu de ce que les clients verront lorsqu'ils se désabonneront."
+      },
+      "sms_unsubscribe_confirm": {
+        "message": "Êtes-vous sûr de vouloir vous désinscrire du marketing par SMS ?",
+        "button": "Se désinscrire"
+      }
+    },
+    "errors": {
+      "blank": "ne doit pas être vide",
+      "credit_card_session_expired": "L'autorisation pour la carte de crédit a expiré, veuillez saisir à nouveau vos informations de paiement. Votre carte n'a pas été débitée.",
+      "empty": "ne doit pas être vide",
+      "invalid_email": "doit être une adresse courriel valide",
+      "discount_disabled": "Cette réduction est désactivée",
+      "discount_expired": "Cette réduction n'est plus valable",
+      "discount_limit_reached": "Cette réduction a atteint sa limite d'utilisation",
+      "discount_not_found": "Impossible de trouver une remise valide correspondant au code saisi",
+      "customer_already_used_once_per_customer_discount_notice": "Cette réduction a atteint sa limite d'utilisation",
+      "gift_card_already_applied": "Le code a déjà été appliqué à votre processus de paiement",
+      "gift_card_currency_mismatch": "La carte cadeau est en %{gift_card_currency}. Contactez-nous pour la réémettre en %{checkout_currency}.",
+      "gift_card_depleted": "Il ne reste plus de crédit sur ce bon cadeau",
+      "gift_card_disabled": "Le bon cadeau est désactivé",
+      "gift_card_expired": "Le bon cadeau a expiré",
+      "bad_domain": "contient un nom de domaine invalide",
+      "contains_html_tags": "ne doit pas contenir de balises HTML",
+      "password_mismatch": "doit correspondre au mot de passe saisi",
+      "invalid_province_in_country": "n'est pas une province valide en %{country}",
+      "invalid_state_in_country": "n'est pas un état valide dans %{country}",
+      "invalid_region_in_country": "n'est pas une région valide en %{country}",
+      "full_name_required": "Entrez un prénom et un nom de famille",
+      "invalid_for_card_type": "n'est pas valide",
+      "invalid_type": "désolé, nous n'acceptons pas les cartes de ce type",
+      "invalid_format": "la disposition n'est pas valide",
+      "expired": "a expiré",
+      "invalid_start_date_or_issue_number_for_debit": "une date de début valide ou un numéro d'émission est requis",
+      "reset_password_html": "Cette adresse e-mail est déjà associée à un compte. Si ce compte vous appartient, vous pouvez <a href=\"/account/login#recover\">réinitialiser votre mot de passe</a>",
+      "blocked_address": "Cet emplacement n'est pas pris en charge",
+      "product_not_available": "le produit n'est pas publié pour ce client.",
+      "shop_404": {
+        "ctas": {
+          "editions": {
+            "header": "Voir les éditions Shopify",
+            "caption": "Avec plus de 100 améliorations de produit, vous pouvez être plus productif et créatif, et plus performant dans le commerce que vous ne l'auriez jamais imaginé.",
+            "link_text": "Découvrez les dernières nouveautés"
+          }
         }
       }
     }
