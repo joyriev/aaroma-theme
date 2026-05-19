@@ -760,7 +760,27 @@
         "vat_label_html": "Including %{amount} VAT",
         "duties_included_label": "Total is inclusive of taxes and duties. No additional costs on delivery.",
         "duties_and_taxes_label": "Customs duties and taxes",
-        "error_duties_tooltip": "This order is shipped from another country, so customs duties and taxes may be charged upon delivery."
+        "error_duties_tooltip": "This order is shipped from another country, so customs duties and taxes may be charged upon delivery.",
+        "add_discount_or_gift_card": "Add a discount code or gift voucher",
+        "applied_discount_message": "%{amount} discount on the total order value",
+        "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> discount code is not valid for the items in your shopping cart",
+        "customer_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> discount code is currently not available for you",
+        "customer_already_used_once_per_customer_discount_notice": "The discount code <strong style=\"text-transform:uppercase\">%{code}</strong> has already been used",
+        "cost_table_title": "Cost overview",
+        "deferred_payment_info": {
+          "due_on_fulfillment_title": "Payment of %{amount_due} is due upon delivery",
+          "due_on_receipt_title": "Payment of %{amount_due} is due upon receipt"
+        },
+        "amount_off_shipping": "%{amount} discount on shipping",
+        "deferred_total_due_date_label": "Total to pay {{date}}",
+        "custom_discount": "Adjusted discount",
+        "deferred_balance_info": {
+          "due_on_fulfillment_title": "Balance of {{amount_due}} is due upon delivery"
+        },
+        "cost_table_item_column_header": "Article",
+        "deposit_label": "Great Council",
+        "deferred_total_due_date_label_next": "Expiration date %{date}",
+        "automatic_discount_tooltip": "Automatically applied discounts cannot be removed"
       },
       "shipping": {
         "duties_and_taxes_title": "Customs duties and taxes"
@@ -1207,6 +1227,27 @@
       "offsite_payment_failed": {
         "payment_not_processed_text": "Try scanning the QR code again. If it still doesn't work, please inform our staff and try a different payment method.",
         "title": "Payment outside the site failed"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "Amount to be paid for order %{order_name}",
+        "changes_summary": {
+          "subtracted": "Deleted %{count}",
+          "return_line_item_removed": "%{count} removed from return"
+        },
+        "additional_payment_requested": "Payment of %{total_outstanding} is required",
+        "checkout_review_and_pay": "Your order %{order_name} has been updated. Review these changes and then pay to confirm your order.",
+        "order_review_and_pay": "Your order has been updated. Review and pay to confirm your order."
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "zero": "Buy %{product_name}",
+          "one": "Buy %{product_name} and %{count} other item",
+          "other": "Buy %{product_name} and %{count} other items"
+        }
+      },
+      "order_errors": {
+        "creation_failure": "There was a problem creating your order. Please try again, or contact us for more information.",
+        "network_failure": "Your order could not be sent due to a network error. Please check your connection and try again."
       }
     },
     "addresses": {
