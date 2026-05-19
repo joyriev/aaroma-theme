@@ -77,36 +77,36 @@
     "unit_price_separator": "pro",
     "vendor": "Verkäufer:",
     "error": "Fehler",
-    "refresh_page": "Das Auswählen einer Auswahl führt zu einer vollständigen Seitenaktualisierung.",
+    "refresh_page": "Das Treffen einer Auswahl führt zu einer vollständigen Seitenaktualisierung.",
     "link_messages": {
       "new_window": "Öffnet in einem neuen Fenster.",
-      "external": "Öffnet eine externe Website."
+      "external": "Öffnet externe Webseite."
     },
     "loading": "Wird geladen...",
-    "skip_to_product_info": "Zum Produktinformationen springen",
-    "total_reviews": "Gesamtbewertungen",
+    "skip_to_product_info": "Zur Produktinformation gehen",
+    "total_reviews": "Gesamtanzahl der Bewertungen",
     "star_reviews_info": "{{ rating_value }} von {{ rating_max }} Sternen",
-    "collapsible_content_title": "Zusammenklappbarer Inhalt",
-    "complementary_products": "Ergänzende Produkte"
+    "collapsible_content_title": "Klappbarer Inhalt",
+    "complementary_products": "Zusätzliche Produkte"
   },
   "blogs": {
     "article": {
       "blog": "Blog",
-      "read_more_title": "Weiterlesen: {{ title }}",
+      "read_more_title": "Mehr erfahren: {{ title }}",
       "comments": {
-        "one": "{{ count }} Kommentar",
+        "one": "{{ count }} Bemerkung",
         "other": "{{ count }} Kommentare"
       },
       "moderated": "Bitte beachten Sie, dass Kommentare genehmigt werden müssen, bevor sie veröffentlicht werden.",
-      "comment_form_title": "Einen Kommentar hinterlassen",
+      "comment_form_title": "Hinterlassen Sie einen Kommentar",
       "name": "Name",
       "email": "E-Mail",
-      "message": "Kommentar",
-      "post": "Kommentar posten",
+      "message": "Hinweis",
+      "post": "Reaktion abgeben",
       "back_to_blog": "Zurück zum Blog",
       "share": "Diesen Artikel teilen",
-      "success": "Ihr Kommentar wurde erfolgreich veröffentlicht! Vielen Dank!",
-      "success_moderated": "Ihr Kommentar wurde erfolgreich veröffentlicht. Wir werden ihn in Kürze veröffentlichen, da unser Blog moderiert wird."
+      "success": "Deine Antwort wurde erfolgreich veröffentlicht! Vielen Dank!",
+      "success_moderated": "Dein Kommentar wurde erfolgreich veröffentlicht. Wir werden ihn bald freischalten, da unser Blog überprüft wird."
     }
   },
   "onboarding": {
@@ -383,12 +383,12 @@
   },
   "customer": {
     "account": {
-      "title": "Konto",
-      "details": "Kontodetails",
+      "title": "Rechnung",
+      "details": "Kontoinformationen",
       "view_addresses": "Adressen anzeigen",
-      "return": "Zurück zu Kontodetails"
+      "return": "Zurück zu Kontodaten"
     },
-    "account_fallback": "Konto",
+    "account_fallback": "Rechnung",
     "activate_account": {
       "title": "Konto aktivieren",
       "subtext": "Erstellen Sie Ihr Passwort, um Ihr Konto zu aktivieren.",
@@ -400,7 +400,7 @@
     "addresses": {
       "title": "Adressen",
       "default": "Standard",
-      "add_new": "Neue Adresse hinzufügen",
+      "add_new": "Fügen Sie eine neue Adresse hinzu",
       "edit_address": "Adresse bearbeiten",
       "first_name": "Vorname",
       "last_name": "Nachname",
@@ -417,8 +417,8 @@
       "update": "Adresse aktualisieren",
       "cancel": "Abbrechen",
       "edit": "Bearbeiten",
-      "delete": "Löschen",
-      "delete_confirm": "Sind Sie sicher, dass Sie diese Adresse löschen möchten?"
+      "delete": "Entfernen",
+      "delete_confirm": "Sind Sie sicher, dass Sie diese Adresse entfernen möchten?"
     },
     "log_in": "Anmelden",
     "log_out": "Abmelden",
