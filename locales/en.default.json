@@ -2624,14 +2624,64 @@
           "customer": "Customer has changed/canceled the order",
           "staff": "Personnel error"
         },
-        "cash_on_delivery": "Cash on delivery (COD)"
+        "cash_on_delivery": "Cash on delivery (COD)",
+        "financial_status": {
+          "pending": "In progress",
+          "voided": "Cancelled",
+          "refunded": "Reimbursed"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Executed",
+          "complete": "Completed",
+          "partial": "Partly",
+          "unfulfilled": "Not fulfilled",
+          "restocked": "Back in stock"
+        },
+        "transaction_status": {
+          "pending": "In progress"
+        }
       },
       "line_item": {
         "item_status": {
           "decrement_item": "Deleted %{delta} of %{total}",
           "decrement_return_line_item": "%{delta} removed from return"
         }
+      },
+      "tags": {
+        "add_articles": "Limit search results to items also tagged with %{tag}",
+        "add_products": "Limit selection to products matching tag %{tag}",
+        "remove_articles": "Also search in articles that are not tagged with %{tag}",
+        "remove_products": "Remove label %{tag}"
       }
+    },
+    "sentence": {
+      "two_words_connector": "and",
+      "last_word_connector": ", and"
+    },
+    "page_titles": {
+      "account": "Invoice",
+      "create_account": "Create account",
+      "reset_account": "Reset account",
+      "search_results": {
+        "one": "Search result: %{count} result found for \"%{terms}\""
+      }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Usually ready within 1 hour",
+        "two_hours": "Usually ready within 2 hours",
+        "four_hours": "Usually ready within 4 hours",
+        "twenty_four_hours": "Usually ready within 24 hours",
+        "five_or_more_days": "Usually ready within 5+ days",
+        "next_day": "Ready for pickup the next day"
+      }
+    },
+    "search": {
+      "sorting": {
+        "price_ascending": "Price, from low to high",
+        "price_descending": "Price, from high to low"
+      },
+      "error": "There was a problem loading your search results. Refresh the page or try again later."
     }
   },
   "customer_accounts": {
