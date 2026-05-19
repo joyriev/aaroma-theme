@@ -3130,12 +3130,12 @@
     },
     "notices": {
       "customer": {
-        "subscribe_error": "Abonnementfehler",
-        "unsubscribe_error": "Abmeldefehler",
-        "no_account_found": "Kein Konto mit dieser E-Mail-Adresse gefunden.",
-        "invalid_credentials": "Falsche E-Mail oder falsches Passwort.",
-        "denylisted_reset_password": "Auf Ihr Konto konnte nicht zugegriffen werden, da das aktuelle Passwort nicht sicher ist. Sie erhalten eine E-Mail, um Ihr Passwort zu aktualisieren.",
-        "signup_disabled": "Die Erstellung von Kundenkonten wurde deaktiviert."
+        "subscribe_error": "Fehler bei der Anmeldung",
+        "unsubscribe_error": "Fehler beim Abmelden",
+        "no_account_found": "Es wurde kein Konto mit dieser E-Mail-Adresse gefunden.",
+        "invalid_credentials": "Falsche E-Mail-Adresse oder falsches Passwort.",
+        "denylisted_reset_password": "Ihr Konto konnte nicht geöffnet werden, da das aktuelle Passwort nicht sicher ist. Sie erhalten eine E-Mail, um Ihr Passwort zu aktualisieren.",
+        "signup_disabled": "Das Erstellen eines Kundenkontos ist deaktiviert."
       },
       "line_item": {
         "item_status": {
@@ -3143,13 +3143,14 @@
           "increment_item": "Hinzugefügt %{delta}",
           "decrement_item": "Entfernt %{delta} von %{total}",
           "decrement_fulfilled_line_item": "Zurückgegeben %{delta} von %{total}",
-          "decrement_return_line_item": "%{delta} von der Rückgabe entfernt"
+          "decrement_return_line_item": "%{delta} aus der Rücksendung entfernt"
         }
       },
       "order": {
         "financial_status": {
           "voided": "Ungültig",
-          "refunded": "Erstattet"
+          "refunded": "Erstattet",
+          "authorized": "Autorisierte"
         },
         "fulfillment_status": {
           "complete": "Abgeschlossen",
@@ -3163,45 +3164,47 @@
           "declined": "Zahlung abgelehnt",
           "fraud": "Betrügerische Bestellung",
           "customer": "Kunde hat Bestellung geändert/storniert",
-          "other": "Andere"
+          "other": "Sonstiges",
+          "staff": "Personalfehler"
         },
-        "cash_on_delivery": "Nachnahme (Barzahlung bei Lieferung)"
+        "cash_on_delivery": "Barzahlung bei Lieferung (CBA)"
       },
       "cart": {
-        "only_n_items_available": "Sie können nur %{count} %{name} zum Warenkorb hinzufügen.",
-        "too_many_items_in_cart": "Sie können nicht mehr %{name} zum Warenkorb hinzufügen.",
-        "only_one_added_to_cart": "Aufgrund der Verfügbarkeit wurde nur 1 Artikel zu Ihrem Warenkorb hinzugefügt.",
-        "only_n_added_to_cart": "Aufgrund der Verfügbarkeit wurden nur %{quantity} Artikel zu Ihrem Warenkorb hinzugefügt.",
-        "maximum_available_quantity_reached": "Die maximale Menge dieses Artikels befindet sich bereits in Ihrem Warenkorb.",
+        "only_n_items_available": "Du kannst nur %{count} %{name} zum Warenkorb hinzufügen.",
+        "too_many_items_in_cart": "Du kannst nicht mehr %{name} zum Warenkorb hinzufügen.",
+        "only_one_added_to_cart": "Es wurde nur 1 Artikel aufgrund der Verfügbarkeit zu Ihrem Warenkorb hinzugefügt.",
+        "only_n_added_to_cart": "Es wurden aufgrund der Verfügbarkeit nur %{quantity} Artikel zu Ihrem Warenkorb hinzugefügt.",
+        "maximum_available_quantity_reached": "Die maximale Menge dieses Artikels ist bereits in Ihrem Warenkorb.",
         "less_than_minimum": "Dieser Artikel hat eine Mindestmenge von %{min}.",
-        "more_than_maximum": "Dieser Artikel hat eine Höchstmenge von %{max}.",
-        "not_respect_step": "Sie können diesen Artikel nur in Schritten von %{step} hinzufügen.",
+        "more_than_maximum": "Dieser Artikel hat ein Maximum von %{max}.",
+        "not_respect_step": "Du kannst diesen Artikel nur in Schritten von %{step} hinzufügen.",
         "empty_update": "kann leeren Warenkorb nicht aktualisieren",
-        "missing_parameters": "keine gültige ID- oder Linienparameter",
-        "invalid_input": "Der Parameter %{parameter} ist ungültig.",
+        "missing_parameters": "keine gültige ID- oder Regelparameter",
+        "invalid_input": "%{parameter} Parameter ist ungültig.",
         "too_many_line_items_error": "Ihr Warenkorb darf nicht mehr als %{max} Artikel enthalten.",
-        "stock_problems_html": "Ein oder mehrere Artikel sind nicht mehr verfügbar. Wir haben einen <a href='%{link}'>aktualisierten Warenkorb</a> bereitgestellt.",
-        "items_changed": "Ein oder mehrere Elemente wurden geändert.",
-        "variant_not_found": "Variante nicht gefunden",
+        "stock_problems_html": "Ein oder mehrere Artikel sind nicht mehr verfügbar. Wir haben einen <a href='%{link}'>aktualisierten Warenkorb</a> für dich erstellt.",
+        "items_changed": "Ein oder mehrere Artikel wurden geändert.",
+        "variant_not_found": "Kann Variante nicht finden",
         "variant_requires_selling_plan": "Variante kann nur mit einem Verkaufsplan gekauft werden.",
-        "selling_plan_not_available_for_company_locations": "Für B2B-Bestellungen ist nur ein einmaliger Kauf möglich",
+        "selling_plan_not_available_for_company_locations": "Nur Einmalkauf ist für B2B-Bestellungen verfügbar",
         "digital_product_not_available_for_company_locations": "Dieser Artikel kann nicht zu einer B2B-Bestellung hinzugefügt werden",
         "buyer_cannot_purchase_for_company_locations": "Du kannst für diesen Standort nicht kaufen",
-        "selling_plan_not_applicable": "Verkaufsplan kann nicht auf Variante angewendet werden",
-        "shipping_address_invalid": "Bei der Berechnung Ihrer Versandkosten ist ein Problem aufgetreten. Fahren Sie mit dem Checkout fort, um eine Versandart auszuwählen, bevor Sie Ihre Bestellung abschließen.",
+        "selling_plan_not_applicable": "Kann Verkaufsplan nicht auf Variante anwenden",
+        "shipping_address_invalid": "Es gab ein Problem bei der Berechnung Ihrer Versandkosten. Gehen Sie zur Kasse, um eine Versandart auszuwählen, bevor Sie Ihre Bestellung abschließen.",
         "bundle_requires_components": "Das Bündelprodukt '%{name}' kann nicht zum Warenkorb hinzugefügt werden.",
         "gift_card_with_components_not_supported": "Das Bündelprodukt '%{name}' kann nicht zum Warenkorb hinzugefügt werden.",
         "gift_card_price_must_be_greater_than_zero": "Das Bündelprodukt '%{name}' kann nicht zum Warenkorb hinzugefügt werden.",
         "gift_card_recipient_validation_error": "Der angegebene Empfänger des Geschenkgutscheins ist ungültig",
-        "view_lines_limit_reached": "Zeilen müssen weniger als oder gleich %{limit} sein",
+        "view_lines_limit_reached": "Regeln müssen kleiner oder gleich %{limit} sein",
         "cart_too_large": "Der Warenkorb ist zu groß.",
         "cart_attributes_error": "Warenkorbfunktionen enthalten ungültige Daten.",
         "merchandise_line_transformers": {
-          "run_error": "Ein Fehler ist in Ihrem Warenkorb aufgetreten."
+          "run_error": "In Ihrem Warenkorb ist ein Fehler aufgetreten."
         },
-        "merchandise_not_applicable": "Artikel kann in der konfigurierten Form nicht gekauft werden.",
+        "merchandise_not_applicable": "Artikel kann nicht in der konfigurierten Form gekauft werden.",
         "all_items_in_cart": "Alle %{count} %{name} sind in deinem Warenkorb.",
-        "generic_error": "Fehler Beim Hinzufügen zum Warenkorb"
+        "generic_error": "Fehler Beim Hinzufügen zum Warenkorb",
+        "link_no_longer_exists": "Der Link existiert nicht mehr."
       },
       "storefront": {
         "invalid_password": "Passwort falsch, bitte versuchen Sie es erneut."
