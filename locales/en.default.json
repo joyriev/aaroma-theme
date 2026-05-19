@@ -900,7 +900,37 @@
         },
         "bank_account_connect": "Link bank account",
         "bank_account_missing": "Bank account must be linked",
-        "bank_account_generic_error": "Could not add bank account. Please try again later."
+        "bank_account_generic_error": "Could not add bank account. Please try again later.",
+        "card_security_notice": "All transactions are safe and encrypted.",
+        "card_verification_value_explanation": "3-digit security code usually found on the back of your card. American Express cards have a 4-digit code on the front.",
+        "billing_address_title": "Invoice address",
+        "card_fields_unavailable_html": {
+          "one": "Payments with credit card and debit card are currently not available.<br><a href=\"%{current_url}\">Refresh this page</a> or try again later.",
+          "other": "Payments with credit card and debit card are currently not available.<br><a href=\"%{current_url}\">Refresh this page</a> or try another payment method."
+        },
+        "card_expiration_month_label": "Month of withering",
+        "card_information_notice": "All transactions are safe and encrypted. Credit card details are never stored.",
+        "credit_card_start_month": "Starting month",
+        "card_security_vault_notice": "We need your information for future payments. All transactions are safe and encrypted.",
+        "card_update_label": "Update map",
+        "card_verification_confirm": "Enter the security code of your card for verification purposes.",
+        "credit_card_vaulting_sign_in_banner_title": "Save your credit card details",
+        "card_vaulted_company_location": "Map saved for this location",
+        "clear": "Bright",
+        "billing_must_match_shipping_notice": "The billing address of your payment method must match the delivery address.",
+        "brand_not_available": "This store does not accept {{brand}}. Use a different card to pay.",
+        "card_fields": {
+          "errors": {
+            "required": {
+              "issue_number": "Enter a valid expense number"
+            }
+          }
+        },
+        "business_customer_vaulting_payment_label": "Save this payment method at checkout and give %{company} permission to use it for future purchases at this location. All contacts assigned to this location can use the payment method.",
+        "cashapppay_label": "Cash App Payment",
+        "billing_address_rollup_accessibility_label": "Invoice address options",
+        "business_customer_with_bank_account_vaulting_payment_label": "Save this payment method at checkout and authorize %{company} to debit your account for future purchases you approve for this location until you revoke this authorization. All contacts assigned to this location can use the payment method.",
+        "continue_to_guest_checkout": "Proceed to checkout as guest"
       },
       "contact": {
         "change_company_location_link_label": "Change company address",
