@@ -1164,6 +1164,50 @@
         "thank_you_confirmed_with_email_and_phone_description": {
           "single_store": "Vous recevrez bientôt un courriel de confirmation",
           "multi_store": "Vous recevrez bientôt des e-mails de confirmation séparés de chaque magasin."
+        },
+        "title": "Merci pour votre achat !",
+        "tracking_number": "Numéro de série :",
+        "thank_you_title": "Votre commande est confirmée",
+        "updated_time": "Mis à jour il y a %{time_ago}",
+        "unfulfilled_items_title": "Préparer pour l'expédition",
+        "unfulfilled_items_description": "Nous préparons actuellement ces articles pour l'expédition.",
+        "track_shipment": "Suivre l'envoi",
+        "thank_you_title_review": "Votre commande a été soumise pour examen",
+        "thank_you_ready_for_picked_up": "Votre commande a été récupérée à %{address}.",
+        "thank_you_title_payments_app_failed_pending_payment": "Votre paiement n'a pas pu être traité",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone": "Vous recevrez bientôt un e-mail de confirmation avec votre numéro de commande.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_payment": "Vous recevrez bientôt un e-mail de confirmation avec votre numéro de commande.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_pick_up": "Vous recevrez bientôt un e-mail de confirmation avec votre numéro de commande.",
+        "thank_you_payments_app_pending_payment_description_default_with_email": "Vous recevrez bientôt un e-mail de confirmation avec votre numéro de commande.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_payment": "Vous recevrez bientôt un e-mail de confirmation avec votre numéro de commande.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "Vous recevrez bientôt un e-mail de confirmation avec votre numéro de commande.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone": "Vous recevrez bientôt un message de confirmation avec votre numéro de commande.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_payment": "Vous recevrez bientôt un message de confirmation avec votre numéro de commande.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_pick_up": "Vous recevrez bientôt un message de confirmation avec votre numéro de commande.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Après avoir terminé votre paiement, vous recevrez un e-mail de confirmation avec votre numéro de commande.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "Après avoir terminé votre paiement, vous recevrez un e-mail de confirmation avec votre numéro de commande.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "Après avoir terminé votre paiement, vous recevrez un e-mail de confirmation avec votre numéro de commande.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email": "Après avoir terminé votre paiement, vous recevrez un e-mail de confirmation avec votre numéro de commande.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "Après avoir terminé votre paiement, vous recevrez un e-mail de confirmation avec votre numéro de commande.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Après avoir terminé votre paiement, vous recevrez un e-mail de confirmation avec votre numéro de commande.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone": "Après avoir terminé votre paiement, vous recevrez un message de confirmation avec votre numéro de commande.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Après avoir terminé votre paiement, vous recevrez un message de confirmation avec votre numéro de commande.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Après avoir terminé votre paiement, vous recevrez un message de confirmation avec votre numéro de commande.",
+        "vat_invoices": {
+          "title": "factures-btw"
+        },
+        "thank_you_payments_app_pending_payment_description_provider_action_required_default": "Votre paiement est en cours de traitement. Vous recevrez un e-mail dès que votre paiement sera confirmé.",
+        "verify_shop_account_title": "Vérifiez votre compte Shop",
+        "verify_shop_account_message": "Vos données sont enregistrées chez Shop, vérifiez votre compte pour les utiliser automatiquement dans des millions de magasins.",
+        "verify_shop_account_cta": "Vérifiez votre compte",
+        "verify_shop_account_confirmation": "Informations de paiement enregistrées",
+        "track_your_order_link_text": "Suivez votre commande",
+        "thank_you_unconfirmed_items_heading": {
+          "one": "1 article n'est pas confirmé"
+        },
+        "thank_you_unconfirmed_items_description": {
+          "one": "Vous n'avez pas été facturé pour cela",
+          "other": "Vous n'avez pas été facturé pour cela"
         }
       },
       "general": {
