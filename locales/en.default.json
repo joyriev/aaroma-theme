@@ -1098,8 +1098,72 @@
           "tax_credential_es": "ID Number/Tax Identification Number",
           "shipping_credential_es": "ID Number/Tax Identification Number",
           "shipping_credential_tw": "National identity number/VAT number",
-          "shipping_credential_tr": "Republic of Turkey Identification Number/VAT"
+          "shipping_credential_tr": "Republic of Turkey Identification Number/VAT",
+          "tax_credential_type_co": "Type Identity Card",
+          "tax_credential_type_mx": "Tax scheme",
+          "tax_credential_use_mx": "Use of CFDI",
+          "tax_credential_py": "CI/Tax ID/VAT",
+          "tax_credential_pt": "Tax ID/VAT",
+          "tax_credential_tr": "Republic of Turkey Identification Number/VAT"
         }
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Send me emails with news and offers",
+        "unsubscribe": {
+          "title": "You have logged out",
+          "description": "You will no longer receive reminders about your shopping cart from us."
+        },
+        "accept_sms_checkbox_label": "Send me a message with news and offers",
+        "sms": {
+          "disclaimer": {
+            "privacy_policy": "Privacy policy",
+            "terms_of_service": "Terms of Use",
+            "description_html": "By signing up via SMS, you agree to receive recurring automated marketing messages, including cart reminders, at the provided phone number. Consent is not a condition of purchase. Reply STOP to unsubscribe. Reply HELP for help. Message frequency may vary. Message and data rates may apply. See our %{privacy_policy_link} and %{terms_of_service_link}.",
+            "description_transactional_html": "You can receive text messages about order confirmation and shipping updates. Reply STOP to unsubscribe. Reply HELP for assistance. Message frequency may vary. Message and data rates may apply. Please review our %{privacy_policy_modal_link} and %{terms_of_service_modal_link}."
+          },
+          "get_offers_by_text": "Receive offers via SMS"
+        },
+        "disclaimer": {
+          "privacy_policy": "Privacy policy",
+          "terms_of_service": "Terms of Use"
+        }
+      },
+      "mor_policies": {
+        "terms_and_conditions": "Terms of the Merchant Seller",
+        "privacy_policy": "Privacy policy of the Trade Register holder"
+      },
+      "no_address_location": {
+        "alt_header": "Missing delivery address"
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "Assessment",
+          "link_label": "{{partnerDisplayName}} General Terms and Conditions"
+        }
+      },
+      "markets": {
+        "invalid_market_manager_error": "Check your contact details before completing the payment"
+      },
+      "merchant_instruction_errors": {
+        "empty_stable_id": "The merchandise instruction for %{position} %{name} contains an empty stable ID.",
+        "invalid_stable_id_target": "The merchandise instruction for %{position} %{name} refers to stable ID %{stable_id}, but that stable ID is not in the merchandise lines.",
+        "duplicate_variant_id": "The merchandise instruction for %{position} %{name} contains a duplicate variant ID %{variant_id}.",
+        "invalid_variant_id_target": "The instruction for the merchandise %{name} refers to variant ID %{variant_id}, but that variant is not in the merchandise lines.",
+        "invalid_price_override_target": "The price change instruction for item line %{stable_id} is invalid because it is part of a bundle.",
+        "discount_not_supported": "The instruction for applying the trade discount on goods does not support this type of discount."
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "all_products_one": "The product in your shopping cart is not available for delivery to %{location_name}.",
+          "all_products_other": "The products in your shopping cart are not available for delivery to %{location_name}."
+        },
+        "cart_updated": "Your shopping cart has been updated.",
+        "change_address_only": "Change the delivery address to continue.",
+        "change_address_or_remove": "Change the delivery address or %{remove_action}.",
+        "empty_cart_action": "empty the shopping cart and return to the store"
+      },
+      "memberships": {
+        "items_split_across_locations_unsupported": "Prime delivery is not available for your order. Your shipping options have been updated."
       }
     },
     "addresses": {

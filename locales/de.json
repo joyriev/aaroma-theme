@@ -1379,14 +1379,14 @@
           }
         },
         "full_price": "Gesamtpreis:",
-        "title": "Kasse - {{shopName}}",
+        "title": "Bezahlen - {{shopName}}",
         "full_title": "{{pageTitle}} - {{shopName}} - Bezahlen",
         "loading": "Wird geladen…",
         "loading_title": "Bezahlen - {{shopName}}",
         "google_map_title": "Google Karte",
-        "submit_order_button_label": "Bestellung absenden",
+        "submit_order_button_label": "Bestellung versenden",
         "submit_for_review_button_label": "Zur Begutachtung einreichen",
-        "submit_for_review_notice_label": "Die Zahlung ist erst fällig, nachdem Ihre Bestellung überprüft wurde",
+        "submit_for_review_notice_label": "Die Zahlung ist erst fällig, nachdem Ihre Bestellung geprüft wurde",
         "back_button_label": "Zurückgeben",
         "choose_delivery_strategy": "Wählen Sie eine Liefermethode aus",
         "autocomplete_powered_by_google": "Angetrieben von {{brandName}}",
@@ -2446,9 +2446,9 @@
         "title": "Fragen? Chatten Sie mit uns"
       },
       "local_pickup": {
-        "location_address_search_placeholder": "%{postal_code_label} oder Anschrift",
+        "location_address_search_placeholder": "%{postal_code_label} oder Adresse",
         "location_information": {
-          "one": "Es gibt %{count} Lagerort in Ihrer Nähe mit Vorrat",
+          "one": "Es gibt %{count} Standort mit Lagerbestand in Ihrer Nähe",
           "other": "Es gibt %{count} Standorte mit Lagerbestand in Ihrer Nähe"
         },
         "toggle_location": "Standort ändern",
@@ -2457,27 +2457,52 @@
         "search_button": "Geschäfte finden",
         "no_stores_found": "Keine Geschäfte gefunden",
         "all_stores_far_away": {
-          "title": "Die nächstgelegenen Orte sind mehr als %{distance} entfernt",
-          "description": "Wählen Sie einen Ort oder %{ship_to_address_link}",
-          "change_location_link": "Ändern Sie Ihren Standort"
+          "title": "Die nächstgelegenen Standorte sind mehr als %{distance} entfernt",
+          "description": "Wählen Sie einen Standort oder %{ship_to_address_link}",
+          "change_location_link": "Ändern Sie Ihren Standort",
+          "title_with_specific_location": "Der nächstgelegene Standort mit Ihrem Artikel ist mehr als %{distance} von %{location} entfernt",
+          "title_with_item": {
+            "one": "Der nächstgelegene Standort mit Ihrem Artikel ist mehr als %{distance} von %{location} entfernt",
+            "other": "Der nächstgelegene Standort mit Ihren Artikeln ist mehr als %{distance} von %{location} entfernt"
+          }
         },
         "selected_pickup_option_no_longer_available": {
           "title": "Ihr zuvor ausgewählter Standort ist nicht mehr verfügbar",
           "description": "Wählen Sie einen neuen Ort oder %{ship_to_address_link}",
           "ship_to_address_link": "Lieferadresse"
         },
-        "could_not_resolve_address": "Ihre Adresse konnte nicht gefunden werden. Versuchen Sie es erneut oder verwenden Sie eine andere Adresse.",
+        "could_not_resolve_address": "Ihre Adresse konnte nicht gefunden werden. Bitte versuchen Sie es erneut oder verwenden Sie eine andere Adresse",
         "paginator": {
-          "accessibility_label": "Lokale Abholung Paginierung",
+          "accessibility_label": "Abholzeitfenster vor Ort",
           "label": {
-            "one": "%{first} - %{last} von %{count} Geschäft",
+            "one": "%{first} - %{last} von %{count} Geschäften",
             "other": "%{first} - %{last} von %{count} Geschäften"
           }
         },
         "reveal_more_label": {
           "one": "Zeige %{count} weitere Standorte",
           "other": "Zeige %{count} weitere Standorte"
-        }
+        },
+        "or": "VON",
+        "location_closest": "Nächstgelegener Standort mit Ihrem Artikel",
+        "location_information_far_away": {
+          "one": "Es gibt %{count} Standort mit Ihrem Artikel",
+          "other": "Es gibt %{count} Standorte mit Ihrem Artikel"
+        },
+        "location_nearby": {
+          "one": "Es gibt %{count} nahegelegene Standorte mit Ihrem Artikel",
+          "other": "Es gibt %{count} Standorte in der Nähe mit Ihrem Artikel"
+        },
+        "location_nearby_short": {
+          "one": "%{count} nahegelegene Standorte mit Ihrem Artikel",
+          "other": "%{count} nahegelegene Standorte mit Ihrem Artikel"
+        },
+        "location_far_away": {
+          "one": "%{count} Standort mit Ihrem Artikel",
+          "other": "%{count} Standorte mit Ihrem Artikel"
+        },
+        "location_closest_one_item": "Nächstgelegener Ort mit deinem Artikel",
+        "location_closest_other_items": "Nächster Standort mit deinen Artikeln"
       },
       "captcha": {
         "title": "Vervollständigen Sie das CAPTCHA, um fortzufahren",
