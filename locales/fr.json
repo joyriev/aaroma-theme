@@ -1401,7 +1401,54 @@
         "deposit_label": "Storting",
         "deferred_total_due_date_label_next": "Date d'expiration %{date}",
         "compare_at_sale": "Soldes (%{sale_amount})",
-        "automatic_discount_tooltip": "Les remises appliquées automatiquement ne peuvent pas être supprimées"
+        "automatic_discount_tooltip": "Les remises appliquées automatiquement ne peuvent pas être supprimées",
+        "discount_title": "Réduction",
+        "discount_label": "Code de réduction",
+        "discount_placeholder": "Code de réduction",
+        "free_shipping_discount_label": "Livraison gratuite",
+        "discount_has_been_applied": "Une remise a été appliquée",
+        "discount_has_been_removed": "La remise a été supprimée",
+        "discount_already_applied": "Une réduction a été appliquée à cette commande. Vous ne pouvez pas ajouter de réduction supplémentaire.",
+        "discount_requires_customer_notice": "Saisissez vos informations de livraison pour appliquer le code de réduction <strong style=\"text-transform:uppercase\">%{code}</strong>",
+        "discount_and_gift_card_savings_notice": "Après %{discount_amount} de réductions et %{gift_card_amount} de cartes-cadeaux",
+        "discount_savings_notice": "Jusqu'à %{discount_amount} de réductions",
+        "estimated_taxes_label": "Impôt estimé",
+        "estimated_tax_label": "Impôt estimé",
+        "estimated_taxes_finalization_tooltip_content": "Le montant total de la taxe est confirmé par courriel ou par texto après que vous avez passé votre commande.",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> ne fonctionne pas pour le moment. Contactez-nous pour obtenir de l'aide.",
+        "due_on_fulfillment": "Date d'expiration lors de l'exécution",
+        "duties_label": "Impôts",
+        "duties_and_taxes_label": "Droits de douane et taxes",
+        "error_duties_tooltip": "Cette commande est expédiée depuis un autre pays, il se peut donc que des droits de douane et des taxes soient facturés à la livraison.",
+        "expand_component_information": {
+          "one": "Afficher %{count} article",
+          "other": "Afficher %{count} articles"
+        },
+        "discount_discovery": {
+          "add_code": "Ajouter une remise",
+          "merchandise_quantity_label": {
+            "one": "%{count} article",
+            "other": "%{count} articles"
+          },
+          "back_to_finalize_order": "Retour à la finalisation de la commande"
+        },
+        "discount_order_stacking": {
+          "one": "Remise sur commande",
+          "other": "Réductions sur commande"
+        },
+        "discount_not_found": "Impossible de trouver une remise valide correspondant au code saisi",
+        "enter_shipping_address": "Entrez l'adresse de livraison",
+        "discount_code_applied_with_code": "Code promo %{code} appliqué",
+        "duties_included_label": "Le total comprend les impôts et droits de douane. Aucun frais supplémentaire à la livraison.",
+        "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> code de réduction requise pour un client éligible",
+        "discount_code_allocations_mismatch": "Votre code de réduction <strong style=\"text-transform:uppercase\">%{code}</strong> a été modifié. Consultez votre panier et réessayez.",
+        "for_add_on": "Pour : %{group_title}",
+        "from_other_stores_heading": "D'autres magasins",
+        "discount_code_removed": "Le code promo %{code} a été supprimé",
+        "discount_code_replaced": "Code promo %{old_code} supprimé et %{code} a été appliqué",
+        "from_multiple_stores_heading": "De plusieurs magasins",
+        "discount_applies_to_subscription_items_only": "Cette réduction s'applique uniquement aux articles d'abonnement",
+        "estimated_taxes_finalization_tooltip_content_short": "Taxe établie après paiement"
       },
       "order_payment_collection": {
         "changes_summary": {
