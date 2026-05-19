@@ -2887,7 +2887,8 @@
             "currency_change": "Vous ne pouvez pas utiliser une autre adresse avec {{walletName}}. Utilisez l'adresse d'origine ou essayez un autre mode de paiement."
           },
           "outdated": {
-            "payment_terms": "Les conditions de paiement ont été modifiées. Veuillez vérifier votre commande"
+            "payment_terms": "Les conditions de paiement ont été modifiées. Veuillez vérifier votre commande",
+            "shipping_method": "Les options de livraison pour votre commande ont été modifiées. Veuillez vérifier votre choix."
           },
           "invalid": {
             "shipping_address": "Veuillez saisir une adresse de livraison valide",
@@ -2923,8 +2924,37 @@
             "last_name_too_long": "Le nom de famille contient trop de lettres",
             "address_too_long": "La ligne d'adresse est trop longue"
           },
-          "discount_code": "Impossible d'appliquer ce code de réduction. Vérifiez votre code et réessayez."
-        }
+          "discount_code": "Impossible d'appliquer ce code de réduction. Vérifiez votre code et réessayez.",
+          "unavailable": {
+            "title": "{{walletName}} non disponible",
+            "description": "{{walletName}} n'était pas disponible. Utilisez un autre moyen de paiement ou réessayez plus tard.",
+            "instructions": "Il y a eu un problème avec {{walletName}}. Retournez à la boutique pour réessayer ou choisissez un autre mode de paiement.",
+            "unavailable_for_country": "{{walletName}} n'est pas disponible dans {{countryName}}. Choisissez un autre mode de paiement pour finaliser votre achat"
+          },
+          "terminal": "Il y a eu un problème avec {{walletName}}. Utilisez un autre mode de paiement.",
+          "unsupported": {
+            "address": "Le commerçant ne peut pas livrer à cette adresse",
+            "postal_code": "Cet emplacement n'est pas pris en charge",
+            "wallet_is_unavailable": "{{walletName}} ne peut pas être utilisé avec cette adresse. Choisissez une autre adresse ou fermez {{walletName}} pour finaliser votre achat"
+          },
+          "select_different_shipping_address_to_resolve_errors": "Votre adresse de livraison est invalide. Choisissez une autre adresse ou utilisez une nouvelle adresse.",
+          "unavailable_terminal": {
+            "instructions": "{{walletName}} n'est actuellement pas disponible pour votre commande. Pour poursuivre votre achat, veuillez choisir un autre mode de paiement."
+          },
+          "processing_error_checkout_as_guest": "Un problème est survenu lors du traitement de votre paiement. Veuillez réessayer ou {{checkout_as_guest_link}}."
+        },
+        "return_to_store": "Retour au magasin",
+        "redirect_hint": "Vous êtes invité à vous connecter avec {{walletName}}.",
+        "logged_in": "Connecté avec {{email}}",
+        "payment_in_progress_body": "Votre paiement est en cours de traitement. Votre commande sera bientôt finalisée.",
+        "redirection_notice": "Vous allez être redirigé vers {{walletName}} pour finaliser votre achat",
+        "return_to_checkout": "Retour au paiement",
+        "scrim": {
+          "continue_purchase_in_window": "Continuez votre achat dans la fenêtre {{walletName}}",
+          "and_return_to_checkout": "et retour à la Caisse"
+        },
+        "place_order": "Passer commande",
+        "recovery_notice": "Il y a un problème avec vos informations de commande. Mettez à jour vos informations pour finaliser le paiement."
       }
     },
     "attributes": {
@@ -2945,6 +2975,47 @@
       "message": "Pour continuer, veuillez confirmer que vous n'êtes pas un robot.",
       "error": "Votre réponse était incorrecte, veuillez réessayer s'il vous plaît.",
       "submit_button_text": "Expédition"
+    },
+    "collections": {
+      "sorting": {
+        "az": "Alphabétique, A-Z",
+        "za": "Alphabétique, Z-A",
+        "price_ascending": "Prix, du plus bas au plus élevé",
+        "price_descending": "Prix, du plus élevé au plus bas",
+        "date_ascending": "Données, ancien à nouveau",
+        "date_descending": "Données, nouveau à ancien"
+      }
+    },
+    "checkpoint": {
+      "message": "Résolvez le captcha pour continuer",
+      "error": "Échec de la validation Captcha",
+      "submit_button_text": "Expédition"
+    },
+    "email_marketing": {
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Vous vous êtes inscrit pour suivre l'ouverture des e-mails.</b>",
+          "visibility": "Les pourcentages d'ouverture des e-mails sont rapportés de manière anonyme. Nous verrons uniquement si vous avez ouvert un e-mail dans le cadre d'un pourcentage d'ouverture d'e-mails agrégé.",
+          "opt_out_html": "Vous pouvez <a style='text-decoration:underline;' href='%{link}'>vous désinscrire</a> du suivi de l'ouverture des e-mails si vous ne souhaitez pas partager cette information.",
+          "preview_bar": "Vous regardez un aperçu de ce que les clients verront lorsqu'ils choisiront de suivre l'ouverture des e-mails."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Vous vous êtes désinscrit du suivi de l'ouverture des e-mails.</b>",
+          "visibility": "Nous ne saurons pas si vous avez ouvert nos e-mails.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Inscrivez-vous</a> pour suivre l'ouverture des e-mails.",
+          "preview_bar": "Vous regardez un aperçu de ce que les clients verront lorsqu'ils se désabonneront du suivi de l'ouverture des e-mails."
+        },
+        "no_longer_track": {
+          "privacy_policy": "Après l'envoi de cet e-mail, nous avons mis à jour notre politique de confidentialité et ne suivons plus l'ouverture des messages."
+        },
+        "track": {
+          "status_html": "<b>L'ouverture de l'e-mail est suivie.</b>",
+          "visibility": "Nous ne verrons si vous avez ouvert l'e-mail que dans le cadre du pourcentage total d'e-mails ouverts."
+        },
+        "updated_policy": {
+          "opt_out_html": "Si vous ne souhaitez pas partager ces informations, vous pouvez vous <a style='text-decoration:underline;' href='%{link}'>désinscrire.</a>"
+        }
+      }
     }
   },
   "customer_accounts": {

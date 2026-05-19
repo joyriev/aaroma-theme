@@ -3031,7 +3031,8 @@
       "next": "Weiter"
     },
     "links": {
-      "powered_by_shopify": "Angetrieben von Shopify"
+      "powered_by_shopify": "Angetrieben von Shopify",
+      "learn_more": "Mehr Informationen"
     },
     "attributes": {
       "password_confirmation": "Die Passwortbestätigung",
@@ -3066,7 +3067,7 @@
       "gift_card_depleted": "Auf diesem Geschenkgutschein ist kein Guthaben mehr vorhanden",
       "gift_card_disabled": "Gutschein ist deaktiviert",
       "bad_domain": "enthält einen ungültigen Domainnamen",
-      "taken": "ist bereits vergeben",
+      "taken": "ist bereits in Gebrauch genommen worden",
       "too_short": "ist zu kurz (mindestens %{count} Zeichen)",
       "too_long": "ist zu lang (maximal %{count} Zeichen)",
       "contains_spaces": "beginnt oder endet mit Leerzeichen.",
@@ -3080,36 +3081,37 @@
       "expired": "ist abgelaufen",
       "invalid_start_date_or_issue_number_for_debit": "Ein gültiges Anfangsdatum oder Ausgabennummer ist erforderlich",
       "reset_password_html": "Diese E-Mail-Adresse ist bereits mit einem Konto verknüpft. Wenn dieses Konto Ihnen gehört, können Sie <a href=\"/account/login#recover\">Ihr Passwort zurücksetzen</a>",
-      "verify_email": "Wir haben eine E-Mail an %{customer_email} gesendet. Bitte klicken Sie auf den enthaltenen Link, um Ihre E-Mail-Adresse zu bestätigen.",
+      "verify_email": "Wir haben eine E-Mail an %{customer_email} gesendet. Bitte klicken Sie auf den beigefügten Link, um Ihre E-Mail-Adresse zu verifizieren.",
       "product_not_available": "Produkt ist für diesen Kunden nicht veröffentlicht.",
       "shop_404": {
-        "title": "Erstellen Sie eine E-Commerce-Website und verkaufen Sie online! E-Commerce-Software von Shopify",
+        "title": "Erstellen Sie einen Onlineshop und verkaufen Sie online! Webshop-Software von Shopify",
         "heros": {
           "store_unavailable": "Entschuldigung, dieser Laden ist derzeit nicht verfügbar.",
-          "store_not_exist": "Dieser Laden existiert nicht.",
-          "no_storefront": "Dieser Laden hat noch keine Website."
+          "store_not_exist": "Dieses Geschäft existiert nicht.",
+          "no_storefront": "Dieses Geschäft hat noch keine Webseite."
         },
         "links": {
-          "explore_other_stores": "Andere Geschäfte entdecken",
-          "start_free_trial": "Kostenlose Testversion starten"
+          "explore_other_stores": "Entdecken Sie andere Geschäfte",
+          "start_free_trial": "Beginnen Sie eine kostenlose Testphase"
         },
         "owner_ctas": {
-          "header": "Sind Sie der Ladenbesitzer?",
-          "fix_domain": "Schließe die Einrichtung deiner neuen Webadresse ab, indem du zu %{domain_settings_link} gehst. Klicke auf „Domain verbinden“ und gib ein: %{domain}.<br>Falls du Schwierigkeiten hast, dich in deinen Laden einzuloggen, versuche die Seite %{forgot_your_store_link}.",
-          "fix_domain_link_text": "deine Domain-Einstellungen",
-          "forgot_your_store_link_text": "Haben Sie Ihr Geschäft vergessen?",
-          "add_storefront": "Sie können Ihre Webseite einrichten, indem Sie den Kanal für den Onlineshop in Ihrem %{admin_link} hinzufügen. Wenn Sie Schwierigkeiten haben, sich in Ihren Laden einzuloggen, versuchen Sie es auf der Seite %{forgot_your_store_link}.",
+          "header": "Sind Sie der Händler?",
+          "fix_domain": "Schließe die Einrichtung deiner neuen Webadresse über %{domain_settings_link} ab. Klicke auf „Domain verbinden“ und gib ein: %{domain}.<br>Wenn du Probleme beim Einloggen in deinen Shop hast, versuche die Seite %{forgot_your_store_link}.",
+          "fix_domain_link_text": "je Domain-Einstellungen",
+          "forgot_your_store_link_text": "jeden Laden vergessen",
+          "add_storefront": "Du kannst deine Website einrichten, indem du den Kanal Online-Shop in deinem %{admin_link} hinzufügst. Wenn du Probleme hast, deinen Shop zu öffnen, versuche die Seite %{forgot_your_store_link}.",
           "admin_link_text": "Administrator"
         },
         "ctas": {
           "sell_in_person": {
-            "caption": "Erhalten Sie die Funktionen, die Sie benötigen, um Ihr Einzelhandelsgeschäft zu betreiben, egal ob Sie gerade erst anfangen oder expandieren.",
-            "link_text": "Kostenlose Testversion starten"
+            "caption": "Erhalten Sie die Funktionen, die Sie benötigen, um Ihren Laden zu betreiben, egal ob Sie gerade erst anfangen oder expandieren möchten.",
+            "link_text": "Beginnen Sie die kostenlose Testphase",
+            "header": "Persönlicher Verkauf"
           },
           "open_a_store": {
             "header": "Eröffnen Sie einen neuen Shopify-Shop",
-            "caption": "Beginnen Sie eine 3-tägige kostenlose Testphase und fahren Sie dann für 1 $/Monat für die nächsten 3 Monate fort.",
-            "link_text": "Jetzt anmelden"
+            "caption": "Beginnen Sie eine kostenlose 3-tägige Testphase, danach zahlen Sie $1/Monat für die nächsten 3 Monate.",
+            "link_text": "Melden Sie sich jetzt an"
           },
           "editions": {
             "header": "Shopify-Ausgaben ansehen",
@@ -3117,9 +3119,9 @@
             "link_text": "Entdecken Sie die neuesten Ausgaben"
           },
           "store_owner": {
-            "header": "Sind Sie der Ladenbesitzer?",
-            "caption": "Haben Sie Schwierigkeiten, sich in Ihren Laden einzuloggen? Versuchen Sie die Funktion %{forgot_your_store_link}. Wenn Sie Ihren Laden wieder aktivieren möchten, wenden Sie sich an %{shopify_support_link}.",
-            "shopify_support_link_text": "Shopify-Support"
+            "header": "Sind Sie der Händler?",
+            "caption": "Haben Sie Schwierigkeiten, sich in Ihren Shop einzuloggen? Versuchen Sie die Funktion %{forgot_your_store_link}. Wenn Sie Ihren Shop reaktivieren möchten, wenden Sie sich bitte an %{shopify_support_link}.",
+            "shopify_support_link_text": "Shopify-Unterstützung"
           }
         }
       },
@@ -3174,7 +3176,7 @@
         "less_than_minimum": "Dieser Artikel hat eine Mindestmenge von %{min}.",
         "more_than_maximum": "Dieser Artikel hat eine Höchstmenge von %{max}.",
         "not_respect_step": "Sie können diesen Artikel nur in Schritten von %{step} hinzufügen.",
-        "empty_update": "Leerer Warenkorb kann nicht aktualisiert werden",
+        "empty_update": "kann leeren Warenkorb nicht aktualisieren",
         "missing_parameters": "keine gültige ID- oder Linienparameter",
         "invalid_input": "Der Parameter %{parameter} ist ungültig.",
         "too_many_line_items_error": "Ihr Warenkorb darf nicht mehr als %{max} Artikel enthalten.",
@@ -3184,20 +3186,22 @@
         "variant_requires_selling_plan": "Variante kann nur mit einem Verkaufsplan gekauft werden.",
         "selling_plan_not_available_for_company_locations": "Für B2B-Bestellungen ist nur ein einmaliger Kauf möglich",
         "digital_product_not_available_for_company_locations": "Dieser Artikel kann nicht zu einer B2B-Bestellung hinzugefügt werden",
-        "buyer_cannot_purchase_for_company_locations": "Für diesen Standort können Sie nicht einkaufen",
+        "buyer_cannot_purchase_for_company_locations": "Du kannst für diesen Standort nicht kaufen",
         "selling_plan_not_applicable": "Verkaufsplan kann nicht auf Variante angewendet werden",
         "shipping_address_invalid": "Bei der Berechnung Ihrer Versandkosten ist ein Problem aufgetreten. Fahren Sie mit dem Checkout fort, um eine Versandart auszuwählen, bevor Sie Ihre Bestellung abschließen.",
         "bundle_requires_components": "Das Bündelprodukt '%{name}' kann nicht zum Warenkorb hinzugefügt werden.",
         "gift_card_with_components_not_supported": "Das Bündelprodukt '%{name}' kann nicht zum Warenkorb hinzugefügt werden.",
         "gift_card_price_must_be_greater_than_zero": "Das Bündelprodukt '%{name}' kann nicht zum Warenkorb hinzugefügt werden.",
-        "gift_card_recipient_validation_error": "Der angegebene Empfänger der Geschenkkarte ist ungültig",
+        "gift_card_recipient_validation_error": "Der angegebene Empfänger des Geschenkgutscheins ist ungültig",
         "view_lines_limit_reached": "Zeilen müssen weniger als oder gleich %{limit} sein",
         "cart_too_large": "Der Warenkorb ist zu groß.",
-        "cart_attributes_error": "Warenkorb-Eigenschaften enthalten ungültige Daten.",
+        "cart_attributes_error": "Warenkorbfunktionen enthalten ungültige Daten.",
         "merchandise_line_transformers": {
           "run_error": "Ein Fehler ist in Ihrem Warenkorb aufgetreten."
         },
-        "merchandise_not_applicable": "Artikel kann in der konfigurierten Form nicht gekauft werden."
+        "merchandise_not_applicable": "Artikel kann in der konfigurierten Form nicht gekauft werden.",
+        "all_items_in_cart": "Alle %{count} %{name} sind in deinem Warenkorb.",
+        "generic_error": "Fehler Beim Hinzufügen zum Warenkorb"
       },
       "storefront": {
         "invalid_password": "Passwort falsch, bitte versuchen Sie es erneut."
@@ -3207,6 +3211,9 @@
         "add_products": "Auswahl auf Produkte mit dem Schlagwort %{tag} eingrenzen",
         "remove_articles": "Suche auf Artikel ausweiten, die nicht mit %{tag} gekennzeichnet sind",
         "remove_products": "Entferne das Etikett %{tag}"
+      },
+      "address": {
+        "deleted": "Adresse erfolgreich entfernt"
       }
     },
     "email_marketing": {
@@ -3255,7 +3262,7 @@
     "filters": {
       "availability": {
         "value": {
-          "out_of_stock": "Nicht auf Lager"
+          "out_of_stock": "Nicht vorrätig"
         }
       }
     },
