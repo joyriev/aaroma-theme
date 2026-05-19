@@ -753,7 +753,7 @@
         "submit_for_review_notice_label": "Payment is only due after your order has been reviewed"
       },
       "order_summary": {
-        "taxes_label": " Taxes",
+        "taxes_label": "Taxes",
         "estimated_taxes_label": "Estimated tax",
         "information_estimated_taxes_label": "Taxes (estimated)",
         "estimated_taxes_finalization_tooltip_content": "The total tax amount will be confirmed by email or text message after you have placed your order.",
@@ -837,7 +837,29 @@
           "one": "%{count} items"
         },
         "order_discounts_apply_to_local_shop": "Discounts on orders apply only to items from %{shop_name}",
-        "gift_cards_apply_to_local_shop": "Gift vouchers are only valid for items from %{shop_name}"
+        "gift_cards_apply_to_local_shop": "Gift vouchers are only valid for items from %{shop_name}",
+        "title": "Order overview",
+        "remove_gift_card_label": "Clear gift voucher",
+        "remove_discount_label": "Remove discount amount",
+        "shipping_information_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> discount code is not available for your shipping address",
+        "shipping_default_value": "Calculated at the next step",
+        "total_outstanding_label": "Amount to be paid",
+        "quantity_label": "Number",
+        "sale_price": "Offer price",
+        "recurring_total_label": "Returning total",
+        "recurring_total_tooltip": "Including no shipping costs, taxes, import duties, or any discounts.",
+        "recurring_total_multiple_label": "This order contains a recurring charge for multiple items.",
+        "price_per_item": {
+          "accessibility_label": "%{price} each",
+          "label": "%{price}/piece"
+        },
+        "return_restocking_fee_label": "Supplementary allowance",
+        "return_shipping_fee_label": "Return shipment",
+        "shipping_discount_title": "Shipping discount",
+        "product_image_quantity_label": "Number",
+        "total_due_today_label": "Total to pay today",
+        "total_due_later_label": "Total to be paid later",
+        "total_due_label": "Total to pay"
       },
       "shipping": {
         "duties_and_taxes_title": "Customs duties and taxes"

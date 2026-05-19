@@ -1650,22 +1650,22 @@
         "gift_card_and_discount_label": "Rabattcode oder Geschenkkarte",
         "gift_card_and_discount_placeholder": "Rabattcode oder Geschenkkarte",
         "gift_cards_apply_to_local_shop": "Geschenkkarten gelten nur für Artikel von %{shop_name}",
-        "add_discount_or_gift_card": "Einen Rabattcode oder eine Geschenkkarte hinzufügen",
+        "add_discount_or_gift_card": "Fügen Sie einen Rabattcode oder Gutschein hinzu",
         "return_restocking_fee_label": "Wiederauffüllungsgebühr",
         "return_shipping_fee_label": "Rückversand",
         "free_shipping_discount_label": "Kostenloser Versand",
-        "applied_discount_message": "%{amount} Rabatt auf den Gesamtbestellpreis",
+        "applied_discount_message": "%{amount} Rabatt auf den Gesamtbestellwert",
         "discount_has_been_applied": "Rabatt wurde angewendet",
         "discount_has_been_removed": "Rabatt wurde entfernt",
         "gift_card_has_been_applied": "Geschenkkarte wurde angewendet",
         "gift_card_has_been_removed": "Geschenkkarte wurde entfernt",
         "gift_card_subscriptions_notice": "Geschenkkarten werden nur auf Ihre erste Zahlung angerechnet",
         "discount_already_applied": "Ein Rabatt wurde auf diese Bestellung angewendet. Sie können keinen weiteren Rabatt hinzufügen.",
-        "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> Rabattcode ist für die Artikel in Ihrem Warenkorb nicht gültig",
+        "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> Gutscheincode ist für die Artikel in deinem Warenkorb nicht gültig",
         "discount_requires_customer_notice": "Geben Sie Ihre Versandinformationen ein, um den Rabattcode <strong style=\"text-transform:uppercase\">%{code}</strong> anzuwenden",
         "customer_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> Rabattcode ist derzeit für Sie nicht verfügbar",
         "shipping_information_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> Rabattcode ist für Ihre Lieferadresse nicht verfügbar",
-        "customer_already_used_once_per_customer_discount_notice": "Der <strong style=\"text-transform:uppercase\">%{code}</strong> Rabattcode wurde bereits verwendet",
+        "customer_already_used_once_per_customer_discount_notice": "Der Rabattcode <strong style=\"text-transform:uppercase\">%{code}</strong> wurde bereits verwendet",
         "subtotal_label_with_quantity": {
           "one": "Zwischensumme · %{count} Artikel",
           "other": "Zwischensumme · %{count} Artikel"
@@ -1695,7 +1695,7 @@
         "total_savings": "Gesamtersparnis",
         "total_due_label": "Gesamtbetrag fällig",
         "total_paid_label": "Gesamt bezahlt",
-        "deposit_label": "Kaution",
+        "deposit_label": "Storting",
         "total_due_today_label": "Gesamt fällig heute",
         "total_due_later_label": "Gesamtbetrag später fällig",
         "payment_due_label": "Zahlung fällig",
@@ -1709,11 +1709,11 @@
         "quantity_label": "Menge",
         "product_image_quantity_label": "Menge",
         "scroll_order_summary": "Scrollen für weitere Artikel",
-        "collapse_order_summary_short": "Verstecken",
+        "collapse_order_summary_short": "Ausblenden",
         "collapse_order_summary": "Bestellübersicht ausblenden",
         "original_price": "Originalpreis",
         "sale_price": "Verkaufspreis",
-        "compare_at_sale": "Verkauf (%{sale_amount})",
+        "compare_at_sale": "Ausverkauf (%{sale_amount})",
         "total_updated_label": "Aktualisierter Gesamtpreis:",
         "order_total_updated_label": "Aktualisierter Gesamtbetrag",
         "unit_price": {
@@ -1733,13 +1733,13 @@
         "deferred_payment_info": {
           "title": "Zahlung von %{amount_due} ist fällig am %{due_at}",
           "description_html": "Bei Fragen zu Ihrer Bestellung, %{contact_us}.",
-          "paid_today": "Heute insgesamt bezahlt",
-          "due_on_fulfillment_title": "Die Zahlung von %{amount_due} ist bei Erfüllung fällig",
+          "paid_today": "Insgesamt heute bezahlt",
+          "due_on_fulfillment_title": "Zahlung von %{amount_due} ist bei Lieferung fällig",
           "due_on_receipt_title": "Zahlung von %{amount_due} ist bei Erhalt fällig"
         },
         "deferred_balance_info": {
-          "title": "Der Restbetrag von {{amount_due}} ist fällig am {{due_at}}",
-          "due_on_fulfillment_title": "Der Restbetrag von {{amount_due}} ist bei Erfüllung fällig"
+          "title": "Saldo von {{amount_due}} ist fällig am {{due_at}}",
+          "due_on_fulfillment_title": "Saldo von {{amount_due}} ist bei Lieferung fällig"
         },
         "payment_terms_totals": {
           "due_today": "Gesamt fällig heute",
@@ -1757,7 +1757,7 @@
         "may_be_charged_on_delivery": "Kann bei Lieferung bezahlt werden",
         "total_updated_label_with_price": "Aktualisierter Gesamtpreis: %{totalPrice}",
         "recurring_total_multiple_label": "Diese Bestellung enthält eine wiederkehrende Gebühr für mehrere Artikel.",
-        "deferred_total_due_date_label": "Gesamtbetrag fällig {{date}}",
+        "deferred_total_due_date_label": "Gesamt zu zahlen {{date}}",
         "full_price": "Vollpreis: %{price}",
         "expand_component_information": {
           "one": "Zeige %{count} Artikel",
@@ -1765,9 +1765,14 @@
         },
         "collapse_component_information": {
           "one": "Verberge %{count} Artikel",
-          "other": "Verberge %{count} Gegenstände"
+          "other": "Verberge %{count} Artikel"
         },
-        "discount_applies_to_subscription_items_only": "Dieser Rabatt gilt nur für Abonnementartikel"
+        "discount_applies_to_subscription_items_only": "Dieser Rabatt gilt nur für Abonnementartikel",
+        "applied_free_shipping_discount_label": "Angewandt",
+        "custom_discount": "Angepasster Rabatt",
+        "alternative_payment_currency_total": "In Rechnung gestellt als %{amount_due}",
+        "deferred_total_due_date_label_next": "Verfallsdatum %{date}",
+        "automatic_discount_tooltip": "Automatisch angewandte Rabatte können nicht entfernt werden"
       },
       "shipping": {
         "shipping_method_title": "Versandart",
@@ -2240,14 +2245,15 @@
           "added": {
             "other": "Hinzugefügt %{count}"
           },
-          "subtracted": "Entfernt %{count}",
+          "subtracted": "Gelöscht %{count}",
           "returned": "Zurückgegeben %{count}",
-          "return_line_item_removed": "%{count} aus Rückgabe entfernt"
+          "return_line_item_removed": "%{count} aus der Rücksendung entfernt",
+          "removed": "Gelöscht"
         },
         "additional_payment_requested": "Zahlung von %{total_outstanding} ist erforderlich",
-        "checkout_review_and_pay": "Ihre Bestellung %{order_name} wurde aktualisiert. Überprüfen Sie diese Änderungen und bezahlen Sie dann, um Ihre Bestellung zu bestätigen.",
+        "checkout_review_and_pay": "Ihre Bestellung %{order_name} wurde aktualisiert. Sehen Sie sich diese Änderungen an und bezahlen Sie anschließend, um Ihre Bestellung zu bestätigen.",
         "order_updated_on": "Ihre Bestellung wurde am %{last_edited_at} aktualisiert.",
-        "order_review_and_pay": "Ihre Bestellung wurde aktualisiert. Überprüfen und bezahlen Sie, um Ihre Bestellung zu bestätigen."
+        "order_review_and_pay": "Ihre Bestellung wurde aktualisiert. Überprüfen Sie diese und bezahlen Sie, um Ihre Bestellung zu bestätigen."
       },
       "change_currency": {
         "credit_card_will_be_charged_html": "Ihre Kreditkarte wird mit %{amount} belastet",
@@ -2273,9 +2279,9 @@
       },
       "open_graph_meta_tag": {
         "title_with_products": {
-          "zero": "Kaufen Sie %{product_name}",
-          "one": "Kaufen Sie %{product_name} und %{count} weiteren Artikel",
-          "other": "Kaufen Sie %{product_name} und %{count} weitere Artikel"
+          "zero": "Kaufe %{product_name}",
+          "one": "Kaufe %{product_name} und %{count} weiteren Artikel",
+          "other": "Kaufe %{product_name} und %{count} weitere Artikel"
         }
       },
       "subscriptions": {
@@ -2338,8 +2344,8 @@
         "email_us_button_label": "Schicken Sie uns eine E-Mail"
       },
       "order_errors": {
-        "creation_failure": "Bei der Erstellung Ihrer Bestellung ist ein Problem aufgetreten. Versuchen Sie es erneut oder kontaktieren Sie uns für weitere Informationen.",
-        "network_failure": "Ihre Bestellung konnte aufgrund eines Netzwerkfehlers nicht abgeschickt werden. Überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
+        "creation_failure": "Beim Erstellen Ihrer Bestellung ist ein Problem aufgetreten. Bitte versuchen Sie es erneut oder kontaktieren Sie uns für weitere Informationen.",
+        "network_failure": "Ihre Bestellung konnte aufgrund eines Netzwerkfehlers nicht versendet werden. Überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
         "inventory_reservation_failure": "Einige Artikel sind nicht mehr verfügbar."
       },
       "session_errors": {
