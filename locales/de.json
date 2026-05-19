@@ -1878,17 +1878,17 @@
         "no_pickup_location_notice": "Mindestens eines Ihrer Produkte ist nicht zur Abholung verfügbar",
         "no_rates_for_country_notice": "Für diese Adresse wurden keine Versandkosten gefunden.",
         "no_rates_contact_notice": "Kontaktieren Sie uns für weitere Informationen",
-        "estimated_delivery_time": "Voraussichtliche Lieferung %{time}",
-        "estimated_delivery_time_range": "Voraussichtliche Lieferung %{min_time}–%{max_time}",
+        "estimated_delivery_time": "Geschätzte Lieferung %{time}",
+        "estimated_delivery_time_range": "Geschätzte Lieferung %{min_time}–%{max_time}",
         "delivery_today": "Lieferung am selben Tag %{time}",
         "delivery_tomorrow": "Lieferung am nächsten Tag %{time}",
         "two_day_delivery": "2-Tage-Lieferung %{time}",
-        "delivery": "Lieferung %{time}",
+        "delivery": "Lieferung in %{time}",
         "arrives_time": "Kommt in %{time} an",
-        "arrives_time_range": "Kommt an in %{min_time}–%{max_time}",
+        "arrives_time_range": "Ankunft innerhalb von %{min_time}–%{max_time}",
         "estimated_time": "Geschätzte %{time}",
         "estimated_time_range": "Geschätzte %{min_time}–%{max_time}",
-        "default_description": "Versand innerhalb von 1 Werktag",
+        "default_description": "Versand innerhalb eines Werktages",
         "shipping_line_phone_label": "Handynummer (erforderlich)",
         "shipping_line_phone": "Ihr Kurier kann diese Nummer verwenden, um Sie zu kontaktieren.",
         "shipping_line_delivery_phone_label": "Mobiltelefonnummer",
@@ -1968,10 +1968,10 @@
         "shipping_information_redirect_link": "Geben Sie hier Ihre Informationen ein",
         "loading_progressive_rates": "Suche nach weiteren Tarifen…",
         "duties_and_taxes_options": {
-          "ddu_title": "Zahlung bei Lieferung",
-          "ddu_caption": "Zusätzliche Gebühren können anfallen",
+          "ddu_title": "Bezahlung bei Lieferung",
+          "ddu_caption": "Es können zusätzliche Kosten berechnet werden",
           "ddp_title": "Jetzt bezahlen",
-          "ddp_caption": "Keine zusätzlichen Gebühren bei Lieferung"
+          "ddp_caption": "Keine zusätzlichen Kosten bei Lieferung"
         },
         "shipping_used_as_billing_notice": "Dies wird auch als Ihre Rechnungsadresse für diese Bestellung verwendet.",
         "shipping_address_title": "Lieferung an",
@@ -1981,18 +1981,18 @@
         "third_party_payment_timeout": "Zahlungsmethoden können nicht geladen werden. Erneut versuchen oder eine andere Zahlungsmethode verwenden.",
         "third_party_payment_error": "Beim Laden der Zahlungswahl ist ein Fehler aufgetreten. Verwenden Sie eine andere Zahlungsmethode.",
         "add_delivery_instructions": "Lieferanweisungen hinzufügen",
-        "back": "Hinten",
-        "address_more": "Weitere Aktionen für diese Adresse",
-        "address_confirm": "Sind Sie sicher, dass Sie diese Adresse aus Ihrem Konto löschen möchten?",
+        "back": "Zurück",
+        "address_more": "Mehr Aktionen für diese Adresse",
+        "address_confirm": "Sind Sie sicher, dass Sie diese Adresse aus Ihrem Konto entfernen möchten?",
         "address_form": {
           "cancel": "Abbrechen",
-          "update": "Änderungen sparen",
-          "generic_error": "Beim Speichern Ihrer Adresse ist ein Problem aufgetreten. Bitte versuchen Sie es erneut.",
-          "one_time_address_subtitle": "Verwenden Sie für diese Bestellung eine Einmaladresse"
+          "update": "Änderungen speichern",
+          "generic_error": "Es gab ein Problem beim Speichern Ihrer Adresse. Bitte versuchen Sie es erneut.",
+          "one_time_address_subtitle": "Verwenden Sie eine einmalige Adresse für diese Bestellung"
         },
-        "different_shipping_method_summary": "Geben Sie eine andere Lieferadresse ein, um verfügbare Versandmethoden anzuzeigen",
-        "invalid_shipping_method_summary": "Geben Sie eine gültige Versandadresse ein, um verfügbare Versandmethoden anzuzeigen",
-        "invalid_shipping_method_summary_selected": "Wählen Sie eine andere Versandadresse, um verfügbare Versandmethoden anzuzeigen",
+        "different_shipping_method_summary": "Geben Sie eine andere Lieferadresse ein, um die verfügbaren Versandarten anzuzeigen",
+        "invalid_shipping_method_summary": "Geben Sie eine gültige Lieferadresse ein, um die verfügbaren Versandmethoden zu sehen",
+        "invalid_shipping_method_summary_selected": "Wählen Sie eine andere Lieferadresse, um die verfügbaren Versandmethoden anzuzeigen",
         "method_summary": {
           "incomplete_address_entered": "Geben Sie eine vollständige Versandadresse ein, um verfügbare Versandmethoden anzuzeigen",
           "incomplete_address_selected": "Wählen Sie eine vollständige Versandadresse aus, um verfügbare Versandmethoden anzuzeigen"
@@ -2028,7 +2028,12 @@
         "unbranded_description_with_fulfillment_weeks": {
           "one": "Versand in %{count} Woche",
           "other": "Versand in %{count} Wochen"
-        }
+        },
+        "add_address": "Verwenden Sie eine andere Adresse",
+        "delete": "Entfernen",
+        "address_delete": "Adresse entfernen",
+        "add_new_delivery_address": "Fügen Sie eine neue Lieferadresse hinzu",
+        "delivery_to": "Lieferung an"
       },
       "localized_fields": {
         "additional_information": {
@@ -2462,7 +2467,7 @@
       },
       "session_errors": {
         "session_not_unique": "Bei der Verarbeitung Ihrer Bestellung ist ein Problem aufgetreten. Aktualisieren Sie diese Seite, um zum Shop zurückzukehren.",
-        "session_already_finished": "Diese Bestellung wurde bereits aufgegeben. Sie können zum Geschäft zurückkehren, um eine neue Bestellung zu starten."
+        "session_already_finished": "Diese Bestellung wurde bereits aufgegeben. Sie können zum Shop zurückkehren, um eine neue Bestellung zu starten."
       },
       "artifact_errors": {
         "artifact_dissatisfaction_without_violation": "Bei der Bearbeitung Ihrer Bestellung ist ein Problem aufgetreten. Bitte versuchen Sie es in ein paar Minuten erneut."
@@ -2571,7 +2576,8 @@
           "other": "Diese Bestellung wird an eine von {{merchant}} angegebene Adresse versandt. Wählen Sie eine Versandadresse."
         },
         "subtitle_no_match": "Diese Adresse stimmt nicht mit einer Ihrer gespeicherten Adressen überein.",
-        "subtitle_must_use": "Ihre Bestellung wird an diese Adresse versandt."
+        "subtitle_must_use": "Ihre Bestellung wird an diese Adresse versandt.",
+        "use_saved_address": "Verwenden Sie eine andere Adresse"
       },
       "marketplaces": {
         "legal_notice": {
