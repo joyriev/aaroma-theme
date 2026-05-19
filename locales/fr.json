@@ -813,7 +813,52 @@
         "payment_option": {
           "accessibility_label": "Choisissez un mode de paiement"
         },
-        "payment_method_rollup_accessibility_label": "Options de méthodes de paiement"
+        "payment_method_rollup_accessibility_label": "Options de méthodes de paiement",
+        "same_billing_address_label": "Identique à l'adresse de livraison",
+        "technical_error": "Les paiements ne peuvent pas être traités pour le moment en raison d'un problème technique. Veuillez réessayer dans quelques minutes.",
+        "sofort_label": "Virement bancaire direct",
+        "subscription_agreement_label_html": "Je comprends que j'accepte un abonnement. Celui-ci sera renouvelé au prix et à la fréquence indiqués jusqu'à ce qu'il soit terminé ou <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">annulé</a>.",
+        "subscription_card_update_agreement_label": "La modification du mode de paiement mettra à jour votre abonnement et les paiements récurrents futurs.",
+        "subscription_agreement_label": "Un ou plusieurs articles dans votre panier sont un achat différé ou un abonnement. En poursuivant votre paiement, vous acceptez que votre méthode de paiement soit automatiquement débitée au prix et à la fréquence indiqués sur cette page, jusqu'à ce que cela prenne fin ou que vous annuliez. Toutes les annulations sont soumises à la %{cancelled}.",
+        "subscription_agreement_cancelled": "politique d'annulation",
+        "purchase_options_card_update_agreement_label_html": "En mettant à jour votre méthode de paiement, vous autorisez les paiements pour chaque achat récurrent ou différé conformément à la <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">%{cancellation_policy}</a> de ce magasin.",
+        "receiver_payment_experience_hint": "Après avoir passé votre commande, vous recevrez les informations de paiement. Effectuez le paiement via Multibanco ou en ligne dans un délai de %{due_days} jours.",
+        "purchase_options_agreement_label": "Un ou plusieurs articles dans votre panier sont un achat différé, un abonnement ou un achat récurrent. En poursuivant votre paiement, vous acceptez que votre méthode de paiement soit automatiquement débitée au prix et à la fréquence indiqués sur cette page jusqu'à ce que cela prenne fin ou que vous annuliez. Toutes les annulations sont soumises à la %{cancellation_policy_label}.",
+        "purchase_options_agreement_label_html": "Je comprends qu’un ou plusieurs articles dans mon panier sont des achats différés, par abonnement ou récurrents. En continuant, j’accepte les\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">conditions d’annulation</a>\net je vous autorise à débiter ma méthode de paiement aux prix, fréquences et dates indiqués sur cette page jusqu’à ce que ma commande soit terminée ou que j’annule, si cela est permis.",
+        "store_credit": {
+          "label": "Crédit boutique",
+          "apply_label": "Utiliser le crédit boutique",
+          "add_label": "Ajouter un crédit boutique",
+          "manage_label": "Gérer le crédit en magasin",
+          "buying_gift_card": "Vous ne pouvez pas utiliser de crédit en magasin pour acheter une carte cadeau",
+          "no_fixed_selling_plans": "Vous ne pouvez pas utiliser de crédit en magasin pour les options d'achat différé"
+        },
+        "same_billing_address_checkbox_label": "Utilisez l'adresse de livraison comme adresse de facturation",
+        "shipping_rate_updated": "Les méthodes d'expédition disponibles ont été mises à jour. Veuillez confirmer votre choix avant de régler.",
+        "preview_not_available": {
+          "title": "Exemple non disponible",
+          "content": "Ne vous inquiétez pas, cette caisse rapide fonctionne pour vos clients.",
+          "button": "D'accord"
+        },
+        "purchase_options_and_vaulting_agreement_label": "Un ou plusieurs articles dans votre panier sont un achat différé ou un abonnement. En poursuivant votre paiement, vous acceptez que votre méthode de paiement soit automatiquement débitée au prix et à la fréquence indiqués sur cette page jusqu'à ce que cela prenne fin ou que vous annuliez. Toutes les annulations sont soumises à la %{cancellation_policy_label}.",
+        "purchase_options_cancellation_policy_label": "politique d'annulation",
+        "saved_credit_card_info": "Derniers quatre chiffres",
+        "saved_credit_cards_modal": {
+          "done": "Prêt"
+        },
+        "purchase_order_number": {
+          "title": "Numéro de commande (PO)",
+          "label": "Numéro de commande (facultatif)"
+        },
+        "shop_pay_installments_label": "Acheter en plusieurs fois avec Shop Pay",
+        "subscription_heading": "Conditions d'abonnement",
+        "purchase_options_agreement_label_wallets": "En poursuivant votre paiement, vous acceptez les frais futurs indiqués sur cette page ainsi que la politique d'annulation.",
+        "saved_credit_card_cvv_verification": "Saisissez le code de sécurité de votre carte à des fins de vérification.",
+        "proposed_gateway_unavailable": "La méthode de paiement proposée n'est pas disponible",
+        "shop_pay_ideal_unavailable_error": "iDEAL | Wero n'est pas disponible pour cette commande. Choisissez un autre mode de paiement.",
+        "simulated_express_checkout": "Les portefeuilles ne sont pas disponibles dans l'aperçu d'édition en raison de votre région ou de votre navigateur",
+        "swish_label": "Taciturne",
+        "separate_payments_label": "Vos articles proviennent de plus d'une boutique. Vous serez facturé dans %{separate_payments_link}."
       },
       "thank_you": {
         "thank_you_item_label": {
