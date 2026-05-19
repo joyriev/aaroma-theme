@@ -2491,6 +2491,43 @@
         "track": {
           "status_html": "<b>Email opening is being tracked.</b>",
           "visibility": "We will only see if you have opened the email as part of the total percentage of opened emails."
+        },
+        "updated_policy": {
+          "status_html": "<b>Email opening is being tracked.</b>",
+          "visibility": "We have updated our policy and now track email opens. Email opens are reported anonymously. We only see if you have opened an email as part of the total percentage of opened emails."
+        }
+      },
+      "unsubscribed": {
+        "confirmation": "You have unsubscribed from our mailing list.",
+        "disclaimer": "You will no longer receive marketing updates from us. You can subscribe again at any time.",
+        "preview": "You are viewing a preview of what customers will see when they unsubscribe."
+      }
+    },
+    "errors": {
+      "blank": "must not be empty",
+      "credit_card_session_expired": "The authorization for the credit card has expired, please re-enter your payment details. Your card has not been charged.",
+      "empty": "must not be empty",
+      "discount_disabled": "This discount is disabled",
+      "discount_expired": "This discount is no longer valid",
+      "discount_not_found": "Cannot find a valid discount that matches the entered code",
+      "gift_card_already_applied": "The code has already been applied to your checkout process",
+      "gift_card_currency_mismatch": "Your gift card is in %{gift_card_currency}. Contact us to reissue it in %{checkout_currency}.",
+      "gift_card_depleted": "There is no balance left on this gift voucher",
+      "gift_card_expired": "Gift voucher has expired",
+      "contains_html_tags": "may not contain HTML tags",
+      "password_mismatch": "must match the specified password",
+      "contains_spaces": "begins or ends with spaces.",
+      "invalid_type": "Sorry, we do not accept cards of this type.",
+      "invalid_format": "layout is not valid",
+      "reset_password_html": "This email address is already linked to an account. If this account belongs to you, you can <a href=\"/account/login#recover\">reset your password</a>",
+      "blocked_address": "This location is not supported",
+      "shop_404": {
+        "ctas": {
+          "editions": {
+            "header": "View Shopify editions",
+            "caption": "With more than 100 product improvements, you can be more productive and creative, and more powerful in business than you ever thought possible.",
+            "link_text": "Discover the latest releases"
+          }
         }
       }
     }

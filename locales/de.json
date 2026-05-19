@@ -962,20 +962,20 @@
         "page_title_no_name": "Danke!",
         "purchase_order_number_title": "Bestellnummer #%{purchase_order_number}",
         "failed_pending_payment_page_title": "Es gibt ein Problem mit Ihrer Zahlung",
-        "contact_information_title": "Kontaktinformationen",
+        "contact_information_title": "Kontaktdaten",
         "shipping_address_map_title": "Google-Karte zeigt den genauen Standort der Lieferadresse: %{address}",
         "tracking_number": "Sendungsnummer:",
         "company_tracking_number": "%{company} Sendungsnummer:",
-        "estimated_arrival": "Voraussichtliches Lieferdatum:",
-        "estimated_delivery": "Aktuelle Lieferzeit:",
+        "estimated_arrival": "Geschätztes Lieferdatum:",
+        "estimated_delivery": "Aktuelle Liefererwartung:",
         "re-order": "Die gleichen Artikel erneut bestellen",
         "items_fulfilled_by_store": {
           "one": "Artikel, die Sie gekauft haben, werden von %{remote_shop_name} geliefert.",
           "other": "Artikel, die Sie gekauft haben, werden von anderen Geschäften geliefert."
         },
-        "gift_card_confirmation_by_text": "Wenn Sie es nicht erhalten haben, senden Sie die Nachricht erneut oder kontaktieren Sie uns.",
-        "gift_card_confirmation_by_email": "Wenn Sie es nicht erhalten haben, senden Sie die E-Mail erneut oder kontaktieren Sie uns.",
-        "gift_card_title": "Geschenkkarten",
+        "gift_card_confirmation_by_text": "Wenn Sie es nicht erhalten haben, senden Sie den Text bitte erneut oder kontaktieren Sie uns.",
+        "gift_card_confirmation_by_email": "Wenn Sie es nicht erhalten haben, senden Sie die E-Mail bitte erneut oder kontaktieren Sie uns.",
+        "gift_card_title": "Geschenkgutscheine",
         "resend_gift_cards": "Geschenkkarten erneut senden",
         "thank_you_title": "Ihre Bestellung ist bestätigt",
         "thank_you_title_payment": "Ihre Zahlung ist bestätigt",
@@ -1097,8 +1097,8 @@
         "order_status_updates_with_missing": "Wählen Sie, wie Sie Versandbenachrichtigungen erhalten möchten.",
         "order_status_confirmed_with_installments_payment_return": "Richten Sie Ihre Aufmerksamkeit wieder auf die Verkaufsberaterin.",
         "order_status_confirmed_with_installments_payment_confirm": "Sie erhalten in Kürze eine Bestätigungs-E-Mail mit Ihrer Bestellnummer und den Details Ihres Ratenzahlungsplans.",
-        "confirmed_title": "Ihre Bestellung ist bestätigt",
-        "confirmed_description": "Wir haben Ihre Bestellung angenommen und bereiten sie vor. Besuchen Sie diese Seite erneut, um Updates zum Versandstatus zu erhalten.",
+        "confirmed_title": "Ihre Bestellung wurde bestätigt",
+        "confirmed_description": "Wir haben Ihre Bestellung erhalten und bereiten sie vor. Besuchen Sie diese Seite erneut, um Updates zum Status Ihrer Sendung zu erhalten.",
         "confirmed_orders_title": "Ihre Bestellungen sind bestätigt",
         "ready_for_pickup_title": "Ihre Bestellung ist zur Abholung bereit",
         "ready_for_pickup_description": "Ihre Bestellung ist zur Abholung bereit. Bringen Sie Ihre Bestellbestätigung mit, wenn Sie Ihre Bestellung abholen.",
@@ -1111,7 +1111,7 @@
         "order_updates_past_step_prefix": "Vorheriger Schritt:",
         "order_updates_upcoming_step_prefix": "Nächster Schritt:",
         "in_transit_title": "Ihre Bestellung ist unterwegs",
-        "in_transit_description": "Sie erhalten Updates über den Fortschritt.",
+        "in_transit_description": "Sie erhalten Aktualisierungen zum Fortschritt.",
         "in_transit_description_days": "Sie sollten Ihre Bestellung in den nächsten %{number} Tagen erhalten.",
         "in_transit_description_today": "Sie sollten Ihre Bestellung heute erhalten.",
         "in_transit_description_tomorrow": "Sie sollten Ihre Bestellung am nächsten Tag erhalten.",
@@ -1127,19 +1127,19 @@
         "attempted_delivery_local_description_html": "Wir konnten Ihre Bestellung nicht zustellen. Um eine neue Lieferung zu vereinbaren, %{contact_us}.",
         "delivered": "Geliefert",
         "delivered_title": "Ihre Bestellung wurde geliefert",
-        "delivered_description_html": "Ihre Bestellung wurde an die von Ihnen angegebene Adresse geliefert. Falls Sie sie nicht erhalten haben oder andere Probleme auftreten, %{contact_us}.",
+        "delivered_description_html": "Ihre Bestellung wurde an die von Ihnen angegebene Adresse geliefert. Wenn Sie sie nicht erhalten haben oder andere Probleme auftreten, %{contact_us}.",
         "delivered_local_title": "Ihre Bestellung wurde geliefert",
-        "delivered_local_description_html": "Ihre Bestellung ist noch nicht eingetroffen? %{let_us_know}.",
+        "delivered_local_description_html": "Deine Bestellung noch nicht erhalten? %{let_us_know}.",
         "choose_payment_method_later": "Wählen Sie später die Zahlungsmethode aus",
         "picked_up_title": "Ihre Bestellung wurde abgeholt",
         "picked_up_description_html": "Ihre Bestellung wurde am %{date} bei %{location_name} abgeholt.",
-        "contact_us": "Kontaktieren Sie uns",
-        "contact_us_lowercase": "kontaktieren Sie uns",
+        "contact_us": "Nehmen Sie Kontakt mit uns auf",
+        "contact_us_lowercase": "nehmen Sie Kontakt mit uns auf",
         "contact_us_html": "Brauchen Sie Hilfe? %{contact_us}",
         "updated_time": "Aktualisiert vor %{time_ago}",
         "failure": "Nicht geliefert",
         "failed_title": "Ihre Bestellung konnte nicht zugestellt werden",
-        "failed_contact_merchant": "Kontaktieren Sie %{company}, um die Lieferung zu vereinbaren.",
+        "failed_contact_merchant": "Kontaktieren Sie %{company}, um die Lieferung zu arrangieren.",
         "failed_contact_merchant_no_company": "Kontaktieren Sie uns, um die Lieferung zu arrangieren.",
         "non_shippable_title": "Ihre Bestellung ist abgeschlossen",
         "login_title": "Melden Sie sich an, um alle Bestelldetails anzuzeigen",
@@ -1150,7 +1150,7 @@
           "one": "kaufen Sie auch dieses Produkt",
           "other": "kaufe auch diese Produkte"
         },
-        "customer_information_hidden_fields_message": "Melden Sie sich an, um alle Kundeninformationen anzuzeigen.",
+        "customer_information_hidden_fields_message": "Melden Sie sich an, um alle Kundendaten einzusehen.",
         "cancelled_title": "Ihre Bestellung wurde storniert",
         "cancelled_description": "Ihre Bestellung wurde am %{date} storniert. Kontaktieren Sie uns, wenn Sie Fragen haben.",
         "customer_validation_error": "Geben Sie eine gültige E-Mail-Adresse oder Bestellnummer ein.",
@@ -1165,8 +1165,8 @@
         },
         "fulfillment": {
           "fulfilled_table_title": "Artikel in dieser Sendung",
-          "unfulfilled_table_title": "Artikel, die für den Versand vorbereitet werden",
-          "quantity_label": "Menge"
+          "unfulfilled_table_title": "Artikel werden für den Versand vorbereitet",
+          "quantity_label": "Anzahl"
         },
         "order_updates_description_missing": "Sie erhalten keine Versandaktualisierungen.",
         "order_updates_subscribe_to_email_notifications": "Erhalten Sie Versandupdates per E-Mail",
@@ -1175,7 +1175,7 @@
         "order_updates_submit_subscription": "Absenden",
         "other_options": "Andere Optionen",
         "delivery_information_label": "Lieferinformationen:",
-        "gift_card_sent_confirmation": "Geschenkkarten versendet",
+        "gift_card_sent_confirmation": "Geschenkgutscheine versandt",
         "qr_code": {
           "send_link_to_phone": "Oder senden Sie einen Link an Ihr Telefon",
           "title": "Verfolge auf deinem Telefon"
@@ -1207,28 +1207,28 @@
         },
         "manage_order_label": "Verwalten Sie Ihre Bestellung",
         "gift_card_confirmation_by_text_typ": {
-          "one": "Sie erhalten in wenigen Minuten eine SMS mit Ihrer Geschenkkarte.",
-          "other": "Sie erhalten in wenigen Minuten eine SMS mit Ihren Geschenkkarten."
+          "one": "Du erhältst innerhalb weniger Minuten eine SMS mit deinem Geschenkgutschein.",
+          "other": "Du erhältst innerhalb weniger Minuten eine SMS mit deinen Geschenkgutscheinen."
         },
         "gift_card_confirmation_by_email_typ": {
-          "one": "Sie erhalten in wenigen Minuten eine E-Mail mit Ihrer Geschenkkarte.",
-          "other": "Sie erhalten in wenigen Minuten eine E-Mail mit Ihren Geschenkkarten."
+          "one": "Du erhältst innerhalb weniger Minuten eine E-Mail mit deinem Geschenkgutschein.",
+          "other": "Du erhältst innerhalb weniger Minuten eine E-Mail mit deinen Geschenkgutscheinen."
         },
         "gift_card_email_title": {
-          "one": "Geschenkkarte wurde per E-Mail gesendet",
-          "other": "Geschenkkarten wurden per E-Mail versendet"
+          "one": "Der Geschenkgutschein wurde per E-Mail versandt",
+          "other": "Geschenkgutscheine wurden per E-Mail versandt"
         },
         "gift_card_text_title": {
-          "one": "Geschenkkarte wurde per SMS gesendet",
-          "other": "Geschenkkarten wurden per SMS versendet"
+          "one": "Der Geschenkgutschein wurde per SMS versendet",
+          "other": "Geschenkgutscheine wurden per SMS versandt"
         },
         "gift_card_resent_confirmation": {
-          "one": "Geschenkkarte wurde erneut gesendet.",
-          "other": "Geschenkkarten wurden erneut gesendet."
+          "one": "Geschenkgutschein wurde erneut versandt.",
+          "other": "Geschenkgutscheine wurden erneut versandt."
         },
         "gift_card_resend_failure": {
-          "one": "Beim erneuten Senden Ihrer Geschenkkarte ist ein Problem aufgetreten. Versuchen Sie es erneut oder kontaktieren Sie uns.",
-          "other": "Beim erneuten Senden Ihrer Geschenkkarten ist ein Problem aufgetreten. Versuchen Sie es erneut oder kontaktieren Sie uns."
+          "one": "Es gab ein Problem beim erneuten Senden Ihres Geschenkgutscheins. Bitte versuchen Sie es erneut oder kontaktieren Sie uns.",
+          "other": "Es gab ein Problem beim erneuten Versenden Ihrer Geschenkgutscheine. Bitte versuchen Sie es erneut oder kontaktieren Sie uns."
         },
         "vat_invoices": {
           "title": "Mehrwertsteuerrechnungen"
@@ -1243,7 +1243,8 @@
         },
         "attempted_delivery_local_title": "Verpasste Lieferung",
         "checkout_on_remote_shop_link_text": "Bezahlen bei %{remoteShopName}",
-        "cashback_notice": "Du erhältst dein Cashback nach 30 Tagen"
+        "cashback_notice": "Du erhältst dein Cashback nach 30 Tagen",
+        "customer_information_title": "Bestelldaten"
       },
       "general": {
         "remove_chip": "Artikel entfernen",

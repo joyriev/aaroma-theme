@@ -2364,7 +2364,53 @@
         "price_and_quantity_update": {
           "description": "Les prix et les quantités disponibles de ces articles ont été modifiés et mis à jour dans votre panier."
         },
-        "out_of_stock_in_context_label": "Ce produit n'est pas disponible dans votre pays/région."
+        "out_of_stock_in_context_label": "Ce produit n'est pas disponible dans votre pays/région.",
+        "title": "Rupture de stock",
+        "quantity_column_header": "Nombre",
+        "reduced_with_quantity_label": "Plus que %{quantity_available} disponible",
+        "remove": "Supprimer",
+        "quantity_update": {
+          "page_title": "Mettre à jour le nombre",
+          "title": "Mettre à jour le nombre",
+          "description": "Les quantités disponibles pour ces articles ont été modifiées et mises à jour dans votre panier."
+        },
+        "unpurchasable_product": {
+          "title": "Produit non destiné à la vente",
+          "message": "Ces articles ne sont pas disponibles pour les commandes professionnelles.",
+          "status_column_header": "Non disponible"
+        },
+        "unpurchasable_product_generic": {
+          "title": "Produit non destiné à la vente",
+          "status_column_header": "Non disponible"
+        },
+        "unshippable_product": {
+          "header": {
+            "one": "Aucune livraison disponible pour %{count} article",
+            "other": "Aucune livraison disponible pour %{count} articles"
+          },
+          "message": {
+            "one": "Cet article sera retiré de votre panier car aucune méthode de livraison n'est disponible pour votre adresse.",
+            "other": "Ces articles seront retirés de votre panier car aucune méthode de livraison n'est disponible pour votre adresse."
+          },
+          "status_column_header": "Pas de livraison"
+        },
+        "price_update": {
+          "title": "Mise à jour des prix",
+          "description": "Les prix de ces articles ont changé et ont été mis à jour dans votre panier.",
+          "updated_price": "Prix mis à jour"
+        },
+        "return_to_store_label": "Retour au magasin",
+        "unfulfillable_product": {
+          "title": "Livraison non disponible",
+          "message": {
+            "one": "%{delivery_method} n'est plus disponible pour cet article.",
+            "other": "%{delivery_method} n'est plus disponible pour ces articles."
+          },
+          "default_message": {
+            "one": "La méthode de livraison choisie n'est plus disponible pour cet article.",
+            "other": "La méthode de livraison choisie n'est plus disponible pour ces articles."
+          }
+        }
       },
       "split_delivery": {
         "pickup_all_items": "Emballer tous les articles",
@@ -2405,6 +2451,34 @@
           },
           "banner": "Votre méthode de livraison a été mise à jour"
         }
+      },
+      "subscriptions": {
+        "recurring_totals": "%{total_price} chaque %{interval}",
+        "recurring_total_intervals": {
+          "day": {
+            "other": "%{count} jours"
+          },
+          "week": {
+            "other": "%{count} semaines"
+          },
+          "month": {
+            "other": "%{count} mois"
+          },
+          "year": {
+            "one": "année",
+            "other": "%{count} ans"
+          }
+        },
+        "recurring_totals_with_initial_order_shipping_discount": "Premier paiement %{total_price_with_discount}, puis %{recurring_total}",
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", et %{count} paiement de %{total_price}",
+            "other": ", et %{count} paiements de chacun %{total_price}"
+          }
+        }
+      },
+      "store_credit_errors": {
+        "generic_error": "Il y a eu un problème avec votre crédit en boutique. Veuillez réessayer ou recharger la page."
       }
     },
     "attributes": {
