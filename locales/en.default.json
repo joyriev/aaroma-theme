@@ -2248,7 +2248,50 @@
         "order_status_payments_app_pending_payment_description_default_with_phone_payment": "You will receive a confirmation message soon. Track your order with the Store app.",
         "order_status_payments_app_pending_payment_description_default_with_phone_pick_up": "You will receive a confirmation message soon. Track your order with the Store app.",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "After completing your payment, you will receive a confirmation text. Track your order with the Store app.",
-        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "After completing your payment, you will receive a confirmation text. Track your order with the Store app."
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "After completing your payment, you will receive a confirmation text. Track your order with the Store app.",
+        "shipping_address_map_title": "Google map with a marker of the shipping address: %{address}",
+        "thank_you_confirmed_order_with_email": "You will soon receive a confirmation email with your order number.",
+        "thank_you_confirmed_order_with_phone": "You will soon receive a confirmation text with your order number.",
+        "thank_you_confirmed_order_with_email_and_phone": "You will soon receive a confirmation email with your order number.",
+        "thank_you_confirmed_order_with_email_pick_up": "You will receive an email as soon as your order is ready for pickup.",
+        "thank_you_confirmed_order_with_phone_pick_up": "You will receive a text message as soon as your order is ready for pickup.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "You will receive an email as soon as your order is ready for pickup.",
+        "ready_for_pickup_description": "Your order is ready for pickup. Please bring your order confirmation when you come to collect your order.",
+        "shop_phone_description": "You will receive a text message with a link to the Store app to track your order.",
+        "ready_for_delivery_description": "We have prepared your order.",
+        "resend_gift_cards": "Resend gift vouchers",
+        "thank_you_confirmed_order_with_email_payment": "You have made a payment for your order on %{date}.",
+        "thank_you_confirmed_order_with_phone_payment": "You have made a payment for your order on %{date}.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "You have made a payment for your order on %{date}.",
+        "thank_you_confirmed_order_with_draft": "We will let you know if we need more information or when your order is confirmed.",
+        "subscriptions_management": {
+          "description": "Go to your account to view and manage your subscriptions."
+        },
+        "resend_gift_cards_by_email": "Resend e-mail",
+        "resend_gift_cards_by_text": "Resend SMS message",
+        "thank_you_payments_app_failed_pending_payment": "You are not charged for your order. Go back to your shopping cart to view your order and pay again.",
+        "thank_you_confirmed_order_with_draft_payment": "We will let you know if we need more information or when your order is confirmed.",
+        "thank_you_confirmed_order_with_draft_pick_up": "We will let you know if we need more information or when your order is confirmed.",
+        "thank_you_payments_app_failed_pending_payment_payment": "You are not charged for your order. Go back to your shopping cart to view your order and pay again.",
+        "thank_you_payments_app_failed_pending_payment_pick_up": "You are not charged for your order. Go back to your shopping cart to view your order and pay again.",
+        "thank_you_confirmed_orders_with_email": "You will soon receive separate confirmation emails with your order number(s)",
+        "thank_you_confirmed_orders_with_phone": "You will soon receive separate confirmation messages with your order number(s)",
+        "thank_you_confirmed_orders_with_email_and_phone": "You will soon receive separate confirmation emails with your order number(s)",
+        "thank_you_item_label": {
+          "one": "%{count} items"
+        },
+        "thank_you_confirmed_with_email_description": {
+          "single_store": "You will soon receive a confirmation email",
+          "multi_store": "You will soon receive separate confirmation emails from each store."
+        },
+        "thank_you_confirmed_with_phone_description": {
+          "single_store": "You will receive a confirmation message soon",
+          "multi_store": "You will soon receive separate confirmation messages from each store."
+        },
+        "thank_you_confirmed_with_email_and_phone_description": {
+          "single_store": "You will soon receive a confirmation email",
+          "multi_store": "You will soon receive separate confirmation emails from each store."
+        }
       }
     },
     "addresses": {

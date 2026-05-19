@@ -858,24 +858,24 @@
       },
       "shipping_errors": {
         "unavailable_addresses_only_countries": "Ihre Bestellung kann nur an {{countriesList}} versandt werden. Fügen Sie eine neue Adresse hinzu, um fortzufahren.",
-        "shipping_method": "Die Versandoptionen für Ihre Bestellung haben sich geändert. Überprüfen Sie Ihre Auswahl.",
-        "shipping_method_not_available": "Ihr Warenkorb wurde aktualisiert und die von Ihnen hinzugefügten Artikel können nicht an Ihre Adresse versendet werden. Entfernen Sie die Artikel, um Ihre Bestellung abzuschließen.",
+        "shipping_method": "Die Versandoptionen für Ihre Bestellung wurden geändert. Bitte überprüfen Sie Ihre Auswahl.",
+        "shipping_method_not_available": "Dein Warenkorb wurde aktualisiert und die von dir hinzugefügten Artikel können nicht an deine Adresse geliefert werden. Entferne die Artikel, um deine Bestellung abzuschließen.",
         "shipping_method_not_available_generic": {
-          "one": "Ihre Bestellung kann nicht an die ausgewählte Adresse versendet werden. Überprüfen Sie Ihre Adresse, um sicherzustellen, dass sie korrekt ist, und versuchen Sie es erneut, oder wählen Sie eine andere Adresse aus.",
-          "other": "Einige Artikel in Ihrem Warenkorb können nicht an die von Ihnen eingegebene Adresse versendet werden. Überprüfen Sie Ihre Adresse, um sicherzustellen, dass sie korrekt ist, und versuchen Sie es erneut, oder wählen Sie eine andere Adresse aus."
+          "one": "Ihre Bestellung kann nicht an die angegebene Adresse geliefert werden. Überprüfen Sie Ihre Adresse, um sicherzustellen, dass sie korrekt ist, und versuchen Sie es erneut, oder wählen Sie eine andere Adresse.",
+          "other": "Einige Artikel in Ihrem Warenkorb können nicht an die von Ihnen angegebene Adresse geliefert werden. Überprüfen Sie Ihre Adresse, um sicherzustellen, dass sie korrekt ist, und versuchen Sie es erneut, oder wählen Sie eine andere Adresse."
         },
-        "shipping_method_not_available_due_to_unsatisfied_conditions": "Die Artikel im Warenkorb erfüllen nicht die Preis- oder Gewichtsvoraussetzungen für den Versand. Aktualisieren Sie Ihren Warenkorb und versuchen Sie es erneut.",
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "Die Artikel im Warenkorb erfüllen nicht die Preis- oder Gewichtsvorgaben für den Versand. Aktualisieren Sie Ihren Warenkorb und versuchen Sie es erneut.",
         "shipping_method_not_available_updated": {
           "one": "Der Artikel, den Sie hinzugefügt haben, wird nicht an Ihren Standort versandt. Entfernen Sie ihn, um zur Kasse zu gehen, oder kontaktieren Sie das Geschäft.",
-          "other": "Ein oder mehrere Artikel, die Sie hinzugefügt haben, werden nicht an Ihren Standort geliefert. Entfernen Sie sie, um zur Kasse zu gehen, oder kontaktieren Sie das Geschäft."
+          "other": "Ein oder mehrere Artikel, die Sie hinzugefügt haben, werden nicht an Ihren Standort versendet. Entfernen Sie sie, um zur Kasse zu gehen, oder kontaktieren Sie den Laden."
         },
-        "payment_method_not_supported": "Sie können diese Zahlungsmethode für %{country} nicht verwenden. Nutzen Sie eine andere Zahlungsmethode, um in dieses Land zu versenden.",
-        "empty_state": "Geben Sie Ihre Lieferadresse ein, um verfügbare Versandmethoden anzuzeigen.",
+        "payment_method_not_supported": "Du kannst diese Zahlungsmethode für %{country} nicht verwenden. Nutze eine andere Zahlungsmethode, um in dieses Land zu versenden.",
+        "empty_state": "Geben Sie Ihre Lieferadresse ein, um die verfügbaren Versandarten anzuzeigen.",
         "invalid_selected_address": "Die ausgewählte Versandadresse ist ungültig",
-        "invalid_selected_address_with_update_link": "Die ausgewählte Lieferadresse ist ungültig. %{update_address_link} oder wählen Sie eine andere Adresse aus",
-        "unavailable_address_country": "Der Versand ist in dem von Ihnen ausgewählten Land nicht verfügbar. Verwenden Sie eine andere Adresse, um fortzufahren.",
+        "invalid_selected_address_with_update_link": "Die ausgewählte Versandadresse ist ungültig. %{update_address_link} oder wählen Sie eine andere Adresse aus",
+        "unavailable_address_country": "Versand ist in das von Ihnen gewählte Land nicht möglich. Bitte verwenden Sie eine andere Adresse, um fortzufahren.",
         "unavailable_selected_address": "Versand für die ausgewählte Adresse nicht verfügbar",
-        "unavailable_selected_address_for_region": "Der Versand ist für {{region}} nicht verfügbar. Wählen Sie eine andere Adresse, um fortzufahren."
+        "unavailable_selected_address_for_region": "Versand ist für {{region}} nicht verfügbar. Wählen Sie eine andere Adresse, um fortzufahren."
       },
       "payment_errors": {
         "shop_pay_wallet_not_available": "Shop Pay ist für diese Kasse nicht verfügbar.",
@@ -1870,10 +1870,10 @@
         "shipping_method_title": "Versandart",
         "shipping_method_rollup_accessibility_label": "Versandarten-Optionen",
         "subscription_shipping": "Abonnementversand",
-        "subscription_local_delivery": "Abonnement für lokale Lieferung",
-        "subscription_pickup": "Abonnement-Abholung",
+        "subscription_local_delivery": "Abonnementzustellung lokal",
+        "subscription_pickup": "Abonnementabholung",
         "waiting_on_rate_notice": "Verfügbare Versandtarife werden abgerufen…",
-        "waiting_on_pickup_location_notice": "Verfügbare Abholorte werden geladen…",
+        "waiting_on_pickup_location_notice": "Verfügbare Abholstellen werden geladen…",
         "no_rates_for_cart_or_destination_notice": "Für Ihren Warenkorb oder Ihre Adresse sind keine Versandarten verfügbar",
         "no_pickup_location_notice": "Mindestens eines Ihrer Produkte ist nicht zur Abholung verfügbar",
         "no_rates_for_country_notice": "Keine Versandkosten für diese Adresse gefunden.",
@@ -1882,7 +1882,7 @@
         "estimated_delivery_time_range": "Geschätzte Lieferung %{min_time}–%{max_time}",
         "delivery_today": "Lieferung am selben Tag %{time}",
         "delivery_tomorrow": "Lieferung am nächsten Tag %{time}",
-        "two_day_delivery": "2-Tage-Lieferung %{time}",
+        "two_day_delivery": "2-tägige Lieferung %{time}",
         "delivery": "Lieferung in %{time}",
         "arrives_time": "Kommt in %{time} an",
         "arrives_time_range": "Ankunft innerhalb von %{min_time}–%{max_time}",
@@ -1977,10 +1977,10 @@
         "shipping_used_as_billing_notice": "Dies wird auch als Ihre Rechnungsadresse für diese Bestellung verwendet.",
         "shipping_address_title": "Versenden an",
         "shipping_address_rollup_accessibility_label": "Versand an Adressoptionen",
-        "third_party_address_timeout": "Adressen können nicht geladen werden. Erneut versuchen oder eine andere Adresse verwenden.",
-        "third_party_address_error": "Beim Laden der Adressauswahl ist ein Fehler aufgetreten. Geben Sie Ihre Adresse unten manuell ein.",
-        "third_party_payment_timeout": "Zahlungsmethoden können nicht geladen werden. Erneut versuchen oder eine andere Zahlungsmethode verwenden.",
-        "third_party_payment_error": "Beim Laden der Zahlungswahl ist ein Fehler aufgetreten. Verwenden Sie eine andere Zahlungsmethode.",
+        "third_party_address_timeout": "Adresse kann nicht geladen werden. Bitte versuchen Sie es erneut oder verwenden Sie eine andere Adresse.",
+        "third_party_address_error": "Beim Laden der Adressauswahl ist ein Fehler aufgetreten. Bitte geben Sie unten Ihre Adresse manuell ein.",
+        "third_party_payment_timeout": "Zahlungsmethoden können nicht geladen werden. Bitte versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
+        "third_party_payment_error": "Beim Laden der Zahlungsoption ist ein Fehler aufgetreten. Bitte verwenden Sie eine andere Zahlungsmethode.",
         "add_delivery_instructions": "Lieferanweisungen hinzufügen",
         "back": "Zurück",
         "address_more": "Mehr Aktionen für diese Adresse",
@@ -2024,11 +2024,11 @@
         "choose_new_address": "Wählen Sie eine neue Adresse aus",
         "unbranded_description_with_fulfillment_days": {
           "one": "Versand am nächsten Werktag",
-          "other": "Versand erfolgt in %{count} Werktagen"
+          "other": "Wird innerhalb von %{count} Werktagen versendet"
         },
         "unbranded_description_with_fulfillment_weeks": {
-          "one": "Versand in %{count} Woche",
-          "other": "Versand in %{count} Wochen"
+          "one": "Wird in %{count} Woche(n) versendet",
+          "other": "Versand innerhalb von %{count} Wochen"
         },
         "add_address": "Verwenden Sie eine andere Adresse",
         "delete": "Entfernen",
@@ -2047,7 +2047,8 @@
           "one": "Rücksendung"
         },
         "split_shipping_merchandise_quantity_label_inline_primary": "Anzahl: %{quantity}",
-        "split_shipping_option_custom": "Angepasst"
+        "split_shipping_option_custom": "Angepasst",
+        "unbranded_description_same_day": "Wird am selben Werktag versandt"
       },
       "localized_fields": {
         "additional_information": {
@@ -2357,8 +2358,9 @@
         "refund_policy": "Rückerstattungsrichtlinie",
         "terms_of_service": "Nutzungsbedingungen",
         "legal_notice": "Rechtlicher Hinweis",
-        "cookie_preferences": "Kekse",
-        "terms_and_policies": "Bedingungen und Richtlinien"
+        "cookie_preferences": "Cookies",
+        "terms_and_policies": "Bedingungen und Richtlinien",
+        "contact_information": "Kontakt aufnehmen"
       },
       "remote_policies": {
         "unavailable_policy": "Für diesen Shop wurde keine %{policy_name} angegeben. Für weitere Informationen können Sie direkt %{shop_name} kontaktieren."
@@ -2695,12 +2697,13 @@
         "lost_permissions_subtitle": "Sie haben keine Berechtigung mehr, B2B-Bestellungen aufzugeben. Melden Sie sich ab, um eine persönliche Bestellung aufzugeben."
       },
       "shop_pay_external": {
-        "title": "Shop Pay Zur Kasse",
+        "title": "Shop Pay Bezahlen",
         "errors": {
-          "try_again_later": "Überprüfen Sie Ihre Verbindung oder schließen Sie dieses Fenster und versuchen Sie es in wenigen Momenten erneut.",
-          "checkout_has_expired": "Ihr Bestellvorgang ist abgelaufen. Schließen Sie dieses Fenster und versuchen Sie erneut, bei {{shopName}} zu bestellen."
+          "try_again_later": "Überprüfen Sie Ihre Verbindung oder schließen Sie dieses Fenster und versuchen Sie es in ein paar Augenblicken erneut.",
+          "checkout_has_expired": "Ihr Bezahlvorgang ist fehlgeschlagen. Schließen Sie dieses Fenster und versuchen Sie erneut, bei {{shopName}} zu bezahlen.",
+          "problem_loading": "Es gibt ein Problem beim Laden von Shop Pay"
         },
-        "return_to_store_simple": "Zurück zum Geschäft"
+        "return_to_store_simple": "Zurück zum Laden"
       },
       "wallets": {
         "return_to_store": "Zurück zum Geschäft",
