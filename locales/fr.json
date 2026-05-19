@@ -691,7 +691,19 @@
           "only_empty_terms_accepted": "Cette politique n'accepte que des conditions vides.",
           "session_is_already_finished": "Cette transaction de paiement est déjà terminée.",
           "tax": {
-            "allocated_required": "Champ « attribué » manquant."
+            "allocated_required": "Champ « attribué » manquant.",
+            "new_tax_must_be_accepted": "Les taxes applicables à votre commande ont changé. Veuillez vérifier votre commande et réessayer.",
+            "unresolvable_tax_terms": "Les conditions proposées sont insolubles compte tenu de la situation actuelle des négociations.",
+            "tax_inclusivity_mismatch": "Négociez à nouveau avec une valeur concrète pour totalTaxAndDutyAmount ou totalAmountIncludedInTarget.",
+            "tax_exemption_not_supported": "Les exonérations fiscales ne sont pas prises en charge pour la session de négociation en cours.",
+            "delivery_tax_exemption_not_supported": "Les exonérations fiscales pour les règles de livraison ne sont actuellement pas prises en charge.",
+            "proposed_allocations_required": "Champ manquant « affectations proposées ».",
+            "merchandise_terms_must_be_defined": "Les conditions pour les marchandises doivent être établies.",
+            "delivery_terms_must_be_defined": "Les conditions de livraison doivent être établies.",
+            "merchandise_discount_terms_must_be_defined": "Les conditions pour la réduction sur les marchandises doivent être établies.",
+            "delivery_discount_terms_must_be_defined": "Les conditions pour la réduction de livraison doivent être établies.",
+            "value_required": "Champ 'valeur' manquant.",
+            "line_splits_not_supported": "Le champ 'assortimentlijnen' doit être divisé de manière à ce que chaque composant de ligne apparaisse séparément dans la proposition du vendeur."
           },
           "payment": {
             "total_amount_mismatch": "Le montant total à payer ne correspond pas à la somme des montants des paiements.",
@@ -732,8 +744,50 @@
           },
           "optional_duties": {
             "optional_duties_not_permitted": "Le refus des droits d'importation n'est pas autorisé à cette caisse."
+          },
+          "tip": {
+            "not_accepted_by_shop": "Le magasin n'accepte pas les pourboires.",
+            "only_one_tip_line_allowed": "Plusieurs lignes d'astuces ne sont pas prises en charge.",
+            "tips_not_allowed_for_b2b": "Les pourboires ne sont pas autorisés dans les magasins B2B.",
+            "currency_change_reset": "Le pourboire a été réinitialisé en raison du changement de devise.",
+            "tips_not_allowed_for_deferred_purchase_options": "Le pourboire n'est pas encore pris en charge pour les options d'achat différé."
           }
-        }
+        },
+        "page_title": "Payer",
+        "forwarding_indicator": {
+          "external": "Ouvre un site web externe."
+        },
+        "full_price": "Prix total :",
+        "google_map_title": "Google Maps",
+        "submit_for_review_button_label": "Soumettre pour évaluation",
+        "submit": "Expédition",
+        "processing": "Traitement en cours…",
+        "stepper": {
+          "increase": "Augmenter {{type}}",
+          "decrease": "Réduire {{type}}",
+          "maximum_reached": "Maximum de la fourgonnette atteint {{value}}"
+        },
+        "remove_tag": "Supprimer l’étiquette",
+        "list_formatter": {
+          "and": {
+            "lastWordConnector": "{{previousWords}}, en {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} en {{secondWord}}"
+          },
+          "or": {
+            "lastWordConnector": "{{previousWords}}, de {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} de {{secondWord}}"
+          }
+        },
+        "map": {
+          "cluster_title": {
+            "one": "Grappe de {{number}} marqueurs",
+            "other": "Groupe de {{number}} marquages"
+          }
+        },
+        "sheet": {
+          "expand": "Déplier"
+        },
+        "loading": "Chargement en cours…"
       },
       "payment_gateway": {
         "bank_account_label": "Compte bancaire"
