@@ -285,49 +285,49 @@
       "announcement": "Annonce",
       "menu": "Menu",
       "cart_count": {
-        "one": "{{ count }} article",
-        "other": "{{ count }} articles",
+        "one": "{{ count }} articles",
+        "other": "{{ count }} articles",
         "many": "{{ count }} articles"
       }
     },
     "cart": {
       "title": "Votre panier",
-      "caption": "Articles du panier",
+      "caption": "Ajouter des articles au panier",
       "remove_title": "Supprimer {{ title }}",
-      "note": "Instructions spéciales concernant la commande",
-      "checkout": "Procéder au paiement",
+      "note": "Instructions spéciales pour la commande",
+      "checkout": "Payer",
       "empty": "Votre panier est vide",
-      "cart_error": "Une erreur est survenue lors de l’actualisation de votre panier. Veuillez réessayer.",
-      "cart_quantity_error_html": "Vous ne pouvez pas ajouter plus de {{ quantity }} de ce produit à votre panier.",
+      "cart_error": "Une erreur s'est produite lors de la mise à jour de votre panier. Veuillez réessayer.",
+      "cart_quantity_error_html": "Vous ne pouvez ajouter que {{ quantity }} de cet article à votre panier.",
       "headings": {
         "product": "Produit",
         "price": "Prix",
         "total": "Total",
-        "quantity": "Quantité",
-        "image": "Image de produit"
+        "quantity": "Nombre",
+        "image": "Image du produit"
       },
-      "update": "Mise à jour",
+      "update": "Mettre à jour",
       "login": {
-        "title": "Vous possédez un compte ?",
-        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Connectez-vous</a> pour payer plus vite."
+        "title": "As-tu un compte ?",
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Connectez-vous</a> pour payer plus rapidement."
       },
       "estimated_total": "Total estimé",
       "new_estimated_total": "Nouveau total estimé"
     },
     "footer": {
-      "payment": "Moyens de paiement"
+      "payment": "Méthodes de paiement"
     },
     "featured_blog": {
-      "view_all": "Tout afficher",
+      "view_all": "Tout voir",
       "onboarding_title": "Article de blog",
-      "onboarding_content": "Donnez à vos clients un résumé de votre article de blog"
+      "onboarding_content": "Offrez à vos clientes un aperçu de votre article de blog"
     },
     "featured_collection": {
-      "view_all": "Tout afficher",
-      "view_all_label": "Afficher tous les produits de la collection {{ collection_name }}"
+      "view_all": "Tout voir",
+      "view_all_label": "Voir tous les produits de la collection {{ collection_name }}"
     },
     "collection_list": {
-      "view_all": "Tout afficher"
+      "view_all": "Tout voir"
     },
     "collection_template": {
       "title": "Collection",
@@ -354,7 +354,7 @@
       "next_announcement": "Annonce suivante",
       "carousel": "Carrousel",
       "announcement": "Annonce",
-      "announcement_bar": "Barre d’annonces"
+      "announcement_bar": "Bandeau d'annonce"
     },
     "quick_order_list": {
       "product_total": "Sous-total des produits",
