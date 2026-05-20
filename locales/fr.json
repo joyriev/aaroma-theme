@@ -335,16 +335,16 @@
       "use_fewer_filters_html": "Utiliser moins de filtres ou <a class=\"{{ class }}\" href=\"{{ link }}\">tout supprimer</a>"
     },
     "video": {
-      "load_video": "Charger la vidéo : {{ description }}"
+      "load_video": "Chargement de la vidéo : {{ description }}"
     },
     "slideshow": {
-      "load_slide": "Charger la diapositive",
+      "load_slide": "Charger le jour",
       "previous_slideshow": "Diapositive précédente",
       "next_slideshow": "Diapositive suivante",
-      "pause_slideshow": "Interrompre le diaporama",
+      "pause_slideshow": "Mettre la présentation en pause",
       "play_slideshow": "Lire le diaporama",
       "carousel": "Carrousel",
-      "slide": "Diapositive"
+      "slide": "Jour"
     },
     "page": {
       "title": "Titre de la page"
@@ -357,31 +357,31 @@
       "announcement_bar": "Bandeau d'annonce"
     },
     "quick_order_list": {
-      "product_total": "Sous-total des produits",
+      "product_total": "Sous-total du produit",
       "view_cart": "Voir le panier",
-      "each": "{{ money }}/pièce",
+      "each": "{{ money }}/mois",
       "product": "Produit",
       "variant": "Variante",
-      "variant_total": "Total des variantes",
+      "variant_total": "Variante totale",
       "items_added": {
-        "one": "{{ quantity }} article ajouté",
-        "other": "{{ quantity }} articles ajoutés",
+        "one": "{{ quantity }} article ajouté",
+        "other": "{{ quantity }} articles ajoutés",
         "many": "{{ quantity }} articles ajoutés"
       },
       "items_removed": {
-        "one": "{{ quantity }} article retiré",
-        "other": "{{ quantity }} articles retirés",
+        "one": "{{ quantity }} article supprimé",
+        "other": "{{ quantity }} articles supprimés",
         "many": "{{ quantity }} articles retirés"
       },
-      "product_variants": "Variantes de produits",
-      "total_items": "Total des articles",
-      "remove_all_items_confirmation": "Retirer les {{ quantity }} articles de votre panier ?",
-      "remove_all": "Tout retirer",
+      "product_variants": "Variantes de produit",
+      "total_items": "Nombre total d'articles",
+      "remove_all_items_confirmation": "Supprimer tous les {{ quantity }} articles de votre panier ?",
+      "remove_all": "Tout supprimer",
       "cancel": "Annuler",
-      "remove_all_single_item_confirmation": "Supprimer 1 article de votre panier ?",
-      "min_error": "Cet article a un minimum de {{ min }}",
-      "max_error": "Cet article a un maximum de {{ max }}",
-      "step_error": "Vous pouvez ajouter cet article uniquement par incréments de {{ step }}"
+      "remove_all_single_item_confirmation": "Supprimer un article de votre panier ?",
+      "min_error": "Un minimum de {{ min }} s'applique à cet article.",
+      "max_error": "Un maximum de {{ max }} s'applique à cet article.",
+      "step_error": "Vous ne pouvez ajouter cet article qu'en quantités de {{ step }}"
     }
   },
   "localization": {
