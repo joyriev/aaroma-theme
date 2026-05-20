@@ -285,21 +285,21 @@
       "announcement": "Announcement",
       "menu": "Menu",
       "cart_count": {
-        "one": "{{ count }} item",
+        "one": "{{ count }} items",
         "other": "{{ count }} items"
       }
     },
     "cart": {
-      "title": "Your cart",
-      "caption": "Cart items",
+      "title": "Your shopping cart",
+      "caption": "Add items to cart",
       "remove_title": "Remove {{ title }}",
       "estimated_total": "Estimated total",
       "new_estimated_total": "New estimated total",
-      "note": "Order special instructions",
-      "checkout": "Check out",
-      "empty": "Your cart is empty",
-      "cart_error": "There was an error while updating your cart. Please try again.",
-      "cart_quantity_error_html": "You can only add {{ quantity }} of this item to your cart.",
+      "note": "Special instructions for order",
+      "checkout": "Checkout",
+      "empty": "Your shopping cart is empty",
+      "cart_error": "An error occurred while updating your shopping cart. Please try again.",
+      "cart_quantity_error_html": "You can only add {{ quantity }} of this item to your shopping cart.",
       "duties_and_taxes_included_shipping_at_checkout_with_policy_html": " ",
       "duties_and_taxes_included_shipping_at_checkout_without_policy": " ",
       "taxes_included_shipping_at_checkout_with_policy_html": " ",
@@ -312,12 +312,12 @@
         "product": "Product",
         "price": "Price",
         "total": "Total",
-        "quantity": "Quantity",
+        "quantity": "Number",
         "image": "Product image"
       },
       "update": "Update",
       "login": {
-        "title": "Have an account?",
+        "title": "Do you have an account?",
         "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Log in</a> to check out faster."
       }
     },
@@ -327,7 +327,7 @@
     "featured_blog": {
       "view_all": "View all",
       "onboarding_title": "Blog post",
-      "onboarding_content": "Give your customers a summary of your blog post"
+      "onboarding_content": "Give your customers an overview of your blog post"
     },
     "featured_collection": {
       "view_all": "View all",

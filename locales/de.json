@@ -281,48 +281,48 @@
       }
     },
     "cart": {
-      "title": "Dein Warenkorb",
-      "caption": "Artikel im Warenkorb",
+      "title": "Ihr Warenkorb",
+      "caption": "Artikel zum Warenkorb hinzufügen",
       "remove_title": "{{ title }} entfernen",
-      "note": "Spezielle Bestellanweisungen",
-      "checkout": "Auschecken",
-      "empty": "Dein Warenkorb ist leer",
+      "note": "Besondere Anweisungen für die Bestellung",
+      "checkout": "Bezahlen",
+      "empty": "Ihr Warenkorb ist leer",
       "cart_error": "Beim Aktualisieren deines Warenkorbs ist ein Fehler aufgetreten. Bitte versuche es erneut.",
-      "cart_quantity_error_html": "Du kannst deinem Warenkorb nur {{ quantity }} Stück dieses Artikels hinzufügen.",
+      "cart_quantity_error_html": "Du kannst nur {{ quantity }} von diesem Artikel in deinen Warenkorb legen.",
       "headings": {
         "product": "Produkt",
         "price": "Preis",
-        "total": "Gesamtsumme",
+        "total": "Insgesamt",
         "quantity": "Anzahl",
         "image": "Produktbild"
       },
       "update": "Aktualisieren",
       "login": {
         "title": "Hast du ein Konto?",
-        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Logge dich ein</a>, damit es beim Checkout schneller geht."
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Anmelden</a>, um schneller zu bezahlen."
       },
-      "estimated_total": "Geschätzte Gesamtkosten",
-      "new_estimated_total": "Neuer geschätzter Gesamtbetrag"
+      "estimated_total": "Geschätzte Gesamtsumme",
+      "new_estimated_total": "Neu geschätzte Gesamtsumme"
     },
     "footer": {
       "payment": "Zahlungsmethoden"
     },
     "featured_blog": {
-      "view_all": "Alle anzeigen",
-      "onboarding_title": "Blog-Beitrag",
-      "onboarding_content": "Verschaffe deinen Kunden eine Übersicht über deinen Blog-Beitrag"
+      "view_all": "Alles ansehen",
+      "onboarding_title": "Blogbeitrag",
+      "onboarding_content": "Gib deinen Kundinnen einen Überblick über deinen Blogbeitrag"
     },
     "featured_collection": {
-      "view_all": "Alle anzeigen",
-      "view_all_label": "Alle Produkte in der Kollektion {{ collection_name }} anzeigen"
+      "view_all": "Alles ansehen",
+      "view_all_label": "Alle Produkte in der Kollektion {{ collection_name }} ansehen"
     },
     "collection_list": {
-      "view_all": "Alle anzeigen"
+      "view_all": "Alles ansehen"
     },
     "collection_template": {
-      "title": "Kategorie",
+      "title": "Kollektion",
       "empty": "Keine Produkte gefunden",
-      "use_fewer_filters_html": "Verwende weniger Filter oder <a class=\"{{ class }}\" href=\"{{ link }}\">entferne alle</a>"
+      "use_fewer_filters_html": "Weniger Filter verwenden oder <a class=\"{{ class }}\" href=\"{{ link }}\">alles entfernen</a>"
     },
     "video": {
       "load_video": "Video laden: {{ description }}"
