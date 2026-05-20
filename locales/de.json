@@ -328,13 +328,13 @@
       "load_video": "Video laden: {{ description }}"
     },
     "slideshow": {
-      "load_slide": "Folie laden",
+      "load_slide": "Dia hochladen",
       "previous_slideshow": "Vorherige Folie",
       "next_slideshow": "Nächste Folie",
-      "pause_slideshow": "Slideshow pausieren",
-      "play_slideshow": "Slideshow abspielen",
+      "pause_slideshow": "Diashow pausieren",
+      "play_slideshow": "Diashow abspielen",
       "carousel": "Karussell",
-      "slide": "Folie"
+      "slide": "Tag"
     },
     "page": {
       "title": "Seitentitel"
@@ -347,12 +347,12 @@
       "announcement_bar": "Ankündigungsleiste"
     },
     "quick_order_list": {
-      "product_total": "Produktzwischensumme",
+      "product_total": "Produktzwischenbetrag",
       "view_cart": "Warenkorb ansehen",
       "each": "{{ money }}/Stück",
       "product": "Produkt",
       "variant": "Variante",
-      "variant_total": "Varianten insgesamt",
+      "variant_total": "Gesamtvariante",
       "items_added": {
         "one": "{{ quantity }} Artikel hinzugefügt",
         "other": "{{ quantity }} Artikel hinzugefügt"
@@ -362,14 +362,14 @@
         "other": "{{ quantity }} Artikel entfernt"
       },
       "product_variants": "Produktvarianten",
-      "total_items": "Artikel gesamt",
+      "total_items": "Gesamtanzahl der Artikel",
       "remove_all_items_confirmation": "Alle {{ quantity }} Artikel aus deinem Warenkorb entfernen?",
-      "remove_all": "Alle entfernen",
+      "remove_all": "Alles entfernen",
       "cancel": "Abbrechen",
-      "remove_all_single_item_confirmation": "1 Artikel aus dem Warenkorb entfernen?",
-      "min_error": "Dieser Artikel hat ein Minimum von {{ min }}",
-      "max_error": "Dieser Artikel hat ein Maximum von {{ max }}",
-      "step_error": "Du kannst diesen Artikel nur in Abstufungen von {{ step }} hinzufügen."
+      "remove_all_single_item_confirmation": "1 Artikel aus deinem Warenkorb entfernen?",
+      "min_error": "Für diesen Artikel gilt ein Minimum von {{ min }}.",
+      "max_error": "Für diesen Artikel gilt ein Maximum von {{ max }}.",
+      "step_error": "Du kannst diesen Artikel nur in Schritten von {{ step }} hinzufügen."
     }
   },
   "localization": {

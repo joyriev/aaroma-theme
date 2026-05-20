@@ -342,43 +342,43 @@
       "use_fewer_filters_html": "Use fewer filters or <a class=\"{{ class }}\" href=\"{{ link }}\">remove all</a>"
     },
     "video": {
-      "load_video": "Load video: {{ description }}"
+      "load_video": "Loading video: {{ description }}"
     },
     "slideshow": {
-      "load_slide": "Load slide",
+      "load_slide": "Day store",
       "previous_slideshow": "Previous slide",
       "next_slideshow": "Next slide",
       "pause_slideshow": "Pause slideshow",
       "play_slideshow": "Play slideshow",
       "carousel": "Carousel",
-      "slide": "Slide"
+      "slide": "Day"
     },
     "page": {
       "title": "Page title"
     },
     "quick_order_list": {
       "product_total": "Product subtotal",
-      "view_cart": "View cart",
-      "each": "{{ money }}/ea",
+      "view_cart": "View shopping cart",
+      "each": "{{ money }}/pc",
       "product": "Product",
       "variant": "Variant",
-      "variant_total": "Variant total",
+      "variant_total": "Total variant",
       "items_added": {
-        "one": "{{ quantity }} item added",
+        "one": "{{ quantity }} items added",
         "other": "{{ quantity }} items added"
       },
       "items_removed": {
-        "one": "{{ quantity }} item removed",
+        "one": "{{ quantity }} items removed",
         "other": "{{ quantity }} items removed"
       },
       "product_variants": "Product variants",
-      "total_items": "Total items",
-      "remove_all_single_item_confirmation": "Remove 1 item from your cart?",
-      "remove_all_items_confirmation": "Remove all {{ quantity }} items from your cart?",
+      "total_items": "Total number of items",
+      "remove_all_single_item_confirmation": "Remove 1 item from your shopping cart?",
+      "remove_all_items_confirmation": "Remove all {{ quantity }} items from your shopping cart?",
       "remove_all": "Remove all",
       "cancel": "Cancel",
-      "min_error": "This item has a minimum of {{ min }}",
-      "max_error": "This item has a maximum of {{ max }}",
+      "min_error": "A minimum of {{ min }} applies to this item.",
+      "max_error": "A maximum of {{ max }} applies to this item.",
       "step_error": "You can only add this item in increments of {{ step }}"
     }
   },
