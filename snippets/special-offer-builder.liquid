@@ -76,7 +76,7 @@
         {% endif %}
         {% render 'perfume-icon' %}
         <div class="text-base">
-           Kies je parfum
+          Kies je parfum
         </div>
         <span class="inline-block ml-auto">{% render 'arrow-down' %}</span>
       </button>
@@ -92,8 +92,8 @@
         'cursor-pointer hover:bg-[#6e281c]': $store.bundleBuilder.selectedProducts.length >= {{ product_count }}
       }"
     class="w-full flex flex-wrap items-center !mb-0 text-2xl !pb-3 !pt-3 rounded-lg button bg-[#944234] transition-colors shadow-xl tracking-normal button--full-width">
-    <span x-show="$store.bundleBuilder.selectedProducts.length < {{ product_count }}" x-text="'SELECT ' + ({{ product_count }} - $store.bundleBuilder.selectedProducts.length) + ' MORE'"></span>
-    <div class="flex" x-show="$store.bundleBuilder.selectedProducts.length === {{ product_count }}">SHOP NOW
+    <span x-show="$store.bundleBuilder.selectedProducts.length < {{ product_count }}" x-text="'Selecteer nog ' + ({{ product_count }} - $store.bundleBuilder.selectedProducts.length) + ' geuren'"></span>
+    <div class="flex" x-show="$store.bundleBuilder.selectedProducts.length === {{ product_count }}">Nu kopen
       <div class="ml-2 pl-2 border-0 border-l flex items-center border-solid border-gray-200/20">
         <div
           class="inline-block text-lg bg-[#6e281c] px-3 rounded"
