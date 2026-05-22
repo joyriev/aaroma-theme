@@ -723,7 +723,16 @@
         "payment_gateway_missing": "Vali makseviis.",
         "invalid_delivery_address_reference_handle": "Viide kohaletoimetamise aadressile ei saanud seostada ühegi saadaoleva kohaletoimetamise aadressiga.",
         "must_use_available_delivery_address": "Tarneaadress tuleb valida saadaolevate tarneaadresside hulgast.",
-        "must_use_available_shipping_rate": "Saatmistasu tuleb valida saadaolevate saatmistasude hulgast."
+        "must_use_available_shipping_rate": "Saatmistasu tuleb valida saadaolevate saatmistasude hulgast.",
+        "shipping_line_phone_invalid": "Sisestage kehtiv telefoninumber",
+        "tips_invalid_tip_amount": "Sisestage jootraha vähem kui %{amount}",
+        "vaulting_agreement_blank": "Teie makseviis tuleb salvestada, kuna selle tellimuse ülejäänud summa maksmine on hiljem kohustuslik.",
+        "sms_marketing_phone_invalid": "Sisestage kehtiv telefoninumber",
+        "split_cart_international_shipping_not_supported": "Kõik esemed peavad rahvusvahelise saatmise puhul kasutama sama saatmisviisi. Uuenda saatmisviisi või tee mitu tellimust.",
+        "shipping_method_invalid_phone_number": "Täitke oma tarneaadressis telefoninumber, et näha saadaolevaid saatmisviise.",
+        "split_by_delivery_method_not_allowed": "Tarneviisi järgi jaotamine ei ole selle seansi või poe jaoks lubatud.",
+        "split_by_delivery_method_unsupported_method_type": "Jagatud kohaletoimetamise meetodi järgi, proovitud toetamata tüüpi kohaletoimetamise meetodit.",
+        "split_by_delivery_method_requires_merchandise_from_single_location": "Tarneviisi jagamine nõuab, et üksikute kaubareeglite täitmine toimuks ühest asukohast."
       },
       "failed_payment": {
         "page_title": "Makse ei saanud töödelda",
@@ -770,6 +779,57 @@
         "payment": {
           "payment_options": "Vaata kõiki maksevõimalusi"
         }
+      },
+      "general": {
+        "breadcrumb": "Leivapurujälg",
+        "continue_button_label": "Jätka",
+        "complete_purchase_button_label": "Tellimus lõpetada",
+        "authenticate_purchase_button_label": "Makse kinnitamine",
+        "all_rights_reserved": "Kõik õigused kaitstud %{shop_name}",
+        "cart": "Ostukorv",
+        "close_modal_label": "Sulge",
+        "close_notice_label": "Sulge",
+        "continue_to_shipping_method": "Jätka saatmise juurde",
+        "continue_to_payment_method": "Jätka maksmisega",
+        "continue_to_review": "Tellimuse kontrollimine",
+        "back_to_cart": "Tagasi ostukorvi",
+        "back_to_contact_information": "Tagasi teabe juurde",
+        "back_to_shipping_method": "Tagasi saatmise juurde",
+        "back_to_payment_method": "Tagasi maksmise juurde",
+        "choose_shipping_method": "Vali saatmisviis",
+        "choose_payment_method": "Vali makseviis",
+        "choose_billing_address": "Vali arveldusaadress",
+        "contact_us_html": "Võtke meiega ühendust lisateabe saamiseks",
+        "autocomplete_title": "Soovitused",
+        "autocomplete_single_item": "1 artikkel saadaval",
+        "autocomplete_multi_item": "{{number}} artiklit saadaval",
+        "autocomplete_selection": "{{number}} / {{total}}",
+        "autocomplete_close": "Soovitused sulgeda",
+        "checkout_context": {
+          "step_one": "%{shop_name} - Arveldamine"
+        },
+        "continue_to_payment_plans_button_label": "Jätka makseplaanide juurde",
+        "back_button_label": "Tagastama",
+        "choose_delivery_strategy": "Vali kohaletoimetamise meetod",
+        "autocomplete_zero_item": "Ühtegi artiklit pole saadaval",
+        "autocomplete_powered_by_google": "Toidetud {{brandName}} poolt",
+        "dates": {
+          "months": {
+            "january": "jaanuar",
+            "february": "veebruar",
+            "april": "aprill",
+            "august": "Augustus",
+            "december": "detsember"
+          }
+        },
+        "datepicker": {
+          "show_previous_month": "Näitan eelmise kuu, {{month}} {{year}}",
+          "show_next_month": "Toon järgmine kuu, {{month}} {{year}}",
+          "range_start": "Alusta ulatust",
+          "in_range": "Saadaval",
+          "range_end": "Valikoiman lopetus"
+        },
+        "confirm_order_button_label": "Tellimuse kinnitamine"
       }
     }
   },

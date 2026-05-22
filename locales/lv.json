@@ -819,7 +819,32 @@
             "february": "februāris",
             "april": "aprīlis",
             "august": "Augusts",
-            "december": "decembris"
+            "december": "decembris",
+            "march": "marts",
+            "may": "mei",
+            "june": "jūnijs",
+            "july": "jūlijs",
+            "september": "septembris",
+            "october": "Oktobris",
+            "november": "novembris"
+          },
+          "weekdays": {
+            "monday": "Pirmdiena",
+            "tuesday": "Otrdiena",
+            "wednesday": "Trešdiena",
+            "thursday": "Ceturtdiena",
+            "friday": "Piektdiena",
+            "saturday": "sestdien",
+            "sunday": "Svētdiena"
+          },
+          "weekdays_abbreviation": {
+            "monday": "Pirmdiena",
+            "tuesday": "Tu",
+            "wednesday": "Mēs",
+            "thursday": "No",
+            "friday": "Fr",
+            "saturday": "Za",
+            "sunday": "Su"
           }
         },
         "datepicker": {
@@ -829,7 +854,46 @@
           "in_range": "Sasniedzams",
           "range_end": "Sortimenta beigas"
         },
-        "confirm_order_button_label": "Pasūtījuma apstiprināšana"
+        "confirm_order_button_label": "Pasūtījuma apstiprināšana",
+        "error_page_title": "Kļūda",
+        "edit_link_label": "Rediģēt",
+        "errors": {
+          "buyer_identity": {
+            "business_customer_does_not_match_company": "Uzņēmuma kontaktpersona nav piekļuves tiesību uzņēmumam.",
+            "customer_account_required": "Jums jāreģistrējas, lai turpinātu.",
+            "contact_info_does_not_match_customer_account": "Kontaktiem jāatbilst kontam, ar kuru esat pieteicies.",
+            "phone_number_does_not_match_expected_pattern": "Norādītais tālruņa numurs neatbilst gaidītajam formātam.",
+            "email_required": "E-pasta adrese ir obligāta, ja preces tiek iegādātas ar abonementu.",
+            "email_domain_is_invalid": "Norādīto domēnu nevar atrisināt.",
+            "missing_contact_method": "Trūkst derīga saziņas veida.",
+            "checkout_completion_target_is_missing": "Mērķis kases pabeigšanai trūkst.",
+            "invalid_customer_profile": "Tika norādīts nederīgs klienta profils.",
+            "customer_profile_access_restricted": "Kases aparātam nav atļaujas piekļūt klienta profilam.",
+            "checkout_completion_target_is_invalid_proc": "Nederīgs pabeigšanas mērķis norēķināšanās laikā.",
+            "company_location_required": "Klientam jāizvēlas uzņēmuma filiāle, lai turpinātu.",
+            "lost_access_to_company": "Klients ir zaudējis piekļuvi katram uzņēmumam.",
+            "company_purchase_permission_required": "Klientam nav atļaujas veikt uzņēmuma pasūtījumus.",
+            "personal_order_not_allowed": "Personīgie pasūtījumi šajā veikalā nav atļauti.",
+            "buyer_identity_presentment_currency_does_not_match": "Radās problēma, apstrādājot jūsu pasūtījumu. Lūdzu, mēģiniet vēlreiz pēc dažām minūtēm."
+          },
+          "attribution": {
+            "retail_attribution_not_allowed": "Mazumtirdzniecības piešķiršana šai apstrādei nav atļauta.",
+            "retail_attribution_required": "Nepieciešama veikala piešķiršana šai apstrādei."
+          },
+          "captcha": {
+            "metadata_missing": "Captcha aizpildīšana ir obligāta šai darbībai.",
+            "metadata_mismatch": "Norādītais captcha pakalpojumu sniedzējs un veids neatbilst gaidītajām vērtībām.",
+            "job_enqueue_failed": "Captcha validēšanu nevarēja ievietot rindā.",
+            "job_already_queued": "Captcha validācija jau ir ievietota rindā šim captcha tokenam.",
+            "token_expired": "Norādītais captcha tokens ir beidzies. Lūdzu, pabeidziet jaunu captcha, lai turpinātu norēķināties.",
+            "token_invalid": "Norādītais captcha tokens bija nederīgs. Lūdzu, pabeidziet jaunu captcha, lai turpinātu norēķināties."
+          }
+        },
+        "dropzone": {
+          "add_file": "Pievienot failu",
+          "invalid_file_type": "Faila tips netiek atbalstīts",
+          "dragged_over": "Saglabāt failu, lai augšupielādētu"
+        }
       }
     }
   },
