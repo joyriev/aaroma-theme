@@ -886,7 +886,69 @@
             "job_enqueue_failed": "Captcha valideerimist ei saanud järjekorda lisada.",
             "job_already_queued": "Captcha-kinnitamine on selle captcha-märgi jaoks juba järjekorda pandud.",
             "token_expired": "Sisestatud captcha-märgend on aegunud. Jätkamiseks täitke uus captcha.",
-            "token_invalid": "Sisestatud captcha-märgend oli kehtetu. Jätkamiseks maksmisega täitke uus captcha."
+            "token_invalid": "Sisestatud captcha-märgend oli kehtetu. Jätkamiseks maksmisega täitke uus captcha.",
+            "token_missing": "Selle ostu lõpetamiseks tuleb esitada captcha-märgis.",
+            "token_not_valid_for_session": "Sisestatud captcha ei sobi selle kassaga."
+          },
+          "line_item_limit_reached": "Maksimaalne arvu reaüksuste piir on saavutatud.",
+          "merchandise": {
+            "bundle_products_not_supported_for_b2b": "Kombineeritud artikleid ei saa selle asukoha B2B tellimustele lisada.",
+            "gift_card_quantity_mismatch": "Kinkekaartide koodide sisestamisel peavad kaubaartiklite arv ja kinkekaartide koodide arv ühtima.",
+            "gift_card_not_supported": "Kingituskupongid ei ole selle kassaga toetatud.",
+            "gift_card_not_unique": "Kingituskaart koodiga {{code}} esineb selle arvelduse juures rohkem kui üks kord. Koode vormindatakse enne võrdlemist.",
+            "gift_card_used": "Cadeauboncode {{code}} on juba kingituskupongile määratud. Koode vormindatakse enne võrdlust.",
+            "gift_card_invalid": "Kingituskupongi kood {{code}} on kehtetu.",
+            "gift_card_code_changed": "Cadeaukaartkood {{proposed_code}} on muudetud {{formatted_code}}-ks, et vastata vormindusreeglitele.",
+            "gift_card_with_attributes_not_supported": "Kingituskupongid kohandatud omadustega ei ole selle kassasüsteemiga toetatud.",
+            "gift_card_with_components_not_supported": "Kingituskupongid koos osadega ei ole selle kassaga toetatud.",
+            "duplicated_stable_id": "Sellel tootesarjal on sama stabiilne ID kui teisel sarjal.",
+            "bundle_requires_components": "See komplekteeritud toode ei sisalda osi.",
+            "combined_listing_parent_not_purchasable": "Kombineeritud kirjetes olevat peamist toodet ei saa otse osta."
+          },
+          "delivery": {
+            "only_one_delivery_line_allowed": "Ostukorvis võib olla ainult üks tarnepunkt.",
+            "wrong_number_of_delivery_lines": "Iga kaubagrupi jaoks tuleb määrata tarnerida.",
+            "external_delivery_promise_error": "Viga välise tarne lubaduse pärimisel.",
+            "options_instructions_invalid": "Esitatud juhised ei vasta oodatud mustrile.",
+            "destination_address_required": "Sihtkoha aadress on jätkamiseks nõutav.",
+            "pickup_points_unavailable": "Võtmekohad ei ole hetkel saadaval.",
+            "local_pickup_delivery_line_detail_changed": "Praegust kohaletoimetamise strateegiat kohaliku tarne jaoks tuleb muuta, et see saaks jätkuda.",
+            "local_pickup_no_delivery_strategy_available": "Ühtegi saadavalolevat järeletuleku kohaletoimetamise meetodit ei leitud.",
+            "origin_location_id_required": "Päritolukoha ID on nõutav, kui taotletakse POES KÄTTEVÕTMIST.",
+            "invalid_origin_location_id": "Ei õnnestu leida geenide asukohta, mis vastaks päritolu asukoha ID-le.",
+            "origin_location_id_not_allowed": "Nõutud kohaletoimetamise meetodid ei toeta päritolukoha ID-d.",
+            "auto_fulfill_not_allowed": "See seanss ei ole volitatud töötlemiskäitumist muutma.",
+            "auto_fulfill_required": "Automaatne täitmine on nõutav, kui taotletakse MÜÜGI kohaletoimetamise meetodit.",
+            "prefetch_shipping_rates_used": "Eelnevalt määratud saatmistasud ei tohi kunagi tasusid tagastada.",
+            "fulfillment_constraints_not_satisfied": "Üks või mitu tarne tingimust ei ole täidetud.",
+            "must_fulfill_from_constraint_not_satisfied": "Täideviimiseks vajalikud tingimused ei ole täidetud, kuna kaupu ei saa tarnida vajalikest asukohtadest.",
+            "must_fulfill_from_same_location_constraint_not_satisfied": "Täitmise nõuded ei ole täidetud, kuna artikleid ei saa tarnida samast asukohast.",
+            "delivery_strategy_conditions_not_satisfied": "Sellele asukohale on saadaval kohaletoimetamise meetodid, kuid nende tingimustele ei ole vastatud.",
+            "out_of_stock_at_origin_location": "Laoseisu pole algses asukohas.",
+            "invalid_signature": "Kehtetu sooduskoodi allkiri.",
+            "selected_pickup_option_no_longer_available": "Varem valitud järeletuleku valik ei ole enam saadaval.",
+            "mixed_destination_countries": "Kohaletoimetamine ei ole saadaval, kuna kohaletoimetamise reeglid hõlmavad mitut riiki."
+          },
+          "discount": {
+            "discounts_not_allowed_for_b2b": "Soodustused ei ole B2B-poodides lubatud.",
+            "custom_discount_not_honoured": "Määratud kohandatud allahindlust ei arvestatud.",
+            "unsupported_expectation": "Sisestatud sooduskood sisaldas ootust, mida poliitika ei suutnud tõlgendada.",
+            "additional_requested_discount_code_discarded": "{{code}} kehtib, kuid ei ole rakendatav. Kontrollige soodustingimusi.",
+            "allocations_mismatch": "Sinu sooduskood on muudetud. Vaata oma ostukorvi ja proovi uuesti.",
+            "discount_title_too_long": "Soodustuse pealkiri ei tohi olla pikem kui 255 tähemärki.",
+            "additional_requested_discount_discarded": "Teie soodustus kehtib, kuid seda ei saa rakendada. Kontrollige soodustingimusi.",
+            "mixed_destination_countries": "Soodustused pole saadaval, kuna kohaletoimetamise reeglid hõlmavad mitut riiki."
+          },
+          "inventory": {
+            "missing_quantity_value": "Koguse väli puudub ostja laoseisureeglites.",
+            "changing_behavior_not_allowed": "Sellel kliendil puudub luba laoseisu käitumist muuta.",
+            "only_one_inventory_behavior_allowed": "Hetkel on ühe makseprotsessi kohta lubatud ainult üks laoseisu käitumine."
+          },
+          "fx_reconciliation_override": {
+            "shop_currency_mismatch": "Saadud summa peab olema kaupluse valuutas."
+          },
+          "checkout_source": {
+            "revoked": "See kassasüsteem ei ole enam saadaval."
           }
         },
         "dropzone": {

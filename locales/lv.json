@@ -903,7 +903,25 @@
             "gift_card_with_components_not_supported": "Dāvanu kartes ar detaļām šajā kases aparātā netiek atbalstītas.",
             "duplicated_stable_id": "Šai produktu līnijai ir tāds pats stabilais ID kā citai līnijai.",
             "bundle_requires_components": "Šis saliktais produkts nesatur detaļas.",
-            "combined_listing_parent_not_purchasable": "Galvenos produktus no apvienotajām ierakstiem nevar iegādāties tieši."
+            "combined_listing_parent_not_purchasable": "Galvenos produktus no apvienotajām ierakstiem nevar iegādāties tieši.",
+            "only_value_constraint": "Tikai precīzas vērtības ir atļautas preču ievadē.",
+            "merchandise_not_found": "Produkts nav atrasts.",
+            "merchandise_variant_not_found": "Produkta variants nav atrasts.",
+            "merchandise_not_applicable": "Produkta variants nav pieejams iegādei.",
+            "selling_plan_mismatch": "Abonements ir atjaunināts.",
+            "selling_plan_not_supported": "Abonementi netiek atbalstīti.",
+            "selling_plan_not_supported_b2b": "Abonementi netiek atbalstīti B2B norēķinos.",
+            "price_mismatch": "Iepriekš piedāvātā šī priekšmeta cena bija nederīga un ir atjaunināta.",
+            "inventory_not_found": "Nav atrasts krājums šim precei.",
+            "product_not_published": "Produkts nav publicēts.",
+            "minimum_quantity_not_met": "Dažu preču daudzums neatbilst prasītajam minimumam.",
+            "maximum_quantity_exceeded": "Dažu preču daudzums pārsniedz atļauto maksimālo daudzumu.",
+            "quantity_increment_not_met": "Dažu preču daudzums neatbilst pasūtījuma robežām.",
+            "quantity_rules_not_met": "Dažu preču daudzums neatbilst pasūtījuma robežām.",
+            "title_too_long": "Produkta nosaukums ir pārāk garš.",
+            "title_empty": "Produkta nosaukums ir tukšs.",
+            "mixed_currencies": "Kase satur preces ar dažādām valūtām.",
+            "product_not_published_in_buyer_location": "Produkts nav publicēts pircēja atrašanās vietā."
           },
           "delivery": {
             "only_one_delivery_line_allowed": "Grozā drīkst būt tikai viena piegādes rinda.",
@@ -949,6 +967,46 @@
           },
           "checkout_source": {
             "revoked": "Šī kases aparāta vairs nav pieejama."
+          },
+          "only_empty_terms_accepted": "Šī politika pieņem tikai tukšus nosacījumus.",
+          "payment": {
+            "manual_payments_not_allowed_for_b2b": "Rokas maksājumi B2B veikalos nav atļauti.",
+            "positive_amount_expected": "Jāmaksājamā summa ir jābūt lielākai par 0.",
+            "total_amount_mismatch": "Kopējā samaksājamā summa nesakrīt ar maksājumu summu kopsummu.",
+            "subscription_terms_not_accepted": "Abonēšanas noteikumi nav pieņemti.",
+            "missing_session_id": "Trūkst kredītkartes sesijas informācijas.",
+            "gateway_not_supported": "Betaalpoort neatbalsta maksājuma metodes saglabāšanu.",
+            "credit_card_last_name_required": "'uzvārds' nedrīkst būt tukšs.",
+            "credit_card_update_failed": "Kredītkartes atjaunināšana neizdevās.",
+            "invalid_address_type": "Norādītais adreses veids nav derīgs šai maksājumu metodei.",
+            "missing_retail_attributions": "Veikala apraksti ir obligāti manuāli ievadītām kredītkartes maksājumiem.",
+            "unexpected_retail_attributions": "Veikala dati negaidīti sniegti maksājumam ar kredītkarti.",
+            "invalid_card_source": "Šai sesijai nav atļaujas izmantot šo kartes avotu.",
+            "wallet_content_missing": "Maciņa saturs trūkst.",
+            "payment_instrument_not_found": "Maksājuma metode nav atrasta",
+            "unauthorized_capture_method": "Nav atļauts konfigurēt maksājuma veidu inkasācijai.",
+            "saved_payment_methods_not_allowed": "Saglabātās maksājumu metodes nav atļautas.",
+            "saved_payment_methods_not_enabled": "Saglabātās maksājumu metodes šajā veikalā nav iespējotas.",
+            "store_credit_not_enabled": "Veikala kredīts šim veikalam nav ieslēgts.",
+            "store_credit_account_not_found": "Veikala kredīta konts nav atrasts.",
+            "store_credit_account_mismatch": "Veikala kredīta konts neatbilst pircēja identitātei.",
+            "store_credit_mismatched_currency": "Veikala kredītkonta valūta nesakrīt ar valūtu norēķinu brīdī.",
+            "store_credit_insufficient_funds": "Veikala kredītkontā nav pietiekami daudz līdzekļu.",
+            "store_credit_buying_gift_card": "Jūs nevarat izmantot veikala kredītu, lai iegādātos dāvanu karti.",
+            "gift_cards_not_allowed_for_b2b": "Dāvanu kuponi nav atļauti B2B veikalos.",
+            "method_required": "Jāizvēlas maksāšanas veids.",
+            "paypal_express_address_invalid": "PayPal atgrieza nederīgu adresi.",
+            "saved_payment_methods_cvv_verification_disabled": "Izvēlētā maksājuma metode prasa CVV verifikāciju, kas šajā veikalā nav iespējota. Lūdzu, izvēlieties citu maksājuma metodi."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "Šis koncepcijas pasūtījums nepastāv pašreizējā veikalā."
+          },
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "Jūsu pirkuma piedāvājumam jāietver nenegocējami nosacījumi.",
+            "invalid_signature": "Paraksts {{target_terms}} ir nederīgs."
+          },
+          "optional_duties": {
+            "optional_duties_not_permitted": "Muitas nodevu atteikšana pie šīs kases nav atļauta."
           }
         },
         "dropzone": {
