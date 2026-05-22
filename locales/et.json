@@ -2075,7 +2075,55 @@
         "cancelled_payment": "Sinu makse on tühistatud. Proovi uuesti või kasuta mõnda teist makseviisi.",
         "currency": {
           "no_longer_supported": "Poeraha ei ole enam toetatud."
-        }
+        },
+        "generic_error": "Makse töötlemisel tekkis probleem. Proovige uuesti või kasutage mõnda muud makseviisi.",
+        "rejected_transaction": "Teie makse lükati tagasi. Proovige uuesti või kasutage mõnda muud makseviisi.",
+        "order_total_changed": "Teie tellimuse kogusumma on muutunud. Kontrollige seda ja proovige uuesti.",
+        "payment_processing": "Teie makset ei saanud tehnilistel põhjustel töödelda. Proovige uuesti või kasutage mõnda muud makseviisi.",
+        "paypal_zero_amount": "Sa ei saa PayPali kasutada tellimuste eest tasumiseks summas %{amount}. Kinnita, et su tellimus on õige, ja maksa ilma PayPalita.",
+        "paypal_invalid_token": "PayPal ei olnud saadaval. Proovige uuesti või kasutage mõnda muud makseviisi.",
+        "pay_later_failed": "Teie makse järelmaksuga töötlemisel tekkis viga. Valige teine makseviis ja proovige uuesti.",
+        "three_d_secure_failed": "Teie makset ei õnnestunud kinnitada. Proovige uuesti või kasutage mõnda muud makseviisi.",
+        "three_d_secure_throttled": "Liiga palju katseid; oodake enne uuesti proovimist",
+        "subscription_agreement_blank": "Tellimuse ostmiseks tuleb teie makseandmed salvestada. Jätkamiseks kinnitage, et nõustute, või eemaldage tellimusest tellimuse esemed.",
+        "three_d_secure_failed_duplicate": "3D Secure-krediitkaardi autentimine ebaõnnestus, kuna teine autentimine on juba pooleli.",
+        "insufficient_funds": "Teie makse lükati tagasi ebapiisava saldoga. Proovige uuesti või kasutage mõnda muud makseviisi.",
+        "payment_processing_no_retry": "Teie makset ei saanud tehnilistel põhjustel töödelda. Proovige mõnda teist makseviisi.",
+        "deferred_payment_required": "See tellimus nõuab edasilükatud makset. Kontrollige oma tellimust ja proovige uuesti.",
+        "multiple_deferred_payment_not_allowed": "Taotluse kohta on lubatud ainult üks edasi lükatud makse. Kontrollige oma taotlust ja proovige uuesti.",
+        "shipping_must_match_billing": "Arve aadress peab vastama kohaletoimetamise aadressile. Kasutage teist makseviisi.",
+        "pick_up_card": "Teie kaart lükati tagasi. Proovige uuesti või kasutage mõnda muud makseviisi.",
+        "invalid_number": "Sisestage kehtiv kaardinumber",
+        "invalid_expiry_date": "Sisestage kehtiv aegumiskuupäev",
+        "invalid_cvc": "Sisestage kehtiv turvakood",
+        "expired_card": "Teie kaart on aegunud. Kasutage mõnda muud makseviisi.",
+        "processing_error": "Makse töötlemisel tekkis probleem. Proovige uuesti või kasutage mõnda muud makseviisi.",
+        "test_mode_live_card": "See pood ei saa vastu võtta reaalseid tellimusi ega makseid.",
+        "transient_error": "Makse töötlemisel tekkis probleem. Proovige seda lehte värskendada või kontrollige oma internetiühendust.",
+        "missing_shipping_address": "Teie makset ei saanud töödelda, kuna teie tarneaadress puudub. Lisage tarneaadress ja proovige uuesti.",
+        "invalid_shipping_address": "Teie makset ei saanud töödelda, kuna me ei leidnud teie saatmisaadressi. Kontrollige oma saatmisaadressi ja proovige uuesti.",
+        "successful_offsite_with_gift_card_error": "Tekkis probleem teie kinkekaardi makse töötlemisel. Proovige uuesti või kasutage mõnda muud makseviisi.",
+        "development_store_order_limit_reached": "Oled selle makseprotsessoriga arenduspoe tellimuste limiidi saavutanud. Uue tellimuse esitamiseks pead kasutama testmaksegateid. Loe lisaks %{development_store_order_testing_docs_link}.",
+        "development_store_with_order_limit": "Testtellimuse tegemiseks peate kasutama testmakseväravat. Lisateavet leiate %{development_store_order_testing_docs_link}.",
+        "development_store_order_testing_docs_link": "tellimuste testimine arenduspoodides",
+        "method_not_available": "Soovitud makseviis ei ole saadaval. Valige teine makseviis ja proovige uuesti.",
+        "selected_payment_method": "Teie valitud makseviisiga tekkis probleem ja teid ei ole arvele võetud. Proovige uuesti või kasutage mõnda teist makseviisi.",
+        "payment_method_billing_address": "Teie valitud makseviisi arveaadressiga tekkis probleem ja teid ei maksustatud. Kontrollige aadressi ja proovige uuesti või kasutage mõnda muud makseviisi.",
+        "processing_error_checkout_as_guest": "Makse töötlemisel tekkis probleem. Proovige uuesti mõne teise makseviisiga või {{checkout_as_guest_link}}.",
+        "payment_above_threshold": "Makstav summa ületab selle piirkonna rahalise limiidi. Palun vähendage kogusummat ja proovige uuesti.",
+        "risky": "Makse töötlemisel tekkis probleem. Proovige uuesti või kasutage mõnda muud makseviisi.",
+        "expired_buyer_action": "Makseviis on aegunud. Proovige uuesti.",
+        "three_d_secure_failed_payment_method": "Teie kaarti ei õnnestunud kinnitada. Proovige uuesti või lisage teine kaart.",
+        "name_mismatch": "Kontrollige oma kaardiandmeid. Kaardil olev nimi ja arve aadress ei ühti.",
+        "payment_method_not_applicable": "See makseviis ei kehti. Kasutage mõnda muud makseviisi.",
+        "shop_pay_wallet_not_available": "Shop Pay ei ole selle kassa jaoks saadaval.",
+        "market_manager_blocks_wallet_payments": "Maksemeetodit teie riigis ei toetata.",
+        "paypal_over_capture": "Teie kogusumma on uuendatud. Maksa tellimuse lõpetamiseks {{walletName}} abil.",
+        "test_mode_enabled_only_test_cards": "Testrežiim on sisse lülitatud, lisada saab ainult testkrediitkaarte.",
+        "shipping_company_required_error": "{{shopName}} vajab saatmisaadressi jaoks ettevõtte nime.",
+        "payment_credential_delegation_error": "Makse töötlemisel tekkis probleem. Valige uus makseviis.",
+        "installments_payment_method_incompatible": "Valitud makseviisi ei saa kasutada järelmaksu puhul. Palun valige mõni teine makseviis.",
+        "missing_cvc": "Sisestage turvakood"
       },
       "payment_challenge_modal": {
         "instructions": "Viimistle oma ost {{paymentMethod}} koodiga",
@@ -2094,6 +2142,10 @@
       "payment_collection": {
         "cancelled": "Seda makset ei nõuta enam. Lisateabe saamiseks külastage tellimislehte.",
         "paid": "See makse on juba esitatud. Lisateabe saamiseks külastage tellimislehte."
+      },
+      "payment_gateway": {
+        "bank_deposit_label": "Pangasissemakse",
+        "bank_account_label": "Pangakonto"
       }
     }
   },
