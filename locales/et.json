@@ -2635,7 +2635,87 @@
         "title": "Saatmine pole saadaval",
         "invalid_selected_address": "Valitud saatmisaadress ei ole kehtiv",
         "invalid_selected_address_with_update_link": "Valitud saatmisaadress ei ole kehtiv. %{update_address_link} või vali mõni teine aadress",
-        "unavailable_address_country": "Saatmine teie valitud riiki ei ole võimalik. Jätkamiseks kasutage palun teist aadressi."
+        "unavailable_address_country": "Saatmine teie valitud riiki ei ole võimalik. Jätkamiseks kasutage palun teist aadressi.",
+        "unavailable_selected_address": "Saatmine valitud aadressile ei ole saadaval",
+        "unavailable_selected_address_for_region": "Saatmine ei ole saadaval piirkonnas {{region}}. Jätkamiseks vali mõni teine aadress.",
+        "unavailable_addresses_only_countries": "Teie tellimus saab saata ainult aadressidele {{countriesList}}. Jätkamiseks lisage uus aadress."
+      },
+      "stock": {
+        "continue_shopping_button_label": "Jätka",
+        "continue_cta_label": "Jätka maksmist"
+      },
+      "shop_policies": {
+        "refund_policy": "Tagasimaksepoliitika",
+        "privacy_policy": "Privaatsuspoliitika",
+        "terms_of_service": "Kasutustingimused",
+        "legal_notice": "Õiguslik teade",
+        "shipping_policy": "Saatmine",
+        "terms_of_sale": "Müügitingimused",
+        "subscription_policy": "Tühistamised",
+        "purchase_options_policy": "Ostuvõimaluste poliitikareeglid",
+        "contact_information": "Võta ühendust",
+        "purchase_options_cancellation_policy": "Tühistamised",
+        "cookie_preferences": "Koekjes",
+        "policy_label": "Poliitika",
+        "policies_label": "Põhimõtted",
+        "select_policy_label": "Vali kindlustuspoliis",
+        "terms_and_policies": "Tingimused ja poliitikareeglid"
+      },
+      "split_delivery": {
+        "pickup_all_items": "Paki kõik artiklid kokku",
+        "items_for_pickup": "Esemed kättesaamiseks",
+        "delivery_method": "Jagatud tarneviis",
+        "delivery_method_menu": "Jagatud kohaletoimetamise meetodi menüü",
+        "inventory_issue_banner": {
+          "remove_items_or_ship": "%{ship_separately_link} %{remove_items_link}",
+          "remove_items_or_pickup": "%{pickup_in_store_link} või %{remove_items_link}",
+          "heading": {
+            "cannot_be_picked_up": {
+              "one": "%{count} artiklit ei saa kätte saada",
+              "other": "%{count} eset ei õnnestu laadida"
+            },
+            "cannot_be_shipped": {
+              "one": "%{count} artiklit ei saa saata",
+              "other": "%{count} artiklit ei saa saata"
+            }
+          },
+          "remove_item": {
+            "one": "Eemalda artikkel",
+            "other": "Eemalda üksused"
+          },
+          "ship_separately": {
+            "one": "saada see eraldi",
+            "other": "saada need eraldi"
+          },
+          "pick_them_up_in_store": {
+            "one": "võta see poest kätte",
+            "other": "võta see poest kätte"
+          },
+          "remove_item_only": {
+            "one": "Artikli eemaldamine",
+            "other": "Artiklite eemaldamine"
+          }
+        },
+        "items_for_shipping": "Te saatke esemeid",
+        "items_moved_to_shipping_toast": "Artiklid, mida ei saa kätte saada, on saadetiseks ümber paigutatud",
+        "cross_border": {
+          "modal": {
+            "heading": "Muuta riiki?",
+            "content": "Sellega seatakse kõik artiklid uuesti saatmiseks. Sinu järeletuleku- ja saatmiskohtade peab asuma samas riigis.",
+            "change_country": "Muuda riiki"
+          },
+          "banner": "Sinu kohaletoimetamise meetod on uuendatud"
+        }
+      },
+      "shop_pay_external": {
+        "errors": {
+          "problem_loading": "Shop Pay laadimisel tekkis probleem",
+          "try_again_later": "Kontrollige oma ühendust või sulgege see aken ja proovige mõne hetke pärast uuesti.",
+          "checkout_has_expired": "Teie makseprotsess on aegunud. Sulge see aken ja proovi {{shopName}} juures uuesti maksta."
+        },
+        "return_to_store": "Tagasi {{shopName}} juurde",
+        "return_to_store_simple": "Tagasi poodi",
+        "title": "Osta Payga tasudes"
       }
     }
   },
