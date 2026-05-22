@@ -2145,7 +2145,75 @@
       },
       "payment_gateway": {
         "bank_deposit_label": "Pangasissemakse",
-        "bank_account_label": "Pangakonto"
+        "bank_account_label": "Pangakonto",
+        "credit_card_label": "Krediitkaart",
+        "cash_on_delivery_label": "Sularahas kättetoimetamisel (CBA)",
+        "money_order_label": "Postivahetus",
+        "debit_card_label": "Debetkaart",
+        "deferred_payment_label": "Vali hiljem makseviis",
+        "generic_payment_terms": "Teil on maksetingimused {{translatedName}} juures. Teie makse on tasumisele kuuluv {{dueDate}}.",
+        "login_prompt": {
+          "no_access": {
+            "message": "{{logIn}} kontole, millel on juurdepääs sellele asukohale, et lisada või kasutada salvestatud makseviise.",
+            "link": "Logi sisse"
+          }
+        },
+        "direct_payment_terms": "Oled nõus {{translatedName}} tingimustega. Sinu kaart võetakse tasult {{dueDate}}.",
+        "order_due_on_fulfillment_choose_later": "Teie makse tuleb tasuda kohe, kui teie tellimus on lõpetatud.",
+        "order_due_on_fulfillment_payment": "Teie kaart võetakse tasu, kui teie tellimus on lõpetatud.",
+        "draft_order_payment_due_later_no_terms": "Teie makse tuleb tasuda kohe, kui teie tellimus on kinnitatud.",
+        "draft_order_payment_due_later_no_terms_payment_selected": "Teie kaart võetakse tasu, kui teie tellimus on kinnitatud.",
+        "draft_order_payment_due_later_terms": "Sa oled {{translatedName}} tingimustel, kui sinu tellimus on kinnitatud.",
+        "draft_order_payment_due_on_fulfillment": "Teie makse tuleb tasuda kohe, kui teie tellimus on kinnitatud ja täidetud.",
+        "fixed_payment_label": "Teie makse tuleb tasuda {{dueDate}}.",
+        "fixed_direct_payment_terms": "Teie kaartilt võetakse tasu {{dueDate}}.",
+        "order_deposit_due_now": "{{depositAmount}} tuleb täna tasuda. Ülejäänud summa kuulub {{translatedName}} tingimuste alla ja tuleb tasuda {{dueDate}}.",
+        "order_deposit_due_on_fulfillment": "{{depositAmount}} tuleb täna tasuda. Ülejäänud summa makstakse, kui teie tellimus on lõpetatud.",
+        "order_due_on_receipt_choose_later": "Teie makse tuleb tasuda kättesaamisel.",
+        "draft_order_deposit_due_later": "{{depositAmount}} tuleb tasuda kohe, kui teie tellimus on kinnitatud. Ülejäänud summa makstakse vastavalt {{translatedName}} tingimustele.",
+        "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} tuleb tasuda kohe, kui teie tellimus on kinnitatud. Ülejäänud summa makstakse, kui teie tellimus on lõpetatud.",
+        "order_deposit_due_on_receipt": "{{depositAmount}} tuleb täna tasuda. Ülejäänud summa makstakse hiljem.",
+        "order_deposit_due_on_fixed_date": "{{depositAmount}} tuleb täna tasuda. Ülejäänud summa tuleb tasuda {{dueDate}}.",
+        "credit_or_debit_card_label": "Krediitkaart/Debetkaart"
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Praegune saldo %{amount}",
+        "credit_card_expires_on_notice": "Kehtib kuni %{month}/%{year}",
+        "express_payment_gateway_label": "Prindi välja",
+        "manual_payment_gateway_label": "Juhend",
+        "billing_address_title": "Arve aadress",
+        "free_label": "Tasuta"
+      },
+      "pickup_point": {
+        "location_is_currently_closed": "Suletud",
+        "business_hours": "Avamisaegade info",
+        "or": "of",
+        "could_not_resolve_address": "Teie aadressi ei leitud. Proovige uuesti või kasutage teist aadressi",
+        "no_pickup_points_near_you": "Valitud aadressi lähedal ei leitud ühtegi väljavõtupunkti",
+        "no_pickup_points_near_location": "Teie asukoha lähedal ei leitud ühtegi väljavõtupunkti",
+        "no_pickup_points_found": "Ühtegi väljastuspunkti ei leitud",
+        "paginator": {
+          "header": {
+            "one": "Kuvatakse %{first} - %{last} %{count} punktist",
+            "other": "Kuvatakse %{first} - %{last} %{count} punktist"
+          }
+        },
+        "number_of_pickup_points_near_location": {
+          "one": "%{count} väljavõtupunkt teie lähedal",
+          "other": "%{count} väljavõtupunkti teie lähedal"
+        },
+        "change": "Asukohta muuta",
+        "geolocation": {
+          "shared_location_button": "Kasuta minu asukohta",
+          "errors": {
+            "unsuported_by_browser": "Teie brauser ei toeta asukoha määramist. Proovige uuesti või kasutage teist brauserit.",
+            "permission_not_allowed": "Luba oma asukoha jagamine.",
+            "permission_denied": "Teie asukohta ei õnnestunud määrata. Proovige uuesti."
+          }
+        },
+        "no_business_hours": "Pole avamisaegu saadaval",
+        "open_twenty_four_hours": "Avatud 24 tundi ööpäevas, 7 päeva nädalas",
+        "address_label": "Aadress"
       }
     }
   },
