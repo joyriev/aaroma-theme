@@ -3506,7 +3506,151 @@
       "invalid_format": "paigutus ei ole kehtiv",
       "expired": "on aegunud",
       "invalid_expiry_year": "kas geen on kehtiv aegumisaasta",
-      "blocked_address": "Seda asukohta ei toetata"
+      "blocked_address": "Seda asukohta ei toetata",
+      "taken": "on kasutusele võetud",
+      "too_short": "on liiga lühike (vähimalt %{count} tähemärki)",
+      "too_long": "on liiga pikk (maksimaalselt %{count} tähemärki)",
+      "password_mismatch": "peab vastama sisestatud paroolile",
+      "invalid_state_in_country": "on kehtiv seisund %{country}",
+      "invalid_region_in_country": "on kehtiv piirkond %{country}",
+      "less_than_or_equal_to": "moet olla väiksem või võrdne kui %{count}",
+      "not_supported": "ei toetata",
+      "invalid_type": "vabandust, me ei aktsepteeri selle tüüpi kaarte",
+      "invalid_start_date_or_issue_number_for_debit": "kehtiv alguskuupäev või väljastamisnumber on nõutav",
+      "reset_password_html": "See e-posti aadress on juba kontoga seotud. Kui see konto kuulub teile, saate <a href=\"/account/login#recover\">taastada oma parooli</a>",
+      "verify_email": "Me oleme saatnud e-kirja aadressile %{customer_email}, palun klõpsake lisatud lingil, et kinnitada oma e-posti aadress.",
+      "product_not_available": "toode ei ole selle kliendi jaoks avaldatud.",
+      "shop_404": {
+        "title": "Loo veebipood ja müü veebis! Shopify veebipoe tarkvara",
+        "heros": {
+          "store_unavailable": "Vabandust, see pood ei ole hetkel saadaval.",
+          "store_not_exist": "See pood ei eksisteeri.",
+          "no_storefront": "Sellel poel pole veel veebisaiti."
+        },
+        "links": {
+          "explore_other_stores": "Avasta teisi poode",
+          "start_free_trial": "Alusta tasuta prooviperioodi"
+        },
+        "owner_ctas": {
+          "header": "Kas olete kaupleja?",
+          "fix_domain": "Lõpeta oma uue veebiaadressi seadistamine aadressil %{domain_settings_link}. Klõpsa \"Ühenda domeen\" ja sisesta: %{domain}.<br>Kui sul on probleeme oma poe sisselogimisega, proovi lehte %{forgot_your_store_link}.",
+          "fix_domain_link_text": "domeeni seaded",
+          "forgot_your_store_link_text": "unustasid oma ostukorvi",
+          "add_storefront": "Saate oma veebisaidi seadistada, lisades kanali Veebipood oma %{admin_link}-s. Kui teil on probleeme poe avamisega, proovige lehte %{forgot_your_store_link}.",
+          "admin_link_text": "haldaja"
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "Müük isiklikult",
+            "caption": "Hankige funktsioonid, mida vajate oma poe juhtimiseks, olgu te siis alles alustamas või soovite laieneda.",
+            "link_text": "Alusta tasuta prooviperioodi"
+          },
+          "open_a_store": {
+            "header": "Ava uus Shopify pood",
+            "caption": "Alustage tasuta 3-päevast prooviperioodi, seejärel jätkub tellimus 1 dollari eest kuus järgmise 3 kuu jooksul.",
+            "link_text": "Registreeru kohe"
+          },
+          "editions": {
+            "header": "Vaata Shopify väljaandeid",
+            "caption": "Tänu enam kui 100 tooteparandusele saate olla produktiivsem ja loomingulisem ning äris võimsam, kui olete kunagi arvanud.",
+            "link_text": "Avasta uusimad väljaanded"
+          },
+          "store_owner": {
+            "header": "Kas olete kaupleja?",
+            "caption": "Kas sul on raskusi oma poodi sisenemisega? Proovi funktsiooni %{forgot_your_store_link}. Kui soovid oma poodi uuesti aktiveerida, võta ühendust %{shopify_support_link}.",
+            "shopify_support_link_text": "Shopify tugi"
+          }
+        }
+      }
+    },
+    "links": {
+      "powered_by_shopify": "Toidetud Shopify poolt",
+      "learn_more": "Rohkem teavet"
+    },
+    "feed": {
+      "more": "Meri"
+    },
+    "notices": {
+      "address": {
+        "updated": "Aadress edukalt uuendatud.",
+        "error_updating": "Viga aadressi uuendamisel",
+        "created": "Aadress edukalt loodud",
+        "error_creating": "Viga aadressi loomisel.",
+        "deleted": "Aadress edukalt eemaldatud",
+        "error_deleting": "Viga aadressi eemaldamisel."
+      },
+      "customer": {
+        "password_reset_error": "Viga parooli lähtestamisel",
+        "no_account_found": "Sellise e-posti aadressiga kontot ei leitud.",
+        "invalid_credentials": "Vale e-posti aadress või parool.",
+        "denylisted_reset_password": "Teie konti ei saanud avada, kuna praegune parool ei ole turvaline. Saate e-kirja, et oma parooli uuendada.",
+        "signup_disabled": "Kliendi konto loomine on keelatud.",
+        "subscribe_error": "Viga registreerimisel",
+        "unsubscribe_error": "Viga väljalogimisel"
+      },
+      "cart": {
+        "only_n_items_available": "Saad lisada ostukorvi vaid %{count} %{name}.",
+        "too_many_items_in_cart": "Sa ei saa enam %{name} lisada ostukorvi.",
+        "all_items_in_cart": "Kõik %{count} %{name} on sinu ostukorvis.",
+        "empty_update": "ei saa ostukorvi uuendada",
+        "missing_parameters": "pole kehtiv ID- või reegliparameeter",
+        "generic_error": "Viga lisamisel ostukorvi",
+        "too_many_line_items_error": "Sinu ostukorvis ei tohi olla rohkem kui %{max} eset.",
+        "link_expired": "Link on aegunud",
+        "link_no_longer_exists": "Link ei ole enam olemas.",
+        "stock_problems_html": "Üks või mitu eset ei ole enam saadaval. Oleme sinu jaoks loonud <a href='%{link}'>uuendatud ostukorvi</a>.",
+        "changed": "Ostukorv muudetud",
+        "items_changed": "Üks või mitu eset on muudetud.",
+        "product_sold_out": "Toode '%{name}' on juba välja müüdud.",
+        "variant_not_found": "Ei leia varianti",
+        "variant_requires_selling_plan": "Variant saab osta ainult müügiplaaniga.",
+        "shipping_address_not_required": "See ostukorv ei vaja saatmist",
+        "shipping_address_invalid": "Saatmiskulude arvutamisel tekkis probleem. Jätkake kassasse, et valida saatmistasu enne tellimuse lõpetamist.",
+        "selling_plan_not_applicable": "Ei saa müügiplaani rakendada variandile",
+        "selling_plan_not_available_for_company_locations": "Ainult ühekordne ost on saadaval B2B tellimuste puhul",
+        "digital_product_not_available_for_company_locations": "Seda artiklit ei saa lisada B2B tellimusele",
+        "product_not_available": "Toode ei ole saadaval",
+        "less_than_minimum": "Sellel artiklil on minimaalne kogus %{min}.",
+        "more_than_maximum": "Sellel artiklil on maksimaalne kogus %{max}.",
+        "not_respect_step": "Seda eset saab lisada ainult %{step} kaupa.",
+        "bundle_requires_components": "Komplekttoodet '%{name}' ei saa ostukorvi lisada.",
+        "gift_card_with_components_not_supported": "Komplekttoodet '%{name}' ei saa ostukorvi lisada.",
+        "view_lines_limit_reached": "Reeglid peavad olema väiksemad või võrdsed kui %{limit}",
+        "merchandise_line_transformers": {
+          "run_error": "Teie ostukorvis tekkis viga."
+        },
+        "gift_card_price_must_be_greater_than_zero": "Komplekttoodet '%{name}' ei saa ostukorvi lisada.",
+        "cart_too_large": "Ostukorv on liiga suur.",
+        "gift_card_recipient_validation_error": "Määratud kinkekaardi saaja on kehtetu",
+        "invalid_input": "%{parameter} parameeter on kehtetu.",
+        "buyer_cannot_purchase_for_company_locations": "Sa ei saa selle asukoha jaoks osta",
+        "only_one_added_to_cart": "Teie ostukorvi lisati ainult 1 artikkel saadavuse tõttu.",
+        "only_n_added_to_cart": "Teie ostukorvi on lisatud ainult %{quantity} eset saadavuse tõttu.",
+        "maximum_available_quantity_reached": "Selle toote maksimaalne kogus on juba teie ostukorvis.",
+        "cart_attributes_error": "Ostukorvi omadused sisaldavad kehtetuid andmeid.",
+        "merchandise_not_applicable": "Artiklit ei saa osta sellisena, nagu see on konfigureeritud.",
+        "not_found": "Ostukorvi ei leitud"
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "Lisatud %{delta}",
+          "decrement_item": "Eemaldatud %{delta} %{total}-st",
+          "decrement_fulfilled_line_item": "Tagastatud %{delta} %{total}-st",
+          "decrement_return_line_item": "%{delta} eemaldatud tagastusest"
+        }
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "in_stock": "Laos olemas",
+          "out_of_stock": "Laoühikus puudub"
+        }
+      },
+      "boolean": {
+        "true_label": "Ja",
+        "false_label": "Ei"
+      }
     }
   },
   "recipient": {
