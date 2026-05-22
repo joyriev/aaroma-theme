@@ -3169,6 +3169,66 @@
         "thank_you_confirmed_with_email_and_phone_description": {
           "single_store": "Sa saad peagi kinnituskirja e-posti teel",
           "multi_store": "Saad peagi iga poe kohta eraldi kinnituskirjad."
+        },
+        "title": "Täname teid ostu eest!",
+        "thank_you_title": "Teie tellimus on kinnitatud",
+        "track_shipment": "Volga saatmine",
+        "thank_you_title_payment": "Teie makse on kinnitatud",
+        "thank_you_title_review": "Teie tellimus on hindamiseks esitatud",
+        "thank_you_ready_for_picked_up": "Teie tellimus on kätte saadud aadressilt %{address}.",
+        "thank_you_title_payments_app_pending_default": "Teie makse töödeldakse",
+        "thank_you_title_payments_app_pending_buyer_action_required": "Teie tellimus on vastu võetud",
+        "thank_you_title_payments_app_failed_pending_payment": "Teie makset ei õnnestunud töödelda",
+        "thank_you_payments_app_failed_pending_payment": "Sinu tellimus ei ole maksustatud. Mine tagasi oma ostukorvi, et tellimust vaadata ja uuesti maksta.",
+        "thank_you_payments_app_failed_pending_payment_payment": "Sinu tellimus ei ole maksustatud. Mine tagasi oma ostukorvi, et tellimust vaadata ja uuesti maksta.",
+        "thank_you_payments_app_failed_pending_payment_pick_up": "Sinu tellimus ei ole maksustatud. Mine tagasi oma ostukorvi, et tellimust vaadata ja uuesti maksta.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing": "Võtke meiega ühendust e-posti või telefoni teel, et saada tellimuse kinnitus.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing_payment": "Võtke meiega ühendust e-posti või telefoni teel, et saada tellimuse kinnitus.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing_pick_up": "Võtke meiega ühendust e-posti või telefoni teel, et saada tellimuse kinnitus.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone": "Te saate peagi kinnituskirja koos teie tellimuse numbriga.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_payment": "Te saate peagi kinnituskirja koos teie tellimuse numbriga.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_pick_up": "Te saate peagi kinnituskirja koos teie tellimuse numbriga.",
+        "thank_you_payments_app_pending_payment_description_default_with_email": "Te saate peagi kinnituskirja koos teie tellimuse numbriga.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_payment": "Te saate peagi kinnituskirja koos teie tellimuse numbriga.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "Te saate peagi kinnituskirja koos teie tellimuse numbriga.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone": "Te saate peagi kinnitusteksti koos oma tellimuse numbriga.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_payment": "Te saate peagi kinnitusteksti koos oma tellimuse numbriga.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_pick_up": "Te saate peagi kinnitusteksti koos oma tellimuse numbriga.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing": "Võtke meiega ühendust e-posti või telefoni teel, et saada tellimuse kinnitus.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Võtke meiega ühendust e-posti või telefoni teel, et saada tellimuse kinnitus.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_pick_up": "Võtke meiega ühendust e-posti või telefoni teel, et saada tellimuse kinnitus.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Pärast makse sooritamist saate kinnituskirja koos tellimuse numbriga.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "Pärast makse sooritamist saate kinnituskirja koos tellimuse numbriga.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "Pärast makse sooritamist saate kinnituskirja koos tellimuse numbriga.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email": "Pärast makse sooritamist saate kinnituskirja koos tellimuse numbriga.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "Pärast makse sooritamist saate kinnituskirja koos tellimuse numbriga.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Pärast makse sooritamist saate kinnituskirja koos tellimuse numbriga.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone": "Pärast makse sooritamist saate kinnitus­sõnumi koos tellimuse numbriga.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Pärast makse sooritamist saate kinnitus­sõnumi koos tellimuse numbriga.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Pärast makse sooritamist saate kinnitus­sõnumi koos tellimuse numbriga.",
+        "thank_you_payments_app_pending_payment_description_provider_action_required_default": "Teie makse töödeldakse. Saate e-kirja, kui teie makse on kinnitatud.",
+        "track_your_order_link_text": "Jälgi oma tellimust",
+        "thank_you_unconfirmed_items_heading": {
+          "one": "1 artikkel ei ole kinnitatud",
+          "other": "Mõned artiklid ei ole kinnitatud"
+        },
+        "thank_you_unconfirmed_items_description": {
+          "one": "Sulle ei ole selle eest arvet esitatud",
+          "other": "Sulle ei ole selle eest arvet esitatud"
+        },
+        "thank_you_item_label": {
+          "one": "%{count} artikkel",
+          "other": "%{count} artiklit"
+        },
+        "thank_you_from_shop": "Müüdud %{shop_name} kaudu",
+        "thank_you_from_other_store": "Teisest poest",
+        "thank_you_confirmed_with_email_description": {
+          "single_store": "Sa saad peagi kinnituskirja e-posti teel",
+          "multi_store": "Saad peagi iga poe kohta eraldi kinnituskirjad."
+        },
+        "thank_you_confirmed_with_phone_description": {
+          "single_store": "Sa saad varsti kinnitussõnumi",
+          "multi_store": "Sa saad peagi iga poe kohta eraldi kinnitussõnumid."
         }
       }
     }
