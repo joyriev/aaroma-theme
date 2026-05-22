@@ -2328,9 +2328,14 @@
         "block_title": "Kontrollige oma andmeid",
         "checkout_a_different_way": "Proovi teist moodi",
         "item_header": {
-          "change_value": "Väärtust muuta"
+          "change_value": "Väärtust muuta",
+          "section": "Sektsioon",
+          "value": "Väärtus"
         },
-        "account_more_actions": "Rohkem tegevusi selle konto jaoks"
+        "account_more_actions": "Rohkem tegevusi selle konto jaoks",
+        "title": "Hinnang",
+        "review_title": "Viige oma tellimus lõpule",
+        "review_and_confirm_title": "Hinnake ja kinnitage"
       },
       "remote": {
         "errors": {
@@ -2358,6 +2363,63 @@
         "errors": {
           "interaction_required": "Laienduse interaktsioon on vajalik tehingu lõpetamiseks."
         }
+      },
+      "shipping": {
+        "cheapest_rate_label": "Kõige odavam",
+        "arrives_time": "Saabub üle %{time}",
+        "arrives_time_range": "Saabumine %{min_time}–%{max_time} jooksul",
+        "delivery_today": "Kohaletoimetamine samal päeval %{time}",
+        "delivery_tomorrow": "Järgmisel päeval kohaletoimetamine %{time}",
+        "delivery": "Tarne %{time}",
+        "duties_and_taxes_title": "Tollimaksud ja maksud",
+        "duties_and_taxes_options": {
+          "ddu_title": "Maksa kohaletoimetamisel",
+          "ddu_caption": "Võivad lisanduda täiendavad tasud",
+          "ddp_title": "Maksma nüüd",
+          "ddp_caption": "Tarne puhul lisatasusid ei lisandu"
+        },
+        "address_update": "Aadressi uuendamine",
+        "add_address": "Kasuta teist aadressi",
+        "add_delivery_instructions": "Lisa kohaletoimetamise juhised",
+        "delete": "Eemalda",
+        "address_more": "Rohkem kampaaniaid sellele aadressile",
+        "address_edit": "Aadressi redigeerimine",
+        "address_delete": "Aadressi kustutamine",
+        "address_confirm": "Kas olete kindel, et soovite selle aadressi oma kontolt eemaldada?",
+        "address_form": {
+          "add_address": "Lisa aadress",
+          "save": "Salvesta",
+          "cancel": "Tühista",
+          "generic_error": "Esines probleem teie aadressi salvestamisel. Palun proovige uuesti.",
+          "one_time_address_subtitle": "Kasuta selle tellimuse jaoks ühekordset aadressi",
+          "edit": "Aadressi redigeerimine",
+          "update": "Salvesta muudatused"
+        },
+        "different_shipping_method_summary": "Sisestage teine tarneaadress, et vaadata saadaolevaid saatmisviise",
+        "delivery_title": "Kohaletoimetamine",
+        "address_default": "Määra vaikeseadeks",
+        "default_description": "Saatmine ühe tööpäeva jooksul",
+        "back": "Tagasi",
+        "add_shipping_address": "Lisa tarneaadress",
+        "choose_new_address": "Vali uus aadress",
+        "add_new_delivery_address": "Lisa uus kohaletoimetamise aadress",
+        "delivery_to": "Kohaletoimetamine aadressile"
+      },
+      "session_errors": {
+        "session_not_unique": "Tellimuse töötlemisel tekkis probleem. Värskendage seda lehte, et naasta poodi.",
+        "session_already_finished": "See tellimus on juba esitatud. Võite poodi tagasi minna, et alustada uut tellimust."
+      },
+      "review_address_modal": {
+        "title": "Hinnangute aadress",
+        "subtitle": {
+          "one": "See tellimus saadetakse aadressile, mille on määranud {{merchant}}.",
+          "other": "See tellimus saadetakse aadressile, mille on määranud {{merchant}}. Valige saatmisaadress."
+        },
+        "subtitle_no_match": "See aadress ei vasta ühelegi teie salvestatud aadressile.",
+        "subtitle_must_use": "Teie tellimus saadetakse sellele aadressile.",
+        "continue": "Jätka selle aadressiga",
+        "use_saved_address": "Kasuta teist aadressi",
+        "return_to_cart": "Tagasi ostukorvi"
       }
     }
   },
