@@ -1,0 +1,79 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "accessibility": {
+    "skip_to_text": "Pāriet uz saturu",
+    "close": "Aizvērt",
+    "unit_price_separator": "par",
+    "vendor": "Pārdevējs:",
+    "error": "Kļūda",
+    "refresh_page": "Izvēles veikšana nodrošina pilnīgu lapas atsvaidzināšanu.",
+    "link_messages": {
+      "new_window": "Atveras jaunā logā.",
+      "external": "Atvērt ārējo vietni."
+    },
+    "loading": "Notiek ielāde...",
+    "skip_to_product_info": "Pāriet uz produkta informāciju",
+    "total_reviews": "kopējais atsauksmju skaits",
+    "star_reviews_info": "{{ rating_value }} no {{ rating_max }} zvaigznēm",
+    "collapsible_content_title": "Salokāms saturs",
+    "complementary_products": "Papildu produkti"
+  },
+  "blogs": {
+    "article": {
+      "blog": "Blogs",
+      "read_more_title": "Uzziniet vairāk: {{ title }}",
+      "comments": {
+        "one": "{{ count }} komentārs",
+        "other": "{{ count }} atsauksmes"
+      },
+      "moderated": "Lūdzu, ņemiet vērā, ka komentāriem jābūt apstiprinātiem pirms to publicēšanas.",
+      "comment_form_title": "Atstāj komentāru",
+      "name": "Vārds",
+      "email": "E-pasts",
+      "message": "Piezīme",
+      "post": "Atstāt komentāru",
+      "back_to_blog": "Atpakaļ uz emuāru",
+      "share": "Kopīgot šo rakstu",
+      "success": "Jūsu atsauksme ir veiksmīgi iesniegta! Paldies!",
+      "success_moderated": "Jūsu komentārs ir veiksmīgi iesniegts. Mēs to drīzumā publicēsim, jo mūsu emuārs tiek pārskatīts."
+    }
+  },
+  "customer": {
+    "account": {
+      "title": "Rēķins",
+      "details": "Kontu dati",
+      "view_addresses": "Apskatīt adreses",
+      "return": "Atpakaļ uz konta informāciju"
+    },
+    "account_fallback": "Rēķins",
+    "activate_account": {
+      "title": "Kontu aktivizēt",
+      "subtext": "Izveidojiet savu paroli, lai aktivizētu savu kontu.",
+      "password": "Parole",
+      "password_confirm": "Apstipriniet paroli",
+      "submit": "Kontu aktivizēt",
+      "cancel": "Noraidīt ielūgumu"
+    },
+    "addresses": {
+      "default": "Standarta",
+      "add_new": "Pievienot jaunu adresi",
+      "company": "Uzņēmums",
+      "address1": "Adrese 1",
+      "address2": "Adrese 2",
+      "city": "Stads",
+      "country": "Zeme/reģions",
+      "add": "Pievienot adresi",
+      "cancel": "Atcelt",
+      "delete": "Noņemt",
+      "delete_confirm": "Vai tiešām vēlaties dzēst šo adresi?"
+    }
+  }
+}
