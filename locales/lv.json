@@ -1600,7 +1600,32 @@
           "rst": "RST",
           "qst": "QST",
           "vpt": "VPN"
-        }
+        },
+        "total_label": "Kopā",
+        "total_outstanding_label": "Samaksājamā summa",
+        "vat_label_html": "Ieskaitot %{amount} PVN",
+        "total_updated_label": "Atjauninātā kopējā cena:",
+        "unit_price": {
+          "accessible_separator": "par",
+          "per_item": {
+            "single": "%{price} par gabalu",
+            "one": "%{price} par %{count} gabalu",
+            "other": "%{price} par %{count} vienībām"
+          }
+        },
+        "total_updated_label_with_price": "Atjauninātā kopējā cena: %{totalPrice}",
+        "updated_shipping_method": "Atjauninātā piegādes metode: %{shipping_method}",
+        "total_savings": "Kopējie ietaupījumi",
+        "view_all_items": {
+          "one": "Skatīt %{count} vienumu",
+          "other": "Skatīt visus %{count} vienumus"
+        },
+        "total_due_today_label": "Kopējā šodien jāmaksā",
+        "total_due_later_label": "Kopējā summa jāmaksā vēlāk",
+        "total_due_label": "Kopējā samaksa",
+        "total_price_label": "Kopējā cena",
+        "unconfirmed_label": "Neapstiprināts",
+        "total_paid_label": "Kopā samaksāts"
       },
       "order_payment_collection": {
         "custom_line_item_description": "Summa, kas jāmaksā par pasūtījumu %{order_name}",
@@ -1644,6 +1669,45 @@
             "signature_mismatch": "Preču paraksts neatbilst rindai %{stable_id}."
           }
         }
+      },
+      "payment": {
+        "amazon_payments_label": "Amazon Maksāt",
+        "amazon_payments_login_hint": "Jums tiek lūgts pieteikties, izmantojot Amazon.",
+        "amazon_payments_logout": "Izrakstīties no Amazon Pay",
+        "amazon_payments_failed_mfa_challenge": "Izvēlētā maksājuma metode nebija pieejama. Lūdzu, izvēlieties citu metodi vai sazinieties ar savu banku vai kartes izdevēju.",
+        "amazon_payments_abandoned_mfa_challenge": "Jūsu maksājumu nevarēja pabeigt. Mēģiniet izmantot citu maksājuma veidu vai sazinieties ar savu banku vai kartes izdevēju.",
+        "amazon_payments_could_not_enqueue_authorize": "Radās problēma, apstrādājot jūsu maksājumu. Mēģiniet vēlreiz vai izmantojiet citu maksājuma veidu.",
+        "amount_left_to_pay_label": "Maksājums jāveic:",
+        "apply_gift_card_button_label": "Pielietot",
+        "bancontact_label": "Bancontact",
+        "apple_pay_payment_error": "Jūsu maksājumu nevarēja pabeigt. Mēģiniet vēlreiz vai izmantojiet citu maksājuma veidu.",
+        "apple": {
+          "connect": "Noklikšķiniet, lai saistītu savu Apple Pay kontu",
+          "not_available": "Apple Pay nav pieejams šajā pārlūkprogrammā. Lai saistītu savu Apple Pay kontu, jums jāizmanto Safari pārlūkprogramma Apple ierīcē."
+        },
+        "account_connected": "Konts savienots.",
+        "alternative_payment_currency_total_notice": "Piezīme: tiks iekasēti %{amount_due}.",
+        "add_credit_card_modal": {
+          "title": "Pievienot karti",
+          "cancel": "Atcelt",
+          "save": "Saglabāt"
+        },
+        "afterpay_label": "Maksāt pēc tam",
+        "alternative_payment_currency_total_manual_payment_notice": "Piezīme: pārrēķinātā kopējā summa ir %{amount_due}.",
+        "bank_account_type": {
+          "checking": "Pārbaudīt",
+          "savings": "Ietaupījumi"
+        },
+        "bank_account_choose": "Izvēlieties kontu, lai droši pabeigtu savu pirkumu",
+        "bank_account_connect_another": "Pievienojiet citu bankas kontu",
+        "bank_account_connect": "Saistīt bankas kontu",
+        "bank_account_missing": "Bankas kontam jābūt saistītam",
+        "bank_account_disclaimer": "ACH maksājumu apstrāde var aizņemt līdz 4 darba dienām.",
+        "bank_account_vaulted_company_location": "Bankas konts saglabāts šai vietai",
+        "bank_account_generic_error": "Neizdevās pievienot bankas kontu. Lūdzu, mēģiniet vēlreiz vēlāk.",
+        "add_payment_method": "Maksāšanas veida pievienošana",
+        "add_new_payment_method": "Pievienot jaunu maksājuma veidu",
+        "alipay_label": "Alipay"
       }
     }
   },
