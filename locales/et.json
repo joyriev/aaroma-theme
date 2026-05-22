@@ -2196,6 +2196,16 @@
           "header": {
             "one": "Kuvatakse %{first} - %{last} %{count} punktist",
             "other": "Kuvatakse %{first} - %{last} %{count} punktist"
+          },
+          "next_accessibility_label": "Järgmine leht",
+          "previous_accessibility_label": "Eelmine leht",
+          "selected_pickup_point_label": {
+            "one": "%{pickup_point_index} punktist %{count} punktini",
+            "other": "%{pickup_point_index} punktist %{count} punktini"
+          },
+          "selected_page": {
+            "one": "%{first} - %{last} %{count} punkti vanune",
+            "other": "%{first} - %{last} van %{count} punkti"
           }
         },
         "number_of_pickup_points_near_location": {
@@ -2213,7 +2223,67 @@
         },
         "no_business_hours": "Pole avamisaegu saadaval",
         "open_twenty_four_hours": "Avatud 24 tundi ööpäevas, 7 päeva nädalas",
-        "address_label": "Aadress"
+        "address_label": "Aadress",
+        "title": "Väljavõtupunkt",
+        "search_button": "Otsi",
+        "selector_tabs": "Järeletuleku valija",
+        "selector_tab_map": "Kaart",
+        "selector_tab_list": "Nimekiri",
+        "waiting_on_pickup_point_location_notice": "Otsin väljavõtupunkte...",
+        "pickup_unavailable_banner_title": {
+          "one": "Teie toote jaoks pole kättesaamispunkte saadaval",
+          "other": "Teie artiklitele pole kättesaamispunkte saadaval"
+        }
+      },
+      "processing": {
+        "redirecting_page_title": "Edastatakse…",
+        "redirecting_title": "Edastatakse…",
+        "redirecting_notice": "Oodake, kuni suuname teid edasi.",
+        "complete_your_purchase_title": "Viige oma ost lõpule",
+        "continue_to_payment_gateway_notice": "Minge maksmise juurde, et lisada oma makseandmed.",
+        "continue_to_payment_gateway_button_label": "Jätka maksmisega",
+        "complete_your_purchase_title_error": "Parandage oma makseandmeid",
+        "continue_to_payment_gateway_notice_error": "Teie makseandmeid ei õnnestunud kinnitada.",
+        "continue_to_payment_gateway_button_label_error": "Uuenda makseandmeid",
+        "page_title": "Tellimuse töötlemine",
+        "title": "Tellimuse töötlemine",
+        "your_order_has_been_received_title": "Täname teie tellimuse eest",
+        "you_will_receive_confirmation": "Me saame hetkel palju tellimusi. Te saate peagi kinnituse e-posti või SMS-i teel. Kui te seda tunni jooksul ei saa, andke meile sellest teada.",
+        "wait": {
+          "short": "Teie tellimus on töödeldud.",
+          "medium": {
+            "one": "Teie tellimus on töödeldud. Hinnanguline ooteaeg on %{count} minutit.",
+            "other": "Teie tellimus on töödeldud. Hinnanguline ooteaeg on %{count} minutit."
+          },
+          "long": "Saad e-kirja kohe, kui su tellimus on töödeldud. Praegu on suur hulk tellimusi.",
+          "no_auto_refresh_html": "Kui teid ei suunata automaatselt edasi, %{link}.",
+          "refresh_this_page": "värskenda seda lehte"
+        },
+        "you_will_not_be_charged": "Sulle ei ole veel arvet esitatud",
+        "action_required": "Toiming nõutud",
+        "redirecting_to_bank": "Suuna edasi {{bank}} juurde",
+        "modal_notice": "Võtame ühendust {{paymentMethod}}-ga",
+        "remote_shops_payments_processing": "Makse töötlemine",
+        "remote_checkout_count": "%{current} kuni %{total}"
+      },
+      "post_purchase": {
+        "page_title": "Pärast ostu",
+        "title": "Pärast ostu",
+        "escape_confirmation": "Olete oma tellimuse eest tasunud.",
+        "escape_action": "Vaata tellimuse kinnitust ›",
+        "components": {
+          "close": "Sulge",
+          "expand": "Vaata rohkem",
+          "processing": "Töötlemisel…",
+          "submit": "Saada teele"
+        }
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "Kingituskinkekaart on juba teie tellimusele rakendatud",
+          "expired": "See kinkekaart on aegunud",
+          "currency_mismatch": "Ainult kinkekaardid %{shop_currency} aktsepteeritakse"
+        }
       }
     }
   },
