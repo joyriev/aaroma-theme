@@ -447,7 +447,21 @@
         "email_rollup_accessibility_label": "E-posti valikud",
         "phone_rollup_accessibility_label": "Telefoni valikud",
         "phone_country_code_label": "Riigikood telefoninumber",
-        "optional_subdistrict_label": "Linnaosa (valikuline)"
+        "optional_subdistrict_label": "Linnaosa (valikuline)",
+        "title": "Informatsioon",
+        "stored_addresses_label": "Salvestatud aadressid",
+        "state_label": "Staatus",
+        "state_placeholder": "Staatus",
+        "region_placeholder": "Regio",
+        "state_and_territory_label": "Riik/ala",
+        "state_and_territory_placeholder": "Riik/ala",
+        "zip_code_label": "Postiindeks",
+        "zip_code_placeholder": "Postiindeks",
+        "ship_to_company": "Saatmine aadressile {{companyName}}",
+        "shipping_used_as_billing_notice": "Seda kasutatakse ka teie arveaadressina selle tellimuse jaoks.",
+        "storefront_link": "kaupleja veebisait",
+        "suburb_label": "Voorstad",
+        "subdistrict_label": "Linnaosa"
       },
       "alternative_payment_method_banner": {
         "express_checkout": "Kiirelt maksta",
@@ -518,6 +532,68 @@
       },
       "address_management": {
         "saved_with_store": "Salvestatud selles poes"
+      },
+      "delivery_options": {
+        "pick_up": "Juurde võtma",
+        "free_total_label": "Tasuta",
+        "none_method_definition": "Ei saatmist",
+        "company_location_no_address_banner": "Tellimused, mis saadetakse aadressita asukohtadesse, esitatakse hindamiseks.",
+        "digital_product": "Digitaalne toode"
+      },
+      "customer_account": {
+        "not_user_label": "Ei ole %{first_name}?",
+        "have_an_account_label": "Kas sul on konto?",
+        "sign_in_link_label": "Logi sisse",
+        "sign_out_link_label": "Logi välja",
+        "save_my_information_label": "Salvesta see teave järgmiseks korraks",
+        "invalid_address": "Valitud aadress on kehtetu. %{update_address_link} või vali teine aadress.",
+        "incomplete_address": "Valitud aadress on puudulik. %{update_address_link} või vali mõni teine aadress.",
+        "rollup_label": "Arve",
+        "invalid_shipping_method_summary": "Valige kehtiv kohaletoimetamise aadress, et näha saadaolevaid saatmisviise",
+        "saved_address_option_link": "Kasuta salvestatud aadressi",
+        "saved_address_modal_title": "Kasuta minu salvestatud aadressi",
+        "saved_address_option_description": {
+          "one": "Sul on {{count}} salvestatud aadress.",
+          "other": "Sul on {{count}} salvestatud aadressi."
+        },
+        "rollup_accessibility_label": "Konto valikud"
+      },
+      "customer_payment_methods": {
+        "page_title": "Makseviisid",
+        "title": "Makseviisid",
+        "update_card_button_label": "Uuenda kaarti",
+        "delete_customer_mandate": {
+          "generic_error": "Tahtsime teie taotlust töödelda, kuid tekkis probleem.",
+          "success_message": "Teie makseviis on edukalt eemaldatud"
+        }
+      },
+      "contextual_availability": {
+        "title": {
+          "one": "Toode pole saadaval",
+          "other": "Tooted pole saadaval"
+        },
+        "products_not_available": {
+          "one": "See toode eemaldatakse teie ostukorvist, kuna see ei ole teie riigis/regioonis saadaval.",
+          "other": "Need tooted eemaldatakse teie ostukorvist, kuna need ei ole teie riigis/regioonis saadaval."
+        },
+        "all_products_in_cart_unavailable": {
+          "one": "See toode ei ole teie riigis/regioonis saadaval.",
+          "other": "Need tooted ei ole teie riigis/regioonis saadaval."
+        },
+        "unavailable_label": "Pole saadaval"
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "one": "Tarne pole saadaval %{count} tootele",
+            "other": "Tarne pole saadaval %{count} tootele"
+          },
+          "message": {
+            "one": "See artikkel eemaldatakse teie ostukorvist, kuna teie aadressile ei ole saadaval kohaletoimetamise meetodeid.",
+            "other": "Need tooted eemaldatakse teie ostukorvist, kuna teie aadressile ei ole saadaval kohaletoimetamise meetodeid."
+          },
+          "label": "Ei kohaldata kohaletoimetamist"
+        }
       }
     }
   },
