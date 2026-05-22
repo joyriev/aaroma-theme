@@ -3878,6 +3878,46 @@
       "carousel": "Karuselis",
       "announcement": "Paziņojums",
       "announcement_bar": "Paziņojumu josla"
+    },
+    "video": {
+      "load_video": "Video ielāde: {{ description }}"
+    },
+    "slideshow": {
+      "load_slide": "Dia lādiņš",
+      "previous_slideshow": "Iepriekšējais slaids",
+      "next_slideshow": "Nākamais slaids",
+      "pause_slideshow": "Pārtraukt slaidrādi",
+      "play_slideshow": "Slaidrādes atskaņošana",
+      "carousel": "Karuselis",
+      "slide": "Diametrs"
+    },
+    "page": {
+      "title": "Lappušu virsraksts"
+    },
+    "quick_order_list": {
+      "product_total": "Produkta starpsumma",
+      "view_cart": "Skatīt iepirkumu grozu",
+      "each": "{{ money }}/st",
+      "product": "Produkts",
+      "variant": "Variants",
+      "variant_total": "Pilnīga versija",
+      "items_added": {
+        "one": "{{ quantity }} prece pievienota",
+        "other": "{{ quantity }} preces pievienotas"
+      },
+      "items_removed": {
+        "one": "{{ quantity }} prece izņemta",
+        "other": "{{ quantity }} preces izdzēstas"
+      },
+      "product_variants": "Produktu varianti",
+      "total_items": "Kopējais preču skaits",
+      "remove_all_items_confirmation": "Vai dzēst visus {{ quantity }} priekšmetus no groza?",
+      "remove_all": "Notīrīt visu",
+      "cancel": "Atcelt",
+      "remove_all_single_item_confirmation": "Vai vēlaties izņemt 1 preci no sava iepirkumu groza?",
+      "min_error": "Šim rakstam ir noteikts minimums {{ min }}.",
+      "max_error": "Šim rakstam ir maksimālais daudzums {{ max }}.",
+      "step_error": "Jūs varat šo preci pievienot tikai {{ step }} soļu intervālos"
     }
   }
 }
