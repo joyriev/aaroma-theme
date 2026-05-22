@@ -2933,7 +2933,65 @@
           "close": "Sulge",
           "expand": "Laienda",
           "collapse": "Kokku voltima"
-        }
+        },
+        "confirmation_email_sent_text": "Kinnituskiri on saadetud aadressile %{email}",
+        "customer_information_title": "Tellimuse andmed",
+        "contact_information_title": "Kontaktandmed",
+        "company_tracking_number": "%{company} jälgimisnumber:",
+        "estimated_arrival": "Eeldatav tarnekuupäev:",
+        "confirmed": "Kinnitatud",
+        "confirmed_title": "Teie tellimus on kinnitatud",
+        "confirmed_description": "Oleme teie tellimuse kätte saanud ja valmistame seda ette. Tulge selle lehe juurde tagasi, et saada värskendusi oma saadetise staatuse kohta.",
+        "delivered": "Tarne tehtud",
+        "delivered_title": "Teie tellimus on kohale toimetatud",
+        "delivered_description_html": "Teie tellimus on tarnitud teie poolt määratud aadressile. Kui te seda ei saanud või kui teil on muid probleeme, %{contact_us}.",
+        "contact_us": "Võtke meiega ühendust",
+        "contact_us_lowercase": "võtke meiega ühendust",
+        "contact_us_html": "Vaja abi? %{contact_us}",
+        "failure": "Ei ole tarnitud",
+        "failed_title": "Teie tellimust ei õnnestunud kohale toimetada",
+        "failed_contact_merchant": "Võtke ühendust %{company} tarnete korraldamiseks.",
+        "failed_contact_merchant_no_company": "Võtke meiega ühendust, et tarnet korraldada.",
+        "customer_information_hidden_fields_message": "Logi sisse, et vaadata kõiki kliendiandmeid.",
+        "cancelled_title": "Teie tellimus on tühistatud",
+        "customer_validation_error": "Sisestage kehtiv e-posti aadress või tellimuse number.",
+        "customer_validation_error_phone": "Sisestage kehtiv telefoninumber või tellimisnumber.",
+        "fulfillment": {
+          "fulfilled_table_title": "Kaubad selles saadetises",
+          "unfulfilled_table_title": "Artiklid valmistatakse saatmiseks ette",
+          "product_image_label": "Toote pilt",
+          "description_label": "Kirjeldus",
+          "quantity_label": "Kogus"
+        },
+        "delivery_information_label": "Tarneinfo:",
+        "delivered_local_title": "Teie tellimus on kohale toimetatud",
+        "delivered_local_description_html": "Kas te pole oma tellimust veel kätte saanud? %{let_us_know}.",
+        "gift_card_confirmation_by_text": "Kui te seda ei saanud, saatke tekst uuesti või võtke meiega ühendust.",
+        "gift_card_confirmation_by_email": "Kui te seda ei saanud, saatke e-kiri uuesti või võtke meiega ühendust.",
+        "estimated_delivery": "Praegune tarneootus:",
+        "company_location_title": "Asukoht",
+        "first_payment_complete": "Esimene makse tehtud",
+        "choose_payment_method_later": "Vali hiljem makseviis",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "Saad mõne minuti jooksul SMS-i oma kinkekaardiga.",
+          "other": "Sa saad mõne minuti jooksul SMS-i oma kinkekaartidega."
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "one": "Saad mõne minuti jooksul e-kirja oma kinkekaardiga.",
+          "other": "Saad mõne minuti jooksul e-kirja oma kinkekaartidega."
+        },
+        "gift_card_email_title": {
+          "one": "Cadeaubon on saadetud e-posti teel",
+          "other": "Kingituskupongid on saadetud e-posti teel"
+        },
+        "failed_pending_payment_page_title": "Teie maksega on probleem",
+        "company_location_section_title": "Ettevõte ja asukoht",
+        "confirmed_items_count": "%{confirmed_count} %{total_count} üksusest on kinnitatud",
+        "checkout_on_remote_shop_link_text": "Makse %{remoteShopName} juures",
+        "confirmed_orders_title": "Teie tellimused on kinnitatud",
+        "checkout_on_another_store": "Makse teises poes",
+        "checkout_again": "Makse uuesti",
+        "cashback_notice": "Saad oma raha tagasi 30 päeva pärast"
       }
     }
   },
