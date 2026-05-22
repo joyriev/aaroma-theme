@@ -2145,7 +2145,75 @@
       },
       "payment_gateway": {
         "bank_deposit_label": "Bankas pārskaitījums",
-        "bank_account_label": "Bankas konts"
+        "bank_account_label": "Bankas konts",
+        "credit_card_label": "Kredītkarte",
+        "cash_on_delivery_label": "Skaitot pie piegādes (CBA)",
+        "money_order_label": "Pasta pārvedums",
+        "debit_card_label": "Debetkarte",
+        "deferred_payment_label": "Izvēlieties maksājuma veidu vēlāk",
+        "generic_payment_terms": "Jums ir maksājumu nosacījumi pie {{translatedName}}. Jūsu maksājums ir jāveic līdz {{dueDate}}.",
+        "login_prompt": {
+          "no_access": {
+            "message": "{{logIn}} kontā ar piekļuvi šai vietai, lai pievienotu vai izmantotu saglabātās maksājuma metodes.",
+            "link": "Pieslēgties"
+          }
+        },
+        "direct_payment_terms": "Jūs piekrītat {{translatedName}} noteikumiem. Jūsu karte tiks ieturēta {{dueDate}}.",
+        "order_due_on_fulfillment_choose_later": "Jūsu maksājums ir jāveic, tiklīdz jūsu pasūtījums ir pabeigts.",
+        "order_due_on_fulfillment_payment": "Jūsu karte tiks ieturēta, tiklīdz jūsu pasūtījums būs pabeigts.",
+        "draft_order_payment_due_later_no_terms": "Jūsu maksājums ir jāveic, tiklīdz jūsu pasūtījums ir apstiprināts.",
+        "draft_order_payment_due_later_no_terms_payment_selected": "Jūsu karte tiks ieturēta, tiklīdz jūsu pasūtījums būs apstiprināts.",
+        "draft_order_payment_due_later_terms": "Tu būsi {{translatedName}} noteikumos, tiklīdz tava pasūtījuma apstiprinājums būs saņemts.",
+        "draft_order_payment_due_on_fulfillment": "Jūsu maksājums ir jāveic, tiklīdz jūsu pasūtījums ir apstiprināts un izpildīts.",
+        "fixed_payment_label": "Jūsu maksājums ir jāveic līdz {{dueDate}}.",
+        "fixed_direct_payment_terms": "Jūsu karte tiks ieturēta {{dueDate}}.",
+        "order_deposit_due_now": "{{depositAmount}} ir jāmaksā šodien. Atlikusī summa ir saskaņā ar {{translatedName}} noteikumiem un ir jāmaksā līdz {{dueDate}}.",
+        "order_deposit_due_on_fulfillment": "{{depositAmount}} ir jāmaksā šodien. Atlikusī summa tiks samaksāta, tiklīdz jūsu pasūtījums būs pabeigts.",
+        "order_due_on_receipt_choose_later": "Jūsu maksājums ir jāveic pie saņemšanas.",
+        "draft_order_deposit_due_later": "{{depositAmount}} ir jāmaksā, tiklīdz jūsu pasūtījums ir apstiprināts. Atlikusī summa tiks samaksāta saskaņā ar {{translatedName}} noteikumiem.",
+        "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} ir jāmaksā, tiklīdz jūsu pasūtījums ir apstiprināts. Atlikusī summa tiek samaksāta, tiklīdz jūsu pasūtījums ir pabeigts.",
+        "order_deposit_due_on_receipt": "{{depositAmount}} ir jāmaksā šodien. Atlikusī summa tiks samaksāta vēlāk.",
+        "order_deposit_due_on_fixed_date": "{{depositAmount}} ir jāmaksā šodien. Atlikusī summa ir jāmaksā līdz {{dueDate}}.",
+        "credit_or_debit_card_label": "Kredītkartes/Debetkartes"
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Pašreizējais atlikums %{amount}",
+        "credit_card_expires_on_notice": "Derīgs līdz %{month}/%{year}",
+        "express_payment_gateway_label": "Drukāt ārā",
+        "manual_payment_gateway_label": "Rokasgrāmata",
+        "billing_address_title": "Rēķina adrese",
+        "free_label": "Bezmaksas"
+      },
+      "pickup_point": {
+        "location_is_currently_closed": "Aizvērts",
+        "business_hours": "Darba laiks",
+        "or": "no",
+        "could_not_resolve_address": "Jūsu adresi nevarēja atrast. Mēģiniet vēlreiz vai izmantojiet citu adresi",
+        "no_pickup_points_near_you": "Netika atrasti izņemšanas punkti izvēlētās adreses tuvumā",
+        "no_pickup_points_near_location": "Netika atrasti izņemšanas punkti jūsu tuvumā",
+        "no_pickup_points_found": "Nav atrasta neviena izņemšanas vieta",
+        "paginator": {
+          "header": {
+            "one": "Rādīt %{first} - %{last} no %{count} punktiem",
+            "other": "Rādīt %{first} - %{last} no %{count} punktiem"
+          }
+        },
+        "number_of_pickup_points_near_location": {
+          "one": "%{count} izņemšanas punkts jūsu tuvumā",
+          "other": "%{count} saņemšanas punkti jūsu tuvumā"
+        },
+        "change": "Mainīt atrašanās vietu",
+        "geolocation": {
+          "shared_location_button": "Izmantojiet manu atrašanās vietu",
+          "errors": {
+            "unsuported_by_browser": "Jūsu pārlūkprogramma neatbalsta atrašanās vietas noteikšanu. Mēģiniet vēlreiz vai izmantojiet citu pārlūkprogrammu.",
+            "permission_not_allowed": "Atļaut koplietot jūsu atrašanās vietu.",
+            "permission_denied": "Neizdevās noteikt jūsu atrašanās vietu. Lūdzu, mēģiniet vēlreiz."
+          }
+        },
+        "no_business_hours": "Nav pieejams darba laiks",
+        "open_twenty_four_hours": "Atvērts 24 stundas diennaktī, 7 dienas nedēļā",
+        "address_label": "Adrese"
       }
     }
   },
