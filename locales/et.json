@@ -2642,7 +2642,81 @@
       },
       "stock": {
         "continue_shopping_button_label": "Jätka",
-        "continue_cta_label": "Jätka maksmist"
+        "continue_cta_label": "Jätka maksmist",
+        "page_title": "Laoseisuprobleemid",
+        "title": "Laoühikus puudub",
+        "items_unavailable_notice": "Mõned artiklid ei ole enam saadaval.",
+        "product_column_header": "Tooted",
+        "quantity_column_header": "Kogus",
+        "price_column_header": "Hind",
+        "status_column_header": "Staatus",
+        "removed_from_cart_notice": "Eemaldatud ostukorvist",
+        "sold_out_label": "Läbi müüdud",
+        "reduced_label": "Vähendatud",
+        "reduced_with_quantity_label": "Jäänud on vaid %{quantity_available} saadaval",
+        "remove_from_cart_button_label": "Eemalda ostukorvist",
+        "go_back_to_cart_button_label": "Mine tagasi minu ostukorvi",
+        "remove": "Eemalda",
+        "empty_cart_label": "Sinu ostukorv on tühi",
+        "quantity_update": {
+          "page_title": "Uuenda kogust",
+          "title": "Uuenda kogust",
+          "description": "Saadaval olevad kogused nendele toodetele on muutunud ja on teie ostukorvis uuendatud."
+        },
+        "unpurchasable_product": {
+          "title": "Mitte müügil olev toode",
+          "header": "Mõned esemed on teie ostukorvist eemaldatud",
+          "message": "Need artiklid ei ole äriliste tellimuste jaoks saadaval.",
+          "status_column_header": "Pole saadaval"
+        },
+        "unpurchasable_product_generic": {
+          "title": "Mitte müügil olev toode",
+          "header": "Mõned esemed on teie ostukorvist eemaldatud",
+          "message": "Need artiklid ei ole saadaval.",
+          "status_column_header": "Pole saadaval"
+        },
+        "unshippable_product": {
+          "title": "Tarne pole saadaval",
+          "header": {
+            "one": "Tarne pole saadaval %{count} tootele",
+            "other": "Tarne pole saadaval %{count} tootele"
+          },
+          "message": {
+            "one": "See artikkel eemaldatakse teie ostukorvist, kuna teie aadressile ei ole saadaval kohaletoimetamise meetodeid.",
+            "other": "Need tooted eemaldatakse teie ostukorvist, kuna teie aadressile ei ole saadaval kohaletoimetamise meetodeid."
+          },
+          "status_column_header": "Ei kohaldata kohaletoimetamist"
+        },
+        "price_update": {
+          "title": "Hinnauuendus",
+          "description": "Nende toodete hinnad on muutunud ja on teie ostukorvis uuendatud.",
+          "updated_price": "Uuendatud hind"
+        },
+        "return_to_store_label": "Tagasi poodi",
+        "item_label": {
+          "one": "{{count}} artikkel",
+          "other": "{{count}} artiklit"
+        },
+        "out_of_stock": {
+          "description": "Need tooted ei ole enam saadaval ja on teie ostukorvist eemaldatud.",
+          "items_unavailable": "Mõned tooted ei ole enam saadaval ja on teie ostukorvist eemaldatud."
+        },
+        "unfulfillable_product": {
+          "title": "Kohaletoimetamine pole saadaval",
+          "message": {
+            "one": "%{delivery_method} ei ole selle toote jaoks enam saadaval.",
+            "other": "%{delivery_method} ei ole nende artiklite jaoks enam saadaval."
+          },
+          "default_message": {
+            "one": "Valitud kohaletoimetamise meetod ei ole selle toote jaoks enam saadaval.",
+            "other": "Valitud kohaletoimetamise meetod ei ole nendele toodetele enam saadaval."
+          }
+        },
+        "price_and_quantity_update": {
+          "title": "Hinna- ja koguseuuendus",
+          "description": "Nende artiklite hinnad ja saadavalolevad kogused on teie ostukorvis muudetud ja uuendatud."
+        },
+        "out_of_stock_in_context_label": "See toode ei ole teie riigis/regioonis saadaval."
       },
       "shop_policies": {
         "refund_policy": "Tagasimaksepoliitika",
@@ -2716,6 +2790,16 @@
         "return_to_store": "Tagasi {{shopName}} juurde",
         "return_to_store_simple": "Tagasi poodi",
         "title": "Osta Payga tasudes"
+      },
+      "subscriptions": {
+        "recurring_total_intervals": {
+          "day": {
+            "one": "päev"
+          }
+        }
+      },
+      "store_credit_errors": {
+        "generic_error": "Teie poe krediidiga tekkis probleem. Proovige uuesti või laadige leht uuesti."
       }
     }
   },
