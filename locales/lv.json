@@ -3438,9 +3438,75 @@
     "email_marketing": {
       "open_tracking": {
         "no_longer_track": {
-          "privacy_policy": "Pēc šī e-pasta nosūtīšanas mēs esam atjauninājuši savu privātuma politiku un vairs nesekojam ziņojumu atvēršanai."
+          "privacy_policy": "Pēc šī e-pasta nosūtīšanas mēs esam atjauninājuši savu privātuma politiku un vairs nesekojam ziņojumu atvēršanai.",
+          "status_html": "<b>Mēs vairs nesekojam nevienam e-pasta atvēršanai.</b>"
+        },
+        "opt_in": {
+          "opted_in_html": "<b>Jūs esat pieteicies saņemt paziņojumus par e-pastu atvēršanu.</b>",
+          "visibility": "E-pasta atvēršanas procenti tiek ziņoti anonīmi. Mēs redzēsim tikai to, vai esat atvēris e-pastu kā daļu no apkopotā e-pasta atvēršanas procenta.",
+          "opt_out_html": "Tu vari <a style='text-decoration:underline;' href='%{link}'>atteikties</a> no e-pastu atvēršanas izsekošanas, ja nevēlies koplietot šo informāciju.",
+          "preview_bar": "Jūs skatāties piemēru tam, ko klienti redzēs, kad viņi izvēlēsies ļaut sekot e-pastu atvēršanai."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Jūs esat atteicies no e-pastu atvēršanas izsekošanas.</b>",
+          "visibility": "Mēs neredzēsim, vai esi atvēris mūsu e-pastus.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Reģistrējieties</a>, lai sekotu e-pastu atvēršanai.",
+          "preview_bar": "Jūs skatāties piemēru tam, ko klienti redzēs, kad viņi atteiksies no e-pastu atvēršanas izsekošanas."
+        },
+        "track": {
+          "status_html": "<b>E-pasta atvēršana tiek izsekota.</b>",
+          "visibility": "Mēs redzēsim, vai esi atvēris e-pastu, tikai kā daļu no kopējā atvērtu e-pastu procenta."
+        },
+        "updated_policy": {
+          "status_html": "<b>E-pasta atvēršana tiek izsekota.</b>",
+          "visibility": "Mēs esam atjauninājuši mūsu politiku un tagad sekojam e-pastu atvēršanai. E-pastu atvēršana tiek ziņota anonīmi. Mēs redzam tikai to, vai esat atvēris e-pastu kā daļu no kopējā atvērtu e-pastu procenta.",
+          "opt_out_html": "Ja nevēlaties šo informāciju kopīgot, varat <a style='text-decoration:underline;' href='%{link}'>atteikties no abonēšanas.</a>"
         }
+      },
+      "subscribed": {
+        "confirmation": "Paldies, ka reģistrējāties mūsu pasta sūtījumu sarakstā.",
+        "disclaimer": "Jūs varat jebkurā laikā atteikties no abonēšanas.",
+        "unsubscribe": "Atteikties no abonēšanas"
+      },
+      "unsubscribed": {
+        "confirmation": "Jūs esat atteicies no mūsu pasta saraksta.",
+        "disclaimer": "Jūs vairs nesaņemsiet no mums mārketinga atjauninājumus. Jūs jebkurā laikā varat atkārtoti abonēt.",
+        "preview": "Jūs skatāties piemēru tam, ko klienti redzēs, kad viņi atteiksies no abonēšanas."
+      },
+      "sms_unsubscribe_confirm": {
+        "message": "Vai tiešām vēlaties atteikties no SMS mārketinga?",
+        "button": "Atteikties no abonēšanas"
       }
+    },
+    "errors": {
+      "blank": "nedrīkst būt tukšs",
+      "credit_card_session_expired": "Atļauja kredītkartes izmantošanai ir beigusies, lūdzu, ievadiet maksājuma datus vēlreiz. Jūsu karte netika ieturēta.",
+      "empty": "nedrīkst būt tukšs",
+      "invalid_email": "jābūt derīgai e-pasta adresei",
+      "discount_disabled": "Šī atlaide ir atspējota",
+      "discount_expired": "Šī atlaide vairs nav derīga",
+      "discount_limit_reached": "Šis atlaides piedāvājums ir sasniedzis savu izmantošanas limitu",
+      "discount_not_found": "Nevar atrast derīgu atlaidi, kas atbilst ievadītajam kodam",
+      "customer_already_used_once_per_customer_discount_notice": "Šis atlaides piedāvājums ir sasniedzis savu izmantošanas limitu",
+      "gift_card_already_applied": "Kods jau ir piemērots jūsu norēķinu procesam",
+      "gift_card_code_invalid": "Kods nav derīgs",
+      "gift_card_currency_mismatch": "Jūsu dāvanu karte ir %{gift_card_currency}. Sazinieties ar mums, lai to pārsūtītu uz %{checkout_currency}.",
+      "gift_card_depleted": "Šajā dāvanu kartē vairs nav atlikuma",
+      "gift_card_disabled": "Dāvanu karte ir atspējota",
+      "gift_card_expired": "Dāvanu karte ir beigusies derīguma termiņš",
+      "invalid": "ir nederīgs",
+      "bad_domain": "satur nederīgu domēna vārdu",
+      "contains_html_tags": "nedrīkst saturēt HTML tagus",
+      "contains_spaces": "sākas vai beidzas ar atstarpēm.",
+      "invalid_for_country": "nav derīgs %{country}",
+      "invalid_for_country_and_province": "nav derīgs %{province} un %{country}",
+      "invalid_province_in_country": "nav derīga province %{country}",
+      "full_name_required": "Ievadiet vārdu un uzvārdu",
+      "invalid_for_card_type": "nav derīgs",
+      "invalid_format": "sadalījums nav derīgs",
+      "expired": "ir beidzies",
+      "invalid_expiry_year": "nav derīgs derīguma termiņš",
+      "blocked_address": "Šī vieta netiek atbalstīta"
     }
   },
   "recipient": {
