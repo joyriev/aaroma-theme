@@ -1899,7 +1899,73 @@
         "grabpay_label": "PakBetalen",
         "kcp_creditcard_label": "KCP Kredītkarte",
         "network_card_persistence_description": "Izvēlētais tīkls tiks saglabāts jūsu maksājuma metodē nākotnes pirkumiem.",
-        "multiple_primary_payment_not_allowed": "Nederīgas maksājumu metodes"
+        "multiple_primary_payment_not_allowed": "Nederīgas maksājumu metodes",
+        "pay_with_payment_method": "Maksāt ar %{payment_method}",
+        "order_covered_by_gift_cards_notice": {
+          "one": "Jūsu pasūtījumu sedz jūsu dāvanu karte.",
+          "other": "Jūsu pasūtījumu sedz jūsu dāvanu kartes."
+        },
+        "offsite_gateway_redirect_hint": "Jūs tiksiet novirzīts uz %{gateway_label}, lai pabeigtu savu pirkumu.",
+        "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label} kopā %{total_shop_price}",
+        "no_js_credit_card_fields_redirect_hint": "Jūs tiksiet novirzīts, lai pievienotu savus maksājuma datus.",
+        "no_method_error": "Šī veikala pašlaik nevar pieņemt maksājumus.",
+        "not_configured_error": "Šī veikala pašlaik nevar pieņemt maksājumus.",
+        "paypal_label": "PayPal",
+        "no_real_orders_dev_store": "Šis veikals nevar pieņemt īstus pasūtījumus vai īstas maksāšanas.",
+        "no_taxes_banner_content": "Šim pasūtījumam netiek piemēroti nodokļi. Kad maksājums būs saņemts, nodokļus vairs nevarēs pievienot.",
+        "paypal": {
+          "connect": "Noklikšķiniet, lai saistītu savu PayPal kontu"
+        },
+        "paypal_modal": {
+          "order_contains_subscriptions": "Abonements",
+          "order_contains_fixed_selling_plans": "Kopējā summa var būt bez nodokļiem, piegādes, atliktajām izmaksām un dažām atlaidēm. Turpiniet uz norēķinu lapu, lai redzētu šodien jāmaksā summu."
+        },
+        "payment_method_saved": "Maksāšanas veids saglabāts",
+        "order_covered_by_store_credit_notice": "Jūsu pasūtījumu sedz jūsu veikala kredīts.",
+        "order_covered_by_redeemables_notice": "Jūsu pasūtījums ir apdrošināts.",
+        "no_working_method_error": "Šis veikals šobrīd nevar pieņemt maksājumus. Atsvaidziniet šo lapu vai atgriezieties vēlāk.",
+        "order_edit_banner_title": "Maksājums {{amount_owed}} ir nepieciešams",
+        "order_edit_banner_subtitle": "Jūsu pasūtījums {{order_number}} ir atjaunināts. Apskatiet šīs izmaiņas un pēc tam samaksājiet, lai apstiprinātu savu pasūtījumu.",
+        "order_edit_banner_single_item_added": "Pievienots",
+        "order_edit_banner_multiple_items_added": "Pievienots {{amount}}",
+        "order_edit_banner_single_item_removed": "Dzēsts",
+        "order_edit_banner_multiple_items_removed": "Izdzēsts {{amount}}",
+        "order_edit_banner_single_item_returned": "Atgriezts",
+        "order_edit_banner_multiple_items_returned": "Atgriezts {{amount}}",
+        "order_edit_banner_items_added": {
+          "one": "Pievienots",
+          "other": "Pievienots %{count}"
+        },
+        "order_edit_banner_items_removed": {
+          "in_full": "Dzēsts",
+          "with_quantities": "Noņemts {{delta}} no {{quantity}}"
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "Atgriezts {{quantity}}",
+          "with_quantities": "Atgriezts {{delta}} no {{quantity}}"
+        },
+        "payment_method": "Maksāšanas veids",
+        "order_edit_banner_updated_order_label": "Atjaunināts pasūtījums",
+        "order_edit_banner_items_return_line_item_removed": {
+          "in_full": "Izņemts no atgriešanas",
+          "with_quantities": "{{delta}} izņemts no atgriešanas"
+        },
+        "order_edit_banner_single_item_return_line_item_removed": "Izņemts no atgriešanas",
+        "order_edit_banner_multiple_items_return_line_item_removed": "{{amount}} izņemts no atgriešanas",
+        "pay_in_installments_split_pay_short": "4 maksājumi pa %{amount}",
+        "payment_method_not_available_for_shipping_address_error": "Maksājuma metode nav pieejama izvēlētajai piegādes adresei. Lūdzu, izvēlieties citu maksājuma metodi.",
+        "paypal_disconnect": "Pārtrauciet savienojumu",
+        "payment_method_update_failed": "Maksājuma metodes atjaunināšana neizdevās.",
+        "payment_flexibility_terms_id_mismatch": "Maksājumu elastības nosacījumu ID nesakrīt",
+        "offsite_gateway_review_page_redirect_hint": "Pēc tam, kad esat pārbaudījis savu pasūtījumu, jūs tiksiet novirzīts uz %{gateway_label}, lai pabeigtu savu pirkumu.",
+        "offsite_gateway_redirect_hint_no_button_label": "Jūs tiksiet novirzīts uz %{gateway_label}, lai pabeigtu savu pirkumu.",
+        "payment_method_incompatible_with_payment_terms": "Maksājuma metode nav saderīga ar maksājumu nosacījumiem.",
+        "payment_option": {
+          "accessibility_label": "Izvēlieties maksāšanas veidu"
+        },
+        "payment_method_rollup_accessibility_label": "Maksājumu metožu iespējas",
+        "payments": "Maksājums",
+        "new_bank_account_disclaimer": "Lai pabeigtu savu pasūtījumu, jūs piešķirat %{shop_name} atļauju debetēt zemāk norādīto konta numuru caur ACH par norādīto summu un norādītajā laikā."
       }
     }
   },
