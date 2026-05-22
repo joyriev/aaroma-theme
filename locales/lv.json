@@ -2328,9 +2328,14 @@
         "block_title": "Pārbaudiet savus datus",
         "checkout_a_different_way": "Izmēģiniet citu veidu",
         "item_header": {
-          "change_value": "Vērtības maiņa"
+          "change_value": "Vērtības maiņa",
+          "section": "Sadaļa",
+          "value": "Vērtība"
         },
-        "account_more_actions": "Vairāk darbību šim kontam"
+        "account_more_actions": "Vairāk darbību šim kontam",
+        "title": "Novērtējums",
+        "review_title": "Pabeidziet savu pasūtījumu",
+        "review_and_confirm_title": "Novērtēt un apstiprināt"
       },
       "remote": {
         "errors": {
@@ -2358,6 +2363,63 @@
         "errors": {
           "interaction_required": "Lai pabeigtu apstrādi, ir nepieciešama paplašinājuma mijiedarbība."
         }
+      },
+      "shipping": {
+        "cheapest_rate_label": "Lētākais",
+        "arrives_time": "Ieradīsies pēc %{time}",
+        "arrives_time_range": "Ierašanās laikā no %{min_time} līdz %{max_time}",
+        "delivery_today": "Piegāde tajā pašā dienā %{time}",
+        "delivery_tomorrow": "Piegāde nākamajā dienā %{time}",
+        "delivery": "Piegāde %{time}",
+        "duties_and_taxes_title": "Muitas nodevas un nodokļi",
+        "duties_and_taxes_options": {
+          "ddu_title": "Maksāt pie piegādes",
+          "ddu_caption": "Var tikt piemērotas papildu maksas",
+          "ddp_title": "Maksā tagad",
+          "ddp_caption": "Nav papildu maksas par piegādi"
+        },
+        "address_update": "Adresi atjaunināt",
+        "add_address": "Izmantojiet citu adresi",
+        "add_delivery_instructions": "Pievienot piegādes norādījumus",
+        "delete": "Noņemt",
+        "address_more": "Vairāk piedāvājumu šai adresei",
+        "address_edit": "Rediģēt adresi",
+        "address_delete": "Dzēst adresi",
+        "address_confirm": "Vai tiešām vēlaties no sava konta dzēst šo adresi?",
+        "address_form": {
+          "add_address": "Pievienot adresi",
+          "save": "Saglabāt",
+          "cancel": "Atcelt",
+          "generic_error": "Radās problēma, saglabājot jūsu adresi. Lūdzu, mēģiniet vēlreiz.",
+          "one_time_address_subtitle": "Izmantojiet vienreizēju adresi šim pasūtījumam",
+          "edit": "Rediģēt adresi",
+          "update": "Saglabāt izmaiņas"
+        },
+        "different_shipping_method_summary": "Ievadiet citu piegādes adresi, lai skatītu pieejamās piegādes metodes",
+        "delivery_title": "Piegāde",
+        "address_default": "Iestatīt kā noklusējumu",
+        "default_description": "Piegāde 1 darba dienas laikā",
+        "back": "Atpakaļ",
+        "add_shipping_address": "Pievienot piegādes adresi",
+        "choose_new_address": "Izvēlieties jaunu adresi",
+        "add_new_delivery_address": "Pievienot jaunu piegādes adresi",
+        "delivery_to": "Piegāde uz"
+      },
+      "session_errors": {
+        "session_not_unique": "Radās problēma, apstrādājot jūsu pasūtījumu. Atsvaidziniet šo lapu, lai atgrieztos veikalā.",
+        "session_already_finished": "Šis pasūtījums jau ir iesniegts. Jūs varat atgriezties veikalā, lai sāktu jaunu pasūtījumu."
+      },
+      "review_address_modal": {
+        "title": "Novērtējumu adrese",
+        "subtitle": {
+          "one": "Šis pasūtījums tiks nosūtīts uz {{merchant}} norādīto adresi.",
+          "other": "Šis pasūtījums tiks nosūtīts uz adresi, ko norādījis {{merchant}}. Izvēlieties piegādes adresi."
+        },
+        "subtitle_no_match": "Šī adrese nesakrīt ar nevienu no jūsu saglabātajām adresēm.",
+        "subtitle_must_use": "Jūsu pasūtījums tiks nosūtīts uz šo adresi.",
+        "continue": "Turpināt ar šo adresi",
+        "use_saved_address": "Izmantojiet citu adresi",
+        "return_to_cart": "Atpakaļ uz iepirkumu grozu"
       }
     }
   },
