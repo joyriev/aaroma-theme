@@ -387,6 +387,88 @@
       "message": "Om door te gaan, laat ons weten dat je geen robot bent.",
       "error": "Teie vastus ei olnud õige, palun proovige uuesti.",
       "submit_button_text": "Saada teele"
+    },
+    "checkout": {
+      "contact": {
+        "address_title": "Aadress",
+        "address1_label": "Aadress",
+        "address2_label": "Korter, sviit jne.",
+        "city_label": "Linn",
+        "civic_number_warning": "Lisage majanumber, kui teil see on",
+        "change_company_location_link_label": "Muuda ettevõtte aadressi",
+        "change_location_link_label": "Asukohta muuta",
+        "available_addresses_label": "Saadaval aadressid"
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Kiirelt maksta",
+        "or": "Välja lülitatud",
+        "show_more_options": "Kuva rohkem valikuid",
+        "hide_more_options": "Peida rohkem valikuid",
+        "or_pay_another_way": "Või maksa teisel viisil",
+        "or_check_out_another_way": "Või vaata teist viisi",
+        "or_pay_with_credit_card": "Või maksa krediitkaardiga"
+      },
+      "change_currency": {
+        "credit_card_will_be_charged_html": "Teie krediitkaardilt võetakse %{amount} tasu",
+        "payment_total_label": "Kogusumma makse",
+        "change_currency_link": "Vaheta %{currency_name} vastu",
+        "card_provider_fx_charges_warning": "Teie kaardimaksed võivad sisaldada tasusid tehingute eest, mis on tehtud valuutas %{currency_code}.",
+        "currency_not_supported_by_shop": "Teie valitud valuuta pole enam saadaval. Kõik hinnad on nüüd %{currency_code}."
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Sinu ostukorv on uuendatud vastavalt sinu saatmisriigile.",
+        "cart_and_currency_updated_based_on_country": "Sinu ostukorv ja valuuta on uuendatud vastavalt saatmisriigile.",
+        "currency_updated_for_country": "Valuuta uuendatud %{country} jaoks"
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "Teie riik/regioon on uuendatud. Sisestage oma tarneaadress, et jätkata ostu vormistamist."
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "Tahtis tekkis teie päringu töötlemisel probleem. Palun võtke ühendust kauplejaga."
+      },
+      "captcha": {
+        "title": "Täida CAPTCHA, et jätkata",
+        "errors": {
+          "not_solved": "Täida CAPTCHA, et jätkata"
+        }
+      },
+      "billing": {
+        "billing_address_title": "Arveldamine aadressile",
+        "same_as_shipping": "Sama mis kohaletoimetamise aadress",
+        "add_address": "Kasuta teist aadressi",
+        "edit": "Muuda",
+        "delete": "Eemalda",
+        "address_more": "Rohkem kampaaniaid sellele aadressile",
+        "address_edit": "Aadressi redigeerimine",
+        "address_delete": "Aadressi kustutamine",
+        "address_confirm": "Kas olete kindel, et soovite selle aadressi oma kontolt eemaldada?",
+        "address_form": {
+          "add_address": "Lisa aadress",
+          "save": "Salvesta",
+          "cancel": "Tühista"
+        },
+        "billing_address_rollup_accessibility_label": "Arveldamine valikute alusel"
+      },
+      "company_location": {
+        "location_title": "Ettevõtte asukoht",
+        "location_rollup_accessibility_label": "Ettevõtte asukoha valikud"
+      },
+      "clipboard": {
+        "copied": "Kopeeritud",
+        "failed_to_copy": "Kopeerimine ebaõnnestus"
+      },
+      "artifact_errors": {
+        "artifact_dissatisfaction_without_violation": "Tellimuse töötlemisel tekkis probleem. Palun proovige mõne minuti pärast uuesti."
+      },
+      "b2b_errors": {
+        "lost_b2b_purchasing_permissions": "Sul ei ole enam luba B2B tellimusi esitada. %{logout_url}, et selle asemel esitada isiklik tellimus.",
+        "log_out_link_text": "Logi välja",
+        "lost_permissions_subtitle": "Teil puudub enam luba B2B tellimuste esitamiseks. Logige välja, et esitada isiklik tellimus.",
+        "lost_permissions_title": "Asukohaluba puudub"
+      },
+      "address_management": {
+        "saved_with_store": "Salvestatud selles poes"
+      }
     }
   },
   "recipient": {
