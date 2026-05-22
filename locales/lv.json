@@ -3818,5 +3818,66 @@
     "404": {
       "title": "Lapa nav atrasta"
     }
+  },
+  "sections": {
+    "header": {
+      "announcement": "Paziņojums",
+      "menu": "Izvēlne",
+      "cart_count": {
+        "one": "{{ count }} prece",
+        "other": "{{ count }} preces"
+      }
+    },
+    "cart": {
+      "title": "Jūsu iepirkumu grozs",
+      "caption": "Pievienot preces grozam",
+      "remove_title": "Noņemt {{ title }}",
+      "note": "Īpašas norādes pasūtījumam",
+      "checkout": "Norēķināties",
+      "empty": "Jūsu iepirkumu grozs ir tukšs",
+      "cart_error": "Radās kļūda, atjauninot tavu iepirkumu grozu. Lūdzu, mēģini vēlreiz.",
+      "cart_quantity_error_html": "Tu vari pievienot savam iepirkumu grozam tikai {{ quantity }} no šī artikula.",
+      "headings": {
+        "product": "Produkts",
+        "price": "Cena",
+        "total": "Kopā",
+        "quantity": "Skaits",
+        "image": "Produkta attēls"
+      },
+      "update": "Atjaunināt",
+      "login": {
+        "title": "Vai tev ir konts?",
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Pieslēgties</a> ātrākai norēķināšanai."
+      },
+      "estimated_total": "Aptuvenais kopējais daudzums",
+      "new_estimated_total": "Jauns kopējais novērtējums"
+    },
+    "footer": {
+      "payment": "Maksāšanas veidi"
+    },
+    "featured_blog": {
+      "view_all": "Skatīt visu",
+      "onboarding_title": "Emuāra ieraksts",
+      "onboarding_content": "Sniedz saviem klientiem pārskatu par savu emuāra ierakstu"
+    },
+    "featured_collection": {
+      "view_all": "Skatīt visu",
+      "view_all_label": "Skatīt visus produktus kolekcijā {{ collection_name }}"
+    },
+    "collection_list": {
+      "view_all": "Skatīt visu"
+    },
+    "collection_template": {
+      "title": "Kolekcija",
+      "empty": "Nav atrasts neviens produkts",
+      "use_fewer_filters_html": "Izmantot mazāk filtru vai <a class=\"{{ class }}\" href=\"{{ link }}\">notīrīt visu</a>"
+    },
+    "announcements": {
+      "previous_announcement": "Iepriekšējais paziņojums",
+      "next_announcement": "Nākamais paziņojums",
+      "carousel": "Karuselis",
+      "announcement": "Paziņojums",
+      "announcement_bar": "Paziņojumu josla"
+    }
   }
 }
