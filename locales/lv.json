@@ -3293,7 +3293,24 @@
         "cubic_meter": "m³",
         "centimeter": "cm",
         "fluid_ounce": "šķidrais oz",
-        "foot": "ft"
+        "foot": "ft",
+        "milligram": "mg",
+        "gram": "g",
+        "kilogram": "kg",
+        "milliliter": "ml",
+        "liter": "l",
+        "millimeter": "mm",
+        "meter": "m",
+        "square_meter": "m²",
+        "ounce": "ozols",
+        "pound": "mārciņa",
+        "pint": "pt",
+        "quart": "qt",
+        "gallon": "meitene",
+        "inch": "iekšā",
+        "yard": "yd",
+        "square_foot": "kv.m",
+        "item": "raksts"
       },
       "tooltip": {
         "accessibility_label_context": "Vairāk informācijas par %{context}",
@@ -3304,6 +3321,53 @@
         "body": "Lūdzu, uzgaidiet dažas minūtes un mēģiniet vēlreiz no sava iepirkumu groza.",
         "return_to_cart": "Atpakaļ uz iepirkumu grozu",
         "body_no_cart": "Uzgaidiet dažas minūtes un mēģiniet vēlreiz."
+      },
+      "wallets": {
+        "connect_shipping_methods": "{{method1}} un {{method2}}",
+        "call_to_action": "Maksājiet ar {{walletName}}",
+        "errors": {
+          "generic": "Radās problēma ar {{walletName}}. Mēģiniet vēlreiz vai izmantojiet citu maksājuma veidu.",
+          "detour": {
+            "stock_problems": "Daži priekšmeti vairs nav pieejami. Aizveriet {{walletName}} un mēģiniet vēlreiz.",
+            "price_change": "Dažu preču cenas ir mainījušās. Aizver {{walletName}}, lai apskatītu savu pasūtījumu un mēģinātu vēlreiz.",
+            "queue": "Jūs esat rindā, lai veiktu norēķinu. Aizveriet {{walletName}}, lai turpinātu.",
+            "currency_change": "Jūs nevarat izmantot citu adresi ar {{walletName}}. Izmantojiet sākotnējo adresi vai mēģiniet citu maksājuma veidu."
+          },
+          "invalid": {
+            "shipping_address": "Ievadiet derīgu piegādes adresi",
+            "billing_address": "Ievadiet derīgu rēķina adresi",
+            "shipping_option": "Izvēlieties derīgu piegādes veidu",
+            "email": "Ievadiet derīgu e-pasta adresi",
+            "zone": "Ievadiet derīgu štatu / provinču",
+            "postal_code": "Ievadiet derīgu pasta indeksu",
+            "reduction_code": "Ievadiet derīgu atlaides kodu vai dāvanu karti",
+            "billing_must_match_shipping": "Jāatbilst piegādes adresei",
+            "phone": "Ievadiet derīgu tālruņa numuru",
+            "emirate": "Ievadiet derīgu Emirātu (Apvienoto Arābu Emirātu) kodu",
+            "billing_zone": "Ievadiet derīgu rēķina adreses štatu / provinču",
+            "billing_phone": "Ievadiet derīgu tālruņa numuru rēķina adresei",
+            "billing_zip": "Ievadiet derīgu pasta indeksu rēķina adresei"
+          },
+          "missing": {
+            "address1": "Ievadiet adresi",
+            "address2": "Ievadiet dzīvokli, numuru utt.",
+            "billing_first_name": "Ievadiet vārdu rēķina adresei",
+            "billing_address1": "Ievadiet rēķina adresi",
+            "billing_address2": "Ievadiet rēķina adresi, dzīvokli, apartamentu utt.",
+            "billing_city": "Ievadiet rēķina adreses pilsētu"
+          },
+          "formatting": {
+            "name_contains_emojis": "Noņem emoji no sava vārda",
+            "postal_code_contains_emoji": "Noņemiet emocijzīmes no sava pasta koda",
+            "first_name_too_long": "Vārds satur pārāk daudz burtu",
+            "last_name_too_long": "Uzvārds satur pārāk daudz burtu",
+            "address_too_long": "Adreses rinda ir pārāk gara"
+          },
+          "discount_code": "Nevar piemērot šo atlaižu kodu. Lūdzu, pārbaudiet savu kodu un mēģiniet vēlreiz."
+        }
+      },
+      "vaulted": {
+        "change_button": "Mainīt"
       }
     }
   },
