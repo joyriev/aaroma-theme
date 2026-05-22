@@ -819,7 +819,32 @@
             "february": "veebruar",
             "april": "aprill",
             "august": "Augustus",
-            "december": "detsember"
+            "december": "detsember",
+            "march": "märts",
+            "may": "mei",
+            "june": "juuni",
+            "july": "juuli",
+            "september": "september",
+            "october": "Oktoober",
+            "november": "november"
+          },
+          "weekdays": {
+            "monday": "Esmaspäev",
+            "tuesday": "Teisipäev",
+            "wednesday": "Kolmapäev",
+            "thursday": "Neljapäev",
+            "friday": "Reede",
+            "saturday": "laupäev",
+            "sunday": "Pühapäev"
+          },
+          "weekdays_abbreviation": {
+            "monday": "Esmaspäev",
+            "tuesday": "Sina",
+            "wednesday": "Meie",
+            "thursday": "De",
+            "friday": "Prantsuse",
+            "saturday": "Za",
+            "sunday": "Su"
           }
         },
         "datepicker": {
@@ -829,7 +854,46 @@
           "in_range": "Saadaval",
           "range_end": "Valikoiman lopetus"
         },
-        "confirm_order_button_label": "Tellimuse kinnitamine"
+        "confirm_order_button_label": "Tellimuse kinnitamine",
+        "error_page_title": "Viga",
+        "edit_link_label": "Muuda",
+        "errors": {
+          "buyer_identity": {
+            "business_customer_does_not_match_company": "Ettevõtte kontaktisikul puudub juurdepääs ettevõttele.",
+            "customer_account_required": "Peate jätkamiseks sisse logima.",
+            "contact_info_does_not_match_customer_account": "Kontaktandmed peavad vastama kontole, millega olete sisse logitud.",
+            "phone_number_does_not_match_expected_pattern": "Sisestatud telefoninumber ei vasta oodatud mustrile.",
+            "email_required": "E-posti aadress on nõutav, kui kaubad ostetakse tellimuse alusel.",
+            "email_domain_is_invalid": "Seda määratud domeeni ei saa lahendada.",
+            "missing_contact_method": "Puudub kehtiv kontaktmeetod.",
+            "checkout_completion_target_is_missing": "Eesmärk kassa lõpetamiseks puudub.",
+            "invalid_customer_profile": "Esitati kehtetu kliendiprofiil.",
+            "customer_profile_access_restricted": "Kassal puudub luba kliendiprofiilile juurdepääsuks.",
+            "checkout_completion_target_is_invalid_proc": "Kehtetu lõpetamise eesmärk maksmiseks.",
+            "company_location_required": "Kliendil tuleb jätkamiseks valida ettevõtte asukoht.",
+            "lost_access_to_company": "Kliendil on juurdepääs kõigile ettevõtetele kadunud.",
+            "company_purchase_permission_required": "Kliendil puudub luba äripakkumiste esitamiseks.",
+            "personal_order_not_allowed": "Isiklikud tellimused selles poes ei ole lubatud.",
+            "buyer_identity_presentment_currency_does_not_match": "Tellimuse töötlemisel tekkis probleem. Palun proovige mõne minuti pärast uuesti."
+          },
+          "attribution": {
+            "retail_attribution_not_allowed": "Jaemüük ei ole selle tehingu puhul lubatud.",
+            "retail_attribution_required": "Poepühendus on selle toimingu jaoks vajalik."
+          },
+          "captcha": {
+            "metadata_missing": "Captcha täitmine on selle toimingu jaoks kohustuslik.",
+            "metadata_mismatch": "Sisestatud captcha-teenuse pakkuja ja tüüp ei vasta oodatud väärtustele.",
+            "job_enqueue_failed": "Captcha valideerimist ei saanud järjekorda lisada.",
+            "job_already_queued": "Captcha-kinnitamine on selle captcha-märgi jaoks juba järjekorda pandud.",
+            "token_expired": "Sisestatud captcha-märgend on aegunud. Jätkamiseks täitke uus captcha.",
+            "token_invalid": "Sisestatud captcha-märgend oli kehtetu. Jätkamiseks maksmisega täitke uus captcha."
+          }
+        },
+        "dropzone": {
+          "add_file": "Lisa fail",
+          "invalid_file_type": "Failitüüp ei ole toetatud",
+          "dragged_over": "Faili üleslaadimiseks salvestamine"
+        }
       }
     }
   },

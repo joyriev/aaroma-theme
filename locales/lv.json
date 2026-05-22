@@ -886,7 +886,69 @@
             "job_enqueue_failed": "Captcha validēšanu nevarēja ievietot rindā.",
             "job_already_queued": "Captcha validācija jau ir ievietota rindā šim captcha tokenam.",
             "token_expired": "Norādītais captcha tokens ir beidzies. Lūdzu, pabeidziet jaunu captcha, lai turpinātu norēķināties.",
-            "token_invalid": "Norādītais captcha tokens bija nederīgs. Lūdzu, pabeidziet jaunu captcha, lai turpinātu norēķināties."
+            "token_invalid": "Norādītais captcha tokens bija nederīgs. Lūdzu, pabeidziet jaunu captcha, lai turpinātu norēķināties.",
+            "token_missing": "Lai pabeigtu šo pirkumu, jāievada captcha tokens.",
+            "token_not_valid_for_session": "Norādīto captcha nevar izmantot šajā kasē."
+          },
+          "line_item_limit_reached": "Sasniegts maksimālais rindu vienumu skaits.",
+          "merchandise": {
+            "bundle_products_not_supported_for_b2b": "Apvienotos priekšmetus nevar pievienot B2B pasūtījumiem šai atrašanās vietai.",
+            "gift_card_quantity_mismatch": "Ievadot dāvanu karšu kodus, preču skaitam un dāvanu karšu kodu skaitam jābūt vienādiem.",
+            "gift_card_not_supported": "Dāvanu kartes šajā kasē netiek atbalstītas.",
+            "gift_card_not_unique": "Dāvanu karte ar kodu {{code}} šajā norēķinā tiek izmantota vairākas reizes. Kodu formatē pirms salīdzināšanas.",
+            "gift_card_used": "Dāvanu kartes kods {{code}} jau ir piešķirts dāvanu kartei. Kodu formatē pirms salīdzināšanas.",
+            "gift_card_invalid": "Dāvanu kartes kods {{code}} ir nederīgs.",
+            "gift_card_code_changed": "Dāvanu kartes kods {{proposed_code}} ir mainīts uz {{formatted_code}}, lai atbilstu formatēšanas noteikumiem.",
+            "gift_card_with_attributes_not_supported": "Dāvanu kartes ar pielāgotām īpašībām šajā kasē netiek atbalstītas.",
+            "gift_card_with_components_not_supported": "Dāvanu kartes ar detaļām šajā kases aparātā netiek atbalstītas.",
+            "duplicated_stable_id": "Šai produktu līnijai ir tāds pats stabilais ID kā citai līnijai.",
+            "bundle_requires_components": "Šis saliktais produkts nesatur detaļas.",
+            "combined_listing_parent_not_purchasable": "Galvenos produktus no apvienotajām ierakstiem nevar iegādāties tieši."
+          },
+          "delivery": {
+            "only_one_delivery_line_allowed": "Grozā drīkst būt tikai viena piegādes rinda.",
+            "wrong_number_of_delivery_lines": "Katrai preču grupai jānorāda piegādes līnija.",
+            "external_delivery_promise_error": "Kļūda, iegūstot ārējo piegādes solījumu.",
+            "options_instructions_invalid": "Norādītās instrukcijas neatbilst gaidītajam modelim.",
+            "destination_address_required": "Lai turpinātu, ir nepieciešama galamērķa adrese.",
+            "pickup_points_unavailable": "Pašapkalpošanās punkti pašlaik nav pieejami.",
+            "local_pickup_delivery_line_detail_changed": "Esošā pašapkalpošanās stratēģija vietējai piegādei ir jāmaina, lai turpinātu darbu.",
+            "local_pickup_no_delivery_strategy_available": "Nav atrasta pieejama piegādes vai saņemšanas metode.",
+            "origin_location_id_required": "Ir nepieciešams norādīt izcelsmes vietas ID, ja tiek pieprasīta PIEGĀDE VEIKALĀ.",
+            "invalid_origin_location_id": "Neizdevās atrast atrašanās vietu, kas atbilst sākotnējās atrašanās vietas ID.",
+            "origin_location_id_not_allowed": "Pieprasītās piegādes metodes neatbalsta izcelsmes vietas ID.",
+            "auto_fulfill_not_allowed": "Šai sesijai nav atļauts pārrakstīt apstrādes uzvedību.",
+            "auto_fulfill_required": "Automātiska izpilde ir obligāta, ja tiek pieprasīta PĀRDOŠANAS piegādes metode.",
+            "prefetch_shipping_rates_used": "Iepriekš noteiktas piegādes cenas nekad nedrīkst atgriezt cenas.",
+            "fulfillment_constraints_not_satisfied": "Viena vai vairākas piegādes nosacījumi nav izpildīti.",
+            "must_fulfill_from_constraint_not_satisfied": "Izpildes prasības netiek izpildītas, jo preces nevar piegādāt no nepieciešamajām vietām.",
+            "must_fulfill_from_same_location_constraint_not_satisfied": "Izpildes prasības netiek izpildītas, jo preces nevar piegādāt no vienas un tās pašas vietas.",
+            "delivery_strategy_conditions_not_satisfied": "Piegādes metodes šai vietai ir pieejamas, taču to nosacījumi netiek izpildīti.",
+            "out_of_stock_at_origin_location": "Nav krājumu sākotnējā vietā.",
+            "invalid_signature": "Nederīga atlaides paraksts.",
+            "selected_pickup_option_no_longer_available": "Iepriekš izvēlētā saņemšanas iespēja vairs nav pieejama.",
+            "mixed_destination_countries": "Piegāde nav pieejama, jo piegādes noteikumi attiecas uz vairākiem valstīm."
+          },
+          "discount": {
+            "discounts_not_allowed_for_b2b": "Atlaides B2B veikalos nav atļautas.",
+            "custom_discount_not_honoured": "Norādītā pielāgotā atlaide netika piešķirta.",
+            "unsupported_expectation": "Norādītais atlaides noteikums saturēja nosacījumu, ko politika nevarēja interpretēt.",
+            "additional_requested_discount_code_discarded": "{{code}} ir derīgs, bet nepiemērojams. Lūdzu, pārbaudiet atlaides nosacījumus.",
+            "allocations_mismatch": "Tava atlaižu koda ir mainīta. Pārskati savu iepirkumu grozu un mēģini vēlreiz.",
+            "discount_title_too_long": "Īsais virsraksts nedrīkst pārsniegt 255 rakstzīmes.",
+            "additional_requested_discount_discarded": "Jūsu atlaide ir derīga, bet to nevar piemērot. Lūdzu, pārbaudiet atlaides nosacījumus.",
+            "mixed_destination_countries": "Atlaides nav pieejamas, jo piegādes noteikumi attiecas uz vairākiem valstīm."
+          },
+          "inventory": {
+            "missing_quantity_value": "Daudzuma lauks pircēja krājumu rindās trūkst.",
+            "changing_behavior_not_allowed": "Šim klientam nav atļaujas mainīt krājumu uzvedību.",
+            "only_one_inventory_behavior_allowed": "Pašlaik katrā norēķinu procesā ir atļauts tikai viens krājumu uzvedības veids."
+          },
+          "fx_reconciliation_override": {
+            "shop_currency_mismatch": "Saņemtajai summai jābūt veikala valūtā."
+          },
+          "checkout_source": {
+            "revoked": "Šī kases aparāta vairs nav pieejama."
           }
         },
         "dropzone": {
