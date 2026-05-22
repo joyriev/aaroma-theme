@@ -2469,7 +2469,79 @@
         },
         "shipping_method_rollup_accessibility_label": "Piegādes metožu iespējas",
         "shipping_address_rollup_accessibility_label": "Sūtīt uz adreses opcijām",
-        "invalid_shipping_method_summary_selected": "Izvēlieties citu piegādes adresi, lai skatītu pieejamās piegādes metodes"
+        "invalid_shipping_method_summary_selected": "Izvēlieties citu piegādes adresi, lai skatītu pieejamās piegādes metodes",
+        "shipping_method_title": "Sūtīšanas veids",
+        "shipping_rate_discounted_amount": "Bija: %{original_amount}. Tagad: %{amount}",
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "one": "piegādei %{count} cilvēkiem",
+            "other": "līdz %{count} piegādēm"
+          },
+          "multiple_subscriptions_shipping_price_label": "%{shipping_price} par piegādi",
+          "initial_order_discounted": "Vispirms piegādes maksa %{discounted_shipping_cost}, pēc tam %{frequency_description}",
+          "prepaid_initial_order_discounted": "Pirmās piegādes izmaksas %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Pirmās piegādes izmaksas %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "Pirmās piegādes izmaksas %{discounted_shipping_price} %{prepaid_delivery_frequency}, pēc tam %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Pirmās piegādes izmaksas %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), pēc tam %{shipping_price} %{billing_cycle}",
+          "first_order_shipping_price_included": "Pirmā pasūtījuma piegāde iekļauta, pēc tam %{recurring_order_shipping_price}",
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} par piegādi), pēc tam %{recurring_order_shipping_price}",
+          "first_n_order_free": {
+            "one": "Pirmā pasūtījuma piegāde bez maksas",
+            "other": "Pirmie %{count} pasūtījumi bez maksas"
+          },
+          "free_for_first_n_order": {
+            "one": "Pirmajam pasūtījumam",
+            "other": "Pirmajām %{count} pasūtījumiem"
+          },
+          "free_shipping_cycles": {
+            "one": "Bezmaksas piegāde vēl %{count} piegādē(jās)",
+            "other": "Bezmaksas piegāde vēl %{count} piegādēm"
+          },
+          "free_shipping_cycles_delivery_not_included": {
+            "one": "Bezmaksas piegāde %{count} piegādei",
+            "other": "Bezmaksas piegāde %{count} piegādēm"
+          },
+          "first_n_order_free_with_cycle": {
+            "one": "Bezmaksas piegāde vēl %{count} piegādēm, pēc tam %{recurring_order_shipping_price}",
+            "other": "Bezmaksas piegāde vēl %{count} piegādēm, pēc tam %{recurring_order_shipping_price}"
+          },
+          "first_n_order_free_with_cycle_delivery_not_included": {
+            "one": "Bezmaksas piegāde pirmajai %{count} piegādei, pēc tam %{recurring_order_shipping_price}",
+            "other": "Bezmaksas piegāde %{count} piegādēm, pēc tam %{recurring_order_shipping_price}"
+          },
+          "max_cycles_base_shipping": {
+            "one": "%{count} papildu sviras par %{shipping_price}",
+            "other": "%{count} papildu piegādes par %{shipping_price} gabalā"
+          },
+          "max_cycles_base_shipping_delivery_not_included": {
+            "one": "%{count} piegāde par %{shipping_price}",
+            "other": "%{count} papildu piegādes par %{shipping_price} gabalā"
+          },
+          "prepaid_free_shipping_with_cycles": {
+            "one": "Bezmaksas piegāde pirmajam %{cycle}, pēc tam %{recurring_order_shipping_price}",
+            "other": "Bezmaksas piegāde pirmajam %{cycle}, pēc tam %{recurring_order_shipping_price}"
+          }
+        },
+        "shipping_used_as_billing_notice": "Tas tiek izmantots arī kā jūsu rēķina adrese šim pasūtījumam.",
+        "split_shipping_merchandise_quantity_label_standard": "%{quantity} preces",
+        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} vairāk",
+        "split_shipping_merchandise_shipment_number": "Sūtījums %{number} no %{total}",
+        "split_shipping_shipped_by_shop": "Nosūtīts no %{shop_name}",
+        "split_shipping_multiple_shipment_label": "Vairāki sūtījumi",
+        "split_shipping_shipping_label": "Metode",
+        "split_shipping_multiple_shipment_quantity_label": "%{quantity} sūtījumi",
+        "split_shipping_multiple_shipment_notice": "Jūsu pasūtījums tiks piegādāts vairākās sūtījumos",
+        "split_shipping_multiple_shipment_notice_one_time_purchase": "Jūsu pasūtījums tiks piegādāts %{quantity} sūtījumos",
+        "split_shipping_more_shipping_options": "Vairāk piegādes iespēju",
+        "split_shipping_shipment_number": "Nosūtīšana %{number}",
+        "split_shipping_merchandise_quantity_label_inline_primary": "Skaits: %{quantity}",
+        "split_shipping_option_free": "Bezmaksas piegāde",
+        "split_shipping_option_lowest_price": "Zemākā cena",
+        "split_shipping_option_fastest": "Ātrākais",
+        "split_shipping_option_recommended": "Ieteicams",
+        "split_shipping_option_custom": "Pielāgots",
+        "split_shipping_shipment_notice": "Jūsu pasūtījums ieradīsies %{quantity_shipments} laikā",
+        "split_shipping_first_shipment_notice": "Tava pirmā pasūtījuma piegāde ieradīsies %{quantity_shipments} laikā"
       },
       "session_errors": {
         "session_not_unique": "Radās problēma, apstrādājot jūsu pasūtījumu. Atsvaidziniet šo lapu, lai atgrieztos veikalā.",
