@@ -3105,7 +3105,71 @@
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "Pärast makse sooritamist saate kinnituskirja. Jälgige oma tellimust Rakenduse kaudu.",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Pärast makse sooritamist saate kinnitus­sõnumi. Jälgige oma tellimust Rakenduse kaudu.",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Pärast makse sooritamist saate kinnitus­sõnumi. Jälgige oma tellimust Rakenduse kaudu.",
-        "order_status_payments_app_failed_pending_payment_pick_up": "Sinu tellimus ei ole maksustatud. Mine tagasi oma ostukorvi, et tellimust vaadata ja uuesti maksta."
+        "order_status_payments_app_failed_pending_payment_pick_up": "Sinu tellimus ei ole maksustatud. Mine tagasi oma ostukorvi, et tellimust vaadata ja uuesti maksta.",
+        "return_to_store_link_label": "Jätka ostlemist",
+        "print_link_label": "Hea trükkimine",
+        "shipping_information_title": "Saatmisteave",
+        "shipping_address_title": "Saatmisaadress",
+        "shipping_address_map_title": "Google-kaart koos saatmisaadressi märgistusega: %{address}",
+        "payment_method_title": "Makseviis",
+        "shipping_method_title": "Saatmisviis",
+        "re-order": "Telli samad artiklid uuesti",
+        "thank_you_confirmed_order_with_email": "Te saate peagi kinnituskirja koos teie tellimuse numbriga.",
+        "thank_you_confirmed_order_with_phone": "Te saate peagi kinnitusteksti koos oma tellimuse numbriga.",
+        "thank_you_confirmed_order_with_email_and_phone": "Te saate peagi kinnituskirja koos teie tellimuse numbriga.",
+        "thank_you_confirmed_order_with_missing": "Võtke meiega ühendust e-posti või telefoni teel, et saada tellimuse kinnitus.",
+        "pick_up_in_store_marker": {
+          "current": "Praegune saatmiskoht",
+          "shipping": "Tagastuskoht"
+        },
+        "thank_you_confirmed_order_with_email_pick_up": "Saad e-kirja, kui su tellimus on valmis järele võtmiseks.",
+        "thank_you_confirmed_order_with_phone_pick_up": "Saad SMS-teate, kui sinu tellimus on valmis järeletulekuks.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "Saad e-kirja, kui su tellimus on valmis järele võtmiseks.",
+        "ready_for_pickup_title": "Teie tellimus on valmis järeletulekuks",
+        "ready_for_pickup_description": "Teie tellimus on valmis järeletulekuks. Palun võtke tellimuse kinnitus kaasa, kui tulete tellimust järele võtma.",
+        "picked_up_title": "Teie tellimus on kätte saadud",
+        "picked_up_description_html": "Teie tellimus võeti vastu aadressil %{location_name} kuupäeval %{date}.",
+        "shop_phone_description": "Saad SMS-i lingiga, mis avab Poe rakenduse, et jälgida oma tellimust.",
+        "ready_for_delivery_title": "Teie tellimus on valmis kohaletoimetamiseks",
+        "ready_for_delivery_description": "Oleme teie tellimuse valmis teinud.",
+        "qr_code": {
+          "title": "Jälgi oma telefoni kaudu",
+          "send_link_to_phone": "Või saada link oma telefoni"
+        },
+        "resend_gift_cards": "Kinkekaartide uuesti saatmine",
+        "thank_you_confirmed_order_with_email_payment": "Olete teinud makse oma tellimuse eest %{date}.",
+        "thank_you_confirmed_order_with_phone_payment": "Olete teinud makse oma tellimuse eest %{date}.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Olete teinud makse oma tellimuse eest %{date}.",
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Skaneeri oma telefoniga"
+          },
+          "sms": {
+            "title": "Või saada link oma telefoni"
+          }
+        },
+        "thank_you_confirmed_order_with_draft": "Anname teile teada, kui vajame lisateavet või kui teie tellimus on kinnitatud.",
+        "purchase_order_number_title": "PO-nummer #%{purchase_order_number}",
+        "ready_for_delivery": "Valmis tarnimiseks",
+        "subscriptions_management": {
+          "title": "Tellimus",
+          "description": "Minge oma kontole, et vaadata ja hallata oma tellimusi.",
+          "button_label": "Haldage oma tellimust"
+        },
+        "resend_gift_cards_by_email": "Saada e-kiri uuesti",
+        "resend_gift_cards_by_text": "Saada SMS-teade uuesti",
+        "thank_you_confirmed_order_with_missing_payment": "Võtke meiega ühendust e-posti või telefoni teel, et saada tellimuse kinnitus.",
+        "thank_you_confirmed_order_with_missing_pick_up": "Võtke meiega ühendust e-posti või telefoni teel, et saada tellimuse kinnitus.",
+        "thank_you_confirmed_order_with_draft_payment": "Anname teile teada, kui vajame lisateavet või kui teie tellimus on kinnitatud.",
+        "thank_you_confirmed_order_with_draft_pick_up": "Anname teile teada, kui vajame lisateavet või kui teie tellimus on kinnitatud.",
+        "thank_you_confirmed_orders_with_email": "Saad peagi eraldi kinnitusmeilid oma tellimuse numbri(de)ga",
+        "thank_you_confirmed_orders_with_phone": "Sa saad peagi eraldi kinnitustekstid koos oma tellimuse numbri(de)ga.",
+        "thank_you_confirmed_orders_with_email_and_phone": "Saad peagi eraldi kinnitusmeilid oma tellimuse numbri(de)ga",
+        "payment_method_not_charged": "Ei arvestatud",
+        "thank_you_confirmed_with_email_and_phone_description": {
+          "single_store": "Sa saad peagi kinnituskirja e-posti teel",
+          "multi_store": "Saad peagi iga poe kohta eraldi kinnituskirjad."
+        }
       }
     }
   },

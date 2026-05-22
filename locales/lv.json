@@ -2794,12 +2794,90 @@
       "subscriptions": {
         "recurring_total_intervals": {
           "day": {
-            "one": "diena"
+            "one": "diena",
+            "other": "%{count} dienas"
+          },
+          "week": {
+            "one": "nedēļa",
+            "other": "%{count} nedēļas"
+          },
+          "month": {
+            "one": "mēnesis",
+            "other": "%{count} mēneši"
+          },
+          "year": {
+            "one": "gads",
+            "other": "%{count} gadu"
+          }
+        },
+        "recurring_totals": "%{total_price} katru %{interval}",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "Pirmā iemaksa %{total_price}",
+            "other": "Pirmie %{count} maksājumi katrs pa %{total_price}"
+          },
+          "following_cycles": ", un %{total_price} katru %{interval}"
+        },
+        "recurring_totals_with_initial_order_shipping_discount": "Pirmā iemaksa %{total_price_with_discount}, pēc tam %{recurring_total}",
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", un %{count} maksājums par %{total_price}",
+            "other": ", un %{count} maksājumi katrs pa %{total_price}"
           }
         }
       },
       "store_credit_errors": {
         "generic_error": "Radās problēma ar jūsu veikala kredītu. Mēģiniet vēlreiz vai atkārtoti ielādējiet lapu."
+      },
+      "taxes": {
+        "tax_details": "Papildu nodokļu dati",
+        "vat_number": {
+          "field": {
+            "label": "PVN numurs (pēc izvēles)",
+            "tooltip": "Pārbauda PVN numuru un automātiski piemēro reversās nodokļu saistības kārtību pasūtījumiem, ja tas ir piemērojams"
+          },
+          "add": "Pievienot PVN numuru",
+          "badge": "BTW-numurs: %{number}",
+          "domestic_order": "Nodokļu pārcelšanas kārtība attiecas tikai uz starptautiskiem pasūtījumiem ES robežās. Vietējiem pasūtījumiem tiek piemērots standarta PVN.",
+          "status": {
+            "invalid_format": {
+              "at": "Austrijas PVN numuri satur AT un 9 rakstzīmes",
+              "be": "Beļģijas PVN numuri satur BE un 10 rakstzīmes",
+              "bg": "Bulgārijas PVN numuri satur BG un 9–10 rakstzīmes",
+              "hr": "Horvātijas PVN numuri satur HR un 11 rakstzīmes",
+              "cy": "Kipras PVN numuri satur CY un 9 rakstzīmes",
+              "cz": "Čehijas PVN numuri satur CZ un 8-10 rakstzīmes",
+              "dk": "Dāņu PVN numurs satur DK un 8 rakstzīmes",
+              "ee": "Igaunijas PVN numuri satur EE un 9 rakstzīmes",
+              "fi": "Finse btw-numuri satur FI un 8 rakstzīmes",
+              "fr": "Francijas PVN numuri satur FR un 11 rakstzīmes",
+              "de": "Vācijas PVN numuri satur DE un 9 rakstzīmes",
+              "gr": "Grieķu PVN numuri satur EL un 9 rakstzīmes",
+              "hu": "Ungāru PVN numuri satur HU un 8 rakstzīmes",
+              "ie": "Īrijas PVN numuri satur IE un 8-9 rakstzīmes",
+              "it": "Itālijas PVN numuri satur IT un 11 rakstzīmes",
+              "lv": "Letse btw numuri satur LV un 11 rakstzīmes",
+              "lt": "Lietuvas PVN numuri satur LT un 9-12 rakstzīmes",
+              "lu": "Luksemburgas PVN numuri satur LU un 8 rakstzīmes",
+              "mt": "Malta PVN numuri satur MT un 8 rakstzīmes",
+              "nl": "Nīderlandes PVN numuri satur NL un 12 rakstzīmes",
+              "pl": "Poļu PVN numuri satur PL un 10 rakstzīmes",
+              "es": "Spāņu PVN numuri satur ES un 9 rakstzīmes",
+              "gb": "Lielbritānijas PVN numuri satur GB vai XI un 5-12 rakstzīmes"
+            }
+          },
+          "accessibility": {
+            "status": {
+              "validating": "PVN numura derīguma pārbaude notiek",
+              "valid": "BTW numurs ir derīgs",
+              "applied": "PVN atbrīvojums ir piemērots",
+              "domestic": "PVN atvieglojums netika piemērots",
+              "invalid_number": "PVN atbrīvojums neizdevās",
+              "service_unavailable": "Nevar pārbaudīt PVN atbrīvojumu",
+              "service_error": "Nevar pārbaudīt PVN atbrīvojumu"
+            }
+          }
+        }
       }
     }
   },
