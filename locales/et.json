@@ -2794,12 +2794,90 @@
       "subscriptions": {
         "recurring_total_intervals": {
           "day": {
-            "one": "päev"
+            "one": "päev",
+            "other": "%{count} päeva"
+          },
+          "week": {
+            "one": "nädal",
+            "other": "%{count} nädalat"
+          },
+          "month": {
+            "one": "maa",
+            "other": "%{count} kuud"
+          },
+          "year": {
+            "one": "aasta",
+            "other": "%{count} aastat"
+          }
+        },
+        "recurring_totals": "%{total_price} iga %{interval}",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "Esimene makse %{total_price}",
+            "other": "Esimesed %{count} makset summast %{total_price}"
+          },
+          "following_cycles": ", ja %{total_price} iga %{interval}"
+        },
+        "recurring_totals_with_initial_order_shipping_discount": "Esimene makse %{total_price_with_discount}, seejärel %{recurring_total}",
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", ja %{count} makse summas %{total_price}",
+            "other": ", ja %{count} makset, igaüks summas %{total_price}"
           }
         }
       },
       "store_credit_errors": {
         "generic_error": "Teie poe krediidiga tekkis probleem. Proovige uuesti või laadige leht uuesti."
+      },
+      "taxes": {
+        "tax_details": "Täiendavad maksuteave",
+        "vat_number": {
+          "field": {
+            "label": "Käibemaksukohustuslase number (valikuline)",
+            "tooltip": "Kontrollib käibemaksukohustuslase numbrit ja rakendab automaatselt pöördmaksustamise korra tellimustele, kui see on asjakohane"
+          },
+          "add": "Lisa käibemaksukohustuslase number",
+          "badge": "KMKR number: %{number}",
+          "domestic_order": "Verleggingsregeling kehtib ainult ELi piires piiriülese tellimuste puhul. Kohalike tellimuste puhul arvestatakse tavapärast käibemaksu.",
+          "status": {
+            "invalid_format": {
+              "at": "Austria käibemaksukoodid sisaldavad AT ja 9 märki",
+              "be": "Belgia käibemaksukoodid sisaldavad BE ja 10 märki",
+              "bg": "Bulgaaria käibemaksukoodid sisaldavad BG-d ja 9–10 tähemärki",
+              "hr": "Horvaadi käibemaksukoodid sisaldavad HR ja 11 märki",
+              "cy": "Küprose käibemaksukoodid sisaldavad CY ja 9 märki",
+              "cz": "Tšehhi käibemaksukoodid sisaldavad CZ ja 8–10 tähemärki",
+              "dk": "Taani käibemaksukood sisaldab DK ja 8 tähemärki",
+              "ee": "Eesti käibemaksukoodid sisaldavad EE ja 9 märki",
+              "fi": "Soome käibemaksukoodid sisaldavad FI ja 8 tähemärki",
+              "fr": "Prantsuse käibemaksukoodid sisaldavad FR ja 11 märki",
+              "de": "Saksa käibemaksukoodid sisaldavad DE ja 9 märki",
+              "gr": "Kreeka käibemaksukoodid sisaldavad EL ja 9 märki",
+              "hu": "Ungari käibemaksukoodid sisaldavad HU ja 8 märki",
+              "ie": "Iiri käibemaksukoodid sisaldavad IE ja 8–9 märki",
+              "it": "Itaalia käibemaksukoodid sisaldavad IT ja 11 märki",
+              "lv": "Letse btw-numbrid sisaldavad LV ja 11 märki",
+              "lt": "Leedu käibemaksukoodid sisaldavad LT ja 9–12 tähemärki",
+              "lu": "Luksemburgi käibemaksukoodid sisaldavad LU ja 8 märki",
+              "mt": "Malta käibemaksukoodid sisaldavad MT-d ja 8 märki",
+              "nl": "Hollandi käibemaksukoodid sisaldavad NL ja 12 märki",
+              "pl": "Poola käibemaksukoodid sisaldavad PL ja 10 tähemärki",
+              "es": "Hispaania käibemaksukoodid sisaldavad ES ja 9 märki",
+              "gb": "Suurbritannia käibemaksukoodid sisaldavad GB või XI ja 5–12 tähemärki"
+            }
+          },
+          "accessibility": {
+            "status": {
+              "validating": "Käib käibemaksukohustuslase numbri valideerimine",
+              "valid": "Käibemaksukohustuslase number on kehtiv",
+              "applied": "Käibemaksuvabastus on rakendatud",
+              "domestic": "Käibemaksuvabastus ei ole rakendatud",
+              "invalid_number": "Käibemaksuvabastus ebaõnnestus",
+              "service_unavailable": "Ei suuda käibemaksuvabastust kinnitada",
+              "service_error": "Ei suuda käibemaksuvabastust kinnitada"
+            }
+          }
+        }
       }
     }
   },
