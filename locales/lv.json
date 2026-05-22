@@ -2520,6 +2520,44 @@
           "prepaid_free_shipping_with_cycles": {
             "one": "Bezmaksas piegāde pirmajam %{cycle}, pēc tam %{recurring_order_shipping_price}",
             "other": "Bezmaksas piegāde pirmajam %{cycle}, pēc tam %{recurring_order_shipping_price}"
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": "katru dienu",
+              "other": "ik pēc %{count} dienām"
+            },
+            "week": {
+              "one": "katru nedēļu",
+              "other": "ik pēc %{count} nedēļām"
+            },
+            "month": {
+              "one": "katru mēnesi",
+              "other": "ik pēc %{count} mēnešiem"
+            },
+            "year": {
+              "one": "katru gadu",
+              "other": "ik pēc %{count} gadiem"
+            }
+          },
+          "prepaid_shipping_price_label": "%{shipping_price} par piegādi x %{delivery_interval_count}",
+          "shipping_price_included": "Iekļauts",
+          "recurring_order_shipping_price": "pēc tam %{recurring_order_shipping_price}",
+          "subscription_free_with_frequency_label": "Bezmaksas piegāde %{delivery_frequency}",
+          "prepaid_order_one_cycle": {
+            "one": "%{shipping_price} par %{count} papildu piegādi",
+            "other": "%{shipping_price} par %{count} papildu piegādēm (%{per_delivery_cost})"
+          },
+          "prepaid_order_one_cycle_delivery_not_included": {
+            "one": "%{shipping_price} par %{count} piegādi",
+            "other": "%{shipping_price} par %{count} piegādēm (%{per_delivery_cost})"
+          },
+          "prepaid_order_no_cycle": {
+            "one": "%{shipping_price} par %{count} papildu piegādi, pēc tam %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} par %{count} papildu piegādēm (%{per_delivery_cost}), pēc tam %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "one": "%{shipping_price} par %{count} piegādi, pēc tam %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} par %{count} piegādēm (%{per_delivery_cost}), pēc tam %{recurring_order_shipping_price}"
           }
         },
         "shipping_used_as_billing_notice": "Tas tiek izmantots arī kā jūsu rēķina adrese šim pasūtījumam.",
@@ -2541,7 +2579,28 @@
         "split_shipping_option_recommended": "Ieteicams",
         "split_shipping_option_custom": "Pielāgots",
         "split_shipping_shipment_notice": "Jūsu pasūtījums ieradīsies %{quantity_shipments} laikā",
-        "split_shipping_first_shipment_notice": "Tava pirmā pasūtījuma piegāde ieradīsies %{quantity_shipments} laikā"
+        "split_shipping_first_shipment_notice": "Tava pirmā pasūtījuma piegāde ieradīsies %{quantity_shipments} laikā",
+        "title": "Sūtīšana",
+        "waiting_on_rate_notice": "Iegūstam pieejamās piegādes cenas…",
+        "waiting_on_pickup_location_notice": "Iegūstam pieejamās saņemšanas vietas…",
+        "subscription_shipping": "Abonēšanas piegāde",
+        "subscription_local_delivery": "Abonēšanas piegāde lokāli",
+        "subscription_pickup": "Abonementa saņemšana",
+        "two_day_delivery": "2 dienu piegāde %{time}",
+        "unbranded_default_description": "Gatavs nosūtīšanai",
+        "third_party_address_timeout": "Nevar ielādēt adresi. Mēģiniet vēlreiz vai izmantojiet citu adresi.",
+        "third_party_address_error": "Radās kļūda, ielādējot adreses izvēli. Lūdzu, ievadiet savu adresi manuāli zemāk.",
+        "third_party_payment_timeout": "Neizdevās ielādēt maksāšanas veidus. Mēģiniet vēlreiz vai izmantojiet citu maksāšanas veidu.",
+        "third_party_payment_error": "Radās kļūda, ielādējot maksājuma izvēli. Lūdzu, izmantojiet citu maksājuma veidu.",
+        "unbranded_description_same_day": "Tiks nosūtīts tajā pašā darba dienā",
+        "unbranded_description_with_fulfillment_days": {
+          "one": "Nosūtīšana nākamajā darba dienā",
+          "other": "Tiks nosūtīts %{count} darba dienu laikā"
+        },
+        "unbranded_description_with_fulfillment_weeks": {
+          "one": "Tiks nosūtīts %{count} nedēļā",
+          "other": "Piegāde %{count} nedēļu laikā"
+        }
       },
       "session_errors": {
         "session_not_unique": "Radās problēma, apstrādājot jūsu pasūtījumu. Atsvaidziniet šo lapu, lai atgrieztos veikalā.",
@@ -2558,6 +2617,25 @@
         "continue": "Turpināt ar šo adresi",
         "use_saved_address": "Izmantojiet citu adresi",
         "return_to_cart": "Atpakaļ uz iepirkumu grozu"
+      },
+      "shipping_errors": {
+        "shipping_method": "Jūsu pasūtījuma piegādes iespējas ir mainītas. Lūdzu, pārbaudiet savu izvēli.",
+        "shipping_method_not_available": "Jūsu iepirkumu grozs ir atjaunināts, un preces, kuras esat pievienojis, nevar tikt nosūtītas uz jūsu adresi. Noņemiet preces, lai pabeigtu pasūtījumu.",
+        "shipping_method_not_available_generic": {
+          "one": "Jūsu pasūtījumu nevar nosūtīt uz norādīto adresi. Lūdzu, pārbaudiet savu adresi, lai pārliecinātos, ka tā ir pareiza, un mēģiniet vēlreiz, vai izvēlieties citu adresi.",
+          "other": "Daži priekšmeti jūsu iepirkumu grozā nevar tikt nosūtīti uz norādīto adresi. Lūdzu, pārbaudiet savu adresi, lai pārliecinātos, ka tā ir pareiza, un mēģiniet vēlreiz, vai izvēlieties citu adresi."
+        },
+        "shipping_method_not_available_updated": {
+          "one": "Prece, kuru esat pievienojis, netiek piegādāta uz jūsu atrašanās vietu. Noņemiet to, lai turpinātu norēķināties, vai sazinieties ar veikalu.",
+          "other": "Viens vai vairāki pievienotie priekšmeti netiek piegādāti uz jūsu atrašanās vietu. Noņemiet tos, lai turpinātu norēķināties, vai sazinieties ar veikalu."
+        },
+        "payment_method_not_supported": "Jūs nevarat izmantot šo maksājuma veidu %{country}. Izmantojiet citu maksājuma veidu, lai nosūtītu uz šo valsti.",
+        "empty_state": "Ievadiet savu piegādes adresi, lai skatītu pieejamos piegādes veidus.",
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "Preces iepirkumu grozā neatbilst cenu vai svara prasībām, lai kvalificētos piegādei. Atjauniniet savu iepirkumu grozu un mēģiniet vēlreiz.",
+        "title": "Piegāde nav pieejama",
+        "invalid_selected_address": "Izvēlētā piegādes adrese nav derīga",
+        "invalid_selected_address_with_update_link": "Izvēlētā piegādes adrese nav derīga. %{update_address_link} vai izvēlieties citu adresi",
+        "unavailable_address_country": "Piegāde uz jūsu izvēlēto valsti nav iespējama. Lai turpinātu, izmantojiet citu adresi."
       }
     }
   },
