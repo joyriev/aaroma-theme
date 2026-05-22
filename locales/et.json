@@ -1899,7 +1899,73 @@
         "grabpay_label": "PakBetalen",
         "kcp_creditcard_label": "KCP Krediitkaart",
         "network_card_persistence_description": "Valitud võrk salvestatakse teie makseviisi juurde tulevaste ostude jaoks.",
-        "multiple_primary_payment_not_allowed": "Kehtetud makseviisid"
+        "multiple_primary_payment_not_allowed": "Kehtetud makseviisid",
+        "pay_with_payment_method": "Makse %{payment_method} kaudu",
+        "order_covered_by_gift_cards_notice": {
+          "one": "Teie tellimust katab teie kinkekaart.",
+          "other": "Teie tellimust katavad teie kinkekaardid."
+        },
+        "offsite_gateway_redirect_hint": "Sind suunatakse ostu lõpetamiseks %{gateway_label} juurde.",
+        "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label} kogusumma %{total_shop_price}",
+        "no_js_credit_card_fields_redirect_hint": "Teid suunatakse oma makseandmete lisamiseks.",
+        "no_method_error": "See pood ei saa hetkel makseid vastu võtta.",
+        "not_configured_error": "See pood ei saa hetkel makseid vastu võtta.",
+        "paypal_label": "PayPal",
+        "no_real_orders_dev_store": "See pood ei saa vastu võtta reaalseid tellimusi ega makseid.",
+        "no_taxes_banner_content": "Selle tellimuse eest ei lisata makse. Kui makse on laekunud, ei saa makse enam lisada.",
+        "paypal": {
+          "connect": "Klõpsake, et oma PayPal konto ühendada"
+        },
+        "paypal_modal": {
+          "order_contains_subscriptions": "Tellimus",
+          "order_contains_fixed_selling_plans": "Kokku võib olla ilma maksude, saatmiskulude, edasilükatud tasude ja mõnede allahindlusteta. Jätka kassasse, et näha täna tasumisele kuuluvat summat."
+        },
+        "payment_method_saved": "Makseviis salvestatud",
+        "order_covered_by_store_credit_notice": "Teie tellimust katab teie poepreemia.",
+        "order_covered_by_redeemables_notice": "Teie tellimus on kindlustatud.",
+        "no_working_method_error": "See pood ei saa hetkel makseid vastu võtta. Värskenda seda lehte või tule hiljem tagasi.",
+        "order_edit_banner_title": "Maksmine summas {{amount_owed}} on kohustuslik",
+        "order_edit_banner_subtitle": "Teie tellimus {{order_number}} on uuendatud. Vaadake need muudatused üle ja seejärel tasuge, et oma tellimus kinnitada.",
+        "order_edit_banner_single_item_added": "Lisatud",
+        "order_edit_banner_multiple_items_added": "Lisatud {{amount}}",
+        "order_edit_banner_single_item_removed": "Kustutatud",
+        "order_edit_banner_multiple_items_removed": "Kustutatud {{amount}}",
+        "order_edit_banner_single_item_returned": "Tagastatud",
+        "order_edit_banner_multiple_items_returned": "Tagastatud {{amount}}",
+        "order_edit_banner_items_added": {
+          "one": "Lisatud",
+          "other": "Lisatud %{count}"
+        },
+        "order_edit_banner_items_removed": {
+          "in_full": "Kustutatud",
+          "with_quantities": "Eemaldatud {{delta}} {{quantity}}-st"
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "Tagastatud {{quantity}}",
+          "with_quantities": "Tagastatud {{delta}} {{quantity}}-st"
+        },
+        "payment_method": "Makseviis",
+        "order_edit_banner_updated_order_label": "Uuendatud tellimus",
+        "order_edit_banner_items_return_line_item_removed": {
+          "in_full": "Eemaldatud tagastusest",
+          "with_quantities": "{{delta}} eemaldatud tagastusest"
+        },
+        "order_edit_banner_single_item_return_line_item_removed": "Eemaldatud tagastusest",
+        "order_edit_banner_multiple_items_return_line_item_removed": "{{amount}} eemaldatud tagastusest",
+        "pay_in_installments_split_pay_short": "4 makset summas %{amount}",
+        "payment_method_not_available_for_shipping_address_error": "Makseviis pole valitud tarneaadressi jaoks saadaval. Palun vali mõni teine makseviis.",
+        "paypal_disconnect": "Lõpeta ühendus",
+        "payment_method_update_failed": "Makseviisi uuendamine ebaõnnestus.",
+        "payment_flexibility_terms_id_mismatch": "Maksepaindlikkuse tingimuste ID ei ühti",
+        "offsite_gateway_review_page_redirect_hint": "Pärast tellimuse kontrollimist suunatakse teid ostu lõpetamiseks %{gateway_label} juurde.",
+        "offsite_gateway_redirect_hint_no_button_label": "Sind suunatakse ostu lõpetamiseks %{gateway_label} juurde.",
+        "payment_method_incompatible_with_payment_terms": "Makseviis ei ühti maksetingimustega.",
+        "payment_option": {
+          "accessibility_label": "Vali makseviis"
+        },
+        "payment_method_rollup_accessibility_label": "Makseviiside valikud",
+        "payments": "Makse",
+        "new_bank_account_disclaimer": "Tellimuse lõpetamiseks annate %{shop_name}-le loa allolevalt kontonumbrilt ACH kaudu näidatud summa ja määratud ajal debiteerida."
       }
     }
   },

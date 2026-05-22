@@ -1965,7 +1965,71 @@
         },
         "payment_method_rollup_accessibility_label": "Maksājumu metožu iespējas",
         "payments": "Maksājums",
-        "new_bank_account_disclaimer": "Lai pabeigtu savu pasūtījumu, jūs piešķirat %{shop_name} atļauju debetēt zemāk norādīto konta numuru caur ACH par norādīto summu un norādītajā laikā."
+        "new_bank_account_disclaimer": "Lai pabeigtu savu pasūtījumu, jūs piešķirat %{shop_name} atļauju debetēt zemāk norādīto konta numuru caur ACH par norādīto summu un norādītajā laikā.",
+        "saved_by_payment_method": "Saglabāts ar %{payment_method}",
+        "same_billing_address_label": "Tāds pats kā piegādes adrese",
+        "sofort_label": "Tiešais bankas pārskaitījums",
+        "subscription_agreement_label_html": "Es saprotu, ka piekrītu abonementam. Tas tiks pagarināts par norādīto cenu un biežumu, līdz tas beigsies vai tiks\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">atcelts</a>.",
+        "subscription_agreement_label": "Viens vai vairāki priekšmeti jūsu iepirkumu grozā ir atlikta vai abonēšanas pirkums. Turpinot maksājumu, jūs piekrītat, ka jūsu maksājuma metode tiks automātiski iekasēta par cenu un biežumu, kas norādīti šajā lapā, līdz tas beidzas vai jūs to atcelsiet. Visas atcelšanas ir pakļautas %{cancelled}.",
+        "subscription_agreement_cancelled": "atcelšanas politika",
+        "purchase_options_card_update_agreement_label_html": "Atjauninot maksājuma metodi, jūs piekrītat maksājumiem par katru atkārtotu vai atliktu pirkumu saskaņā ar šīs veikala <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">%{cancellation_policy}</a>.",
+        "receiver_payment_experience_hint": "Pēc pasūtījuma veikšanas jūs saņemsiet maksājuma datus. Veiciet maksājumu Multibanco vai tiešsaistē %{due_days} dienu laikā.",
+        "pending_payment": {
+          "due_notice": "Jūsu maksājums %{amount_due} ir jāveic līdz %{due_date}.",
+          "multibanco": {
+            "instruction_html": "Veiciet maksājumu Multibanco vai tiešsaistē, izmantojot zemāk norādītos datus. Jautājumu gadījumā vai lai atjauninātu maksājuma datus, %{contact_us}.",
+            "entity": "Vienība",
+            "reference": "Atsauce",
+            "amount": "Daudzums",
+            "find_nearest_atm": "Atrodiet tuvāko bankomātu",
+            "buyer_action_info": "Jūsu maksājums %{amount_due} ir jāveic."
+          }
+        },
+        "purchase_options_agreement_label": "Viens vai vairāki priekšmeti jūsu iepirkumu grozā ir atlikta, abonēšanas vai atkārtota pirkuma veids. Turpinot maksājumu, jūs piekrītat, ka jūsu maksājuma metode tiks automātiski iekasēta par cenu un biežumu, kas norādīti šajā lapā, līdz tas beidzas vai jūs to atceļat. Visas atcelšanas pakļautas %{cancellation_policy_label}.",
+        "purchase_options_agreement_label_html": "Es saprotu, ka viens vai vairāki priekšmeti manā iepirkumu grozā ir atlikta, abonēšanas vai atkārtota pirkuma veids. Turpinot, es piekrītu\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">atcelšanas noteikumiem</a>\nun pilnvaroju jūs iekasēt maksu no manas maksājumu metodes par cenām, biežumu un datumiem, kas norādīti šajā lapā, līdz mana pasūtījuma izpildei vai es to atceltu, ja tas ir atļauts.",
+        "store_credit": {
+          "label": "Veikala kredīts",
+          "apply_label": "Izmantot veikala kredītu",
+          "add_label": "Pievienot veikala kredītu",
+          "manage_label": "Pārvaldīt veikala kredītu",
+          "buying_gift_card": "Jūs nevarat izmantot veikala kredītu, lai iegādātos dāvanu karti",
+          "no_fixed_selling_plans": "Jūs nevarat izmantot veikala kredītu atlikto pirkumu opcijās"
+        },
+        "same_billing_address_checkbox_label": "Izmantojiet piegādes adresi kā rēķina adresi",
+        "shipping_rate_updated": "Pieejamās piegādes metodes ir atjauninātas. Apstipriniet savu izvēli pirms norēķināšanās.",
+        "preview_not_available": {
+          "title": "Piemērs nav pieejams",
+          "content": "Neuztraucies, šī ātrā kase strādās taviem klientiem.",
+          "button": "Labi"
+        },
+        "simulated_checkout": "Priekšskatījums drīzumā būs pieejams",
+        "purchase_options_and_vaulting_agreement_label": "Viens vai vairāki priekšmeti jūsu iepirkumu grozā ir atlikts vai abonēšanas pirkums. Turpinot maksājumu, jūs piekrītat, ka jūsu maksājuma metode tiks automātiski iekasēta par cenu un biežumu, kas norādīti šajā lapā, līdz tas beidzas vai jūs to atceļat. Visas atcelšanas pakļautas %{cancellation_policy_label}.",
+        "purchase_options_cancellation_policy_label": "atcelšanas politika",
+        "saved_credit_card": "Jūsu saglabātā kredītkarte",
+        "saved_credit_card_info": "Pēdējie četri cipari",
+        "saved_credit_cards_modal": {
+          "view_all_label": "Skatīt visus saglabātos kartes",
+          "done": "Gatavs",
+          "cancel": "Atcelt"
+        },
+        "purchase_order_number": {
+          "title": "PO numurs",
+          "label": "Pasūtījuma numurs (pēc izvēles)"
+        },
+        "shop_pay_installments_label": "Shop Pay termiņi",
+        "saved_credit_card_actions": {
+          "edit": "Rediģēt",
+          "delete": "Noņemt"
+        },
+        "purchase_options_agreement_label_wallets": "Turpinot ar maksājumu, jūs piekrītat nākotnes izmaksām, kas norādītas šajā lapā, un atcelšanas politikai.",
+        "saved_credit_card_cvv_verification": "Ievadiet sava kartes drošības kodu verifikācijas nolūkos.",
+        "proposed_gateway_unavailable": "Ieteiktā maksājuma metode nav pieejama",
+        "shop_pay_ideal_unavailable_error": "iDEAL | Wero nav pieejams šim pasūtījumam. Izvēlieties citu maksājuma veidu.",
+        "paypal_wallet_label": "PayPal-maciņš",
+        "przelewy24_label": "Przelewy24",
+        "simulated_express_checkout": "Maciņi nav pieejami rediģēšanas priekšskatījuma skatā jūsu reģiona vai pārlūkprogrammas dēļ",
+        "separate_payments_label": "Jūsu preces nāk no vairākām veikaliem. Jums tiks izrakstīti rēķini %{separate_payments_link}.",
+        "separate_payments_text": "atsevišķas maksājumu daļas"
       }
     }
   },
