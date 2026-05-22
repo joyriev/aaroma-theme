@@ -3636,8 +3636,54 @@
           "add_variant": "Pievienots %{delta}",
           "decrement_item": "Noņemts %{delta} no %{total}",
           "decrement_fulfilled_line_item": "Atgriezts %{delta} no %{total}",
-          "decrement_return_line_item": "%{delta} izņemts no atgriešanas"
+          "decrement_return_line_item": "%{delta} izņemts no atgriešanas",
+          "increment_item": "Pievienots %{delta}"
         }
+      },
+      "order": {
+        "not_available": "Šis pasūtījums nav pieejams",
+        "financial_status": {
+          "authorized": "Pilnvarots",
+          "pending": "Apstrādē",
+          "paid": "Apmaksāts",
+          "unpaid": "Neapmaksāts",
+          "voided": "Atcelts",
+          "partially_paid": "Daļēji apmaksāts",
+          "partially_refunded": "Daļēji atmaksāts",
+          "refunded": "Atmaksāts",
+          "expired": "Beidzies derīguma termiņš"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Izpildīts",
+          "complete": "Pabeigts",
+          "partial": "Daļēji",
+          "unfulfilled": "Nav izpildīts",
+          "restocked": "Atkal noliktavā"
+        },
+        "transaction_status": {
+          "success": "Veiksme",
+          "pending": "Apstrādē",
+          "failure": "Neizdošanās",
+          "error": "Kļūda"
+        },
+        "cancel_reason": {
+          "declined": "Maksājums noraidīts",
+          "inventory": "Preces nav pieejamas",
+          "fraud": "Krāpnieciska pasūtījuma veikšana",
+          "customer": "Klients ir mainījis/atcēlis pasūtījumu",
+          "other": "Pārējais",
+          "staff": "Personāla kļūda"
+        },
+        "cash_on_delivery": "Skaitot pie piegādes (CBA)"
+      },
+      "storefront": {
+        "invalid_password": "Parole nepareiza, mēģiniet vēlreiz."
+      },
+      "tags": {
+        "add_articles": "Meklēšanas rezultātus ierobežot tikai līdz rakstiem ar arī tagu %{tag}",
+        "add_products": "Izvēli ierobežot tikai līdz produktiem, kas atbilst tagam %{tag}",
+        "remove_articles": "Meklējiet arī rakstos, kas nav atzīmēti ar %{tag}",
+        "remove_products": "Noņemt etiķeti %{tag}"
       }
     },
     "filters": {
@@ -3651,6 +3697,32 @@
         "true_label": "Jā",
         "false_label": "Nē"
       }
+    },
+    "pagination": {
+      "previous": "Iepriekšējais",
+      "next": "Nākamais"
+    },
+    "page_titles": {
+      "products": "Preces",
+      "shopping_cart": "Jūsu iepirkumu grozs",
+      "account": "Rēķins",
+      "create_account": "Izveidot kontu",
+      "reset_account": "Atjaunot kontu",
+      "addresses": "Adreses",
+      "order": "Pasūtīt %{name}",
+      "search": "Meklēt",
+      "collections": "Kolekcijas",
+      "not_found": "404 Nav atrasts",
+      "challenge": "Izaicinājums",
+      "checkpoint": "Kontroles punkts",
+      "search_results": {
+        "one": "Meklēšanas rezultāts: atrasts %{count} rezultāts priekš \"%{terms}\"",
+        "other": "Meklēšana: atrasti %{count} rezultāti priekš \"%{terms}\""
+      },
+      "blog_or_article_with_error": "Kļūda - %{title}"
+    },
+    "search": {
+      "error": "Radās problēma, ielādējot jūsu meklēšanas rezultātus. Atjauniniet lapu vai mēģiniet vēlreiz vēlāk."
     }
   },
   "recipient": {
