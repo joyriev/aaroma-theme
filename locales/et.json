@@ -103,7 +103,12 @@
     "orders": {
       "date": "Kuupäev",
       "fulfillment_status": "Tellimuse olek",
-      "none": "Sa ei ole veel tellimusi esitanud."
+      "none": "Sa ei ole veel tellimusi esitanud.",
+      "title": "Tellimuste ajalugu",
+      "order_number": "Tellimus",
+      "order_number_link": "Tellimuse number {{ number }}",
+      "payment_status": "Makse olek",
+      "total": "Kokku"
     },
     "order": {
       "title": "Telli {{ name }}",
@@ -130,6 +135,77 @@
       "subtotal": "Vahekokkuvõte",
       "total_duties": "Maksud",
       "total_refunded": "Tagastatud"
+    },
+    "recover_password": {
+      "title": "Lähtesta oma parool",
+      "subtext": "Saadame sulle e-kirja, et saaksid oma parooli uuesti määrata",
+      "success": "Saime sulle e-kirja lingiga, et uuendada oma parooli."
+    },
+    "register": {
+      "title": "Loo konto",
+      "first_name": "Eesnimi",
+      "last_name": "Perekonnanimi",
+      "email": "E-post",
+      "password": "Parool",
+      "submit": "Loo"
+    },
+    "reset_password": {
+      "title": "Konto parooli lähtestamine",
+      "subtext": "Sisesta uus parool",
+      "password": "Parool",
+      "password_confirm": "Kinnita parool",
+      "submit": "Lähtesta parool"
+    }
+  },
+  "general": {
+    "password_page": {
+      "login_form_heading": "Poodi sisenemine parooliga:",
+      "login_password_button": "Logi sisse parooliga",
+      "login_form_password_label": "Parool",
+      "login_form_password_placeholder": "Teie parool",
+      "login_form_error": "Vale parool!",
+      "login_form_submit": "Sisesta",
+      "admin_link_html": "Kas olete kaupleja? <a href=\"/admin\" class=\"link underlined-link\">Logi siia sisse</a>",
+      "powered_by_shopify_html": "See pood töötab platvormil {{ shopify }}"
+    },
+    "social": {
+      "alt_text": {
+        "share_on_facebook": "Jaga Facebookis",
+        "share_on_twitter": "Jaga X peal",
+        "share_on_pinterest": "Vastake Pinterestis"
+      },
+      "links": {
+        "facebook": "Facebook",
+        "instagram": "Instagram"
+      }
+    },
+    "continue_shopping": "Jätka ostlemist",
+    "pagination": {
+      "label": "Lehekülgede nummerdamine",
+      "page": "Lehekülg {{ number }}",
+      "next": "Järgmine leht",
+      "previous": "Eelmine leht"
+    },
+    "search": {
+      "search": "Otsi",
+      "reset": "Otsingusõna tühjenda"
+    },
+    "cart": {
+      "view": "Vaata ostukorvi ({{ count }})",
+      "item_added": "Artikkel lisatud teie ostukorvi",
+      "view_empty_cart": "Vaata ostukorvi"
+    },
+    "share": {
+      "copy_to_clipboard": "Kopeeri link",
+      "share_url": "Link",
+      "success_message": "Link kopeeritud lõikelauale",
+      "close": "Sulge jagamine"
+    },
+    "slider": {
+      "of": "vana",
+      "next_slide": "Pühkige paremale",
+      "previous_slide": "Pühkige vasakule",
+      "name": "liugur"
     }
   }
 }
