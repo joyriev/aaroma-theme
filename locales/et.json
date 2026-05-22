@@ -1841,7 +1841,65 @@
         "discount_codes_removed_or_modified_summary": {
           "one": "%{count} sooduskood on eemaldatud või muudetud",
           "other": "%{count} sooduskoodi on eemaldatud või muudetud"
-        }
+        },
+        "gift_card_code_label": "Kingituskupongi kood",
+        "gift_card_balance_label": "Tasakaal:",
+        "name_on_card_label": "Nimi kaardil",
+        "name_on_card_placeholder": "Nimi kaardil",
+        "free_order_notice_html": "Teie tellimus on <strong>tasuta</strong>. Maksmist ei nõuta.",
+        "express_checkout_free_order": "Sulle ei esitata tasu tasuta tellimuse eest",
+        "missing_credit_card_error": "Sisestage oma kaardiandmed, et makse lõpetada",
+        "generic_incorrect_card_info": "Teie makseandmeid ei õnnestunud kinnitada. Kontrollige oma kaardiandmeid ja proovige uuesti.",
+        "ideal_label": "iDEAL | Wero",
+        "klarna_pay_now_label": "Maksa nüüd Klarna kaudu",
+        "klarna_pay_later_label": "Maksa hiljem Klarna abil",
+        "giropay_label": "Giropay",
+        "eps_label": "eps-ülekanne",
+        "klarna_slice_it_label": "Finantseerimine Klarna kaudu",
+        "expiry_long": "(Aegub %{month}/%{year})",
+        "expiry_short": "(Aegub %{month}/%{year})",
+        "ftd_vault_credit_card_label": "Salvesta see krediitkaart minu kontole, et tellimust kiiremini töödelda",
+        "google": {
+          "connect": "Klõpsake, et ühendada oma Google Pay kontoga",
+          "error_authorizing": "Tõrge makse autoriseerimisel"
+        },
+        "klarna_label": "Klarna",
+        "mor_disclaimer_html": "Klõpsates allpool ja lõpetades oma tellimuse, nõustute ostuga Global-e kaudu, kes tegutseb selle tehingu registreerimiskauplejana, vastavalt Global-e <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Üldtingimustele</a> ja <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Privaatsuspoliitikale</a>. Global-e on %{shop_name} rahvusvaheline täitmisteenuse pakkuja.",
+        "multibanco_label": "Multipank",
+        "location_billing_address_label": "Arve aadressi asukoht",
+        "fact_billing_address_label": "Arve aadress",
+        "location_shipping_address_label": "Saatmisaadressi asukoht",
+        "expired_cards_info": {
+          "one": "Sinu kontol on %{count} aegunud kaart, mida saad vaadata ja redigeerida.",
+          "other": "On %{count} aegunud kaarti, mida saad oma kontol vaadata ja redigeerida."
+        },
+        "local_payment_method_receiver_notice": "Pärast tellimuse esitamist saate makseandmed. Tehke makse pangaautomaadis või veebis {{dueDays}} päeva jooksul.",
+        "gift_card_wrapper": {
+          "heading": "Kingituskinkekaart",
+          "apply_gift_card_label": "Kinkekaardi kasutamine",
+          "payment_tag": "Kingituskinkekaart",
+          "apply_another_gift_card_label": "Kasuta teist kinkekaarti",
+          "gift_card_label": "Kingituskinkekaart %{identifier}",
+          "add_label": "Lisa kinkekaart",
+          "manage_label": "Kingituskupongide haldamine"
+        },
+        "markets_pro_disclaimer_label": "Teie tellimuse esitamisega nõustute ostuga Global-e juures kui registreeritud müüjaga, järgides Global-e %{markets_pro_terms} ja %{privacy_policy}, ning jagate oma andmeid %{shop_name}-ga.",
+        "markets_pro_disclaimer_terms_and_conditions": "Üldtingimused",
+        "markets_pro_disclaimer_privacy_policy": "Privaatsuspoliitika",
+        "markets_pro_disclaimer_terms_and_conditions_title": "Kaupmehe müügitingimused",
+        "markets_pro_disclaimer_privacy_policy_title": "Kaubandusregistri hoidja privaatsuspoliitika",
+        "expired_payment_method": "Valitud makseviis on aegunud",
+        "gift_card_store_credit": {
+          "add_label": "Lisa kinkekaart või poe krediit",
+          "manage_label": "Halda kinkekaarte või poe krediiti"
+        },
+        "gift_cards_unavailable": "Teie kinkekaarti ei saa sellele tellimusele enam rakendada ja see on eemaldatud",
+        "network_card_payment_options": "Vali kaardivõrk",
+        "gift_card_checkbox_label": "Kinkekaardi kasutamine",
+        "grabpay_label": "PakBetalen",
+        "kcp_creditcard_label": "KCP Krediitkaart",
+        "network_card_persistence_description": "Valitud võrk salvestatakse teie makseviisi juurde tulevaste ostude jaoks.",
+        "multiple_primary_payment_not_allowed": "Kehtetud makseviisid"
       }
     }
   },
