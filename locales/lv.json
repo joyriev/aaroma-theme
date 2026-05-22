@@ -1234,8 +1234,84 @@
           "shipping_credential_pt": "NIF/BTW",
           "shipping_credential_es": "DNI/NIF",
           "shipping_credential_tw": "Nacionālais identitātes numurs/ PVN numurs",
-          "shipping_credential_tr": "Turcijas Republikas identifikācijas numurs/ PVN"
+          "shipping_credential_tr": "Turcijas Republikas identifikācijas numurs/ PVN",
+          "title": "Papildu informācija",
+          "tax_credential_it": "Nodokļu numurs (pēc izvēles)",
+          "tax_email_it": "PEC (pēc izvēles)",
+          "tax_credential_type_co": "Veida identitātes karte",
+          "tax_credential_gt": "NIT/BTW",
+          "tax_credential_id": "NPWP",
+          "tax_credential_my": "TIN/Reģistrācijas numurs",
+          "tax_credential_mx": "RFC",
+          "tax_credential_type_mx": "Nodokļu režīms",
+          "tax_credential_use_mx": "CFDI lietošana",
+          "tax_credential_py": "CI/RUC/BTW",
+          "tax_credential_pe": "DNI/RUC/CE",
+          "tax_credential_pt": "NIF/BTW",
+          "tax_credential_es": "DNI/NIF",
+          "tax_credential_tr": "Turcijas Republikas identifikācijas numurs/ PVN"
         }
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Sūti man e-pastus ar jaunumiem un piedāvājumiem",
+        "unsubscribe": {
+          "title": "Tu esi atlogojies",
+          "description": "Tu vairs nesaņemsi no mums atgādinājumus par savu iepirkumu grozu."
+        },
+        "accept_sms_checkbox_label": "Sūtiet man ziņu ar jaunumiem un piedāvājumiem",
+        "sms": {
+          "disclaimer": {
+            "privacy_policy": "Privātuma politika",
+            "terms_of_service": "Lietošanas noteikumi",
+            "description_html": "Reģistrējoties, izmantojot SMS, jūs piekrītat saņemt atkārtotus automatizētus mārketinga ziņojumus, tostarp iepirkumu groza atgādinājumus, uz norādīto tālruņa numuru. Piekrīšana nav pirkuma priekšnoteikums. Atbildiet STOP, lai atteiktos. Atbildiet HELP, lai saņemtu palīdzību. Ziņojumu biežums var atšķirties. Var tikt piemēroti ziņojumu un datu maksājumi. Apskatiet mūsu %{privacy_policy_link} un %{terms_of_service_link}.",
+            "description_transactional_html": "Jūs varat saņemt īsziņas par pasūtījuma apstiprinājumu un piegādes atjauninājumiem. Atbildiet STOP, lai atteiktos no saņemšanas. Atbildiet HELP, lai saņemtu palīdzību. Ziņojumu biežums var atšķirties. Var tikt piemēroti ziņojumu un datu izmaksas. Apskatiet mūsu %{privacy_policy_modal_link} un %{terms_of_service_modal_link}."
+          },
+          "mobile_phone_number": "Mobilais tālruņa numurs",
+          "get_offers_by_text": "Saņemiet piedāvājumus pa SMS"
+        },
+        "post_accept_marketing_checkbox_label": "Jūs esat reģistrējies, lai saņemtu e-pasta jaunumu un piedāvājumu paziņojumus",
+        "pending_accept_marketing_checkbox_label": "Pārbaudiet savu e-pastu, lai apstiprinātu savu reģistrāciju jaunumiem un piedāvājumiem",
+        "accept_shop_pay_marketing_checkbox_label": "Pierakstieties saņemt jaunākās ziņas un piedāvājumus no šīs veikala",
+        "disclaimer": {
+          "privacy_policy": "Privātuma politika",
+          "terms_of_service": "Lietošanas noteikumi"
+        }
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "Novērtējums",
+          "link_label": "{{partnerDisplayName}} Vispārīgie noteikumi"
+        }
+      },
+      "markets": {
+        "invalid_market_manager_error": "Pārbaudiet savus kontaktinformāciju pirms maksājuma pabeigšanas"
+      },
+      "merchant_instruction_errors": {
+        "empty_stable_id": "Preču instrukcija priekš %{position} %{name} satur tukšu stabilu ID.",
+        "duplicate_variant_id": "Preču instrukcija priekš %{position} %{name} satur dubulto variantu ID %{variant_id}.",
+        "discount_not_supported": "Norādījums par tirdzniecības atlaides piemērošanu precēm neatbalsta šāda veida atlaidi."
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "Šis produkts nav pieejams piegādei uz %{location_name}.",
+          "some_products_other": "Šie produkti nav pieejami piegādei uz %{location_name}.",
+          "all_products_one": "Produkts jūsu iepirkumu grozā nav pieejams piegādei uz %{location_name}.",
+          "all_products_other": "Preces jūsu iepirkumu grozā nav pieejamas piegādei uz %{location_name}."
+        },
+        "missing_country_fallback": "tava zeme",
+        "indeterminate_location_fallback": "jūsu atrašanās vieta",
+        "cart_updated": "Jūsu iepirkumu grozs ir atjaunināts.",
+        "change_address_only": "Mainiet piegādes adresi, lai turpinātu.",
+        "change_address_or_remove": "Mainiet piegādes adresi vai %{remove_action}.",
+        "empty_cart_action": "iztukšot grozu un atgriezties veikalā",
+        "remove_items_action": {
+          "one": "noņemt nepieejamo preci",
+          "other": "noņemt nepieejamos priekšmetus"
+        }
+      },
+      "memberships": {
+        "delivery_promise_unfulfillable": "Adrese netiek atbalstīta pašreizējai dalības kategorijai.",
+        "items_split_across_locations_unsupported": "Prime-levering nav pieejama jūsu pasūtījumam. Jūsu piegādes iespējas ir atjauninātas."
       }
     }
   },
