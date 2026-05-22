@@ -3438,9 +3438,75 @@
     "email_marketing": {
       "open_tracking": {
         "no_longer_track": {
-          "privacy_policy": "Pärast selle e-kirja saatmist oleme oma privaatsuspoliitikat uuendanud ja ei jälgi enam sõnumite avamist."
+          "privacy_policy": "Pärast selle e-kirja saatmist oleme oma privaatsuspoliitikat uuendanud ja ei jälgi enam sõnumite avamist.",
+          "status_html": "<b>Me ei jälgi enam ühtegi e-kirja avamist.</b>"
+        },
+        "opt_in": {
+          "opted_in_html": "<b>Olete registreerunud e-kirjade avamise jälgimiseks.</b>",
+          "visibility": "E-kirja avamise protsendid raporteeritakse anonüümselt. Me näeme ainult seda, kas olete e-kirja avanud, kui see on osa koondatud e-kirja avamise protsendist.",
+          "opt_out_html": "Sa saad end <a style='text-decoration:underline;' href='%{link}'>tühistada</a> e-kirjade avamise jälgimise eest, kui sa ei soovi seda teavet jagada.",
+          "preview_bar": "Sa vaatad näidet sellest, mida kliendid näevad, kui nad valivad e-kirjade avamise jälgimise."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Te olete loobunud e-kirjade avamise jälgimisest.</b>",
+          "visibility": "Me ei näe, kas oled meie e-kirju avanud.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Registreeru</a>, et jälgida e-kirjade avamist.",
+          "preview_bar": "Sa vaatad näidet sellest, mida kliendid näevad, kui nad loobuvad e-kirjade avamise jälgimisest."
+        },
+        "track": {
+          "status_html": "<b>E-kirja avamist jälgitakse.</b>",
+          "visibility": "Me näeme, kas oled e-kirja avanud, ainult osana avatud e-kirjade koguprotsendist."
+        },
+        "updated_policy": {
+          "status_html": "<b>E-kirja avamist jälgitakse.</b>",
+          "visibility": "Oleme oma poliitikat uuendanud ja nüüd jälgime e-kirjade avamist. E-kirjade avamine raporteeritakse anonüümselt. Me näeme ainult seda, kas olete e-kirja avanud, osana avatud e-kirjade koguprotsendist.",
+          "opt_out_html": "Kui te ei soovi seda teavet jagada, võite <a style='text-decoration:underline;' href='%{link}'>tühistada tellimuse.</a>"
         }
+      },
+      "subscribed": {
+        "confirmation": "Täname teid meie meililistile registreerumise eest.",
+        "disclaimer": "Te saate igal ajal tellimusest loobuda.",
+        "unsubscribe": "Tühista registreerumine"
+      },
+      "unsubscribed": {
+        "confirmation": "Sa oled meie meililistist loobunud.",
+        "disclaimer": "Sa ei saa meilt enam turundusuudiseid. Sa võid igal ajal uuesti tellida.",
+        "preview": "Sa vaatad näidist sellest, mida kliendid näevad, kui nad end välja logivad."
+      },
+      "sms_unsubscribe_confirm": {
+        "message": "Kas olete kindel, et soovite SMS-turundusest loobuda?",
+        "button": "Tühista registreerumine"
       }
+    },
+    "errors": {
+      "blank": "ei tohi olla tühi",
+      "credit_card_session_expired": "Krediitkaardi volitus on aegunud, palun sisestage oma makseandmed uuesti. Teie kaarti ei ole koormatud.",
+      "empty": "ei tohi olla tühi",
+      "invalid_email": "peab olema kehtiv e-posti aadress",
+      "discount_disabled": "See allahindlus on välja lülitatud",
+      "discount_expired": "See soodustus ei kehti enam",
+      "discount_limit_reached": "See soodustus on oma kasutuslimiidi saavutanud",
+      "discount_not_found": "Ei leitud kehtivat allahindlust, mis vastaks sisestatud koodile",
+      "customer_already_used_once_per_customer_discount_notice": "See soodustus on oma kasutuslimiidi saavutanud",
+      "gift_card_already_applied": "Kood on juba teie makseprotsessile rakendatud",
+      "gift_card_code_invalid": "Kood on kehtetu",
+      "gift_card_currency_mismatch": "Sinu kinkekaart on %{gift_card_currency} valuutas. Võta meiega ühendust, et see uuesti välja anda %{checkout_currency} valuutas.",
+      "gift_card_depleted": "Selle kinkekaardi saldos pole enam raha",
+      "gift_card_disabled": "Cadeaubon on välja lülitatud",
+      "gift_card_expired": "Kingituskinkekaart on aegunud",
+      "invalid": "on kehtetu",
+      "bad_domain": "sisaldab kehtetut domeeninime",
+      "contains_html_tags": "ei tohi sisaldada HTML-silte",
+      "contains_spaces": "algab või lõpeb tühikutega.",
+      "invalid_for_country": "ei kehti %{country} jaoks",
+      "invalid_for_country_and_province": "ei kehti %{province} ja %{country} jaoks",
+      "invalid_province_in_country": "on kehtiv provints %{country}",
+      "full_name_required": "Sisestage ees- ja perekonnanimi",
+      "invalid_for_card_type": "ei ole kehtiv",
+      "invalid_format": "paigutus ei ole kehtiv",
+      "expired": "on aegunud",
+      "invalid_expiry_year": "kas geen on kehtiv aegumisaasta",
+      "blocked_address": "Seda asukohta ei toetata"
     }
   },
   "recipient": {
