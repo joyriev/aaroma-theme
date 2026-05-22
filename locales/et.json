@@ -251,7 +251,84 @@
       "filter_selected_accessibility": "{{ type }} ({{ count }} filtrit valitud)",
       "show_more": "Näita rohkem",
       "show_less": "Näita vähem",
-      "filter_and_operator_subtitle": "Lõpuks kokku leppida"
+      "filter_and_operator_subtitle": "Lõpuks kokku leppida",
+      "sort_button": "Sorteeri",
+      "sort_by_label": "Sorteeri:",
+      "to": "Aan"
+    },
+    "product": {
+      "add_to_cart": "Lisa ostukorvi",
+      "description": "Kirjeldus",
+      "on_sale": "Soodusmüük",
+      "quantity": {
+        "label": "Kogus",
+        "input_label": "Kogus {{ product }} jaoks",
+        "increase": "Kogust suurendama {{ product }} jaoks",
+        "decrease": "Koguse vähendamine tootele {{ product }}",
+        "minimum_of": "Minimaal {{ quantity }}",
+        "maximum_of": "Maximaal {{ quantity }}",
+        "multiples_of": "Sammud {{ quantity }}",
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> Lisa ostukorvi",
+        "note": "Vaata koguse reegleid",
+        "min_of": "Minimaal {{ quantity }}",
+        "max_of": "Maksimaalne {{ quantity }}"
+      },
+      "price": {
+        "from_price_html": "Alates {{ price }}",
+        "regular_price": "Tavahind",
+        "sale_price": "Soodushind",
+        "unit_price": "Ühiku hind"
+      },
+      "share": "Jaga seda toodet",
+      "pickup_availability": {
+        "view_store_info": "Vaata poeinfot",
+        "check_other_stores": "Kontrolli saadavust teistes poodides",
+        "pick_up_available": "Võimalik järeletulemine",
+        "pick_up_available_at_html": "Võimalik järeletulemine aadressil <span class=\"color-foreground\">{{ location_name }}</span>",
+        "pick_up_unavailable_at_html": "Järelmaksu võimalus pole hetkel saadaval aadressil <span class=\"color-foreground\">{{ location_name }}</span>",
+        "unavailable": "Ei õnnestu laadida valikuvõimalust",
+        "refresh": "Uuenda"
+      },
+      "media": {
+        "open_media": "Ava meedia {{ index }} modaalis",
+        "play_model": "Esita 3D-vaade",
+        "play_video": "Esita video",
+        "gallery_viewer": "Galerii vaade",
+        "load_image": "Pildi {{ index }} laadimine galeriivaatesse",
+        "load_model": "Laadi 3D-mudel {{ index }} galeriivaatesse",
+        "load_video": "Esita video {{ index }} galeriivaates",
+        "image_available": "Pilt {{ index }} on nüüd saadaval galeriivaates"
+      },
+      "shipping_policy_html": "<a href=\"{{ link }}\">Saatmine</a> arvutatakse välja kassas.",
+      "choose_options": "Vali valikud",
+      "choose_product_options": "Vali valikud tootele {{ product_name }}",
+      "inventory_in_stock": "Laos olemas",
+      "inventory_in_stock_show_count": "{{ quantity }} laos",
+      "inventory_low_stock": "Vähene laoseis",
+      "inventory_low_stock_show_count": "Väike laoseis: veel {{ quantity }} saadaval",
+      "inventory_out_of_stock": "Laoühikus puudub",
+      "sku": "Artiklinumber",
+      "inventory_out_of_stock_continue_selling": "Laos olemas",
+      "product_variants": "Tootevariandid",
+      "duties_included": "Võetud kaasa.",
+      "sold_out": "Läbi müüdud",
+      "unavailable": "Pole saadaval",
+      "vendor": "Müüja",
+      "video_exit_message": "{{ title }} avab video täisekraanil samas aknas.",
+      "xr_button": "Vaadake oma ruumis",
+      "xr_button_label": "Vaadake oma ruumis, laadige artikkel aknasse lisatud reaalsuse jaoks",
+      "view_full_details": "Vaata täielikke üksikasju",
+      "value_unavailable": "{{ option_value }} - Pole saadaval",
+      "variant_sold_out_or_unavailable": "Variant otsas või pole saadaval",
+      "volume_pricing": {
+        "title": "Kogusallahindlus",
+        "note": "Kogusallahindlus saadaval",
+        "minimum": "Rohkem kui {{ quantity }}",
+        "price_at_each_html": "alates {{ price }} tüki kohta"
+      }
+    },
+    "modal": {
+      "label": "Meediagalerii"
     }
   },
   "localization": {
@@ -276,6 +353,57 @@
       "copy_code_success": "Kood kopeeritud",
       "how_to_use_gift_card": "Kasuta kinkekaardi koodi veebis või QR-koodi poes",
       "expiration_date": "Aegub {{ expires_on }}"
+    }
+  },
+  "shopify": {
+    "attributes": {
+      "email": "e-post",
+      "password": "parool",
+      "password_confirmation": "Parooli kinnitamine",
+      "first_name": "eesnimi",
+      "last_name": "perekonnanimi",
+      "body": "keha",
+      "signature": "Aadress"
+    },
+    "addresses": {
+      "zip_code": "Postiindeks",
+      "postal_code": "Postiindeks",
+      "postcode": "Postiindeks",
+      "pincode": "PIN-kood",
+      "region": "Regio",
+      "prefecture": "Prefektuur",
+      "province": "Provints",
+      "state": "Staatus",
+      "state_and_territory": "Riik/ala",
+      "county": "Graafschap",
+      "emirate": "Emiraat",
+      "governorate": "Valitsus",
+      "confirm": "Kas olete kindel, et soovite selle aadressi kustutada?"
+    },
+    "cart": {
+      "discounts_with_count": "%{count} allahindlused on rakendatud"
+    },
+    "challenge": {
+      "message": "Om door te gaan, laat ons weten dat je geen robot bent.",
+      "error": "Teie vastus ei olnud õige, palun proovige uuesti.",
+      "submit_button_text": "Saada teele"
+    }
+  },
+  "recipient": {
+    "form": {
+      "checkbox": "Ma tahan seda kingituseks saata",
+      "email_label": "Saaja e-posti aadress",
+      "email": "E-posti aadress",
+      "name_label": "Saaja nimi (valikuline)",
+      "name": "Nimi",
+      "message_label": "Teade (valikuline)",
+      "message": "Teade",
+      "max_characters": "Maksimaalselt {{ max_chars }} tähemärki",
+      "email_label_optional_for_no_js_behavior": "Saaja e-posti aadress (valikuline)",
+      "send_on": "AAAA-KK-PP",
+      "send_on_label": "Saatmine kuupäeval (valikuline)",
+      "expanded": "Väljavolditud kinkekaardi saaja vorm",
+      "collapsed": "Saaja kinkekaardi vorm kokkupandult"
     }
   }
 }
