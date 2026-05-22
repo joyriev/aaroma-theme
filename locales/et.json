@@ -1965,7 +1965,71 @@
         },
         "payment_method_rollup_accessibility_label": "Makseviiside valikud",
         "payments": "Makse",
-        "new_bank_account_disclaimer": "Tellimuse lõpetamiseks annate %{shop_name}-le loa allolevalt kontonumbrilt ACH kaudu näidatud summa ja määratud ajal debiteerida."
+        "new_bank_account_disclaimer": "Tellimuse lõpetamiseks annate %{shop_name}-le loa allolevalt kontonumbrilt ACH kaudu näidatud summa ja määratud ajal debiteerida.",
+        "saved_by_payment_method": "Salvestatud %{payment_method} kaudu",
+        "same_billing_address_label": "Sama mis kohaletoimetamise aadress",
+        "sofort_label": "Otsene pangaülekanne",
+        "subscription_agreement_label_html": "Ma mõistan, et nõustun tellimusega. See uuendatakse nimetatud hinna ja sagedusega, kuni see lõpeb või <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">tühistatakse</a>.",
+        "subscription_agreement_label": "Üks või mitu eset teie ostukorvis on edasi lükatud või tellimuspõhine ost. Jätkates maksega nõustute, et teie makseviiselt võetakse automaatselt tasu sellel lehel märgitud hinna ja sageduse alusel, kuni see lõpeb või te tühistate. Kõik tühistamised alluvad %{cancelled}-le.",
+        "subscription_agreement_cancelled": "tühistamispoliitika",
+        "purchase_options_card_update_agreement_label_html": "Uuendades oma makseviisi, annate loa maksete tegemiseks iga korduva või edasi lükatud ostu eest vastavalt selle poe <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">%{cancellation_policy}</a> tingimustele.",
+        "receiver_payment_experience_hint": "Pärast tellimuse esitamist saate makseandmed. Tehke makse Multibanco kaudu või veebis %{due_days} päeva jooksul.",
+        "pending_payment": {
+          "due_notice": "Teie makse summas %{amount_due} on tasumisele kuuluv kuupäeval %{due_date}.",
+          "multibanco": {
+            "instruction_html": "Täitke oma makse Multibanco kaudu või veebis allolevate andmetega. Küsimuste korral või makseandmete uuendamiseks %{contact_us}.",
+            "entity": "Entiteet",
+            "reference": "Viide",
+            "amount": "Kogus",
+            "find_nearest_atm": "Leia lähim sularahaautomaat",
+            "buyer_action_info": "Teie makse summas %{amount_due} on võlgnenud."
+          }
+        },
+        "purchase_options_agreement_label": "Üks või mitu eset teie ostukorvis on edasi lükatud, tellimus- või korduvost. Jätkates maksega nõustute, et teie makseviiselt võetakse automaatselt tasu sellel lehel märgitud hinna ja sageduse alusel, kuni see lõpeb või te tühistate. Kõik tühistamised alluvad %{cancellation_policy_label}-le.",
+        "purchase_options_agreement_label_html": "Mõistan, et üks või mitu toodet minu ostukorvis on edasi lükatud, tellimuspõhine või korduvost. Jätkates nõustun <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">tühistamistingimustega</a> ning annan teile loa minu makseviisi koormamiseks sellel lehel toodud hindade, sageduse ja kuupäevade alusel kuni minu tellimus on täidetud või kuni ma tühistan, kui see on lubatud.",
+        "store_credit": {
+          "label": "Ostukrediit",
+          "apply_label": "Kasutage poe krediiti",
+          "add_label": "Lisage poe krediiti",
+          "manage_label": "Halda poe krediiti",
+          "buying_gift_card": "Sa ei saa kinkekaardi ostmiseks kasutada poe krediiti",
+          "no_fixed_selling_plans": "Sa ei saa kasutada poe krediiti edasi lükatud ostuvõimaluste puhul"
+        },
+        "same_billing_address_checkbox_label": "Kasuta tarneaadressi arveaadressina",
+        "shipping_rate_updated": "Saadavalolevad saatmisviisid on uuendatud. Palun kinnitage oma valik enne maksmist.",
+        "preview_not_available": {
+          "title": "Näidis pole saadaval",
+          "content": "Ära muretse, see kiire kassasüsteem töötab sinu klientide jaoks.",
+          "button": "Okei"
+        },
+        "simulated_checkout": "Eelvaade varsti saadaval",
+        "purchase_options_and_vaulting_agreement_label": "Üks või mitu eset teie ostukorvis on edasi lükatud või tellimuspõhine ost. Jätkates maksmist, nõustute, et teie makseviiselt võetakse automaatselt tasu sellel lehel märgitud hinna ja sageduse alusel, kuni see lõpeb või te tühistate. Kõik tühistamised alluvad %{cancellation_policy_label}-le.",
+        "purchase_options_cancellation_policy_label": "tühistamispoliitika",
+        "saved_credit_card": "Teie salvestatud krediitkaart",
+        "saved_credit_card_info": "Viimased neli numbrit",
+        "saved_credit_cards_modal": {
+          "view_all_label": "Vaata kõiki salvestatud kaarte",
+          "done": "Klaar",
+          "cancel": "Tühista"
+        },
+        "purchase_order_number": {
+          "title": "PO-number",
+          "label": "Tellimuse number (valikuline)"
+        },
+        "shop_pay_installments_label": "Osta Pay maksetingimustega",
+        "saved_credit_card_actions": {
+          "edit": "Muuda",
+          "delete": "Eemalda"
+        },
+        "purchase_options_agreement_label_wallets": "Door door te gaan met uw betaling, gaat u akkoord met de toekomstige kosten die op deze pagina staan vermeld en het annuleringsbeleid.",
+        "saved_credit_card_cvv_verification": "Sisestage oma kaardi turvakood kinnitamiseks.",
+        "proposed_gateway_unavailable": "Pakutud makseviis ei ole saadaval",
+        "shop_pay_ideal_unavailable_error": "iDEAL | Wero ei ole selle tellimuse jaoks saadaval. Palun vali mõni muu makseviis.",
+        "paypal_wallet_label": "PayPal rahakott",
+        "przelewy24_label": "Przelewy24",
+        "simulated_express_checkout": "Rahakotid ei ole teie piirkonna või brauseri tõttu redigeerimisvaates saadaval",
+        "separate_payments_label": "Sinu esemed pärinevad rohkem kui ühest poest. Sulle esitatakse arve %{separate_payments_link}.",
+        "separate_payments_text": "eraldiseisvad maksed"
       }
     }
   },
