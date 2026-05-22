@@ -1156,7 +1156,8 @@
           "other": "%{count} tuvumā esošas vietas ar jūsu preci"
         },
         "location_nearby_short_other_items": {
-          "one": "%{count} atrašanās vieta tuvumā ar tavām precēm"
+          "one": "%{count} atrašanās vieta tuvumā ar tavām precēm",
+          "other": "%{count} tuvumā esošas vietas ar tavām precēm"
         },
         "location_far_away_one_item": {
           "one": "%{count} atrašanās vieta ar jūsu preci",
@@ -1165,6 +1166,75 @@
         "location_far_away_other_items": {
           "one": "%{count} atrašanās vieta ar taviem priekšmetiem",
           "other": "%{count} vietas ar jūsu precēm"
+        },
+        "toggle_location": "Mainīt atrašanās vietu",
+        "or": "NO",
+        "your_location": "jūsu atrašanās vieta",
+        "search_button": "Atrast veikalus",
+        "no_stores_found": "Veikalu nav atrasts",
+        "paginator": {
+          "accessibility_label": "Numurēšana priekš saņemšanas uz vietas",
+          "previous": "Iepriekšējā lapa",
+          "next": "Nākamā lapa",
+          "label": {
+            "one": "%{first} - %{last} no %{count} veikaliem",
+            "other": "%{first} - %{last} no %{count} veikaliem"
+          }
+        },
+        "reveal_more_label": {
+          "one": "Rādīt vēl %{count} atrašanās vietas",
+          "other": "Rādīt vēl %{count} atrašanās vietas"
+        },
+        "selected_pickup_option_no_longer_available": {
+          "title": "Jūsu iepriekš izvēlētā atrašanās vieta vairs nav pieejama",
+          "description": "Izvēlieties jaunu atrašanās vietu vai %{ship_to_address_link}",
+          "ship_to_address_link": "piegādes adrese"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_items": "Nosūtiet savus priekšmetus",
+          "search_elsewhere": "meklēt citur",
+          "ship_items_or_search_elsewhere": "%{ship_items} no %{search_elsewhere}"
+        },
+        "toggle_multiple_locations": "%{count}+ vairāk vietu",
+        "toggle_more_locations": {
+          "one": "%{count} vieta(s) vairāk",
+          "other": "%{count} vairākas atrašanās vietas"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Nav atrašanās vietu ar jūsu preci",
+          "other": "Nav atrašanās vietu ar jūsu precēm"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Nav atrašanās vietu %{country} ar jūsu preci",
+          "other": "Nav atrašanās vietu %{country} ar jūsu precēm"
+        },
+        "title": "Atrašanās vieta"
+      },
+      "localized_fields": {
+        "additional_information": {
+          "tax_credential_br": "BSN/KVK",
+          "shipping_credential_br": "BSN/KVK",
+          "shipping_credential_kr": "Personīgā muitas kods",
+          "shipping_credential_cn": "Iedzīvotāja identifikācijas numurs",
+          "tax_credential_cl": "RUT",
+          "shipping_credential_cl": "RUT",
+          "tax_credential_co": "Personas apliecība/ PVN",
+          "shipping_credential_co": "Personas apliecība/ PVN",
+          "shipping_credential_type_co": "Veida identitātes karte",
+          "tax_credential_cr": "Identifikācijas numurs/RUT",
+          "shipping_credential_cr": "Identifikācijas numurs/RUT",
+          "tax_credential_ec": "CI/RUC/BTW",
+          "shipping_credential_ec": "CI/RUC/BTW",
+          "shipping_credential_gt": "NIT/BTW",
+          "shipping_credential_id": "NPWP",
+          "shipping_credential_my": "TIN/Reģistrācijas numurs",
+          "shipping_credential_mx": "RFC",
+          "shipping_credential_py": "CI/RUC/BTW",
+          "shipping_credential_pe": "DNI/RUC/CE",
+          "shipping_credential_pt": "NIF/BTW",
+          "shipping_credential_es": "DNI/NIF",
+          "shipping_credential_tw": "Nacionālais identitātes numurs/ PVN numurs",
+          "shipping_credential_tr": "Turcijas Republikas identifikācijas numurs/ PVN"
         }
       }
     }
