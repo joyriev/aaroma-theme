@@ -2520,6 +2520,44 @@
           "prepaid_free_shipping_with_cycles": {
             "one": "Tasuta saatmine esimesel %{cycle}, seejärel %{recurring_order_shipping_price}",
             "other": "Tasuta saatmine esimesel %{cycle}, seejärel %{recurring_order_shipping_price}"
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": "iga päev",
+              "other": "iga %{count} päeva"
+            },
+            "week": {
+              "one": "iga nädal",
+              "other": "iga %{count} nädalat"
+            },
+            "month": {
+              "one": "iga kuu",
+              "other": "iga %{count} kuud"
+            },
+            "year": {
+              "one": "igal aastal",
+              "other": "iga %{count} aasta järel"
+            }
+          },
+          "prepaid_shipping_price_label": "%{shipping_price} ühe tarne kohta x %{delivery_interval_count}",
+          "shipping_price_included": "Kaasa arvatud",
+          "recurring_order_shipping_price": "tulenevalt %{recurring_order_shipping_price}",
+          "subscription_free_with_frequency_label": "Tasuta saatmine %{delivery_frequency}",
+          "prepaid_order_one_cycle": {
+            "one": "%{shipping_price} eest %{count} lisatarne",
+            "other": "%{shipping_price} %{count} lisatarne eest (%{per_delivery_cost})"
+          },
+          "prepaid_order_one_cycle_delivery_not_included": {
+            "one": "%{shipping_price} eest %{count} kohaletoimetamine",
+            "other": "%{shipping_price} %{count} kohaletoimetamise eest (%{per_delivery_cost})"
+          },
+          "prepaid_order_no_cycle": {
+            "one": "%{shipping_price} saatmiskulu %{count} lisatarne eest, millele järgneb %{recurring_order_shipping_price} korduvtellimuse saatmiskulu",
+            "other": "%{shipping_price} %{count} lisatarne eest (%{per_delivery_cost}), millele järgneb %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "one": "%{shipping_price} kohaletoimetamine %{count} tarne eest, seejärel %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} %{count} tarne eest (%{per_delivery_cost}), millele järgneb %{recurring_order_shipping_price}"
           }
         },
         "shipping_used_as_billing_notice": "Seda kasutatakse ka teie arveaadressina selle tellimuse jaoks.",
@@ -2541,7 +2579,28 @@
         "split_shipping_option_recommended": "Soovitatav",
         "split_shipping_option_custom": "Kohandatud",
         "split_shipping_shipment_notice": "Sinu tellimus jõuab kohale %{quantity_shipments} osas",
-        "split_shipping_first_shipment_notice": "Sinu esimene tellimus saabub %{quantity_shipments} jooksul"
+        "split_shipping_first_shipment_notice": "Sinu esimene tellimus saabub %{quantity_shipments} jooksul",
+        "title": "Saatmine",
+        "waiting_on_rate_notice": "Saadavalolevate saatmistasude laadimine…",
+        "waiting_on_pickup_location_notice": "Saadaval olevate väljavõtukohtade laadimine…",
+        "subscription_shipping": "Tellimuste saatmine",
+        "subscription_local_delivery": "Tellimusteenus kohalikult",
+        "subscription_pickup": "Tellimuse kättesaamine",
+        "two_day_delivery": "2-päevane kohaletoimetamine %{time}",
+        "unbranded_default_description": "Valmis saatmiseks",
+        "third_party_address_timeout": "Ei saa aadressi laadida. Proovi uuesti või kasuta teist aadressi.",
+        "third_party_address_error": "Adresivaliku laadimisel tekkis viga. Sisestage oma aadress allpool käsitsi.",
+        "third_party_payment_timeout": "Maksmismeetodeid ei õnnestu laadida. Proovi uuesti või kasuta mõnda teist maksmismeetodit.",
+        "third_party_payment_error": "Maksevõimaluse laadimisel tekkis viga. Kasutage palun mõnda teist makseviisi.",
+        "unbranded_description_same_day": "Saadetakse samal tööpäeval",
+        "unbranded_description_with_fulfillment_days": {
+          "one": "Saatmine järgmisel tööpäeval",
+          "other": "Saadetakse välja %{count} tööpäeva jooksul"
+        },
+        "unbranded_description_with_fulfillment_weeks": {
+          "one": "Saadetakse välja %{count} nädala jooksul",
+          "other": "Saatmine %{count} nädala jooksul"
+        }
       },
       "session_errors": {
         "session_not_unique": "Tellimuse töötlemisel tekkis probleem. Värskendage seda lehte, et naasta poodi.",
@@ -2558,6 +2617,25 @@
         "continue": "Jätka selle aadressiga",
         "use_saved_address": "Kasuta teist aadressi",
         "return_to_cart": "Tagasi ostukorvi"
+      },
+      "shipping_errors": {
+        "shipping_method": "Teie tellimuse saatmisvalikud on muudetud. Kontrollige oma valikut.",
+        "shipping_method_not_available": "Sinu ostukorv on uuendatud ja lisatud tooteid ei saa sinu aadressile saata. Eemalda tooted, et tellimus lõpetada.",
+        "shipping_method_not_available_generic": {
+          "one": "Teie tellimust ei saa määratud aadressile saata. Kontrollige oma aadressi, et veenduda selle õigsuses, ja proovige uuesti või valige teine aadress.",
+          "other": "Mõned teie ostukorvis olevad esemed ei pruugi teie antud aadressile saadetavad olla. Kontrollige oma aadressi, et veenduda selle õigsuses, ja proovige uuesti või valige mõni teine aadress."
+        },
+        "shipping_method_not_available_updated": {
+          "one": "Ese, mille lisasite, ei saadeta teie asukohta. Eemaldage see, et maksta, või võtke ühendust poega.",
+          "other": "Üks või mitu lisatud eset ei saadeta teie asukohta. Eemaldage need, et maksta, või võtke ühendust poega."
+        },
+        "payment_method_not_supported": "Sa ei saa seda makseviisi kasutada %{country} jaoks. Kasuta selle riiki saatmiseks mõnda muud makseviisi.",
+        "empty_state": "Sisestage oma tarneaadress, et vaadata saadaolevaid tarneviise.",
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "Ostukorvis olevad tooted ei vasta hinna- või kaalunõuetele, et kvalifitseeruda saatmiseks. Uuendage oma ostukorv ja proovige uuesti.",
+        "title": "Saatmine pole saadaval",
+        "invalid_selected_address": "Valitud saatmisaadress ei ole kehtiv",
+        "invalid_selected_address_with_update_link": "Valitud saatmisaadress ei ole kehtiv. %{update_address_link} või vali mõni teine aadress",
+        "unavailable_address_country": "Saatmine teie valitud riiki ei ole võimalik. Jätkamiseks kasutage palun teist aadressi."
       }
     }
   },
