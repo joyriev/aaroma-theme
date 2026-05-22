@@ -3578,6 +3578,66 @@
         "error_creating": "Kļūda, izveidojot adresi.",
         "deleted": "Adrese veiksmīgi izdzēsta",
         "error_deleting": "Kļūda, dzēšot adresi."
+      },
+      "customer": {
+        "password_reset_error": "Kļūda atiestatot paroli",
+        "no_account_found": "Konts ar šo e-pasta adresi netika atrasts.",
+        "invalid_credentials": "Nepareizs e-pasta adrese vai parole.",
+        "denylisted_reset_password": "Jūsu kontu nevarēja atvērt, jo pašreizējā parole nav droša. Jūs saņemsiet e-pastu, lai atjauninātu savu paroli.",
+        "signup_disabled": "Klienta konta izveide ir atspējota.",
+        "subscribe_error": "Reģistrācijas kļūda",
+        "unsubscribe_error": "Kļūda atteikšanās procesā"
+      },
+      "cart": {
+        "only_n_items_available": "Jūs varat pievienot grozam tikai %{count} %{name}.",
+        "too_many_items_in_cart": "Jūs vairs nevarat pievienot %{name} grozam.",
+        "all_items_in_cart": "Visi %{count} %{name} ir tavā iepirkumu grozā.",
+        "empty_update": "nevar atjaunināt grozu",
+        "missing_parameters": "nav derīga ID vai rindas parametrs",
+        "generic_error": "Kļūda, pievienojot grozam",
+        "too_many_line_items_error": "Jūsu iepirkumu grozā nedrīkst būt vairāk par %{max} precēm.",
+        "link_expired": "Saite beigusies",
+        "link_no_longer_exists": "Saite vairs nepastāv.",
+        "stock_problems_html": "Viena vai vairākas preces vairs nav pieejamas. Mēs esam izveidojuši tev <a href='%{link}'>atjauninātu iepirkumu grozu</a>.",
+        "changed": "Groza saturs mainīts",
+        "items_changed": "Viens vai vairāki vienumi ir mainīti.",
+        "product_sold_out": "Produkts '%{name}' jau ir izpārdots.",
+        "variant_not_found": "Nevar atrast variantu",
+        "variant_requires_selling_plan": "Variants var tikt iegādāts tikai ar pārdošanas plānu.",
+        "shipping_address_not_required": "Šai iepirkumu grozam nav nepieciešama piegāde",
+        "shipping_address_invalid": "Radās problēma, aprēķinot jūsu piegādes izmaksas. Turpiniet uz kasi, lai izvēlētos piegādes tarifu, pirms pabeidzat pasūtījumu.",
+        "selling_plan_not_applicable": "Nevar piemērot pārdošanas plānu variantam",
+        "selling_plan_not_available_for_company_locations": "B2B pasūtījumiem ir pieejama tikai vienreizēja pirkšana",
+        "digital_product_not_available_for_company_locations": "Šo preci nevar pievienot B2B pasūtījumam",
+        "product_not_available": "Produkts nav pieejams",
+        "less_than_minimum": "Šim rakstam ir minimālais daudzums %{min}.",
+        "more_than_maximum": "Šim rakstam ir maksimālais daudzums %{max}.",
+        "not_respect_step": "Jūs varat šo vienumu pievienot tikai pa %{step} soļiem.",
+        "bundle_requires_components": "Komplekta produkts '%{name}' nevar pievienot grozam.",
+        "gift_card_with_components_not_supported": "Komplekta produkts '%{name}' nevar pievienot grozam.",
+        "view_lines_limit_reached": "Noteikumiem jābūt mazākiem vai vienādiem ar %{limit}",
+        "merchandise_line_transformers": {
+          "run_error": "Jūsu iepirkumu grozā radusies kļūda."
+        },
+        "gift_card_price_must_be_greater_than_zero": "Komplekta produkts '%{name}' nevar pievienot grozam.",
+        "cart_too_large": "Grozs ir pārāk liels.",
+        "gift_card_recipient_validation_error": "Norādītais dāvanu kartes saņēmējs nav derīgs",
+        "invalid_input": "%{parameter} parametrs ir nederīgs.",
+        "buyer_cannot_purchase_for_company_locations": "Jūs nevarat pirkt šai atrašanās vietai",
+        "only_one_added_to_cart": "Jūsu iepirkumu grozā ir pievienots tikai 1 priekšmets pieejamības dēļ.",
+        "only_n_added_to_cart": "Jūsu grozā ir pievienoti tikai %{quantity} vienumi pieejamības dēļ.",
+        "maximum_available_quantity_reached": "Maksimālais šī produkta daudzums jau ir jūsu iepirkumu grozā.",
+        "cart_attributes_error": "Groza īpašības satur nederīgus datus.",
+        "merchandise_not_applicable": "Prece nav iespējama iegādei šādā konfigurācijā.",
+        "not_found": "Groza nav atrasta"
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "Pievienots %{delta}",
+          "decrement_item": "Noņemts %{delta} no %{total}",
+          "decrement_fulfilled_line_item": "Atgriezts %{delta} no %{total}",
+          "decrement_return_line_item": "%{delta} izņemts no atgriešanas"
+        }
       }
     },
     "filters": {
