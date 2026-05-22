@@ -3722,7 +3722,35 @@
       "blog_or_article_with_error": "Viga - %{title}"
     },
     "search": {
-      "error": "Otsingutulemuste laadimisel tekkis probleem. Värskendage lehte või proovige hiljem uuesti."
+      "error": "Otsingutulemuste laadimisel tekkis probleem. Värskendage lehte või proovige hiljem uuesti.",
+      "sorting": {
+        "relevance": "Asjakohasus",
+        "price_ascending": "Hind, madalast kõrgeni",
+        "price_descending": "Hind, kõrgeimast madalaimani"
+      }
+    },
+    "sentence": {
+      "two_words_connector": "et",
+      "last_word_connector": ", et"
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Tavaliselt valmis 1 tunni jooksul",
+        "two_hours": "Tavaliselt valmis 2 tunni jooksul",
+        "four_hours": "Tavaliselt valmis 4 tunni jooksul",
+        "twenty_four_hours": "Tavaliselt valmis 24 tunni jooksul",
+        "two_to_four_days": "Tavaliselt valmis 2–4 päeva jooksul",
+        "five_or_more_days": "Tavaliselt valmis 5+ päeva jooksul",
+        "zero_to_two_hours": "Tavaliselt valmis 2 tunni jooksul",
+        "two_to_four_hours": "Tavaliselt valmis 4 tunni jooksul",
+        "immediately": "Valmis kohe järele tulema",
+        "next_day": "Valmis järgmiseks päevaks järeletulekuks"
+      }
+    },
+    "subscriptions": {
+      "buyer_consent_product": "See artikkel on korduv või edasi lükatud ost. Jätkates nõustun %{cancellationPolicyLink} ja volitan teid minu makseviisi koormama sellel lehel märgitud hindade, sageduse ja kuupäevade alusel kuni minu tellimus on täidetud või kuni ma tühistan, kui see on lubatud.",
+      "buyer_consent_cart": "Üks või mitu teie ostukorvis olevat eset on korduv või edasi lükatud ost. Jätkates nõustun %{cancellationPolicyLink} ja volitan teid minu makseviisi koormama sellel lehel märgitud hindade, sageduse ja kuupäevade alusel kuni minu tellimus on täidetud või kuni ma tühistan, kui see on lubatud.",
+      "cancellation_policy": "tühistamispoliitika"
     }
   },
   "recipient": {
@@ -3740,6 +3768,55 @@
       "send_on_label": "Saatmine kuupäeval (valikuline)",
       "expanded": "Väljavolditud kinkekaardi saaja vorm",
       "collapsed": "Saaja kinkekaardi vorm kokkupandult"
+    }
+  },
+  "templates": {
+    "search": {
+      "no_results": "Ei leitud tulemusi otsingule „{{ terms }}“. Kontrollige õigekirja või proovige kasutada teist sõna või väljendit.",
+      "results_with_count": {
+        "one": "{{ count }} tulemus",
+        "other": "{{ count }} tulemust"
+      },
+      "title": "Otsingutulemused",
+      "page": "Lehekülg",
+      "products": "Tooted",
+      "search_for": "Otsi “{{ terms }}”",
+      "results_with_count_and_term": {
+        "one": "{{ count }} tulemust leitud otsingule „{{ terms }}”",
+        "other": "{{ count }} tulemust leitud otsinguga „{{ terms }}”"
+      },
+      "results_pages_with_count": {
+        "one": "{{ count }} lehekülg",
+        "other": "{{ count }} lehekülge"
+      },
+      "results_suggestions_with_count": {
+        "one": "{{ count }} soovitust",
+        "other": "{{ count }} soovitust"
+      },
+      "results_products_with_count": {
+        "one": "{{ count }} toodet",
+        "other": "{{ count }} toodet"
+      },
+      "suggestions": "Soovitused",
+      "pages": "Leheküljed"
+    },
+    "cart": {
+      "cart": "Ostukorv"
+    },
+    "contact": {
+      "form": {
+        "name": "Nimi",
+        "email": "E-post",
+        "phone": "Telefoninumber",
+        "comment": "Märkus",
+        "send": "Saada teele",
+        "post_success": "Täname, et võtsite meiega ühendust. Võtame teiega esimesel võimalusel ühendust.",
+        "error_heading": "Muuda järgmist:",
+        "title": "Kontaktvorm"
+      }
+    },
+    "404": {
+      "title": "Lehekülge ei leitud"
     }
   }
 }

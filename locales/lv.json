@@ -3354,7 +3354,17 @@
             "billing_first_name": "Ievadiet vārdu rēķina adresei",
             "billing_address1": "Ievadiet rēķina adresi",
             "billing_address2": "Ievadiet rēķina adresi, dzīvokli, apartamentu utt.",
-            "billing_city": "Ievadiet rēķina adreses pilsētu"
+            "billing_city": "Ievadiet rēķina adreses pilsētu",
+            "first_name": "Ievadiet vārdu",
+            "last_name": "Ievadiet uzvārdu",
+            "city": "Ievadiet pilsētu",
+            "province": "Izvēlieties štatu / provinci",
+            "country": "Izvēlieties valsti/reģionu",
+            "zip": "Ievadiet pasta indeksu",
+            "phone": "Ievadiet tālruņa numuru",
+            "billing_province": "Izvēlieties rēķina adreses provinci / reģionu",
+            "billing_zip": "Ievadiet rēķina adreses pasta indeksu",
+            "contact_info": "Ievadiet kontaktinformāciju"
           },
           "formatting": {
             "name_contains_emojis": "Noņem emoji no sava vārda",
@@ -3363,11 +3373,73 @@
             "last_name_too_long": "Uzvārds satur pārāk daudz burtu",
             "address_too_long": "Adreses rinda ir pārāk gara"
           },
-          "discount_code": "Nevar piemērot šo atlaižu kodu. Lūdzu, pārbaudiet savu kodu un mēģiniet vēlreiz."
-        }
+          "discount_code": "Nevar piemērot šo atlaižu kodu. Lūdzu, pārbaudiet savu kodu un mēģiniet vēlreiz.",
+          "unavailable": {
+            "title": "{{walletName}} nav pieejams",
+            "description": "{{walletName}} nebija pieejams. Izmantojiet citu maksājuma veidu vai mēģiniet vēlāk vēlreiz.",
+            "instructions": "Radās problēma ar {{walletName}}. Atgriezieties veikalā, lai mēģinātu vēlreiz, vai izvēlieties citu maksājuma veidu.",
+            "unavailable_for_country": "{{walletName}} nav pieejams {{countryName}}. Izvēlieties citu maksājuma veidu, lai pabeigtu savu pirkumu"
+          },
+          "terminal": "Radās problēma ar {{walletName}}. Izmantojiet citu maksājuma veidu.",
+          "unsupported": {
+            "address": "Pārdevējs nevar piegādāt uz šo adresi",
+            "postal_code": "Šī vieta netiek atbalstīta",
+            "wallet_is_unavailable": "{{walletName}} nevar izmantot ar šo adresi. Izvēlieties citu adresi vai aizveriet {{walletName}}, lai pabeigtu pirkumu"
+          },
+          "outdated": {
+            "shipping_method": "Jūsu pasūtījuma piegādes iespējas ir mainītas. Lūdzu, pārbaudiet savu izvēli.",
+            "payment_terms": "Maksājumu nosacījumi ir mainīti. Lūdzu, pārbaudiet savu pasūtījumu"
+          },
+          "select_different_shipping_address_to_resolve_errors": "Jūsu piegādes adrese nav derīga. Izvēlieties citu adresi vai izmantojiet jaunu adresi.",
+          "unavailable_terminal": {
+            "instructions": "{{walletName}} pašlaik nav pieejams jūsu pasūtījumam. Lai turpinātu pirkumu, izvēlieties citu maksājuma veidu."
+          },
+          "processing_error_checkout_as_guest": "Radās problēma, apstrādājot jūsu maksājumu. Mēģiniet vēlreiz vai {{checkout_as_guest_link}}.",
+          "subscription_review_required": "Jūsu pasūtījumā ir abonements. Jums jāizlasa zemāk norādītie noteikumi, pirms pabeigt pasūtījumu."
+        },
+        "return_to_store": "Atpakaļ uz veikalu",
+        "redirect_hint": "Jūs tiekat aicināts pieteikties, izmantojot {{walletName}}.",
+        "logged_in": "Savienots ar {{email}}",
+        "shipping_line_label": "Sūtīšana",
+        "payment_in_progress_title": "Maksājums notiek",
+        "payment_in_progress_body": "Jūsu maksājums tiek apstrādāts. Jūsu pasūtījums drīzumā tiks pabeigts.",
+        "redirection_notice": "Jūs tiksiet novirzīts uz {{walletName}}, lai pabeigtu savu pirkumu",
+        "return_to_checkout": "Atpakaļ uz norēķiniem",
+        "scrim": {
+          "continue_purchase_in_window": "Turpiniet ar pirkumu {{walletName}} logā",
+          "and_return_to_checkout": "un atpakaļ uz Norēķināšanos",
+          "cancel": "Atcelt"
+        },
+        "place_order": "Veikt pasūtījumu",
+        "recovery_notice": "Ir problēma ar jūsu pasūtījuma datiem. Atjauniniet savu informāciju, lai pabeigtu maksājumu."
       },
       "vaulted": {
         "change_button": "Mainīt"
+      }
+    },
+    "collections": {
+      "sorting": {
+        "manual": "Izcelts",
+        "best_selling": "Vislabāk pārdotais",
+        "az": "Alfabētiski, A-Z",
+        "za": "Alfabētiski, no Z līdz A",
+        "price_ascending": "Cena, no zemākās līdz augstākajai",
+        "price_descending": "Cena, no augstākās līdz zemākajai",
+        "date_ascending": "Datums, no vecā uz jauno",
+        "date_descending": "Datums, no jaunā uz veco",
+        "most_relevant": "Visatbilstošākais"
+      }
+    },
+    "checkpoint": {
+      "message": "Atrisiniet captcha, lai turpinātu",
+      "error": "Captcha validācija neizdevās",
+      "submit_button_text": "Sūtīt"
+    },
+    "email_marketing": {
+      "open_tracking": {
+        "no_longer_track": {
+          "privacy_policy": "Pēc šī e-pasta nosūtīšanas mēs esam atjauninājuši savu privātuma politiku un vairs nesekojam ziņojumu atvēršanai."
+        }
       }
     }
   },
