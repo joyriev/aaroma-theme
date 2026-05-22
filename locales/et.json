@@ -2991,7 +2991,71 @@
         "confirmed_orders_title": "Teie tellimused on kinnitatud",
         "checkout_on_another_store": "Makse teises poes",
         "checkout_again": "Makse uuesti",
-        "cashback_notice": "Saad oma raha tagasi 30 päeva pärast"
+        "cashback_notice": "Saad oma raha tagasi 30 päeva pärast",
+        "order_status_confirmed_order_with_email": "Saad e-kirja, kui su tellimus on valmis.",
+        "order_status_confirmed_order_with_phone": "Te saate SMS-i, kui teie tellimus on valmis.",
+        "order_status_confirmed_order_with_email_and_phone": "Saad e-kirja, kui su tellimus on valmis.",
+        "in_transit": "Teel",
+        "in_transit_title": "Teie tellimus on teel",
+        "in_transit_description": "Te saate teateid edenemise kohta.",
+        "in_transit_description_days": "Sa peaksid oma tellimuse kätte saama järgmise %{number} päeva jooksul.",
+        "in_transit_description_today": "Sa peaksid oma tellimuse täna kätte saama.",
+        "in_transit_description_tomorrow": "Te peaksite oma tellimuse järgmiseks päevaks kätte saama.",
+        "no_tracking_number": "Selle tellimuse jaoks puudub jälgimisnumber.",
+        "non_shippable_title": "Teie tellimus on lõpetatud",
+        "login_title": "Logi sisse, et näha kõiki tellimuse andmeid",
+        "login_description": "Teie tellimuse numbri leiate kviitungilt, mille olete saanud e-posti teel.",
+        "login_description_phone": "Teie tellimuse numbri leiate tšekilt, mille saite SMS-iga.",
+        "login_not_customer_html": "Ei ole %{name}? Saad %{link}",
+        "login_reorder_link_text": {
+          "one": "osta ka see toode",
+          "other": "osta ka neid tooteid"
+        },
+        "order_number_label": "Tellimuse number",
+        "login": "Logi sisse",
+        "marker": {
+          "current": "Praegune saatmiskoht",
+          "shipping": "Saatmisaadress"
+        },
+        "order_status_confirmed_order_with_email_pick_up": "Saad e-kirja, kui su tellimus on valmis järele võtmiseks.",
+        "order_status_confirmed_order_with_phone_pick_up": "Saad SMS-teate, kui sinu tellimus on valmis järeletulekuks.",
+        "order_status_confirmed_order_with_email_and_phone_pick_up": "Saad e-kirja ja SMS-teate kohe, kui su tellimus on valmis järele võtmiseks.",
+        "order_status_confirmed_order_local": "Me valmistame teie tellimuse kohaletoimetamiseks ette.",
+        "gift_card_sent_confirmation": "Kingituskupongid saadetud",
+        "let_us_know": "Andke meile teada",
+        "gift_card_title": "Kinkekaardid",
+        "order_status_confirmed_order_with_email_payment": "Olete teinud makse oma tellimuse eest %{date}.",
+        "order_status_confirmed_order_with_phone_payment": "Olete teinud makse oma tellimuse eest %{date}.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "Olete teinud makse oma tellimuse eest %{date}.",
+        "missing_shipping_address_banner": {
+          "title": "Tellimusel puudub tarneaadress",
+          "text_html": "%{contact_us} oma aadressi lisamiseks",
+          "contact_us": "Võtke meiega ühendust"
+        },
+        "order_status_confirmed_with_installments_payment_return": "Suunake oma tähelepanu uuesti müügitöötajale.",
+        "order_status_confirmed_with_installments_payment_confirm": "Te saate peagi kinnituskirja koos teie tellimuse numbri ja maksegraafiku üksikasjadega.",
+        "in_store_purchase": "Ost poes",
+        "manage_order_label": "Haldage oma tellimust",
+        "gift_card_text_title": {
+          "one": "Cadeaubon on saadetud SMS-iga",
+          "other": "Kingituskupongid on saadetud SMS-iga"
+        },
+        "gift_card_resent_confirmation": {
+          "one": "Cadeaubon on uuesti saadetud.",
+          "other": "Kingituskupongid on uuesti saadetud."
+        },
+        "gift_card_resend_failure": {
+          "one": "Esines probleem teie kinkekaardi uuesti saatmisel. Proovige uuesti või võtke meiega ühendust.",
+          "other": "Esines probleem teie kinkekaartide uuesti saatmisel. Proovige uuesti või võtke meiega ühendust."
+        },
+        "order_status_payments_app_failed_pending_payment": "Sinu tellimus ei ole maksustatud. Mine tagasi oma ostukorvi, et tellimust vaadata ja uuesti maksta.",
+        "order_status_payments_app_failed_pending_payment_payment": "Sinu tellimus ei ole maksustatud. Mine tagasi oma ostukorvi, et tellimust vaadata ja uuesti maksta.",
+        "order_status_confirmed_order_local_pick_up": "Me valmistame teie tellimuse ette.",
+        "order_status_confirmed_order_local_payment": "Me valmistame teie tellimuse ette.",
+        "items_fulfilled_by_store": {
+          "one": "Artiklid, mida olete ostnud, tarnib %{remote_shop_name}.",
+          "other": "Artiklid, mida olete ostnud, tarnitakse teistest poodidest."
+        }
       }
     }
   },

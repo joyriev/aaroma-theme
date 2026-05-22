@@ -2635,7 +2635,87 @@
         "title": "Piegāde nav pieejama",
         "invalid_selected_address": "Izvēlētā piegādes adrese nav derīga",
         "invalid_selected_address_with_update_link": "Izvēlētā piegādes adrese nav derīga. %{update_address_link} vai izvēlieties citu adresi",
-        "unavailable_address_country": "Piegāde uz jūsu izvēlēto valsti nav iespējama. Lai turpinātu, izmantojiet citu adresi."
+        "unavailable_address_country": "Piegāde uz jūsu izvēlēto valsti nav iespējama. Lai turpinātu, izmantojiet citu adresi.",
+        "unavailable_selected_address": "Piegāde nav pieejama izvēlētajam adresēm",
+        "unavailable_selected_address_for_region": "Piegāde nav pieejama {{region}}. Izvēlieties citu adresi, lai turpinātu",
+        "unavailable_addresses_only_countries": "Jūsu pasūtījumu var nosūtīt tikai uz {{countriesList}}. Pievienojiet jaunu adresi, lai turpinātu."
+      },
+      "stock": {
+        "continue_shopping_button_label": "Turpināt",
+        "continue_cta_label": "Turpināt norēķināties"
+      },
+      "shop_policies": {
+        "refund_policy": "Atmaksas politika",
+        "privacy_policy": "Privātuma politika",
+        "terms_of_service": "Lietošanas noteikumi",
+        "legal_notice": "Juridiskā paziņojuma",
+        "shipping_policy": "Sūtīšana",
+        "terms_of_sale": "Pārdošanas noteikumi",
+        "subscription_policy": "Atteikumi",
+        "purchase_options_policy": "Iepirkšanās iespēju noteikumi",
+        "contact_information": "Sazināties",
+        "purchase_options_cancellation_policy": "Atteikumi",
+        "cookie_preferences": "Cepumi",
+        "policy_label": "Apvainojums",
+        "policies_label": "Politikas noteikumi",
+        "select_policy_label": "Izvēlieties polisi",
+        "terms_and_policies": "Noteikumi un politikas noteikumi"
+      },
+      "split_delivery": {
+        "pickup_all_items": "Pievienot visus priekšmetus grozam",
+        "items_for_pickup": "Preces saņemšanai",
+        "delivery_method": "Sadalītā piegādes metode",
+        "delivery_method_menu": "Izdalītās piegādes metodes izvēlne",
+        "inventory_issue_banner": {
+          "remove_items_or_ship": "%{ship_separately_link} no %{remove_items_link}",
+          "remove_items_or_pickup": "%{pickup_in_store_link} no %{remove_items_link}",
+          "heading": {
+            "cannot_be_picked_up": {
+              "one": "Nevar ielādēt %{count} vienumus",
+              "other": "%{count} vienības nevarēja tikt izgūtas"
+            },
+            "cannot_be_shipped": {
+              "one": "%{count} prece(-es) nevar tikt nosūtīta(-as)",
+              "other": "%{count} preces nevar nosūtīt"
+            }
+          },
+          "remove_item": {
+            "one": "Noņemt preci",
+            "other": "Noņemt preces"
+          },
+          "ship_separately": {
+            "one": "nosūtīt atsevišķi",
+            "other": "nosūtiet tos atsevišķi"
+          },
+          "pick_them_up_in_store": {
+            "one": "paņem to veikalā",
+            "other": "paņemiet to veikalā"
+          },
+          "remove_item_only": {
+            "one": "Noņemt preci",
+            "other": "Dzēst preces"
+          }
+        },
+        "items_for_shipping": "Preces, kas tiks nosūtītas",
+        "items_moved_to_shipping_toast": "Preces, kuras nav iespējams saņemt, ir pārvietotas uz nosūtīšanu",
+        "cross_border": {
+          "modal": {
+            "heading": "Mainīt valsti?",
+            "content": "Tādējādi visi priekšmeti tiks atkal iestatīti nosūtīšanai. Jūsu saņemšanas un piegādes vietām jāatrodas vienā un tajā pašā valstī.",
+            "change_country": "Mainīt valsti"
+          },
+          "banner": "Tava piegādes metode ir atjaunināta"
+        }
+      },
+      "shop_pay_external": {
+        "errors": {
+          "problem_loading": "Ir problēma ar Shop Pay ielādi",
+          "try_again_later": "Pārbaudiet savu savienojumu vai aizveriet šo logu un mēģiniet vēlreiz pēc dažām minūtēm.",
+          "checkout_has_expired": "Jūsu norēķinu process ir beidzies. Aizveriet šo logu un mēģiniet vēlreiz norēķināties pie {{shopName}}."
+        },
+        "return_to_store": "Atpakaļ uz {{shopName}}",
+        "return_to_store_simple": "Atpakaļ uz veikalu",
+        "title": "Shop Pay Norēķināties"
       }
     }
   },
