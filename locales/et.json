@@ -1156,7 +1156,8 @@
           "other": "%{count} asukohta lähedal sinu artikliga"
         },
         "location_nearby_short_other_items": {
-          "one": "%{count} asukohta lähedal sinu artiklitega"
+          "one": "%{count} asukohta lähedal sinu artiklitega",
+          "other": "%{count} asukohta lähedal sinu artiklitega"
         },
         "location_far_away_one_item": {
           "one": "%{count} asukohta sinu artikliga",
@@ -1165,7 +1166,152 @@
         "location_far_away_other_items": {
           "one": "%{count} asukohta sinu artiklitega",
           "other": "%{count} asukohta sinu artiklitega"
+        },
+        "toggle_location": "Asukohta muuta",
+        "or": "Välja lülitatud",
+        "your_location": "sinu asukoht",
+        "search_button": "Leia poed",
+        "no_stores_found": "Ühtegi poodi ei leitud",
+        "paginator": {
+          "accessibility_label": "Kutsesüsteem kohapeal järeletulemiseks",
+          "previous": "Eelmine leht",
+          "next": "Järgmine leht",
+          "label": {
+            "one": "%{first} - %{last} %{count} poest",
+            "other": "%{first} - %{last} %{count} poe vahel"
+          }
+        },
+        "reveal_more_label": {
+          "one": "Lisa %{count} rohkem asukohti",
+          "other": "Lisa %{count} rohkem asukohti"
+        },
+        "selected_pickup_option_no_longer_available": {
+          "title": "Teie varem valitud asukoht ei ole enam saadaval",
+          "description": "Vali uus asukoht või %{ship_to_address_link}",
+          "ship_to_address_link": "saadete aadress"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_items": "Saatke oma esemed",
+          "search_elsewhere": "otsi mujalt",
+          "ship_items_or_search_elsewhere": "%{ship_items} %{search_elsewhere}"
+        },
+        "toggle_multiple_locations": "%{count}+ rohkem asukohti",
+        "toggle_more_locations": {
+          "one": "%{count} asukohta veel",
+          "other": "%{count} rohkem asukohti"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Valige oma artikliga asukohad",
+          "other": "Määrake oma artiklite asukohad"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Ükski asukoht ei sisalda teie artiklit %{country}",
+          "other": "Puuduvad asukohad %{country} teie artiklitega"
+        },
+        "title": "Asukoht"
+      },
+      "localized_fields": {
+        "additional_information": {
+          "tax_credential_br": "BSN/KVK",
+          "shipping_credential_br": "BSN/KVK",
+          "shipping_credential_kr": "Isiklik tollikood",
+          "shipping_credential_cn": "Elaniku isikutunnistusnumber",
+          "tax_credential_cl": "RUT",
+          "shipping_credential_cl": "RUT",
+          "tax_credential_co": "Isikutunnistus/KMKR",
+          "shipping_credential_co": "Isikutunnistus/KMKR",
+          "shipping_credential_type_co": "Tüüp Isikutunnistus",
+          "tax_credential_cr": "Identifitseerimisnumber/RUT",
+          "shipping_credential_cr": "Identifitseerimisnumber/RUT",
+          "tax_credential_ec": "CI/RUC/BTW",
+          "shipping_credential_ec": "CI/RUC/BTW",
+          "shipping_credential_gt": "NIT/BTW",
+          "shipping_credential_id": "NPWP",
+          "shipping_credential_my": "TIN/Registratsiooninumber",
+          "shipping_credential_mx": "RFC",
+          "shipping_credential_py": "CI/RUC/BTW",
+          "shipping_credential_pe": "DNI/RUC/CE",
+          "shipping_credential_pt": "NIF/KMKR",
+          "shipping_credential_es": "DNI/NIF",
+          "shipping_credential_tw": "Riiklik isikukood/käibemaksukohustuslase number",
+          "shipping_credential_tr": "Türgi Vabariik Isikukood/Käibemaksukohustuslase number",
+          "title": "Täiendav teave",
+          "tax_credential_it": "Fiscaal number (valikuline)",
+          "tax_email_it": "PEC (valikuline)",
+          "tax_credential_type_co": "Tüüp Isikutunnistus",
+          "tax_credential_gt": "NIT/BTW",
+          "tax_credential_id": "NPWP",
+          "tax_credential_my": "TIN/Registratsiooninumber",
+          "tax_credential_mx": "RFC",
+          "tax_credential_type_mx": "Maksukorraldus",
+          "tax_credential_use_mx": "CFDI kasutamine",
+          "tax_credential_py": "CI/RUC/BTW",
+          "tax_credential_pe": "DNI/RUC/CE",
+          "tax_credential_pt": "NIF/KMKR",
+          "tax_credential_es": "DNI/NIF",
+          "tax_credential_tr": "Türgi Vabariik Isikukood/Käibemaksukohustuslase number"
         }
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Saada mulle uudiskirju ja pakkumisi e-posti teel",
+        "unsubscribe": {
+          "title": "Oled välja logitud",
+          "description": "Sa ei saa meilt enam meeldetuletusi oma ostukorvi kohta."
+        },
+        "accept_sms_checkbox_label": "Saada mulle sõnum uudiste ja pakkumistega",
+        "sms": {
+          "disclaimer": {
+            "privacy_policy": "Privaatsuspoliitika",
+            "terms_of_service": "Kasutustingimused",
+            "description_html": "Kui registreerute SMS-i teel, nõustute saama korduvaid automatiseeritud turundussõnumeid, sealhulgas ostukorvi meeldetuletusi, antud telefoninumbrile. Nõusolek ei ole ostutingimus. Vastake STOP, et loobuda. Vastake HELP, et saada abi. Sõnumite sagedus võib varieeruda. Võivad kehtida sõnumi- ja andmekulud. Vaadake meie %{privacy_policy_link} ja %{terms_of_service_link}.",
+            "description_transactional_html": "Saate SMS-teateid tellimuse kinnituse ja saatmise uuenduste kohta. Vastake STOP, et loobuda. Vastake HELP, et saada abi. Teadete sagedus võib varieeruda. Võivad kehtida sõnumi- ja andmekulud. Vaadake meie %{privacy_policy_modal_link} ja %{terms_of_service_modal_link}."
+          },
+          "mobile_phone_number": "Mobiiltelefoni number",
+          "get_offers_by_text": "Saate pakkumisi SMS-iga"
+        },
+        "post_accept_marketing_checkbox_label": "Olete registreerunud e-posti uudiskirjade ja pakkumiste saamiseks",
+        "pending_accept_marketing_checkbox_label": "Kontrollige oma e-posti, et kinnitada oma registreerimine uudiskirjade ja pakkumiste saamiseks",
+        "accept_shop_pay_marketing_checkbox_label": "Registreeru selle poe uudiskirja ja pakkumiste saamiseks",
+        "disclaimer": {
+          "privacy_policy": "Privaatsuspoliitika",
+          "terms_of_service": "Kasutustingimused"
+        }
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "Hinnang",
+          "link_label": "{{partnerDisplayName}} Üldtingimused"
+        }
+      },
+      "markets": {
+        "invalid_market_manager_error": "Kontrollige oma kontaktandmeid enne makse lõpetamist"
+      },
+      "merchant_instruction_errors": {
+        "empty_stable_id": "Kauba juhend %{position} %{name} jaoks sisaldab tühja stabiilset ID-d.",
+        "duplicate_variant_id": "Kaubandusjuhis kohale %{position} %{name} sisaldab topeltvariandi ID-d %{variant_id}.",
+        "discount_not_supported": "Juhend kaubandusliku allahindluse rakendamiseks kaupadele ei toeta seda tüüpi allahindlust."
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "See toode ei ole saadaval kohaletoimetamiseks aadressile %{location_name}.",
+          "some_products_other": "Need tooted ei ole saadaval kohaletoimetamiseks aadressile %{location_name}.",
+          "all_products_one": "Toode teie ostukorvis ei ole saadaval kohaletoimetamiseks aadressile %{location_name}.",
+          "all_products_other": "Tooted teie ostukorvis ei ole saadaval kohaletoimetamiseks aadressile %{location_name}."
+        },
+        "missing_country_fallback": "sinu riik",
+        "indeterminate_location_fallback": "sinu asukoht",
+        "cart_updated": "Sinu ostukorv on uuendatud.",
+        "change_address_only": "Muuda tarneaadressi, et jätkata.",
+        "change_address_or_remove": "Muuda kohaletoimetamise aadressi või %{remove_action}.",
+        "empty_cart_action": "tühjenda ostukorv ja naase poodi",
+        "remove_items_action": {
+          "one": "eemalda mitte saadaval olev artikkel",
+          "other": "eemalda mitte-saadaval olevad tooted"
+        }
+      },
+      "memberships": {
+        "delivery_promise_unfulfillable": "See aadress ei ole praeguse liikmelisuse jaoks toetatud.",
+        "items_split_across_locations_unsupported": "Prime-tarne ei ole teie tellimuse jaoks saadaval. Teie saatmisvalikud on uuendatud."
       }
     }
   },
