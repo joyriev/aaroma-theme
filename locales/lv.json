@@ -1387,7 +1387,85 @@
       "offsite_payment_failed": {
         "payment_not_processed_text": "Mēģiniet vēlreiz nolasīt QR kodu. Ja tas joprojām nedarbojas, informējiet mūsu personālu un mēģiniet izmantot citu maksāšanas veidu.",
         "payment_link_expired_title": "Maksāšanas saite ir beigusies",
-        "payment_link_expired_text": "Lūdzu, mēģiniet vēlreiz nolasīt QR kodu."
+        "payment_link_expired_text": "Lūdzu, mēģiniet vēlreiz nolasīt QR kodu.",
+        "payment_not_processed_title": "Maksājums neizdevās",
+        "title": "Maksājums ārpus vietnes neizdevās"
+      },
+      "order_summary": {
+        "add_discount_or_gift_card": "Pievienojiet atlaides kodu vai dāvanu karti",
+        "apply_discount_button_label": "Pielietot",
+        "applied_discount_message": "%{amount} atlaide no kopējās pasūtījuma vērtības",
+        "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> atlaižu kods nav derīgs preču grozam esošajiem priekšmetiem",
+        "customer_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> atlaižu kods pašlaik nav pieejams jums",
+        "customer_already_used_once_per_customer_discount_notice": "Atlaižu kods <strong style=\"text-transform:uppercase\">%{code}</strong> jau ir izmantots",
+        "cost_table_title": "Izmaksu pārskats",
+        "collapse_order_summary_short": "Slēpt",
+        "calculating_shipping": "Aprēķināšana notiek…",
+        "applied_free_shipping_discount_label": "Pielietots",
+        "confirmation_number_label": "Apstiprinājums #%{confirmation_number}",
+        "deferred_payment_info": {
+          "description_html": "Jautājumu gadījumā par jūsu pasūtījumu, %{contact_us}.",
+          "due_on_fulfillment_title": "Maksājums %{amount_due} ir jāveic pie piegādes"
+        },
+        "amount_off_shipping": "%{amount} atlaide piegādei",
+        "custom_discount": "Pielāgota atlaide",
+        "collapse_component_information": {
+          "one": "Paslēpt %{count} vienumu",
+          "other": "Paslēpt %{count} vienumus"
+        },
+        "alternative_payment_currency_total": "Aprēķināts kā %{amount_due}",
+        "calculating": "Aprēķināšana notiek…",
+        "deferred_balance_info": {
+          "title": "Saldo {{amount_due}} ir jāmaksā līdz {{due_at}}",
+          "due_on_fulfillment_title": "Saldo {{amount_due}} ir jāmaksā pie piegādes"
+        },
+        "cost_table_item_column_header": "Raksts",
+        "cost_table_value_column_header": "Vērtība",
+        "compare_at_sale": "Izpārdošana (%{sale_amount})",
+        "automatic_discount_tooltip": "Automātiski piemērotās atlaides nevar noņemt"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "Summa, kas jāmaksā par pasūtījumu %{order_name}",
+        "changes_summary": {
+          "added": {
+            "one": "Pievienots",
+            "other": "Pievienots %{count}"
+          },
+          "removed": "Dzēsts",
+          "subtracted": "Izdzēsts %{count}",
+          "returned": "Atgriezts %{count}",
+          "return_line_item_removed": "%{count} izņemts no atgriešanas"
+        },
+        "additional_payment_requested": "Maksājums par %{total_outstanding} ir nepieciešams",
+        "checkout_review_and_pay": "Jūsu pasūtījums %{order_name} ir atjaunināts. Apskatiet šīs izmaiņas un pēc tam samaksājiet, lai apstiprinātu savu pasūtījumu.",
+        "order_updated_on": "Jūsu pasūtījums ir atjaunināts %{last_edited_at}.",
+        "order_review_and_pay": "Jūsu pasūtījums ir atjaunināts. Pārbaudiet un apmaksājiet, lai apstiprinātu savu pasūtījumu.",
+        "pay_now": "Maksā tagad"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "zero": "Pirkt %{product_name}",
+          "one": "Iegādājieties %{product_name} un vēl %{count} citu preci",
+          "other": "Iegādājieties %{product_name} un vēl %{count} citus priekšmetus"
+        }
+      },
+      "order_errors": {
+        "creation_failure": "Radās problēma, veidojot jūsu pasūtījumu. Lūdzu, mēģiniet vēlreiz vai sazinieties ar mums, lai iegūtu vairāk informācijas.",
+        "network_failure": "Jūsu pasūtījumu nevarēja nosūtīt tīkla kļūdas dēļ. Pārbaudiet savu savienojumu un mēģiniet vēlreiz.",
+        "inventory_reservation_failure": "Daži priekšmeti vairs nav pieejami."
+      },
+      "online_store_chat": {
+        "title": "Jautājumi? Sazinieties ar mums tērzēšanā"
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "Dāvanu kartes vērtībai jābūt lielākai par 0.",
+            "subtotal_limit_reached": "Ir sasniegts maksimālais pasūtīto preču vērtības limits.",
+            "gift_card_price_must_not_exceed_limit": "Dāvanu kartes cena nedrīkst pārsniegt %{gift_card_limit}.",
+            "signature_mismatch": "Preču paraksts neatbilst rindai %{stable_id}."
+          }
+        }
       }
     }
   },

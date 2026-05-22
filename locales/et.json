@@ -1289,7 +1289,10 @@
       "merchant_instruction_errors": {
         "empty_stable_id": "Kauba juhend %{position} %{name} jaoks sisaldab tühja stabiilset ID-d.",
         "duplicate_variant_id": "Kaubandusjuhis kohale %{position} %{name} sisaldab topeltvariandi ID-d %{variant_id}.",
-        "discount_not_supported": "Juhend kaubandusliku allahindluse rakendamiseks kaupadele ei toeta seda tüüpi allahindlust."
+        "discount_not_supported": "Juhend kaubandusliku allahindluse rakendamiseks kaupadele ei toeta seda tüüpi allahindlust.",
+        "invalid_stable_id_target": "Kaubanduse juhend %{position} %{name} jaoks viitab stable ID-le %{stable_id}, kuid seda stable ID-d ei leidu kaubanduse ridades.",
+        "invalid_variant_id_target": "Juhis kaubamärgile %{name} viitab variandile-ID %{variant_id}, kuid seda varianti ei ole kaubamärgiliinides.",
+        "invalid_price_override_target": "Hinna muutmise juhis artiklireale %{stable_id} on kehtetu, kuna see on komplekti osa."
       },
       "merchandise_unavailable_in_buyer_location": {
         "banner_title": {
@@ -1312,6 +1315,79 @@
       "memberships": {
         "delivery_promise_unfulfillable": "See aadress ei ole praeguse liikmelisuse jaoks toetatud.",
         "items_split_across_locations_unsupported": "Prime-tarne ei ole teie tellimuse jaoks saadaval. Teie saatmisvalikud on uuendatud."
+      },
+      "notifications": {
+        "title": "Teated"
+      },
+      "mor_policies": {
+        "terms_and_conditions": "Kaupmehe müügitingimused",
+        "privacy_policy": "Kaubandusregistri hoidja privaatsuspoliitika"
+      },
+      "no_address_location": {
+        "title": "Asukoht ilma aadressita",
+        "header": "Teil pole selle asukoha jaoks saatmisaadressi",
+        "message": "Võtke meiega ühendust, et lisada selle asukoha aadress ostu lõpetamiseks.",
+        "email_us_button_label": "Saada meile e-kiri",
+        "alt_header": "Puuduv kohaletoimetamise aadress"
+      },
+      "notice_banner": {
+        "return_to_cart_link_text": "Tagasi ostukorvi",
+        "return_to_cart_to_update_quantities": "%{return_to_cart_link_text} koguste uuendamiseks",
+        "subscription_changed": "Üks teie tellimustest on muudetud.",
+        "company_location_changed": "Sinu ostukorv on uuendatud. Kontrolli oma tellimust enne selle esitamist.",
+        "violations_title": "{{violation}} puudub või on kehtetu",
+        "individual_violations_title": {
+          "DeliveryViolations": "Saatmisaadress",
+          "PaymentViolations": "Arve aadress",
+          "OtherViolations": "Tellimusteave",
+          "UnhandledViolations": "Tellimusteave"
+        },
+        "all_violations_content": "Võtke ühendust {{emailLink}} kaudu, et seda teavet uuendada ja oma tellimus lõpetada:",
+        "all_violations_email_link": "e-post",
+        "editable_shipping_address_violations_message_title": "Lisage see teave, et oma tellimus lõpetada:",
+        "editable_shipping_address_violations_message_footer": "Selle asukoha aadressi püsivaks uuendamiseks, {{emailLink}}.",
+        "editable_shipping_address_violations_email_link": "võtke meiega ühendust",
+        "company_location_changed_product_removed": "Sinu ostukorv on uuendatud, kuna mõned tooted selles asukohas ei ole saadaval. Kontrolli oma tellimust enne selle esitamist.",
+        "shipping_address_incomplete_title": "Saatmisaadress on puudulik",
+        "calculating_shipping": "Saatmiskulud arvutatakse veel. Proovige mõne sekundi pärast uuesti. Midagi ei ole veel arvele võetud.",
+        "calculating_taxes": "Maksud arvutatakse veel. Proovige mõne sekundi pärast uuesti. Ühtegi summat pole veel arvele võetud.",
+        "generic_processing_error": {
+          "title": "Tellimuse töötlemisel tekkis probleem",
+          "body": "Sa ei ole maksustatud. Proovi uuesti või kasuta teist makseviisi."
+        },
+        "contact_information": {
+          "title": "Kontaktandmed on vigased",
+          "header": "Teie andmete värskendamiseks {{emailLink}}.",
+          "email_link": "võtke meiega ühendust"
+        },
+        "payment_method_not_available_with_payment_terms": "Teie valitud makseviis ei ole enam saadaval, kuna selle tellimuse makse toimub nüüd {{paymentTerms}} tingimustel.",
+        "payment_method_not_available_with_fulfillment_terms": "Teie valitud makseviis ei ole enam saadaval, kuna selle tellimuse eest tuleb nüüd maksta kohaletoimetamisel.",
+        "payment_method_not_available_with_fixed_terms": "Teie valitud makseviis ei ole enam saadaval, kuna selle tellimuse eest tuleb maksta hiljem.",
+        "payment_method_not_available_with_review_requirement": "Teie valitud makseviis ei ole enam saadaval, kuna makse tuleb tasuda kohe pärast teie tellimuse kinnitamist.",
+        "validation_errors_banner": {
+          "section_label": {
+            "delivery": "Kohaletoimetamine",
+            "contact": "Võta ühendust",
+            "payment": "Makse",
+            "billing": "Arveldamine"
+          },
+          "heading": {
+            "one": "Esineb {{count}} viga:",
+            "other": "On {{count}} viga:"
+          },
+          "errors_in_section": {
+            "one": "{{count}} viga sektsioonis {{section}}",
+            "other": "{{count}} viga {{section}}"
+          }
+        }
+      },
+      "note": {
+        "length_exceeds_maximum": "Vähendage märkmete suurus 5000 või vähem märgini."
+      },
+      "offsite_payment_failed": {
+        "payment_not_processed_text": "Proovige QR-koodi uuesti skannida. Kui see ikka ei tööta, andke sellest meie personalile teada ja proovige mõnda muud makseviisi.",
+        "payment_link_expired_title": "Makse link on aegunud",
+        "payment_link_expired_text": "Proovi QR-koodi uuesti skannida."
       }
     }
   },
