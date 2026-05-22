@@ -2642,7 +2642,81 @@
       },
       "stock": {
         "continue_shopping_button_label": "Turpināt",
-        "continue_cta_label": "Turpināt norēķināties"
+        "continue_cta_label": "Turpināt norēķināties",
+        "page_title": "Krājumu problēmas",
+        "title": "Nav noliktavā",
+        "items_unavailable_notice": "Daži priekšmeti vairs nav pieejami.",
+        "product_column_header": "Preces",
+        "quantity_column_header": "Skaits",
+        "price_column_header": "Cena",
+        "status_column_header": "Statuss",
+        "removed_from_cart_notice": "Noņemts no iepirkumu groza",
+        "sold_out_label": "Izpārdots",
+        "reduced_label": "Samazināts",
+        "reduced_with_quantity_label": "Atlikuši tikai %{quantity_available} pieejami",
+        "remove_from_cart_button_label": "Noņemt no iepirkumu groza",
+        "go_back_to_cart_button_label": "Atgriezties manā iepirkumu grozā",
+        "remove": "Noņemt",
+        "empty_cart_label": "Jūsu iepirkumu grozs ir tukšs",
+        "quantity_update": {
+          "page_title": "Atjaunināt skaitu",
+          "title": "Atjaunināt skaitu",
+          "description": "Pieejamie daudzumi šiem priekšmetiem ir mainīti un atjaunināti jūsu iepirkumu grozā."
+        },
+        "unpurchasable_product": {
+          "title": "Produkts nav pārdošanā",
+          "header": "Daži priekšmeti ir noņemti no jūsu iepirkumu groza",
+          "message": "Šie produkti nav pieejami uzņēmumu pasūtījumiem.",
+          "status_column_header": "Nav pieejams"
+        },
+        "unpurchasable_product_generic": {
+          "title": "Produkts nav pārdošanā",
+          "header": "Daži priekšmeti ir noņemti no jūsu iepirkumu groza",
+          "message": "Šie raksti nav pieejami.",
+          "status_column_header": "Nav pieejams"
+        },
+        "unshippable_product": {
+          "title": "Nav pieejama piegāde",
+          "header": {
+            "one": "Nav pieejama piegāde %{count} precei",
+            "other": "Nav pieejama piegāde %{count} preču vienībām"
+          },
+          "message": {
+            "one": "Šis produkts tiks noņemts no jūsu iepirkumu groza, jo jūsu adresei nav pieejamas piegādes metodes.",
+            "other": "Šie priekšmeti tiks noņemti no jūsu iepirkumu groza, jo jūsu adresei nav pieejamu piegādes veidu."
+          },
+          "status_column_header": "Nav piegādes"
+        },
+        "price_update": {
+          "title": "Cenu atjauninājums",
+          "description": "Šo preču cenas ir mainījušās un ir atjauninātas jūsu iepirkumu grozā.",
+          "updated_price": "Atjauninātā cena"
+        },
+        "return_to_store_label": "Atpakaļ uz veikalu",
+        "item_label": {
+          "one": "{{count}} prece",
+          "other": "{{count}} preces"
+        },
+        "out_of_stock": {
+          "description": "Šie produkti vairs nav pieejami un ir izņemti no jūsu iepirkumu groza.",
+          "items_unavailable": "Daži priekšmeti vairs nav pieejami un ir noņemti no jūsu iepirkumu groza."
+        },
+        "unfulfillable_product": {
+          "title": "Piegāde nav pieejama",
+          "message": {
+            "one": "%{delivery_method} vairs nav pieejams šim izstrādājumam.",
+            "other": "%{delivery_method} vairs nav pieejams šiem izstrādājumiem."
+          },
+          "default_message": {
+            "one": "Izvēlētā piegādes metode šim precei vairs nav pieejama.",
+            "other": "Izvēlētā piegādes metode vairs nav pieejama šiem priekšmetiem."
+          }
+        },
+        "price_and_quantity_update": {
+          "title": "Cenu un daudzuma atjauninājums",
+          "description": "Šo preču cenas un pieejamie daudzumi jūsu iepirkumu grozā ir mainīti un atjaunināti."
+        },
+        "out_of_stock_in_context_label": "Šis produkts nav pieejams jūsu valstī/reģionā."
       },
       "shop_policies": {
         "refund_policy": "Atmaksas politika",
@@ -2716,6 +2790,16 @@
         "return_to_store": "Atpakaļ uz {{shopName}}",
         "return_to_store_simple": "Atpakaļ uz veikalu",
         "title": "Shop Pay Norēķināties"
+      },
+      "subscriptions": {
+        "recurring_total_intervals": {
+          "day": {
+            "one": "diena"
+          }
+        }
+      },
+      "store_credit_errors": {
+        "generic_error": "Radās problēma ar jūsu veikala kredītu. Mēģiniet vēlreiz vai atkārtoti ielādējiet lapu."
       }
     }
   },
