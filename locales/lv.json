@@ -3229,7 +3229,81 @@
         "thank_you_confirmed_with_phone_description": {
           "single_store": "Drīzumā saņemsiet apstiprinājuma ziņojumu",
           "multi_store": "Drīzumā saņemsi atsevišķus apstiprinājuma ziņojumus no katras veikala."
+        },
+        "tracking_number": "Volgnumurs:",
+        "updated_time": "Atjaunināts %{time_ago} atpakaļ",
+        "unfulfilled_items_title": "Sagatavoties nosūtīšanai",
+        "unfulfilled_items_description": "Mēs pašlaik sagatavojam šos priekšmetus nosūtīšanai.",
+        "view_business_customer_account": "Skatīt kontu",
+        "vat_invoices": {
+          "title": "btw-rēķini"
+        },
+        "verify_shop_account_title": "Pārbaudiet savu veikala kontu",
+        "verify_shop_account_message": "Jūsu dati ir saglabāti Shop, verificējiet savu kontu, lai tos automātiski izmantotu miljonos veikalos.",
+        "verify_shop_account_cta": "Verificējiet savu kontu",
+        "verify_shop_account_confirmation": "Maksājuma dati saglabāti"
+      },
+      "tips": {
+        "title": "Pievienot dzeramnaudu",
+        "description": "Parādi savu atbalstu komandai %{shop_name}",
+        "presets_description": "Izvēlieties dzeramnaudas procentu",
+        "custom_label": "Pielāgota padome",
+        "add_tip": "Pievienot dzeramnaudu",
+        "update_tip": "Atjaunināšanas padoms",
+        "message": "Paldies, mēs to novērtējam.",
+        "no_tip_label": "Nav",
+        "not_available_with_spi": "Nav pieejams ar Shop Pay termiņmaksājumiem"
+      },
+      "throttle": {
+        "line_to_check_out": "Tu stāvi rindā, lai norēķinātos",
+        "cart_summary_heading": "Jūsu iepirkumu grozs",
+        "merchandise": {
+          "sold_out": "Izpārdots",
+          "available": "Pieejams"
+        },
+        "inventory": {
+          "partial_inventory_banner": "Daļa no jūsu iepirkumu groza ir izpārdota un nebūs pieejama apmaksai.",
+          "sold_out": {
+            "heading": "Jūsu iepirkumu grozs ir izpārdots",
+            "storefront_body": "Atgriezieties veikalā, lai turpinātu iepirkties",
+            "no_storefront_body": "Diemžēl prece, kuru vēlaties iegādāties, vairs nav pieejama.",
+            "link": "Atpakaļ uz veikalu"
+          }
+        },
+        "title": "Gaida rindā",
+        "time_to_checkout_title": "Laiks norēķināties - {{shopName}}",
+        "estimated_wait_time": {
+          "calculating": "Aprēķināt aptuveno gaidīšanas laiku",
+          "less_than_one": "Aptuvenais gaidīšanas laiks: Mazāk nekā minūte",
+          "one": "Aptuvenais gaidīšanas laiks: {{count}} minūtes",
+          "other": "Aptuvenais gaidīšanas laiks: {{count}} minūtes"
+        },
+        "last_checked": "(Pēdējā pārbaude: {{time}})",
+        "footer": {
+          "heading": "Nenokārtojiet šo lapu, tā tiek automātiski atjaunināta.",
+          "body": "Preces jūsu iepirkumu grozā netiek rezervētas, līdz pabeigsiet pirkumu."
+        },
+        "too_many_attempts": {
+          "message": "Pārāk daudz mēģinājumu",
+          "description": "Mēģiniet vēlreiz pēc dažām minūtēm"
         }
+      },
+      "units": {
+        "centiliter": "kl",
+        "cubic_meter": "m³",
+        "centimeter": "cm",
+        "fluid_ounce": "šķidrais oz",
+        "foot": "ft"
+      },
+      "tooltip": {
+        "accessibility_label_context": "Vairāk informācijas par %{context}",
+        "additional_payment_methods": "Papildu maksāšanas veidi"
+      },
+      "too_many_requests": {
+        "title": "Pārāk daudz mēģinājumu norēķināties",
+        "body": "Lūdzu, uzgaidiet dažas minūtes un mēģiniet vēlreiz no sava iepirkumu groza.",
+        "return_to_cart": "Atpakaļ uz iepirkumu grozu",
+        "body_no_cart": "Uzgaidiet dažas minūtes un mēģiniet vēlreiz."
       }
     }
   },
