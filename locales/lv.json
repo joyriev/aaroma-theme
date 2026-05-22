@@ -103,7 +103,12 @@
     "orders": {
       "date": "Datums",
       "fulfillment_status": "Pasūtījuma statuss",
-      "none": "Tev vēl nav veikti pasūtījumi."
+      "none": "Tev vēl nav veikti pasūtījumi.",
+      "title": "Pasūtījumu vēsture",
+      "order_number": "Pasūtījums",
+      "order_number_link": "Pasūtījuma numurs {{ number }}",
+      "payment_status": "Maksājuma statuss",
+      "total": "Kopā"
     },
     "order": {
       "title": "Pasūtīt {{ name }}",
@@ -130,6 +135,77 @@
       "subtotal": "Starpsumma",
       "total_duties": "Nodokļi",
       "total_refunded": "Atmaksāts"
+    },
+    "recover_password": {
+      "title": "Atiestatiet savu paroli",
+      "subtext": "Mēs nosūtīsim jums e-pastu, lai atiestatītu jūsu paroli",
+      "success": "Mēs esam nosūtījuši jums e-pastu ar saiti, lai atjauninātu jūsu paroli."
+    },
+    "register": {
+      "title": "Izveidot kontu",
+      "first_name": "Vārds",
+      "last_name": "Uzvārds",
+      "email": "E-pasts",
+      "password": "Parole",
+      "submit": "Izveidot"
+    },
+    "reset_password": {
+      "title": "Kontā parole atiestatīt no jauna",
+      "subtext": "Ievadiet jaunu paroli",
+      "password": "Parole",
+      "password_confirm": "Apstiprināt paroli",
+      "submit": "Atjaunot paroli"
+    }
+  },
+  "general": {
+    "password_page": {
+      "login_form_heading": "Ieeja veikalā ar paroli:",
+      "login_password_button": "Pieslēgties ar paroli",
+      "login_form_password_label": "Parole",
+      "login_form_password_placeholder": "Jūsu parole",
+      "login_form_error": "Nepareiza parole!",
+      "login_form_submit": "Ievadīt",
+      "admin_link_html": "Vai esat tirgotājs? <a href=\"/admin\" class=\"link underlined-link\">Piesakieties šeit</a>",
+      "powered_by_shopify_html": "Šo veikalu darbina {{ shopify }}"
+    },
+    "social": {
+      "alt_text": {
+        "share_on_facebook": "Kopīgot Facebook vietnē",
+        "share_on_twitter": "Kopīgot vietnē X",
+        "share_on_pinterest": "Piespraust Pinterest"
+      },
+      "links": {
+        "facebook": "Facebook",
+        "instagram": "Instagram"
+      }
+    },
+    "continue_shopping": "Turpināt iepirkties",
+    "pagination": {
+      "label": "Lappušu numerācija",
+      "page": "Lapa {{ number }}",
+      "next": "Nākamā lapa",
+      "previous": "Iepriekšējā lapa"
+    },
+    "search": {
+      "search": "Meklēt",
+      "reset": "Meklēšanas vārda dzēšana"
+    },
+    "cart": {
+      "view": "Skatīt iepirkumu grozu ({{ count }})",
+      "item_added": "Prece pievienota jūsu iepirkumu grozam",
+      "view_empty_cart": "Skatīt iepirkumu grozu"
+    },
+    "share": {
+      "copy_to_clipboard": "Kopēt saiti",
+      "share_url": "Saite",
+      "success_message": "Saite nokopēta starpliktuvē",
+      "close": "Aizvērt sadaļas"
+    },
+    "slider": {
+      "of": "kravas automašīna",
+      "next_slide": "Velc pa labi",
+      "previous_slide": "Velc pa kreisi",
+      "name": "Slīdnis"
     }
   }
 }
