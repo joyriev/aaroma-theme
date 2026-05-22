@@ -1387,7 +1387,85 @@
       "offsite_payment_failed": {
         "payment_not_processed_text": "Proovige QR-koodi uuesti skannida. Kui see ikka ei tööta, andke sellest meie personalile teada ja proovige mõnda muud makseviisi.",
         "payment_link_expired_title": "Makse link on aegunud",
-        "payment_link_expired_text": "Proovi QR-koodi uuesti skannida."
+        "payment_link_expired_text": "Proovi QR-koodi uuesti skannida.",
+        "payment_not_processed_title": "Makse ebaõnnestus",
+        "title": "Makse saidi väliselt ebaõnnestus"
+      },
+      "order_summary": {
+        "add_discount_or_gift_card": "Lisa sooduskood või kinkekaart",
+        "apply_discount_button_label": "Rakenda",
+        "applied_discount_message": "%{amount} allahindlust kogu tellimuse summalt",
+        "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> sooduskood ei kehti sinu ostukorvis olevate toodete puhul",
+        "customer_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> sooduskood ei ole hetkel teile saadaval",
+        "customer_already_used_once_per_customer_discount_notice": "Sooduskood <strong style=\"text-transform:uppercase\">%{code}</strong> on juba kasutatud",
+        "cost_table_title": "Kuluülevaade",
+        "collapse_order_summary_short": "Varjamine",
+        "calculating_shipping": "Arvutamisel…",
+        "applied_free_shipping_discount_label": "Rakendatud",
+        "confirmation_number_label": "Kinnitus #%{confirmation_number}",
+        "deferred_payment_info": {
+          "description_html": "Tellimuse kohta küsimuste korral, %{contact_us}.",
+          "due_on_fulfillment_title": "Makse summas %{amount_due} tuleb tasuda kohaletoimetamisel"
+        },
+        "amount_off_shipping": "%{amount} allahindlust saatmiskuludelt",
+        "custom_discount": "Kohandatud allahindlus",
+        "collapse_component_information": {
+          "one": "Peida %{count} eset",
+          "other": "Peida %{count} eset"
+        },
+        "alternative_payment_currency_total": "Arvestatud summana %{amount_due}",
+        "calculating": "Arvutamisel…",
+        "deferred_balance_info": {
+          "title": "Saldo summas {{amount_due}} tuleb tasuda {{due_at}}",
+          "due_on_fulfillment_title": "Saldo summas {{amount_due}} tuleb tasuda kohaletoimetamisel"
+        },
+        "cost_table_item_column_header": "Artikkel",
+        "cost_table_value_column_header": "Väärtus",
+        "compare_at_sale": "Soodusmüük (%{sale_amount})",
+        "automatic_discount_tooltip": "Automaatselt rakendatud allahindlusi ei saa eemaldada"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "Teie tasumisele kuuluv summa tellimuse %{order_name} eest",
+        "changes_summary": {
+          "added": {
+            "one": "Lisatud",
+            "other": "Lisatud %{count}"
+          },
+          "removed": "Kustutatud",
+          "subtracted": "Kustutatud %{count}",
+          "returned": "Tagastatud %{count}",
+          "return_line_item_removed": "%{count} eemaldatud tagastusest"
+        },
+        "additional_payment_requested": "Maksmine summas %{total_outstanding} on kohustuslik",
+        "checkout_review_and_pay": "Teie tellimus %{order_name} on uuendatud. Vaadake need muudatused üle ja seejärel tasuge, et oma tellimus kinnitada.",
+        "order_updated_on": "Teie tellimus uuendati %{last_edited_at}.",
+        "order_review_and_pay": "Teie tellimus on uuendatud. Kontrollige ja tasuge, et oma tellimus kinnitada.",
+        "pay_now": "Maksma nüüd"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "zero": "Osta %{product_name}",
+          "one": "Osta %{product_name} ja %{count} muud eset",
+          "other": "Osta %{product_name} ja %{count} muud eset"
+        }
+      },
+      "order_errors": {
+        "creation_failure": "Tellimuse loomisel tekkis probleem. Proovige uuesti või võtke lisateabe saamiseks meiega ühendust.",
+        "network_failure": "Teie tellimust ei saanud võrguvea tõttu saata. Kontrollige oma ühendust ja proovige uuesti.",
+        "inventory_reservation_failure": "Mõned artiklid ei ole enam saadaval."
+      },
+      "online_store_chat": {
+        "title": "Küsimusi? Vestle meiega"
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "Kinkekaardi väärtus peab olema suurem kui 0.",
+            "subtotal_limit_reached": "Tellitud esemete maksimaalne väärtus on saavutatud.",
+            "gift_card_price_must_not_exceed_limit": "Kinkekaardi hind ei tohi olla kõrgem kui %{gift_card_limit}.",
+            "signature_mismatch": "Allkirjad kaubamärgilt ei ühti rea %{stable_id} puhul."
+          }
+        }
       }
     }
   },

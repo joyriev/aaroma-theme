@@ -1405,7 +1405,11 @@
         "confirmation_number_label": "Apstiprinājums #%{confirmation_number}",
         "deferred_payment_info": {
           "description_html": "Jautājumu gadījumā par jūsu pasūtījumu, %{contact_us}.",
-          "due_on_fulfillment_title": "Maksājums %{amount_due} ir jāveic pie piegādes"
+          "due_on_fulfillment_title": "Maksājums %{amount_due} ir jāveic pie piegādes",
+          "title": "Maksājums %{amount_due} ir jāveic līdz %{due_at}",
+          "paid_today": "Kopā šodien samaksāts",
+          "due_on_receipt_title": "Maksājums %{amount_due} ir jāveic saņemšanas brīdī",
+          "paid_today_next": "Šodien samaksāts"
         },
         "amount_off_shipping": "%{amount} atlaide piegādei",
         "custom_discount": "Pielāgota atlaide",
@@ -1422,7 +1426,63 @@
         "cost_table_item_column_header": "Raksts",
         "cost_table_value_column_header": "Vērtība",
         "compare_at_sale": "Izpārdošana (%{sale_amount})",
-        "automatic_discount_tooltip": "Automātiski piemērotās atlaides nevar noņemt"
+        "automatic_discount_tooltip": "Automātiski piemērotās atlaides nevar noņemt",
+        "discount_title": "Atlaide",
+        "discount_label": "Atlaides kods",
+        "discount_placeholder": "Atlaides kods",
+        "discount_has_been_applied": "Atlaide ir piemērota",
+        "discount_has_been_removed": "Atlaide ir noņemta",
+        "discount_already_applied": "Šim pasūtījumam ir piemērota atlaide. Jūs nevarat pievienot papildu atlaidi.",
+        "discount_requires_customer_notice": "Ievadiet savu piegādes informāciju, lai piemērotu atlaides kodu <strong style=\"text-transform:uppercase\">%{code}</strong>",
+        "discount_and_gift_card_savings_notice": "Līdz %{discount_amount} atlaides un %{gift_card_amount} dāvanu kartēs",
+        "discount_savings_notice": "Līdz %{discount_amount} atlaides",
+        "description_label": "Apraksts",
+        "expand_order_summary_short": "Toon",
+        "estimated_taxes_label": "Aptuvenā nodokļa summa",
+        "estimated_tax_label": "Aptuvenā nodokļa summa",
+        "estimated_taxes_finalization_tooltip_content": "Kopējā nodokļa summa tiks apstiprināta pa e-pastu vai īsziņu pēc tam, kad būsi veicis pasūtījumu.",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> šobrīd nedarbojas. Sazinieties ar mums, lai saņemtu palīdzību.",
+        "due_on_fulfillment": "Izpildes termiņš",
+        "duties_label": "Nodokļi",
+        "duties_and_taxes_label": "Muitas nodevas un nodokļi",
+        "error_duties_tooltip": "Šo pasūtījumu sūta no citas valsts, tāpēc piegādes brīdī var tikt piemēroti muitas nodokļi un nodokļi.",
+        "deferred_total_due_date_label": "Kopējā samaksa {{date}}",
+        "expand_component_information": {
+          "one": "Rādīt %{count} vienumu",
+          "other": "Rādīt %{count} preces"
+        },
+        "discount_discovery": {
+          "add_code": "Pievienot atlaidi",
+          "merchandise_quantity_label": {
+            "one": "%{count} prece",
+            "other": "%{count} preces"
+          },
+          "back_to_finalize_order": "Atpakaļ uz pasūtījuma pabeigšanu"
+        },
+        "discount_title_stacking": {
+          "one": "Atlaide",
+          "other": "Atlaides"
+        },
+        "discount_order_stacking": {
+          "one": "Pasūtījuma atlaide",
+          "other": "Pasūtījumu atlaides"
+        },
+        "discount_not_found": "Nevar atrast derīgu atlaidi, kas atbilst ievadītajam kodam",
+        "enter_shipping_address": "Ievadiet piegādes adresi",
+        "discount_code_applied": "Kupona kods piemērots",
+        "discount_code_applied_with_code": "Kortinga kods %{code} ir piemērots",
+        "duties_included_label": "Kopējā summa ietver nodokļus un muitas nodevas. Piegādes laikā nav papildu maksājumu.",
+        "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> atlaižu kods ir nepieciešams piemērotam klientam",
+        "discount_code_aria_text": "Atlaides kods",
+        "deposit_label": "Stortingas",
+        "discount_code_allocations_mismatch": "Jūsu <strong style=\"text-transform:uppercase\">%{code}</strong> atlaižu kods ir mainīts. Pārbaudiet savu iepirkumu grozu un mēģiniet vēlreiz.",
+        "deferred_total_due_date_label_next": "Derīguma termiņš %{date}",
+        "estimated_taxes_label_short": "Novērtēts",
+        "discount_code_removed": "Kupona kods %{code} ir dzēsts",
+        "discount_code_replaced": "Kupona kods %{old_code} ir dzēsts un %{code} ir piemērots",
+        "discount_code_replaced_multiple": "Vairāki atlaižu kodi tika noņemti un tika piemērots %{code}",
+        "discount_applies_to_subscription_items_only": "Šī atlaide attiecas tikai uz abonēšanas precēm",
+        "estimated_taxes_finalization_tooltip_content_short": "Nodoklis aprēķināts pēc maksājuma veikšanas"
       },
       "order_payment_collection": {
         "custom_line_item_description": "Summa, kas jāmaksā par pasūtījumu %{order_name}",
