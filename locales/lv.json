@@ -2075,7 +2075,55 @@
         "cancelled_payment": "Jūsu maksājums ir atcelts. Mēģiniet vēlreiz vai izmantojiet citu maksājuma veidu.",
         "currency": {
           "no_longer_supported": "Veikala valūta vairs netiek atbalstīta."
-        }
+        },
+        "generic_error": "Radās problēma, apstrādājot jūsu maksājumu. Mēģiniet vēlreiz vai izmantojiet citu maksājuma veidu.",
+        "rejected_transaction": "Jūsu maksājums tika noraidīts. Mēģiniet vēlreiz vai izmantojiet citu maksājuma veidu.",
+        "order_total_changed": "Jūsu pasūtījuma kopējā summa ir mainīta. Lūdzu, pārbaudiet to un mēģiniet vēlreiz.",
+        "payment_processing": "Jūsu maksājumu tehnisku iemeslu dēļ nevar apstrādāt. Lūdzu, mēģiniet vēlreiz vai izmantojiet citu maksājuma veidu.",
+        "paypal_zero_amount": "Tu nevari izmantot PayPal pasūtījumiem par %{amount}. Apstiprini, ka tavs pasūtījums ir pareizs, un samaksā bez PayPal.",
+        "paypal_invalid_token": "PayPal nebija pieejams. Mēģiniet vēlreiz vai izmantojiet citu maksājuma veidu.",
+        "pay_later_failed": "Radās kļūda, apstrādājot jūsu maksājumu ar Maksājumu pēc tam. Izvēlieties citu maksājuma veidu un mēģiniet vēlreiz.",
+        "three_d_secure_failed": "Jūsu maksājums nevarēja tikt pārbaudīts. Mēģiniet vēlreiz vai izmantojiet citu maksājuma veidu.",
+        "three_d_secure_throttled": "Pārāk daudz mēģinājumu; pagaidiet, pirms mēģināt vēlreiz",
+        "subscription_agreement_blank": "Lai iegādātos abonementu, jūsu maksājuma dati ir jāglabā. Lai turpinātu, apstipriniet, ka piekrītat, vai no pasūtījuma izņemiet abonementa preces.",
+        "three_d_secure_failed_duplicate": "3D Secure kredītkartes autentifikācija neizdevās, jo jau notiek cita autentifikācija.",
+        "insufficient_funds": "Jūsu maksājums tika noraidīts nepietiekama konta atlikuma dēļ. Mēģiniet vēlreiz vai izmantojiet citu maksājuma veidu.",
+        "payment_processing_no_retry": "Jūsu maksājumu tehnisku iemeslu dēļ nevar apstrādāt. Lūdzu, mēģiniet citu maksājuma veidu.",
+        "deferred_payment_required": "Šis pasūtījums prasa atliktu maksājumu. Pārbaudiet savu pasūtījumu un mēģiniet vēlreiz.",
+        "multiple_deferred_payment_not_allowed": "Ir atļauta tikai viena atliktā maksājuma pieprasījuma laikā. Pārbaudiet savu pieprasījumu un mēģiniet vēlreiz.",
+        "shipping_must_match_billing": "Rēķina adrese ir jāatbilst piegādes adresei. Izmantojiet citu maksājuma veidu.",
+        "pick_up_card": "Jūsu karte tika noraidīta. Mēģiniet vēlreiz vai izmantojiet citu maksājuma veidu.",
+        "invalid_number": "Ievadiet derīgu kartes numuru",
+        "invalid_expiry_date": "Ievadiet derīgu derīguma termiņu",
+        "invalid_cvc": "Ievadiet derīgu drošības kodu",
+        "expired_card": "Jūsu karte ir beigusies. Lūdzu, izmantojiet citu maksājuma veidu.",
+        "processing_error": "Radās problēma, apstrādājot jūsu maksājumu. Mēģiniet vēlreiz vai izmantojiet citu maksājuma veidu.",
+        "test_mode_live_card": "Šis veikals nevar pieņemt īstus pasūtījumus vai īstas maksāšanas.",
+        "transient_error": "Radās problēma, apstrādājot jūsu maksājumu. Mēģiniet atsvaidzināt šo lapu vai pārbaudiet savu interneta savienojumu.",
+        "missing_shipping_address": "Jūsu maksājumu nevarēja apstrādāt, jo trūkst piegādes adreses. Pievienojiet piegādes adresi un mēģiniet vēlreiz.",
+        "invalid_shipping_address": "Jūsu maksājumu nevarēja apstrādāt, jo mēs nevarējām atrast jūsu piegādes adresi. Lūdzu, pārbaudiet savu piegādes adresi un mēģiniet vēlreiz.",
+        "successful_offsite_with_gift_card_error": "Radās problēma, apstrādājot jūsu dāvanu kartes maksājumu. Mēģiniet vēlreiz vai izmantojiet citu maksājuma veidu.",
+        "development_store_order_limit_reached": "Jūs esat sasniedzis pasūtījumu ierobežojumu izstrādes veikalā ar šo maksājumu apstrādātāju. Lai veiktu jaunu pasūtījumu, jums jāizmanto testa maksājumu vārteja. Uzziniet vairāk par %{development_store_order_testing_docs_link}.",
+        "development_store_with_order_limit": "Lai veiktu testa pasūtījumu, jāizmanto testa maksājumu vārteja. Uzziniet vairāk par %{development_store_order_testing_docs_link}.",
+        "development_store_order_testing_docs_link": "pasūtījumu testēšana izstrādes veikalos",
+        "method_not_available": "Pieprasītā maksājuma metode nav pieejama. Izvēlieties citu maksājuma metodi un mēģiniet vēlreiz.",
+        "selected_payment_method": "Radās problēma ar jūsu izvēlēto maksājuma veidu, un jums netika iekasēta maksa. Mēģiniet vēlreiz vai izmantojiet citu maksājuma veidu.",
+        "payment_method_billing_address": "Radās problēma ar jūsu izvēlētās maksāšanas metodes rēķina adresi, un jums netika piemērots nodoklis. Lūdzu, pārbaudiet adresi un mēģiniet vēlreiz vai izmantojiet citu maksāšanas metodi.",
+        "processing_error_checkout_as_guest": "Radās problēma, apstrādājot jūsu maksājumu. Lūdzu, mēģiniet vēlreiz, izmantojot citu maksājuma veidu vai {{checkout_as_guest_link}}.",
+        "payment_above_threshold": "Jāmaksā summa pārsniedz šī reģiona naudas limitu. Samaziniet kopējo summu un mēģiniet vēlreiz.",
+        "risky": "Radās problēma, apstrādājot jūsu maksājumu. Mēģiniet vēlreiz vai izmantojiet citu maksājuma veidu.",
+        "expired_buyer_action": "Maksājuma metode ir beigusies. Lūdzu, mēģiniet vēlreiz.",
+        "three_d_secure_failed_payment_method": "Jūsu karte nevarēja tikt pārbaudīta. Mēģiniet vēlreiz vai pievienojiet citu karti.",
+        "name_mismatch": "Pārbaudiet savas kartes datus. Kartes nosaukums un rēķina adrese nesakrīt.",
+        "payment_method_not_applicable": "Šī maksāšanas metode nav piemērojama. Izmantojiet citu maksāšanas veidu.",
+        "shop_pay_wallet_not_available": "Shop Pay nav pieejams šai kasē.",
+        "market_manager_blocks_wallet_payments": "Maksājumu metode jūsu valstī netiek atbalstīta.",
+        "paypal_over_capture": "Jūsu kopējā summa ir atjaunināta. Apmaksājiet ar {{walletName}}, lai pabeigtu savu pasūtījumu.",
+        "test_mode_enabled_only_test_cards": "Testa režīms ir ieslēgts, var pievienot tikai testa kredītkartes.",
+        "shipping_company_required_error": "{{shopName}} prasa uzņēmuma nosaukumu piegādes adresei.",
+        "payment_credential_delegation_error": "Radās problēma, apstrādājot jūsu maksājumu. Izvēlieties jaunu maksājuma veidu.",
+        "installments_payment_method_incompatible": "Izvēlēto maksājuma veidu nevar izmantot termiņmaksājumiem. Lūdzu, izvēlieties citu maksājuma veidu.",
+        "missing_cvc": "Ievadiet drošības kodu"
       },
       "payment_challenge_modal": {
         "instructions": "Pabeidziet savu pirkumu ar savu {{paymentMethod}} kodu",
@@ -2094,6 +2142,10 @@
       "payment_collection": {
         "cancelled": "Šī maksājuma vairs nav nepieciešams. Apmeklējiet pasūtījuma lapu, lai iegūtu sīkāku informāciju.",
         "paid": "Šī maksājuma pieprasījums jau ir iesniegts. Apmeklējiet pasūtījuma lapu, lai skatītu detaļas."
+      },
+      "payment_gateway": {
+        "bank_deposit_label": "Bankas pārskaitījums",
+        "bank_account_label": "Bankas konts"
       }
     }
   },

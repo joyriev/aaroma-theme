@@ -2029,7 +2029,71 @@
         "przelewy24_label": "Przelewy24",
         "simulated_express_checkout": "Rahakotid ei ole teie piirkonna või brauseri tõttu redigeerimisvaates saadaval",
         "separate_payments_label": "Sinu esemed pärinevad rohkem kui ühest poest. Sulle esitatakse arve %{separate_payments_link}.",
-        "separate_payments_text": "eraldiseisvad maksed"
+        "separate_payments_text": "eraldiseisvad maksed",
+        "title": "Makse",
+        "supported_card_brands_more_label": "ja veel…",
+        "technical_error": "Makseid ei saa hetkel tehnilise probleemi tõttu töödelda. Palun proovige mõne minuti pärast uuesti.",
+        "waiting_on_payment_methods": "Saadaval makseviiside laadimine...",
+        "subscription_card_update_agreement_label": "Makseviisi muutmine uuendab teie tellimust ja tulevasi korduvaid makseid.",
+        "taxes_not_included": "Maksud ei sisaldu hinnas",
+        "update_payment_method": "Makseviisi uuendamine",
+        "vaulting_agreement_label": "Salvesta minu makseandmed %{company} juures kiirema teostuse jaoks.",
+        "use_different_credit_card_label": "Kasuta teist kaarti",
+        "waiting_on_taxes_message": "Kui teie makse ei arvutata mõne sekundi jooksul, värskendage lehte.",
+        "waiting_on_taxes_notice": "Maksude arvutamine",
+        "subscription_heading": "Tellimustingimused",
+        "use_order_billing_address_label": "Kasuta tellimuse arveldusaadressi",
+        "use_location_billing_address_label": "Kasuta arve aadressi asukohta",
+        "use_location_shipping_address_label": "Kasuta asukoha saatmisaadressi",
+        "twint_label": "TWINT",
+        "vipps_label": "Vipps",
+        "swish_label": "Vait",
+        "usdc_label": "USDC",
+        "usdc_cashback_title": "1% raha tagasi",
+        "usdc_cashback_additional_info": "Saa 1% tagasi USDC-s Base'il 30 päeva jooksul.",
+        "usdc_cashback_terms": "Kehtivad tingimused",
+        "vault_for_payment_later": {
+          "pay_button_label": "Esita tellimus",
+          "notice": "Praegu ei võeta mingeid tasusid. Jätkates maksega, nõustud, et sinu makseviiselt võetakse automaatselt tasu, kui sinu tellimus töödeldakse."
+        },
+        "wechat_pay_label": "WeChat Pay"
+      },
+      "payment_errors": {
+        "credit_card_processing": "Teie makset ei õnnestu tehnilistel põhjustel töödelda. Proovige mõne minuti pärast uuesti või kasutage mõnda muud makseviisi.",
+        "checkout_amount_changed": "Teie makset ei saanud töödelda, kuna maksmisele kuuluv summa kassas muutus. Kontrollige oma tellimust ja proovige uuesti.",
+        "deferred_payment_not_allowed": "Viivitatud maksed ei ole lubatud. Kontrollige oma tellimust ja proovige uuesti.",
+        "deferred_amount_changed": "Teie makset ei saanud töödelda, kuna edasi lükatud makse summa on muudetud. Kontrollige oma tellimust ja proovige uuesti.",
+        "deferred_date_changed": "Teie makset ei saanud töödelda, kuna edasi lükatud maksetähtaega muudeti. Kontrollige oma tellimust ja proovige uuesti.",
+        "decision_rule_block": "Makse töötlemisel tekkis probleem. Palun võtke ühendust kauplejaga.",
+        "cannot_verify": "Teie makseandmeid ei õnnestunud kinnitada. Kontrollige oma kaardiandmeid ja proovige uuesti.",
+        "card_declined": "Teie kaart lükati tagasi. Proovige uuesti või kasutage mõnda muud makseviisi.",
+        "call_issuer": "Teie kaart lükati tagasi. Kasutage mõnda muud makseviisi või võtke lisateabe saamiseks ühendust oma pangaga.",
+        "available_methods_updated": "Saadaval makseviisid on uuendatud.",
+        "amount_too_small": "Minimaalne maksesumma peab olema suurem kui 0,50 USD. Proovige uuesti suurema summaga.",
+        "captcha_required": "Sisestage makseandmed ja lahendage captcha, et oma ost lõpetada.",
+        "captcha_required_without_payment_information": "Lahendage captcha, et oma ost lõpetada.",
+        "cancelled_payment": "Sinu makse on tühistatud. Proovi uuesti või kasuta mõnda teist makseviisi.",
+        "currency": {
+          "no_longer_supported": "Poeraha ei ole enam toetatud."
+        }
+      },
+      "payment_challenge_modal": {
+        "instructions": "Viimistle oma ost {{paymentMethod}} koodiga",
+        "timer_message": "Sul on {{timeLeft}} aega maksmiseks",
+        "copy_text": "Kopeeri {{paymentMethod}} kood",
+        "header": "Makse {{paymentMethod}} kaudu",
+        "qr_code": {
+          "instructions": "Viimistle oma ost {{paymentMethod}} koodiga"
+        },
+        "external": {
+          "instructions": "Kinnitage makse oma rakenduses, et see ost lõpetada"
+        },
+        "close": "Lõpeta väljakutse",
+        "open_app_text": "Ava {{paymentMethod}} rakendus"
+      },
+      "payment_collection": {
+        "cancelled": "Seda makset ei nõuta enam. Lisateabe saamiseks külastage tellimislehte.",
+        "paid": "See makse on juba esitatud. Lisateabe saamiseks külastage tellimislehte."
       }
     }
   },
