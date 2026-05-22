@@ -3229,7 +3229,81 @@
         "thank_you_confirmed_with_phone_description": {
           "single_store": "Sa saad varsti kinnitussõnumi",
           "multi_store": "Sa saad peagi iga poe kohta eraldi kinnitussõnumid."
+        },
+        "tracking_number": "Järjekorranumber:",
+        "updated_time": "Uuendatud %{time_ago} tagasi",
+        "unfulfilled_items_title": "Valmistumine saatmiseks",
+        "unfulfilled_items_description": "Me valmistame neid esemeid praegu saatmiseks ette.",
+        "view_business_customer_account": "Konto vaatamine",
+        "vat_invoices": {
+          "title": "btw-arved"
+        },
+        "verify_shop_account_title": "Kinnitage oma Shopi konto",
+        "verify_shop_account_message": "Teie andmed on salvestatud Shopis, kinnitage oma konto, et neid automaatselt kasutada miljonites poodides.",
+        "verify_shop_account_cta": "Kinnitage oma konto",
+        "verify_shop_account_confirmation": "Makseandmed salvestatud"
+      },
+      "tips": {
+        "title": "Jäta jootraha juurde",
+        "description": "Näita oma toetust meeskonnale %{shop_name} juures",
+        "presets_description": "Vali tippi protsent",
+        "custom_label": "Kohandatud näpunäide",
+        "add_tip": "Jäta jootraha juurde",
+        "update_tip": "Värskenduse näpunäide",
+        "message": "Aitäh, me hindame seda.",
+        "no_tip_label": "Geen",
+        "not_available_with_spi": "Ei ole saadaval Shop Pay osamaksetega"
+      },
+      "throttle": {
+        "line_to_check_out": "Sa seisad kassajärjekorras",
+        "cart_summary_heading": "Sinu ostukorv",
+        "merchandise": {
+          "sold_out": "Läbi müüdud",
+          "available": "Saadaval"
+        },
+        "inventory": {
+          "partial_inventory_banner": "Osa teie ostukorvist on välja müüdud ega ole kättesaadav maksmiseks.",
+          "sold_out": {
+            "heading": "Sinu ostukorv on otsas",
+            "storefront_body": "Mine tagasi poodi, et edasi sirvida",
+            "no_storefront_body": "Kahjuks pole artikkel, mida soovite osta, enam saadaval.",
+            "link": "Tagasi poodi"
+          }
+        },
+        "title": "Ootenimekiri",
+        "time_to_checkout_title": "Aeg maksta - {{shopName}}",
+        "estimated_wait_time": {
+          "calculating": "Hinnanguline ooteaeg arvutamine",
+          "less_than_one": "Hinnanguline ooteaeg: vähem kui minut",
+          "one": "Hinnanguline ooteaeg: {{count}} minutit",
+          "other": "Hinnanguline ooteaeg: {{count}} minutit"
+        },
+        "last_checked": "(Viimati kontrollitud: {{time}})",
+        "footer": {
+          "heading": "Ärge värskendage seda lehte, see uuendatakse automaatselt.",
+          "body": "Ostukorvis olevad tooted ei ole reserveeritud enne, kui olete ostu lõpetanud."
+        },
+        "too_many_attempts": {
+          "message": "Veel katseid",
+          "description": "Proovi mõne minuti pärast uuesti"
         }
+      },
+      "units": {
+        "centiliter": "kl",
+        "cubic_meter": "m³",
+        "centimeter": "cm",
+        "fluid_ounce": "vedel oz",
+        "foot": "ft"
+      },
+      "tooltip": {
+        "accessibility_label_context": "Lisateave %{context} kohta",
+        "additional_payment_methods": "Täiendavad makseviisid"
+      },
+      "too_many_requests": {
+        "title": "Liiga palju katseid maksmiseks",
+        "body": "Palun oodake paar minutit ja proovige uuesti oma ostukorvist.",
+        "return_to_cart": "Tagasi ostukorvi",
+        "body_no_cart": "Oota paar minutit ja proovi uuesti."
       }
     }
   },
