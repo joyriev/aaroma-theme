@@ -1081,7 +1081,91 @@
         "qr_code": "QR-kood",
         "loading": "Laadimine…",
         "remove_chip": "Eemalda artikkel",
-        "finalize_order_accessibility_label": "Tellimuse lõpetamine"
+        "finalize_order_accessibility_label": "Tellimuse lõpetamine",
+        "skip_to_content": "Mine sisule",
+        "tooltip_accessibility_label": "Rohkem teavet",
+        "title": "Arveldamine - {{shopName}}",
+        "submit_order_button_label": "Saada tellimus",
+        "submit_for_review_button_label": "Esita hindamiseks",
+        "submit_for_review_notice_label": "Makse on kohustuslik alles pärast teie tellimuse hindamist",
+        "submit": "Saada teele",
+        "stepper": {
+          "increase": "Suurenda {{type}}",
+          "decrease": "Alanda {{type}}",
+          "minimum_reached": "Minimaalne vanus {{value}} saavutatud",
+          "maximum_reached": "Maksimaalne vanus {{value}} saavutatud"
+        }
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "Teie lähedal on %{count} laoseisuga asukohta",
+          "other": "Teie lähedal on %{count} laoseisuga asukohta"
+        },
+        "cancel": "Tühista",
+        "could_not_resolve_address": "Teie aadressi ei leitud. Proovige uuesti või kasutage teist aadressi",
+        "location_address_search_label": "Aadress",
+        "all_stores_far_away": {
+          "title": "Kõige lähemad asukohad on rohkem kui %{distance} eemal",
+          "description": "Vali asukoht või %{ship_to_address_link}",
+          "ship_to_address_link": "saadete aadress",
+          "change_location_link": "Muuda oma asukohta",
+          "title_with_specific_location": "Teie artikliga lähim asukoht on %{location}st rohkem kui %{distance} kaugusel",
+          "title_with_item": {
+            "one": "Teie toote lähim asukoht on rohkem kui %{distance} kaugusel kohast %{location}",
+            "other": "Teie artiklitele lähim asukoht on rohkem kui %{distance} kaugusel %{location}"
+          }
+        },
+        "location_address_search_placeholder": "%{postal_code_label} või aadress",
+        "location_closest": "Teie artikliga lähim asukoht",
+        "location_information_far_away": {
+          "one": "Teie artikliga on %{count} asukoht",
+          "other": "On %{count} asukohta, kus teie artikkel on saadaval"
+        },
+        "location_nearby": {
+          "one": "Teie artikliga on %{count} lähedal asuvat asukohta",
+          "other": "Teie toote lähedal on %{count} asukohta"
+        },
+        "location_nearby_short": {
+          "one": "%{count} lähim asukoht teie artikliga",
+          "other": "%{count} lähedalasuvaid asukohti teie artikliga"
+        },
+        "location_far_away": {
+          "one": "%{count} asukoht teie esemega",
+          "other": "%{count} asukohta teie artikliga"
+        },
+        "location_closest_one_item": "Sinu artikliga lähim asukoht",
+        "location_closest_other_items": "Sinu artiklitele lähim asukoht",
+        "location_information_far_away_one_item": {
+          "one": "Sinu artikliga on %{count} asukohta",
+          "other": "On %{count} asukohta, kus sinu artikkel on saadaval"
+        },
+        "location_information_far_away_other_items": {
+          "one": "Sinu artiklitega on %{count} asukohta",
+          "other": "On %{count} asukohta, kus on sinu esemed"
+        },
+        "location_nearby_one_item": {
+          "one": "Sinu toote lähedal on %{count} asukohta",
+          "other": "Sinu artikliga on läheduses %{count} asukohta"
+        },
+        "location_nearby_other_items": {
+          "one": "Sinu artiklitele on läheduses %{count} asukohta",
+          "other": "Sinu artiklitega on läheduses %{count} asukohta"
+        },
+        "location_nearby_short_one_item": {
+          "one": "%{count} asukohta lähedal sinu artikliga",
+          "other": "%{count} asukohta lähedal sinu artikliga"
+        },
+        "location_nearby_short_other_items": {
+          "one": "%{count} asukohta lähedal sinu artiklitega"
+        },
+        "location_far_away_one_item": {
+          "one": "%{count} asukohta sinu artikliga",
+          "other": "%{count} asukohta sinu artikliga"
+        },
+        "location_far_away_other_items": {
+          "one": "%{count} asukohta sinu artiklitega",
+          "other": "%{count} asukohta sinu artiklitega"
+        }
       }
     }
   },
