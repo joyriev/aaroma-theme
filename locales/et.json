@@ -903,7 +903,25 @@
             "gift_card_with_components_not_supported": "Kingituskupongid koos osadega ei ole selle kassaga toetatud.",
             "duplicated_stable_id": "Sellel tootesarjal on sama stabiilne ID kui teisel sarjal.",
             "bundle_requires_components": "See komplekteeritud toode ei sisalda osi.",
-            "combined_listing_parent_not_purchasable": "Kombineeritud kirjetes olevat peamist toodet ei saa otse osta."
+            "combined_listing_parent_not_purchasable": "Kombineeritud kirjetes olevat peamist toodet ei saa otse osta.",
+            "only_value_constraint": "Sisendiks lubatakse ainult täpsed väärtused kaupade puhul.",
+            "merchandise_not_found": "Toodet ei leitud.",
+            "merchandise_variant_not_found": "Tootevarianti ei leitud.",
+            "merchandise_not_applicable": "Tootevarianti ei saa osta.",
+            "selling_plan_mismatch": "Tellimus on uuendatud.",
+            "selling_plan_not_supported": "Tellimusi ei toetata.",
+            "selling_plan_not_supported_b2b": "Tellimusi ei toetata B2B arveldamisel.",
+            "price_mismatch": "Varem pakutud hind selle toote jaoks oli kehtetu ja on uuendatud.",
+            "inventory_not_found": "Sellele artiklile ei leitud laoseisu.",
+            "product_not_published": "Toode ei ole avaldatud.",
+            "minimum_quantity_not_met": "Mõne toote kogus ei vasta nõutud miinimumile.",
+            "maximum_quantity_exceeded": "Mõnede artiklite kogus ületab lubatud maksimumi.",
+            "quantity_increment_not_met": "Mõne toote kogus ei vasta tellimispiirangutele.",
+            "quantity_rules_not_met": "Mõne toote kogus ei vasta tellimispiirangutele.",
+            "title_too_long": "Toote pealkiri on liiga pikk.",
+            "title_empty": "Toote pealkiri on tühi.",
+            "mixed_currencies": "Kassas on esemed erinevates valuutades.",
+            "product_not_published_in_buyer_location": "Toode ei ole ostja asukohas avaldatud."
           },
           "delivery": {
             "only_one_delivery_line_allowed": "Ostukorvis võib olla ainult üks tarnepunkt.",
@@ -949,6 +967,46 @@
           },
           "checkout_source": {
             "revoked": "See kassasüsteem ei ole enam saadaval."
+          },
+          "only_empty_terms_accepted": "See poliitika aktsepteerib ainult tühje tingimusi.",
+          "payment": {
+            "manual_payments_not_allowed_for_b2b": "B2B-poodides käsimakseid ei lubata.",
+            "positive_amount_expected": "Makse summa peab olema suurem kui 0.",
+            "total_amount_mismatch": "Kokku makstav summa ei vasta maksesummade summale.",
+            "subscription_terms_not_accepted": "Tellimustingimused ei ole aktsepteeritud.",
+            "missing_session_id": "Puuduvad krediitkaardi seansiteave.",
+            "gateway_not_supported": "Betaalpoort ei toeta makseviisi salvestamist.",
+            "credit_card_last_name_required": "'perekonnanimi' ei tohi olla tühi.",
+            "credit_card_update_failed": "Krediitkaardi uuendamine ebaõnnestus.",
+            "invalid_address_type": "Määratud aadritüüp ei sobi selle makseviisi jaoks.",
+            "missing_retail_attributions": "Kauplusekirjeldused on nõutavad käsitsi sisestatud krediitkaardimaksete puhul.",
+            "unexpected_retail_attributions": "Poodide andmed esitati ootamatult krediitkaardimakse jaoks.",
+            "invalid_card_source": "Sellel seansil puudub luba selle kaardiallikaga kasutamiseks.",
+            "wallet_content_missing": "Rahakoti sisu puudub.",
+            "payment_instrument_not_found": "Makseviisi ei leitud",
+            "unauthorized_capture_method": "Makseteenuse seadistamine automaatse võlgade sissenõudmise jaoks ei ole lubatud.",
+            "saved_payment_methods_not_allowed": "Salvestatud makseviisid ei ole lubatud.",
+            "saved_payment_methods_not_enabled": "Salvestatud makseviisid pole selle poe jaoks lubatud.",
+            "store_credit_not_enabled": "Poepunktid ei ole selle poe jaoks aktiveeritud.",
+            "store_credit_account_not_found": "Ostukrediidi konto ei leitud.",
+            "store_credit_account_mismatch": "Ostukrediidi konto ei vasta ostja isikule.",
+            "store_credit_mismatched_currency": "Poekrediidi konto valuuta ei ühti maksmisel kasutatava valuutaga.",
+            "store_credit_insufficient_funds": "Kaupluse krediidikontol pole piisavalt saldot.",
+            "store_credit_buying_gift_card": "Sa ei saa kinkekaardi ostmiseks kasutada poe krediiti.",
+            "gift_cards_not_allowed_for_b2b": "Kingituskupongid ei ole B2B-poodides lubatud.",
+            "method_required": "Peab valima makseviisi.",
+            "paypal_express_address_invalid": "PayPal tagastas kehtetu aadressi.",
+            "saved_payment_methods_cvv_verification_disabled": "Valitud makseviis nõuab CVV-kinnitust, mis selle poe jaoks pole lubatud. Palun valige mõni teine makseviis."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "See kontseptsioonitellimus ei ole praeguses poes olemas."
+          },
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "Teie ostupakkumine peab sisaldama mitteläbiräägitavaid tingimusi.",
+            "invalid_signature": "Allkiri {{target_terms}} jaoks on kehtetu."
+          },
+          "optional_duties": {
+            "optional_duties_not_permitted": "Selle kassas ei ole tollimaksude tagasilükkamine lubatud."
           }
         },
         "dropzone": {
