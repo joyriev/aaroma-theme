@@ -1767,7 +1767,81 @@
         "card_nickname_label": "Segvārds (pēc izvēles)",
         "blik_label": "BLIK",
         "billing_address_rollup_accessibility_label": "Rēķina adreses opcijas",
-        "business_customer_with_bank_account_vaulting_payment_label": "Saglabājiet šo maksāšanas veidu norēķinu laikā un dodiet %{company} atļauju debetēt jūsu kontu nākotnes pirkumiem, kurus apstiprināsiet šai vietai, līdz atsauksiet šo atļauju. Visi kontaktpersonas, kas piešķirtas šai vietai, var izmantot šo maksāšanas veidu."
+        "business_customer_with_bank_account_vaulting_payment_label": "Saglabājiet šo maksāšanas veidu norēķinu laikā un dodiet %{company} atļauju debetēt jūsu kontu nākotnes pirkumiem, kurus apstiprināsiet šai vietai, līdz atsauksiet šo atļauju. Visi kontaktpersonas, kas piešķirtas šai vietai, var izmantot šo maksāšanas veidu.",
+        "discount_button_action_label": "Pielietot atlaižu kodu",
+        "detected_card_brand": "Atpazīts kartes zīmols: {brand}",
+        "ends_with_label": "beidzas ar %{last_digits}",
+        "different_billing_address_label": "Izmantojiet citu rēķina adresi",
+        "credit_card_start_month": "Sākuma mēnesis",
+        "credit_card_start_year": "Sākuma gads",
+        "different_credit_card_label": "Izmantojiet citu kredītkarti",
+        "delete_customer_mandate_modal_cancel": "Atcelt",
+        "credit_card_vaulting_sign_in_banner_title": "Saglabājiet savas kredītkartes datus",
+        "credit_card_vaulting_sign_in_banner_info": "Pierakstieties vai izveidojiet kontu, lai saglabātu savu kredītkarti nākotnes pirkumiem.",
+        "credit_card_vaulting_sign_in_banner_button_label": "Pieslēgties",
+        "delete_customer_mandate_modal_title": "Vai dzēst šo maksājumu karti?",
+        "delete_customer_mandate_modal_body": "Ja noņemat šo karti, jums tā būs jāpievieno atkārtoti, pirms varēsiet ar to maksāt.",
+        "delete_customer_mandate_modal_confirm": "Kartes dzēšana",
+        "clear": "Helder",
+        "custom_onsite_payment_method_modal": {
+          "title": "Pielāgota maksājuma apstiprinājums uz vietas"
+        },
+        "delete_credit_card_modal": {
+          "title": "Kartes dzēšana",
+          "confirmation": "Vai tiešām vēlaties dzēst {{brandName}}, kura numurs beidzas ar {{lastDigits}}?",
+          "cancel": "Atcelt",
+          "delete": "Noņemt"
+        },
+        "edit_credit_card_modal": {
+          "title": "Rediģēt karti",
+          "done": "Gatavs",
+          "cancel": "Atcelt",
+          "description": "Jūs varat mainīt tikai kartes rēķina adresi.",
+          "fields": {
+            "default": "Iestatīt kā noklusējumu",
+            "card_number": "Kartes numurs",
+            "expiry": "Derīguma termiņš",
+            "security_code": "Drošības kods",
+            "name": "Vārds uz kartes",
+            "billing": "Rēķina izrakstīšana uz"
+          }
+        },
+        "crypto_modal": {
+          "header": "Maksājiet %{shop_name} %{total_price} USDC",
+          "error": {
+            "refresh": "Atjaunot",
+            "close": "aizvērt",
+            "sandbox_error": "Radās kļūda",
+            "web_component_error": "Radās problēma, ielādējot šo lapu"
+          }
+        },
+        "crypto_payment_method": {
+          "description": "Izveidojiet drošu savienojumu ar savu maku Base tīklā",
+          "tooltip": "Jūsu makā esošais atlikums un adrese netiek kopīgoti, un var tikt noņemta tikai pieprasītā summa",
+          "cashback_descriptor": {
+            "one": "Tu saņemsi savu naudas atmaksu pēc %{count} dienām",
+            "other": "Tu saņemsi savu naudas atmaksu pēc %{count} dienām"
+          }
+        },
+        "discount_show_more_warnings": {
+          "one": "Rādīt vēl %{count}",
+          "other": "Rādīt vēl %{count}"
+        },
+        "discount_codes_removed_summary": {
+          "one": "%{count} atlaižu kods ir dzēsts",
+          "other": "Ir dzēsti %{count} atlaižu kodi"
+        },
+        "default": "Standarta",
+        "continue_to_guest_checkout": "Turpināt uz norēķiniem kā viesis",
+        "choose_new_payment_method": "Izvēlieties jaunu maksāšanas veidu",
+        "discount_codes_modified_summary": {
+          "one": "%{count} atlaižu kods ir mainīts",
+          "other": "%{count} atlaižu kodi ir pielāgoti"
+        },
+        "discount_codes_removed_or_modified_summary": {
+          "one": "%{count} atlaižu kods ir dzēsts vai mainīts",
+          "other": "Ir dzēsti vai mainīti %{count} atlaižu kodi"
+        }
       }
     }
   },

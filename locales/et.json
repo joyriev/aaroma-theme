@@ -1707,7 +1707,67 @@
         "bank_account_generic_error": "Kontot ei saanud lisada. Proovi hiljem uuesti.",
         "add_payment_method": "Makseviisi lisamine",
         "add_new_payment_method": "Lisa uus makseviis",
-        "alipay_label": "Alipay"
+        "alipay_label": "Alipay",
+        "card_number_label": "Kaardi number",
+        "card_number_placeholder": "Kaardi number",
+        "card_pay_with": "Makseviisid:",
+        "card_security_notice": "Kõik tehingud on turvalised ja krüpteeritud.",
+        "card_expiry_label": "Aegumiskuupäev (KK / AA)",
+        "card_expiry_placeholder": "Aegumiskuupäev (KK / AA)",
+        "card_verification_value_label": "Turvakood",
+        "card_verification_value_placeholder": "Turvakood",
+        "card_expiry_date_explanation": "Kaardi kehtivusaeg vormingus: kuu, kuu, aasta, aasta",
+        "card_verification_value_explanation": "3-kohaline turvakood, mis asub tavaliselt teie kaardi tagaküljel. American Expressi kaartidel on 4-kohaline kood kaardi esiküljel.",
+        "card_verification_value_explanation_amex": "4-kohaline turvakood teie kaardi esiküljel",
+        "card_verification_value_explanation_other": "3-kohaline turvakood teie kaardi tagaküljel",
+        "card_start_label": "Väljastamiskuupäev (KK / AA)",
+        "card_start_placeholder": "Väljastamiskuupäev (KK / AA)",
+        "card_issue_number_label": "Väljaande number",
+        "card_issue_number_placeholder": "Väljaande number",
+        "card_change_label": "Muuda",
+        "billing_address_title": "Arve aadress",
+        "billing_address_description": "Valige aadress, mis vastab teie kaardile või makseviisile.",
+        "billing_address_description_no_shipping_address": "Sisestage aadress, mis vastab teie kaardile või makseviisile.",
+        "card_fields_container_prefix": "Veldkonteiner jaoks:",
+        "card_fields_unavailable_html": {
+          "one": "Maksmine krediitkaardi ja deebetkaardiga ei ole hetkel saadaval.<br><a href=\"%{current_url}\">Värskenda seda lehte</a> või proovi hiljem uuesti.",
+          "other": "Maksmine krediitkaardi ja deebetkaardiga ei ole hetkel saadaval.<br><a href=\"%{current_url}\">Värskenda seda lehte</a> või proovi mõnda muud makseviisi."
+        },
+        "card_fields_processing_error": "Makse töötlemisel tekkis probleem. Proovige seda lehte värskendada või kontrollige oma internetiühendust.",
+        "bank_picker_label": "Pank",
+        "card_expiration_month_label": "Vervalmaand",
+        "card_expiration_year_label": "Vervaldatum aasta",
+        "card_information_notice": "Kõik tehingud on turvalised ja krüpteeritud. Krediitkaardi andmeid ei salvestata kunagi.",
+        "billing_address_not_supported_for_payment_method_error": "See makseviis ei ole teie arve aadressi ja valuuta jaoks saadaval. Proovige mõnda teist makseviisi.",
+        "change_currency_section_description": "Valuuta valiku valimine",
+        "card_security_vault_notice": "Me vajame teie andmeid tulevaste maksete jaoks. Kõik tehingud on turvalised ja krüpteeritud.",
+        "card_update_label": "Uuenda kaarti",
+        "card_expired": "Aegunud",
+        "card_verification_confirm": "Sisestage oma kaardi turvakood kinnitamiseks.",
+        "billing_address_associated_with_mandate": "Kasuta makseviisiga seotud aadressi",
+        "billing_address_associated_with_mandate_info": "Kui soovite muuta oma arveaadressi, kustutage oma krediitkaardi andmed ja sisestage need uuesti",
+        "card_vaulted_company_location": "Kaart salvestatud selle asukoha jaoks",
+        "billing_must_match_shipping_notice": "Teie makseviisi arveaadress peab vastama tarneaadressile.",
+        "brand_not_available": "See pood ei aktsepteeri {{brand}}. Kasuta maksmiseks mõnda teist kaarti.",
+        "billing_address_invalid_phone": "Sisestage oma arveaadressi telefoninumber, et jätkata {{label}} {{last_digits}}.",
+        "billing_address_invalid_phone_no_card": "Täiendage oma arveaadressi telefoninumber, et jätkata.",
+        "card_fields": {
+          "errors": {
+            "required": {
+              "issue_date": "Sisestage kehtiv väljastamiskuupäev",
+              "issue_number": "Sisestage kehtiv kulunumber"
+            },
+            "invalid": {
+              "verification_value": "Sisestage kehtiv CVV- või turvakood"
+            }
+          }
+        },
+        "business_customer_vaulting_payment_label": "Salvesta see makseviis kassas ja anna %{company}-le luba seda tulevaste ostude jaoks selles asukohas kasutada. Kõik selle asukohaga seotud kontaktisikud saavad makseviisi kasutada.",
+        "cashapppay_label": "Cash App maksmine",
+        "card_nickname_label": "Hüüdnimi (valikuline)",
+        "blik_label": "BLIK",
+        "billing_address_rollup_accessibility_label": "Arve aadressi valikud",
+        "business_customer_with_bank_account_vaulting_payment_label": "Salvestage see makseviis kassas ja andke %{company}-le luba teie kontolt tulevaste ostude eest selle asukoha jaoks, mille te heaks kiidate, tasuda kuni tühistamiseni. Kõik selle asukohaga seotud kontaktisikud saavad seda makseviisi kasutada."
       }
     }
   },
