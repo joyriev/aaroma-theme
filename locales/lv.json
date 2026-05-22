@@ -387,6 +387,88 @@
       "message": "Lai turpinātu, lūdzu, apstipriniet, ka neesat robots.",
       "error": "Jūsu atbilde nebija pareiza, lūdzu, mēģiniet vēlreiz.",
       "submit_button_text": "Sūtīt"
+    },
+    "checkout": {
+      "contact": {
+        "address_title": "Adrese",
+        "address1_label": "Adrese",
+        "address2_label": "Dzīvoklis, suite, u.c.",
+        "city_label": "Stads",
+        "civic_number_warning": "Pievienojiet mājas numuru, ja jums tāds ir",
+        "change_company_location_link_label": "Mainīt uzņēmuma adresi",
+        "change_location_link_label": "Mainīt atrašanās vietu",
+        "available_addresses_label": "Pieejamās adreses"
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Ātri norēķināties",
+        "or": "NO",
+        "show_more_options": "Rādīt vairāk iespēju",
+        "hide_more_options": "Slēpt vairāk iespēju",
+        "or_pay_another_way": "Vai maksāt citādi",
+        "or_check_out_another_way": "Vai skatīt citu veidu",
+        "or_pay_with_credit_card": "Vai norēķinieties ar kredītkarti"
+      },
+      "change_currency": {
+        "credit_card_will_be_charged_html": "Jūsu kredītkartē tiks iekasēta summa %{amount}",
+        "payment_total_label": "Kopējā samaksa",
+        "change_currency_link": "Pārslēgt uz %{currency_name}",
+        "card_provider_fx_charges_warning": "Jūsu kartes izsniedzējs var iekasēt maksu par darījumiem %{currency_code} valūtā.",
+        "currency_not_supported_by_shop": "Valūta, kuru izvēlējāties, vairs nav pieejama. Visas cenas tagad ir %{currency_code}."
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Jūsu iepirkumu grozs ir atjaunināts, pamatojoties uz jūsu piegādes valsti.",
+        "cart_and_currency_updated_based_on_country": "Jūsu iepirkumu grozs un valūta ir atjaunināti, pamatojoties uz piegādes valsti.",
+        "currency_updated_for_country": "Valūta atjaunināta %{country}"
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "Jūsu valsts/reģions ir atjaunināts. Lūdzu, ievadiet savu piegādes adresi, lai turpinātu norēķināties."
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "Radās problēma, apstrādājot jūsu pieprasījumu. Lūdzu, sazinieties ar veikalu."
+      },
+      "captcha": {
+        "title": "Aizpildi CAPTCHA, lai turpinātu",
+        "errors": {
+          "not_solved": "Aizpildi CAPTCHA, lai turpinātu"
+        }
+      },
+      "billing": {
+        "billing_address_title": "Rēķina izrakstīšana uz",
+        "same_as_shipping": "Tāds pats kā piegādes adrese",
+        "add_address": "Izmantojiet citu adresi",
+        "edit": "Rediģēt",
+        "delete": "Noņemt",
+        "address_more": "Vairāk piedāvājumu šai adresei",
+        "address_edit": "Rediģēt adresi",
+        "address_delete": "Dzēst adresi",
+        "address_confirm": "Vai tiešām vēlaties no sava konta dzēst šo adresi?",
+        "address_form": {
+          "add_address": "Pievienot adresi",
+          "save": "Saglabāt",
+          "cancel": "Atcelt"
+        },
+        "billing_address_rollup_accessibility_label": "Rēķinu izrakstīšana par opcijām"
+      },
+      "company_location": {
+        "location_title": "Uzņēmuma atrašanās vieta",
+        "location_rollup_accessibility_label": "Iespējas uzņēmuma atrašanās vietai"
+      },
+      "clipboard": {
+        "copied": "Nokopēts",
+        "failed_to_copy": "Kopēšana neizdevās"
+      },
+      "artifact_errors": {
+        "artifact_dissatisfaction_without_violation": "Radās problēma, apstrādājot jūsu pasūtījumu. Lūdzu, mēģiniet vēlreiz pēc dažām minūtēm."
+      },
+      "b2b_errors": {
+        "lost_b2b_purchasing_permissions": "Jums vairs nav atļaujas veikt B2B pasūtījumus. %{logout_url}, lai tā vietā veiktu personīgu pasūtījumu.",
+        "log_out_link_text": "Atteikties no pieteikšanās",
+        "lost_permissions_subtitle": "Jums vairs nav atļauts veikt B2B pasūtījumus. Izrakstieties, lai veiktu personīgu pasūtījumu.",
+        "lost_permissions_title": "Nav atrašanās vietas atļauju"
+      },
+      "address_management": {
+        "saved_with_store": "Saglabāts šajā veikalā"
+      }
     }
   },
   "recipient": {
