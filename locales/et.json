@@ -1,0 +1,79 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "accessibility": {
+    "skip_to_text": "Mine sisule",
+    "close": "Sulge",
+    "unit_price_separator": "päevas",
+    "vendor": "Müüja:",
+    "error": "Viga",
+    "refresh_page": "Valiku tegemine põhjustab kogu lehe värskendamise.",
+    "link_messages": {
+      "new_window": "Avaneb uues aknas.",
+      "external": "Ava väline veebisait."
+    },
+    "loading": "Laadimine...",
+    "skip_to_product_info": "Mine tooteinfo juurde",
+    "total_reviews": "kokku arvustusi",
+    "star_reviews_info": "{{ rating_value }} tähtedest {{ rating_max }}",
+    "collapsible_content_title": "Kokkupandav sisu",
+    "complementary_products": "Täiendavad tooted"
+  },
+  "blogs": {
+    "article": {
+      "blog": "Blogi",
+      "read_more_title": "Loe lisaks: {{ title }}",
+      "comments": {
+        "one": "{{ count }} kommentaar",
+        "other": "{{ count }} kommentaari"
+      },
+      "moderated": "Pange tähele, et kommentaarid tuleb enne avaldamist heaks kiita.",
+      "comment_form_title": "Jäta kommentaar",
+      "name": "Nimi",
+      "email": "E-post",
+      "message": "Märkus",
+      "post": "Lisa kommentaar",
+      "back_to_blog": "Tagasi blogisse",
+      "share": "Jaga seda artiklit",
+      "success": "Sinu kommentaar on edukalt postitatud! Aitäh!",
+      "success_moderated": "Sinu kommentaar on edukalt postitatud. Me avaldame selle peagi, kuna meie blogi läbib kontrolli."
+    }
+  },
+  "customer": {
+    "account": {
+      "title": "Arve",
+      "details": "Kontoandmed",
+      "view_addresses": "Vaata aadresse",
+      "return": "Tagasi kontoandmetesse"
+    },
+    "account_fallback": "Arve",
+    "activate_account": {
+      "title": "Konto aktiveerimine",
+      "subtext": "Looge oma parool, et oma kontot aktiveerida.",
+      "password": "Parool",
+      "password_confirm": "Kinnita parool",
+      "submit": "Konto aktiveerimine",
+      "cancel": "Kutsest keeldumine"
+    },
+    "addresses": {
+      "default": "Standard",
+      "add_new": "Lisa uus aadress",
+      "company": "Ettevõte",
+      "address1": "Aadress 1",
+      "address2": "Aadress 2",
+      "city": "Linn",
+      "country": "Maakond/regioon",
+      "add": "Lisa aadress",
+      "cancel": "Tühista",
+      "delete": "Eemalda",
+      "delete_confirm": "Kas olete kindel, et soovite selle aadressi kustutada?"
+    }
+  }
+}
