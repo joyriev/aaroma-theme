@@ -293,38 +293,38 @@
   },
   "sections": {
     "header": {
-      "announcement": "Skelbimas",
+      "announcement": "Pranešimas",
       "menu": "Meniu",
       "cart_count": {
-        "one": "{{ count }} prekė",
-        "other": "{{ count }} prekės (-ių)",
+        "one": "{{ count }} straipsnis",
+        "other": "{{ count }} straipsniai",
         "few": "{{ count }} prekės (-ių)",
         "many": "{{ count }} prekės (-ių)"
       }
     },
     "cart": {
-      "title": "Jūsų krepšelis",
-      "caption": "Krepšelio turinys",
-      "remove_title": "Pašalinti {{ title }}",
-      "note": "Specialūs nurodymai dėl užsakymo",
-      "checkout": "Atsiskaityti",
-      "empty": "Jūsų krepšelis tuščias",
-      "cart_error": "Atnaujinant krepšelį įvyko klaida. Bandykite dar kartą.",
-      "cart_quantity_error_html": "Į krepšelį galite įdėti tik {{ quantity }}šios prekės vnt.",
+      "title": "Jūsų prekių krepšelis",
+      "caption": "Pridėti prekes į krepšelį",
+      "remove_title": "pašalinti {{ title }}",
+      "note": "Specialios užsakymo instrukcijos",
+      "checkout": "Atsiskaitymas",
+      "empty": "Jūsų pirkinių krepšelis tuščias",
+      "cart_error": "Įvyko klaida atnaujinant tavo prekių krepšelį. Bandyk dar kartą.",
+      "cart_quantity_error_html": "Į savo krepšelį galite įdėti tik {{ quantity }} šio prekės vienetų.",
       "update": "Atnaujinti",
       "headings": {
-        "product": "Gaminys",
+        "product": "Produktas",
         "price": "Kaina",
-        "total": "Visa suma",
+        "total": "Iš viso",
         "quantity": "Kiekis",
-        "image": "Gaminio nuotrauka"
+        "image": "Produkto vaizdas"
       },
       "login": {
-        "title": "Turite paskyrą?",
-        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Prisijunkite</a> ir atsiskaitysite greičiau."
+        "title": "Ar turite paskyrą?",
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Prisijunkite</a> kad greičiau atsiskaitytumėte."
       },
-      "estimated_total": "Apskaičiuota bendra suma",
-      "new_estimated_total": "Nauja apskaičiuota bendra suma",
+      "estimated_total": "Apskaičiuota suma",
+      "new_estimated_total": "Naujas apskaičiuotas bendras kiekis",
       "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Muito ir kiti mokesčiai įtraukti. Nuolaidos ir <a href=\"{{ link }}\">siuntimo išlaidos</a> apskaičiuojamos atsiskaitant.",
       "duties_and_taxes_included_shipping_at_checkout_without_policy": "Muito ir kiti mokesčiai įtraukti. Nuolaidos ir siuntimo išlaidos apskaičiuojamos atsiskaitant.",
       "taxes_included_shipping_at_checkout_with_policy_html": "Mokesčiai įtraukti. Nuolaidos ir <a href=\"{{ link }}\">siuntimo išlaidos</a> apskaičiuojamos atsiskaitant.",
@@ -338,20 +338,20 @@
       "payment": "Mokėjimo būdai"
     },
     "featured_blog": {
-      "view_all": "Žr. viską",
+      "view_all": "Peržiūrėti viską",
       "onboarding_title": "Tinklaraščio įrašas",
-      "onboarding_content": "Pateikite savo klientams savo tinklaraščio įrašo santrauką"
+      "onboarding_content": "Pateikite savo klientams apžvalgą apie savo tinklaraščio įrašą"
     },
     "featured_collection": {
-      "view_all": "Žr. viską",
-      "view_all_label": "Žr. visus kolekcijos „{{ collection_name }}“ gaminius"
+      "view_all": "Peržiūrėti viską",
+      "view_all_label": "Peržiūrėkite visus produktus kolekcijoje {{ collection_name }}"
     },
     "collection_list": {
-      "view_all": "Žr. viską"
+      "view_all": "Peržiūrėti viską"
     },
     "collection_template": {
       "title": "Kolekcija",
-      "empty": "Nerasta jokių gaminių",
+      "empty": "Nerasta produktų",
       "use_fewer_filters_html": "Naudoti mažiau filtrų arba <a class=\"{{ class }}\" href=\"{{ link }}\">pašalinti viską</a>"
     },
     "video": {
@@ -370,11 +370,11 @@
       "title": "Puslapio pavadinimas"
     },
     "announcements": {
-      "previous_announcement": "Ankstesnis skelbimas",
-      "next_announcement": "Kitas skelbimas",
+      "previous_announcement": "Ankstesnis pranešimas",
+      "next_announcement": "Kitas pranešimas",
       "carousel": "Karuselė",
-      "announcement": "Skelbimas",
-      "announcement_bar": "Skelbimo juosta"
+      "announcement": "Pranešimas",
+      "announcement_bar": "Pranešimų juosta"
     },
     "quick_order_list": {
       "product_total": "Gaminių tarpinė suma",
