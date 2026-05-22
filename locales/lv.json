@@ -1841,7 +1841,65 @@
         "discount_codes_removed_or_modified_summary": {
           "one": "%{count} atlaižu kods ir dzēsts vai mainīts",
           "other": "Ir dzēsti vai mainīti %{count} atlaižu kodi"
-        }
+        },
+        "gift_card_code_label": "Dāvanu kartes kods",
+        "gift_card_balance_label": "Bilance:",
+        "name_on_card_label": "Vārds uz kartes",
+        "name_on_card_placeholder": "Vārds uz kartes",
+        "free_order_notice_html": "Jūsu pasūtījums ir <strong>bez maksas</strong>. Maksājums nav nepieciešams.",
+        "express_checkout_free_order": "Jums netiek piemērots nodoklis par bezmaksas pasūtījumu",
+        "missing_credit_card_error": "Ievadiet savu kartes datus, lai pabeigtu maksājumu",
+        "generic_incorrect_card_info": "Jūsu maksājuma dati nevarēja tikt pārbaudīti. Lūdzu, pārbaudiet kartes datus un mēģiniet vēlreiz.",
+        "ideal_label": "iDEAL | Vero",
+        "klarna_pay_now_label": "Maksājiet tagad ar Klarna",
+        "klarna_pay_later_label": "Maksājiet vēlāk ar Klarna",
+        "giropay_label": "Giropay",
+        "eps_label": "eps-pārskaitījums",
+        "klarna_slice_it_label": "Finansēšana ar Klarna",
+        "expiry_long": "(Beidzas %{month}/%{year})",
+        "expiry_short": "(Beidzas %{month}/%{year})",
+        "ftd_vault_credit_card_label": "Saglabājiet šo kredītkarti manā kontā, lai pasūtījuma apstrāde būtu ātrāka",
+        "google": {
+          "connect": "Noklikšķiniet, lai pieslēgtos savam Google Pay kontam",
+          "error_authorizing": "Kļūda maksājuma autorizēšanas laikā"
+        },
+        "klarna_label": "Klarna",
+        "mor_disclaimer_html": "Noklikšķinot zemāk un pabeidzot pasūtījumu, jūs piekrītat iegādāties savu preci(-es) caur Global-e kā reģistrētam tirgotājam šai transakcijai, saskaņā ar Global-e <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Vispārīgajiem noteikumiem</a> un <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Privātuma politiku</a>. Global-e ir starptautisks izpildes pakalpojumu sniedzējs %{shop_name}.",
+        "multibanco_label": "Multibanka",
+        "location_billing_address_label": "Rēķina adreses atrašanās vieta",
+        "fact_billing_address_label": "Rēķina adrese",
+        "location_shipping_address_label": "Piegādes adrese vieta",
+        "expired_cards_info": {
+          "one": "Ir %{count} beidzies derīguma termiņš kartei, kuru vari apskatīt un rediģēt savā kontā.",
+          "other": "Ir %{count} beigušās derīguma termiņa kartes, kuras vari apskatīt un rediģēt savā kontā."
+        },
+        "local_payment_method_receiver_notice": "Pēc pasūtījuma veikšanas jūs saņemsiet maksājuma datus. Veiciet maksājumu bankomātā vai tiešsaistē {{dueDays}} dienu laikā.",
+        "gift_card_wrapper": {
+          "heading": "Dāvanu karte",
+          "apply_gift_card_label": "Izmantot dāvanu karti",
+          "payment_tag": "Dāvanu karte",
+          "apply_another_gift_card_label": "Izmantot citu dāvanu karti",
+          "gift_card_label": "Dāvanu karte %{identifier}",
+          "add_label": "Pievienot dāvanu karti",
+          "manage_label": "Dāvanu kuponu pārvaldība"
+        },
+        "markets_pro_disclaimer_label": "Veicot pasūtījumu, jūs piekrītat pirkumam pie Global-e kā reģistrētā pārdevēja, ievērojot Global-e %{markets_pro_terms} un %{privacy_policy}, un koplietojat savus datus ar %{shop_name}.",
+        "markets_pro_disclaimer_terms_and_conditions": "Vispārīgie noteikumi",
+        "markets_pro_disclaimer_privacy_policy": "Privātuma politika",
+        "markets_pro_disclaimer_terms_and_conditions_title": "Tirdzniecības pārdevēja noteikumi",
+        "markets_pro_disclaimer_privacy_policy_title": "Privātuma politika tirdzniecības reģistra turētājam",
+        "expired_payment_method": "Izvēlētā maksājuma metode ir beigusies derīguma termiņš",
+        "gift_card_store_credit": {
+          "add_label": "Pievienojiet dāvanu karti vai veikala kredītu",
+          "manage_label": "Pārvaldiet dāvanu kartes vai veikala kredītu"
+        },
+        "gift_cards_unavailable": "Jūsu dāvanu karte vairs nevar tikt izmantota šim pasūtījumam un ir noņemta",
+        "network_card_payment_options": "Izvēlieties kartes tīklu",
+        "gift_card_checkbox_label": "Dāvanu kupona izmantošana",
+        "grabpay_label": "PakBetalen",
+        "kcp_creditcard_label": "KCP Kredītkarte",
+        "network_card_persistence_description": "Izvēlētais tīkls tiks saglabāts jūsu maksājuma metodē nākotnes pirkumiem.",
+        "multiple_primary_payment_not_allowed": "Nederīgas maksājumu metodes"
       }
     }
   },
