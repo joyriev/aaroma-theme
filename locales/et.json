@@ -2469,7 +2469,79 @@
         },
         "shipping_method_rollup_accessibility_label": "Saatmisviisi valikud",
         "shipping_address_rollup_accessibility_label": "Saatmisvalikud aadressile",
-        "invalid_shipping_method_summary_selected": "Vali teine tarneaadress, et näha saadaolevaid saatmisviise"
+        "invalid_shipping_method_summary_selected": "Vali teine tarneaadress, et näha saadaolevaid saatmisviise",
+        "shipping_method_title": "Saatmisviis",
+        "shipping_rate_discounted_amount": "Oli: %{original_amount}. Nüüd: %{amount}",
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "one": "voor %{count} kohaletoimetamine",
+            "other": "voor %{count} tarnet"
+          },
+          "multiple_subscriptions_shipping_price_label": "%{shipping_price} ühe tarne kohta",
+          "initial_order_discounted": "Esimene saatmiskulu %{discounted_shipping_cost}, seejärel %{frequency_description}",
+          "prepaid_initial_order_discounted": "Esimene saatmiskulu %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Esimene saatmiskulu %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "Esimene saatmiskulu %{discounted_shipping_price} %{prepaid_delivery_frequency}, seejärel %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Esimene saatmiskulu %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), seejärel %{shipping_price} %{billing_cycle}",
+          "first_order_shipping_price_included": "Esimene tellimus kaasas, järgnevad %{recurring_order_shipping_price}",
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} iga kohaletoimetamise kohta), seejärel %{recurring_order_shipping_price}",
+          "first_n_order_free": {
+            "one": "Esimene tellimus tasuta",
+            "other": "Esimesed %{count} tellimust tasuta"
+          },
+          "free_for_first_n_order": {
+            "one": "Esimese tellimuse puhul",
+            "other": "Esimese %{count} tellimuse puhul"
+          },
+          "free_shipping_cycles": {
+            "one": "Tasuta kohaletoimetamine veel %{count} tarne(te) korral",
+            "other": "Tasuta saatmine veel %{count} tarne puhul"
+          },
+          "free_shipping_cycles_delivery_not_included": {
+            "one": "Tasuta saatmine %{count} kohaletoimetamise puhul",
+            "other": "Tasuta kohaletoimetamine %{count} tarne puhul"
+          },
+          "first_n_order_free_with_cycle": {
+            "one": "Tasuta saatmine veel %{count} tarne puhul, seejärel %{recurring_order_shipping_price}",
+            "other": "Tasuta saatmine veel %{count} tarnete puhul, seejärel %{recurring_order_shipping_price}"
+          },
+          "first_n_order_free_with_cycle_delivery_not_included": {
+            "one": "Tasuta saatmine %{count} tarne puhul, seejärel %{recurring_order_shipping_price}",
+            "other": "Tasuta saatmine %{count} tarnete eest, seejärel %{recurring_order_shipping_price}"
+          },
+          "max_cycles_base_shipping": {
+            "one": "%{count} lisatarne eest %{shipping_price}",
+            "other": "%{count} lisatarneid hinnaga %{shipping_price} tüki kohta"
+          },
+          "max_cycles_base_shipping_delivery_not_included": {
+            "one": "%{count} tarne hinnaga %{shipping_price}",
+            "other": "%{count} lisatarneid hinnaga %{shipping_price} tüki kohta"
+          },
+          "prepaid_free_shipping_with_cycles": {
+            "one": "Tasuta saatmine esimesel %{cycle}, seejärel %{recurring_order_shipping_price}",
+            "other": "Tasuta saatmine esimesel %{cycle}, seejärel %{recurring_order_shipping_price}"
+          }
+        },
+        "shipping_used_as_billing_notice": "Seda kasutatakse ka teie arveaadressina selle tellimuse jaoks.",
+        "split_shipping_merchandise_quantity_label_standard": "%{quantity} artiklit",
+        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} rohkem",
+        "split_shipping_merchandise_shipment_number": "Saatmine %{number} %{total}-st",
+        "split_shipping_shipped_by_shop": "Saadetud %{shop_name} poolt",
+        "split_shipping_multiple_shipment_label": "Mitmed saadetised",
+        "split_shipping_shipping_label": "Methode",
+        "split_shipping_multiple_shipment_quantity_label": "%{quantity} saadetist",
+        "split_shipping_multiple_shipment_notice": "Teie tellimus tarnitakse mitmes saadetises",
+        "split_shipping_multiple_shipment_notice_one_time_purchase": "Sinu tellimus tarnitakse %{quantity} saadetises.",
+        "split_shipping_more_shipping_options": "Rohkem saatmisvõimalusi",
+        "split_shipping_shipment_number": "Saatmine %{number}",
+        "split_shipping_merchandise_quantity_label_inline_primary": "Kogus: %{quantity}",
+        "split_shipping_option_free": "Tasuta saatmine",
+        "split_shipping_option_lowest_price": "Kõrgeim hind",
+        "split_shipping_option_fastest": "Kiireim",
+        "split_shipping_option_recommended": "Soovitatav",
+        "split_shipping_option_custom": "Kohandatud",
+        "split_shipping_shipment_notice": "Sinu tellimus jõuab kohale %{quantity_shipments} osas",
+        "split_shipping_first_shipment_notice": "Sinu esimene tellimus saabub %{quantity_shipments} jooksul"
       },
       "session_errors": {
         "session_not_unique": "Tellimuse töötlemisel tekkis probleem. Värskendage seda lehte, et naasta poodi.",
