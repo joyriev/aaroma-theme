@@ -2403,7 +2403,73 @@
         "add_shipping_address": "Lisa tarneaadress",
         "choose_new_address": "Vali uus aadress",
         "add_new_delivery_address": "Lisa uus kohaletoimetamise aadress",
-        "delivery_to": "Kohaletoimetamine aadressile"
+        "delivery_to": "Kohaletoimetamine aadressile",
+        "no_rates_for_cart_or_destination_notice": "Teie ostukorvi või aadressi jaoks pole saadaval ühtegi saatmisviisi",
+        "no_pickup_location_notice": "Vähemalt üks teie toodetest ei ole kättesaadav järeletulemiseks",
+        "no_rates_for_country_notice": "Sellele aadressile ei leitud saatmiskulusid.",
+        "no_rates_contact_notice": "Võtke meiega ühendust lisateabe saamiseks",
+        "free_rate_label": "Tasuta",
+        "estimated_delivery_date": {
+          "one": "%{count} tööpäev",
+          "other": "%{count} tööpäeva"
+        },
+        "estimated_delivery_date_range": "%{minimum} kuni %{maximum} tööpäeva jooksul",
+        "shipping_line_phone_label": "Mobiiltelefoni number (nõutav)",
+        "shipping_line_phone": "Teie kuller saab selle numbri abil teiega ühendust võtta.",
+        "other_method": {
+          "zero": "Muud meetodid pole saadaval",
+          "one": "%{count} muud meetodit saadaval juures",
+          "other": "%{count} muud meetodit saadaval alates"
+        },
+        "shipping_line_delivery_phone": "Teiega võidakse ühendust võtta teie kohaletoimetamise uuenduste kohta.",
+        "optional_shipping_line_delivery_instructions_label": "Tarnejuhised (valikuline)",
+        "shipping_line_delivery_phone_label": "Mobiiltelefoni number",
+        "shipping_line_delivery_instructions": "Sisestage vajalik teave, näiteks uksekoodid või kohaletoimetamise juhised.",
+        "local_delivery": "Kohalik kohaletoimetamine",
+        "shipping_method_one_time_purchase_group_title": "Ühekordne ost",
+        "shipping_method_subscription_group_title": "Tellimus",
+        "one_time_purchase_shipping": "Ühekordne saatmine",
+        "estimated_delivery_time": "Eeldatav kohaletoimetamine %{time}",
+        "estimated_delivery_time_range": "Eeldatav tarneaeg %{min_time}–%{max_time}",
+        "estimated_time": "Hinnanguline %{time}",
+        "estimated_time_range": "Hinnanguline %{min_time}–%{max_time}",
+        "shipping_information_required_notice": "Saadetise info on kohustuslik. {{link}}.",
+        "shipping_information_redirect_link": "Sisestage siia oma andmed",
+        "loading_progressive_rates": "Otsi rohkem tariife…",
+        "no_other_methods_available": "Muud meetodid pole saadaval",
+        "shipping_method_combinations": {
+          "combination": "%{rest} ja %{current}"
+        },
+        "shipping_address_title": "Saada aadressile",
+        "edit": "Muuda",
+        "invalid_shipping_method_summary": "Sisestage kehtiv kohaletoimetamise aadress, et näha saadaolevaid saatmisviise",
+        "method_summary": {
+          "incomplete_address_entered": "Sisestage täielik saatmisaadress, et vaadata saadaolevaid saatmisviise",
+          "incomplete_address_selected": "Valige täielik tarneaadress, et näha saadaolevaid saatmisviise"
+        },
+        "local_pickup": {
+          "search_address": "Otsi aadressi",
+          "rollup_title": "Tagastuskoht",
+          "rollup_accessibility_label": "Juurdevõtuvõimaluste asukoht"
+        },
+        "missing_shipping_address": "Saatmisaadress puudub",
+        "shipping_method_first_shipment_group_title": {
+          "one": "Esimene saatmine",
+          "other": "Esimesed saadetised"
+        },
+        "shipping_method_recurring_shipments_group_title": {
+          "one": "Tagastav saatmine",
+          "other": "Korduvad tarned"
+        },
+        "pre_order_ships_now": "Saadetakse kohe välja",
+        "pre_order_ships_later": "Saatmine hiljem",
+        "pre_order_ships_date": "Saatmine %{date}",
+        "prime_not_available": {
+          "default": "Prime-tarne ei ole teie tellimuse jaoks saadaval. Teie saatmisvalikud on uuendatud."
+        },
+        "shipping_method_rollup_accessibility_label": "Saatmisviisi valikud",
+        "shipping_address_rollup_accessibility_label": "Saatmisvalikud aadressile",
+        "invalid_shipping_method_summary_selected": "Vali teine tarneaadress, et näha saadaolevaid saatmisviise"
       },
       "session_errors": {
         "session_not_unique": "Tellimuse töötlemisel tekkis probleem. Värskendage seda lehte, et naasta poodi.",
