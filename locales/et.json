@@ -1767,7 +1767,81 @@
         "card_nickname_label": "Hüüdnimi (valikuline)",
         "blik_label": "BLIK",
         "billing_address_rollup_accessibility_label": "Arve aadressi valikud",
-        "business_customer_with_bank_account_vaulting_payment_label": "Salvestage see makseviis kassas ja andke %{company}-le luba teie kontolt tulevaste ostude eest selle asukoha jaoks, mille te heaks kiidate, tasuda kuni tühistamiseni. Kõik selle asukohaga seotud kontaktisikud saavad seda makseviisi kasutada."
+        "business_customer_with_bank_account_vaulting_payment_label": "Salvestage see makseviis kassas ja andke %{company}-le luba teie kontolt tulevaste ostude eest selle asukoha jaoks, mille te heaks kiidate, tasuda kuni tühistamiseni. Kõik selle asukohaga seotud kontaktisikud saavad seda makseviisi kasutada.",
+        "discount_button_action_label": "Kampaaniakoodi rakendamine",
+        "detected_card_brand": "Tuvastatud kaubamärk: {brand}",
+        "ends_with_label": "lõpp %{last_digits}",
+        "different_billing_address_label": "Kasuta teist arveaadressi",
+        "credit_card_start_month": "Startmaand",
+        "credit_card_start_year": "Algusaasta",
+        "different_credit_card_label": "Kasuta teist krediitkaarti",
+        "delete_customer_mandate_modal_cancel": "Tühista",
+        "credit_card_vaulting_sign_in_banner_title": "Salvesta oma krediitkaardi andmed",
+        "credit_card_vaulting_sign_in_banner_info": "Logi sisse või loo konto, et salvestada oma krediitkaart tulevaste ostude jaoks.",
+        "credit_card_vaulting_sign_in_banner_button_label": "Logi sisse",
+        "delete_customer_mandate_modal_title": "Kas soovite selle maksekaardi eemaldada?",
+        "delete_customer_mandate_modal_body": "Kui eemaldate selle kaardi, peate selle uuesti lisama, enne kui saate sellega maksta.",
+        "delete_customer_mandate_modal_confirm": "Eemalda kaart",
+        "clear": "Helder",
+        "custom_onsite_payment_method_modal": {
+          "title": "Kohapealne kohandatud maksekinnitus"
+        },
+        "delete_credit_card_modal": {
+          "title": "Eemalda kaart",
+          "confirmation": "Kas oled kindel, et soovid eemaldada {{brandName}}, mille lõpus on {{lastDigits}}?",
+          "cancel": "Tühista",
+          "delete": "Eemalda"
+        },
+        "edit_credit_card_modal": {
+          "title": "Muuda kaarti",
+          "done": "Klaar",
+          "cancel": "Tühista",
+          "description": "Te saate muuta ainult oma kaardi arveldusaadressi.",
+          "fields": {
+            "default": "Määra vaikeseadeks",
+            "card_number": "Kaardi number",
+            "expiry": "Vervaldatum",
+            "security_code": "Turvakood",
+            "name": "Nimi kaardil",
+            "billing": "Arveldamine aadressile"
+          }
+        },
+        "crypto_modal": {
+          "header": "Maksma %{shop_name} %{total_price} USDC",
+          "error": {
+            "refresh": "Uuenda",
+            "close": "sulge",
+            "sandbox_error": "Midagi läks valesti",
+            "web_component_error": "Lehe laadimisel tekkis probleem"
+          }
+        },
+        "crypto_payment_method": {
+          "description": "Loo turvaline ühendus oma rahakotiga Base-võrgus",
+          "tooltip": "Teie rahakoti saldo ja aadressi ei jagata ning ainult nõutud summa saab maha arvestada",
+          "cashback_descriptor": {
+            "one": "Saad oma raha tagasi %{count} päeva pärast",
+            "other": "Saad oma cashbacki kätte pärast %{count} päeva"
+          }
+        },
+        "discount_show_more_warnings": {
+          "one": "Toon veel %{count} rohkem",
+          "other": "Toon veel %{count} rohkem"
+        },
+        "discount_codes_removed_summary": {
+          "one": "%{count} sooduskood on eemaldatud",
+          "other": "%{count} sooduskoodi on eemaldatud"
+        },
+        "default": "Standard",
+        "continue_to_guest_checkout": "Jätka külalisena maksmisele",
+        "choose_new_payment_method": "Vali uus makseviis",
+        "discount_codes_modified_summary": {
+          "one": "%{count} sooduskood on muudetud",
+          "other": "%{count} sooduskoodi on muudetud"
+        },
+        "discount_codes_removed_or_modified_summary": {
+          "one": "%{count} sooduskood on eemaldatud või muudetud",
+          "other": "%{count} sooduskoodi on eemaldatud või muudetud"
+        }
       }
     }
   },
