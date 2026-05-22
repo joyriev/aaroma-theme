@@ -1513,7 +1513,8 @@
           "due_on_fulfillment": "Kopējā samaksa pie piegādes",
           "due_on_receipt": "Kopējā samaksa saņemšanas brīdī",
           "due_today_next": "Vervaldag šodien",
-          "due_on_fulfillment_next": "Izpildes termiņš"
+          "due_on_fulfillment_next": "Izpildes termiņš",
+          "total_paid": "Kopā samaksāts"
         },
         "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> nevar izmantot kopā ar jūsu esošajiem atlaidēm.",
         "maximum_discount_code_limit_reached": "Jūs esat sasniedzis maksimālo atlaides kodu skaitu. Dzēsiet esošu kodu, lai izmantotu <strong style=\"text-transform:uppercase\">%{code}</strong>.",
@@ -1538,7 +1539,68 @@
         "order_discounts_apply_to_local_shop": "Atlaides pasūtījumiem attiecas tikai uz %{shop_name} preču vienībām",
         "gift_cards_apply_to_local_shop": "Dāvanu kuponi ir derīgi tikai priekš %{shop_name} preču",
         "from_multiple_stores_heading": "No vairākiem veikaliem",
-        "pay_merchant_label": "Maksāt %{merchant_name}"
+        "pay_merchant_label": "Maksāt %{merchant_name}",
+        "title": "Pasūtījuma pārskats",
+        "shopping_cart_label": "Groza saturs",
+        "remove_gift_card_label": "Skaidra dāvanu karte",
+        "remove_discount_label": "Noņemt atlaides summu",
+        "shipping_information_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> atlaides kods nav pieejams jūsu piegādes adresei",
+        "subtotal_label": "Starpsumma",
+        "shipping_label": "Sūtīšana",
+        "tip_label": "Tips",
+        "shipping_default_value": "Aprēķināts nākamajā solī",
+        "shipping_pending_message": "Vēl nav pieejams",
+        "shipping_policy_link": "Piegādes maksa",
+        "taxes_label": "Nodokļi",
+        "price_label": "Cena",
+        "quantity_label": "Skaits",
+        "product_change_label": "Mainīt",
+        "product_image_label": "Produkta attēls",
+        "scroll_order_summary": "Ritiniet uz leju, lai redzētu vairāk rakstu",
+        "total_already_paid_label": "Apmaksāts",
+        "pickup_label": "Paņemt veikalā",
+        "sale_price": "Piedāvājuma cena",
+        "recurring_subtotal_label": "Atkārtots starpsumma",
+        "recurring_total_label": "Atgrieztais kopskaits",
+        "recurring_total_tooltip": "Ieskaitot bez piegādes maksas, nodokļiem, muitas nodevām vai iespējamiem atlaidēm.",
+        "percent_off_shipping": "%{percent}% atlaide piegādei",
+        "subscriptions": "Abonementi",
+        "recurring_payments": "Atkārtotas maksājumu veikšanas",
+        "recurring_total_multiple_label": "Šajā pasūtījumā ir iekļautas atkārtotas maksas par vairākiem priekšmetiem.",
+        "price_per_item": {
+          "accessibility_label": "%{price} par gabalu",
+          "label": "%{price}/gab"
+        },
+        "return_restocking_fee_label": "Papildu atlīdzība",
+        "return_shipping_fee_label": "Atgriešana",
+        "shipping_discount_title": "Piegādes atlaide",
+        "subtotal_label_with_quantity": {
+          "one": "Starpsumma · %{count} prece",
+          "other": "Mezsumma · %{count} preces"
+        },
+        "product_image_quantity_label": "Skaits",
+        "price_before_discount_aria_text": "Sākotnējā cena",
+        "price_after_discount_aria_text": "Atlaides cena",
+        "pickup_unavailable_banner_body": {
+          "ship_to_address": "Sūtīt uz adresi",
+          "ship_to_address_instead_html": "%{link} tā vietā"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Nav pieejamu veikalu ar jūsu preci",
+          "other": "Nav pieejamu veikalu ar jūsu precēm"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Nav pieejamu veikalu %{country} ar jūsu preci",
+          "other": "Nav pieejamu veikalu %{country} ar jūsu precēm"
+        },
+        "tax_line": {
+          "hst": "HST",
+          "gst": "PVN",
+          "pst": "PST",
+          "rst": "RST",
+          "qst": "QST",
+          "vpt": "VPN"
+        }
       },
       "order_payment_collection": {
         "custom_line_item_description": "Summa, kas jāmaksā par pasūtījumu %{order_name}",
