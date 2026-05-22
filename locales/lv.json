@@ -3506,7 +3506,91 @@
       "invalid_format": "sadalījums nav derīgs",
       "expired": "ir beidzies",
       "invalid_expiry_year": "nav derīgs derīguma termiņš",
-      "blocked_address": "Šī vieta netiek atbalstīta"
+      "blocked_address": "Šī vieta netiek atbalstīta",
+      "taken": "ir nodots ekspluatācijā",
+      "too_short": "ir par īsu (vismaz %{count} rakstzīmes)",
+      "too_long": "ir šī valoda (maksimāli %{count} rakstzīmes)",
+      "password_mismatch": "jāatbilst norādītajai parolei",
+      "invalid_state_in_country": "nav derīgs stāvoklis %{country}",
+      "invalid_region_in_country": "nav derīga reģiona %{country}",
+      "less_than_or_equal_to": "būt mazākam vai vienādam ar %{count}",
+      "not_supported": "netiek atbalstīts",
+      "invalid_type": "atvainojiet, mēs nepieņemam šāda veida kartes",
+      "invalid_start_date_or_issue_number_for_debit": "ir nepieciešams derīgs sākuma datums vai izdošanas numurs",
+      "reset_password_html": "Šis e-pasta adrese jau ir saistīta ar kontu. Ja šis konts pieder jums, varat <a href=\"/account/login#recover\">atiestatīt savu paroli</a>",
+      "verify_email": "Mēs esam nosūtījuši e-pastu uz %{customer_email}, lūdzu, noklikšķiniet uz pievienotās saites, lai apstiprinātu savu e-pasta adresi.",
+      "product_not_available": "produkts nav publicēts šim klientam.",
+      "shop_404": {
+        "title": "Izveido interneta veikalu un pārdod tiešsaistē! Shopify interneta veikala programmatūra",
+        "heros": {
+          "store_unavailable": "Atvainojiet, šis veikals pašlaik nav pieejams.",
+          "store_not_exist": "Šī veikala nav.",
+          "no_storefront": "Šim veikalam vēl nav mājaslapas."
+        },
+        "links": {
+          "explore_other_stores": "Atklāj citas veikalus",
+          "start_free_trial": "Sāc bezmaksas izmēģinājuma periodu"
+        },
+        "owner_ctas": {
+          "header": "Vai esat tirgotājs?",
+          "fix_domain": "Pabeidziet sava jaunā tīmekļa adreses iestatīšanu, izmantojot %{domain_settings_link}. Noklikšķiniet uz “Savienot domēnu” un ievadiet: %{domain}.<br>Ja jums ir problēmas ar veikala pieslēgšanos, mēģiniet lapu %{forgot_your_store_link}.",
+          "fix_domain_link_text": "jūsu domēna iestatījumi",
+          "forgot_your_store_link_text": "vai aizmirsāt savu grozu?",
+          "add_storefront": "Jūs varat iestatīt savu vietni, pievienojot kanālu Tiešsaistes veikals savā %{admin_link}. Ja jums ir problēmas ar veikala atvēršanu, mēģiniet lapu %{forgot_your_store_link}.",
+          "admin_link_text": "pārvaldnieks"
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "Pārdod personīgi",
+            "caption": "Iegūstiet funkcijas, kas jums nepieciešamas veikala vadīšanai, neatkarīgi no tā, vai tikko sākat vai vēlaties paplašināties.",
+            "link_text": "Sāc bezmaksas izmēģinājuma periodu"
+          },
+          "open_a_store": {
+            "header": "Atveriet jaunu Shopify veikalu",
+            "caption": "Sāciet bezmaksas 3 dienu izmēģinājuma periodu, pēc tam turpiniet par $1/mēnesī nākamo 3 mēnešu laikā.",
+            "link_text": "Reģistrējieties tagad"
+          },
+          "editions": {
+            "header": "Skatīt Shopify izdevumus",
+            "caption": "Ar vairāk nekā 100 produktu uzlabojumiem jūs varat būt produktīvāks un radošāks, kā arī spēcīgāks tirdzniecībā, nekā jebkad bijāt domājis.",
+            "link_text": "Atklājiet jaunākos izdevumus"
+          },
+          "store_owner": {
+            "header": "Vai esat tirgotājs?",
+            "caption": "Vai tev ir grūtības iekļūt savā veikalā? Izmēģini funkciju %{forgot_your_store_link}. Ja vēlies atkārtoti aktivizēt savu veikalu, sazinies ar %{shopify_support_link}.",
+            "shopify_support_link_text": "Shopify atbalsts"
+          }
+        }
+      }
+    },
+    "links": {
+      "powered_by_shopify": "Darbināts ar Shopify",
+      "learn_more": "Vairāk informācijas"
+    },
+    "feed": {
+      "more": "Vairāk"
+    },
+    "notices": {
+      "address": {
+        "updated": "Adrese veiksmīgi atjaunināta.",
+        "error_updating": "Kļūda atjauninot adresi",
+        "created": "Adrese veiksmīgi izveidota",
+        "error_creating": "Kļūda, izveidojot adresi.",
+        "deleted": "Adrese veiksmīgi izdzēsta",
+        "error_deleting": "Kļūda, dzēšot adresi."
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "in_stock": "Pieejams krājumā",
+          "out_of_stock": "Nav noliktavā"
+        }
+      },
+      "boolean": {
+        "true_label": "Jā",
+        "false_label": "Nē"
+      }
     }
   },
   "recipient": {
