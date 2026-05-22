@@ -3636,8 +3636,54 @@
           "add_variant": "Lisatud %{delta}",
           "decrement_item": "Eemaldatud %{delta} %{total}-st",
           "decrement_fulfilled_line_item": "Tagastatud %{delta} %{total}-st",
-          "decrement_return_line_item": "%{delta} eemaldatud tagastusest"
+          "decrement_return_line_item": "%{delta} eemaldatud tagastusest",
+          "increment_item": "Lisatud %{delta}"
         }
+      },
+      "order": {
+        "not_available": "See tellimus ei ole saadaval",
+        "financial_status": {
+          "authorized": "Volitatud",
+          "pending": "Käsitlemisel",
+          "paid": "Makstud",
+          "unpaid": "Mitte makstud",
+          "voided": "Tühistatud",
+          "partially_paid": "Osaliselt tasutud",
+          "partially_refunded": "Osaliselt tagastatud",
+          "refunded": "Tagastatud",
+          "expired": "Aegunud"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Teostatud",
+          "complete": "Valmis",
+          "partial": "Osaliselt",
+          "unfulfilled": "Ei täidetud",
+          "restocked": "Taaskasutuses saadaval"
+        },
+        "transaction_status": {
+          "success": "Edu",
+          "pending": "Käsitlemisel",
+          "failure": "Ebaõnnestumine",
+          "error": "Viga"
+        },
+        "cancel_reason": {
+          "declined": "Makse keeldutud",
+          "inventory": "Artiklid pole saadaval",
+          "fraud": "Petturlik tellimus",
+          "customer": "Klient on tellimust muutnud/tühistanud",
+          "other": "Muud",
+          "staff": "Töötajate viga"
+        },
+        "cash_on_delivery": "Sularahas kättetoimetamisel (CBA)"
+      },
+      "storefront": {
+        "invalid_password": "Parool on vale, palun proovi uuesti."
+      },
+      "tags": {
+        "add_articles": "Otsingutulemusi piirata ainult artiklitele, millel on ka silt %{tag}",
+        "add_products": "Vali ainult tooted, mis vastavad märgile %{tag}",
+        "remove_articles": "Otsi ka artiklitest, mis ei ole märgistatud %{tag}",
+        "remove_products": "Eemalda silt %{tag}"
       }
     },
     "filters": {
@@ -3651,6 +3697,32 @@
         "true_label": "Ja",
         "false_label": "Ei"
       }
+    },
+    "pagination": {
+      "previous": "Eelmine",
+      "next": "Järgmine"
+    },
+    "page_titles": {
+      "products": "Tooted",
+      "shopping_cart": "Teie ostukorv",
+      "account": "Arve",
+      "create_account": "Loo konto",
+      "reset_account": "Loo konto uuesti",
+      "addresses": "Aadressid",
+      "order": "Telli %{name}",
+      "search": "Otsi",
+      "collections": "Kogumikud",
+      "not_found": "404 Ei leitud",
+      "challenge": "Väljakutse",
+      "checkpoint": "Kontrollpunkt",
+      "search_results": {
+        "one": "Otsingutulemus: leiti %{count} tulemust märksõnale \"%{terms}\"",
+        "other": "Otsing: leiti %{count} tulemust märksõnale \"%{terms}\""
+      },
+      "blog_or_article_with_error": "Viga - %{title}"
+    },
+    "search": {
+      "error": "Otsingutulemuste laadimisel tekkis probleem. Värskendage lehte või proovige hiljem uuesti."
     }
   },
   "recipient": {
