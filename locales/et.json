@@ -538,7 +538,26 @@
         "free_total_label": "Tasuta",
         "none_method_definition": "Ei saatmist",
         "company_location_no_address_banner": "Tellimused, mis saadetakse aadressita asukohtadesse, esitatakse hindamiseks.",
-        "digital_product": "Digitaalne toode"
+        "digital_product": "Digitaalne toode",
+        "ship": "Saada teele",
+        "pick_up_in_two_hours": "Tavaliselt valmis 2 tunni jooksul",
+        "pick_up_in_four_hours": "Tavaliselt valmis 4 tunni jooksul",
+        "pick_up_immediately": "Valmis kohe järele tulema",
+        "pick_up_next_day": "Valmis järgmiseks päevaks järeletulekuks",
+        "pick_up_in_one_hour": "Tavaliselt valmis 1 tunni jooksul",
+        "pick_up_in_twenty_four_hours": "Tavaliselt valmis 24 tunni jooksul",
+        "pick_up_in_two_to_four_days": "Tavaliselt valmis 2–4 päeva jooksul",
+        "pick_up_in_five_or_more_days": "Tavaliselt valmis 5+ päeva jooksul",
+        "pick_up_in_zero_to_two_hours": "Valmis 2 tunni pärast järele võtmiseks",
+        "pick_up_in_two_to_four_hours": "Valmis 4 tunni pärast järele võtmiseks",
+        "shipping_address": "Saatmisaadress",
+        "pick_up_locations": "Tagastuspunktid",
+        "pickup_point_method_definition": "Saada kättesaamispunkti",
+        "retail_method_definition": "Jaemüügi saatmine",
+        "subscription_pickup_information": "See kohaletoimetamismeetod kehtib kõigi selle tellimuse artiklite ja kõigi selle tellimuse tulevaste tellimuste puhul.",
+        "ship_to_address": "Saada aadressile",
+        "pick_up_from_store": "Võta kauplusest kaasa",
+        "pickup_point_map_title": "Väljavõtupunkti kaart"
       },
       "customer_account": {
         "not_user_label": "Ei ole %{first_name}?",
@@ -593,6 +612,63 @@
             "other": "Need tooted eemaldatakse teie ostukorvist, kuna teie aadressile ei ole saadaval kohaletoimetamise meetodeid."
           },
           "label": "Ei kohaldata kohaletoimetamist"
+        }
+      },
+      "field_errors": {
+        "address_address1_blank": "Sisesta aadress",
+        "address_address2_blank": "Sisestage korter, sviit jne.",
+        "address_address1_too_long": "Esimene aadrireal on liiga palju tähemärke (kuni 255 tähemärki)",
+        "address_address1_contains_html_tags": "Adresregel 1 ei tohi sisaldada HTML-silte.",
+        "address_address2_contains_html_tags": "Adres2 ei tohi sisaldada HTML-silte.",
+        "address_address1_contains_emojis": "Adresregel 1 ei tohi sisaldada emotikone",
+        "address_address2_contains_emojis": "Adres2 ei tohi sisaldada emotikone",
+        "address_address1_contains_mathematical_symbols": "Esimene aadrireal ei tohi olla matemaatilisi märke",
+        "address_address2_contains_mathematical_symbols": "Teine aadrireal ei tohi olla matemaatilisi märke"
+      },
+      "failed_payment": {
+        "page_title": "Makse ei saanud töödelda",
+        "title": "Makse ei saanud töödelda",
+        "payment_not_processed_title": "Teie makset ei õnnestunud töödelda",
+        "payment_not_processed_text": "Sa ei ole veel maksustatud. Naase oma ostukorvi, et ostu lõpetada.",
+        "return_to_cart_button_label": "Tagasi ostukorvi"
+      },
+      "error_page": {
+        "terminal": {
+          "title": "Meil tekkis probleem meie kassasüsteemiga",
+          "message": "Värskenda seda lehte või proovi mõne minuti pärast uuesti",
+          "action": {
+            "cta": "Lehekülg uuendatud"
+          },
+          "request_id": "Päringu ID: {{requestId}}"
+        },
+        "embed_errors": {
+          "storefront_password_required": "See pood on parooliga kaitstud",
+          "customer_account_required": "Ostu lõpetamiseks on vajalik kliendikonto",
+          "cart_completed": "See tehing on juba lõpetatud",
+          "invalid_cart": "Ostukorv ei ole enam kehtiv",
+          "not_authorized": "Autentimine maksmisel ebaõnnestus. Kontrollige oma rakenduse andmeid.",
+          "killswitch_enabled": "Makse ei ole ajutiselt saadaval",
+          "policy_violation": "Makse ei saa poliitikapiirangute tõttu lõpule viia.",
+          "unrecoverable_failure": "Ei saa kassat laadida. Proovi uuesti."
+        }
+      },
+      "discount_errors": {
+        "generic_error": "Teie tellimust ei saanud töödelda, kuna teie sooduskood ei ole enam saadaval. Kontrollige oma tellimuse kogusummat ja proovige uuesti."
+      },
+      "editor": {
+        "navigation": {
+          "store_logo_accessibility_label": "Mine veebipoodi"
+        }
+      },
+      "embed": {
+        "header": {
+          "review_order": "Hinnake oma tellimust"
+        },
+        "shipping": {
+          "shipping_options": "Vaata kõiki saatmisvõimalusi"
+        },
+        "payment": {
+          "payment_options": "Vaata kõiki maksevõimalusi"
         }
       }
     }
