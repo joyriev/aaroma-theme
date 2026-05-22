@@ -723,7 +723,16 @@
         "payment_gateway_missing": "Izvēlieties maksāšanas veidu.",
         "invalid_delivery_address_reference_handle": "Norāde uz piegādes adresi nevarēja tikt saistīta ar kādu no pieejamajiem piegādes adresiem.",
         "must_use_available_delivery_address": "Piegādes adrese jāizvēlas no pieejamajām piegādes adresēm.",
-        "must_use_available_shipping_rate": "Piegādes maksa jāizvēlas no pieejamajām piegādes maksām."
+        "must_use_available_shipping_rate": "Piegādes maksa jāizvēlas no pieejamajām piegādes maksām.",
+        "shipping_line_phone_invalid": "Ievadiet derīgu tālruņa numuru",
+        "tips_invalid_tip_amount": "Ievadiet dzeramnaudu, kas ir mazāka par %{amount}",
+        "vaulting_agreement_blank": "Jūsu maksājuma metode jāglabā, jo atlikušā šī pasūtījuma summa būs jāmaksā vēlāk.",
+        "sms_marketing_phone_invalid": "Ievadiet derīgu tālruņa numuru",
+        "split_cart_international_shipping_not_supported": "Visiem priekšmetiem jāizmanto viena un tā pati piegādes metode starptautiskai sūtīšanai. Atjauniniet piegādes metodi vai izveidojiet vairākas pasūtījumu.",
+        "shipping_method_invalid_phone_number": "Ievadiet tālruņa numuru piegādes adresē, lai redzētu pieejamās piegādes metodes.",
+        "split_by_delivery_method_not_allowed": "Sadalījums pēc piegādes metodes šai sesijai vai veikalam nav atļauts.",
+        "split_by_delivery_method_unsupported_method_type": "Sadalīts pēc piegādes metodes, mēģināts ar neatbalstītu piegādes metodes tipu.",
+        "split_by_delivery_method_requires_merchandise_from_single_location": "Sadalīt piegādes metodi prasa, lai atsevišķas preču rindas tiktu izpildītas no viena atrašanās vietas."
       },
       "failed_payment": {
         "page_title": "Maksājumu nevarēja apstrādāt",
@@ -770,6 +779,57 @@
         "payment": {
           "payment_options": "Skatīt visas maksājumu iespējas"
         }
+      },
+      "general": {
+        "breadcrumb": "Sīkdatņu ceļš",
+        "continue_button_label": "Turpināt",
+        "complete_purchase_button_label": "Pasūtījuma pabeigšana",
+        "authenticate_purchase_button_label": "Maksājuma pārbaude",
+        "all_rights_reserved": "Visas tiesības aizsargātas %{shop_name}",
+        "cart": "Groza saturs",
+        "close_modal_label": "Aizvērt",
+        "close_notice_label": "Aizvērt",
+        "continue_to_shipping_method": "Turpināt uz piegādi",
+        "continue_to_payment_method": "Turpināt uz maksājumu",
+        "continue_to_review": "Pārbaudīt pasūtījumu",
+        "back_to_cart": "Atpakaļ uz iepirkumu grozu",
+        "back_to_contact_information": "Atpakaļ uz informāciju",
+        "back_to_shipping_method": "Atpakaļ uz piegādi",
+        "back_to_payment_method": "Atpakaļ uz maksājumu",
+        "choose_shipping_method": "Izvēlieties piegādes veidu",
+        "choose_payment_method": "Izvēlieties maksāšanas veidu",
+        "choose_billing_address": "Izvēlieties rēķina adresi",
+        "contact_us_html": "Sazinieties ar mums, lai iegūtu vairāk informācijas",
+        "autocomplete_title": "Ieteikumi",
+        "autocomplete_single_item": "1 prece pieejama",
+        "autocomplete_multi_item": "{{number}} pieejami raksti",
+        "autocomplete_selection": "{{number}} no {{total}}",
+        "autocomplete_close": "Ieteikumi aizvērt",
+        "checkout_context": {
+          "step_one": "%{shop_name} - Norēķināties"
+        },
+        "continue_to_payment_plans_button_label": "Turpināt uz maksājumu plāniem",
+        "back_button_label": "Atgriezt",
+        "choose_delivery_strategy": "Izvēlieties piegādes veidu",
+        "autocomplete_zero_item": "Nav pieejamu rakstu",
+        "autocomplete_powered_by_google": "Darbināts ar {{brandName}}",
+        "dates": {
+          "months": {
+            "january": "janvāris",
+            "february": "februāris",
+            "april": "aprīlis",
+            "august": "Augusts",
+            "december": "decembris"
+          }
+        },
+        "datepicker": {
+          "show_previous_month": "Rādīt iepriekšējo mēnesi, {{month}} {{year}}",
+          "show_next_month": "Rādīt nākamo mēnesi, {{month}} {{year}}",
+          "range_start": "Sākt sasniegt mērķus",
+          "in_range": "Sasniedzams",
+          "range_end": "Sortimenta beigas"
+        },
+        "confirm_order_button_label": "Pasūtījuma apstiprināšana"
       }
     }
   },
