@@ -1513,7 +1513,8 @@
           "due_on_fulfillment": "Kokku tasuda kohaletoimetamisel",
           "due_on_receipt": "Kokku tasuda kättesaamisel",
           "due_today_next": "Täna registreerima",
-          "due_on_fulfillment_next": "Väljastatud täitmisel"
+          "due_on_fulfillment_next": "Väljastatud täitmisel",
+          "total_paid": "Kokku makstud"
         },
         "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> ei saa kasutada koos teie olemasolevate allahindlustega.",
         "maximum_discount_code_limit_reached": "Oled saavutanud maksimaalse arvu sooduskoodide kasutamise. Eemalda olemasolev kood, et kasutada <strong style=\"text-transform:uppercase\">%{code}</strong>.",
@@ -1538,7 +1539,68 @@
         "order_discounts_apply_to_local_shop": "Soodustused kehtivad ainult %{shop_name} tellimuste kaupadele",
         "gift_cards_apply_to_local_shop": "Kingituskupongid kehtivad ainult %{shop_name} kaupadele",
         "from_multiple_stores_heading": "Mitmelt poelt",
-        "pay_merchant_label": "Maksma %{merchant_name}"
+        "pay_merchant_label": "Maksma %{merchant_name}",
+        "title": "Tellimuste ülevaade",
+        "shopping_cart_label": "Ostukorv",
+        "remove_gift_card_label": "Selge kinkekaart",
+        "remove_discount_label": "Soodustussumma eemaldamine",
+        "shipping_information_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> sooduskood ei ole teie saatmisaadressile saadaval",
+        "subtotal_label": "Vahekokkuvõte",
+        "shipping_label": "Saatmine",
+        "tip_label": "Nõuanne",
+        "shipping_default_value": "Arvutatakse järgmises etapis",
+        "shipping_pending_message": "Veel pole saadaval",
+        "shipping_policy_link": "Saatmiskulud",
+        "taxes_label": "Maksud",
+        "price_label": "Hind",
+        "quantity_label": "Kogus",
+        "product_change_label": "Muuda",
+        "product_image_label": "Toote pilt",
+        "scroll_order_summary": "Kerige, et näha rohkem artikleid",
+        "total_already_paid_label": "Makstud",
+        "pickup_label": "Võta kauplusest kaasa",
+        "sale_price": "Soodushind",
+        "recurring_subtotal_label": "Korduv vahekokkuvõte",
+        "recurring_total_label": "Tagasikorduv kogusumma",
+        "recurring_total_tooltip": "Ei sisalda saatmiskulusid, makse, tollimakse ega võimalikke allahindlusi.",
+        "percent_off_shipping": "%{percent}% allahindlust saatmiskuludelt",
+        "subscriptions": "Tellimused",
+        "recurring_payments": "Korduvad maksed",
+        "recurring_total_multiple_label": "See tellimus sisaldab mitme toote korduvaid tasusid.",
+        "price_per_item": {
+          "accessibility_label": "%{price} tüki kohta",
+          "label": "%{price}/tk"
+        },
+        "return_restocking_fee_label": "Täiendav tasu",
+        "return_shipping_fee_label": "Tagastamine",
+        "shipping_discount_title": "Saatmiskulu soodustus",
+        "subtotal_label_with_quantity": {
+          "one": "Vahesumma · %{count} artikkel",
+          "other": "Vahesumma · %{count} artiklit"
+        },
+        "product_image_quantity_label": "Kogus",
+        "price_before_discount_aria_text": "Algne hind",
+        "price_after_discount_aria_text": "Soodushind",
+        "pickup_unavailable_banner_body": {
+          "ship_to_address": "Saada aadressile",
+          "ship_to_address_instead_html": "%{link} selle asemel"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Ühtegi poodi teie artikliga ei leitud",
+          "other": "Ühtegi poodi teie artiklitega pole saadaval"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Poodide puudumine riigis %{country} teie toote jaoks",
+          "other": "Poodide puudumine %{country} teie artiklitega"
+        },
+        "tax_line": {
+          "hst": "HST",
+          "gst": "Käibemaks",
+          "pst": "PST",
+          "rst": "RST",
+          "qst": "QST",
+          "vpt": "VPT"
+        }
       },
       "order_payment_collection": {
         "custom_line_item_description": "Teie tasumisele kuuluv summa tellimuse %{order_name} eest",
