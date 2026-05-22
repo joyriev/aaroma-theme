@@ -3293,7 +3293,24 @@
         "cubic_meter": "m³",
         "centimeter": "cm",
         "fluid_ounce": "vedel oz",
-        "foot": "ft"
+        "foot": "ft",
+        "milligram": "mg",
+        "gram": "g",
+        "kilogram": "kg",
+        "milliliter": "ml",
+        "liter": "l",
+        "millimeter": "mm",
+        "meter": "m",
+        "square_meter": "m²",
+        "ounce": "oz",
+        "pound": "nael",
+        "pint": "pt",
+        "quart": "qt",
+        "gallon": "tüdruk",
+        "inch": "sisse",
+        "yard": "yd",
+        "square_foot": "ft²",
+        "item": "artikkel"
       },
       "tooltip": {
         "accessibility_label_context": "Lisateave %{context} kohta",
@@ -3304,6 +3321,53 @@
         "body": "Palun oodake paar minutit ja proovige uuesti oma ostukorvist.",
         "return_to_cart": "Tagasi ostukorvi",
         "body_no_cart": "Oota paar minutit ja proovi uuesti."
+      },
+      "wallets": {
+        "connect_shipping_methods": "{{method1}} ja {{method2}}",
+        "call_to_action": "Makse {{walletName}} abil",
+        "errors": {
+          "generic": "{{walletName}}-ga tekkis probleem. Proovi uuesti või kasuta mõnda muud makseviisi.",
+          "detour": {
+            "stock_problems": "Mõned artiklid ei ole enam saadaval. Sulge {{walletName}} ja proovi uuesti.",
+            "price_change": "Mõned kauba hinnad on muutunud. Sule {{walletName}}, et oma tellimust vaadata ja uuesti proovida.",
+            "queue": "Sind on pandud järjekorda maksmiseks. Sulge {{walletName}}, et jätkata.",
+            "currency_change": "Sa ei saa {{walletName}} kasutamisel kasutada teist aadressi. Kasuta algset aadressi või proovi mõnda muud makseviisi."
+          },
+          "invalid": {
+            "shipping_address": "Sisestage kehtiv kohaletoimetamise aadress",
+            "billing_address": "Sisestage kehtiv arveaadress",
+            "shipping_option": "Vali kehtiv saatmisvõimalus",
+            "email": "Sisestage kehtiv e-posti aadress",
+            "zone": "Sisestage kehtiv osariik / provints",
+            "postal_code": "Sisestage kehtiv sihtnumber",
+            "reduction_code": "Sisestage kehtiv sooduskood või kinkekaart",
+            "billing_must_match_shipping": "Moet vastata kohaletoimetamise aadressile",
+            "phone": "Sisestage kehtiv telefoninumber",
+            "emirate": "Sisestage kehtiv emiraat",
+            "billing_zone": "Sisestage arve aadressi kehtiv osariik / provints",
+            "billing_phone": "Sisestage arve aadressi kehtiv telefoninumber",
+            "billing_zip": "Sisestage arve aadressi kehtiv sihtnumber"
+          },
+          "missing": {
+            "address1": "Sisesta aadress",
+            "address2": "Sisestage korter, sviit jne.",
+            "billing_first_name": "Sisestage arveaadressi eesnimi",
+            "billing_address1": "Sisestage arve aadress",
+            "billing_address2": "Sisestage arve aadress, korter, sviit jne.",
+            "billing_city": "Sisestage arve aadressi linn"
+          },
+          "formatting": {
+            "name_contains_emojis": "Eemalda emotikon oma nimest",
+            "postal_code_contains_emoji": "Eemalda emotikonid oma sihtnumbrist",
+            "first_name_too_long": "Eesnimi sisaldab liiga palju tähti",
+            "last_name_too_long": "Perekonnanimi sisaldab liiga palju tähti",
+            "address_too_long": "Aadressireegel on liiga pikk"
+          },
+          "discount_code": "Seda sooduskoodi ei saa rakendada. Kontrollige oma koodi ja proovige uuesti."
+        }
+      },
+      "vaulted": {
+        "change_button": "Muuda"
       }
     }
   },
