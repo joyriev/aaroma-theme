@@ -2991,7 +2991,71 @@
         "confirmed_orders_title": "Jūsu pasūtījumi ir apstiprināti",
         "checkout_on_another_store": "Norēķināties citā veikalā",
         "checkout_again": "Atkal norēķināties",
-        "cashback_notice": "Jūs saņemsiet savu naudas atmaksu pēc 30 dienām"
+        "cashback_notice": "Jūs saņemsiet savu naudas atmaksu pēc 30 dienām",
+        "order_status_confirmed_order_with_email": "Jūs saņemsiet e-pastu, tiklīdz jūsu pasūtījums būs gatavs.",
+        "order_status_confirmed_order_with_phone": "Jūs varat saņemt īsziņu, kad jūsu pasūtījums būs gatavs.",
+        "order_status_confirmed_order_with_email_and_phone": "Jūs saņemsiet e-pastu, tiklīdz jūsu pasūtījums būs gatavs.",
+        "in_transit": "Ceļā",
+        "in_transit_title": "Jūsu pasūtījums ir ceļā",
+        "in_transit_description": "Jūs saņemat atjauninājumus par progresu.",
+        "in_transit_description_days": "Jums vajadzētu saņemt savu pasūtījumu nākamo %{number} dienu laikā.",
+        "in_transit_description_today": "Jums vajadzētu saņemt savu pasūtījumu šodien.",
+        "in_transit_description_tomorrow": "Jūs savu pasūtījumu vajadzētu saņemt nākamajā dienā.",
+        "no_tracking_number": "Šim pasūtījumam nav izsekošanas numura.",
+        "non_shippable_title": "Jūsu pasūtījums ir pabeigts",
+        "login_title": "Pierakstieties, lai skatītu visus pasūtījuma datus",
+        "login_description": "Jūs varat atrast savu pasūtījuma numuru uz kvītītes, ko saņēmāt pa e-pastu.",
+        "login_description_phone": "Jūs varat atrast savu pasūtījuma numuru uz čeka, ko saņēmāt pa SMS.",
+        "login_not_customer_html": "Nav %{name}? Tu vari %{link}",
+        "login_reorder_link_text": {
+          "one": "iegādājieties arī šo produktu",
+          "other": "iegādājieties arī šos produktus"
+        },
+        "order_number_label": "Pasūtījuma numurs",
+        "login": "Pieslēgties",
+        "marker": {
+          "current": "Pašreizējā nosūtīšanas vieta",
+          "shipping": "Piegādes adrese"
+        },
+        "order_status_confirmed_order_with_email_pick_up": "Jūs saņemsiet e-pastu, tiklīdz jūsu pasūtījums būs gatavs saņemšanai.",
+        "order_status_confirmed_order_with_phone_pick_up": "Jūs saņemsiet īsziņu, tiklīdz jūsu pasūtījums būs gatavs saņemšanai.",
+        "order_status_confirmed_order_with_email_and_phone_pick_up": "Jūs saņemsiet e-pastu un īsziņu, tiklīdz jūsu pasūtījums būs gatavs saņemšanai.",
+        "order_status_confirmed_order_local": "Mēs sagatavojam jūsu pasūtījumu piegādei.",
+        "gift_card_sent_confirmation": "Dāvanu kuponi nosūtīti",
+        "let_us_know": "Lūdzu, paziņojiet mums",
+        "gift_card_title": "Dāvanu kuponi",
+        "order_status_confirmed_order_with_email_payment": "Jūs veicāt maksājumu par savu pasūtījumu %{date}.",
+        "order_status_confirmed_order_with_phone_payment": "Jūs veicāt maksājumu par savu pasūtījumu %{date}.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "Jūs veicāt maksājumu par savu pasūtījumu %{date}.",
+        "missing_shipping_address_banner": {
+          "title": "Pasūtījumam nav piegādes adreses",
+          "text_html": "%{contact_us}, lai pievienotu savu adresi",
+          "contact_us": "Sazinieties ar mums"
+        },
+        "order_status_confirmed_with_installments_payment_return": "Pievērsiet uzmanību pārdevējam.",
+        "order_status_confirmed_with_installments_payment_confirm": "Jūs drīzumā saņemsiet apstiprinājuma e-pastu ar jūsu pasūtījuma numuru un informāciju par maksājumu grafiku.",
+        "in_store_purchase": "Pirkums veikalā",
+        "manage_order_label": "Pārvaldiet savu pasūtījumu",
+        "gift_card_text_title": {
+          "one": "Dāvanu karte ir nosūtīta pa īsziņu",
+          "other": "Dāvanu kuponi ir nosūtīti pa īsziņu"
+        },
+        "gift_card_resent_confirmation": {
+          "one": "Dāvanu karte ir nosūtīta vēlreiz.",
+          "other": "Dāvanu kuponi ir nosūtīti atkārtoti."
+        },
+        "gift_card_resend_failure": {
+          "one": "Radās problēma, atkārtoti nosūtot jūsu dāvanu karti. Mēģiniet vēlreiz vai sazinieties ar mums.",
+          "other": "Radās problēma, atkārtoti nosūtot jūsu dāvanu kartes. Mēģiniet vēlreiz vai sazinieties ar mums."
+        },
+        "order_status_payments_app_failed_pending_payment": "Jums netika iekasēta maksa par jūsu pasūtījumu. Atgriezieties savā iepirkumu grozā, lai apskatītu pasūtījumu un veiktu maksājumu vēlreiz.",
+        "order_status_payments_app_failed_pending_payment_payment": "Jums netika iekasēta maksa par jūsu pasūtījumu. Atgriezieties savā iepirkumu grozā, lai apskatītu pasūtījumu un veiktu maksājumu vēlreiz.",
+        "order_status_confirmed_order_local_pick_up": "Mēs sagatavojam jūsu pasūtījumu.",
+        "order_status_confirmed_order_local_payment": "Mēs sagatavojam jūsu pasūtījumu.",
+        "items_fulfilled_by_store": {
+          "one": "Preces, kuras esat iegādājies, tiek piegādātas no %{remote_shop_name}.",
+          "other": "Preces, ko esat iegādājies, tiek piegādātas no citām veikaliem."
+        }
       }
     }
   },
