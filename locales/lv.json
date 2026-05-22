@@ -2403,7 +2403,73 @@
         "add_shipping_address": "Pievienot piegādes adresi",
         "choose_new_address": "Izvēlieties jaunu adresi",
         "add_new_delivery_address": "Pievienot jaunu piegādes adresi",
-        "delivery_to": "Piegāde uz"
+        "delivery_to": "Piegāde uz",
+        "no_rates_for_cart_or_destination_notice": "Jūsu grozam vai adresei nav pieejamu piegādes metožu",
+        "no_pickup_location_notice": "Vismaz viens no jūsu produktiem nav pieejams saņemšanai klātienē",
+        "no_rates_for_country_notice": "Nav atrastas piegādes izmaksas šai adresei.",
+        "no_rates_contact_notice": "Sazinieties ar mums, lai iegūtu vairāk informācijas",
+        "free_rate_label": "Bezmaksas",
+        "estimated_delivery_date": {
+          "one": "%{count} darba diena",
+          "other": "%{count} darba dienas"
+        },
+        "estimated_delivery_date_range": "%{minimum} līdz %{maximum} darba dienām",
+        "shipping_line_phone_label": "Mobilā tālruņa numurs (obligāti)",
+        "shipping_line_phone": "Jūsu kurjers var izmantot šo numuru, lai ar jums sazinātos.",
+        "other_method": {
+          "zero": "Nav pieejamas citas metodes",
+          "one": "Pieejama vēl %{count} cita metode",
+          "other": "Pieejamas %{count} citas metodes no"
+        },
+        "shipping_line_delivery_phone": "Jūs varat saņemt paziņojumus par jūsu piegādi.",
+        "optional_shipping_line_delivery_instructions_label": "Piegādes norādījumi (pēc izvēles)",
+        "shipping_line_delivery_phone_label": "Mobilais tālruņa numurs",
+        "shipping_line_delivery_instructions": "Ievadiet nepieciešamo informāciju, piemēram, durvju kodus vai piegādes norādījumus.",
+        "local_delivery": "Vietējā piegāde",
+        "shipping_method_one_time_purchase_group_title": "Vienreizējs pirkums",
+        "shipping_method_subscription_group_title": "Abonements",
+        "one_time_purchase_shipping": "Vienreizēja piegāde",
+        "estimated_delivery_time": "Paredzamā piegāde %{time}",
+        "estimated_delivery_time_range": "Aptuvenais piegādes laiks %{min_time}–%{max_time}",
+        "estimated_time": "Aptuvenais %{time}",
+        "estimated_time_range": "Aptuvenais laiks %{min_time}–%{max_time}",
+        "shipping_information_required_notice": "Piegādes informācija ir obligāta. {{link}}.",
+        "shipping_information_redirect_link": "Ievadiet šeit savus datus",
+        "loading_progressive_rates": "Meklēt vairāk tarifu…",
+        "no_other_methods_available": "Nav pieejamas citas metodes",
+        "shipping_method_combinations": {
+          "combination": "%{rest} un %{current}"
+        },
+        "shipping_address_title": "Sūtīt uz",
+        "edit": "Rediģēt",
+        "invalid_shipping_method_summary": "Ievadiet derīgu piegādes adresi, lai redzētu pieejamās piegādes metodes",
+        "method_summary": {
+          "incomplete_address_entered": "Ievadiet pilnu piegādes adresi, lai skatītu pieejamās piegādes metodes",
+          "incomplete_address_selected": "Izvēlieties pilnu piegādes adresi, lai skatītu pieejamās piegādes metodes"
+        },
+        "local_pickup": {
+          "search_address": "Meklēt adresi",
+          "rollup_title": "Izdalīšanas vieta",
+          "rollup_accessibility_label": "Izcelšanas iespējas atrašanās vieta"
+        },
+        "missing_shipping_address": "Piegādes adrese nav norādīta",
+        "shipping_method_first_shipment_group_title": {
+          "one": "Pirmā piegāde",
+          "other": "Pirmās sūtījuma partijas"
+        },
+        "shipping_method_recurring_shipments_group_title": {
+          "one": "Atkārtota sūtīšana",
+          "other": "Atkārtotas piegādes"
+        },
+        "pre_order_ships_now": "Tagad tiek sūtīts",
+        "pre_order_ships_later": "Nosūtīšana vēlāk",
+        "pre_order_ships_date": "Nosūtīšana %{date}",
+        "prime_not_available": {
+          "default": "Prime-levering nav pieejama jūsu pasūtījumam. Jūsu piegādes iespējas ir atjauninātas."
+        },
+        "shipping_method_rollup_accessibility_label": "Piegādes metožu iespējas",
+        "shipping_address_rollup_accessibility_label": "Sūtīt uz adreses opcijām",
+        "invalid_shipping_method_summary_selected": "Izvēlieties citu piegādes adresi, lai skatītu pieejamās piegādes metodes"
       },
       "session_errors": {
         "session_not_unique": "Radās problēma, apstrādājot jūsu pasūtījumu. Atsvaidziniet šo lapu, lai atgrieztos veikalā.",

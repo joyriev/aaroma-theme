@@ -2863,8 +2863,45 @@
               "nl": "Hollandi käibemaksukoodid sisaldavad NL ja 12 märki",
               "pl": "Poola käibemaksukoodid sisaldavad PL ja 10 tähemärki",
               "es": "Hispaania käibemaksukoodid sisaldavad ES ja 9 märki",
-              "gb": "Suurbritannia käibemaksukoodid sisaldavad GB või XI ja 5–12 tähemärki"
-            }
+              "gb": "Suurbritannia käibemaksukoodid sisaldavad GB või XI ja 5–12 tähemärki",
+              "pt": "Portugali käibemaksukoodid sisaldavad PT ja 9 märki",
+              "ro": "Rumeenia käibemaksukoodid sisaldavad RO ja 10 tähemärki",
+              "sk": "Slovaki maksukohustuslase numbrid sisaldavad SK ja 10 märki",
+              "si": "Sloveenia käibemaksukoodid sisaldavad SI ja 8 tähemärki",
+              "se": "Rootsi käibemaksukoodid sisaldavad SE ja 12 märki"
+            },
+            "invalid_number": {
+              "at": "Sisestage kehtiv Austria käibemaksukohustuslase number",
+              "be": "Sisestage kehtiv Belgia käibemaksukohustuslase number",
+              "bg": "Sisestage kehtiv Bulgaaria käibemaksukohustuslase number",
+              "hr": "Sisestage kehtiv Horvaatia käibemaksukohustuslase number",
+              "cy": "Sisestage kehtiv Küprose käibemaksukohustuslase number",
+              "cz": "Sisestage kehtiv Tšehhi käibemaksukohustuslase number",
+              "dk": "Sisestage kehtiv Taani käibemaksukohustuslase number",
+              "ee": "Sisestage kehtiv Eesti käibemaksukohustuslase number",
+              "fi": "Sisestage kehtiv Soome käibemaksukohustuslase number",
+              "fr": "Sisestage kehtiv Prantsuse käibemaksukohustuslase number",
+              "de": "Sisestage kehtiv Saksa käibemaksukohustuslase number",
+              "gr": "Sisestage kehtiv Kreeka käibemaksukohustuslase number",
+              "hu": "Sisestage kehtiv Ungari käibemaksukohustuslase number",
+              "ie": "Sisestage kehtiv Iiri käibemaksukohustuslase number",
+              "it": "Sisestage kehtiv Itaalia käibemaksukohustuslase number",
+              "lv": "Sisestage kehtiv Läti käibemaksukohustuslase number",
+              "lt": "Sisestage kehtiv Leedu käibemaksukohustuslase number",
+              "lu": "Sisestage kehtiv Luksemburgi käibemaksukohustuslase number",
+              "mt": "Sisestage kehtiv Malta käibemaksukohustuslase number",
+              "nl": "Sisestage kehtiv Hollandi käibemaksukohustuslase number",
+              "pl": "Sisestage kehtiv Poola käibemaksukohustuslase number",
+              "pt": "Sisestage kehtiv Portugali käibemaksukohustuslase number",
+              "ro": "Sisestage kehtiv Rumeenia käibemaksukohustuslase number",
+              "sk": "Sisestage kehtiv Slovaki käibemaksukohustuslase number",
+              "si": "Sisestage kehtiv Sloveenia käibemaksukohustuslase number",
+              "es": "Sisestage kehtiv Hispaania käibemaksukohustuslase number",
+              "se": "Sisestage kehtiv Rootsi käibemaksukohustuslase number",
+              "gb": "Sisestage kehtiv Ühendkuningriigi käibemaksukohustuslase number"
+            },
+            "service_unavailable": "Valideerimisteenus pole saadaval",
+            "service_error": "Valideerimisteenus pole saadaval"
           },
           "accessibility": {
             "status": {
@@ -2876,7 +2913,26 @@
               "service_unavailable": "Ei suuda käibemaksuvabastust kinnitada",
               "service_error": "Ei suuda käibemaksuvabastust kinnitada"
             }
-          }
+          },
+          "vaulted": "KMKR number: %{number}"
+        }
+      },
+      "thank_you": {
+        "cancelled_page_title": "Tellimus tühistatud",
+        "billing_address_title": "Arve aadress",
+        "attempted_delivery": "Kättetoimetamise katse",
+        "attempted_delivery_title": "Tehti katse teie tellimus kohale toimetada",
+        "attempted_delivery_description_html": "Tehti katse teie tellimus kätte toimetada, kuid see ei õnnestunud. %{contact_us}, et korraldada uus kohaletoimetamise katse.",
+        "cancelled_description": "Teie tellimus tühistati %{date}. Võtke meiega ühendust, kui teil on küsimusi.",
+        "attempted_delivery_local_title": "Viivitatud tarne",
+        "attempted_delivery_local_description_html": "Me ei saanud teie tellimust kohale toimetada. Uue kohaletoimetamise aja kokkuleppimiseks %{contact_us}.",
+        "breadcrumbs_submitted": "Esitatud",
+        "breadcrumbs_in_review": "Hindamisel",
+        "breadcrumbs_confirmed": "Kinnitatud",
+        "announcement": {
+          "close": "Sulge",
+          "expand": "Laienda",
+          "collapse": "Kokku voltima"
         }
       }
     }
