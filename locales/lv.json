@@ -1707,7 +1707,67 @@
         "bank_account_generic_error": "Neizdevās pievienot bankas kontu. Lūdzu, mēģiniet vēlreiz vēlāk.",
         "add_payment_method": "Maksāšanas veida pievienošana",
         "add_new_payment_method": "Pievienot jaunu maksājuma veidu",
-        "alipay_label": "Alipay"
+        "alipay_label": "Alipay",
+        "card_number_label": "Kartes numurs",
+        "card_number_placeholder": "Kartes numurs",
+        "card_pay_with": "Maksāt ar:",
+        "card_security_notice": "Visas transakcijas ir drošas un šifrētas.",
+        "card_expiry_label": "Derīguma termiņš (MM / GG)",
+        "card_expiry_placeholder": "Derīguma termiņš (MM / GG)",
+        "card_verification_value_label": "Drošības kods",
+        "card_verification_value_placeholder": "Drošības kods",
+        "card_expiry_date_explanation": "Derīguma termiņš kartē formātā: mēnesis, mēnesis, gads, gads",
+        "card_verification_value_explanation": "3 ciparu drošības kods, kas parasti atrodas jūsu kartes aizmugurē. American Express kartēm ir 4 ciparu kods kartes priekšpusē.",
+        "card_verification_value_explanation_amex": "4 ciparu drošības kods jūsu kartes priekšpusē",
+        "card_verification_value_explanation_other": "3 ciparu drošības kods jūsu kartes aizmugurē",
+        "card_start_label": "Izdošanas datums (MM / GG)",
+        "card_start_placeholder": "Izdošanas datums (MM / GG)",
+        "card_issue_number_label": "Izdevuma numurs",
+        "card_issue_number_placeholder": "Izdevuma numurs",
+        "card_change_label": "Mainīt",
+        "billing_address_title": "Rēķina adrese",
+        "billing_address_description": "Izvēlieties adresi, kas atbilst jūsu kartei vai maksājuma metodei.",
+        "billing_address_description_no_shipping_address": "Ievadiet adresi, kas atbilst jūsu kartei vai maksājuma metodei.",
+        "card_fields_container_prefix": "Konteineris dzesēšanai priekš:",
+        "card_fields_unavailable_html": {
+          "one": "Maksājumi ar kredītkarti un maksājumu karti pašlaik nav pieejami.<br><a href=\"%{current_url}\">Atjaunot šo lapu</a> vai mēģiniet vēlāk vēlreiz.",
+          "other": "Maksājumi ar kredītkarti un debetkarti pašlaik nav pieejami.<br><a href=\"%{current_url}\">Atjaunot šo lapu</a> vai izmēģiniet citu maksājuma veidu."
+        },
+        "card_fields_processing_error": "Radās problēma, apstrādājot maksājumu. Mēģiniet atsvaidzināt šo lapu vai pārbaudīt savu interneta savienojumu.",
+        "bank_picker_label": "Banka",
+        "card_expiration_month_label": "Verifikācijas mēnesis",
+        "card_expiration_year_label": "Derīguma termiņš gads",
+        "card_information_notice": "Visi darījumi ir droši un šifrēti. Kredītkartes dati nekad netiek saglabāti.",
+        "billing_address_not_supported_for_payment_method_error": "Šī maksājuma metode nav pieejama jūsu rēķina adresei un valūtai. Lūdzu, izmēģiniet citu maksājuma veidu.",
+        "change_currency_section_description": "Izvēlieties valūtas opciju",
+        "card_security_vault_notice": "Mums ir nepieciešami jūsu dati turpmākajiem maksājumiem. Visas transakcijas ir drošas un šifrētas.",
+        "card_update_label": "Atjaunināt karti",
+        "card_expired": "Beidzies derīguma termiņš",
+        "card_verification_confirm": "Ievadiet sava kartes drošības kodu verifikācijas nolūkos.",
+        "billing_address_associated_with_mandate": "Izmantojiet adresi, kas saistīta ar maksājuma metodi",
+        "billing_address_associated_with_mandate_info": "Ja vēlaties mainīt savu rēķina adresi, izdzēsiet savus kredītkartes datus un ievadiet tos atkārtoti",
+        "card_vaulted_company_location": "Kartē saglabāts šai vietai",
+        "billing_must_match_shipping_notice": "Rēķina adrese jūsu maksājuma metodē ir jāatbilst piegādes adresei.",
+        "brand_not_available": "Šī veikals nepieņem {{brand}}. Lūdzu, izmantojiet citu karti maksāšanai.",
+        "billing_address_invalid_phone": "Ievadiet tālruņa numuru jūsu rēķina adresē par {{label}} {{last_digits}}, lai turpinātu.",
+        "billing_address_invalid_phone_no_card": "Lūdzu, papildiniet tālruņa numuru jūsu rēķina adresē, lai turpinātu.",
+        "card_fields": {
+          "errors": {
+            "required": {
+              "issue_date": "Ievadiet derīgu izdošanas datumu",
+              "issue_number": "Ievadiet derīgu izdevumu numuru"
+            },
+            "invalid": {
+              "verification_value": "Ievadiet derīgu CVV vai drošības kodu"
+            }
+          }
+        },
+        "business_customer_vaulting_payment_label": "Saglabājiet šo maksāšanas veidu norēķinoties un dodiet %{company} atļauju to izmantot nākotnes pirkumiem šajā vietā. Visi kontaktpersonas, kas piešķirtas šai vietai, var izmantot šo maksāšanas veidu.",
+        "cashapppay_label": "Cash App Maksājumi",
+        "card_nickname_label": "Segvārds (pēc izvēles)",
+        "blik_label": "BLIK",
+        "billing_address_rollup_accessibility_label": "Rēķina adreses opcijas",
+        "business_customer_with_bank_account_vaulting_payment_label": "Saglabājiet šo maksāšanas veidu norēķinu laikā un dodiet %{company} atļauju debetēt jūsu kontu nākotnes pirkumiem, kurus apstiprināsiet šai vietai, līdz atsauksiet šo atļauju. Visi kontaktpersonas, kas piešķirtas šai vietai, var izmantot šo maksāšanas veidu."
       }
     }
   },

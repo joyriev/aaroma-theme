@@ -1600,7 +1600,32 @@
           "rst": "RST",
           "qst": "QST",
           "vpt": "VPT"
-        }
+        },
+        "total_label": "Kokku",
+        "total_outstanding_label": "Makstav summa",
+        "vat_label_html": "Kaasa arvatud %{amount} käibemaks",
+        "total_updated_label": "Uuendatud koguhind:",
+        "unit_price": {
+          "accessible_separator": "päevas",
+          "per_item": {
+            "single": "%{price} tüki kohta",
+            "one": "%{price} iga %{count} tüki kohta",
+            "other": "%{price} %{count} artikli kohta"
+          }
+        },
+        "total_updated_label_with_price": "Uuendatud koguhind: %{totalPrice}",
+        "updated_shipping_method": "Uuendatud saatmismeetod: %{shipping_method}",
+        "total_savings": "Kogusäästud",
+        "view_all_items": {
+          "one": "Vaata %{count} eset",
+          "other": "Vaata kõiki %{count} eset"
+        },
+        "total_due_today_label": "Täna tasumisele kuuluv summa kokku",
+        "total_due_later_label": "Kokku hiljem maksta",
+        "total_due_label": "Kokku tasumiseks",
+        "total_price_label": "Koguhind",
+        "unconfirmed_label": "Kinnitamata",
+        "total_paid_label": "Kokku makstud"
       },
       "order_payment_collection": {
         "custom_line_item_description": "Teie tasumisele kuuluv summa tellimuse %{order_name} eest",
@@ -1644,6 +1669,45 @@
             "signature_mismatch": "Allkirjad kaubamärgilt ei ühti rea %{stable_id} puhul."
           }
         }
+      },
+      "payment": {
+        "amazon_payments_label": "Amazon Maksmine",
+        "amazon_payments_login_hint": "Sinu kästakse sisse logida Amazoniga.",
+        "amazon_payments_logout": "Logi välja Amazon Pay'st",
+        "amazon_payments_failed_mfa_challenge": "Valitud makseviisi ei saanud kasutada. Valige teine meetod või võtke ühendust oma panga või kaardi väljastajaga.",
+        "amazon_payments_abandoned_mfa_challenge": "Teie makset ei õnnestunud lõpule viia. Proovige mõnda muud makseviisi või võtke ühendust oma panga või kaardi väljastajaga.",
+        "amazon_payments_could_not_enqueue_authorize": "Makse töötlemisel tekkis probleem. Proovige uuesti või kasutage mõnda muud makseviisi.",
+        "amount_left_to_pay_label": "Makse võlgnevus:",
+        "apply_gift_card_button_label": "Rakenda",
+        "bancontact_label": "Bancontact",
+        "apple_pay_payment_error": "Teie makset ei õnnestunud lõpule viia. Proovige uuesti või kasutage mõnda muud makseviisi.",
+        "apple": {
+          "connect": "Klõpsake, et oma Apple Pay konto siduda",
+          "not_available": "Apple Pay ei ole selles brauseris saadaval. Oma Apple Pay konto sidumiseks peate kasutama Safarit Apple'i seadmes."
+        },
+        "account_connected": "Konto ühendatud.",
+        "alternative_payment_currency_total_notice": "Märkus: teile arvestatakse %{amount_due}.",
+        "add_credit_card_modal": {
+          "title": "Lisa kaart",
+          "cancel": "Tühista",
+          "save": "Salvesta"
+        },
+        "afterpay_label": "Maksa hiljem",
+        "alternative_payment_currency_total_manual_payment_notice": "Märkus: ümberarvestatud kogusumma on %{amount_due}.",
+        "bank_account_type": {
+          "checking": "Kontrollima",
+          "savings": "Säästud"
+        },
+        "bank_account_choose": "Valige konto, et oma ost turvaliselt lõpetada",
+        "bank_account_connect_another": "Ühenda teine pangakonto",
+        "bank_account_connect": "Pangakonto sidumine",
+        "bank_account_missing": "Pangakonto tuleb siduda",
+        "bank_account_disclaimer": "ACH-maksed võivad võtta kuni 4 tööpäeva töötlemiseks.",
+        "bank_account_vaulted_company_location": "Pangakonto salvestatud selle asukoha jaoks",
+        "bank_account_generic_error": "Kontot ei saanud lisada. Proovi hiljem uuesti.",
+        "add_payment_method": "Makseviisi lisamine",
+        "add_new_payment_method": "Lisa uus makseviis",
+        "alipay_label": "Alipay"
       }
     }
   },
