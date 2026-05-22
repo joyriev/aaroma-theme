@@ -2933,7 +2933,65 @@
           "close": "Aizvērt",
           "expand": "Izvērst",
           "collapse": "Sakļaut kopā"
-        }
+        },
+        "confirmation_email_sent_text": "Ir nosūtīts apstiprinājuma e-pasts uz %{email}",
+        "customer_information_title": "Pasūtījuma dati",
+        "contact_information_title": "Kontakti",
+        "company_tracking_number": "%{company} izsekošanas numurs:",
+        "estimated_arrival": "Aptuvenā piegādes datums:",
+        "confirmed": "Apstiprināts",
+        "confirmed_title": "Jūsu pasūtījums ir apstiprināts",
+        "confirmed_description": "Mēs esam saņēmuši jūsu pasūtījumu un to gatavojam. Atgriezieties šajā lapā, lai saņemtu atjauninājumus par jūsu sūtījuma statusu.",
+        "delivered": "Piegādāts",
+        "delivered_title": "Jūsu pasūtījums ir piegādāts",
+        "delivered_description_html": "Jūsu pasūtījums ir piegādāts uz norādīto adresi. Ja to neesat saņēmis vai ja jums ir citi jautājumi, %{contact_us}.",
+        "contact_us": "Sazinieties ar mums",
+        "contact_us_lowercase": "sazinieties ar mums",
+        "contact_us_html": "Nepieciešama palīdzība? %{contact_us}",
+        "failure": "Nav piegādāts",
+        "failed_title": "Jūsu pasūtījumu nevarēja piegādāt",
+        "failed_contact_merchant": "Sazinieties ar %{company}, lai vienotos par piegādi.",
+        "failed_contact_merchant_no_company": "Sazinieties ar mums, lai vienotos par piegādi.",
+        "customer_information_hidden_fields_message": "Pierakstieties, lai skatītu visus klientu datus.",
+        "cancelled_title": "Jūsu pasūtījums ir atcelts",
+        "customer_validation_error": "Ievadiet derīgu e-pasta adresi vai pasūtījuma numuru.",
+        "customer_validation_error_phone": "Ievadiet derīgu tālruņa numuru vai pasūtījuma numuru.",
+        "fulfillment": {
+          "fulfilled_table_title": "Preces šajā sūtījumā",
+          "unfulfilled_table_title": "Preces tiek sagatavotas nosūtīšanai",
+          "product_image_label": "Produkta attēls",
+          "description_label": "Apraksts",
+          "quantity_label": "Skaits"
+        },
+        "delivery_information_label": "Piegādes informācija:",
+        "delivered_local_title": "Jūsu pasūtījums ir piegādāts",
+        "delivered_local_description_html": "Vai jūsu pasūtījums vēl nav saņemts? %{let_us_know}.",
+        "gift_card_confirmation_by_text": "Ja to neesat saņēmis, nosūtiet tekstu vēlreiz vai sazinieties ar mums.",
+        "gift_card_confirmation_by_email": "Ja to neesat saņēmis, nosūtiet e-pastu vēlreiz vai sazinieties ar mums.",
+        "estimated_delivery": "Pašreizējās piegādes prognozes:",
+        "company_location_title": "Atrašanās vieta",
+        "first_payment_complete": "Pirmā iemaksa veikta",
+        "choose_payment_method_later": "Izvēlieties maksājuma veidu vēlāk",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "Jūs dažu minūšu laikā saņemsiet īsziņu ar savu dāvanu karti.",
+          "other": "Jūs dažu minūšu laikā saņemsiet īsziņu ar savām dāvanu kartēm."
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "one": "Jūs saņemsiet e-pastu ar savu dāvanu karti dažu minūšu laikā.",
+          "other": "Jūs saņemsiet e-pastu ar savām dāvanu kartēm dažu minūšu laikā."
+        },
+        "gift_card_email_title": {
+          "one": "Dāvanu karte ir nosūtīta pa e-pastu",
+          "other": "Dāvanu kuponi ir nosūtīti pa e-pastu"
+        },
+        "failed_pending_payment_page_title": "Ir problēma ar jūsu maksājumu",
+        "company_location_section_title": "Uzņēmums un atrašanās vieta",
+        "confirmed_items_count": "%{confirmed_count} no %{total_count} vienībām ir apstiprinātas",
+        "checkout_on_remote_shop_link_text": "Apmaksāt pie %{remoteShopName}",
+        "confirmed_orders_title": "Jūsu pasūtījumi ir apstiprināti",
+        "checkout_on_another_store": "Norēķināties citā veikalā",
+        "checkout_again": "Atkal norēķināties",
+        "cashback_notice": "Jūs saņemsiet savu naudas atmaksu pēc 30 dienām"
       }
     }
   },
