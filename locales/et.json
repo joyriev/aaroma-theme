@@ -999,7 +999,11 @@
             "saved_payment_methods_cvv_verification_disabled": "Valitud makseviis nõuab CVV-kinnitust, mis selle poe jaoks pole lubatud. Palun valige mõni teine makseviis."
           },
           "sale_attribution": {
-            "draft_order_not_exist": "See kontseptsioonitellimus ei ole praeguses poes olemas."
+            "draft_order_not_exist": "See kontseptsioonitellimus ei ole praeguses poes olemas.",
+            "staff_member_not_exist": "See pulk ei ole praeguses poes saadaval.",
+            "location_not_exist": "See asukoht ei eksisteeri praeguses poes.",
+            "point_of_sale_device_not_exist": "See kassaseade ei ole praeguses poes olemas.",
+            "unresolvable_target_merchandise_lines": "Pakutud müügijaotusi ei saa praeguse läbirääkimiste olukorra tõttu lahendada."
           },
           "non_negotiable": {
             "missing_non_negotiable_terms": "Teie ostupakkumine peab sisaldama mitteläbiräägitavaid tingimusi.",
@@ -1007,13 +1011,77 @@
           },
           "optional_duties": {
             "optional_duties_not_permitted": "Selle kassas ei ole tollimaksude tagasilükkamine lubatud."
+          },
+          "session_identifier_not_unique_error": "Tellimusega läks midagi valesti, palun proovige uuesti maksta.",
+          "session_is_already_finished": "See makse on juba lõpetatud.",
+          "tax": {
+            "new_tax_must_be_accepted": "Tellimusele kehtivad maksud on muutunud. Kontrolli oma tellimust ja proovi uuesti.",
+            "unresolvable_tax_terms": "Pakutud tingimused on praeguse läbirääkimiste olukorra tõttu lahendamatud.",
+            "delivery_price_is_abstract": "Seotud kohaletoimetamishind on abstraktne.",
+            "tax_inclusivity_mismatch": "Läbirääkimisi uuesti konkreetse väärtusega totalTaxAndDutyAmount või totalAmountIncludedInTarget.",
+            "tax_exemption_not_supported": "Maksuvabastused ei ole toetatud praeguse läbirääkimisseansi jaoks.",
+            "delivery_tax_exemption_not_supported": "Maksudest vabastused tarnetingimuste kohta ei ole praegu toetatud.",
+            "proposed_allocations_required": "Puuduv väli 'ettepanekud määrangud'.",
+            "merchandise_terms_must_be_defined": "Kauba tingimused tuleb kindlaks määrata.",
+            "delivery_terms_must_be_defined": "Tarne tingimused tuleb kindlaks määrata.",
+            "merchandise_discount_terms_must_be_defined": "Soodustingimused kaupadele tuleb kindlaks määrata.",
+            "delivery_discount_terms_must_be_defined": "Tarnekupongi tingimused tuleb kindlaks määrata.",
+            "allocated_required": "Puuduv 'määratud' väli.",
+            "value_required": "Puuduv 'väärtus' väli.",
+            "line_splits_not_supported": "Väli 'assortimentlijnen' tuleb jagada nii, et iga rea komponent esineb müüja pakkumises eraldi."
+          },
+          "tip": {
+            "not_accepted_by_shop": "Pood ei võta vastu jootraha.",
+            "only_one_tip_line_allowed": "Mitut vihjet ei toetata.",
+            "tips_not_allowed_for_b2b": "Jootraha ei ole B2B-poodides lubatud.",
+            "currency_change_reset": "Tip on valuutavahetuse tõttu uuesti seatud.",
+            "tips_not_allowed_for_deferred_purchase_options": "Tippingut ei toetata veel edasi lükatud ostuvõimaluste puhul."
           }
         },
         "dropzone": {
           "add_file": "Lisa fail",
           "invalid_file_type": "Failitüüp ei ole toetatud",
           "dragged_over": "Faili üleslaadimiseks salvestamine"
-        }
+        },
+        "page_title": "Maksma",
+        "pay_now_button_label": "Maksma nüüd",
+        "print_policies_link_label": "Trükkimine",
+        "expand_notice_label": "Vaata rohkem",
+        "forwarding_indicator": {
+          "new_window": "Avaneb uues aknas.",
+          "external": "Ava väline veebisait.",
+          "external_and_new_window": "Avab välise veebisaidi uues aknas."
+        },
+        "full_price": "Täishind:",
+        "full_title": "{{pageTitle}} - {{shopName}} - Arveldamine",
+        "loading_title": "Arveldamine - {{shopName}}",
+        "google_map_title": "Google Kaart",
+        "processing": "Töötlemisel…",
+        "remove_item": "Eemalda %{label}",
+        "remove_tag": "Silt eemaldada",
+        "list_formatter": {
+          "and": {
+            "lastWordConnector": "{{previousWords}}, en {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} ja {{secondWord}}"
+          },
+          "or": {
+            "lastWordConnector": "{{previousWords}}, {{lastWord}} puhul",
+            "twoWordConnector": "{{firstWord}} {{secondWord}} kohta"
+          }
+        },
+        "map": {
+          "cluster_title": {
+            "one": "Klaster van {{number}} markeerijat",
+            "other": "Kluster {{number}} märgistust"
+          }
+        },
+        "sheet": {
+          "expand": "Laienda"
+        },
+        "qr_code": "QR-kood",
+        "loading": "Laadimine…",
+        "remove_chip": "Eemalda artikkel",
+        "finalize_order_accessibility_label": "Tellimuse lõpetamine"
       }
     }
   },

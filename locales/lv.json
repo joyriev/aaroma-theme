@@ -1081,7 +1081,91 @@
         "qr_code": "QR kods",
         "loading": "Ielāde notiek…",
         "remove_chip": "Noņemt preci",
-        "finalize_order_accessibility_label": "Pabeigt pasūtījumu"
+        "finalize_order_accessibility_label": "Pabeigt pasūtījumu",
+        "skip_to_content": "Pāriet uz saturu",
+        "tooltip_accessibility_label": "Vairāk informācijas",
+        "title": "Apmaksāt - {{shopName}}",
+        "submit_order_button_label": "Nosūtīt pasūtījumu",
+        "submit_for_review_button_label": "Iesniegt izvērtēšanai",
+        "submit_for_review_notice_label": "Maksājums ir jāveic tikai pēc tam, kad jūsu pasūtījums ir pārskatīts",
+        "submit": "Sūtīt",
+        "stepper": {
+          "increase": "Palielināt {{type}}",
+          "decrease": "Samazināt {{type}}",
+          "minimum_reached": "Minimums sasniegts {{value}}",
+          "maximum_reached": "Maksimālais furgona {{value}} sasniegts"
+        }
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "Jūsu tuvumā ir %{count} noliktavas vieta ar krājumu",
+          "other": "Jūsu tuvumā ir %{count} noliktavas vietas ar krājumu"
+        },
+        "cancel": "Atcelt",
+        "could_not_resolve_address": "Jūsu adresi nevarēja atrast. Mēģiniet vēlreiz vai izmantojiet citu adresi",
+        "location_address_search_label": "Adrese",
+        "all_stores_far_away": {
+          "title": "Tuvākās atrašanās vietas ir vairāk nekā %{distance} attālumā",
+          "description": "Izvēlieties atrašanās vietu vai %{ship_to_address_link}",
+          "ship_to_address_link": "piegādes adrese",
+          "change_location_link": "Mainiet savu atrašanās vietu",
+          "title_with_specific_location": "Jūsu precei tuvākā atrašanās vieta ir vairāk nekā %{distance} attālumā no %{location}",
+          "title_with_item": {
+            "one": "Jūsu precei tuvākā atrašanās vieta ir vairāk nekā %{distance} no %{location}",
+            "other": "Tuvākā vieta ar jūsu precēm atrodas vairāk nekā %{distance} no %{location}"
+          }
+        },
+        "location_address_search_placeholder": "%{postal_code_label} vai adrese",
+        "location_closest": "Tuvākā atrašanās vieta ar jūsu preci",
+        "location_information_far_away": {
+          "one": "Ir %{count} vieta ar jūsu preci",
+          "other": "Ir %{count} vietas ar jūsu preci"
+        },
+        "location_nearby": {
+          "one": "Ir %{count} tuvumā esoša vieta ar jūsu preci",
+          "other": "Tuvumā ir %{count} vietas ar jūsu preci"
+        },
+        "location_nearby_short": {
+          "one": "%{count} tuvākā atrašanās vieta ar jūsu preci",
+          "other": "%{count} tuvumā esošas vietas ar jūsu preci"
+        },
+        "location_far_away": {
+          "one": "%{count} atrašanās vieta ar jūsu preci",
+          "other": "%{count} vietas ar jūsu preci"
+        },
+        "location_closest_one_item": "Tuvākā vieta ar tavu preci",
+        "location_closest_other_items": "Tuvākā atrašanās vieta ar tavām precēm",
+        "location_information_far_away_one_item": {
+          "one": "Ir %{count} atrašanās vieta ar jūsu preci",
+          "other": "Ir %{count} vietas ar tavu preci"
+        },
+        "location_information_far_away_other_items": {
+          "one": "Ir %{count} vieta ar tavām precēm",
+          "other": "Ir %{count} vietas ar tavām precēm"
+        },
+        "location_nearby_one_item": {
+          "one": "Tuvumā ir %{count} vieta ar jūsu preci",
+          "other": "Tuvumā ir %{count} vietas ar jūsu preci"
+        },
+        "location_nearby_other_items": {
+          "one": "Tuvumā ir %{count} vieta ar tavām precēm",
+          "other": "Tuvumā ir %{count} vietas ar tavām precēm"
+        },
+        "location_nearby_short_one_item": {
+          "one": "%{count} atrašanās vieta tuvumā ar jūsu preci",
+          "other": "%{count} tuvumā esošas vietas ar jūsu preci"
+        },
+        "location_nearby_short_other_items": {
+          "one": "%{count} atrašanās vieta tuvumā ar tavām precēm"
+        },
+        "location_far_away_one_item": {
+          "one": "%{count} atrašanās vieta ar jūsu preci",
+          "other": "%{count} atrašanās vietas ar jūsu preci"
+        },
+        "location_far_away_other_items": {
+          "one": "%{count} atrašanās vieta ar taviem priekšmetiem",
+          "other": "%{count} vietas ar jūsu precēm"
+        }
       }
     }
   },
