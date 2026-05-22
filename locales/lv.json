@@ -2029,7 +2029,71 @@
         "przelewy24_label": "Przelewy24",
         "simulated_express_checkout": "Maciņi nav pieejami rediģēšanas priekšskatījuma skatā jūsu reģiona vai pārlūkprogrammas dēļ",
         "separate_payments_label": "Jūsu preces nāk no vairākām veikaliem. Jums tiks izrakstīti rēķini %{separate_payments_link}.",
-        "separate_payments_text": "atsevišķas maksājumu daļas"
+        "separate_payments_text": "atsevišķas maksājumu daļas",
+        "title": "Apmaksa",
+        "supported_card_brands_more_label": "un vēl vairāk…",
+        "technical_error": "Maksājumu šobrīd nevar apstrādāt tehnisku problēmu dēļ. Lūdzu, mēģiniet vēlreiz pēc dažām minūtēm.",
+        "waiting_on_payment_methods": "Iegūstam pieejamās maksāšanas metodes...",
+        "subscription_card_update_agreement_label": "Maksājuma metodes maiņa atjauninās jūsu abonementu un turpmākos atkārtotos maksājumus.",
+        "taxes_not_included": "Nodokļi nav iekļauti",
+        "update_payment_method": "Maksāšanas veida atjaunināšana",
+        "vaulting_agreement_label": "Saglabājiet savus maksājumu datus pie %{company} ātrākai apstrādei.",
+        "use_different_credit_card_label": "Izmantojiet citu karti",
+        "waiting_on_taxes_message": "Ja jūsu nodokļi netiek aprēķināti dažu sekunžu laikā, atsvaidziniet lapu.",
+        "waiting_on_taxes_notice": "Nodokļu aprēķināšana",
+        "subscription_heading": "Abonēšanas noteikumi",
+        "use_order_billing_address_label": "Izmantojiet pasūtījuma rēķina adresi",
+        "use_location_billing_address_label": "Izmantojiet rēķina adreses atrašanās vietu",
+        "use_location_shipping_address_label": "Izmantojiet nosūtīšanas adresi no atrašanās vietas",
+        "twint_label": "TWINT",
+        "vipps_label": "Vipps",
+        "swish_label": "Kluss",
+        "usdc_label": "ASV dolāra stabilā monēta (USDC)",
+        "usdc_cashback_title": "1% naudas atpakaļ",
+        "usdc_cashback_additional_info": "Saņemiet 1% atpakaļ USDC formātā Base platformā 30 dienu laikā.",
+        "usdc_cashback_terms": "Pielietojamie noteikumi",
+        "vault_for_payment_later": {
+          "pay_button_label": "Veikt pasūtījumu",
+          "notice": "Pašlaik netiek iekasēti nekādi maksājumi. Turpinot ar maksājumu, jūs piekrītat, ka jūsu maksājuma metode tiks automātiski ieturēta, kad jūsu pasūtījums tiks apstrādāts."
+        },
+        "wechat_pay_label": "WeChat Pay"
+      },
+      "payment_errors": {
+        "credit_card_processing": "Jūsu maksājumu tehnisku iemeslu dēļ nevar apstrādāt. Lūdzu, mēģiniet vēlreiz pēc dažām minūtēm vai izmantojiet citu maksājuma veidu.",
+        "checkout_amount_changed": "Jūsu maksājumu nevarēja apstrādāt, jo norēķinu laikā mainījās jāmaksā summa. Lūdzu, pārbaudiet savu pasūtījumu un mēģiniet vēlreiz.",
+        "deferred_payment_not_allowed": "Aizkavētas maksāšanas nav atļautas. Pārbaudiet savu pasūtījumu un mēģiniet vēlreiz.",
+        "deferred_amount_changed": "Jūsu maksājumu nevarēja apstrādāt, jo atliktās maksājuma summas apjoms ir mainīts. Lūdzu, pārbaudiet savu pasūtījumu un mēģiniet vēlreiz.",
+        "deferred_date_changed": "Jūsu maksājumu nevarēja apstrādāt, jo ir mainīts atliktais maksājuma datums. Lūdzu, pārbaudiet savu pasūtījumu un mēģiniet vēlreiz.",
+        "decision_rule_block": "Radās problēma, apstrādājot jūsu maksājumu. Lūdzu, sazinieties ar veikalu.",
+        "cannot_verify": "Jūsu maksājuma dati nevarēja tikt pārbaudīti. Lūdzu, pārbaudiet kartes datus un mēģiniet vēlreiz.",
+        "card_declined": "Jūsu karte tika noraidīta. Mēģiniet vēlreiz vai izmantojiet citu maksājuma veidu.",
+        "call_issuer": "Jūsu karte tika noraidīta. Izmantojiet citu maksājuma veidu vai sazinieties ar savu banku, lai iegūtu vairāk informācijas.",
+        "available_methods_updated": "Pieejamās maksāšanas metodes ir atjauninātas.",
+        "amount_too_small": "Minimālā maksājuma summa ir jābūt lielākai par $0,50 USD. Lūdzu, mēģiniet vēlreiz ar lielāku summu.",
+        "captcha_required": "Ievadiet maksājuma datus un atrisiniet captcha, lai pabeigtu pirkumu.",
+        "captcha_required_without_payment_information": "Atrisiniet captcha, lai pabeigtu savu pirkumu.",
+        "cancelled_payment": "Jūsu maksājums ir atcelts. Mēģiniet vēlreiz vai izmantojiet citu maksājuma veidu.",
+        "currency": {
+          "no_longer_supported": "Veikala valūta vairs netiek atbalstīta."
+        }
+      },
+      "payment_challenge_modal": {
+        "instructions": "Pabeidziet savu pirkumu ar savu {{paymentMethod}} kodu",
+        "timer_message": "Jums ir {{timeLeft}}, lai veiktu maksājumu",
+        "copy_text": "Kopēt {{paymentMethod}} kodu",
+        "header": "Maksāt ar {{paymentMethod}}",
+        "qr_code": {
+          "instructions": "Pabeidziet savu pirkumu ar savu {{paymentMethod}} kodu"
+        },
+        "external": {
+          "instructions": "Apstipriniet maksājumu savā lietotnē, lai pabeigtu šo pirkumu"
+        },
+        "close": "Pabeidz izaicinājumu",
+        "open_app_text": "Atveriet {{paymentMethod}} lietotni"
+      },
+      "payment_collection": {
+        "cancelled": "Šī maksājuma vairs nav nepieciešams. Apmeklējiet pasūtījuma lapu, lai iegūtu sīkāku informāciju.",
+        "paid": "Šī maksājuma pieprasījums jau ir iesniegts. Apmeklējiet pasūtījuma lapu, lai skatītu detaļas."
       }
     }
   },
