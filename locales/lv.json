@@ -251,7 +251,84 @@
       "filter_selected_accessibility": "{{ type }} (izvēlēti {{ count }} filtri)",
       "show_more": "Rādīt vairāk",
       "show_less": "Rādīt mazāk",
-      "filter_and_operator_subtitle": "Viss sakrīt"
+      "filter_and_operator_subtitle": "Viss sakrīt",
+      "sort_button": "Kārtot",
+      "sort_by_label": "Kārtot pēc:",
+      "to": "Pie"
+    },
+    "product": {
+      "add_to_cart": "Pievienot grozam",
+      "description": "Apraksts",
+      "on_sale": "Izpārdošana",
+      "quantity": {
+        "label": "Skaits",
+        "input_label": "Skaits priekš {{ product }}",
+        "increase": "Palielināt daudzumu priekš {{ product }}",
+        "decrease": "Samazināt daudzumu priekš {{ product }}",
+        "minimum_of": "Minimālais {{ quantity }}",
+        "maximum_of": "Maksimāli {{ quantity }}",
+        "multiples_of": "Soļi no {{ quantity }}",
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> Pievienot grozam",
+        "note": "Skatīt daudzuma noteikumus",
+        "min_of": "Minimālais {{ quantity }}",
+        "max_of": "Maksimāli {{ quantity }}"
+      },
+      "price": {
+        "from_price_html": "No {{ price }}",
+        "regular_price": "Parastā cena",
+        "sale_price": "Piedāvājuma cena",
+        "unit_price": "Vienības cena"
+      },
+      "share": "Kopīgot šo produktu",
+      "pickup_availability": {
+        "view_store_info": "Skatīt veikala informāciju",
+        "check_other_stores": "Pārbaudiet pieejamību citos veikalos",
+        "pick_up_available": "Iespējama saņemšana klātienē",
+        "pick_up_available_at_html": "Iespēja saņemt pasūtījumu pie <span class=\"color-foreground\">{{ location_name }}</span>",
+        "pick_up_unavailable_at_html": "Pašapkalpošanās pašlaik nav pieejama <span class=\"color-foreground\">{{ location_name }}</span>",
+        "unavailable": "Neizdevās ielādēt konjunktīvas ievietošanas iespēju",
+        "refresh": "Atjaunot"
+      },
+      "media": {
+        "open_media": "Atveriet mediju {{ index }} modaal režīmā",
+        "play_model": "Atskaņot 3D skatu",
+        "play_video": "Atskaņot video",
+        "gallery_viewer": "Galerijas skats",
+        "load_image": "Attēla {{ index }} ielāde galerijas skatā",
+        "load_model": "Ielādēt 3D modeli {{ index }} galerijas skatā",
+        "load_video": "Atskaņot video {{ index }} galerijas skatā",
+        "image_available": "Attēls {{ index }} tagad ir pieejams galerijas skatā"
+      },
+      "shipping_policy_html": "<a href=\"{{ link }}\">Piegāde</a> tiek aprēķināta norēķinoties.",
+      "choose_options": "Izvēlieties opcijas",
+      "choose_product_options": "Izvēlieties opcijas priekš {{ product_name }}",
+      "inventory_in_stock": "Pieejams krājumā",
+      "inventory_in_stock_show_count": "{{ quantity }} noliktavā",
+      "inventory_low_stock": "Maz krājumu",
+      "inventory_low_stock_show_count": "Mazs krājums: pieejami vēl {{ quantity }}",
+      "inventory_out_of_stock": "Nav noliktavā",
+      "sku": "Artikula numurs",
+      "inventory_out_of_stock_continue_selling": "Pieejams krājumā",
+      "product_variants": "Produktu varianti",
+      "duties_included": "Ieskaitot ņemto.",
+      "sold_out": "Izpārdots",
+      "unavailable": "Nav pieejams",
+      "vendor": "Pārdevējs",
+      "video_exit_message": "{{ title }} atver video pilnekrāna režīmā tajā pašā logā.",
+      "xr_button": "Skatīt jūsu telpā",
+      "xr_button_label": "Skatīt jūsu telpā, ielādēt preci paplašinātās realitātes logā",
+      "view_full_details": "Skatīt pilnu informāciju",
+      "value_unavailable": "{{ option_value }} - Nav pieejams",
+      "variant_sold_out_or_unavailable": "Variants izpārdots vai nav pieejams",
+      "volume_pricing": {
+        "title": "Daudzuma atlaide",
+        "note": "Daudzuma atlaide pieejama",
+        "minimum": "Vairāk nekā {{ quantity }}",
+        "price_at_each_html": "sākot no {{ price }} par gabalu"
+      }
+    },
+    "modal": {
+      "label": "Mediju galerija"
     }
   },
   "localization": {
@@ -276,6 +353,57 @@
       "copy_code_success": "Kods nokopēts",
       "how_to_use_gift_card": "Izmantojiet dāvanu kartes kodu tiešsaistē vai QR kodu veikalā",
       "expiration_date": "Beidzas {{ expires_on }}"
+    }
+  },
+  "shopify": {
+    "attributes": {
+      "email": "e-pasts",
+      "password": "parole",
+      "password_confirmation": "Paroles apstiprinājums",
+      "first_name": "vārds",
+      "last_name": "uzvārds",
+      "body": "ķermenis",
+      "signature": "Adrese"
+    },
+    "addresses": {
+      "zip_code": "Pasta indekss",
+      "postal_code": "Pasta indekss",
+      "postcode": "Pasta indekss",
+      "pincode": "Piekļuves kods",
+      "region": "Reģions",
+      "prefecture": "Prefektūra",
+      "province": "Novads",
+      "state": "Valsts",
+      "state_and_territory": "Valsts/reģions",
+      "county": "Graafschap",
+      "emirate": "Emīrāts",
+      "governorate": "Valdība",
+      "confirm": "Vai tiešām vēlaties dzēst šo adresi?"
+    },
+    "cart": {
+      "discounts_with_count": "Ir piemēroti %{count} atlaides."
+    },
+    "challenge": {
+      "message": "Lai turpinātu, lūdzu, apstipriniet, ka neesat robots.",
+      "error": "Jūsu atbilde nebija pareiza, lūdzu, mēģiniet vēlreiz.",
+      "submit_button_text": "Sūtīt"
+    }
+  },
+  "recipient": {
+    "form": {
+      "checkbox": "Es gribu to nosūtīt kā dāvanu",
+      "email_label": "Saņēmēja e-pasta adrese",
+      "email": "E-pasta adrese",
+      "name_label": "Saņēmēja vārds (pēc izvēles)",
+      "name": "Vārds",
+      "message_label": "Ziņojums (pēc izvēles)",
+      "message": "Ziņojums",
+      "max_characters": "Maksimāli {{ max_chars }} rakstzīmes",
+      "email_label_optional_for_no_js_behavior": "Saņēmēja e-pasta adrese (pēc izvēles)",
+      "send_on": "GGGG-MM-DD",
+      "send_on_label": "Nosūtīšana (pēc izvēles)",
+      "expanded": "Veidlapa dāvanu kupona saņēmējam izlocīta",
+      "collapsed": "Veidlapas saņēmējam dāvanu karte salocīta"
     }
   }
 }

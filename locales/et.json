@@ -176,7 +176,14 @@
       },
       "links": {
         "facebook": "Facebook",
-        "instagram": "Instagram"
+        "instagram": "Instagram",
+        "twitter": "X (Twitter)",
+        "pinterest": "Pinterest",
+        "tumblr": "Tumblr",
+        "snapchat": "Snapchat",
+        "youtube": "YouTube",
+        "vimeo": "Vimeo",
+        "tiktok": "TikTok"
       }
     },
     "continue_shopping": "Jätka ostlemist",
@@ -206,6 +213,69 @@
       "next_slide": "Pühkige paremale",
       "previous_slide": "Pühkige vasakule",
       "name": "liugur"
+    }
+  },
+  "newsletter": {
+    "label": "E-post",
+    "success": "Täname registreerumise eest",
+    "button_label": "Telli uudiskiri"
+  },
+  "onboarding": {
+    "product_title": "Näidis toote pealkiri",
+    "collection_title": "Teie kollektsiooni nimi"
+  },
+  "products": {
+    "facets": {
+      "apply": "Rakenda",
+      "clear": "Helder",
+      "clear_all": "Kõik eemaldada",
+      "from": "Alates",
+      "filter_and_sort": "Filtreeri ja sorteeri",
+      "filter_by_label": "Filtreeri:",
+      "filter_button": "Filtreeri",
+      "filters_selected": {
+        "one": "{{ count }} valitud",
+        "other": "{{ count }} valitud"
+      },
+      "max_price": "Kõrgeim hind on {{ price }}",
+      "product_count": {
+        "one": "{{ product_count }} toodetest {{ count }}-st",
+        "other": "{{ product_count }} toodetest {{ count }}-st"
+      },
+      "product_count_simple": {
+        "one": "{{ count }} toodet",
+        "other": "{{ count }} toodet"
+      },
+      "reset": "Taastama",
+      "clear_filter": "Filtri eemaldamine",
+      "filter_selected_accessibility": "{{ type }} ({{ count }} filtrit valitud)",
+      "show_more": "Näita rohkem",
+      "show_less": "Näita vähem",
+      "filter_and_operator_subtitle": "Lõpuks kokku leppida"
+    }
+  },
+  "localization": {
+    "country_label": "Maakond/regioon",
+    "language_label": "Keel",
+    "update_language": "Keele värskendamine",
+    "update_country": "Riigi/regiooni värskendamine",
+    "search": "Otsi",
+    "popular_countries_regions": "Populaarsed riigid/regioonid",
+    "country_results_count": "{{ count }} riiki/regiooni leitud"
+  },
+  "gift_cards": {
+    "issued": {
+      "title": "See on kinkekaardi saldo väärtusega {{ value }} kaupluses {{ shop }}",
+      "subtext": "Kingituskinkekaart",
+      "gift_card_code": "Kingituskupongi kood",
+      "shop_link": "Veebipoe külastamine",
+      "add_to_apple_wallet": "Lisa Apple Walleti",
+      "qr_image_alt": "QR-kood — skaneeri kinkekaardi lunastamiseks",
+      "copy_code": "Kinkekaardi koodi kopeerimine",
+      "expired": "Aegunud",
+      "copy_code_success": "Kood kopeeritud",
+      "how_to_use_gift_card": "Kasuta kinkekaardi koodi veebis või QR-koodi poes",
+      "expiration_date": "Aegub {{ expires_on }}"
     }
   }
 }
