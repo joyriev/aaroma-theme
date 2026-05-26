@@ -8,12 +8,16 @@
  * ------------------------------------------------------------
  */
 {
-  "markets": {
-    "dutch": {
-      "parent": "@default"
-    },
-    "france": {
-      "parent": "@default"
+  "context": {
+    "market": "france"
+  },
+  "parent": "index.json",
+  "sections": {
+    "magic_hero_GLbzbL": {
+      "settings": {
+        "title": "Ruik duurder. Betaal minder. Le parfum du luxe. Le prix en moins."
+      },
+      "blocks": {}
     }
   }
 }
