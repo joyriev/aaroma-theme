@@ -3279,7 +3279,9 @@
       "step_one": {
         "page_title": "Entrez votre e-mail - %{shop_name}",
         "heading": "Saisissez votre adresse e-mail",
-        "subheading": "Saisissez votre e-mail et nous vous enverrons un code de vérification"
+        "subheading": "Saisissez votre e-mail et nous vous enverrons un code de vérification",
+        "input_field_label": "E-mail",
+        "button": "Continuer"
       }
     }
   }
