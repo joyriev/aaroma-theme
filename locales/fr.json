@@ -3282,6 +3282,12 @@
         "subheading": "Saisissez votre e-mail et nous vous enverrons un code de vérification",
         "input_field_label": "E-mail",
         "button": "Continuer"
+      },
+      "brand_logo_alt_text": "Logo %{shop_name}",
+      "error": {
+        "invalid": {
+          "invalid_email": "Entrez une adresse e-mail valide"
+        }
       }
     }
   }
