@@ -3275,7 +3275,12 @@
     },
     "email_capture": {
       "terms_of_service_link_text": "Conditions",
-      "processing": "En cours de traitement…"
+      "processing": "En cours de traitement…",
+      "step_one": {
+        "page_title": "Entrez votre e-mail - %{shop_name}",
+        "heading": "Saisissez votre adresse e-mail",
+        "subheading": "Saisissez votre e-mail et nous vous enverrons un code de vérification"
+      }
     }
   }
 }
