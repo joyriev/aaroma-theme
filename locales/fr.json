@@ -3272,6 +3272,10 @@
           "generic": "Il y a eu un problème avec PayPal. Réessayez ou utilisez une autre méthode de paiement."
         }
       }
+    },
+    "email_capture": {
+      "terms_of_service_link_text": "Conditions",
+      "processing": "En cours de traitement…"
     }
   }
 }
