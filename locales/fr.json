@@ -3286,8 +3286,16 @@
       "brand_logo_alt_text": "Logo %{shop_name}",
       "error": {
         "invalid": {
-          "invalid_email": "Entrez une adresse e-mail valide"
+          "invalid_email": "Entrez une adresse e-mail valide",
+          "invalid_code": "Entrez le code correct à 6 chiffres"
         }
+      },
+      "privacy_link_text": "vie privée"
+    },
+    "subscriptions": {
+      "update_success": {
+        "title": "Méthode de paiement mise à jour",
+        "done_button": "Continuer vos achats"
       }
     }
   }
