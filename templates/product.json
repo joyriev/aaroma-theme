@@ -29,7 +29,7 @@
         "text_8gxCPt": {
           "type": "text",
           "settings": {
-            "text": "<strong>Belangrijkste punten: </strong>{{ product.metafields.custom.top_notes.value.title.value }}",
+            "text": "<strong>Topnoten: </strong>{{ product.metafields.custom.top_notes.value.title.value }}",
             "text_style": "body"
           }
         },
