@@ -64,6 +64,12 @@
       "next_slide": "Swipe right",
       "previous_slide": "Swipe left",
       "name": "Slider"
+    },
+    "countdown": {
+      "days": "Days",
+      "hours": "Hours",
+      "minutes": "Minutes",
+      "seconds": "Seconds"
     }
   },
   "newsletter": {

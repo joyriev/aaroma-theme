@@ -213,6 +213,12 @@
       "next_slide": "Pühkige paremale",
       "previous_slide": "Pühkige vasakule",
       "name": "liugur"
+    },
+    "countdown": {
+      "days": "Päevad",
+      "hours": "Tunnid",
+      "minutes": "Minutid",
+      "seconds": "Sekundid"
     }
   },
   "newsletter": {

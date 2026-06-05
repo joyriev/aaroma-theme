@@ -544,7 +544,14 @@ body {
 
       const deadline = getNextMidnightTimestamp();
 
-      new FlipDown(deadline)
+      new FlipDown(deadline, {
+        headings: [
+          {{ 'general.countdown.days' | t | json }},
+          {{ 'general.countdown.hours' | t | json }},
+          {{ 'general.countdown.minutes' | t | json }},
+          {{ 'general.countdown.seconds' | t | json }}
+        ],
+      })
         .start()
         .ifEnded(() => {
           console.log('Countdown ended');
@@ -657,6 +664,6 @@ body {
     {% unless template.name == 'product' %}
       {% section 'fragrance-search' %}
     {% endunless %}
-  {% render 'checkout-modal' %}
+    {% render 'checkout-modal' %}
   </body>
 </html>

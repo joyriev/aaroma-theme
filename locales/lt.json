@@ -64,6 +64,12 @@
       "next_slide": "Slinkti dešinėn",
       "previous_slide": "Slinkti kairėn",
       "name": "Slankiklis"
+    },
+    "countdown": {
+      "days": "Dienos",
+      "hours": "Valandos",
+      "minutes": "Minutės",
+      "seconds": "Sekundės"
     }
   },
   "newsletter": {

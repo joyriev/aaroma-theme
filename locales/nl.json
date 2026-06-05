@@ -64,6 +64,12 @@
       "next_slide": "Veeg naar rechts",
       "previous_slide": "Veeg naar links",
       "name": "Schuifregelaar"
+    },
+    "countdown": {
+      "days": "Dagen",
+      "hours": "Uren",
+      "minutes": "Minuten",
+      "seconds": "Seconden"
     }
   },
   "newsletter": {

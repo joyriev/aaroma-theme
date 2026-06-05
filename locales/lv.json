@@ -213,6 +213,12 @@
       "next_slide": "Velc pa labi",
       "previous_slide": "Velc pa kreisi",
       "name": "Slīdnis"
+    },
+    "countdown": {
+      "days": "Dienas",
+      "hours": "Stundas",
+      "minutes": "Minūtes",
+      "seconds": "Sekundes"
     }
   },
   "newsletter": {

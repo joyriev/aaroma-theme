@@ -64,6 +64,12 @@
       "next_slide": "Wische nach rechts",
       "previous_slide": "Wische nach links",
       "name": "Schieberegler"
+    },
+    "countdown": {
+      "days": "Tage",
+      "hours": "Stunden",
+      "minutes": "Minuten",
+      "seconds": "Sekunden"
     }
   },
   "newsletter": {
