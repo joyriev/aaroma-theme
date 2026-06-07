@@ -362,6 +362,12 @@ body {
   </script>
     {%- comment -%}{% render 'lazyload_img' %} {% render 'sb-cls-improve' %}{%- endcomment -%}
     {% render 'schema-sitewide' %}
+    <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
+<script>
+    Weglot.initialize({
+        api_key: 'wg_9a96f07858839dbb9b892e54337b81b65'
+    });
+</script>
 
   </head>
 
@@ -665,11 +671,5 @@ body {
       {% section 'fragrance-search' %}
     {% endunless %}
     {% render 'checkout-modal' %}
-    <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
-<script>
-    Weglot.initialize({
-        api_key: 'wg_9a96f07858839dbb9b892e54337b81b65'
-    });
-</script>
   </body>
 </html>
