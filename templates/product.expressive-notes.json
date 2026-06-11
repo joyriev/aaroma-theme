@@ -190,6 +190,20 @@
         "padding_bottom": 72
       }
     },
+    "you_may_like_8Qi8X8": {
+      "type": "you-may-like",
+      "name": "You May Like",
+      "settings": {
+        "background_color": "#faf9f6",
+        "title": "Dit vind je misschien ook leuk",
+        "description": "",
+        "collection": "bestsellers",
+        "button_text": "Alles bekijken",
+        "button_link": "shopify://collections/bestsellers",
+        "padding_top": 0,
+        "padding_bottom": 72
+      }
+    },
     "pdp_bundle_builder": {
       "type": "pdp-bundle-builder",
       "disabled": true,
@@ -1171,6 +1185,7 @@
   },
   "order": [
     "main",
+    "you_may_like_8Qi8X8",
     "pdp_bundle_builder",
     "feature_highlights_TMTJXK",
     "cupid-video-reviews",
