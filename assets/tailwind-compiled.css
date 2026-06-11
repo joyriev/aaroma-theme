@@ -636,6 +636,11 @@
     height: 14px
 }
 
+.\!size-8 {
+    width: 32px !important;
+    height: 32px !important
+}
+
 .h-0 {
     height: 0px
 }
@@ -882,6 +887,10 @@
 
 .max-w-screen-sm {
     max-width: 640px
+}
+
+.max-w-\[250px\] {
+    max-width: 250px
 }
 
 .flex-1 {
@@ -1673,6 +1682,11 @@
     background-color: rgb(34 97 58 / var(--tw-bg-opacity, 1))
 }
 
+.bg-\[\#FAF8F3\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(250 248 243 / var(--tw-bg-opacity, 1))
+}
+
 .bg-opacity-50 {
     --tw-bg-opacity: 0.5
 }
@@ -1917,6 +1931,11 @@
 .\!py-4 {
     padding-top: 16px !important;
     padding-bottom: 16px !important
+}
+
+.\!px-2 {
+    padding-left: 8px !important;
+    padding-right: 8px !important
 }
 
 .\!pb-3 {
@@ -2411,6 +2430,10 @@
 .text-yellow-500 {
     --tw-text-opacity: 1;
     color: rgb(234 179 8 / var(--tw-text-opacity, 1))
+}
+
+.text-inherit {
+    color: inherit
 }
 
 .underline {
@@ -3038,6 +3061,10 @@
     outline-offset: 2px
 }
 
+.disabled\:\!pointer-events-auto:disabled {
+    pointer-events: auto !important
+}
+
 .disabled\:cursor-not-allowed:disabled {
     cursor: not-allowed
 }
@@ -3581,10 +3608,26 @@
     line-height: 28px !important
 }
 
+.\[\&\]\:after\:\!text-sm::after {
+    content: var(--tw-content);
+    font-size: 14px !important;
+    line-height: 20px !important
+}
+
 .\[\&\]\:after\:text-gray-900::after {
     content: var(--tw-content);
     --tw-text-opacity: 1;
     color: rgb(17 24 39 / var(--tw-text-opacity, 1))
+}
+
+.\[\&\]\:after\:text-black::after {
+    content: var(--tw-content);
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0 / var(--tw-text-opacity, 1))
+}
+
+.\[\&_form\]\:flex form {
+    display: flex
 }
 
 .\[\&_img\]\:rounded-xl img {
