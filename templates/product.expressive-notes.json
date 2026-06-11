@@ -128,6 +128,7 @@
         },
         "collapsible_tab_pdYPYn": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Blijven uw geuren langdurig aanwezig?",
             "icon": "perfume",
