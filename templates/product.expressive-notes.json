@@ -16,6 +16,12 @@
           "type": "title",
           "settings": {}
         },
+        "custom_rating_text_KRDfzL": {
+          "type": "custom_rating_text",
+          "settings": {
+            "text": "4,7/5 sterren (10.000+ recensies)"
+          }
+        },
         "cheaper_than_yDGYG9": {
           "type": "cheaper_than",
           "settings": {
@@ -156,6 +162,7 @@
       },
       "block_order": [
         "title",
+        "custom_rating_text_KRDfzL",
         "cheaper_than_yDGYG9",
         "selling_points_9tdid6",
         "text_8gxCPt",
