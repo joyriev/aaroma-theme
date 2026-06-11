@@ -28,64 +28,21 @@
         },
         "text_8gxCPt": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<strong>Topnoten: </strong>{{ product.metafields.custom.top_notes.value.title.value }}",
             "text_style": "body"
           }
         },
-        "variant_picker": {
-          "type": "variant_picker",
-          "disabled": true,
+        "custom_liquid_4ajMA6": {
+          "type": "custom_liquid",
           "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
-        "price": {
-          "type": "price",
-          "disabled": true,
-          "settings": {}
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "disabled": true,
-          "settings": {}
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "disabled": true,
-          "settings": {
-            "show_dynamic_checkout": false,
-            "show_gift_card_recipient": true
+            "custom_liquid": "{% render 'scent-profiling' %}"
           }
         },
         "atc_bundle_builder_aLJUaV": {
           "type": "atc_bundle_builder",
           "settings": {}
-        },
-        "reactive_variant_selector_JyFrkg": {
-          "type": "reactive_variant_selector",
-          "disabled": true,
-          "settings": {}
-        },
-        "shipping_text_HCVN8A": {
-          "type": "shipping_text",
-          "disabled": true,
-          "settings": {}
-        },
-        "custom_liquid_G7fm64": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "{% render 'atc-bundle-builder' %}"
-          }
-        },
-        "custom_liquid_eKzwKK": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "<div class=\"payment-methods\" style=\"margin-top: 15px;\">\n  <!-- Payment Logos Section -->\n  <div class=\"payment-logos\" style=\"display: flex; margin-bottom: 15px; align-items: center; justify-content: space-between; width: 100%;\">\n    <img src=\"https://mds.oceanpayment.com/assets/shopifylogo/svg/american_express.svg\" alt=\"American Express\" style=\"height: 25px; flex: 1; max-width: 40px;\">\n    <img src=\"https://mds.oceanpayment.com/assets/shopifylogo/svg/apple_pay.svg\" alt=\"Apple Pay\" style=\"height: 25px; flex: 1; max-width: 40px;\">\n    <img src=\"https://mds.oceanpayment.com/assets/shopifylogo/svg/google_pay.svg\" alt=\"Google Pay\" style=\"height: 25px; flex: 1; max-width: 40px;\">\n    <img src=\"https://mds.oceanpayment.com/assets/shopifylogo/svg/klarna.svg\" alt=\"Klarna\" style=\"height: 25px; flex: 1; max-width: 40px;\">\n    <img src=\"https://mds.oceanpayment.com/assets/shopifylogo/svg/paypal.svg\" alt=\"PayPal\" style=\"height: 25px; flex: 1; max-width: 40px;\">\n    <img src=\"https://mds.oceanpayment.com/assets/shopifylogo/svg/visa.svg\" alt=\"Visa\" style=\"height: 25px; flex: 1; max-width: 40px;\">\n    <img src=\"https://mds.oceanpayment.com/assets/shopifylogo/svg/mastercard.svg\" alt=\"Mastercard\" style=\"height: 25px; flex: 1; max-width: 40px;\">\n  </div>\n  \n  <!-- Pay Later Section -->\n  <div class=\"pay-later-section\" style=\"padding: 15px; border-radius: 6px; background: #f8f9fa;\">\n    <div class=\"pay-later-info\" style=\"display: flex; align-items: center; justify-content: space-between;\">\n      <span style=\"font-size: 14px; color: #333;\">Pay later with Klarna / Afterpay</span>\n      <div class=\"pay-later-logos\" style=\"display: flex; gap: 8px; align-items: center;\">\n        <img src=\"https://mds.oceanpayment.com/assets/shopifylogo/svg/klarna.svg\" alt=\"Klarna\" style=\"height: 35px;\">\n        <img src=\"https://mds.oceanpayment.com/assets/shopifylogo/svg/afterpay.svg\" alt=\"Afterpay\" style=\"height: 35px;\">\n      </div>\n    </div>\n  </div>\n</div>"
-          }
         },
         "icon_with_text_rgXMXN": {
           "type": "icon-with-text",
@@ -196,15 +153,8 @@
         "cheaper_than_yDGYG9",
         "selling_points_9tdid6",
         "text_8gxCPt",
-        "variant_picker",
-        "price",
-        "quantity_selector",
-        "buy_buttons",
+        "custom_liquid_4ajMA6",
         "atc_bundle_builder_aLJUaV",
-        "reactive_variant_selector_JyFrkg",
-        "shipping_text_HCVN8A",
-        "custom_liquid_G7fm64",
-        "custom_liquid_eKzwKK",
         "icon_with_text_rgXMXN",
         "money_back_eKXfnE",
         "people_purchased_cYxaYJ",
