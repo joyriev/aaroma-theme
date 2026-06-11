@@ -2377,6 +2377,14 @@
     text-decoration-line: none
 }
 
+.decoration-2 {
+    text-decoration-thickness: 2px
+}
+
+.underline-offset-4 {
+    text-underline-offset: 4px
+}
+
 .accent-\[\#944234\] {
     accent-color: #944234
 }
@@ -2890,6 +2898,10 @@
 
 .hover\:no-underline:hover {
     text-decoration-line: none
+}
+
+.hover\:decoration-\[\#22613A\]:hover {
+    text-decoration-color: #22613A
 }
 
 .hover\:opacity-100:hover {
