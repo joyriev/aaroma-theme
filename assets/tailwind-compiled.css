@@ -1635,6 +1635,16 @@
     background-color: rgb(255 255 255 / 0.4)
 }
 
+.bg-\[\#1E5834\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(30 88 52 / var(--tw-bg-opacity, 1))
+}
+
+.bg-\[\#22613a\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(34 97 58 / var(--tw-bg-opacity, 1))
+}
+
 .bg-opacity-50 {
     --tw-bg-opacity: 0.5
 }
@@ -1871,6 +1881,16 @@
     padding-bottom: 2px
 }
 
+.\!px-3 {
+    padding-left: 12px !important;
+    padding-right: 12px !important
+}
+
+.\!py-4 {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important
+}
+
 .\!pb-3 {
     padding-bottom: 12px !important
 }
@@ -2065,6 +2085,10 @@
 .text-xs {
     font-size: 12px;
     line-height: 16px
+}
+
+.text-\[20px\] {
+    font-size: 20px
 }
 
 .\!font-black {
@@ -2887,6 +2911,11 @@
     background-color: rgb(15 23 42 / var(--tw-bg-opacity, 1))
 }
 
+.hover\:bg-\[\#368856\]:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(54 136 86 / var(--tw-bg-opacity, 1))
+}
+
 .hover\:text-white:hover {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity, 1))
@@ -3322,6 +3351,10 @@
     .md\:text-xs {
         font-size: 12px;
         line-height: 16px
+    }
+
+    .md\:text-\[24px\] {
+        font-size: 24px
     }
 
     .md\:tracking-wider {

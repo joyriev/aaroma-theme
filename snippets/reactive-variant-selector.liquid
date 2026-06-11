@@ -56,8 +56,7 @@
     , id: product_form_id
     , class: 'form'
     , novalidate: 'novalidate'
-    , data-type: 'add-to-cart-form'
-  -%}
+    , data-type: 'add-to-cart-form' -%}
     <input
       type="hidden"
       name="id"
@@ -76,20 +75,20 @@
       type="submit"
       name="add"
       value="1"
-      class="atc-button shimmer-btn cta_product_from_submit_btn flex flex-wrap items-center !mb-0 text-2xl !p-3 rounded-lg button bg-[#006a27] hover:bg-[#015520] transition-colors shadow-xl tracking-normal button--full-width button--primary"
-      aria-label="Add to cart"
+      class="atc-button shimmer-btn cta_product_from_submit_btn flex gap-2 flex-wrap items-center !mb-0 !py-4 !px-3 rounded-lg button bg-[#22613a] hover:bg-[#368856] transition-colors shadow-xl tracking-normal button--full-width button--primary"
+      aria-label="{{ 'products.product.add_to_cart' | t }}"
       {% if product.metafields.custom.choose_your_fragrances_options != blank %}
       disabled="disabled"
       {% endif %}>
-      <span>{{ 'products.product.add_to_cart' | t }}</span>
-      <div class="ml-2 pl-2 border-0 border-l flex items-center border-solid border-gray-200/20">
+      <span class="text-[20px] md:text-[24px]">{{ 'products.product.add_to_cart' | t }}</span>
+      <div class="flex items-center">
         <div
-          class="inline-block text-lg bg-[#015520] px-3 rounded"
+          class="inline-block text-base md:text-lg bg-[#1E5834] px-3 rounded"
           id="product-price"
           role="status"
           {{ block.shopify_attributes }}>
           {% if selected_variant.compare_at_price > selected_variant.price %}
-            <span class="compare-price line-through text-white/50 text-base">{{ selected_variant.compare_at_price | money }}</span>
+            <span class="compare-price line-through text-white/50 text-sm md:text-base">{{ selected_variant.compare_at_price | money }}</span>
           {% endif %}
           <span class="current-price">{{ selected_variant.price | money }}</span>
         </div>
@@ -101,8 +100,8 @@
 
 <div class="!my-6">
   <p class="my-0 text-center font-semibold tracking-normal">
-    Wereldwijde bezorging
-    <span class="shipping_location">Worldwide</span>
+    Verzending naar
+    <span class="shipping_location">wereldwijd</span>
     binnen 5 werkdagen.
   </p>
 </div>
