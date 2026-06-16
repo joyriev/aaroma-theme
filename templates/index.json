@@ -11,6 +11,7 @@
   "sections": {
     "magic_hero_GLbzbL": {
       "type": "magic-hero",
+      "disabled": true,
       "name": "Magic Hero",
       "settings": {
         "background_color": "#fcfbf9",
@@ -28,15 +29,16 @@
     },
     "homepage_hero_XnJ8mD": {
       "type": "homepage-hero",
-      "disabled": true,
       "name": "Homepage Hero",
       "settings": {
         "background_color": "#fcfbf9",
-        "review_text": "LOVED BY 10,000 CUSTOMERS",
-        "title": "Homepage Hero",
-        "subtitle": "Homepage Hero",
-        "button_text": "BUY 3 GET 1 FREE - ENDS SOON!",
-        "button_link": "",
+        "background_image": "shopify://shop_images/Tryscent_days_desktop.png",
+        "mobile_background_image": "shopify://shop_images/Tryscent_days_desktop.png",
+        "review_text": "GELIEFD DOOR 10.000 KLANTEN",
+        "title": "Aaroma Days! Ruik als een miljoenair",
+        "subtitle": "Jouw favoriete luxeparfums, nu voor een fractie van de prijs, 95% korting.",
+        "button_text": "Al vanaf 4,59 euro per fles",
+        "button_link": "shopify://collections/bundle-save",
         "secondary_button_text": "Not sure yet? Explore More →",
         "secondary_button_link": "",
         "padding_top": 36,
