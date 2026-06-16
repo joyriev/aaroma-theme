@@ -26,6 +26,25 @@
         "padding_bottom": 36
       }
     },
+    "homepage_hero_XnJ8mD": {
+      "type": "homepage-hero",
+      "disabled": true,
+      "name": "Homepage Hero",
+      "settings": {
+        "background_color": "#fcfbf9",
+        "review_text": "LOVED BY 10,000 CUSTOMERS",
+        "title": "Homepage Hero",
+        "subtitle": "Homepage Hero",
+        "button_text": "BUY 3 GET 1 FREE - ENDS SOON!",
+        "button_link": "",
+        "secondary_button_text": "Not sure yet? Explore More →",
+        "secondary_button_link": "",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "mobile_padding_top": 36,
+        "mobile_padding_bottom": 36
+      }
+    },
     "home_hero_banner_qmaB3G": {
       "type": "home-hero-banner",
       "disabled": true,
@@ -932,6 +951,7 @@
   },
   "order": [
     "magic_hero_GLbzbL",
+    "homepage_hero_XnJ8mD",
     "home_hero_banner_qmaB3G",
     "marquee_labels_RLdqpN",
     "feature_highlights_wfUacV",
