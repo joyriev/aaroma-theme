@@ -157,9 +157,9 @@
       "name": "Popular Products",
       "settings": {
         "background_color": "#fcfbf9",
-        "title": "Popular Products",
+        "title": "Aromadagenpakket",
         "description": "",
-        "collection": "bestsellers",
+        "collection": "aaroma-day",
         "button_text": "",
         "button_link": "shopify://collections/all",
         "padding_top": 36,
