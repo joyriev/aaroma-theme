@@ -108,14 +108,44 @@
     },
     "collection_header_MVrd93": {
       "type": "collection-header",
+      "blocks": {
+        "step_iqJcDJ": {
+          "type": "step",
+          "settings": {
+            "step_title": "Bespaar tot 40% met onze pakketten.",
+            "step_description": "Kies je favoriete geuren en voeg ze toe aan je winkelmandje."
+          }
+        },
+        "step_eCyHxX": {
+          "type": "step",
+          "settings": {
+            "step_title": "Ontvang tot twee GRATIS parfums!",
+            "step_description": "Koop voor 34 euro en krijg er 1 gratis. Koop voor 65 euro en krijg er 2 gratis."
+          }
+        },
+        "step_yYVfT7": {
+          "type": "step",
+          "settings": {
+            "step_title": "Besteed minimaal 35 euro.",
+            "step_description": "En profiteer van gratis verzending!"
+          }
+        }
+      },
+      "block_order": [
+        "step_iqJcDJ",
+        "step_eCyHxX",
+        "step_yYVfT7"
+      ],
       "name": "Collection Header",
       "settings": {
         "background_color": "#242833",
+        "bg_image": "shopify://shop_images/desktop_shade.png",
+        "bg_mobile_image": "shopify://shop_images/shaded_mobile.png",
         "social_proof_text": "Join 10,000+ happy customers",
-        "collection_title": "Collection Title",
-        "collection_description": "Best scents you've ever smelled or your money back.",
+        "collection_title": "Aaroma dagen!",
+        "collection_description": "Koop je favoriete geur nu voor nóg betere prijzen!",
         "btn_link": "",
-        "btn_text": "View All",
+        "btn_text": "en tot twee flessen gratis!",
         "padding_top": 72,
         "padding_bottom": 72,
         "mobile_padding_top": 40,
