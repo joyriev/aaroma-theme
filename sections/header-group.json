@@ -11,6 +11,18 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
+    "offer_timebar_PNTbqg": {
+      "type": "offer-timebar",
+      "name": "Offer Timebar",
+      "settings": {
+        "background_color": "#723631",
+        "forground_color": "#15803d",
+        "prepend_text": "Probeer Scent Days! Ontvang tot twee gratis parfums!",
+        "ends_in_minutes": 30,
+        "append_text": "",
+        "link": ""
+      }
+    },
     "announcement_bar_6UYB9c": {
       "type": "announcement-bar",
       "blocks": {
@@ -115,6 +127,7 @@
     }
   },
   "order": [
+    "offer_timebar_PNTbqg",
     "announcement_bar_6UYB9c",
     "marquee_labels_CjAgNU",
     "offer_announcement_cN6pMF",
