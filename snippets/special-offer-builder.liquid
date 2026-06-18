@@ -125,7 +125,7 @@
 
 <div class="!my-6">
   <p class="my-0 text-center font-semibold tracking-normal">
-   Wereldwijde bezorging  
+    Wereldwijde bezorging
     <span class="shipping_location">Worldwide</span>
     binnen 5 werkdagen.
   </p>
@@ -187,7 +187,7 @@
         const matchesCategory = product.tags.some(tag => {
           return tag === this.activeCategory;
         }) || this.activeCategory === 'All';
-        const matchesSearch = this.searchText === '' || product.name.toLowerCase().includes(this.searchText.toLowerCase());
+        const matchesSearch = this.searchText === '' || product.name.toLowerCase().includes(this.searchText.toLowerCase()) || (product.inspiration_name && product.inspiration_name.toLowerCase().includes($store.bundleBuilder.searchText.toLowerCase()));
         return matchesCategory && matchesSearch;
       },
       doCheckout() {
