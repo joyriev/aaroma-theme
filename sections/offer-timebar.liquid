@@ -191,7 +191,7 @@
         // FlipDown Countdown - 24 hours
         var twentyFourHoursFromNow = (new Date().getTime() / 1000) + (3600 * 8) + (60 * 23) + 1;
         var flipdown = new FlipDown(twentyFourHoursFromNow, {
-          headings: ["Dagar", "Timmar", "Minuter", "Sekunder"],
+          headings: ["Dagen", "Uren", "Minuten", "Seconden"],
         })
           .start()
           .ifEnded(() => {
