@@ -8,18 +8,16 @@
  * ------------------------------------------------------------
  */
 {
-  "markets": {
-    "dutch": {
-      "parent": "@default"
-    },
-    "france": {
-      "parent": "@default"
-    },
-    "belgium": {
-      "parent": "@default"
-    },
-    "estonia": {
-      "parent": "@default"
+  "context": {
+    "market": "estonia"
+  },
+  "parent": "header-group.json",
+  "sections": {
+    "offer_timebar_PNTbqg": {
+      "settings": {
+        "prepend_text": "PALGAPÄEVA SOODUSMÜÜK – 30% ALLAHINDA"
+      },
+      "blocks": {}
     }
   }
 }
