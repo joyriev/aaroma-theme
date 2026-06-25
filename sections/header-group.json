@@ -17,7 +17,7 @@
       "settings": {
         "background_color": "#723631",
         "forground_color": "#15803d",
-        "prepend_text": "PAYDAY-UITVERKOOP: 30 KORTING",
+        "prepend_text": "UITVERKOOP: 30% KORTING.",
         "ends_in_minutes": 30,
         "append_text": "",
         "link": ""
