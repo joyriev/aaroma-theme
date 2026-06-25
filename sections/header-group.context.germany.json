@@ -12,5 +12,12 @@
     "market": "germany"
   },
   "parent": "header-group.json",
-  "sections": {}
+  "sections": {
+    "offer_timebar_PNTbqg": {
+      "settings": {
+        "prepend_text": "PAYDAY-SALE 30% RABATT"
+      },
+      "blocks": {}
+    }
+  }
 }

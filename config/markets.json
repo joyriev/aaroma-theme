@@ -20,6 +20,9 @@
     },
     "estonia": {
       "parent": "@default"
+    },
+    "germany": {
+      "parent": "@default"
     }
   }
 }
