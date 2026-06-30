@@ -350,8 +350,9 @@ body {
       rel="stylesheet"
       href="{{ 'tailwind-compiled.css' | asset_url }}"
       media="all">
+    {{ 'blocky.css' | asset_url | stylesheet_tag }}
 
-      {% comment %} Load Swiper Assets {% endcomment %}
+    {% comment %} Load Swiper Assets {% endcomment %}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <script defer="" src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
