@@ -152,6 +152,23 @@
         "mobile_padding_bottom": 40
       }
     },
+    "blocky_image_embedded_cEwD7H": {
+      "type": "blocky-image-embedded",
+      "disabled": true,
+      "name": "Blocky Image Embed",
+      "settings": {
+        "section_height": "550px",
+        "mobile_height": "500px",
+        "image_fit": "cover",
+        "border_radius": 30,
+        "overlay_opacity": 0,
+        "text_align": "vertical-center horizontal-center",
+        "full_screen": false,
+        "page_width": 1200,
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
     "popular_products_axKNqT": {
       "type": "popular-products",
       "name": "Popular Products",
@@ -218,6 +235,7 @@
     "banner",
     "177738410212698ad2",
     "collection_header_MVrd93",
+    "blocky_image_embedded_cEwD7H",
     "popular_products_axKNqT",
     "product-grid",
     "rich_text_fnCgkL"
