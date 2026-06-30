@@ -136,6 +136,7 @@
         "step_eCyHxX",
         "step_yYVfT7"
       ],
+      "disabled": true,
       "name": "Collection Header",
       "settings": {
         "background_color": "#242833",
@@ -154,11 +155,11 @@
     },
     "blocky_image_embedded_cEwD7H": {
       "type": "blocky-image-embedded",
-      "disabled": true,
       "name": "Blocky Image Embed",
       "settings": {
-        "section_height": "550px",
-        "mobile_height": "500px",
+        "image": "shopify://shop_images/ducth.png",
+        "section_height": "650px",
+        "mobile_height": "300px",
         "image_fit": "cover",
         "border_radius": 30,
         "overlay_opacity": 0,
