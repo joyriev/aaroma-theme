@@ -282,6 +282,28 @@
         "padding_bottom": 72
       }
     },
+    "home_category_6m363t": {
+      "type": "home-category",
+      "blocks": {
+        "category_D6LmzN": {
+          "type": "category",
+          "settings": {
+            "text": "Text",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "category_D6LmzN"
+      ],
+      "disabled": true,
+      "name": "Home Categories",
+      "settings": {
+        "background_color": "#fcfbf9",
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
     "review_grid_H3xfHP": {
       "type": "review-grid",
       "blocks": {
@@ -962,6 +984,7 @@
     "popular_products_nC8A3n",
     "popular_products_nimyqA",
     "home_category_wNQCfP",
+    "home_category_6m363t",
     "review_grid_H3xfHP",
     "image_and_text",
     "special_offer_bogo_NqVrAK",
