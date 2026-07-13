@@ -17,8 +17,8 @@
       "settings": {
         "background_color": "#723631",
         "forground_color": "#15803d",
-        "prepend_text": "UITVERKOOP: 30% KORTING.",
-        "ends_in_minutes": 30,
+        "prepend_text": "Zomeruitverkoop: 3 kopen, 1 gratis",
+        "countdown_date": "",
         "append_text": "",
         "link": ""
       }
