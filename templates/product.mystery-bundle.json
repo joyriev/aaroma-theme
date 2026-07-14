@@ -48,12 +48,6 @@
             "show_gift_card_recipient": true
           }
         },
-        "custom_liquid_ARBJTH": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div class=\"flex items-center gap-1 font-normal text-black leading-[normal]\">\n                    <span class=\"cheaper_than_text\" style=\"font-size: 14px; line-height: normal;\">{{ product.metafields.custom.bundle_product_content }}</span> \n                  </div>"
-          }
-        },
         "atc_bundle_builder_aLJUaV": {
           "type": "atc_bundle_builder",
           "settings": {}
@@ -193,7 +187,6 @@
         "price",
         "quantity_selector",
         "buy_buttons",
-        "custom_liquid_ARBJTH",
         "atc_bundle_builder_aLJUaV",
         "reactive_variant_selector_JyFrkg",
         "shipping_text_HCVN8A",
