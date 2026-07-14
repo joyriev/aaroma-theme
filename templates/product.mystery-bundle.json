@@ -22,17 +22,6 @@
             "number": 0
           }
         },
-        "selling_points_9tdid6": {
-          "type": "selling_points",
-          "settings": {}
-        },
-        "text_8gxCPt": {
-          "type": "text",
-          "settings": {
-            "text": "<strong>Topnoten: </strong>{{ product.metafields.custom.top_notes.value.title.value }}",
-            "text_style": "body"
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "disabled": true,
@@ -57,6 +46,12 @@
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
+          }
+        },
+        "custom_liquid_ARBJTH": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"flex items-center gap-1 font-normal text-black leading-[normal]\">\n                    <span class=\"cheaper_than_text\" style=\"font-size: 14px; line-height: normal;\">{{ product.metafields.custom.bundle_product_content }}</span> \n                  </div>"
           }
         },
         "atc_bundle_builder_aLJUaV": {
@@ -194,12 +189,11 @@
       "block_order": [
         "title",
         "cheaper_than_yDGYG9",
-        "selling_points_9tdid6",
-        "text_8gxCPt",
         "variant_picker",
         "price",
         "quantity_selector",
         "buy_buttons",
+        "custom_liquid_ARBJTH",
         "atc_bundle_builder_aLJUaV",
         "reactive_variant_selector_JyFrkg",
         "shipping_text_HCVN8A",
