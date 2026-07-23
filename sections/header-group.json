@@ -17,8 +17,8 @@
       "settings": {
         "background_color": "#723631",
         "forground_color": "#15803d",
-        "prepend_text": "Zomeruitverkoop: 3 kopen, 1 gratis",
-        "countdown_date": "",
+        "prepend_text": "LOONDAG UITVERKOOP – 30% KORTING OP JE GEHELE WINKELWAGEN",
+        "countdown_date": "2026/08/02 23:59:59",
         "append_text": "",
         "link": ""
       }
@@ -28,8 +28,9 @@
       "blocks": {
         "announcement_RnCB3b": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
-            "text": "Gratis verzending Vanaf €45",
+            "text": "Gratis verzending Vanaf €55",
             "link": ""
           }
         }
