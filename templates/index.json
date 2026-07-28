@@ -454,6 +454,7 @@
         "review_gF6wKD": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/261_revie.png",
             "content": "<p>\"Dit is mijn eerste aankoop en ik ben verslaafd. Ik zal nooit meer ergens anders parfum kopen. Ik kon nooit een dupe-geur vinden die echt authentiek en consistent rook.\"</p>",
             "author": "Killian P.",
             "date": "1 dag geleden",
@@ -465,17 +466,19 @@
         "review_ByDgLX": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/2026-07-02_16h41_42.png",
             "content": "<p>\"Dit is het beste parfum dat ik in heel lange tijd heb geroken. De noten maken me krankzinnig van geluk. Ik zal dit voor altijd in mijn rotatie houden.\"</p>",
             "author": "Jenniffer W.",
             "date": "2 dagen geleden",
             "rating": 4,
             "show_verified_badge": true,
-            "product": "4x-50ml-perfume-bottles"
+            "product": ""
           }
         },
         "review_dKt8hn": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/2026-07-02_16h55_49.png",
             "content": "<p>\"Alle drie de geuren die ik heb ontvangen zijn erg goed. Blijven lang hangen en ruiken zoals ze zouden moeten. Ik was alleen ontevreden over de tijd die het kostte om ze te ontvangen. Maar eerlijk gezegd heb ik een tweede bestelling geplaatst, dus verwacht gewoon een wachttijd. Lol!<br/>\"</p>",
             "author": "Clara P.",
             "date": "2 dagen geleden",
@@ -487,6 +490,7 @@
         "review_VrkHXh": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/Mounissa_Soilihi.jpg",
             "content": "<p>\"Ik probeerde al lang geuren te vinden die duur ruiken én lang meegaan, maar tevergeefs. Dit is precies wat ik zocht.\"</p>",
             "author": "Tiana N.",
             "date": "2 dagen geleden",
@@ -498,6 +502,7 @@
         "review_wczQWw": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/Camila_Sena_Oliveira_1.jpg",
             "content": "<p>\"Ik wist niet wat ik moest verwachten, maar dit heeft me echt verrast. Ruikt super fris en eerlijk gezegd heel dicht bij Aventus. Het blijft goed hangen en de prijs is veel beter.\"</p>",
             "author": "Michael T.",
             "date": "2 dagen geleden",
@@ -520,6 +525,7 @@
         "review_9fWXGn": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/Daria_Kononenko_2.jpg",
             "content": "<p>\"Ik ben dol op deze parfums!!! Elk parfum dat ik heb gekregen ruikt goddelijk. Sommige zou ik zelfs beter vinden dan het origineel.\"</p>",
             "author": "Christine N.",
             "date": "5 dagen geleden",
@@ -531,6 +537,7 @@
         "review_iPjTCz": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/Celia_Sahki_1.jpg",
             "content": "<p>\"In het begin was ik bezorgd omdat de verzending iets vertraagd was, maar toen ik ze eenmaal ontving, was ik verbaasd over de geur. Zodra het zich zet, is het gewoonweg geweldig.\"</p>",
             "author": "Lionel M.",
             "date": "7 dagen geleden",
@@ -553,6 +560,7 @@
         "review_DzktgE": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/2026-07-02_16h57_29.png",
             "content": "<p>\"Het is perfect en prachtig 🥰🥰🥰\"</p>",
             "author": "Lidis A.",
             "date": "2 maanden geleden",
@@ -564,6 +572,7 @@
         "review_YpX9h9": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/Carolina_Maresca_2.png",
             "content": "<p>\"Het ruikt heerlijk, ik ben er dol op\"</p>",
             "author": "Castillo B.",
             "date": "3 maanden geleden",
@@ -575,6 +584,7 @@
         "review_NBGz7p": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/Aleksandra_Kosin.jpg",
             "content": "<p>\"Heerlijk ruikende parfums, de geuren blijven heel lang hangen, uitstekende kwaliteit\"</p>",
             "author": "Kamila G.",
             "date": "3 maanden geleden",
@@ -597,6 +607,7 @@
         "review_hAJXhk": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/2026-07-02_16h58_13.png",
             "content": "<p>\"Dit is het soort geur waardoor je je verzorgd voelt. Niet overweldigend, precies goed. 👌\"</p>",
             "author": "Michael R.",
             "date": "4 maanden geleden",
@@ -619,6 +630,7 @@
         "review_BLYVmX": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/2026-07-02_16h49_01.png",
             "content": "<p>\"Het product was netjes verpakt. Het parfum was niet gebroken, lekte niet en verkeerde in goede staat. De geur is perfect en rook niet slecht. Ik ben er dol op, hoge kwaliteit\"</p>",
             "author": "Anne E.",
             "date": "4 maanden geleden",
@@ -630,6 +642,7 @@
         "review_eerxBx": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/Anastasiia_Komisarova.jpg",
             "content": "<p>\"Prachtige geur. Lang aanhoudend. <br/>Zoet en warm. Snelle levering. <br/>Zal zeker opnieuw bestellen.\"</p>",
             "author": "Lucy R",
             "date": "4 maanden geleden",
@@ -663,6 +676,7 @@
         "review_pqPKKr": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/2026-07-02_16h48_27.png",
             "content": "<p>\"Geweldige geuren, geweldige producten, geen problemen.\"</p>",
             "author": "Alex S.",
             "date": "6 maanden geleden",
