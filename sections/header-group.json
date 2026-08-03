@@ -17,8 +17,8 @@
       "settings": {
         "background_color": "#723631",
         "forground_color": "#15803d",
-        "prepend_text": "LOONDAG UITVERKOOP – 30% korting OP JE GEHELE WINKELWAGEN",
-        "countdown_date": "2026/08/02 23:59:59",
+        "prepend_text": "3 kopen, 1 gratis",
+        "countdown_date": "2026/08/15 23:59:59",
         "append_text": "",
         "link": "shopify://collections/bundle-save"
       }
