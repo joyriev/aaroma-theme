@@ -109,11 +109,11 @@
     "collection_header_MVrd93": {
       "type": "collection-header",
       "blocks": {
-        "guarantee_GGkLFn": {
+        "guarantee_HNVUyd": {
           "type": "guarantee",
           "settings": {
-            "icon": "shopify://shop_images/sheild-star_1.svg",
-            "text": "60 dagen geld-terug-garantie"
+            "icon": "shopify://shop_images/sandwatch_1.svg",
+            "text": "Gaat 12+ uur mee"
           }
         },
         "guarantee_TtGaNe": {
@@ -123,11 +123,11 @@
             "text": "Een geuroliegehalte van 19–21 %"
           }
         },
-        "guarantee_HNVUyd": {
+        "guarantee_GGkLFn": {
           "type": "guarantee",
           "settings": {
-            "icon": "shopify://shop_images/sandwatch_1.svg",
-            "text": "Gaat 12+ uur mee"
+            "icon": "shopify://shop_images/sheild-star_1.svg",
+            "text": "60 dagen geld-terug-garantie"
           }
         },
         "step_iqJcDJ": {
@@ -153,9 +153,9 @@
         }
       },
       "block_order": [
-        "guarantee_GGkLFn",
-        "guarantee_TtGaNe",
         "guarantee_HNVUyd",
+        "guarantee_TtGaNe",
+        "guarantee_GGkLFn",
         "step_iqJcDJ",
         "step_eCyHxX",
         "step_yYVfT7"
