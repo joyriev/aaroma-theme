@@ -112,22 +112,22 @@
         "step_iqJcDJ": {
           "type": "step",
           "settings": {
-            "step_title": "Bespaar tot 40% met onze pakketten.",
-            "step_description": "Kies je favoriete geuren en voeg ze toe aan je winkelmandje."
+            "step_title": "Ontvang 30% korting op je hele winkelmandje",
+            "step_description": "Kies je favoriete geuren en voeg ze toe aan je winkelmandje"
           }
         },
         "step_eCyHxX": {
           "type": "step",
           "settings": {
-            "step_title": "Ontvang tot twee GRATIS parfums!",
-            "step_description": "Koop voor 34 euro en krijg er 1 gratis. Koop voor 65 euro en krijg er 2 gratis."
+            "step_title": "Bespaar nog meer met pakketten!",
+            "step_description": "Koop er 3 – bespaar 40%. Koop er 6 – bespaar 48%."
           }
         },
         "step_yYVfT7": {
           "type": "step",
           "settings": {
-            "step_title": "Besteed minimaal 35 euro.",
-            "step_description": "En profiteer van gratis verzending!"
+            "step_title": "Bestel voor minimaal 65 Euro",
+            "step_description": "Profiteer van GRATIS verzending en GRATIS cadeaus!"
           }
         }
       },
@@ -136,17 +136,16 @@
         "step_eCyHxX",
         "step_yYVfT7"
       ],
-      "disabled": true,
       "name": "Collection Header",
       "settings": {
         "background_color": "#242833",
         "bg_image": "shopify://shop_images/desktop_shade.png",
         "bg_mobile_image": "shopify://shop_images/shaded_mobile.png",
-        "social_proof_text": "Sluit je aan bij meer dan 10.000 tevreden klanten.",
-        "collection_title": "Aaroma dagen!",
-        "collection_description": "Koop je favoriete geur nu voor nóg betere prijzen!",
+        "social_proof_text": "Goedgekeurd door meer dan 10.000 tevreden geurliefhebbers",
+        "collection_title": "Uitverkoop op betaaldag!",
+        "collection_description": "Koop je favoriete geuren tegen nog betere prijzen! En bespaar nog meer met pakketaanbiedingen!",
         "btn_link": "",
-        "btn_text": "en tot twee flessen gratis!",
+        "btn_text": "",
         "padding_top": 72,
         "padding_bottom": 72,
         "mobile_padding_top": 40,
@@ -155,6 +154,7 @@
     },
     "blocky_image_embedded_cEwD7H": {
       "type": "blocky-image-embedded",
+      "disabled": true,
       "name": "Blocky Image Embed",
       "settings": {
         "image": "shopify://shop_images/ducth.png",
@@ -175,7 +175,7 @@
       "name": "Popular Products",
       "settings": {
         "background_color": "#fcfbf9",
-        "title": "Aromadagenpakket",
+        "title": "Bespaar meer en koop meer met pakketten!",
         "description": "",
         "collection": "aaroma-day",
         "button_text": "",
