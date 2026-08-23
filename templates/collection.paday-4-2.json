@@ -109,6 +109,27 @@
     "collection_header_MVrd93": {
       "type": "collection-header",
       "blocks": {
+        "guarantee_GGkLFn": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "shopify://shop_images/sheild-star_1.svg",
+            "text": "60 dagen geld-terug-garantie"
+          }
+        },
+        "guarantee_TtGaNe": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "shopify://shop_images/icons_quality_3.webp",
+            "text": "Een geuroliegehalte van 19–21 %"
+          }
+        },
+        "guarantee_HNVUyd": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "shopify://shop_images/sandwatch_1.svg",
+            "text": "Gaat 12+ uur mee"
+          }
+        },
         "step_iqJcDJ": {
           "type": "step",
           "settings": {
@@ -132,6 +153,9 @@
         }
       },
       "block_order": [
+        "guarantee_GGkLFn",
+        "guarantee_TtGaNe",
+        "guarantee_HNVUyd",
         "step_iqJcDJ",
         "step_eCyHxX",
         "step_yYVfT7"
@@ -139,8 +163,8 @@
       "name": "Collection Header",
       "settings": {
         "background_color": "#242833",
-        "bg_image": "shopify://shop_images/desktop_shade.png",
-        "bg_mobile_image": "shopify://shop_images/shaded_mobile.png",
+        "bg_image": "shopify://shop_images/payday_banner.png",
+        "bg_mobile_image": "shopify://shop_images/payday_mobile_Nobottles.jpg",
         "social_proof_text": "Goedgekeurd door meer dan 10.000 tevreden geurliefhebbers",
         "collection_title": "Uitverkoop op betaaldag!",
         "collection_description": "Koop je favoriete geuren tegen nog betere prijzen! En bespaar nog meer met pakketaanbiedingen!",
