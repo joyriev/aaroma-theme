@@ -12,5 +12,14 @@
     "market": "germany"
   },
   "parent": "index.json",
-  "sections": {}
+  "sections": {
+    "homepage_hero_XnJ8mD": {
+      "settings": {
+        "title": "LOHNTAG-AUSVERKAUF – 30 % RABATT",
+        "subtitle": "Kaufen Sie Ihre Lieblingsdüfte zu noch günstigeren Preisen! Und sparen Sie mit unseren Paketangeboten noch mehr!",
+        "button_text": "Jetzt einkaufen"
+      },
+      "blocks": {}
+    }
+  }
 }
