@@ -12,5 +12,13 @@
     "market": "switz"
   },
   "parent": "index.json",
-  "sections": {}
+  "sections": {
+    "homepage_hero_XnJ8mD": {
+      "settings": {
+        "title": "SOLDES DU JOUR DE PAIE – 30 % DE RÉDUCTION",
+        "subtitle": "Achetez vos parfums préférés à des prix encore plus avantageux ! Et faites encore plus d'économies grâce aux offres groupées !"
+      },
+      "blocks": {}
+    }
+  }
 }

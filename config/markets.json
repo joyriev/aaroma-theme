@@ -23,6 +23,9 @@
     },
     "germany": {
       "parent": "@default"
+    },
+    "switz": {
+      "parent": "@default"
     }
   }
 }
