@@ -18,7 +18,7 @@
         "background_color": "#723631",
         "forground_color": "#15803d",
         "prepend_text": "3 kopen, 1 gratis",
-        "countdown_date": "2026/08/15 23:59:59",
+        "countdown_date": "",
         "append_text": "",
         "link": "shopify://collections/bundle-save"
       }
