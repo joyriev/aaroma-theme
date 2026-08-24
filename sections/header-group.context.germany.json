@@ -15,7 +15,8 @@
   "sections": {
     "offer_timebar_PNTbqg": {
       "settings": {
-        "prepend_text": "LOONDAG-SCHLUSSVERKAUF – 30 % RABATT AUF DEINEN GESAMTEN WARENKORB"
+        "prepend_text": "LOHNTAG-AUSVERKAUF",
+        "append_text": "30 % RABATT"
       },
       "blocks": {}
     }
