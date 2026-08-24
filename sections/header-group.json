@@ -17,9 +17,9 @@
       "settings": {
         "background_color": "#723631",
         "forground_color": "#15803d",
-        "prepend_text": "3 kopen, 1 gratis",
-        "countdown_date": "",
-        "append_text": "",
+        "prepend_text": "SALARISDAG-UITVERKOOP",
+        "countdown_date": "2026/08/30",
+        "append_text": "30% KORTING",
         "link": "shopify://collections/bundle-save"
       }
     },
