@@ -15,7 +15,8 @@
   "sections": {
     "offer_timebar_PNTbqg": {
       "settings": {
-        "prepend_text": "SOLDES DU LUNDI – 30 % DE RÉDUCTION SUR L'ENSEMBLE DE VOTRE PANIER"
+        "prepend_text": "SOLDES DU JOUR DE PAIE",
+        "append_text": "30 % DE RÉDUCTION"
       },
       "blocks": {}
     }
