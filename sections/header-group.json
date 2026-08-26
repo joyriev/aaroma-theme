@@ -109,6 +109,18 @@
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "menu_item_V7M7qG": {
+          "type": "menu_item",
+          "settings": {
+            "label": "Startpagina",
+            "url": "/"
+          }
+        }
+      },
+      "block_order": [
+        "menu_item_V7M7qG"
+      ],
       "settings": {
         "logo_position": "top-left",
         "mobile_logo_position": "center",
