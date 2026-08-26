@@ -147,6 +147,7 @@
         },
         "sub_menu_items_GHhPzq": {
           "type": "sub_menu_items",
+          "disabled": true,
           "settings": {
             "label": "More Items",
             "link_list": "main-menu"
