@@ -116,10 +116,26 @@
             "label": "Startpagina",
             "url": "/"
           }
+        },
+        "mega_menu_item_ixbwJG": {
+          "type": "mega_menu_item",
+          "settings": {
+            "label": "Heren",
+            "collection": "men"
+          }
+        },
+        "mega_menu_item_U4hHR6": {
+          "type": "mega_menu_item",
+          "settings": {
+            "label": "Dames",
+            "collection": "women"
+          }
         }
       },
       "block_order": [
-        "menu_item_V7M7qG"
+        "menu_item_V7M7qG",
+        "mega_menu_item_ixbwJG",
+        "mega_menu_item_U4hHR6"
       ],
       "settings": {
         "logo_position": "top-left",
