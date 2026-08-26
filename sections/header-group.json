@@ -130,12 +130,44 @@
             "label": "Dames",
             "collection": "women"
           }
+        },
+        "mega_menu_item_BXaKbm": {
+          "type": "mega_menu_item",
+          "settings": {
+            "label": "Bestsellers",
+            "collection": "bestsellers"
+          }
+        },
+        "mega_menu_item_LdbktV": {
+          "type": "mega_menu_item",
+          "settings": {
+            "label": "Unisex",
+            "collection": "unisex"
+          }
+        },
+        "menu_item_MKM3K6": {
+          "type": "menu_item",
+          "settings": {
+            "label": "Voordeelpakket",
+            "url": "shopify://products/3x-100ml-perfume-bottles"
+          }
+        },
+        "menu_item_9iAMA9": {
+          "type": "menu_item",
+          "settings": {
+            "label": "Over Ons",
+            "url": "shopify://pages/over-ons"
+          }
         }
       },
       "block_order": [
         "menu_item_V7M7qG",
         "mega_menu_item_ixbwJG",
-        "mega_menu_item_U4hHR6"
+        "mega_menu_item_U4hHR6",
+        "mega_menu_item_BXaKbm",
+        "mega_menu_item_LdbktV",
+        "menu_item_MKM3K6",
+        "menu_item_9iAMA9"
       ],
       "settings": {
         "logo_position": "top-left",
