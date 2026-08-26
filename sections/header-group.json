@@ -145,6 +145,13 @@
             "collection": "unisex"
           }
         },
+        "sub_menu_items_GHhPzq": {
+          "type": "sub_menu_items",
+          "settings": {
+            "label": "More Items",
+            "link_list": "main-menu"
+          }
+        },
         "menu_item_MKM3K6": {
           "type": "menu_item",
           "settings": {
@@ -166,6 +173,7 @@
         "mega_menu_item_U4hHR6",
         "mega_menu_item_BXaKbm",
         "mega_menu_item_LdbktV",
+        "sub_menu_items_GHhPzq",
         "menu_item_MKM3K6",
         "menu_item_9iAMA9"
       ],
