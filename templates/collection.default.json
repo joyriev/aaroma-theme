@@ -19,6 +19,7 @@
     },
     "popular_products_HKPYKh": {
       "type": "popular-products",
+      "disabled": true,
       "name": "Popular Products",
       "settings": {
         "background_color": "#fcfbf9",
