@@ -16,7 +16,8 @@
     "offer_timebar_PNTbqg": {
       "settings": {
         "prepend_text": "LOHNTAG-AUSVERKAUF",
-        "append_text": "30 % RABATT"
+        "append_text": "30 % RABATT",
+        "top_banner_text": "NUR FÜR KURZE ZEIT"
       },
       "blocks": {}
     }
