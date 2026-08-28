@@ -33,6 +33,10 @@
           "type": "inspired_by",
           "settings": {}
         },
+        "designer_price_BDNrqM": {
+          "type": "designer_price",
+          "settings": {}
+        },
         "selling_points_9tdid6": {
           "type": "selling_points",
           "disabled": true,
@@ -170,6 +174,7 @@
         "custom_rating_text_KRDfzL",
         "cheaper_than_yDGYG9",
         "inspired_by_nBWVHD",
+        "designer_price_BDNrqM",
         "selling_points_9tdid6",
         "text_8gxCPt",
         "custom_liquid_4ajMA6",
