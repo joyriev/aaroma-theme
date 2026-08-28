@@ -29,6 +29,10 @@
             "number": 0
           }
         },
+        "inspired_by_nBWVHD": {
+          "type": "inspired_by",
+          "settings": {}
+        },
         "selling_points_9tdid6": {
           "type": "selling_points",
           "disabled": true,
@@ -165,6 +169,7 @@
         "title",
         "custom_rating_text_KRDfzL",
         "cheaper_than_yDGYG9",
+        "inspired_by_nBWVHD",
         "selling_points_9tdid6",
         "text_8gxCPt",
         "custom_liquid_4ajMA6",
