@@ -314,6 +314,19 @@
         "feature4_text": "Engineered for a perfect mist. Our fine stainless-steel nozzle ensures even diffusion, transforming every spray into a sensory ritual."
       }
     },
+    "stacks_up_cPT43B": {
+      "type": "stacks-up",
+      "disabled": true,
+      "name": "Stacks Up",
+      "settings": {
+        "background_color": "#fcfbf9",
+        "title": "Så står sig TryScent",
+        "btn_text": "Visa alla",
+        "btn_url": "shopify://collections/all",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_and_text_eC7WVj": {
       "type": "image-and-text",
       "blocks": {
@@ -1153,6 +1166,7 @@
     "cupid-video-reviews",
     "scent_breakdown_rG4H3T",
     "features_section_4U8qxa",
+    "stacks_up_cPT43B",
     "image_and_text_eC7WVj",
     "massive_review_e3MDit",
     "special_offer_bogo_CFP4NP",
