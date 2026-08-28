@@ -15,11 +15,34 @@
   "sections": {
     "offer_timebar_PNTbqg": {
       "settings": {
+        "top_banner_text": "NUR FÜR KURZE ZEIT",
         "prepend_text": "LOHNTAG-AUSVERKAUF",
-        "append_text": "30 % RABATT",
-        "top_banner_text": "NUR FÜR KURZE ZEIT"
+        "append_text": "30 % RABATT"
       },
-      "blocks": {}
+      "blocks": {
+        "payment_icon_i3Hr68": {
+          "settings": {
+            "label": "Flexibel",
+            "icon": "shopify://shop_images/777929254296c2d290f0836dc4e68451f4cfdbc4.png"
+          }
+        },
+        "payment_icon_qcMDiY": {
+          "settings": {
+            "label": "Schnell"
+          }
+        },
+        "payment_icon_EJx9b8": {
+          "settings": {
+            "label": "Sicher"
+          }
+        }
+      },
+      "block_order": [
+        "payment_icon_qcMDiY",
+        "payment_icon_VWgiqB",
+        "payment_icon_EJx9b8",
+        "payment_icon_i3Hr68"
+      ]
     }
   }
 }
