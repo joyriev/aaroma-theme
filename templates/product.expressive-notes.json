@@ -392,7 +392,7 @@
         "heading_jjazy4": {
           "type": "heading",
           "settings": {
-            "content": "Waarom EU-geuren het verschil maken",
+            "content": "Waarom voelen parfums die in de EU worden gemaakt anders aan?",
             "heading_type": "h2",
             "font_size": 32,
             "mobile_font_size": 24
@@ -401,7 +401,7 @@
         "text_nb9PHi": {
           "type": "text",
           "settings": {
-            "content": "<ul><li>Geproduceerd in Europese faciliteiten</li><li>Ingrediënten en formules volgens IFRA-richtlijnen</li><li>Geen concessies, geen grijze markt of twijfelachtige mengsels</li></ul><p>Wij ontwikkelen parfums volgens de strenge Europese cosmeticaregels.</p>",
+            "content": "<p>Gemaakt in EU-fabrieken met ingrediënten en formules die voldoen aan de IFRA-vereisten.</p><ul><li>Vrij van ftalaten</li><li>Vrij van parabenen</li><li>Veganistisch</li><li>Dierproefvrij</li><li>IFRA-goedgekeurd</li><li>Ontwikkeld volgens EU-normen</li><li>Geen bekende hormoonverstorende stoffen</li></ul><p>Wij produceren parfums in overeenstemming met strenge Europese cosmetische normen.</p>",
             "mobile_content": "",
             "font_size": 18
           }
