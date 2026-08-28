@@ -320,11 +320,11 @@
       "name": "Stacks Up",
       "settings": {
         "background_color": "#fcfbf9",
-        "title": "Så står sig TryScent",
-        "btn_text": "Visa alla",
+        "title": "Hoe Aaroma zich verhoudt tot de concurrentie",
+        "btn_text": "Alles weergeven",
         "btn_url": "shopify://collections/all",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 60
       }
     },
     "image_and_text_eC7WVj": {
