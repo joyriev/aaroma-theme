@@ -278,6 +278,19 @@
         "padding_bottom": 32
       }
     },
+    "stacks_up_6Y3dr3": {
+      "type": "stacks-up",
+      "disabled": true,
+      "name": "Stacks Up",
+      "settings": {
+        "background_color": "#fcfbf9",
+        "title": "How TryScent Stacks Up",
+        "btn_text": "View All",
+        "btn_url": "shopify://collections/all",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "cupid-video-reviews": {
       "type": "cupid-video-reviews",
       "disabled": true,
@@ -1222,6 +1235,7 @@
     "you_may_like_8Qi8X8",
     "pdp_bundle_builder",
     "feature_highlights_TMTJXK",
+    "stacks_up_6Y3dr3",
     "cupid-video-reviews",
     "scent_breakdown_rG4H3T",
     "features_section_4U8qxa",
