@@ -13,6 +13,42 @@
   "sections": {
     "offer_timebar_PNTbqg": {
       "type": "offer-timebar",
+      "blocks": {
+        "payment_icon_qcMDiY": {
+          "type": "payment_icon",
+          "settings": {
+            "icon": "shopify://shop_images/090e7fd71af4b4e7589642874d6cae93a0a34f77.png",
+            "label": "Snel"
+          }
+        },
+        "payment_icon_VWgiqB": {
+          "type": "payment_icon",
+          "settings": {
+            "icon": "shopify://shop_images/65f2284e66ff1dcb1a272319f1ef543c429f73e2.png",
+            "label": "EU-Versand"
+          }
+        },
+        "payment_icon_i3Hr68": {
+          "type": "payment_icon",
+          "settings": {
+            "icon": "shopify://shop_images/IDEAL_Logo_2020.svg",
+            "label": "Direct"
+          }
+        },
+        "payment_icon_EJx9b8": {
+          "type": "payment_icon",
+          "settings": {
+            "icon": "shopify://shop_images/800c98d03dc73f77225bfa90300384e0370c7cff.png",
+            "label": "Veilig"
+          }
+        }
+      },
+      "block_order": [
+        "payment_icon_qcMDiY",
+        "payment_icon_VWgiqB",
+        "payment_icon_i3Hr68",
+        "payment_icon_EJx9b8"
+      ],
       "name": "Offer Timebar",
       "settings": {
         "primary_color": "#723631",
