@@ -16,7 +16,8 @@
     "offer_timebar_PNTbqg": {
       "settings": {
         "prepend_text": "SOLDES DU JOUR DE PAIE",
-        "append_text": "30% DE RÉDUCTION"
+        "append_text": "30% DE RÉDUCTION",
+        "top_banner_text": "SEULEMENT POUR UNE COURTE DURÉE"
       },
       "blocks": {
         "payment_icon_EJx9b8": {
