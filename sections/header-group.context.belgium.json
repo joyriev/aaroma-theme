@@ -18,7 +18,19 @@
         "prepend_text": "SOLDES DU JOUR DE PAIE",
         "append_text": "30% DE RÉDUCTION"
       },
-      "blocks": {}
+      "blocks": {
+        "payment_icon_EJx9b8": {
+          "settings": {
+            "icon": "shopify://shop_images/Bancontact_logo_2021_svg.webp"
+          }
+        }
+      },
+      "block_order": [
+        "payment_icon_qcMDiY",
+        "payment_icon_VWgiqB",
+        "payment_icon_EJx9b8",
+        "payment_icon_i3Hr68"
+      ]
     }
   }
 }
