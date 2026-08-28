@@ -99,11 +99,12 @@
                     </div>
                   </div>
                 {% endif %}
+              {% when 'designer_price' %}
+                {% if product.metafields.custom.original_retail_price != blank %}
+                  <div>(Designerprijs: {{ product.metafields.custom.original_retail_price.value | money }})</div>
+                {% endif %}
               {% when 'cheaper_than' %}
                 <div>
-                  {% if product.metafields.custom.original_retail_price != blank %}
-                    <div>(Originele designerprijs: {{ product.metafields.custom.original_retail_price.value | money }})</div>
-                  {% endif %}
                   {% if product.metafields.custom.scent_intensity != blank %}
                     <div class="flex items-center gap-[5px]">
                     Geurintensiteit: <span class="text-highlight leading-4">Krachtig</span>
@@ -952,6 +953,11 @@
     {
       "type": "inspired_by",
       "name": "Inspired By",
+      "limit": 1
+    },
+    {
+      "type": "designer_price",
+      "name": "Designer Price",
       "limit": 1
     },
     {
