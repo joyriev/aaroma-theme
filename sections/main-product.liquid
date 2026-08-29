@@ -258,18 +258,16 @@
                   {% endfor %}
                 </ul>
               {%- when 'money_back' -%}
-                <div class="my-6">
-                  <div class="flex items-center gap-3 text-base">
-                    <img
-                      src="{{ block.settings.image | image_url }}"
-                      alt="Thumbs up badge"
-                      class="w-10 h-10 flex-shrink-0"
-                      width="40"
-                      height="40" />
-                    <div class="text-slate-900">
-                      <strong class="font-semibold">{{ block.settings.title }}</strong>
-                      <span class="block">{{ block.settings.text }}</span>
-                    </div>
+                <div class="flex items-center gap-3 text-base">
+                  <img
+                    src="{{ block.settings.image | image_url }}"
+                    alt="Thumbs up badge"
+                    class="w-10 h-10 flex-shrink-0"
+                    width="40"
+                    height="40" />
+                  <div class="text-slate-900">
+                    <h3 class="font-semibold font-base my-0">{{ block.settings.title }}</h3>
+                    <p class="block my-0">{{ block.settings.text }}</p>
                   </div>
                 </div>
               {% when 'people_purchased' %}
@@ -1160,10 +1158,10 @@
           "default": "Probeer het 60 dagen risicovrij."
         },
         {
-          "type": "richtext",
+          "type": "inline_richtext",
           "id": "text",
           "label": "Money Back Guarantee Text",
-          "default": "<p>Bent u niet helemaal tevreden, dan krijgt u uw geld volledig terug!</p>"
+          "default": "Bent u niet helemaal tevreden, dan krijgt u uw geld volledig terug!"
         }
       ]
     },
