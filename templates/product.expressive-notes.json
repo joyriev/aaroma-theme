@@ -73,14 +73,6 @@
             "heading_3": "60 day satisfaction guarantee"
           }
         },
-        "money_back_eKXfnE": {
-          "type": "money_back",
-          "disabled": true,
-          "settings": {
-            "title": "Try It Risk-Free",
-            "text": "<p>Less Than 1% claim Money Back.</p>"
-          }
-        },
         "people_purchased_cYxaYJ": {
           "type": "people_purchased",
           "disabled": true,
@@ -180,7 +172,6 @@
         "custom_liquid_4ajMA6",
         "atc_bundle_builder_aLJUaV",
         "icon_with_text_rgXMXN",
-        "money_back_eKXfnE",
         "people_purchased_cYxaYJ",
         "cta_review_g7n3R8",
         "expanded_notes_paBaYD",
@@ -316,8 +307,6 @@
     },
     "stacks_up_cPT43B": {
       "type": "stacks-up",
-      "disabled": false,
-      "name": "Stacks Up",
       "blocks": {
         "stack_bYEPRF": {
           "type": "stack",
@@ -378,6 +367,7 @@
         "stack_MD4Nma",
         "stack_P8fdyi"
       ],
+      "name": "Stacks Up",
       "settings": {
         "background_color": "#fcfbf9",
         "title": "Hoe Aaroma zich verhoudt tot de concurrentie",
