@@ -2,6 +2,15 @@
   {% assign product = product_param %}
 {% endif %}
 
+{% liquid
+  assign marketing_images = shop.metaobjects['marketing_images']['for-netherland'].images.value
+  assign lithuania_marketing_images = shop.metaobjects['marketing_images']['for-lithuania'].images.value
+  assign latvian_marketing_images = shop.metaobjects['marketing_images']['for-lativan'].images.value
+  assign german_marketing_images = shop.metaobjects['marketing_images']['for-german'].images.value
+  assign french_marketing_images = shop.metaobjects['marketing_images']['for-french'].images.value
+  assign estonia_marketing_images = shop.metaobjects['marketing_images']['for-eesti'].images.value
+%}
+
 <div class="sticky top-6">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -48,19 +57,18 @@
               {% endif %}
             {% endfor %}
           {% endif %}
-          {% for image in product.images offset: 1 %}
-            {% assign img_alt = image.alt | downcase %}
-            {% unless img_alt contains "bundle_" %}
+          {% if marketing_images != blank %}
+            {% for image in marketing_images %}
               <img
                 src="{{ image.src | image_url: width: 450 }}"
                 alt="{{ image.alt }}"
                 height="{{ image.height }}"
                 width="{{ image.width }}"
-                class="productSwiperImage swiper-slide md:rounded-lg">
-            {% endunless %}
-          {% endfor %}
+                class="productSwiperImage swiper-slide md:rounded-lg marketing_image">
+            {% endfor %}
+          {% endif %}
         {% else %}
-          {% for image in product.images %}
+          {% for image in product.images limit: 1 %}
             <img
               src="{{ image.src | img_url: 'master' }}"
               alt="{{ image.alt }}"
@@ -68,16 +76,26 @@
               width="{{ image.width }}"
               class="productSwiperImage swiper-slide md:rounded-lg">
           {% endfor %}
+          {% if marketing_images != blank %}
+            {% for image in marketing_images %}
+              <img
+                src="{{ image.src | img_url: 'master' }}"
+                alt="{{ image.alt }}"
+                height="{{ image.height }}"
+                width="{{ image.width }}"
+                class="productSwiperImage swiper-slide md:rounded-lg marketing_image">
+            {% endfor %}
+          {% endif %}
         {% endif %}
       </div>
       <div
         data-text="text"
         id="productSwiperPrev"
-        class="swiper-button-prev !flex bg-white !w-10 [&]:after:!text-xl [&]:after:text-gray-900"></div>
+        class="swiper-button-prev rounded-full !flex bg-white !size-10 [&]:after:!text-xl [&]:after:text-gray-900"></div>
       <div
         data-text="text"
         id="productSwiperNext"
-        class="swiper-button-next !flex bg-white !w-10 [&]:after:!text-xl [&]:after:text-gray-900"></div>
+        class="swiper-button-next rounded-full !flex bg-white !size-10 [&]:after:!text-xl [&]:after:text-gray-900"></div>
     </div>
     <div class="w-28 lg:w-36 pl-2 [display:none] md:grid grid-rows-3 gap-2">
       <div class="p-3 bg-[#944234]/10 rounded-lg text-center flex flex-col items-center justify-center gap-2">
@@ -156,9 +174,9 @@
       </div>
     </div>
   </div>
-  <div class="[display:none] md:block">
+  <div>
     <div id="productThumbnails" class="swiper mt-4">
-      <div class="swiper-wrapper [&>.swiper-slide-thumb-active]:border-[#3f2120] [&>.swiper-slide-thumb-active]:opacity-100">
+      <div class="swiper-wrapper [&>.swiper-slide-thumb-active]:border-black [&>.swiper-slide-thumb-active]:opacity-100">
         {% if product.tags contains "local_image" %}
           {% assign image_found = false %}
           {% for image in product.images %}
@@ -172,7 +190,7 @@
                 alt="{{ image.alt }}"
                 height="150"
                 width="150"
-                class="productThumbnail swiper-slide slide max-w-20 md:max-w-28 opacity-70 border-2 border-solid border-gray-200 rounded-lg cursor-pointer" />
+                class="productThumbnail swiper-slide slide max-w-16 md:max-w-24 opacity-70 border-2 border-solid border-gray-200 rounded-lg cursor-pointer" />
             {% endif %}
           {% endfor %}
           {% if image_found == false %}
@@ -185,88 +203,211 @@
                   alt="{{ image.alt }}"
                   height="150"
                   width="150"
-                  class="productThumbnail swiper-slide slide max-w-20 md:max-w-28 opacity-70 border-2 border-solid border-gray-200 rounded-lg cursor-pointer" />
+                  class="productThumbnail swiper-slide slide max-w-16 md:max-w-24 opacity-70 border-2 border-solid border-gray-200 rounded-lg cursor-pointer" />
               {% endif %}
             {% endfor %}
           {% endif %}
-          {% for image in product.images offset: 1 %}
-            {% assign img_alt = image.alt | downcase %}
-            {% unless img_alt contains "bundle_" %}
+          {% if marketing_images != blank %}
+            {% for image in marketing_images %}
               <img
                 id="slider-thumbnail-{{ forloop.index0 }}"
                 src="{{ image | image_url: width: 150, height: 150 }}"
                 alt="{{ image.alt }}"
                 height="150"
                 width="150"
-                class="productThumbnail swiper-slide slide max-w-20 md:max-w-28 opacity-70 border-2 border-solid border-gray-200 rounded-lg cursor-pointer" />
-            {% endunless %}
-          {% endfor %}
+                class="productThumbnail swiper-slide slide max-w-16 md:max-w-24 opacity-70 border-2 border-solid border-gray-200 rounded-lg cursor-pointer marketing_image" />
+            {% endfor %}
+          {% endif %}
         {% else %}
-          {% for image in product.images %}
+          {% for image in product.images limit: 1 %}
             <img
               id="slider-thumbnail-{{ forloop.index0 }}"
               src="{{ image | image_url: width: 150, height: 150 }}"
               alt="{{ image.alt }}"
               height="150"
               width="150"
-              class="productThumbnail swiper-slide slide max-w-20 md:max-w-28 opacity-70 border-2 border-solid border-gray-200 rounded-lg cursor-pointer" />
+              class="productThumbnail swiper-slide slide max-w-16 md:max-w-24 opacity-70 border-2 border-solid border-gray-200 rounded-lg cursor-pointer" />
           {% endfor %}
+          {% if marketing_images != blank %}
+            {% for image in marketing_images %}
+              <img
+                id="slider-thumbnail-{{ forloop.index0 }}"
+                src="{{ image | image_url: width: 150, height: 150 }}"
+                alt="{{ image.alt }}"
+                height="150"
+                width="150"
+                class="productThumbnail swiper-slide slide max-w-16 md:max-w-24 opacity-70 border-2 border-solid border-gray-200 rounded-lg cursor-pointer marketing_image" />
+            {% endfor %}
+          {% endif %}
         {% endif %}
       </div>
     </div>
   </div>
 
   <script>
-      // Swiper Slider For product images with thumbnail sync
-      window.addEventListener("DOMContentLoaded", function () {
-    var productThumbnails = new Swiper('#productThumbnails', {
-      slidesPerView: 5,
-      spaceBetween: 8,
-      freeMode: true,
-      watchSlidesProgress: true,
-      watchOverflow: true,
-      direction: 'horizontal',
-      slideToClickedSlide: true,
-      breakpoints: {
-        320: {
-          slidesPerView: 4,
-        },
-        600: {
-          slidesPerView: 4,
-        },
-        900: {
-          slidesPerView: 5,
+    // Swiper Slider For product images with thumbnail sync
+    window.addEventListener("DOMContentLoaded", function () {
+      var productThumbnails = new Swiper('#productThumbnails', {
+        slidesPerView: 5,
+        spaceBetween: 8,
+        freeMode: true,
+        watchSlidesProgress: true,
+        watchOverflow: true,
+        direction: 'horizontal',
+        slideToClickedSlide: true,
+        breakpoints: {
+          320: {
+            slidesPerView: 4,
+          },
+          600: {
+            slidesPerView: 4,
+          },
+          900: {
+            slidesPerView: 5,
+          }
         }
-      }
-    });
-
-    var productImages = new Swiper('#productSwiper', {
-      slidesPerView: 1,
-      spaceBetween: 10,
-      observer: true,
-      observeParents: true,
-      navigation: {
-        prevEl: "#productSwiperPrev",
-        nextEl: "#productSwiperNext",
-      },
-      thumbs: {
-        swiper: productThumbnails
-      },
-      breakpoints: {
-        320: {
-          slidesPerView: 1,
-          spaceBetween: 10,
-        },
-        600: {
-          slidesPerView: 1,
-          spaceBetween: 20,
-        },
-        800: {
-          slidesPerView: 1,
-          spaceBetween: 20,
-        },
-      },
-    });
       });
+
+      var productImages = new Swiper('#productSwiper', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        observer: true,
+        observeParents: true,
+        navigation: {
+          prevEl: "#productSwiperPrev",
+          nextEl: "#productSwiperNext",
+        },
+        thumbs: {
+          swiper: productThumbnails
+        },
+        breakpoints: {
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          600: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          800: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+        },
+      });
+
+      // Local images to load for Weglot languages
+      const localImages = {
+        nl: {
+          main: [
+            {% for item in marketing_images %}
+              "{{ item | image_url: width: 1024, height: 1024 }}"{% unless forloop.last %},{% endunless %}
+            {% endfor %}
+          ],
+          thumbnail: [
+            {% for item in marketing_images %}
+              "{{ item | image_url: width: 300, height: 300 }}"{% unless forloop.last %},{% endunless %}
+            {% endfor %}
+          ]
+        },
+        lt: {
+          main: [
+            {% for item in lithuania_marketing_images %}
+              "{{ item | image_url: width: 1024, height: 1024 }}"{% unless forloop.last %},{% endunless %}
+            {% endfor %}
+          ],
+          thumbnail: [
+            {% for item in lithuania_marketing_images %}
+              "{{ item | image_url: width: 300, height: 300 }}"{% unless forloop.last %},{% endunless %}
+            {% endfor %}
+          ]
+        },
+        lv: {
+          main: [
+            {% for item in latvian_marketing_images %}
+              "{{ item | image_url: width: 1024, height: 1024 }}"{% unless forloop.last %},{% endunless %}
+            {% endfor %}
+          ],
+          thumbnail: [
+            {% for item in latvian_marketing_images %}
+              "{{ item | image_url: width: 300, height: 300 }}"{% unless forloop.last %},{% endunless %}
+            {% endfor %}
+          ]
+        },
+        de: {
+          main: [
+            {% for item in german_marketing_images %}
+              "{{ item | image_url: width: 1024, height: 1024 }}"{% unless forloop.last %},{% endunless %}
+            {% endfor %}
+          ],
+          thumbnail: [
+            {% for item in german_marketing_images %}
+              "{{ item | image_url: width: 300, height: 300 }}"{% unless forloop.last %},{% endunless %}
+            {% endfor %}
+          ]
+        },
+        fr: {
+          main: [
+            {% for item in french_marketing_images %}
+              "{{ item | image_url: width: 1024, height: 1024 }}"{% unless forloop.last %},{% endunless %}
+            {% endfor %}
+          ],
+          thumbnail: [
+            {% for item in french_marketing_images %}
+              "{{ item | image_url: width: 300, height: 300 }}"{% unless forloop.last %},{% endunless %}
+            {% endfor %}
+          ]
+        },
+        et: {
+          main: [
+            {% for item in estonia_marketing_images %}
+              "{{ item | image_url: width: 1024, height: 1024 }}"{% unless forloop.last %},{% endunless %}
+            {% endfor %}
+          ],
+          thumbnail: [
+            {% for item in estonia_marketing_images %}
+              "{{ item | image_url: width: 300, height: 300 }}"{% unless forloop.last %},{% endunless %}
+            {% endfor %}
+          ]
+        }
+      };
+
+      // Codes for changing local images based on current weglot image
+      function changeLocalImages(newLang, _previousLang) {
+          console.log('Language Changed: ', newLang);
+      
+          const marketingMainImages = Array.from(document.querySelectorAll('#productSwiper .marketing_image'));
+          const marketingThumbnailImages = Array.from(document.querySelectorAll('#productThumbnails .marketing_image'));
+
+          if (localImages[newLang]) {
+            const localizedImages = localImages[newLang];
+            const hasMatchingMainCount = localizedImages.main.length === marketingMainImages.length;
+            const hasMatchingThumbnailCount = localizedImages.thumbnail.length === marketingThumbnailImages.length;
+
+            if (hasMatchingMainCount && hasMatchingThumbnailCount) {
+              marketingMainImages.forEach((image, index) => {
+                image.src = localizedImages.main[index];
+              });
+
+              marketingThumbnailImages.forEach((image, index) => {
+                image.src = localizedImages.thumbnail[index];
+              });
+            }
+
+            // updated the scent breakdown section image also
+            const breakdownImageEl = document.getElementById('scent-breakdown-img');
+            if(typeof breakdownImageEl != "undefined"){
+              breakdownImageEl.src = localizedImages.main[0];
+            }
+          } else {
+            marketingMainImages.forEach((image) => image.remove());
+            marketingThumbnailImages.forEach((image) => image.remove());
+          }
+        }
+
+        const currentLang = (window.Weglot && typeof Weglot.getCurrentLang === 'function' && Weglot.getCurrentLang()) || 'de';
+        changeLocalImages(currentLang, null);
+        Weglot.on("languageChanged", changeLocalImages);
+    });
   </script>
 </div>
