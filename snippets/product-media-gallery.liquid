@@ -6,6 +6,18 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <div class="flex -mx-[15px] md:mx-0">
+    <div
+      class="doftmatch-tooltip absolute top-1 left-1 z-10 bg-[#944234] px-2 py-1 text-white text-sm"
+      tabindex="0"
+      aria-describedby="doftmatch-tooltip-{{ product.id }}">
+      ≈95% geurovereenkomst ⓘ
+      <span
+        id="doftmatch-tooltip-{{ product.id }}"
+        class="doftmatch-tooltip__content"
+        role="tooltip">
+        Gebaseerd op geverifieerde klantreviews.
+      </span>
+    </div>
     <div id="productSwiper" class="swiper md:w-[calc(100%-144px)]">
       <div class="swiper-wrapper">
         {% if product.tags contains "local_image" %}
@@ -58,7 +70,6 @@
           {% endfor %}
         {% endif %}
       </div>
-      <div class="swiper-pagination" id="productSwiperPagination"></div>
       <div
         data-text="text"
         id="productSwiperPrev"
@@ -237,10 +248,6 @@
       navigation: {
         prevEl: "#productSwiperPrev",
         nextEl: "#productSwiperNext",
-      },
-      pagination: {
-        el: "#productSwiperPagination",
-        clickable: true,
       },
       thumbs: {
         swiper: productThumbnails
