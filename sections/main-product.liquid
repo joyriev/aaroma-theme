@@ -258,15 +258,6 @@
                   {% endfor %}
                 </ul>
               {%- when 'money_back' -%}
-                <div class="flex items-center gap-3 bg-[#f0f2ec] p-6 rounded">
-                  <img src="{{ block.settings.image | img_url: '64x64' }}" height="64" width="64" alt="{{ block.settings.label }}" class="size-16" />
-                  <div>
-                    <h3 class="text-lg font-semibold tracking-normal m-0">{{ block.settings.title }}</h3>
-                    <div class="m-0 leading-snug tracking-normal [&>p]:m-0 text-gray-950">
-                      {{ block.settings.text }}
-                    </div>
-                  </div>
-                </div>
                 <div class="my-6">
                   <div class="flex items-center gap-3 text-base">
                     <img
@@ -1171,7 +1162,8 @@
         {
           "type": "richtext",
           "id": "text",
-          "label": "Bent u niet helemaal tevreden, dan krijgt u uw geld volledig terug!"
+          "label": "Money Back Guarantee Text",
+          "default": "<p>Bent u niet helemaal tevreden, dan krijgt u uw geld volledig terug!</p>"
         }
       ]
     },
