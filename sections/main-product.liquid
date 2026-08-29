@@ -267,6 +267,20 @@
                     </div>
                   </div>
                 </div>
+                <div class="my-6">
+                  <div class="flex items-center gap-3 text-base">
+                    <img
+                      src="{{ block.settings.image | image_url }}"
+                      alt="Thumbs up badge"
+                      class="w-10 h-10 flex-shrink-0"
+                      width="40"
+                      height="40" />
+                    <div class="text-slate-900">
+                      <strong class="font-semibold">{{ block.settings.title }}</strong>
+                      <span class="block">{{ block.settings.text }}</span>
+                    </div>
+                  </div>
+                </div>
               {% when 'people_purchased' %}
                 <div class="grid grid-cols-3 items-center gap-4 bg-[#f0f2ec] p-6 rounded">
                   <div class="col-span-1 flex">
@@ -1152,12 +1166,12 @@
           "type": "text",
           "id": "title",
           "label": "Money Back Guarantee Title",
-          "default": "Smell Before You Commit"
+          "default": "Probeer het 60 dagen risicovrij."
         },
         {
           "type": "richtext",
           "id": "text",
-          "label": "Money Back Guarantee Text"
+          "label": "Bent u niet helemaal tevreden, dan krijgt u uw geld volledig terug!"
         }
       ]
     },
