@@ -281,6 +281,78 @@
         "padding_bottom": 32
       }
     },
+    "stacks_up_G4c8Dh": {
+      "type": "stacks-up",
+      "blocks": {
+        "stack_mBPAqi": {
+          "type": "stack",
+          "settings": {
+            "stack_heading": "Parfumconcentratie",
+            "stack_subheading": "Meer olie = langere houdbaarheid"
+          }
+        },
+        "stack_rLAnYD": {
+          "type": "stack",
+          "settings": {
+            "stack_heading": "Blijft 8–12 uur op de huid",
+            "stack_subheading": "Blijft langer dan de meeste designer-EDT's"
+          }
+        },
+        "stack_4CVpei": {
+          "type": "stack",
+          "settings": {
+            "stack_heading": "90% goedkoper dan de designerprijs",
+            "stack_subheading": "Zonder concessies aan de kwaliteit"
+          }
+        },
+        "stack_iYdEy8": {
+          "type": "stack",
+          "settings": {
+            "stack_heading": "Exact dezelfde geur als het origineel",
+            "stack_subheading": "Gemaakt met dezelfde geurakkoorden"
+          }
+        },
+        "stack_TVyjPh": {
+          "type": "stack",
+          "settings": {
+            "stack_heading": "Verzonden binnen 24 uur",
+            "stack_subheading": "Geen wachten in de winkel"
+          }
+        },
+        "stack_Qk87fn": {
+          "type": "stack",
+          "settings": {
+            "stack_heading": "Dierproefvrije formule",
+            "stack_subheading": "Pure ingrediënten, veilig voor de huid"
+          }
+        },
+        "stack_3mkWnd": {
+          "type": "stack",
+          "settings": {
+            "stack_heading": "60 dagen geld-terug-garantie",
+            "stack_subheading": "Vind het geweldig of krijg je geld volledig terug — geen vragen"
+          }
+        }
+      },
+      "block_order": [
+        "stack_mBPAqi",
+        "stack_rLAnYD",
+        "stack_4CVpei",
+        "stack_iYdEy8",
+        "stack_TVyjPh",
+        "stack_Qk87fn",
+        "stack_3mkWnd"
+      ],
+      "name": "Stacks Up",
+      "settings": {
+        "background_color": "#fcfbf9",
+        "title": "Hoe Aaroma zich verhoudt tot de concurrentie",
+        "btn_text": "Alles weergeven",
+        "btn_url": "shopify://collections/all",
+        "padding_top": 36,
+        "padding_bottom": 60
+      }
+    },
     "cupid-video-reviews": {
       "type": "cupid-video-reviews",
       "disabled": true,
@@ -1138,6 +1210,7 @@
     "main",
     "pdp_bundle_builder",
     "feature_highlights_TMTJXK",
+    "stacks_up_G4c8Dh",
     "cupid-video-reviews",
     "scent_breakdown_rG4H3T",
     "features_section_4U8qxa",
