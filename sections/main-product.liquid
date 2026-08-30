@@ -208,16 +208,16 @@
                         {% assign discount = block.settings.product.compare_at_price | minus: block.settings.product.price %}
                         {% assign discount_percent = discount | times: 100 | divided_by: block.settings.product.compare_at_price | round %}
                         <div class="inline-block rounded-xl bg-green-100 text-green-600 px-2 py-1 text-xs font-semibold uppercase">
-                          Spara {{ discount_percent }}%
+                          Bespaar {{ discount_percent }}%
                         </div>
                       {% endif %}
                       <h3 class="my-2 tracking-normal font-semibold text-base md:text-lg">
-                        Vart bästa erbjudande: skapa ett paket!
+                        Onze beste aanbieding: stel een pakket samen!
                       </h3>
                       <div class="m-0 tracking-normal text-black text-sm md:text-base">
-                        Endast
+                        Slechts
                         <strong>{{ block.settings.product.price | divided_by: block.settings.product.metafields.custom.choose_your_fragrances_options | money }}</strong>
-                        per flaska
+                        per fles
                       </div>
                     </div>
                   </a>
