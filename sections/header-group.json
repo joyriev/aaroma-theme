@@ -52,10 +52,10 @@
       "name": "Offer Timebar",
       "settings": {
         "primary_color": "#723631",
-        "secondary_color": "#F1EBEA",
+        "secondary_color": "#f1ebea",
         "top_banner_text": "SLECHTS VOOR EEN KORTE TIJD",
         "prepend_text": "SALARISDAG-UITVERKOOP",
-        "countdown_date": "2026/08/30",
+        "countdown_date": "2026/09/06",
         "append_text": "30% KORTING",
         "link": "shopify://collections/payday-4-2"
       }
