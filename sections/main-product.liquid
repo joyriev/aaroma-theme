@@ -194,13 +194,32 @@
                 {% if block.settings.product != blank %}
                   <a href="{{ block.settings.product.url }}" class="!mb-6 flex items-stretch overflow-hidden rounded-xl border-2 border-[#cc303d] border-solid bg-white text-inherit no-underline shadow-[0_1px_2px_rgba(17,24,39,0.06)] transition-shadow hover:shadow-[0_2px_10px_rgba(17,24,39,0.08)]">
                     <div class="flex w-[46%] max-w-[260px] shrink-0 items-center bg-[#f2ede7]">
-                      <img
-                        src="{{ block.settings.product.featured_image | image_url: width: 720 }}"
-                        alt="{{ block.settings.product.title | escape }}"
-                        class="block h-auto w-full object-contain"
-                        loading="lazy"
-                        width="720"
-                        height="720">
+                      {%- liquid
+                        assign tsr_localized_image_found = false
+                        assign tsr_currency_alt = localization.country.iso_code | prepend: 'bundle_' | downcase
+                      -%}
+                      {%- for tsr_image in block.settings.product.images -%}
+                        {%- assign tsr_img_alt = tsr_image.alt | downcase -%}
+                        {%- if tsr_img_alt contains 'bundle_' and tsr_img_alt == tsr_currency_alt -%}
+                          {%- assign tsr_localized_image_found = true -%}
+                          <img
+                            src="{{ tsr_image.src | image_url: width: 720 }}"
+                            alt="{{ tsr_image.alt }}"
+                            class="block h-auto w-full object-contain"
+                            loading="lazy"
+                            width="{{ tsr_image.width }}"
+                            height="{{ tsr_image.height }}">
+                        {%- endif -%}
+                      {%- endfor -%}
+                      {%- if tsr_localized_image_found == false -%}
+                        <img
+                          src="{{ block.settings.product.featured_image | image_url: width: 720 }}"
+                          alt="{{ block.settings.product.title | escape }}"
+                          class="block h-auto w-full object-contain"
+                          loading="lazy"
+                          width="720"
+                          height="720">
+                      {%- endif -%}
                     </div>
 
                     <div class="flex min-w-0 flex-1 flex-col justify-center p-4 md:p-5">
@@ -208,16 +227,16 @@
                         {% assign discount = block.settings.product.compare_at_price | minus: block.settings.product.price %}
                         {% assign discount_percent = discount | times: 100 | divided_by: block.settings.product.compare_at_price | round %}
                         <span class="inline-block self-start rounded-full bg-green-100 text-green-700 px-2 py-0.5 text-xs font-semibold uppercase tracking-wide">
-                          Spare {{ discount_percent }}%
+                          Bespaar {{ discount_percent }}%
                         </span>
                       {% endif %}
                       <h3 class="mt-2 mb-1 tracking-normal font-semibold leading-snug text-slate-900 text-sm sm:text-base md:text-lg">
-                        Unser bestes Angebot: Stell dein Paket zusammen!
+                        Onze beste aanbieding: Stel je pakket samen!
                       </h3>
                       <p class="m-0 tracking-normal text-slate-600 text-sm md:text-base">
-                        Nur
+                        Slechts
                         <strong class="text-slate-900">{{ block.settings.product.price | divided_by: block.settings.product.metafields.custom.choose_your_fragrances_options | money }}</strong>
-                        pro Flasche
+                        per fles
                       </p>
                     </div>
                   </a>
