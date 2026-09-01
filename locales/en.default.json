@@ -121,6 +121,11 @@
   },
   "products": {
     "product": {
+      "bundle_promo": {
+        "save_badge": "Save {{ percent }}%",
+        "title": "Our best offer: Build your bundle!",
+        "price_html": "Only {{ price }} per bottle"
+      },
       "add_to_cart": "Try for 60 days",
       "choose_options": "Choose options",
       "choose_product_options": "Choose options for {{ product_name }}",

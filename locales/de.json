@@ -121,6 +121,11 @@
   },
   "products": {
     "product": {
+      "bundle_promo": {
+        "save_badge": "Spare {{ percent }}%",
+        "title": "Unser bestes Angebot: Stell dein Paket zusammen!",
+        "price_html": "Nur {{ price }} pro Flasche"
+      },
       "add_to_cart": "60 Tage testen",
       "description": "Beschreibung",
       "on_sale": "Ausverkauf",

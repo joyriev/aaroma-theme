@@ -122,6 +122,11 @@
   },
   "products": {
     "product": {
+      "bundle_promo": {
+        "save_badge": "Économisez {{ percent }} %",
+        "title": "Notre meilleure offre : composez votre coffret !",
+        "price_html": "Seulement {{ price }} par flacon"
+      },
       "add_to_cart": "Essayez pendant 60 jours",
       "description": "Description",
       "on_sale": "Soldes",

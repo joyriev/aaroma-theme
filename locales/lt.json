@@ -123,6 +123,11 @@
   },
   "products": {
     "product": {
+      "bundle_promo": {
+        "save_badge": "Sutaupykite {{ percent }}%",
+        "title": "Geriausias mūsų pasiūlymas: sudaryk savo rinkinį!",
+        "price_html": "Tik {{ price }} už buteliuką"
+      },
       "add_to_cart": "Išbandyk 60 dienų",
       "description": "Aprašymas",
       "on_sale": "Išpardavimas",

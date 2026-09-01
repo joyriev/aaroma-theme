@@ -263,6 +263,11 @@
       "to": "Aan"
     },
     "product": {
+      "bundle_promo": {
+        "save_badge": "Säästa {{ percent }}%",
+        "title": "Meie parim pakkumine: pane oma komplekt kokku!",
+        "price_html": "Ainult {{ price }} pudeli kohta"
+      },
       "add_to_cart": "Lisa ostukorvi",
       "description": "Kirjeldus",
       "on_sale": "Soodusmüük",

@@ -121,6 +121,11 @@
   },
   "products": {
     "product": {
+      "bundle_promo": {
+        "save_badge": "Bespaar {{ percent }}%",
+        "title": "Onze beste aanbieding: Stel je pakket samen!",
+        "price_html": "Slechts {{ price }} per fles"
+      },
       "add_to_cart": "Probeer 60 dagen",
       "description": "Beschrijving",
       "on_sale": "Uitverkoop",
