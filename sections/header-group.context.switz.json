@@ -18,7 +18,18 @@
         "prepend_text": "SOLDES DU JOUR DE PAIE",
         "append_text": "30 % DE RÉDUCTION"
       },
-      "blocks": {}
+      "blocks": {
+        "payment_icon_qcMDiY": {
+          "settings": {
+            "label": "Expédition suivie"
+          }
+        },
+        "payment_icon_i3Hr68": {
+          "settings": {
+            "label": "Paiement sécurisé"
+          }
+        }
+      }
     }
   }
 }
