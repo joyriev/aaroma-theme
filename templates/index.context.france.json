@@ -21,9 +21,10 @@
     },
     "homepage_hero_XnJ8mD": {
       "settings": {
-        "button_text": "Soldes d'été",
+        "title": "SOLDES DU JOUR DE PAIE – 30% DE RÉDUCTION",
         "subtitle": "Achetez vos parfums préférés à des prix encore plus avantageux ! Et faites encore plus d'économies grâce aux offres groupées !",
-        "title": "SOLDES DU JOUR DE PAIE – 30% DE RÉDUCTION"
+        "button_text": "Soldes d'été",
+        "review_text": "DÉJÀ ADOPTÉ PAR PLUS DE 10 000 CLIENTS"
       },
       "blocks": {}
     }
