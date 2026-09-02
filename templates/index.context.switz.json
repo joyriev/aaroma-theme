@@ -19,6 +19,21 @@
         "subtitle": "Achetez vos parfums préférés à des prix encore plus avantageux ! Et faites encore plus d'économies grâce aux offres groupées !"
       },
       "blocks": {}
+    },
+    "review_grid_H3xfHP": {
+      "settings": {},
+      "blocks": {
+        "review_EbFNac": {
+          "settings": {
+            "content": "<p><em>« </em>Après douze heures de travail, je le sens encore. Mon flacon à 120 € n'y arrive même pas. Celui-ci tient la route. Pas ce flacon-là<em>. »</em></p>"
+          }
+        },
+        "review_MKcdVw": {
+          "settings": {
+            "content": "<p><em>« J'ai porté le n° 079 lors d'un dîner et trois personnes m'ont demandé quel parfum je portais. L'une d'entre elles pensait que c'était du Chanel. »</em></p>"
+          }
+        }
+      }
     }
   }
 }
