@@ -455,7 +455,7 @@
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/261_revie.png",
-            "content": "<p>\"Dit is mijn eerste aankoop en ik ben verslaafd. Ik zal nooit meer ergens anders parfum kopen. Ik kon nooit een dupe-geur vinden die echt authentiek en consistent rook.\"</p>",
+            "content": "<p>\"Dit is mijn eerste aankoop en ik ben al om. Ik koop nooit meer elders parfum. Ik zocht al lang naar een alternatief dat echt authentiek ruikt - dit is hem.\"</p>",
             "author": "Killian P.",
             "date": "1 dag geleden",
             "rating": 5,
@@ -467,7 +467,7 @@
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/2026-07-02_16h41_42.png",
-            "content": "<p>\"Dit is het beste parfum dat ik in heel lange tijd heb geroken. De noten maken me krankzinnig van geluk. Ik zal dit voor altijd in mijn rotatie houden.\"</p>",
+            "content": "<p>\"Dit is het beste parfum dat ik in tijden heb geroken. De geuraccorden raken me elke keer opnieuw. Dit blijft in mijn vaste collectie.\"</p>",
             "author": "Jenniffer W.",
             "date": "2 dagen geleden",
             "rating": 4,
@@ -491,7 +491,7 @@
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/Mounissa_Soilihi.jpg",
-            "content": "<p>\"Ik probeerde al lang geuren te vinden die duur ruiken én lang meegaan, maar tevergeefs. Dit is precies wat ik zocht.\"</p>",
+            "content": "<p>\"Ik zocht al jaren een geur die luxe ruikt en lang blijft hangen. Dit is precies wat ik zocht.\"</p>",
             "author": "Tiana N.",
             "date": "2 dagen geleden",
             "rating": 4,
@@ -514,7 +514,7 @@
         "review_jNFxYP": {
           "type": "review",
           "settings": {
-            "content": "<p>\"Een van mijn favoriete geuren. Snel bij me aangekomen. Ruikt zo lekker.\"</p>",
+            "content": "<p>\"Een van mijn favoriete geuren. Snel bezorgd. Heerlijk.\"</p>",
             "author": "Alex W.",
             "date": "2 dagen geleden",
             "rating": 5,
@@ -526,7 +526,7 @@
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/Daria_Kononenko_2.jpg",
-            "content": "<p>\"Ik ben dol op deze parfums!!! Elk parfum dat ik heb gekregen ruikt goddelijk. Sommige zou ik zelfs beter vinden dan het origineel.\"</p>",
+            "content": "<p>\"Ik ben dol op deze parfums. Elk parfum dat ik heb ontvangen ruikt geweldig. Sommige vind ik zelfs beter dan het origineel.\"</p>",
             "author": "Christine N.",
             "date": "5 dagen geleden",
             "rating": 4,
@@ -561,7 +561,7 @@
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/2026-07-02_16h57_29.png",
-            "content": "<p>\"Het is perfect en prachtig 🥰🥰🥰\"</p>",
+            "content": "<p>\"Perfect en prachtig.\"</p>",
             "author": "Lidis A.",
             "date": "2 maanden geleden",
             "rating": 5,
@@ -585,7 +585,7 @@
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/Aleksandra_Kosin.jpg",
-            "content": "<p>\"Heerlijk ruikende parfums, de geuren blijven heel lang hangen, uitstekende kwaliteit\"</p>",
+            "content": "<p>\"Heerlijk geurende parfums. De geuren blijven heel lang hangen. Uitstekende kwaliteit.\"</p>",
             "author": "Kamila G.",
             "date": "3 maanden geleden",
             "rating": 5,
@@ -596,7 +596,7 @@
         "review_MBb63N": {
           "type": "review",
           "settings": {
-            "content": "<p>\"Ruikt precies zoals Luna Rossa Carbon, maar veel goedkoper. Ik kan niet geloven hoe dicht het erbij ligt.\"</p>",
+            "content": "<p>\"Ruikt precies als Luna Rossa Carbon, voor een fractie van de prijs. Ik kan niet geloven hoe dicht het bij het origineel zit.\"</p>",
             "author": "Robinson D.",
             "date": "4 maanden geleden",
             "rating": 4,
@@ -619,7 +619,7 @@
         "review_rad8A6": {
           "type": "review",
           "settings": {
-            "content": "<p>\"Ik draag al jaren Creed Aventus, maar dit is de beste dupe die ik heb gevonden — en voor een fractie van de prijs. De combinatie van ananas en vanille klopt perfect.\"</p>",
+            "content": "<p>\"Ik draag al jaren Creed Aventus. Dit is het beste alternatief dat ik ooit heb gevonden, voor een fractie van de prijs. De combinatie van ananas en vanille klopt perfect.\"</p>",
             "author": "Alvarez P.",
             "date": "4 maanden geleden",
             "rating": 4,
@@ -643,7 +643,7 @@
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/Anastasiia_Komisarova.jpg",
-            "content": "<p>\"Prachtige geur. Lang aanhoudend. <br/>Zoet en warm. Snelle levering. <br/>Zal zeker opnieuw bestellen.\"</p>",
+            "content": "<p>\"Prachtige geur. Lang aanhoudend. Zoet en warm. Snel geleverd. Ik bestel zeker opnieuw.\"</p>",
             "author": "Lucy R",
             "date": "4 maanden geleden",
             "rating": 5,
@@ -699,7 +699,7 @@
         "review_YGWg6W": {
           "type": "review",
           "settings": {
-            "content": "<p>\"Van de service tot het product was de ervaring fenomenaal. Ik koop graag opnieuw wanneer ik wil.\"</p>",
+            "content": "<p>\"Van de klantenservice tot het product - de ervaring was fenomenaal. Ik kom zeker terug.\"</p>",
             "author": "Benjamin M",
             "date": "5 maanden geleden",
             "rating": 5,
@@ -754,7 +754,7 @@
         "review_Bhzenw": {
           "type": "review",
           "settings": {
-            "content": "<p>\"Geweldig product, ruikt fantastisch. Mensen vragen me altijd naar mijn geur en wat ik gebruik\"</p>",
+            "content": "<p>\"Geweldig product, ruikt fantastisch. Mensen vragen me regelmatig welk parfum ik draag.\"</p>",
             "author": "Damario R",
             "date": "7 maanden geleden",
             "rating": 5,
@@ -787,7 +787,7 @@
         "review_yEyWP7": {
           "type": "review",
           "settings": {
-            "content": "<p>\"Zeer goed merk, ik ben dol op de verpakking en het aroma\"</p>",
+            "content": "<p>\"Erg goed merk. Blij met de verpakking en de geur.\"</p>",
             "author": "Rosa B",
             "date": "7 maanden geleden",
             "rating": 5,
