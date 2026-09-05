@@ -225,7 +225,7 @@
         "title": "Anderen kochten ook",
         "description": "",
         "collection": "bestsellers",
-        "button_text": "Alles bekijken",
+        "button_text": "Bekijk alles",
         "button_link": "shopify://collections/bestsellers",
         "padding_top": 0,
         "padding_bottom": 72
