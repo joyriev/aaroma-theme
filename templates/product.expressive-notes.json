@@ -243,32 +243,32 @@
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/icons_eu.png",
-            "perk_title": "Gemaakt in de EU",
-            "perk_content": "Vegan, dierproefvrij, gemaakt in Europa"
+            "perk_title": "Gratis bezorging Vanaf €55",
+            "perk_content": "binnen 48 uur verzonden, met tracking."
           }
         },
         "perks_aUgYmM": {
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/icons_quality.png",
-            "perk_title": "Franse kwaliteitsstandaard",
-            "perk_content": "Vervaardigd met dezelfde aandacht voor detail als designermerken."
+            "perk_title": "60 dagen garantie",
+            "perk_content": "Niet tevreden? Geld terug. Geen gedoe."
           }
         },
         "perks_kBPq4e": {
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/icons_guarantee.png",
-            "perk_title": "Geld-terug-garantie",
-            "perk_content": "Je kunt je product binnen 60 dagen retourneren voor een volledige terugbetaling."
+            "perk_title": "EU-gecertificeerd",
+            "perk_content": "Gemaakt in gecertificeerde Europese fabrieken."
           }
         },
         "perks_6GRd88": {
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/icons_time.png",
-            "perk_title": "Lange draagduur",
-            "perk_content": "geur houdt 12+ uur aan. (sommigen zeggen zelfs langer)."
+            "perk_title": "12+ uur lang aanhoudend",
+            "perk_content": "Blijft de hele dag hangen."
           }
         }
       },
