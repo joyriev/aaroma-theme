@@ -125,7 +125,7 @@
           "settings": {
             "heading": "Is dit een eau de toilette of bodyspray?",
             "icon": "perfume",
-            "content": "<p>Absoluut niet. Elke Aaroma-geur is een 21% Eau de Parfum, een van de hoogste concentraties die er zijn. </p><p>De meeste designermerken stoppen bij 10-15%. Wij gaan verder. Wat dat voor jou betekent: Blijft tot 10-12 uur zitten. </p><p>Verspreidt zich sterker en blijft langer hangen. Je hebt minder sprays nodig. Het is geen bodyspray. Het is een statement.</p>",
+            "content": "<p>Absoluut niet. Elke Aaroma-geur is een krachtige Eau de Parfum met een concentratie van 21% — een van de hoogste percentages op de markt .Waar de meeste designermerken stoppen bij 10–15%, gaan wij een stap verder. Wat dat voor jou betekent? Een geur die 10 tot 12 uur lang perfect blijft hangen. Het verspreidt zich sterker, blijft langer en je hebt minder sprays nodig.</p>",
             "page": ""
           }
         },
@@ -134,7 +134,7 @@
           "settings": {
             "heading": "Ruiken de parfums van Aaroma hetzelfde als designerparfums?",
             "icon": "perfume",
-            "content": "<p>Dezelfde geurnoten. Dezelfde concentratie. Hetzelfde vakmanschap. </p><p>We creëren elke geur opnieuw met hoogwaardige oliën en een zorgvuldige mengtechniek, dus ja, het ruikt precies hetzelfde als de geur die vijf keer zo duur is. </p><p>In blinde tests kunnen mensen ze niet van elkaar onderscheiden. Het enige verschil? Je betaalt niet voor een designerlogo of een glazen flacon in de vorm van een sculptuur. </p><p>De luxe zit in de geur – en dat is precies wat je krijgt.</p>",
+            "content": "<p>Ja. Dezelfde geurnoten, dezelfde concentratie en hetzelfde vakmanschap. </p><p>We ontwikkelen elke geur met hoogwaardige oliën en een zorgvuldige mengtechniek. Hierdoor ruikt het precies hetzelfde als het origineel, maar zonder het prijskaartje. </p><p>In blinde tests kunnen mensen ze niet van elkaar onderscheiden.Het enige verschil? Je betaalt tot 90% minder. Puur voor het parfum, niet voor dure campagnes of luxe winkels.<br/><br/></p>",
             "page": ""
           }
         },
@@ -222,7 +222,7 @@
       "name": "You May Like",
       "settings": {
         "background_color": "#faf9f6",
-        "title": "Dit vind je misschien ook leuk",
+        "title": "Anderen kochten ook",
         "description": "",
         "collection": "bestsellers",
         "button_text": "Alles bekijken",
