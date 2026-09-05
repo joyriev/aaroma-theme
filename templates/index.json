@@ -360,7 +360,7 @@
           "settings": {
             "icon": "shopify://shop_images/Screenshot_2026-05-03_at_9.32.50_PM.png",
             "heading": "Gemaakt in Europa",
-            "description": "<p>Onze parfums worden gemaakt in gecertificeerde Europese parfumfabrieken — volgens de strenge EU-cosmeticaverordening.</p>",
+            "description": "<p>Onze parfums worden gemaakt in gecertificeerde Europese fabrieken  onder de strengste cosmeticaverordening ter wereld.</p>",
             "mobile_description": ""
           }
         },
@@ -368,8 +368,8 @@
           "type": "point",
           "settings": {
             "icon": "shopify://shop_images/Screenshot_2026-05-03_at_9.37.47_PM.png",
-            "heading": "IFRA-gecertificeerde formules",
-            "description": "<p>Veilig voor je huid. Geen grijze markt, geen dubieuze ingrediënten. Alleen wat hoort.</p>",
+            "heading": "Franse Kwaliteit.",
+            "description": "<p>Gemaakt met dezelfde aandacht voor detail en geurnoten als designerparfums.</p>",
             "mobile_description": ""
           }
         },
@@ -377,8 +377,8 @@
           "type": "point",
           "settings": {
             "icon": "shopify://shop_images/Screenshot_2026-05-03_at_9.39.01_PM.png",
-            "heading": "Jij betaalt voor de geur, niet voor het merk",
-            "description": "<p>Tot 90% goedkoper dan designerparfums. Zonder dure campagnes, luxe winkels of merkopslag.</p>",
+            "heading": "Voor een fractie van de prijs.",
+            "description": "<p>Tot 90% goedkoper dan designermerken. Betaal voor de parfum, niet voor dure campagnes en luxe winkels</p>",
             "mobile_description": ""
           }
         }
