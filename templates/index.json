@@ -286,7 +286,7 @@
           "type": "review",
           "settings": {
             "heading": "Zeker een aanrader.",
-            "content": "<p><em>\"Ik droeg Nr. 079 naar een etentje en drie mensen vroegen welk parfum ik op had. Eén iemand dacht dat het Chanel was.\"</em></p>",
+            "content": "<p>\"Ik droeg Nr. 079 naar een etentje en drie mensen vroegen welk parfum ik op had. Een van hen dacht dat het Chanel was.\"</p>",
             "author": "Sanne V., Rotterdam",
             "date": "2 days ago",
             "rating": 5,
@@ -298,7 +298,7 @@
           "type": "review",
           "settings": {
             "heading": "Perfect aangekomen.",
-            "content": "<p><em>\"</em>Na twaalf uur werken ruik ik ’m nog steeds. Dat lukt mijn flesje van €120 niet eens. Deze blijft. Dat flesje niet<em>.\"</em></p>",
+            "content": "<p>\"Na twaalf uur werken ruik ik hem nog steeds. Dat lukt mijn flesje van 120 euro niet eens. Deze blijft. Dat flesje niet.\"</p>",
             "author": "Daan M., Utrecht",
             "date": "2 days ago",
             "rating": 5,
@@ -310,7 +310,7 @@
           "type": "review",
           "settings": {
             "heading": "Uitstekende prijs-kwaliteit.",
-            "content": "<p><em>\"Ik was echt onder de indruk van de kwaliteit. De geur blijft goed hangen en is vergelijkbaar met veel duurdere merken.\"</em></p>",
+            "content": "<p>\"Ik was echt onder de indruk van de kwaliteit. De geur blijft lang hangen en is te vergelijken met veel duurdere merken.\"</p>",
             "author": "Santosh K.",
             "date": "2 days ago",
             "rating": 5,
