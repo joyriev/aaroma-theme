@@ -126,7 +126,7 @@
           "settings": {
             "perk_image": "shopify://shop_images/icons_quality.png",
             "perk_title": "60 dagen garantie",
-            "perk_content": "Niet tevreden? Geld terug, zonder vragen."
+            "perk_content": "Niet tevreden? Geld terug. Geen gedoe."
           }
         },
         "perks_Cj3EAR": {
@@ -134,15 +134,15 @@
           "settings": {
             "perk_image": "shopify://shop_images/icons_guarantee.png",
             "perk_title": "EU-gecertificeerd",
-            "perk_content": "IFRA-conform, veilig op de huid"
+            "perk_content": "Gemaakt in gecertificeerde Europese fabrieken."
           }
         },
         "perks_iX4iTY": {
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/icons_time.png",
-            "perk_title": "12+ uur draagduur",
-            "perk_content": "Ochtend tot avond, één spray"
+            "perk_title": "12+ uur lang aanhoudend",
+            "perk_content": "Blijft de hele dag hangen"
           }
         }
       },
@@ -193,8 +193,8 @@
       "name": "Popular Products",
       "settings": {
         "background_color": "#fcfbf9",
-        "title": "Meest gekozen",
-        "description": "<p>Wat onze klanten keer op keer bestellen.</p>",
+        "title": "Meest Populair",
+        "description": "<p>Wat onze klanten blijven bestellen.</p>",
         "collection": "top-sellers",
         "button_text": "Bekijk alles",
         "button_link": "shopify://collections/all",
