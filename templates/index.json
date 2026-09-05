@@ -245,7 +245,7 @@
           "type": "category",
           "settings": {
             "image": "shopify://shop_images/tryscent_male_02.png",
-            "text": "Voor hem",
+            "text": "Herengeuren",
             "link": "shopify://collections/men"
           }
         },
@@ -253,7 +253,7 @@
           "type": "category",
           "settings": {
             "image": "shopify://shop_images/ugc12.png",
-            "text": "Voor haar",
+            "text": "Damesgeuren",
             "link": "shopify://collections/women"
           }
         },
@@ -261,7 +261,7 @@
           "type": "category",
           "settings": {
             "image": "shopify://shop_images/website_unisex_1.webp",
-            "text": "Unisex",
+            "text": "Unisexgeuren",
             "link": "shopify://collections/unisex"
           }
         }
