@@ -386,7 +386,7 @@
       "name": "Stacks Up",
       "settings": {
         "background_color": "#fcfbf9",
-        "title": "Hoe Aaroma zich verhoudt tot de concurrentie",
+        "title": "Waarom Aaroma?",
         "btn_text": "Alles weergeven",
         "btn_url": "shopify://collections/all",
         "padding_top": 36,
@@ -399,7 +399,7 @@
         "heading_jjazy4": {
           "type": "heading",
           "settings": {
-            "content": "Waarom voelen parfums die in de EU worden gemaakt anders aan?",
+            "content": "Veilig voor je huid. Geproduceerd volgens de strengste normen.",
             "heading_type": "h2",
             "font_size": 32,
             "mobile_font_size": 24
@@ -408,7 +408,7 @@
         "text_nb9PHi": {
           "type": "text",
           "settings": {
-            "content": "<p>Gemaakt in EU-fabrieken met ingrediënten en formules die voldoen aan de IFRA-vereisten.</p><ul><li>Vrij van ftalaten</li><li>Vrij van parabenen</li><li>Veganistisch</li><li>Dierproefvrij</li><li>IFRA-goedgekeurd</li><li>Ontwikkeld volgens EU-normen</li><li>Geen bekende hormoonverstorende stoffen</li></ul><p>Wij produceren parfums in overeenstemming met strenge Europese cosmetische normen.</p>",
+            "content": "<p>Onze parfums worden gemaakt in gecertificeerde Europese fabrieken onder de strengste cosmeticaverordening ter wereld. Dit betekent dat je kiest voor een hoogwaardige geur die 100% veilig is voor je huid.</p><ul><li>Vrij van ftalaten</li><li>Vrij van parabenen en ftalaten (geen hormoonverstorende stoffen)</li><li>100% Vegan & Dierproefvrij</li><li>Dierproefvrij</li><li>IFRA-gecertificeerd</li><li>Gecertificeerde topkwaliteit volgens de strengste Europese cosmeticawetgeving.</li><li>Geen bekende hormoonverstorende stoffen</li></ul><p></p>",
             "mobile_content": "",
             "font_size": 18
           }
