@@ -328,7 +328,7 @@
       "settings": {
         "background_color": "#ffffff",
         "heading": "Wat onze klanten zeggen",
-        "review_text": "Geen nep-reviews. Echte klanten.",
+        "review_text": "Geverifieerde kopers. Echte ervaringen.",
         "button_text": "Read all reviews",
         "button_link": "shopify://collections/all",
         "padding_top": 72,
@@ -341,7 +341,7 @@
         "heading_ax7WWJ": {
           "type": "heading",
           "settings": {
-            "content": "Waarom Aaroma anders is",
+            "content": "Waarom Aaroma?",
             "heading_type": "h2",
             "font_size": 32,
             "mobile_font_size": 24
@@ -350,7 +350,7 @@
         "text_gzPVkb": {
           "type": "text",
           "settings": {
-            "content": "<p>Luxe ruiken is geen privilege. Het is een keuze.</p>",
+            "content": "<p>Dezelfde luxe geur. Europese kwaliteit. Zonder de designerprijs.</p>",
             "mobile_content": "",
             "font_size": 18
           }
