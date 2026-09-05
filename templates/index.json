@@ -117,7 +117,7 @@
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/shipping.png",
-            "perk_title": "Gratis verzending",
+            "perk_title": "Gratis bezorging",
             "perk_content": "Vanaf €55 — snel aan je deur"
           }
         },
