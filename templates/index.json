@@ -207,7 +207,7 @@
       "name": "Popular Products",
       "settings": {
         "background_color": "#fcfbf9",
-        "title": "Voor hem",
+        "title": "Herengeuren",
         "description": "",
         "collection": "men",
         "button_text": "Bekijk alles",
@@ -221,7 +221,7 @@
       "name": "Popular Products",
       "settings": {
         "background_color": "#fcfbf9",
-        "title": "Voor haar",
+        "title": "Damesgeuren",
         "description": "",
         "collection": "women",
         "button_text": "Bekijk alles",
