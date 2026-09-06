@@ -69,15 +69,6 @@
                 </div>
 
                 <hr class="border-0 border-b border-solid border-gray-200 my-4">
-
-                <p class="text-xs leading-relaxed text-gray-700 mb-4 m-0">
-                    <strong class="font-bold">Ingrediënten:</strong>
-                    {% if product.metafields.custom.ingredients.value != blank %}
-                    {{ product.metafields.custom.ingredients.value | metafield_text }}
-                    {% else %}
-                        Gedenatureerde alcohol, parfum (geur), water, limoneen, linalool, citronellol, geraniol, citral, benzylsalicylaat, coumarine, alfa-isomethylionon, hexyl cinnamal, benzylbenzoaat.
-                    {% endif %}
-                </p>
                 
                 <div class="flex flex-wrap gap-2 mt-4">
                     <span class="inline-flex items-center whitespace-nowrap px-3 py-1.5 rounded-full bg-white border border-solid border-gray-200 text-xs text-gray-800">
