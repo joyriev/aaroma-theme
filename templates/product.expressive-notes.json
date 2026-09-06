@@ -150,11 +150,10 @@
         },
         "collapsible_tab_pdYPYn": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
-            "heading": "Blijven uw geuren langdurig aanwezig?",
+            "heading": "Ingrediënten",
             "icon": "perfume",
-            "content": "<p>Absoluut. Meer dan 12 uur. Elke fles bevat een 25% EDP-formule die de hele dag meegaat – van ochtendvergaderingen tot romantische momenten midden in de nacht. Eén spray, en de geur blijft de hele dag aanwezig.</p>",
+            "content": "<p>Gedenatureerde alcohol, parfum (geur), water, limoneen, linalool, citronellol, geraniol, citral, benzylsalicylaat, coumarine, alfa-isomethylionon, hexyl cinnamal, benzylbenzoaat.</p>",
             "page": ""
           }
         },
