@@ -82,19 +82,19 @@
           "settings": {
             "layout": "horizontal",
             "icon_1": "stopwatch",
-            "heading_1": "Lasts 12+ Hours",
+            "heading_1": "Lasts 12+ hours",
             "icon_2": "heart",
-            "heading_2": "loved by 10,000+",
+            "heading_2": "Loved by 10,000+",
             "icon_3": "truck",
-            "heading_3": "60 day satisfaction guarantee"
+            "heading_3": "60-day money-back guarantee"
           }
         },
         "money_back_eKXfnE": {
           "type": "money_back",
           "disabled": true,
           "settings": {
-            "title": "Try It Risk-Free",
-            "text": "Less Than 1% claim Money Back."
+            "title": "Try it risk-free",
+            "text": "Fewer than 1% ask for their money back."
           }
         },
         "people_purchased_cYxaYJ": {
@@ -110,7 +110,7 @@
         "collapsible_tab_XYmgtQ": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Beschrijving",
+            "heading": "Description",
             "icon": "clipboard",
             "content": "{{ product.description }}",
             "page": ""
@@ -235,14 +235,14 @@
           "settings": {
             "perk_image": "shopify://shop_images/icons_eu.png",
             "perk_title": "Made in the EU",
-            "perk_content": "Vegan, cruelty-free, made in Europe"
+            "perk_content": "Vegan and cruelty-free, made in Europe."
           }
         },
         "perks_aUgYmM": {
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/icons_quality.png",
-            "perk_title": "Franse kwaliteitsstandaard",
+            "perk_title": "Designer-grade quality",
             "perk_content": "Crafted with the same attention to detail as designer brands."
           }
         },
@@ -250,16 +250,16 @@
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/icons_guarantee.png",
-            "perk_title": "Money-back guarantee",
-            "perk_content": "You can return your product within 60 days for a full refund."
+            "perk_title": "60-day money-back guarantee",
+            "perk_content": "Not the one? Return it within 60 days for a full refund."
           }
         },
         "perks_6GRd88": {
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/icons_time.png",
-            "perk_title": "Lange draagduur",
-            "perk_content": "scent lasts 12+ hours. (some say even longer)."
+            "perk_title": "Long-lasting wear",
+            "perk_content": "12+ hours of wear \u2014 often longer."
           }
         }
       },
@@ -282,7 +282,7 @@
         "stack_Er83qJ": {
           "type": "stack",
           "settings": {
-            "stack_heading": "Parfumconcentratie",
+            "stack_heading": "High fragrance concentration",
             "stack_subheading": "More oil = longer longevity"
           }
         },
@@ -310,14 +310,14 @@
         "stack_Jh3Jaq": {
           "type": "stack",
           "settings": {
-            "stack_heading": "Verzonden binnen 24 uur",
+            "stack_heading": "Shipped within 24 hours",
             "stack_subheading": "No waiting in the store"
           }
         },
         "stack_9C6wKM": {
           "type": "stack",
           "settings": {
-            "stack_heading": "Dierproefvrije formule",
+            "stack_heading": "Cruelty-free formula",
             "stack_subheading": "Pure ingredients, safe for the skin"
           }
         },
@@ -341,7 +341,7 @@
       "name": "Stacks Up",
       "settings": {
         "background_color": "#fcfbf9",
-        "title": "How Aaroma compares to the competition",
+        "title": "Aaroma vs. designer brands",
         "btn_text": "Show all",
         "btn_url": "shopify://collections/all",
         "padding_top": 36,
@@ -399,7 +399,7 @@
         "text_nb9PHi": {
           "type": "text",
           "settings": {
-            "content": "<ul><li>Geproduceerd in Europese faciliteiten</li><li>Ingredients and formulas according to IFRA guidelines</li><li>No compromises, no grey market or questionable blends</li></ul><p>We develop fragrances according to the strict European cosmetics rules.</p>",
+            "content": "<ul><li>Produced in European facilities</li><li>Ingredients and formulas according to IFRA guidelines</li><li>No compromises, no grey market or questionable blends</li></ul><p>Developed to the strict European cosmetics regulations \u2014 the toughest in the world.</p>",
             "mobile_content": "",
             "font_size": 18
           }
@@ -1314,19 +1314,19 @@
         "perk_ka86VC": {
           "type": "perk",
           "settings": {
-            "text": "Lasts 12+ Hours"
+            "text": "Lasts 12+ hours"
           }
         },
         "perk_dBbEYA": {
           "type": "perk",
           "settings": {
-            "text": "loved by 10,000+"
+            "text": "Loved by 10,000+"
           }
         },
         "perk_8Q6daz": {
           "type": "perk",
           "settings": {
-            "text": "60 day satisfaction guarantee"
+            "text": "60-day money-back guarantee"
           }
         }
       },

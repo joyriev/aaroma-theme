@@ -101,13 +101,13 @@
                 {% endif %}
               {% when 'designer_price' %}
                 {% if product.metafields.custom.original_retail_price != blank %}
-                  <div>(Designerprijs: {{ product.metafields.custom.original_retail_price.value | money }})</div>
+                  <div>(Designer price: {{ product.metafields.custom.original_retail_price.value | money }})</div>
                 {% endif %}
               {% when 'cheaper_than' %}
                 <div>
                   {% if product.metafields.custom.scent_intensity != blank %}
                     <div class="flex items-center gap-[5px]">
-                    Fragrance intensity: <span class="text-highlight leading-4">Powerful</span>
+                    Scent intensity: <span class="text-highlight leading-4">Powerful</span>
                     {% assign intensity = product.metafields.custom.scent_intensity.value | times: 1 %}
                     <div class="flex gap-[5px] items-center justify-center ml-1">
                         {% for i in (1..3) %}
