@@ -451,6 +451,42 @@
     "massive_review_section": {
       "type": "massive-review",
       "blocks": {
+        "review_GJGq9n": {
+          "type": "review",
+          "settings": {
+            "review_image": "shopify://shop_images/pinkm.png",
+            "content": "<p>\"Blij met Aaroma. De geur lijkt sterk op het origineel en blijft goed hangen. Nette verpakking, mooi flesje. Uitstekende keuze voor wie kwaliteit zoekt voor een eerlijke prijs.\"</p>",
+            "author": "Alina M",
+            "date": "5 maanden geleden",
+            "rating": 5,
+            "show_verified_badge": false,
+            "product": "black-berry-vanilla-musk"
+          }
+        },
+        "review_jNFxYP": {
+          "type": "review",
+          "settings": {
+            "review_image": "shopify://shop_images/WhatsApp_Image_2026-09-09_at_8.35.58_AM.jpg",
+            "content": "<p>\"Een van mijn favoriete geuren. Snel bezorgd. Heerlijk.\"</p>",
+            "author": "Alex W.",
+            "date": "2 dagen geleden",
+            "rating": 5,
+            "show_verified_badge": true,
+            "product": ""
+          }
+        },
+        "review_eGyDpR": {
+          "type": "review",
+          "settings": {
+            "review_image": "shopify://shop_images/345.png",
+            "content": "<p>\"Geweldig product. Een slim alternatief voor merkparfums. Blijft lang hangen en je krijgt veel waar voor je geld.\"</p>",
+            "author": "EM",
+            "date": "4 maanden geleden",
+            "rating": 5,
+            "show_verified_badge": true,
+            "product": "bergamote-le-labo-bergamote-22"
+          }
+        },
         "review_gF6wKD": {
           "type": "review",
           "disabled": true,
@@ -489,6 +525,18 @@
             "product": "apple-cinnamon-sandalwood"
           }
         },
+        "review_DzktgE": {
+          "type": "review",
+          "settings": {
+            "review_image": "shopify://shop_images/2026-07-02_16h57_29.png",
+            "content": "<p>\"Perfect en prachtig.\"</p>",
+            "author": "Lidis A.",
+            "date": "2 maanden geleden",
+            "rating": 5,
+            "show_verified_badge": true,
+            "product": "saffron-rose-amber-50-ml-1-7-fl-oz"
+          }
+        },
         "review_VrkHXh": {
           "type": "review",
           "settings": {
@@ -501,6 +549,18 @@
             "product": "fresh-escape-premium"
           }
         },
+        "review_myTAe8": {
+          "type": "review",
+          "settings": {
+            "review_image": "shopify://shop_images/WhatsApp_Image_2026-09-09_at_8.35.55_AM.jpg",
+            "content": "<p>\"Het ruikt erg lekker, maar blijft niet zo lang hangen als zou moeten\"</p>",
+            "author": "Terence M.",
+            "date": "2 maanden geleden",
+            "rating": 5,
+            "show_verified_badge": false,
+            "product": ""
+          }
+        },
         "review_wczQWw": {
           "type": "review",
           "settings": {
@@ -511,17 +571,6 @@
             "rating": 4,
             "show_verified_badge": true,
             "product": "pineapple-smoke-vanilla-50-ml-1-7-fl-oz"
-          }
-        },
-        "review_jNFxYP": {
-          "type": "review",
-          "settings": {
-            "content": "<p>\"Een van mijn favoriete geuren. Snel bezorgd. Heerlijk.\"</p>",
-            "author": "Alex W.",
-            "date": "2 dagen geleden",
-            "rating": 5,
-            "show_verified_badge": true,
-            "product": ""
           }
         },
         "review_9fWXGn": {
@@ -547,29 +596,6 @@
             "rating": 5,
             "show_verified_badge": true,
             "product": "4x-100ml-perfume-bottles"
-          }
-        },
-        "review_myTAe8": {
-          "type": "review",
-          "settings": {
-            "content": "<p>\"Het ruikt erg lekker, maar blijft niet zo lang hangen als zou moeten\"</p>",
-            "author": "Terence M.",
-            "date": "2 maanden geleden",
-            "rating": 5,
-            "show_verified_badge": false,
-            "product": ""
-          }
-        },
-        "review_DzktgE": {
-          "type": "review",
-          "settings": {
-            "review_image": "shopify://shop_images/2026-07-02_16h57_29.png",
-            "content": "<p>\"Perfect en prachtig.\"</p>",
-            "author": "Lidis A.",
-            "date": "2 maanden geleden",
-            "rating": 5,
-            "show_verified_badge": true,
-            "product": "saffron-rose-amber-50-ml-1-7-fl-oz"
           }
         },
         "review_YpX9h9": {
@@ -599,8 +625,9 @@
         "review_MBb63N": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/Claudia_Martins_4.png",
             "content": "<p>\"Ruikt precies als Luna Rossa Carbon, voor een fractie van de prijs. Ik kan niet geloven hoe dicht het bij het origineel zit.\"</p>",
-            "author": "Robinson D.",
+            "author": "Diana R.",
             "date": "4 maanden geleden",
             "rating": 4,
             "show_verified_badge": false,
@@ -622,6 +649,7 @@
         "review_rad8A6": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/WhatsApp_Image_2026-09-09_at_8.35.50_AM.jpg",
             "content": "<p>\"Ik draag al jaren Creed Aventus. Dit is het beste alternatief dat ik ooit heb gevonden, voor een fractie van de prijs. De combinatie van ananas en vanille klopt perfect.\"</p>",
             "author": "Alvarez P.",
             "date": "4 maanden geleden",
@@ -654,20 +682,10 @@
             "product": "6x-30ml-perfume-bottles"
           }
         },
-        "review_GJGq9n": {
-          "type": "review",
-          "settings": {
-            "content": "<p>\"Blij met Aaroma. De geur lijkt sterk op het origineel en blijft goed hangen. Nette verpakking, mooi flesje. Uitstekende keuze voor wie kwaliteit zoekt voor een eerlijke prijs.\"</p>",
-            "author": "Alina M",
-            "date": "5 maanden geleden",
-            "rating": 5,
-            "show_verified_badge": false,
-            "product": "black-berry-vanilla-musk"
-          }
-        },
         "review_UWgaKy": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/2026-07-02_16h34_24.png",
             "content": "<p>\"Goede kwaliteit voor een heel betaalbare prijs.\"</p>",
             "author": "Amanda G",
             "date": "5 maanden geleden",
@@ -679,7 +697,7 @@
         "review_pqPKKr": {
           "type": "review",
           "settings": {
-            "review_image": "shopify://shop_images/2026-07-02_16h48_27.png",
+            "review_image": "shopify://shop_images/WhatsApp_Image_2026-09-09_at_8.33.40_AM.jpg",
             "content": "<p>\"Geweldige geuren, geweldige producten. Alles vlekkeloos.\"</p>",
             "author": "Alex S.",
             "date": "6 maanden geleden",
@@ -691,6 +709,7 @@
         "review_UfaJJE": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/tryscent143.png",
             "content": "<p>\"Netjes verpakt en onbeschadigd ontvangen. De geur is heerlijk. Hoge kwaliteit.\"</p>",
             "author": "Roxanne S",
             "date": "5 maanden geleden",
@@ -702,23 +721,13 @@
         "review_YGWg6W": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/WhatsApp_Image_2026-09-09_at_8.35.36_AM_1.jpg",
             "content": "<p>\"Van de klantenservice tot het product - de ervaring was fenomenaal. Ik kom zeker terug.\"</p>",
             "author": "Benjamin M",
             "date": "5 maanden geleden",
             "rating": 5,
             "show_verified_badge": false,
             "product": ""
-          }
-        },
-        "review_eGyDpR": {
-          "type": "review",
-          "settings": {
-            "content": "<p>\"Geweldig product. Een slim alternatief voor merkparfums. Blijft lang hangen en je krijgt veel waar voor je geld.\"</p>",
-            "author": "EM",
-            "date": "4 maanden geleden",
-            "rating": 5,
-            "show_verified_badge": true,
-            "product": "bergamote-le-labo-bergamote-22"
           }
         },
         "review_DbGYKc": {
@@ -736,6 +745,7 @@
         "review_w7rGQg": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/Carolina_Maresca_3.png",
             "content": "<p>\"De geur is intens en vol. Het flesje en het design zijn prachtig. Ik bestel zeker opnieuw.\"</p>",
             "author": "Eliannys Y",
             "date": "7 maanden geleden",
@@ -747,12 +757,13 @@
         "review_Xg6QrF": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/WhatsApp_Image_2026-09-09_at_8.35.58_AM_1.jpg",
             "content": "<p>\"Ik vind het leuk! Ik ben dol op deze geur. Goede fragrance\"</p>",
             "author": "Aleksandra M",
             "date": "7 maanden geleden",
             "rating": 5,
             "show_verified_badge": false,
-            "product": "alpha-oil"
+            "product": ""
           }
         },
         "review_Bhzenw": {
@@ -848,16 +859,18 @@
         }
       },
       "block_order": [
+        "review_GJGq9n",
+        "review_jNFxYP",
+        "review_eGyDpR",
         "review_gF6wKD",
         "review_ByDgLX",
         "review_dKt8hn",
+        "review_DzktgE",
         "review_VrkHXh",
+        "review_myTAe8",
         "review_wczQWw",
-        "review_jNFxYP",
         "review_9fWXGn",
         "review_iPjTCz",
-        "review_myTAe8",
-        "review_DzktgE",
         "review_YpX9h9",
         "review_NBGz7p",
         "review_MBb63N",
@@ -865,12 +878,10 @@
         "review_rad8A6",
         "review_BLYVmX",
         "review_eerxBx",
-        "review_GJGq9n",
         "review_UWgaKy",
         "review_pqPKKr",
         "review_UfaJJE",
         "review_YGWg6W",
-        "review_eGyDpR",
         "review_DbGYKc",
         "review_w7rGQg",
         "review_Xg6QrF",
