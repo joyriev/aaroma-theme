@@ -820,7 +820,7 @@
         "optional_shipping_line_delivery_instructions_label": "Afleweringsinstruksies (opsioneel)",
         "shipping_line_delivery_phone": "U kan gekontak word met opdaterings oor u aflewering.",
         "other_method": {
-          "other": "%{count} ander metodes beskikbaar vanaf",
+          "other": "%{count} ander metodes beskikbaar From",
           "one": "%{count} ander metode beskikbaar by",
           "zero": "Geen ander metodes beskikbaar nie"
         },
@@ -3729,7 +3729,7 @@
           "draft_label": "Konsepbevel {{name}}"
         },
         "payment_delete": {
-          "description_without_replacement": "Hierdie betaalmetode sal nie meer beskikbaar wees vir toekomstige aankope vanaf hierdie plek nie.",
+          "description_without_replacement": "Hierdie betaalmetode sal nie meer beskikbaar wees vir toekomstige aankope From hierdie plek nie.",
           "description_with_replacement": "Deletasie van hierdie betaalmetode sal voorafgeautoriseerde betalings vir hierdie ligging beïnvloed. Vervang dit met 'n alternatiewe betaalmetode om voort te gaan met die ontvangs van komende bestellings."
         }
       },
@@ -4295,7 +4295,7 @@
       },
       "price": {
         "sale_price": "Verkoopprys",
-        "from_price_html": "Vanaf {{ price }}",
+        "from_price_html": "From {{ price }}",
         "unit_price": "Eenheidsprys",
         "regular_price": "Gereelde prys"
       },

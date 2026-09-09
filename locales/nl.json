@@ -143,7 +143,7 @@
         "max_of": "Maximaal {{ quantity }}"
       },
       "price": {
-        "from_price_html": "Vanaf {{ price }}",
+        "from_price_html": "From {{ price }}",
         "regular_price": "Reguliere prijs",
         "sale_price": "Aanbiedingsprijs",
         "unit_price": "Stukprijs"
@@ -192,7 +192,7 @@
         "note": "Hoeveelheidskorting beschikbaar",
         "minimum": "Meer dan {{ quantity }}",
         "price_range": "{{ minimum }} - {{ maximum }}",
-        "price_at_each_html": "vanaf {{ price }} per stuk"
+        "price_at_each_html": "From {{ price }} per stuk"
       },
       "product_variants": "Productvarianten",
       "duties_included": "Taken inbegrepen."
@@ -204,7 +204,7 @@
       "apply": "Toepassen",
       "clear": "Helder",
       "clear_all": "Alles verwijderen",
-      "from": "Vanaf",
+      "from": "From",
       "filter_and_sort": "Filteren en sorteren",
       "filter_by_label": "Filter:",
       "filter_button": "Filteren",
@@ -1729,7 +1729,7 @@
         "shipping_line_delivery_instructions": "Voer de benodigde informatie in, zoals deurcodes of afleverinstructies.",
         "other_method": {
           "one": "%{count} andere methode beschikbaar bij",
-          "other": "%{count} andere methoden beschikbaar vanaf"
+          "other": "%{count} andere methoden beschikbaar From"
         },
         "prime_not_available": {
           "default": "Prime-levering is niet beschikbaar voor uw bestelling. Uw verzendopties zijn bijgewerkt."

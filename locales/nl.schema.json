@@ -1707,7 +1707,7 @@
               "label": "Content rij"
             },
             "page": {
-              "label": "Content rij vanaf pagina"
+              "label": "Content rij From pagina"
             },
             "icon": {
               "label": "Pictogram",
@@ -3020,7 +3020,7 @@
               "label": "Content rij"
             },
             "page": {
-              "label": "Content rij vanaf pagina"
+              "label": "Content rij From pagina"
             },
             "icon": {
               "label": "Pictogram",

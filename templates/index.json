@@ -117,32 +117,32 @@
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/shipping.png",
-            "perk_title": "Free Shipping",
-            "perk_content": "On orders €55+. Shipped within 48 hours, with tracking."
+            "perk_title": "Gratis bezorging",
+            "perk_content": "From €55 — binnen 48 uur verzonden, met tracking."
           }
         },
         "perks_Ynh4gw": {
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/icons_quality.png",
-            "perk_title": "60-Day Money-Back Guarantee",
-            "perk_content": "Not happy? Get your money back. No hassle."
+            "perk_title": "60 dagen garantie",
+            "perk_content": "Niet tevreden? Geld terug. Geen gedoe."
           }
         },
         "perks_Cj3EAR": {
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/icons_guarantee.png",
-            "perk_title": "Made in Europe",
-            "perk_content": "Produced in certified European facilities."
+            "perk_title": "EU-gecertificeerd",
+            "perk_content": "Gemaakt in gecertificeerde Europese fabrieken."
           }
         },
         "perks_iX4iTY": {
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/icons_time.png",
-            "perk_title": "12+ Hours of Wear",
-            "perk_content": "Enjoy your scent all day long."
+            "perk_title": "12+ uur lang aanhoudend",
+            "perk_content": "Blijft de hele dag hangen"
           }
         }
       },
@@ -193,10 +193,10 @@
       "name": "Popular Products",
       "settings": {
         "background_color": "#fcfbf9",
-        "title": "Best Sellers",
-        "description": "<p>The scents our customers keep coming back for.</p>",
+        "title": "Meest Populair",
+        "description": "<p>Wat onze klanten blijven bestellen.</p>",
         "collection": "top-sellers",
-        "button_text": "Shop All",
+        "button_text": "Bekijk alles",
         "button_link": "shopify://collections/all",
         "padding_top": 72,
         "padding_bottom": 72
