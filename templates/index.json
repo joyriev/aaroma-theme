@@ -327,8 +327,8 @@
       "name": "Review Grid",
       "settings": {
         "background_color": "#ffffff",
-        "heading": "Wat onze klanten zeggen",
-        "review_text": "Verified Buyers. Echte ervaringen.",
+        "heading": "What Our Customers Say",
+        "review_text": "Verified buyers. Real experiences.",
         "button_text": "Read all reviews",
         "button_link": "shopify://collections/all",
         "padding_top": 72,
