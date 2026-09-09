@@ -193,10 +193,10 @@
       "name": "Popular Products",
       "settings": {
         "background_color": "#fcfbf9",
-        "title": "Meest Populair",
-        "description": "<p>Wat onze klanten blijven bestellen.</p>",
+        "title": "Best Sellers",
+        "description": "<p>The scents our customers keep coming back for.</p>",
         "collection": "top-sellers",
-        "button_text": "Bekijk alles",
+        "button_text": "Shop All",
         "button_link": "shopify://collections/all",
         "padding_top": 72,
         "padding_bottom": 72
