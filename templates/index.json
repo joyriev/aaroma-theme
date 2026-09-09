@@ -341,7 +341,7 @@
         "heading_ax7WWJ": {
           "type": "heading",
           "settings": {
-            "content": "Waarom Aaroma?",
+            "content": "Why Choose Aaroma?",
             "heading_type": "h2",
             "font_size": 32,
             "mobile_font_size": 24
@@ -350,7 +350,7 @@
         "text_gzPVkb": {
           "type": "text",
           "settings": {
-            "content": "<p>Dezelfde luxe geur. Europese kwaliteit. Zonder de designerprijs.</p>",
+            "content": "<p>Luxury scents. European quality. Without the designer price tag.</p>",
             "mobile_content": "",
             "font_size": 18
           }
@@ -359,8 +359,8 @@
           "type": "point",
           "settings": {
             "icon": "shopify://shop_images/Screenshot_2026-05-03_at_9.32.50_PM.png",
-            "heading": "Gemaakt in Europa",
-            "description": "<p>Onze parfums worden gemaakt in gecertificeerde Europese fabrieken  onder de strengste cosmeticaverordening ter wereld.</p>",
+            "heading": "Made in Europe",
+            "description": "<p>Our perfumes are made in certified European facilities, following strict European cosmetics standards.</p>",
             "mobile_description": ""
           }
         },
@@ -368,8 +368,8 @@
           "type": "point",
           "settings": {
             "icon": "shopify://shop_images/Screenshot_2026-05-03_at_9.37.47_PM.png",
-            "heading": "Franse Kwaliteit.",
-            "description": "<p>Gemaakt met dezelfde aandacht voor detail en geurnoten als designerparfums.</p>",
+            "heading": "French Quality",
+            "description": "<p>Crafted with the same attention to detail and fragrance notes as designer perfumes.</p>",
             "mobile_description": ""
           }
         },
@@ -377,8 +377,8 @@
           "type": "point",
           "settings": {
             "icon": "shopify://shop_images/Screenshot_2026-05-03_at_9.39.01_PM.png",
-            "heading": "Voor een fractie van de prijs.",
-            "description": "<p>Tot 90% goedkoper dan designermerken. Betaal voor de parfum, niet voor dure campagnes en luxe winkels</p>",
+            "heading": "A Fraction of the Price",
+            "description": "<p>Save up to 90% compared to designer brands. Pay for the fragrance—not expensive advertising campaigns and luxury stores.</p>",
             "mobile_description": ""
           }
         }
