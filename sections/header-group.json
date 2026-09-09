@@ -18,21 +18,21 @@
           "type": "payment_icon",
           "settings": {
             "icon": "shopify://shop_images/090e7fd71af4b4e7589642874d6cae93a0a34f77.png",
-            "label": "Snel"
+            "label": "Fast Delivery"
           }
         },
         "payment_icon_VWgiqB": {
           "type": "payment_icon",
           "settings": {
             "icon": "shopify://shop_images/65f2284e66ff1dcb1a272319f1ef543c429f73e2.png",
-            "label": "EU-Versand"
+            "label": "EU Made"
           }
         },
         "payment_icon_i3Hr68": {
           "type": "payment_icon",
           "settings": {
             "icon": "shopify://shop_images/IDEAL_Logo_2020.svg",
-            "label": "Direct"
+            "label": "Pay with iDEAL"
           }
         },
         "payment_icon_EJx9b8": {
@@ -53,10 +53,10 @@
       "settings": {
         "primary_color": "#723631",
         "secondary_color": "#f1ebea",
-        "top_banner_text": "SLECHTS VOOR EEN KORTE TIJD",
-        "prepend_text": "TERUG NAAR KANTOOR",
+        "top_banner_text": "LIMITED TIME ONLY",
+        "prepend_text": "BACK TO OFFICE",
         "countdown_date": "",
-        "append_text": "KOOP 3, KRIJG ER 1 GRATIS",
+        "append_text": "BUY 3, GET 1 FREE",
         "link": "shopify://collections/bundle-save"
       }
     },
