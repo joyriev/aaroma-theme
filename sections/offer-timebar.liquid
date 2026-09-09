@@ -168,7 +168,7 @@
               {{ section.settings.append_text }}
             </div>
             <div class="flex items-center gap-2">
-              <div style="color: {{ section.settings.primary_color }};" class="text-sm md:text-base font-bold leading-none md:hidden">
+              <div id="flipdown-ends-label" style="color: {{ section.settings.primary_color }};" class="text-sm md:text-base font-bold leading-none md:hidden">
                 Endet in
               </div>
               <div id="flipdown" class="flipdown"></div>
@@ -245,13 +245,45 @@
 
     const deadline = getCountdownDeadline();
 
-    new FlipDown(deadline, {
-      headings: ["Dag", "HRS", "MIN", "SEC"],
-    })
-      .start()
-      .ifEnded(() => {
-        console.log('Countdown ended');
+    // Timebar labels per Weglot language (falls back to "nl")
+    const timebarLabels = {
+      nl: { headings: ["Dag", "Uur", "Min", "Sec"], endsIn: "Eindigt over" },
+      fr: { headings: ["Jour", "Hrs", "Min", "Sec"], endsIn: "Se termine dans" },
+      de: { headings: ["Tag", "Std", "Min", "Sek"], endsIn: "Endet in" },
+    };
+
+    const flipdownEl = document.getElementById('flipdown');
+    const endsLabelEl = document.getElementById('flipdown-ends-label');
+
+    function buildFlipdown(lang) {
+      const labels = timebarLabels[lang] || timebarLabels.nl;
+
+      if (endsLabelEl) {
+        endsLabelEl.textContent = labels.endsIn;
+      }
+
+      // Clear any previously rendered rotors before re-instantiating
+      if (flipdownEl) {
+        flipdownEl.innerHTML = '';
+      }
+
+      new FlipDown(deadline, {
+        headings: labels.headings,
+      })
+        .start()
+        .ifEnded(() => {
+          console.log('Countdown ended');
+        });
+    }
+
+    const currentLang = (window.Weglot && typeof Weglot.getCurrentLang === 'function' && Weglot.getCurrentLang()) || 'nl';
+    buildFlipdown(currentLang);
+
+    if (window.Weglot && typeof Weglot.on === 'function') {
+      Weglot.on("languageChanged", function (newLang) {
+        buildFlipdown(newLang);
       });
+    }
   });
 </script>
 
