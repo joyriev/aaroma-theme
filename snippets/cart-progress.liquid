@@ -5,12 +5,12 @@
 
     <div class="bc-progress-text" style="color: #000000;">
       {% if cart_count >= 4 %}
-        🎉 3+1 aanbieding geactiveerd!
+        🎉 3+1 offer activated!
       {% else %}
-        Voeg
+        Add
         <strong>{{ 4 | minus: cart_count }}</strong>
-        flessen toe en krijg er
-        <strong>1 gratis</strong>.
+        more bottles and get
+        <strong>1 free</strong>.
       {% endif %}
     </div>
     <div class="bc-progress-bar" style="background-color: #E2E2E2; margin-bottom: 0;">
@@ -30,11 +30,11 @@
 
     <div class="bc-progress-text" style="color: #000000;">
       {% if cart_total >= 4500 %}
-        🎉 Gratis verzending geactiveerd!
+        🎉 Free shipping activated!
       {% else %}
-        Voeg
+        Add
         <strong>{{ 4500 | minus: cart_total | money }}</strong>
-        toe voor gratis verzending.
+        more for free shipping.
       {% endif %}
     </div>
     <div class="bc-progress-bar" style="background-color: #E2E2E2; margin-bottom: 0;">

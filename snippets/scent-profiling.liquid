@@ -1,11 +1,11 @@
 <div class="flex gap-2 items-center">
   <img
     src="{{ 'icon-stopwatch.svg' |  asset_url }}"
-    alt="Horloge"
+    alt="Stopwatch"
     height="24"
     width="24">
   <div class="font-semibold text-black text-sm md:text-base">
-    Tot 12 uur lang een intense geur. 21% parfumconcentratie.
+    Up to 12 hours of intense scent. 21% fragrance concentration.
   </div>
 </div>
 {% if product.metafields.custom.scent_description != blank %}
@@ -17,11 +17,11 @@
   <a
     href="#expanded-notes"
     data-scroll-to-foldable="1"
-    class="text-xs font-bold tracking-wider uppercase text-gray-900 underline underline-offset-4 decoration-2 hover:decoration-[#22613A] cursor-pointer">Volledige beschrijving</a>
+    class="text-xs font-bold tracking-wider uppercase text-gray-900 underline underline-offset-4 decoration-2 hover:decoration-[#22613A] cursor-pointer">Full description</a>
   <a
     href="#shopify-section-template--21519790112906__image_and_text_eC7WVj"
     data-scroll-to-anchor="clean-label-section"
-    class="text-xs font-bold tracking-wider uppercase text-gray-900 underline underline-offset-4 decoration-2 hover:decoration-[#22613A] cursor-pointer">Schoon merk</a>
+    class="text-xs font-bold tracking-wider uppercase text-gray-900 underline underline-offset-4 decoration-2 hover:decoration-[#22613A] cursor-pointer">Clean label</a>
 </div>
 <div class="scent-attributes flex gap-6 md:gap-12 font-['Figtree']">
   {% if product.metafields.custom.fragrance_family != blank %}
@@ -237,9 +237,9 @@
       </div>
       <figcaption class="text-sm text-gray-800">
         {% case product.metafields.custom.scent_intensity %}
-          {% when 1 %}Licht
-        {% when 2 %}Gemiddeld
-      {% when 3 %}Sterk
+          {% when 1 %}Light
+        {% when 2 %}Medium
+      {% when 3 %}Strong
     {% else %}
       {{ product.metafields.custom.scent_intensity }}
   {% endcase %}

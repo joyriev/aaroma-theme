@@ -14,36 +14,36 @@
       <div class="p-3 pt-5 border-0 border-b border-solid border-[#e3e8e5]">
         <h2 class="text-lg font-bold text-gray-900 my-0 text-center tracking-normal">
           <span x-show="$store.bundleBuilder.selectedProducts.length === $store.bundleBuilder.bundleLength">
-            Je bundel is klaar!
+            Your bundle is ready!
           </span>
           <span x-show="$store.bundleBuilder.selectedProducts.length < $store.bundleBuilder.bundleLength">
-            <span>Selecteer nog </span>
+            <span>Select </span>
             <span x-text="$store.bundleBuilder.bundleLength - $store.bundleBuilder.selectedProducts.length"></span>
             <span x-show="($store.bundleBuilder.bundleLength - $store.bundleBuilder.selectedProducts.length) === 1">
-              geur
+              more scent
             </span>
             <span x-show="($store.bundleBuilder.bundleLength - $store.bundleBuilder.selectedProducts.length) > 1">
-              geuren
+              more scents
             </span>
           </span>
         </h2>
-        <p class="my-0 text-center text-sm text-[#6b7280]">Stel je bundel van
-          <span x-text="$store.bundleBuilder.bundleLength"></span> flessen samen</p>
+        <p class="my-0 text-center text-sm text-[#6b7280]">Build your bundle of
+          <span x-text="$store.bundleBuilder.bundleLength"></span> bottles</p>
       </div>
       <div x-show="$store.bundleBuilder.selectedProducts.length < $store.bundleBuilder.bundleLength" class="px-3 py-2">
         <div class="flex gap-1.5">
           <button
-            @click="$store.bundleBuilder.activeCategory = 'Alle'"
-            :class="$store.bundleBuilder.activeCategory === 'Alle' ? 'border-[#944234] bg-[#944234] text-white hover:!text-white' : 'bg-white border-gray-200'"
+            @click="$store.bundleBuilder.activeCategory = 'All'"
+            :class="$store.bundleBuilder.activeCategory === 'All' ? 'border-[#944234] bg-[#944234] text-white hover:!text-white' : 'bg-white border-gray-200'"
             class="px-2 py-1.5 rounded-full font-semibold border-2 border-solid cursor-pointer hover:text-[#944234] hover:border-[#944234]">Bestsellers</button>
           <button
             @click="$store.bundleBuilder.activeCategory = 'Voor Mannen'"
             :class="$store.bundleBuilder.activeCategory === 'Voor Mannen' ? 'border-[#944234] bg-[#944234] text-white hover:!text-white' : 'bg-white border-gray-200'"
-            class="px-2 py-1.5 rounded-full font-semibold border-2 border-solid cursor-pointer hover:text-[#944234] hover:border-[#944234]">Heren</button>
+            class="px-2 py-1.5 rounded-full font-semibold border-2 border-solid cursor-pointer hover:text-[#944234] hover:border-[#944234]">Men</button>
           <button
             @click="$store.bundleBuilder.activeCategory = 'Voor Vrouwen'"
             :class="$store.bundleBuilder.activeCategory === 'Voor Vrouwen' ? 'border-[#944234] bg-[#944234] text-white hover:!text-white' : 'bg-white border-gray-200'"
-            class="px-2 py-1.5 rounded-full font-semibold border-2 border-solid cursor-pointer hover:text-[#944234] hover:border-[#944234]">Dames</button>
+            class="px-2 py-1.5 rounded-full font-semibold border-2 border-solid cursor-pointer hover:text-[#944234] hover:border-[#944234]">Women</button>
         </div>
       </div>
       <div class="px-3 pb-3">
@@ -53,7 +53,7 @@
             </div>
             <input
             type="text"
-            placeholder="Zoeken..."
+            placeholder="Search..."
             x-model="$store.bundleBuilder.searchText"
             class="block w-full p-2 pl-8 rounded-xl border-2 border-solid cursor-pointer bg-white border-gray-200 focus:outline-none focus:border-[#944234] focus:shadow-none focus:border-2">
         </div>
@@ -76,13 +76,13 @@
             </svg>
             <span class="sr-only">{{ 'accessibility.loading' | t }}</span>
           </div>
-          <p class="font-semibold text-lg tracking-normal">Je wordt doorgestuurd naar de kassa...</p>
+          <p class="font-semibold text-lg tracking-normal">You're being redirected to checkout...</p>
         </div>
       </template>
       <template x-if="$store.bundleBuilder.selectedProducts.length < $store.bundleBuilder.bundleLength">
         <div class="flex flex-col gap-1.5">
           <template x-for="product in $store.bundleBuilder.availableProducts" :key="product.id">
-            <template x-if="(product.tags.some(tag => tag === $store.bundleBuilder.activeCategory) || $store.bundleBuilder.activeCategory === 'Alle') &&
+            <template x-if="(product.tags.some(tag => tag === $store.bundleBuilder.activeCategory) || $store.bundleBuilder.activeCategory === 'All') &&
          ($store.bundleBuilder.searchText === '' || product.name.toLowerCase().includes($store.bundleBuilder.searchText.toLowerCase()) || (product.inspiration_name && product.inspiration_name.toLowerCase().includes($store.bundleBuilder.searchText.toLowerCase())))">
               <button
                 @click="$store.bundleBuilder.addRemoveProduct(product)"
@@ -108,7 +108,7 @@
                     class="flex flex-wrap items-center gap-1.5">
                     <span
                       x-show="product.tags.some(tag => tag === 'Voor Mannen' || tag === 'Voor Vrouwen')"
-                      x-text="product.tags.some(tag => tag === 'Voor Mannen') ? 'Voor hem' : 'Voor haar'"
+                      x-text="product.tags.some(tag => tag === 'Voor Mannen') ? 'For him' : 'For her'"
                       class="shrink-0 px-2 py-0.5 rounded-full bg-[#f1f4f2] text-[#6b7280] text-[10px] font-semibold leading-tight"></span>
                     <span
                       x-show="product.occasion != ''"

@@ -16,8 +16,8 @@
 {% if product.variants.size > 1 %}
   {% comment %} Variant Selector {% endcomment %}
   <div class="flex flex-wrap justify-between items-center mb-3 !mt-6">
-    <h2 class="m-0 text-sm md:text-base font-semibold tracking-normal">Kies je inhoud:</h2>
-    <div class="text-xs md:text-sm italic text-gray-500 tracking-normal">50 ml is de keuze van 8 op de 10 klanten.</div>
+    <h2 class="m-0 text-sm md:text-base font-semibold tracking-normal">Choose your size:</h2>
+    <div class="text-xs md:text-sm italic text-gray-500 tracking-normal">50 ml is the choice of 8 out of 10 customers.</div>
   </div>
 
   <div class="grid grid-cols-3 gap-3" id="variant-selector">
@@ -46,7 +46,7 @@
           <div class="text-sm font-semibold">{{ variant.title }}</div>
         </div>
         {% if variant.title contains '50' %}
-          <span class="text-xs italic text-white rounded absolute -top-2.5 left-1/2 [transform:translateX(-50%)] bg-[#c8202f] px-2 py-0.5 whitespace-nowrap">Populair</span>
+          <span class="text-xs italic text-white rounded absolute -top-2.5 left-1/2 [transform:translateX(-50%)] bg-[#c8202f] px-2 py-0.5 whitespace-nowrap">Popular</span>
         {% endif %}
         {% if variant.title contains '100' %}
           <span class="text-xs italic text-white rounded absolute -top-2.5 left-1/2 [transform:translateX(-50%)] bg-[#944234] px-2 py-0.5 whitespace-nowrap">Bestseller</span>
@@ -126,9 +126,9 @@
 
 <div class="!my-6">
   <p class="my-0 text-center font-semibold tracking-normal">
-    Binnen 48 uur verzonden
+    Shipped within 48 hours
     {{ localization.country.name }}
-    , met tracking.
+    , with tracking.
   </p>
 </div>
 

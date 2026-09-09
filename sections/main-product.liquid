@@ -181,12 +181,12 @@
 
                       {% if product.compare_at_price > product.price %}
                         <span class="text-gray-500 font-semibold line-through text-[22px] compare-price">
-                         Normale prijs: {{ product.compare_at_price | money }}
+                         Regular price: {{ product.compare_at_price | money }}
                         </span>
                       {% endif %}
                     </div>
                     <div class="text-lg font-semibold text-black leading-normal">
-                      Slechts {{ product.price | divided_by: product.metafields.custom.choose_your_fragrances_options | money }} / flesje
+                      Only {{ product.price | divided_by: product.metafields.custom.choose_your_fragrances_options | money }} / bottle
                     </div>
                   </div>
                 {% endif %}
@@ -1174,13 +1174,13 @@
           "type": "text",
           "id": "title",
           "label": "Money Back Guarantee Title",
-          "default": "Probeer het 60 dagen risicovrij."
+          "default": "Try it risk-free for 60 days."
         },
         {
           "type": "inline_richtext",
           "id": "text",
           "label": "Money Back Guarantee Text",
-          "default": "Bent u niet helemaal tevreden, dan krijgt u uw geld volledig terug!"
+          "default": "If you're not completely satisfied, you get your money back in full!"
         }
       ]
     },

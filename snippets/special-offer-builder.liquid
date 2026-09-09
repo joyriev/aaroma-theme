@@ -35,9 +35,9 @@
           stroke-width="2"
           d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
       </svg>
-      <span>Upgrade naar
+      <span>Upgrade to
         <a href="{{ next_bundle_product.url }}" class="ml-auto font-medium text-[#944234] whitespace-nowrap transition-colors">
-          {{ next_size }}ML voor {{ price_difference }} meer.</a>
+          {{ next_size }}ML for {{ price_difference }} more.</a>
       </span>
     </div>
   </div>
@@ -58,7 +58,7 @@
             , size: 40 %}
             <div class="min-w-0 flex-1">
               <div class="text-sm text-[#6b7280] overflow-hidden whitespace-nowrap [text-overflow:ellipsis]">
-                Kies je geur
+                Choose your fragrance
               </div>
             </div>
             <span class="ml-auto shrink-0 text-[#6b7280]"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"></path></svg></span>
@@ -96,8 +96,8 @@
       }"
     class="w-full flex gap-2 flex-wrap items-center !mb-0 text-lg font-bold !py-3 !px-2 rounded-full button bg-[#944234] transition-colors shadow-xl tracking-normal button--full-width"
   >
-    <span x-show="$store.bundleBuilder.selectedProducts.length < {{ product_count }}" x-text="'Selecteer nog ' + ({{ product_count }} - $store.bundleBuilder.selectedProducts.length)"></span>
-    <span x-show="$store.bundleBuilder.selectedProducts.length === {{ product_count }}">Nu kopen</span>
+    <span x-show="$store.bundleBuilder.selectedProducts.length < {{ product_count }}" x-text="'Select ' + ({{ product_count }} - $store.bundleBuilder.selectedProducts.length) + ' more'"></span>
+    <span x-show="$store.bundleBuilder.selectedProducts.length === {{ product_count }}">Buy now</span>
     <span class="size-2 rounded-full inline-block bg-white/50"></span>
     <span class="current-price">{{ selected_variant.price | money }}</span>
     <div x-show="$store.bundleBuilder.addingToCart" class="loading__spinner">
@@ -119,9 +119,9 @@
 
 <div class="!my-6">
   <p class="my-0 text-center font-semibold tracking-normal">
-    Wereldwijde bezorging
+    Worldwide delivery
     {{ localization.country.name }}
-    binnen 5 werkdagen.
+    within 5 business days.
   </p>
 </div>
 
@@ -131,7 +131,7 @@
       selectedVariant: "{{ bundle_ml }}",
       bundleLength: {{ product_count }},
       showModal: false,
-      activeCategory: "Alle",
+      activeCategory: "All",
       searchText: "",
       addingToCart: false,
       selectedProducts: [
@@ -214,7 +214,7 @@
         };
         // Add each selected product as a separate property
         this.selectedProducts.forEach((product, index) => {
-          properties[`Fles ${index + 1}`] = 
+          properties[`Bottle ${index + 1}`] =
             `${product.name} Inspired by ${product.inspiration_name} - ${product.variant.title}`;
         });
         // Prepare cart items

@@ -39,7 +39,7 @@
           "type": "payment_icon",
           "settings": {
             "icon": "shopify://shop_images/800c98d03dc73f77225bfa90300384e0370c7cff.png",
-            "label": "Veilig"
+            "label": "Secure"
           }
         }
       },
@@ -67,7 +67,7 @@
           "type": "announcement",
           "disabled": true,
           "settings": {
-            "text": "Gratis verzending From €55",
+            "text": "Free shipping from €55",
             "link": ""
           }
         }
@@ -150,21 +150,21 @@
         "menu_item_V7M7qG": {
           "type": "menu_item",
           "settings": {
-            "label": "Startpagina",
+            "label": "Home",
             "url": "/"
           }
         },
         "mega_menu_item_ixbwJG": {
           "type": "mega_menu_item",
           "settings": {
-            "label": "Heren",
+            "label": "Men",
             "collection": "men"
           }
         },
         "mega_menu_item_U4hHR6": {
           "type": "mega_menu_item",
           "settings": {
-            "label": "Dames",
+            "label": "Women",
             "collection": "women"
           }
         },
@@ -193,14 +193,14 @@
         "menu_item_MKM3K6": {
           "type": "menu_item",
           "settings": {
-            "label": "Voordeelpakket",
+            "label": "Value Bundle",
             "url": "shopify://products/3x-100ml-perfume-bottles"
           }
         },
         "menu_item_9iAMA9": {
           "type": "menu_item",
           "settings": {
-            "label": "Over Ons",
+            "label": "About Us",
             "url": "shopify://pages/over-ons"
           }
         }

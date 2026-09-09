@@ -20,10 +20,10 @@ window.NederlandseParfumCatalogus = {
       naam: "Baccarat Rouge 540",
       merk: "Maison Francis Kurkdjian",
       afbeelding: "https://aaroma.co/cdn/shop/files/baccarat_rouge.webp?v=1772339894",
-      topnoten: ["Saffraan", "Jasmijn"],
-      hartnoten: ["Ceder", "Amberhout"],
+      topnoten: ["Saffron", "Jasmine"],
+      hartnoten: ["Cedar", "Amberhout"],
       basisnoten: ["Ambroxan", "Ethyl Maltol", "Amber"],
-      beschrijving: "Een iconische en luxueuze geur die de alchemie van kristal vastlegt.",
+      beschrijving: "An iconic and luxurious scent that captures the alchemy of crystal.",
       jaar: "2015",
       geslacht: "Unisex",
       productnummers: ["466"],
@@ -38,10 +38,10 @@ window.NederlandseParfumCatalogus = {
       naam: "Lost Cherry",
       merk: "Tom Ford",
       afbeelding: "https://aaroma.co/cdn/shop/files/lost_cherry.jpg?v=1762632056",
-      topnoten: ["Kers", "Amandel", "Likeur"],
-      hartnoten: ["Kers", "Roos", "Jasmijn"],
-      basisnoten: ["Vanille", "Benzoë", "Ceder"],
-      beschrijving: "Een verleidelijke en speelse geur die de essentie van een verboden fruit vastlegt.",
+      topnoten: ["Cherry", "Almond", "Liqueur"],
+      hartnoten: ["Cherry", "Rose", "Jasmine"],
+      basisnoten: ["Vanilla", "Benzoin", "Cedar"],
+      beschrijving: "A seductive and playful scent that captures the essence of a forbidden fruit.",
       jaar: "2018",
       geslacht: "Unisex",
       productnummers: ["438"],
@@ -52,10 +52,10 @@ window.NederlandseParfumCatalogus = {
       naam: "Vanille Fatale",
       merk: "Tom Ford",
       afbeelding: "https://aaroma.co/cdn/shop/files/3bfb7acaf943b4144a2abd302bf53906.webp?v=1772285996",
-      topnoten: ["Saffraan", "Neroli", "Bergamot"],
-      hartnoten: ["Vanille", "Koffie", "Leer"],
-      basisnoten: ["Amber", "Mirre", "Benzoë"],
-      beschrijving: "Een donkere en bedwelmende vanillegeur.",
+      topnoten: ["Saffron", "Neroli", "Bergamot"],
+      hartnoten: ["Vanilla", "Coffee", "Leather"],
+      basisnoten: ["Amber", "Myrrh", "Benzoin"],
+      beschrijving: "A dark and intoxicating vanilla scent.",
       jaar: "2017",
       geslacht: "Unisex",
       productnummers: ["053"],
@@ -66,10 +66,10 @@ window.NederlandseParfumCatalogus = {
       naam: "Tobacco Vanille",
       merk: "Tom Ford",
       afbeelding: "https://aaroma.co/cdn/shop/files/tobacco_vanille.webp?v=1772339894",
-      topnoten: ["Tabak", "Specerijen"],
-      hartnoten: ["Vanille", "Cacao", "Tonka"],
-      basisnoten: ["Gedroogd fruit", "Houtnoten"],
-      beschrijving: "Een warme en kruidige geur met rijke tabaks- en vanillenoten.",
+      topnoten: ["Tobacco", "Spices"],
+      hartnoten: ["Vanilla", "Cocoa", "Tonka"],
+      basisnoten: ["Dried fruit", "Woody notes"],
+      beschrijving: "A warm and spicy scent with rich tobacco and vanilla notes.",
       jaar: "2007",
       geslacht: "Unisex",
       productnummers: ["193"],
@@ -80,10 +80,10 @@ window.NederlandseParfumCatalogus = {
       naam: "Fucking Fabulous",
       merk: "Tom Ford",
       afbeelding: "https://aaroma.co/cdn/shop/files/Fucking_Fabulous.webp?v=1772257140",
-      topnoten: ["Salie", "Lavendel"],
-      hartnoten: ["Leer", "Amandel", "Vanille"],
-      basisnoten: ["Tonka", "Amber", "Houtnoten"],
-      beschrijving: "Een gedurfde, provoceerde geur met leer- en amandelnoten.",
+      topnoten: ["Sage", "Lavender"],
+      hartnoten: ["Leather", "Almond", "Vanilla"],
+      basisnoten: ["Tonka", "Amber", "Woody notes"],
+      beschrijving: "A bold, provocative scent with leather and almond notes.",
       jaar: "2017",
       geslacht: "Unisex",
       productnummers: ["232"],
@@ -94,10 +94,10 @@ window.NederlandseParfumCatalogus = {
       naam: "Ombre Leather",
       merk: "Tom Ford",
       afbeelding: "https://aaroma.co/cdn/shop/files/Tom_Ford_Ombre_Leather.avif?v=1762632966",
-      topnoten: ["Kardemom", "Jasmijn", "Immortelle"],
-      hartnoten: ["Leer", "Patchouli", "Viooltje"],
-      basisnoten: ["Amber", "Berken teer", "Muskus"],
-      beschrijving: "Een gedurfde en sensuele geur die leer eert.",
+      topnoten: ["Cardamom", "Jasmine", "Immortelle"],
+      hartnoten: ["Leather", "Patchouli", "Violet"],
+      basisnoten: ["Amber", "Birch tar", "Musk"],
+      beschrijving: "A bold and sensual scent that honors leather.",
       jaar: "2018",
       geslacht: "Unisex",
       productnummers: ["premium_474"]
@@ -107,10 +107,10 @@ window.NederlandseParfumCatalogus = {
       naam: "Oud Wood",
       merk: "Tom Ford",
       afbeelding: "https://aaroma.co/cdn/shop/files/oud_wood.jpg?v=1762632056",
-      topnoten: ["Rozenhout", "Kardemom", "Peper"],
-      hartnoten: ["Sandelhout", "Vetiver", "Oud"],
-      basisnoten: ["Tonka", "Amber", "Vanille"],
-      beschrijving: "Een mysterieuze en exotische mix van zeldzaam oud-hout.",
+      topnoten: ["Rosewood", "Cardamom", "Pepper"],
+      hartnoten: ["Sandalwood", "Vetiver", "Oud"],
+      basisnoten: ["Tonka", "Amber", "Vanilla"],
+      beschrijving: "A mysterious and exotic blend of rare oud wood.",
       jaar: "2007",
       geslacht: "Unisex",
       productnummers: ["287"],
@@ -121,10 +121,10 @@ window.NederlandseParfumCatalogus = {
       naam: "Cherry Smoke",
       merk: "Tom Ford",
       afbeelding: "https://aaroma.co/cdn/shop/files/cherry_smoke.webp?v=1772339894",
-      topnoten: ["Kers", "Saffraan", "Roze peper"],
-      hartnoten: ["Roos", "Jasmijn", "Leer"],
-      basisnoten: ["Vanille", "Amber", "Houtnoten"],
-      beschrijving: "Een verleidelijke en rokerige kersengeur.",
+      topnoten: ["Cherry", "Saffron", "Pink pepper"],
+      hartnoten: ["Rose", "Jasmine", "Leather"],
+      basisnoten: ["Vanilla", "Amber", "Woody notes"],
+      beschrijving: "A seductive and smoky cherry scent.",
       jaar: "2020",
       geslacht: "Unisex",
       productnummers: ["434"],
@@ -139,12 +139,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Black Opium",
       merk: "Yves Saint Laurent",
       afbeelding: "https://aaroma.co/cdn/shop/files/ysl-black-opium-edp_jtgB.webp?v=1762632057",
-      topnoten: ["Koffie", "Roze Peper", "Sinaasappelbloesem"],
-      hartnoten: ["Jasmijn", "Bittere amandel", "Zoethout"],
-      basisnoten: ["Vanille", "Ceder", "Patchouli"],
-      beschrijving: "Een gedurfde en edgy geur die de geest van rockcultuur vastlegt.",
+      topnoten: ["Coffee", "Pink pepper", "Orange blossom"],
+      hartnoten: ["Jasmine", "Bitter almond", "Licorice"],
+      basisnoten: ["Vanilla", "Cedar", "Patchouli"],
+      beschrijving: "A bold and edgy scent that captures the spirit of rock culture.",
       jaar: "2014",
-      geslacht: "Vrouwelijk",
+      geslacht: "Female",
       productnummers: ["501"],
       variantIds: {"501": "47255562616970"}
     },
@@ -153,12 +153,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Manifesto",
       merk: "Yves Saint Laurent",
       afbeelding: "https://aaroma.co/cdn/shop/files/manifesto.webp?v=1772339894",
-      topnoten: ["Groene noten", "Bergamot", "Perzik"],
-      hartnoten: ["Jasmijn", "Lelietje-van-dalen", "Sinaasappelbloesem"],
-      basisnoten: ["Vanille", "Ceder", "Muskus", "Tonka"],
-      beschrijving: "Een warme, houtachtige en toch frisse geur.",
+      topnoten: ["Green notes", "Bergamot", "Peach"],
+      hartnoten: ["Jasmine", "Lily of the valley", "Orange blossom"],
+      basisnoten: ["Vanilla", "Cedar", "Musk", "Tonka"],
+      beschrijving: "A warm, woody yet fresh scent.",
       jaar: "2012",
-      geslacht: "Vrouwelijk",
+      geslacht: "Female",
       productnummers: ["134"],
       variantIds: {"134": "47751568195722"}
     },
@@ -167,12 +167,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Opium",
       merk: "Yves Saint Laurent",
       afbeelding: "https://aaroma.co/cdn/shop/files/opium.webp?v=1772339894",
-      topnoten: ["Mandarijn", "Pruim", "Kruidnagel", "Koriander"],
-      hartnoten: ["Kruidnagel", "Roos", "Jasmijn", "Lelietje-van-dalen"],
-      basisnoten: ["Opium", "Mirre", "Amber", "Sandelhout"],
-      beschrijving: "Een legendarische oosterse geur die zowel kruidig als sensueel is.",
+      topnoten: ["Mandarin", "Plum", "Clove", "Coriander"],
+      hartnoten: ["Clove", "Rose", "Jasmine", "Lily of the valley"],
+      basisnoten: ["Opium", "Myrrh", "Amber", "Sandalwood"],
+      beschrijving: "A legendary oriental scent that is both spicy and sensual.",
       jaar: "1977",
-      geslacht: "Vrouwelijk",
+      geslacht: "Female",
       productnummers: ["083"],
       variantIds: {"083": "47751566393482"}
     },
@@ -181,12 +181,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Y",
       merk: "Yves Saint Laurent",
       afbeelding: "https://aaroma.co/cdn/shop/files/y.webp?v=1772339894",
-      topnoten: ["Bergamot", "Gember", "Aldehyden"],
-      hartnoten: ["Salie", "Jeneverbes", "Geranium"],
-      basisnoten: ["Amber", "Ceder", "Muskus"],
-      beschrijving: "Een frisse en houtachtige geur die een nieuwe generatie vertegenwoordigt.",
+      topnoten: ["Bergamot", "Ginger", "Aldehydes"],
+      hartnoten: ["Sage", "Juniper berry", "Geranium"],
+      basisnoten: ["Amber", "Cedar", "Musk"],
+      beschrijving: "A fresh and woody scent that represents a new generation.",
       jaar: "2017",
-      geslacht: "Mannelijk",
+      geslacht: "Male",
       productnummers: ["283"],
       variantIds: {"283": "47751559643274"}
     }
@@ -199,12 +199,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Donna Born in Roma",
       merk: "Valentino",
       afbeelding: "https://aaroma.co/cdn/shop/files/born_in_roma.webp?v=1772339894",
-      topnoten: ["Zwarte bes", "Bergamot", "Jasmijn"],
-      hartnoten: ["Roos", "Jasmijn", "Ceder"],
-      basisnoten: ["Vanille", "Muskus", "Ceder"],
-      beschrijving: "Een moderne en edgy geur die de geest van de Romeinse jeugdcultuur vastlegt.",
+      topnoten: ["Blackcurrant", "Bergamot", "Jasmine"],
+      hartnoten: ["Rose", "Jasmine", "Cedar"],
+      basisnoten: ["Vanilla", "Musk", "Cedar"],
+      beschrijving: "A modern and edgy scent that captures the spirit of Roman youth culture.",
       jaar: "2019",
-      geslacht: "Vrouwelijk",
+      geslacht: "Female",
       productnummers: ["469"],
       variantIds: {"469": "47751558332554"}
     },
@@ -213,12 +213,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Uomo Born in Roma",
       merk: "Valentino",
       afbeelding: "https://aaroma.co/cdn/shop/files/uomo_born_in_roma.webp?v=1772339894",
-      topnoten: ["Mandarijn", "Zout", "Munt"],
-      hartnoten: ["Lavendel", "Salie", "Ceder"],
-      basisnoten: ["Vanille", "Tonka", "Muskus"],
-      beschrijving: "Een frisse en aromatische geur voor de moderne man.",
+      topnoten: ["Mandarin", "Salt", "Mint"],
+      hartnoten: ["Lavender", "Sage", "Cedar"],
+      basisnoten: ["Vanilla", "Tonka", "Musk"],
+      beschrijving: "A fresh and aromatic scent for the modern man.",
       jaar: "2019",
-      geslacht: "Mannelijk",
+      geslacht: "Male",
       productnummers: ["360"],
       variantIds: {"360": "47751571636362"}
     }
@@ -231,12 +231,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Paradoxe",
       merk: "Prada",
       afbeelding: "https://aaroma.co/cdn/shop/files/paradoxe.webp?v=1772339894",
-      topnoten: ["Peer", "Bergamot", "Mandarijn"],
-      hartnoten: ["Sinaasappelbloesem", "Jasmijn", "Roos"],
-      basisnoten: ["Vanille", "Amber", "Ceder"],
-      beschrijving: "Een moderne en paradoxale geur die speelt met contrasten.",
+      topnoten: ["Pear", "Bergamot", "Mandarin"],
+      hartnoten: ["Orange blossom", "Jasmine", "Rose"],
+      basisnoten: ["Vanilla", "Amber", "Cedar"],
+      beschrijving: "A modern and paradoxical scent that plays with contrasts.",
       jaar: "2022",
-      geslacht: "Vrouwelijk",
+      geslacht: "Female",
       productnummers: ["437"],
       variantIds: {"437": "47751558332554"}
     },
@@ -245,12 +245,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Candy",
       merk: "Prada",
       afbeelding: "https://aaroma.co/cdn/shop/files/candy.webp?v=1772339894",
-      topnoten: ["Karamel", "Muskus", "Vanille"],
-      hartnoten: ["Benzoë", "Muskus"],
-      basisnoten: ["Vanille", "Muskus", "Karamel"],
-      beschrijving: "Een speelse en heerlijke gourmand-geur.",
+      topnoten: ["Caramel", "Musk", "Vanilla"],
+      hartnoten: ["Benzoin", "Musk"],
+      basisnoten: ["Vanilla", "Musk", "Caramel"],
+      beschrijving: "A playful and delicious gourmand scent.",
       jaar: "2011",
-      geslacht: "Vrouwelijk",
+      geslacht: "Female",
       productnummers: ["182"],
       variantIds: {"182": "47751567278218"}
     }
@@ -263,12 +263,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Good Girl",
       merk: "Carolina Herrera",
       afbeelding: "https://aaroma.co/cdn/shop/files/good_girl.webp?v=1772339894",
-      topnoten: ["Pruim", "Saffraan", "Bergamot"],
-      hartnoten: ["Tuberoos", "Jasmijn", "Sinaasappelbloesem"],
-      basisnoten: ["Leer", "Vanille", "Patchouli", "Tonka"],
-      beschrijving: "Een verleidelijke en mysterieuze geur die de dualiteit van een moderne vrouw vastlegt.",
+      topnoten: ["Plum", "Saffron", "Bergamot"],
+      hartnoten: ["Tuberose", "Jasmine", "Orange blossom"],
+      basisnoten: ["Leather", "Vanilla", "Patchouli", "Tonka"],
+      beschrijving: "A seductive and mysterious scent that captures the duality of a modern woman.",
       jaar: "2016",
-      geslacht: "Vrouwelijk",
+      geslacht: "Female",
       productnummers: ["461"],
       variantIds: {"461": "47751558332554"}
     },
@@ -277,12 +277,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Very Good Girl",
       merk: "Carolina Herrera",
       afbeelding: "https://aaroma.co/cdn/shop/files/very_good_girl.webp?v=1772339894",
-      topnoten: ["Framboos", "Zwarte bes", "Lychee"],
-      hartnoten: ["Roos", "Tuberoos", "Sinaasappelbloesem"],
-      basisnoten: ["Vanille", "Tonka", "Ceder"],
-      beschrijving: "Een gedurfde en frisse interpretatie van de iconische Good Girl-geur.",
+      topnoten: ["Raspberry", "Blackcurrant", "Lychee"],
+      hartnoten: ["Rose", "Tuberose", "Orange blossom"],
+      basisnoten: ["Vanilla", "Tonka", "Cedar"],
+      beschrijving: "A bold and fresh interpretation of the iconic Good Girl scent.",
       jaar: "2020",
-      geslacht: "Vrouwelijk",
+      geslacht: "Female",
       productnummers: ["404"],
       variantIds: {"404": "47751563870346"}
     }
@@ -295,12 +295,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Bleu de Chanel",
       merk: "Chanel",
       afbeelding: "https://aaroma.co/cdn/shop/files/bleu.webp?v=1772339894",
-      topnoten: ["Grapefruit", "Citroen", "Munt", "Roze Peper"],
-      hartnoten: ["Gember", "Nootmuskaat", "Jasmijn"],
-      basisnoten: ["Wierook", "Vetiver", "Ceder", "Sandelhout"],
-      beschrijving: "Een tijdloze en verfijnde geur voor mannen die de geest van vrijheid belichaamt.",
+      topnoten: ["Grapefruit", "Lemon", "Mint", "Pink pepper"],
+      hartnoten: ["Ginger", "Nutmeg", "Jasmine"],
+      basisnoten: ["Incense", "Vetiver", "Cedar", "Sandalwood"],
+      beschrijving: "A timeless and refined scent for men who embody the spirit of freedom.",
       jaar: "2010",
-      geslacht: "Mannelijk",
+      geslacht: "Male",
       productnummers: ["252"],
       variantIds: {"252": "47255558094986"}
     },
@@ -309,12 +309,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Allure Homme Sport",
       merk: "Chanel",
       afbeelding: "https://aaroma.co/cdn/shop/files/Allure_Homme_Sport.webp?v=1772365217",
-      topnoten: ["Mandarijn", "Citroen", "Bergamot"],
-      hartnoten: ["Peper", "Ceder", "Zeewaternoten"],
-      basisnoten: ["Muskus", "Amber", "Tonka"],
-      beschrijving: "Een frisse en sportieve geur voor de dynamische man.",
+      topnoten: ["Mandarin", "Lemon", "Bergamot"],
+      hartnoten: ["Pepper", "Cedar", "Sea water notes"],
+      basisnoten: ["Musk", "Amber", "Tonka"],
+      beschrijving: "A fresh and sporty scent for the dynamic man.",
       jaar: "2004",
-      geslacht: "Mannelijk",
+      geslacht: "Male",
       productnummers: ["222"],
       variantIds: {"222": "47751567016074"}
     },
@@ -323,12 +323,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Coco Mademoiselle",
       merk: "Chanel",
       afbeelding: "https://aaroma.co/cdn/shop/files/Mademoiselle.jpg?v=1772257875",
-      topnoten: ["Sinaasappel", "Bergamot", "Grapefruit"],
-      hartnoten: ["Roos", "Jasmijn", "Lychee"],
-      basisnoten: ["Patchouli", "Vanille", "Muskus", "Vetiver"],
-      beschrijving: "Een frisse en moderne oosterse geur.",
+      topnoten: ["Orange", "Bergamot", "Grapefruit"],
+      hartnoten: ["Rose", "Jasmine", "Lychee"],
+      basisnoten: ["Patchouli", "Vanilla", "Musk", "Vetiver"],
+      beschrijving: "A fresh and modern oriental scent.",
       jaar: "2001",
-      geslacht: "Vrouwelijk",
+      geslacht: "Female",
       productnummers: ["067", "139"],
       variantIds: {"067": "47751577075850", "139": "47751577567370"}
     },
@@ -337,12 +337,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Chance",
       merk: "Chanel",
       afbeelding: "https://aaroma.co/cdn/shop/files/chance.webp?v=1772339894",
-      topnoten: ["Roze Peper", "Kweepeer", "Citrus"],
-      hartnoten: ["Hyacint", "Jasmijn", "Iris"],
-      basisnoten: ["Muskus", "Patchouli", "Vetiver", "Ceder"],
-      beschrijving: "Een levendige en onverwachte bloemengeur.",
+      topnoten: ["Pink pepper", "Quince", "Citrus"],
+      hartnoten: ["Hyacinth", "Jasmine", "Iris"],
+      basisnoten: ["Musk", "Patchouli", "Vetiver", "Cedar"],
+      beschrijving: "A vibrant and unexpected floral scent.",
       jaar: "2003",
-      geslacht: "Vrouwelijk",
+      geslacht: "Female",
       productnummers: ["006"],
       variantIds: {"006": "47751575699594"}
     },
@@ -351,12 +351,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Coco",
       merk: "Chanel",
       afbeelding: "https://aaroma.co/cdn/shop/files/coco.webp?v=1772339894",
-      topnoten: ["Koriander", "Mandarijn", "Perzik", "Jasmijn"],
-      hartnoten: ["Roos", "Kruidnagel", "Mimosa", "Anjer"],
-      basisnoten: ["Sandelhout", "Amber", "Opium", "Benzoë"],
-      beschrijving: "Een weelderige en sensuele oosterse geur.",
+      topnoten: ["Coriander", "Mandarin", "Peach", "Jasmine"],
+      hartnoten: ["Rose", "Clove", "Mimosa", "Carnation"],
+      basisnoten: ["Sandalwood", "Amber", "Opium", "Benzoin"],
+      beschrijving: "A lush and sensual oriental scent.",
       jaar: "1984",
-      geslacht: "Vrouwelijk",
+      geslacht: "Female",
       productnummers: ["079"],
       variantIds: {"079": "47751573930122"}
     }
@@ -369,12 +369,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Sauvage",
       merk: "Dior",
       afbeelding: "https://aaroma.co/cdn/shop/files/sauvage_parfum.webp?v=1772373409",
-      topnoten: ["Bergamot", "Peper", "Ambroxan"],
-      hartnoten: ["Lavendel", "Gember", "Elemi"],
-      basisnoten: ["Amber", "Ceder", "Vetiver"],
-      beschrijving: "Een frisse, krachtige en wilde geur die vrijheid en mannelijkheid symboliseert.",
+      topnoten: ["Bergamot", "Pepper", "Ambroxan"],
+      hartnoten: ["Lavender", "Ginger", "Elemi"],
+      basisnoten: ["Amber", "Cedar", "Vetiver"],
+      beschrijving: "A fresh, powerful and wild scent that symbolizes freedom and masculinity.",
       jaar: "2015",
-      geslacht: "Mannelijk",
+      geslacht: "Male",
       productnummers: ["230", "338", "366"],
       variantIds: {"338": "47751564329098", "366": "47751578648714"}
     },
@@ -383,12 +383,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Fahrenheit",
       merk: "Dior",
       afbeelding: "https://aaroma.co/cdn/shop/files/fahrenheit.webp?v=1772339894",
-      topnoten: ["Viooltje", "Leer", "Wierook"],
-      hartnoten: ["Leer", "Viooltje", "Kamperfoelie"],
-      basisnoten: ["Leer", "Vetiver", "Amber", "Mirre"],
-      beschrijving: "Een revolutionaire geur die bloemige, houtachtige en leerachtige noten combineert.",
+      topnoten: ["Violet", "Leather", "Incense"],
+      hartnoten: ["Leather", "Violet", "Honeysuckle"],
+      basisnoten: ["Leather", "Vetiver", "Amber", "Myrrh"],
+      beschrijving: "A revolutionary scent that combines floral, woody and leathery notes.",
       jaar: "1988",
-      geslacht: "Mannelijk",
+      geslacht: "Male",
       productnummers: ["206", "350"],
       variantIds: {"206": "47751575208074"}
     },
@@ -397,12 +397,12 @@ window.NederlandseParfumCatalogus = {
       naam: "J'adore",
       merk: "Dior",
       afbeelding: "https://aaroma.co/cdn/shop/files/J_Adore.jpg?v=1772258436",
-      topnoten: ["Peer", "Meloen", "Perzik", "Magnolia"],
-      hartnoten: ["Jasmijn", "Roos", "Lelietje-van-dalen", "Ylang-Ylang"],
-      basisnoten: ["Vanille", "Muskus", "Ceder"],
-      beschrijving: "Een bloemenboeket van uitzonderlijke rijkdom.",
+      topnoten: ["Pear", "Melon", "Peach", "Magnolia"],
+      hartnoten: ["Jasmine", "Rose", "Lily of the valley", "Ylang-ylang"],
+      basisnoten: ["Vanilla", "Musk", "Cedar"],
+      beschrijving: "A floral bouquet of exceptional richness.",
       jaar: "1999",
-      geslacht: "Vrouwelijk",
+      geslacht: "Female",
       productnummers: ["159"],
       variantIds: {"159": "47751577174154"}
     },
@@ -411,12 +411,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Hypnotic Poison",
       merk: "Dior",
       afbeelding: "https://aaroma.co/cdn/shop/files/Hypnotic_Poison.jpg?v=1772269709",
-      topnoten: ["Abrikoos", "Pruim", "Kokos", "Bittere amandel"],
-      hartnoten: ["Roos", "Jasmijn", "Lelietje-van-dalen"],
-      basisnoten: ["Vanille", "Amandel", "Muskus"],
-      beschrijving: "Een mysterieuze en sensuele geur.",
+      topnoten: ["Apricot", "Plum", "Coconut", "Bitter almond"],
+      hartnoten: ["Rose", "Jasmine", "Lily of the valley"],
+      basisnoten: ["Vanilla", "Almond", "Musk"],
+      beschrijving: "A mysterious and sensual scent.",
       jaar: "1998",
-      geslacht: "Vrouwelijk",
+      geslacht: "Female",
       productnummers: ["145"],
       variantIds: {"145": "47751576780938"}
     },
@@ -425,12 +425,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Miss Dior Le Parfum",
       merk: "Dior",
       afbeelding: "https://aaroma.co/cdn/shop/files/le_parfum.webp?v=1772270418",
-      topnoten: ["Lavendel", "Bergamot", "Salie"],
-      hartnoten: ["Iris", "Muskus", "Ambrette", "Peer"],
-      basisnoten: ["Ceder", "Vetiver", "Leer", "Amber"],
-      beschrijving: "De meest geconcentreerde en luxueuze versie van Miss Dior.",
+      topnoten: ["Lavender", "Bergamot", "Sage"],
+      hartnoten: ["Iris", "Musk", "Ambrette", "Pear"],
+      basisnoten: ["Cedar", "Vetiver", "Leather", "Amber"],
+      beschrijving: "The most concentrated and luxurious version of Miss Dior.",
       jaar: "2017",
-      geslacht: "Vrouwelijk",
+      geslacht: "Female",
       productnummers: ["196"],
       variantIds: {"196": "47751576584330"}
     },
@@ -439,12 +439,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Dior Homme Intense",
       merk: "Dior",
       afbeelding: "https://aaroma.co/cdn/shop/files/homme_intense.webp?v=1772339894",
-      topnoten: ["Lavendel"],
-      hartnoten: ["Iris", "Amber", "Cacao"],
-      basisnoten: ["Leer", "Ceder", "Vetiver"],
-      beschrijving: "Een verfijnde en krachtige interpretatie van Dior Homme.",
+      topnoten: ["Lavender"],
+      hartnoten: ["Iris", "Amber", "Cocoa"],
+      basisnoten: ["Leather", "Cedar", "Vetiver"],
+      beschrijving: "A refined and powerful interpretation of Dior Homme.",
       jaar: "2011",
-      geslacht: "Mannelijk",
+      geslacht: "Male",
       productnummers: ["277"],
       variantIds: {"277": "47751568654474"}
     }
@@ -457,12 +457,12 @@ window.NederlandseParfumCatalogus = {
       naam: "La Vie Est Belle",
       merk: "Lancôme",
       afbeelding: "https://aaroma.co/cdn/shop/files/la_vie_est_belle.webp?v=1772339894",
-      topnoten: ["Zwarte bes", "Peer", "Sinaasappelbloesem"],
-      hartnoten: ["Iris", "Jasmijn", "Sinaasappelbloesem"],
-      basisnoten: ["Praliné", "Vanille", "Patchouli", "Tonka"],
-      beschrijving: "Een stralende en vreugdevolle geur.",
+      topnoten: ["Blackcurrant", "Pear", "Orange blossom"],
+      hartnoten: ["Iris", "Jasmine", "Orange blossom"],
+      basisnoten: ["Praline", "Vanilla", "Patchouli", "Tonka"],
+      beschrijving: "A radiant and joyful scent.",
       jaar: "2012",
-      geslacht: "Vrouwelijk",
+      geslacht: "Female",
       productnummers: ["412", "101"],
       variantIds: {"101": "47751578353802"}
     },
@@ -471,12 +471,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Trésor",
       merk: "Lancôme",
       afbeelding: "https://aaroma.co/cdn/shop/files/tresor.webp?v=1772339894",
-      topnoten: ["Perzik", "Abrikoos", "Roos"],
-      hartnoten: ["Lelietje-van-dalen", "Jasmijn", "Iris"],
-      basisnoten: ["Vanille", "Sandelhout", "Muskus"],
-      beschrijving: "Een romantische en tijdloze geur.",
+      topnoten: ["Peach", "Apricot", "Rose"],
+      hartnoten: ["Lily of the valley", "Jasmine", "Iris"],
+      basisnoten: ["Vanilla", "Sandalwood", "Musk"],
+      beschrijving: "A romantic and timeless scent.",
       jaar: "1990",
-      geslacht: "Vrouwelijk",
+      geslacht: "Female",
       productnummers: ["141"],
       variantIds: {"141": "47751572324490"}
     },
@@ -485,12 +485,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Idôle",
       merk: "Lancôme",
       afbeelding: "https://aaroma.co/cdn/shop/files/idole.webp?v=1772339894",
-      topnoten: ["Peer", "Bergamot", "Citroen"],
-      hartnoten: ["Roos", "Jasmijn", "Magnolia"],
-      basisnoten: ["Vanille", "Muskus", "Ceder"],
-      beschrijving: "Een moderne en elegante geur voor de nieuwe generatie vrouwen.",
+      topnoten: ["Pear", "Bergamot", "Lemon"],
+      hartnoten: ["Rose", "Jasmine", "Magnolia"],
+      basisnoten: ["Vanilla", "Musk", "Cedar"],
+      beschrijving: "A modern and elegant scent for the new generation of women.",
       jaar: "2019",
-      geslacht: "Vrouwelijk",
+      geslacht: "Female",
       productnummers: ["55"],
       variantIds: {"55": "47751576977546"}
     }
@@ -503,12 +503,12 @@ window.NederlandseParfumCatalogus = {
       naam: "For Her",
       merk: "Narciso Rodriguez",
       afbeelding: "https://aaroma.co/cdn/shop/files/for_her.webp?v=1772339894",
-      topnoten: ["Pruim", "Bergamot", "Mandarijn"],
-      hartnoten: ["Tuberoos", "Jasmijn", "Muskus"],
-      basisnoten: ["Patchouli", "Vanille", "Ceder"],
-      beschrijving: "Een sensuele en mysterieuze geur die de kracht van muskus viert.",
+      topnoten: ["Plum", "Bergamot", "Mandarin"],
+      hartnoten: ["Tuberose", "Jasmine", "Musk"],
+      basisnoten: ["Patchouli", "Vanilla", "Cedar"],
+      beschrijving: "A sensual and mysterious scent that celebrates the power of musk.",
       jaar: "2003",
-      geslacht: "Vrouwelijk",
+      geslacht: "Female",
       productnummers: ["457"]
     }
   ],
@@ -520,12 +520,12 @@ window.NederlandseParfumCatalogus = {
       naam: "1 Million",
       merk: "Paco Rabanne",
       afbeelding: "https://aaroma.co/cdn/shop/files/Paco_Rabanne_One_Million.avif?v=1762632686",
-      topnoten: ["Grapefruit", "Munt", "Mandarijn"],
-      hartnoten: ["Kaneel", "Roos", "Specerijen"],
-      basisnoten: ["Leer", "Amber", "Patchouli"],
-      beschrijving: "Een gedurfde en verleidelijke geur voor de man die zijn waarde kent.",
+      topnoten: ["Grapefruit", "Mint", "Mandarin"],
+      hartnoten: ["Cinnamon", "Rose", "Spices"],
+      basisnoten: ["Leather", "Amber", "Patchouli"],
+      beschrijving: "A bold and seductive scent for the man who knows his worth.",
       jaar: "2008",
-      geslacht: "Mannelijk",
+      geslacht: "Male",
       productnummers: ["275", "334"],
       variantIds: {"275": "47751577665674", "334": "47751563051146"}
     },
@@ -534,12 +534,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Invictus",
       merk: "Paco Rabanne",
       afbeelding: "https://aaroma.co/cdn/shop/files/invictus.webp?v=1772339894",
-      topnoten: ["Grapefruit", "Mandarijn", "Zeewaternoten"],
-      hartnoten: ["Laurierblad", "Jasmijn", "Ceder"],
-      basisnoten: ["Eikenmos", "Amber", "Patchouli"],
-      beschrijving: "Een frisse en krachtige geur voor de zegevierende man.",
+      topnoten: ["Grapefruit", "Mandarin", "Sea water notes"],
+      hartnoten: ["Bay leaf", "Jasmine", "Cedar"],
+      basisnoten: ["Oakmoss", "Amber", "Patchouli"],
+      beschrijving: "A fresh and powerful scent for the victorious man.",
       jaar: "2013",
-      geslacht: "Mannelijk",
+      geslacht: "Male",
       productnummers: ["228"],
       variantIds: {"228": "47751573209226"}
     },
@@ -548,12 +548,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Phantom",
       merk: "Paco Rabanne",
       afbeelding: "https://aaroma.co/cdn/shop/files/phantom.webp?v=1772339894",
-      topnoten: ["Citroen", "Bergamot", "Lavendel"],
-      hartnoten: ["Salie", "Vetiver", "Patchouli"],
-      basisnoten: ["Vanille", "Amber", "Ceder"],
-      beschrijving: "Een futuristische en verbonden geur voor een nieuwe generatie.",
+      topnoten: ["Lemon", "Bergamot", "Lavender"],
+      hartnoten: ["Sage", "Vetiver", "Patchouli"],
+      basisnoten: ["Vanilla", "Amber", "Cedar"],
+      beschrijving: "A futuristic and connected scent for a new generation.",
       jaar: "2021",
-      geslacht: "Mannelijk",
+      geslacht: "Male",
       productnummers: ["399"],
       variantIds: {"399": "47751563739274"}
     },
@@ -562,12 +562,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Lady Million",
       merk: "Paco Rabanne",
       afbeelding: "https://aaroma.co/cdn/shop/files/lady_million.webp?v=1772339894",
-      topnoten: ["Framboos", "Neroli", "Citroen"],
-      hartnoten: ["Sinaasappelbloesem", "Jasmijn", "Honing"],
-      basisnoten: ["Patchouli", "Amber", "Ceder"],
-      beschrijving: "Een stralende en glamoureuze geur voor de moderne vrouw.",
+      topnoten: ["Raspberry", "Neroli", "Lemon"],
+      hartnoten: ["Orange blossom", "Jasmine", "Honey"],
+      basisnoten: ["Patchouli", "Amber", "Cedar"],
+      beschrijving: "A radiant and glamorous scent for the modern woman.",
       jaar: "2010",
-      geslacht: "Vrouwelijk",
+      geslacht: "Female",
       productnummers: ["023"]
     },
     {
@@ -575,12 +575,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Fame",
       merk: "Paco Rabanne",
       afbeelding: "https://aaroma.co/cdn/shop/files/fame.webp?v=1772339894",
-      topnoten: ["Mango", "Bergamot", "Mandarijn"],
-      hartnoten: ["Jasmijn", "Roos", "Wierook"],
-      basisnoten: ["Sandelhout", "Vanille", "Muskus"],
-      beschrijving: "Een levendige en moderne geur.",
+      topnoten: ["Mango", "Bergamot", "Mandarin"],
+      hartnoten: ["Jasmine", "Rose", "Incense"],
+      basisnoten: ["Sandalwood", "Vanilla", "Musk"],
+      beschrijving: "A vibrant and modern scent.",
       jaar: "2022",
-      geslacht: "Vrouwelijk",
+      geslacht: "Female",
       productnummers: ["498"],
       variantIds: {"498": "47751576387722"}
     }
@@ -593,12 +593,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Le Male",
       merk: "Jean Paul Gaultier",
       afbeelding: "https://aaroma.co/cdn/shop/files/le_male.webp?v=1772339894",
-      topnoten: ["Munt", "Lavendel", "Bergamot", "Kardemom"],
-      hartnoten: ["Kaneel", "Sinaasappelbloesem", "Karwij"],
-      basisnoten: ["Vanille", "Tonka", "Amber", "Ceder"],
-      beschrijving: "Een iconische en verleidelijke geur voor de moderne man.",
+      topnoten: ["Mint", "Lavender", "Bergamot", "Cardamom"],
+      hartnoten: ["Cinnamon", "Orange blossom", "Caraway"],
+      basisnoten: ["Vanilla", "Tonka", "Amber", "Cedar"],
+      beschrijving: "An iconic and seductive scent for the modern man.",
       jaar: "1995",
-      geslacht: "Mannelijk",
+      geslacht: "Male",
       productnummers: ["247"],
       variantIds: {"247": "47751577272458"}
     },
@@ -607,12 +607,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Ultra Male",
       merk: "Jean Paul Gaultier",
       afbeelding: "https://aaroma.co/cdn/shop/files/ultra_male.webp?v=1772339894",
-      topnoten: ["Peer", "Munt", "Lavendel"],
-      hartnoten: ["Kaneel", "Salie", "Muskaatsalie"],
-      basisnoten: ["Vanille", "Amber", "Houtnoten"],
-      beschrijving: "Een krachtige en verleidelijke geur die de grenzen van mannelijkheid verlegt.",
+      topnoten: ["Pear", "Mint", "Lavender"],
+      hartnoten: ["Cinnamon", "Sage", "Clary sage"],
+      basisnoten: ["Vanilla", "Amber", "Woody notes"],
+      beschrijving: "A powerful and seductive scent that pushes the boundaries of masculinity.",
       jaar: "2015",
-      geslacht: "Mannelijk",
+      geslacht: "Male",
       productnummers: ["349"],
       variantIds: {"349": "47751570096266"}
     },
@@ -621,12 +621,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Scandal",
       merk: "Jean Paul Gaultier",
       afbeelding: "https://aaroma.co/cdn/shop/files/scandal.webp?v=1772339894",
-      topnoten: ["Mandarijn", "Gardenia", "Bloedsinaasappel"],
-      hartnoten: ["Honing", "Jasmijn", "Roos"],
-      basisnoten: ["Patchouli", "Tonka", "Ceder"],
-      beschrijving: "Een gedurfde en speelse geur met een gourmand-hart.",
+      topnoten: ["Mandarin", "Gardenia", "Blood orange"],
+      hartnoten: ["Honey", "Jasmine", "Rose"],
+      basisnoten: ["Patchouli", "Tonka", "Cedar"],
+      beschrijving: "A bold and playful scent with a gourmand heart.",
       jaar: "2017",
-      geslacht: "Vrouwelijk",
+      geslacht: "Female",
       productnummers: ["192"],
       variantIds: {"192": "47751577862282"}
     },
@@ -635,12 +635,12 @@ window.NederlandseParfumCatalogus = {
       naam: "La Belle",
       merk: "Jean Paul Gaultier",
       afbeelding: "https://aaroma.co/cdn/shop/files/la_belle.webp?v=1772339894",
-      topnoten: ["Peer", "Bergamot"],
-      hartnoten: ["Jasmijn", "Sinaasappelbloesem"],
-      basisnoten: ["Vanille", "Tonka", "Ceder"],
-      beschrijving: "Een verleidelijke en verslavende gourmand-geur.",
+      topnoten: ["Pear", "Bergamot"],
+      hartnoten: ["Jasmine", "Orange blossom"],
+      basisnoten: ["Vanilla", "Tonka", "Cedar"],
+      beschrijving: "A seductive and addictive gourmand scent.",
       jaar: "2019",
-      geslacht: "Vrouwelijk",
+      geslacht: "Female",
       productnummers: ["412"],
       variantIds: {"412": "47751575306378"}
     },
@@ -649,12 +649,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Classique",
       merk: "Jean Paul Gaultier",
       afbeelding: "https://aaroma.co/cdn/shop/files/classique.webp?v=1772339894",
-      topnoten: ["Roos", "Gember", "Bergamot"],
-      hartnoten: ["Tuberoos", "Jasmijn", "Sinaasappelbloesem"],
-      basisnoten: ["Vanille", "Amber", "Muskus"],
-      beschrijving: "Een iconische en sensuele geur voor de vrouw.",
+      topnoten: ["Rose", "Ginger", "Bergamot"],
+      hartnoten: ["Tuberose", "Jasmine", "Orange blossom"],
+      basisnoten: ["Vanilla", "Amber", "Musk"],
+      beschrijving: "An iconic and sensual scent for women.",
       jaar: "1993",
-      geslacht: "Vrouwelijk",
+      geslacht: "Female",
       productnummers: ["442"],
       variantIds: {"442": "47751573635210"}
     }
@@ -668,12 +668,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Angel",
       merk: "Mugler",
       afbeelding: "https://aaroma.co/cdn/shop/files/angel_edp.webp?v=1772373610",
-      topnoten: ["Suikerspin", "Bergamot", "Ananas", "Kokos"],
-      hartnoten: ["Honing", "Rode bessen", "Perzik", "Pruim", "Abrikoos"],
-      basisnoten: ["Patchouli", "Vanille", "Chocolade", "Karamel"],
-      beschrijving: "Een revolutionaire gourmand-geur.",
+      topnoten: ["Cotton candy", "Bergamot", "Pineapple", "Coconut"],
+      hartnoten: ["Honey", "Red berries", "Peach", "Plum", "Apricot"],
+      basisnoten: ["Patchouli", "Vanilla", "Chocolate", "Caramel"],
+      beschrijving: "A revolutionary gourmand scent.",
       jaar: "1992",
-      geslacht: "Vrouwelijk",
+      geslacht: "Female",
       productnummers: ["113"],
       variantIds: {"113": "47751564034186"}
     }
@@ -686,12 +686,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Chloé",
       merk: "Chloé",
       afbeelding: "https://aaroma.co/cdn/shop/files/chloe.webp?v=1772339894",
-      topnoten: ["Pioenroos", "Lychee", "Freesia"],
-      hartnoten: ["Magnolia", "Roos", "Lelietje-van-dalen"],
-      basisnoten: ["Ceder", "Amber", "Muskus"],
-      beschrijving: "Een frisse en elegante rozengeur.",
+      topnoten: ["Peony", "Lychee", "Freesia"],
+      hartnoten: ["Magnolia", "Rose", "Lily of the valley"],
+      basisnoten: ["Cedar", "Amber", "Musk"],
+      beschrijving: "A fresh and elegant rose scent.",
       jaar: "2008",
-      geslacht: "Vrouwelijk",
+      geslacht: "Female",
       productnummers: ["024"],
       variantIds: {"024": "47751574028426"}
     }
@@ -704,12 +704,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Acqua di Gio",
       merk: "Giorgio Armani",
       afbeelding: "https://aaroma.co/cdn/shop/files/Acqua_Di_Gio.webp?v=1772344094",
-      topnoten: ["Bergamot", "Neroli", "Groene mandarijn"],
-      hartnoten: ["Jasmijn", "Rozemarijn", "Salie"],
-      basisnoten: ["Ceder", "Patchouli", "Muskus"],
-      beschrijving: "Een tijdloze aquatische klassieker die de essentie van de Middellandse Zee vastlegt.",
+      topnoten: ["Bergamot", "Neroli", "Green mandarin"],
+      hartnoten: ["Jasmine", "Rosemary", "Sage"],
+      basisnoten: ["Cedar", "Patchouli", "Musk"],
+      beschrijving: "A timeless aquatic classic that captures the essence of the Mediterranean.",
       jaar: "1996",
-      geslacht: "Mannelijk",
+      geslacht: "Male",
       productnummers: ["221"],
       variantIds: {"221": "47751572619402"}
     },
@@ -718,12 +718,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Armani Code",
       merk: "Giorgio Armani",
       afbeelding: "https://aaroma.co/cdn/shop/files/code.webp?v=1772339894",
-      topnoten: ["Bergamot", "Citroen", "Groene noten"],
-      hartnoten: ["Olijfbloesem", "Jasmijn", "Sinaasappelbloesem"],
-      basisnoten: ["Leer", "Ceder", "Tonka"],
-      beschrijving: "Een verfijnde en verleidelijke geur voor de moderne man.",
+      topnoten: ["Bergamot", "Lemon", "Green notes"],
+      hartnoten: ["Olive blossom", "Jasmine", "Orange blossom"],
+      basisnoten: ["Leather", "Cedar", "Tonka"],
+      beschrijving: "A refined and seductive scent for the modern man.",
       jaar: "2004",
-      geslacht: "Mannelijk",
+      geslacht: "Male",
       productnummers: ["260"],
       variantIds: {"260": "47751566229642"}
     },
@@ -732,12 +732,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Code for Women",
       merk: "Giorgio Armani",
       afbeelding: "https://aaroma.co/cdn/shop/files/code.webp?v=1772339894",
-      topnoten: ["Sinaasappelbloesem", "Jasmijn", "Bergamot"],
-      hartnoten: ["Honing", "Amandel", "Gember"],
-      basisnoten: ["Vanille", "Sandelhout", "Muskus"],
-      beschrijving: "Een verleidelijke en elegante oosterse bloemengeur.",
+      topnoten: ["Orange blossom", "Jasmine", "Bergamot"],
+      hartnoten: ["Honey", "Almond", "Ginger"],
+      basisnoten: ["Vanilla", "Sandalwood", "Musk"],
+      beschrijving: "A seductive and elegant oriental floral scent.",
       jaar: "2006",
-      geslacht: "Vrouwelijk",
+      geslacht: "Female",
       productnummers: ["135"],
       variantIds: {"135": "47751571243146"}
     },
@@ -746,12 +746,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Stronger With You Intensely",
       merk: "Giorgio Armani",
       afbeelding: "https://aaroma.co/cdn/shop/files/stronger_with_you_intensely.webp?v=1772339532",
-      topnoten: ["Roze peper", "Kardemom", "Viooltjesblad"],
-      hartnoten: ["Salie", "Lavendel", "Kaneel"],
-      basisnoten: ["Vanille", "Kastanje", "Tonka", "Amber"],
-      beschrijving: "Een intensere en krachtigere interpretatie van Stronger With You.",
+      topnoten: ["Pink pepper", "Cardamom", "Violet leaf"],
+      hartnoten: ["Sage", "Lavender", "Cinnamon"],
+      basisnoten: ["Vanilla", "Chestnut", "Tonka", "Amber"],
+      beschrijving: "A more intense and powerful interpretation of Stronger With You.",
       jaar: "2019",
-      geslacht: "Mannelijk",
+      geslacht: "Male",
       productnummers: ["318"],
       variantIds: {"318": "47751574519946"}
     },
@@ -760,12 +760,12 @@ window.NederlandseParfumCatalogus = {
       naam: "My Way",
       merk: "Giorgio Armani",
       afbeelding: "https://aaroma.co/cdn/shop/files/my_way.webp?v=1772339894",
-      topnoten: ["Sinaasappelbloesem", "Bergamot"],
-      hartnoten: ["Tuberoos", "Jasmijn"],
-      basisnoten: ["Vanille", "Ceder", "Witte muskus"],
-      beschrijving: "Een stralende en ethische geur.",
+      topnoten: ["Orange blossom", "Bergamot"],
+      hartnoten: ["Tuberose", "Jasmine"],
+      basisnoten: ["Vanilla", "Cedar", "White musk"],
+      beschrijving: "A radiant and ethical scent.",
       jaar: "2020",
-      geslacht: "Vrouwelijk",
+      geslacht: "Female",
       productnummers: ["140"],
       variantIds: {"140": "47751575896202"}
     },
@@ -774,12 +774,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Armani Diamonds",
       merk: "Giorgio Armani",
       afbeelding: "https://aaroma.co/cdn/shop/files/diamonds.webp?v=1772339894",
-      topnoten: ["Mandarijn", "Bergamot", "Sinaasappel"],
-      hartnoten: ["Roos", "Jasmijn", "Ylang-Ylang"],
-      basisnoten: ["Sandelhout", "Muskus", "Amber"],
-      beschrijving: "Een sprankelende en elegante geur.",
+      topnoten: ["Mandarin", "Bergamot", "Orange"],
+      hartnoten: ["Rose", "Jasmine", "Ylang-ylang"],
+      basisnoten: ["Sandalwood", "Musk", "Amber"],
+      beschrijving: "A sparkling and elegant scent.",
       jaar: "2000",
-      geslacht: "Vrouwelijk",
+      geslacht: "Female",
       productnummers: ["040"],
       variantIds: {"040": "47751559250058"}
     },
@@ -788,12 +788,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Emporio He",
       merk: "Giorgio Armani",
       afbeelding: "https://aaroma.co/cdn/shop/files/he.webp?v=1772339894",
-      topnoten: ["Bergamot", "Mandarijn", "Citroen"],
-      hartnoten: ["Jasmijn", "Rozemarijn", "Salie"],
-      basisnoten: ["Ceder", "Sandelhout", "Muskus", "Amber"],
-      beschrijving: "Een frisse en mannelijke geur voor de moderne man.",
+      topnoten: ["Bergamot", "Mandarin", "Lemon"],
+      hartnoten: ["Jasmine", "Rosemary", "Sage"],
+      basisnoten: ["Cedar", "Sandalwood", "Musk", "Amber"],
+      beschrijving: "A fresh and masculine scent for the modern man.",
       jaar: "1998",
-      geslacht: "Mannelijk",
+      geslacht: "Male",
       productnummers: ["242"],
       variantIds: {"242": "47751555973258"}
     }
@@ -806,12 +806,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Boss Bottled",
       merk: "Hugo Boss",
       afbeelding: "https://aaroma.co/cdn/shop/files/bottled.webp?v=1772270950",
-      topnoten: ["Appel", "Citrus", "Geranium"],
-      hartnoten: ["Ceder", "Sandelhout", "Patchouli"],
-      basisnoten: ["Vanille", "Muskus", "Amber"],
-      beschrijving: "Een klassieke en verfijnde geur voor de succesvolle moderne man.",
+      topnoten: ["Apple", "Citrus", "Geranium"],
+      hartnoten: ["Cedar", "Sandalwood", "Patchouli"],
+      basisnoten: ["Vanilla", "Musk", "Amber"],
+      beschrijving: "A classic and refined scent for the successful modern man.",
       jaar: "1998",
-      geslacht: "Mannelijk",
+      geslacht: "Male",
       productnummers: ["234"],
       variantIds: {"234": "47751576191114"}
     },
@@ -820,12 +820,12 @@ window.NederlandseParfumCatalogus = {
       naam: "The Scent",
       merk: "Hugo Boss",
       afbeelding: "https://aaroma.co/cdn/shop/files/the_scent.webp?v=1772339894",
-      topnoten: ["Gember", "Bergamot", "Mandarijn"],
-      hartnoten: ["Lavendel", "Maninka", "Fruitnoten"],
-      basisnoten: ["Leer", "Patchouli", "Ceder"],
-      beschrijving: "Een verleidelijke en magnetische geur.",
+      topnoten: ["Ginger", "Bergamot", "Mandarin"],
+      hartnoten: ["Lavender", "Maninka", "Fruity notes"],
+      basisnoten: ["Leather", "Patchouli", "Cedar"],
+      beschrijving: "A seductive and magnetic scent.",
       jaar: "2015",
-      geslacht: "Mannelijk",
+      geslacht: "Male",
       productnummers: ["184", "270"],
       variantIds: {"184": "47751565836426", "270": "47751569440906"}
     },
@@ -834,12 +834,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Hugo",
       merk: "Hugo Boss",
       afbeelding: "https://aaroma.co/cdn/shop/files/bottled_ab5b354f-1e76-4cbc-b18e-afb94087df0a.webp?v=1772419632",
-      topnoten: ["Groene noten", "Basilicum", "Munt"],
-      hartnoten: ["Lavendel", "Geranium", "Muskaatsalie"],
-      basisnoten: ["Ceder", "Sandelhout", "Muskus"],
-      beschrijving: "Een frisse en energieke geur voor de jonge en dynamische man.",
+      topnoten: ["Green notes", "Basil", "Mint"],
+      hartnoten: ["Lavender", "Geranium", "Clary sage"],
+      basisnoten: ["Cedar", "Sandalwood", "Musk"],
+      beschrijving: "A fresh and energetic scent for the young and dynamic man.",
       jaar: "1995",
-      geslacht: "Mannelijk",
+      geslacht: "Male",
       productnummers: ["223"],
       variantIds: {"223": "47751558332554"}
     },
@@ -848,12 +848,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Alive",
       merk: "Hugo Boss",
       afbeelding: "https://aaroma.co/cdn/shop/files/alive.webp?v=1772339894",
-      topnoten: ["Appel", "Zwarte bes", "Pruim"],
-      hartnoten: ["Roos", "Jasmijn", "Kaneel"],
-      basisnoten: ["Vanille", "Muskus", "Ceder"],
-      beschrijving: "Een levendige en energieke geur.",
+      topnoten: ["Apple", "Blackcurrant", "Plum"],
+      hartnoten: ["Rose", "Jasmine", "Cinnamon"],
+      basisnoten: ["Vanilla", "Musk", "Cedar"],
+      beschrijving: "A vibrant and energetic scent.",
       jaar: "2019",
-      geslacht: "Vrouwelijk",
+      geslacht: "Female",
       productnummers: ["098"]
     },
     {
@@ -861,12 +861,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Boss Woman",
       merk: "Hugo Boss",
       afbeelding: "https://aaroma.co/cdn/shop/files/boss_woman.webp?v=1772339894",
-      topnoten: ["Mandarijn", "Appel", "Perzik"],
-      hartnoten: ["Roos", "Jasmijn", "Lelie"],
-      basisnoten: ["Sandelhout", "Muskus", "Vanille"],
-      beschrijving: "Een klassieke en elegante geur.",
+      topnoten: ["Mandarin", "Apple", "Peach"],
+      hartnoten: ["Rose", "Jasmine", "Lily"],
+      basisnoten: ["Sandalwood", "Musk", "Vanilla"],
+      beschrijving: "A classic and elegant scent.",
       jaar: "2000",
-      geslacht: "Vrouwelijk",
+      geslacht: "Female",
       productnummers: ["60"]
     },
     {
@@ -874,12 +874,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Boss Orange",
       merk: "Hugo Boss",
       afbeelding: "https://aaroma.co/cdn/shop/files/Orange.webp?v=1772375542",
-      topnoten: ["Appel", "Witte bloemen", "Citrus"],
-      hartnoten: ["Roos", "Jasmijn", "Pioenroos"],
-      basisnoten: ["Sandelhout", "Muskus", "Vanille"],
-      beschrijving: "Een frisse en zorgeloze geur.",
+      topnoten: ["Apple", "White flowers", "Citrus"],
+      hartnoten: ["Rose", "Jasmine", "Peony"],
+      basisnoten: ["Sandalwood", "Musk", "Vanilla"],
+      beschrijving: "A fresh and carefree scent.",
       jaar: "2003",
-      geslacht: "Vrouwelijk",
+      geslacht: "Female",
       productnummers: ["148"],
       variantIds: {"148": "47751562461322"}
     }
@@ -892,10 +892,10 @@ window.NederlandseParfumCatalogus = {
       naam: "CK One",
       merk: "Calvin Klein",
       afbeelding: "https://aaroma.co/cdn/shop/files/ck_one.webp?v=1772339894",
-      topnoten: ["Bergamot", "Citroen", "Groene noten"],
-      hartnoten: ["Jasmijn", "Roos", "Lelietje-van-dalen"],
-      basisnoten: ["Muskus", "Amber", "Ceder"],
-      beschrijving: "Een iconische unisex-geur die frisheid en zuiverheid symboliseert.",
+      topnoten: ["Bergamot", "Lemon", "Green notes"],
+      hartnoten: ["Jasmine", "Rose", "Lily of the valley"],
+      basisnoten: ["Musk", "Amber", "Cedar"],
+      beschrijving: "An iconic unisex scent that symbolizes freshness and purity.",
       jaar: "1994",
       geslacht: "Unisex",
       productnummers: ["209"]
@@ -905,12 +905,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Eternity for Men",
       merk: "Calvin Klein",
       afbeelding: "https://aaroma.co/cdn/shop/files/eternity.webp?v=1772339894",
-      topnoten: ["Lavendel", "Bergamot", "Citroen"],
-      hartnoten: ["Koriander", "Jasmijn", "Geranium"],
-      basisnoten: ["Sandelhout", "Muskus", "Amber"],
-      beschrijving: "Een tijdloze en romantische geur voor mannen.",
+      topnoten: ["Lavender", "Bergamot", "Lemon"],
+      hartnoten: ["Coriander", "Jasmine", "Geranium"],
+      basisnoten: ["Sandalwood", "Musk", "Amber"],
+      beschrijving: "A timeless and romantic scent for men.",
       jaar: "1990",
-      geslacht: "Mannelijk",
+      geslacht: "Male",
       productnummers: ["215"]
     },
     {
@@ -918,12 +918,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Eternity for Women",
       merk: "Calvin Klein",
       afbeelding: "https://aaroma.co/cdn/shop/files/eternity.webp?v=1772339894",
-      topnoten: ["Mandarijn", "Bergamot", "Citroen"],
-      hartnoten: ["Lelietje-van-dalen", "Roos", "Jasmijn"],
-      basisnoten: ["Sandelhout", "Muskus", "Amber"],
-      beschrijving: "Een tijdloze en romantische geur voor vrouwen.",
+      topnoten: ["Mandarin", "Bergamot", "Lemon"],
+      hartnoten: ["Lily of the valley", "Rose", "Jasmine"],
+      basisnoten: ["Sandalwood", "Musk", "Amber"],
+      beschrijving: "A timeless and romantic scent for women.",
       jaar: "1988",
-      geslacht: "Vrouwelijk",
+      geslacht: "Female",
       productnummers: ["106"],
       variantIds: {"106": "47751560560778"}
     }
@@ -936,12 +936,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Light Blue",
       merk: "Dolce & Gabbana",
       afbeelding: "https://aaroma.co/cdn/shop/files/light_blue.webp?v=1772339894",
-      topnoten: ["Siciliaanse citroen", "Appel", "Ceder"],
-      hartnoten: ["Jasmijn", "Witte roos", "Bamboe"],
-      basisnoten: ["Ceder", "Amber", "Muskus"],
-      beschrijving: "Een frisse en zonnige geur die de essentie van de Middellandse Zee vastlegt.",
+      topnoten: ["Sicilian lemon", "Apple", "Cedar"],
+      hartnoten: ["Jasmine", "White rose", "Bamboo"],
+      basisnoten: ["Cedar", "Amber", "Musk"],
+      beschrijving: "A fresh and sunny scent that captures the essence of the Mediterranean.",
       jaar: "2001",
-      geslacht: "Vrouwelijk",
+      geslacht: "Female",
       productnummers: ["017"],
       variantIds: {"017": "47751578255498"}
     },
@@ -950,12 +950,12 @@ window.NederlandseParfumCatalogus = {
       naam: "The One",
       merk: "Dolce & Gabbana",
       afbeelding: "https://aaroma.co/cdn/shop/files/the_one.webp?v=1772339894",
-      topnoten: ["Perzik", "Lychee", "Mandarijn"],
-      hartnoten: ["Roos", "Jasmijn", "Lelie"],
-      basisnoten: ["Vanille", "Amber", "Muskus"],
-      beschrijving: "Een verfijnde en sensuele geur.",
+      topnoten: ["Peach", "Lychee", "Mandarin"],
+      hartnoten: ["Rose", "Jasmine", "Lily"],
+      basisnoten: ["Vanilla", "Amber", "Musk"],
+      beschrijving: "A refined and sensual scent.",
       jaar: "2006",
-      geslacht: "Vrouwelijk",
+      geslacht: "Female",
       productnummers: ["094"]
     }
   ],
@@ -967,12 +967,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Ange ou Démon",
       merk: "Givenchy",
       afbeelding: "https://aaroma.co/cdn/shop/files/ange_ou_demon.webp?v=1772339894",
-      topnoten: ["Saffraan", "Ylang-Ylang", "Lelie"],
-      hartnoten: ["Roos", "Jasmijn", "Sinaasappelbloesem"],
-      basisnoten: ["Vanille", "Sandelhout", "Patchouli"],
-      beschrijving: "Een mysterieuze en verleidelijke geur.",
+      topnoten: ["Saffron", "Ylang-ylang", "Lily"],
+      hartnoten: ["Rose", "Jasmine", "Orange blossom"],
+      basisnoten: ["Vanilla", "Sandalwood", "Patchouli"],
+      beschrijving: "A mysterious and seductive scent.",
       jaar: "2006",
-      geslacht: "Vrouwelijk",
+      geslacht: "Female",
       productnummers: ["142"],
       variantIds: {"142": "47751558496394"}
     }
@@ -985,12 +985,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Flower by Kenzo",
       merk: "Kenzo",
       afbeelding: "https://aaroma.co/cdn/shop/files/flower.webp?v=1772339894",
-      topnoten: ["Meidoorn", "Zwarte bes", "Mandarijn"],
-      hartnoten: ["Roos", "Jasmijn", "Viooltje"],
-      basisnoten: ["Vanille", "Muskus", "Ceder"],
-      beschrijving: "Een poëtische en delicate geur.",
+      topnoten: ["Hawthorn", "Blackcurrant", "Mandarin"],
+      hartnoten: ["Rose", "Jasmine", "Violet"],
+      basisnoten: ["Vanilla", "Musk", "Cedar"],
+      beschrijving: "A poetic and delicate scent.",
       jaar: "2000",
-      geslacht: "Vrouwelijk",
+      geslacht: "Female",
       productnummers: ["074"],
       variantIds: {"074": "47751568916618"}
     }
@@ -1003,12 +1003,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Terre d'Hermès",
       merk: "Hermès",
       afbeelding: "https://aaroma.co/cdn/shop/files/terre.webp?v=1772339894",
-      topnoten: ["Sinaasappel", "Grapefruit"],
-      hartnoten: ["Peper", "Geranium"],
-      basisnoten: ["Vetiver", "Ceder", "Patchouli"],
-      beschrijving: "Een krachtige en originele geur die de aarde eert.",
+      topnoten: ["Orange", "Grapefruit"],
+      hartnoten: ["Pepper", "Geranium"],
+      basisnoten: ["Vetiver", "Cedar", "Patchouli"],
+      beschrijving: "A powerful and original scent that honors the earth.",
       jaar: "2006",
-      geslacht: "Mannelijk",
+      geslacht: "Male",
       productnummers: ["227"],
       variantIds: {"227": "47751572127882"}
     }
@@ -1021,12 +1021,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Cool Water",
       merk: "Davidoff",
       afbeelding: "https://aaroma.co/cdn/shop/files/cool_water.webp?v=1772339894",
-      topnoten: ["Zeezout", "Munt", "Lavendel"],
-      hartnoten: ["Geranium", "Sandelhout", "Rozemarijn"],
-      basisnoten: ["Muskus", "Ceder", "Tabak"],
-      beschrijving: "Een frisse en zuivere geur Inspired by de frisheid van de zee.",
+      topnoten: ["Sea salt", "Mint", "Lavender"],
+      hartnoten: ["Geranium", "Sandalwood", "Rosemary"],
+      basisnoten: ["Musk", "Cedar", "Tobacco"],
+      beschrijving: "A fresh and pure scent inspired by the freshness of the sea.",
       jaar: "1988",
-      geslacht: "Mannelijk",
+      geslacht: "Male",
       productnummers: ["200"],
       variantIds: {"200": "47751562625162"}
     }
@@ -1039,12 +1039,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Joop! Homme",
       merk: "Joop!",
       afbeelding: "https://aaroma.co/cdn/shop/files/joop_homme.webp?v=1772339894",
-      topnoten: ["Kaneel", "Bergamot", "Mandarijn"],
-      hartnoten: ["Lelietje-van-dalen", "Jasmijn", "Geranium"],
-      basisnoten: ["Sandelhout", "Vanille", "Tonka", "Ceder"],
-      beschrijving: "Een liefdevolle, kruidige en verleidelijke geur.",
+      topnoten: ["Cinnamon", "Bergamot", "Mandarin"],
+      hartnoten: ["Lily of the valley", "Jasmine", "Geranium"],
+      basisnoten: ["Sandalwood", "Vanilla", "Tonka", "Cedar"],
+      beschrijving: "A loving, spicy and seductive scent.",
       jaar: "1989",
-      geslacht: "Mannelijk",
+      geslacht: "Male",
       productnummers: ["211"],
       variantIds: {"211": "47751567638666"}
     }
@@ -1057,12 +1057,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Aventus",
       merk: "Creed",
       afbeelding: "https://aaroma.co/cdn/shop/files/aventus.webp?v=1772339894",
-      topnoten: ["Ananas", "Bergamot", "Zwarte bes", "Appel"],
-      hartnoten: ["Berk", "Jasmijn", "Patchouli", "Roos"],
-      basisnoten: ["Eikenmos", "Amber", "Vanille", "Muskus"],
-      beschrijving: "Een legendarische geur die kracht en succes viert.",
+      topnoten: ["Pineapple", "Bergamot", "Blackcurrant", "Apple"],
+      hartnoten: ["Birch", "Jasmine", "Patchouli", "Rose"],
+      basisnoten: ["Oakmoss", "Amber", "Vanilla", "Musk"],
+      beschrijving: "A legendary scent that celebrates strength and success.",
       jaar: "2010",
-      geslacht: "Mannelijk",
+      geslacht: "Male",
       productnummers: ["288"]
     }
   ],
@@ -1074,12 +1074,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Eros",
       merk: "Versace",
       afbeelding: "https://aaroma.co/cdn/shop/files/eros.webp?v=1772339894",
-      topnoten: ["Munt", "Groene appel", "Citroen"],
+      topnoten: ["Mint", "Green apple", "Lemon"],
       hartnoten: ["Tonka", "Ambrosia", "Geranium"],
-      basisnoten: ["Vanille", "Ceder", "Eikenmos", "Patchouli"],
-      beschrijving: "Een intense, sensuele en verleidelijke geur Inspired by de Griekse god van de liefde.",
+      basisnoten: ["Vanilla", "Cedar", "Oakmoss", "Patchouli"],
+      beschrijving: "An intense, sensual and seductive scent inspired by the Greek god of love.",
       jaar: "2012",
-      geslacht: "Mannelijk",
+      geslacht: "Male",
       productnummers: ["248"]
     }
   ],
@@ -1091,12 +1091,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Aqva Pour Homme",
       merk: "Bvlgari",
       afbeelding: "https://aaroma.co/cdn/shop/files/aqva.webp?v=1772339894",
-      topnoten: ["Mandarijn", "Neroli", "Petitgrain"],
-      hartnoten: ["Waternoten", "Salie", "Lavendel"],
-      basisnoten: ["Muskus", "Amber", "Ceder"],
-      beschrijving: "Een frisse en aquatische geur Inspired by de Middellandse Zee.",
+      topnoten: ["Mandarin", "Neroli", "Petitgrain"],
+      hartnoten: ["Aquatic notes", "Sage", "Lavender"],
+      basisnoten: ["Musk", "Amber", "Cedar"],
+      beschrijving: "A fresh and aquatic scent inspired by the Mediterranean.",
       jaar: "2005",
-      geslacht: "Mannelijk",
+      geslacht: "Male",
       productnummers: ["305"],
       variantIds: {"305": "47751560691850"}
     }
@@ -1109,12 +1109,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Quiet King",
       merk: "Quiet King",
       afbeelding: "https://aaroma.co/cdn/shop/files/quiet_king.webp?v=1772339894",
-      topnoten: ["Hout", "Specerijen", "Nootmuskaat"],
-      hartnoten: ["Amber", "Leer", "Ceder"],
-      basisnoten: ["Sandelhout", "Muskus", "Patchouli"],
-      beschrijving: "Een houtachtige en kruidige oosterse geur met een mannelijk karakter.",
+      topnoten: ["Wood", "Spices", "Nutmeg"],
+      hartnoten: ["Amber", "Leather", "Cedar"],
+      basisnoten: ["Sandalwood", "Musk", "Patchouli"],
+      beschrijving: "A woody and spicy oriental scent with a masculine character.",
       jaar: "2012",
-      geslacht: "Mannelijk",
+      geslacht: "Male",
       productnummers: ["317"],
       variantIds: {"317": "47751548633226"}
     }
@@ -1127,12 +1127,12 @@ window.NederlandseParfumCatalogus = {
       naam: "Rush 2",
       merk: "Rush",
       afbeelding: "https://aaroma.co/cdn/shop/files/rush_2.webp?v=1772339894",
-      topnoten: ["Freesia", "Waterlelie", "Koriander"],
-      hartnoten: ["Roos", "Jasmijn", "Lelietje-van-dalen"],
-      basisnoten: ["Sandelhout", "Muskus", "Amber"],
-      beschrijving: "Een frisse en levendige bloemengeur.",
+      topnoten: ["Freesia", "Water lily", "Coriander"],
+      hartnoten: ["Rose", "Jasmine", "Lily of the valley"],
+      basisnoten: ["Sandalwood", "Musk", "Amber"],
+      beschrijving: "A fresh and vibrant floral scent.",
       jaar: "2001",
-      geslacht: "Vrouwelijk",
+      geslacht: "Female",
       productnummers: ["163"],
       variantIds: {"163": "47751571734666"}
     }
@@ -2026,7 +2026,7 @@ window.fcToggleZoeken = function() {
       <circle cx="11" cy="11" r="8" stroke="#FFFFFF" fill="none"/>
       <line x1="21" y1="21" x2="16.65" y2="16.65" stroke="#FFFFFF" stroke-width="2"/>
     </svg>
-    <span class="fc-toggle-text">Zoeken</span>
+    <span class="fc-toggle-text">Search</span>
   </div>
 
   <!-- Search Popup -->
@@ -2038,8 +2038,8 @@ window.fcToggleZoeken = function() {
       <div class="fc-offer-left">
         <span class="fc-offer-icon">🎁</span>
         <div class="fc-offer-text">
-          <strong>3 KOPEN 1 GRATIS</strong>
-          <span id="fcOfferSubtext">Voeg 3 artikelen toe voor een gratis geschenk</span>
+          <strong>BUY 3 GET 1 FREE</strong>
+          <span id="fcOfferSubtext">Add 3 items for a free gift</span>
         </div>
       </div>
       <div class="fc-offer-status" id="fcOfferStatus">0/3</div>
@@ -2050,12 +2050,12 @@ window.fcToggleZoeken = function() {
       <div class="fc-offer-progress-bar">
         <div class="fc-offer-progress-fill" id="fcOfferProgress" style="width: 0%;"></div>
       </div>
-      <div class="fc-offer-message" id="fcOfferMessage">Voeg 3 artikelen toe voor een gratis geschenk</div>
+      <div class="fc-offer-message" id="fcOfferMessage">Add 3 items for a free gift</div>
     </div>
 
     <!-- INFO SECTION -->
     <div class="fc-info-section">
-      <div class="fc-info-label">INFORMATIE VERSTREKT DOOR:</div>
+      <div class="fc-info-label">INFORMATION PROVIDED BY:</div>
     </div>
 
     <!-- Logo Section -->
@@ -2074,7 +2074,7 @@ window.fcToggleZoeken = function() {
         <input type="text" 
                id="fcSearchInput" 
                class="fc-search-field" 
-               placeholder="Zoeken op naam, merk, ID of geurnotities..."
+               placeholder="Search by name, brand, ID or scent notes..."
                autocomplete="off">
         <button class="fc-clear-search" id="fcClearSearch">✕</button>
       </div>
@@ -2084,19 +2084,19 @@ window.fcToggleZoeken = function() {
     <div class="fc-steps-section" id="fcSteps">
       <div class="fc-steps-box">
         <div class="fc-steps-title">
-          ZO VIND JE<br><span>JOUW PARFUM.</span>
+          HERE'S HOW TO FIND<br><span>YOUR FRAGRANCE.</span>
         </div>
         <div class="fc-step-item">
           <span class="fc-step-number">1</span>
-          <span>ZEG MIJ WELK PARFUM JE HOUDT.</span>
+          <span>TELL ME WHICH FRAGRANCE YOU LOVE.</span>
         </div>
         <div class="fc-step-item">
           <span class="fc-step-number">2</span>
-          <span>IK SERVEER HET JE IN SECONDEN...</span>
+          <span>I'LL SERVE IT TO YOU IN SECONDS...</span>
         </div>
         <div class="fc-step-item">
           <span class="fc-step-number">3</span>
-          <span>ONTDEK JOUW NIEUWE FAVORIETE PARFUM EN GENIET!</span>
+          <span>DISCOVER YOUR NEW FAVORITE FRAGRANCE AND ENJOY!</span>
         </div>
       </div>
     </div>
@@ -3579,9 +3579,9 @@ window.fcToggleZoeken = function() {
           <img class="fc-product-image" src="${product.afbeelding}" alt="${product.titel}" loading="lazy">
           <div class="fc-product-title">${product.titel}</div>
           <div class="fc-product-price">${prijsFormatted}</div>
-          <button class="fc-add-to-cart" onclick="event.stopPropagation(); window.fcVoegToeAanWinkelwagen(${product.variant || 0}, event)">Toevoegen</button>
+          <button class="fc-add-to-cart" onclick="event.stopPropagation(); window.fcVoegToeAanWinkelwagen(${product.variant || 0}, event)">Add</button>
           <div>
-            <span class="fc-view-link" onclick="event.stopPropagation(); window.fcBekijkDetails('${product.url}')">Bekijk details</span>
+            <span class="fc-view-link" onclick="event.stopPropagation(); window.fcBekijkDetails('${product.url}')">View details</span>
           </div>
         </div>
       </div>
@@ -3620,23 +3620,23 @@ window.fcToggleZoeken = function() {
       }
     }
     
-    let html = `<button class="fc-back-btn" onclick="window.fcGaTerug()">Terug</button>`;
+    let html = `<button class="fc-back-btn" onclick="window.fcGaTerug()">Back</button>`;
     
     if (onsProduct) {
-      html += `<div class="fc-subsection-title">Onze versie</div>`;
+      html += `<div class="fc-subsection-title">Our version</div>`;
       html += '<div class="fc-grid-2col">';
-      html += renderProductKaart(onsProduct, 'Ruikt naar...');
+      html += renderProductKaart(onsProduct, 'Smells like...');
       
       // Show hardcoded product recommendation from our collection
       const aanbevolProduct = getAanbevolenProduct(onsProduct);
       if (aanbevolProduct) {
-        html += renderProductKaart(aanbevolProduct, 'Misschien vind je dit ook leuk');
+        html += renderProductKaart(aanbevolProduct, 'You might also like this');
       } else {
         html += '<div class="fc-product-card" style="visibility: hidden;"></div>';
       }
       html += '</div>';
     } else {
-      html += `<div class="fc-subsection-title">Geen bijpassend product gevonden</div>`;
+      html += `<div class="fc-subsection-title">No matching product found</div>`;
       html += '<div class="fc-grid-2col"><div class="fc-product-card" style="visibility: hidden;"></div><div class="fc-product-card" style="visibility: hidden;"></div></div>';
     }
     
@@ -3648,14 +3648,14 @@ window.fcToggleZoeken = function() {
           <div>
             <div class="fc-detailed-name">${parfum.naam}</div>
             <div class="fc-detailed-brand">${parfum.merk}</div>
-            <div class="fc-detailed-meta">${parfum.jaar || ''} | ${parfum.geslacht === 'Male' ? 'Man' : parfum.geslacht === 'Female' ? 'Vrouw' : 'Unisex'}</div>
+            <div class="fc-detailed-meta">${parfum.jaar || ''} | ${parfum.geslacht === 'Male' ? 'Male' : parfum.geslacht === 'Female' ? 'Female' : 'Unisex'}</div>
           </div>
         </div>
         
         <div class="fc-notes-section">
           ${parfum.topnoten ? `
             <div class="fc-note-category">
-              <h4>TOP NOTEN</h4>
+              <h4>TOP NOTES</h4>
               <div class="fc-note-tags">
                 ${parfum.topnoten.map(noot => `<span class="fc-note-tag">${noot}</span>`).join('')}
               </div>
@@ -3664,7 +3664,7 @@ window.fcToggleZoeken = function() {
           
           ${parfum.hartnoten ? `
             <div class="fc-note-category">
-              <h4>HART NOTEN</h4>
+              <h4>HEART NOTES</h4>
               <div class="fc-note-tags">
                 ${parfum.hartnoten.map(noot => `<span class="fc-note-tag">${noot}</span>`).join('')}
               </div>
@@ -3673,7 +3673,7 @@ window.fcToggleZoeken = function() {
           
           ${parfum.basisnoten ? `
             <div class="fc-note-category">
-              <h4>BASIS NOTEN</h4>
+              <h4>BASE NOTES</h4>
               <div class="fc-note-tags">
                 ${parfum.basisnoten.map(noot => `<span class="fc-note-tag">${noot}</span>`).join('')}
               </div>
@@ -3693,7 +3693,7 @@ window.fcToggleZoeken = function() {
   // ===== ZOEKFUNCTIE UITVOEREN =====
   function voerZoekopdrachtUit(query) {
     huidigeZoekopdracht = query;
-    inhoud.innerHTML = '<div class="fc-loading">Zoeken...</div>';
+    inhoud.innerHTML = '<div class="fc-loading">Searching...</div>';
     
     setTimeout(() => {
       // Zoeken in hardcoded producten (onze collection)
@@ -3738,7 +3738,7 @@ window.fcToggleZoeken = function() {
       
       // ===== TWEEDE: Toon onze producten =====
       if (hardcodedResultaten.length > 0) {
-        html += `<div class="fc-section-title">🛍️ Onze collectie</div>`;
+        html += `<div class="fc-section-title">🛍️ Our collection</div>`;
         
         hardcodedResultaten.slice(0, 8).forEach(match => {
           const p = match.product;
@@ -3757,7 +3757,7 @@ window.fcToggleZoeken = function() {
       }
       
       if (echteParfumsResultaten.length === 0 && hardcodedResultaten.length === 0) {
-        html = '<div class="fc-no-results">Geen producten gevonden voor "' + query + '"</div>';
+        html = '<div class="fc-no-results">No products found for "' + query + '"</div>';
       }
       
       inhoud.innerHTML = html;
@@ -3788,14 +3788,14 @@ window.fcToggleZoeken = function() {
     if (event) event.stopPropagation();
     
     if (!variantId || variantId === 0) {
-      alert('Variant ID niet gevonden. Dit product moet nog worden ingesteld.');
+      alert('Variant ID not found. This product still needs to be set up.');
       return;
     }
     
     const btn = event.target;
     const origineleTekst = btn.innerText;
     
-    btn.innerText = 'Toevoegen...';
+    btn.innerText = 'Adding...';
     btn.disabled = true;
     
     fetch('/cart/add.js', {
@@ -3805,14 +3805,14 @@ window.fcToggleZoeken = function() {
     })
     .then(response => response.json())
     .then(data => {
-      btn.innerText = '✓ Toegevoegd!';
+      btn.innerText = '✓ Added!';
       btn.style.background = '#2E7D32';
       
       fetch('/cart.js')
         .then(r => r.json())
         .then(winkelwagen => {
           updateAanbiedingWeergave(winkelwagen.item_count);
-          toonMelding(`✓ Toegevoegd! ${winkelwagen.item_count}/3 producten voor gratis cadeau`);
+          toonMelding(`✓ Added! ${winkelwagen.item_count}/3 products for a free gift`);
         });
       
       setTimeout(() => {
@@ -3822,7 +3822,7 @@ window.fcToggleZoeken = function() {
       }, 2000);
     })
     .catch(error => {
-      btn.innerText = 'Fout';
+      btn.innerText = 'Error';
       setTimeout(() => {
         btn.innerText = origineleTekst;
         btn.disabled = false;
@@ -3855,15 +3855,15 @@ window.fcToggleZoeken = function() {
     aanbiedingVoortgang.style.width = percentage + '%';
     
     if (aantalItems >= 3) {
-      aanbiedingStatus.textContent = '🎉 GRATIS!';
-      aanbiedingSubtekst.textContent = 'Je kwalificeert voor een gratis cadeau!';
-      aanbiedingBericht.textContent = '🎉 Je kwalificeert voor een GRATIS cadeau!';
+      aanbiedingStatus.textContent = '🎉 FREE!';
+      aanbiedingSubtekst.textContent = 'You qualify for a free gift!';
+      aanbiedingBericht.textContent = '🎉 You qualify for a FREE gift!';
       aanbiedingBanner.classList.add('qualified');
     } else {
       const nodig = 3 - aantalItems;
       aanbiedingStatus.textContent = `${aantalItems}/3`;
-      aanbiedingSubtekst.textContent = `Voeg ${nodig} meer toe voor een gratis cadeau`;
-      aanbiedingBericht.textContent = `Voeg ${nodig} meer product${nodig > 1 ? 'en' : ''} toe voor een gratis cadeau`;
+      aanbiedingSubtekst.textContent = `Add ${nodig} more for a free gift`;
+      aanbiedingBericht.textContent = `Add ${nodig} more product${nodig > 1 ? 's' : ''} for a free gift`;
       aanbiedingBanner.classList.remove('qualified');
     }
   }

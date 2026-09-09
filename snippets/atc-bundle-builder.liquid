@@ -12,8 +12,8 @@
 {% if product.variants.size > 1 %}
   {% comment %} Variant Selector {% endcomment %}
   <div class="flex justify-between items-center mb-3 !mt-6">
-    <h2 class="m-0 text-base font-semibold">Kies formaa:</h2>
-    <div class="text-sm italic text-gray-500">De 50 ml — gekozen door 8 van de 10 klanten</div>
+    <h2 class="m-0 text-base font-semibold">Choose size:</h2>
+    <div class="text-sm italic text-gray-500">The 50 ml — chosen by 8 out of 10 customers</div>
   </div>
 
   <div
@@ -46,10 +46,10 @@
           {{- cart.currency.symbol -}}
           {{- per_ml }} Per Spray</span>
         {% if variant.title == '50ML' %}
-          <span class="text-xs italic text-white rounded absolute -top-2.5 left-1/2 [transform:translateX(-50%)] bg-[#c8202f] px-2 py-0.5">Meest gekozen</span>
+          <span class="text-xs italic text-white rounded absolute -top-2.5 left-1/2 [transform:translateX(-50%)] bg-[#c8202f] px-2 py-0.5">Most chosen</span>
         {% endif %}
         {% if variant.title == '100ML' %}
-          <span class="text-xs italic text-white rounded absolute -top-2.5 left-1/2 [transform:translateX(-50%)] bg-[#944234] px-2 py-0.5">Beste waarde</span>
+          <span class="text-xs italic text-white rounded absolute -top-2.5 left-1/2 [transform:translateX(-50%)] bg-[#944234] px-2 py-0.5">Best value</span>
         {% endif %}
       </button>
     {% endfor %}
@@ -92,7 +92,7 @@
       {% if product.metafields.custom.choose_your_fragrances_options != blank %}
       disabled="disabled"
       {% endif %}>
-      <span>Toevoegen aan winkelwagen</span>
+      <span>Add to cart</span>
       <div class="ml-2 pl-2 border-0 border-l flex items-center border-solid border-gray-200/20">
         <div
           class="inline-block text-lg bg-[#6e281c] px-3 rounded"
@@ -118,8 +118,8 @@
       width="40"
       height="40" />
     <div class="text-slate-900">
-      <strong class="font-semibold">Probeer het 60 dagen lang, zonder risico.</strong>
-      <span class="block">Niet helemaal tevreden? Dan krijg je gewoon je volledige aankoopbedrag terug!</span>
+      <strong class="font-semibold">Try it for 60 days, risk-free.</strong>
+      <span class="block">Not completely satisfied? Then you simply get your full purchase amount back!</span>
     </div>
   </div>
 </div>
