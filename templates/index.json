@@ -117,32 +117,32 @@
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/shipping.png",
-            "perk_title": "Free delivery",
-            "perk_content": "From €55 — shipped within 48 hours, with tracking."
+            "perk_title": "Free Shipping",
+            "perk_content": "On orders €55+. Shipped within 48 hours, with tracking."
           }
         },
         "perks_Ynh4gw": {
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/icons_quality.png",
-            "perk_title": "60-day guarantee",
-            "perk_content": "Not satisfied? Money back. No hassle."
+            "perk_title": "60-Day Money-Back Guarantee",
+            "perk_content": "Not happy? Get your money back. No hassle."
           }
         },
         "perks_Cj3EAR": {
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/icons_guarantee.png",
-            "perk_title": "EU-gecertificeerd",
-            "perk_content": "Made in certified European factories."
+            "perk_title": "Made in Europe",
+            "perk_content": "Produced in certified European facilities."
           }
         },
         "perks_iX4iTY": {
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/icons_time.png",
-            "perk_title": "12+ uur lang aanhoudend",
-            "perk_content": "Lasts all day"
+            "perk_title": "12+ Hours of Wear",
+            "perk_content": "Enjoy your scent all day long."
           }
         }
       },
@@ -193,10 +193,10 @@
       "name": "Popular Products",
       "settings": {
         "background_color": "#fcfbf9",
-        "title": "Meest Populair",
-        "description": "<p>What our customers keep reordering.</p>",
+        "title": "Most Popular",
+        "description": "<p>The scents our customers keep coming back for.</p>",
         "collection": "top-sellers",
-        "button_text": "View all",
+        "button_text": "Shop All",
         "button_link": "shopify://collections/all",
         "padding_top": 72,
         "padding_bottom": 72
@@ -207,10 +207,10 @@
       "name": "Popular Products",
       "settings": {
         "background_color": "#fcfbf9",
-        "title": "Herengeuren",
+        "title": "Men’s Fragrances",
         "description": "",
         "collection": "men",
-        "button_text": "View all",
+        "button_text": "View All",
         "button_link": "shopify://collections/men",
         "padding_top": 36,
         "padding_bottom": 36
@@ -221,10 +221,10 @@
       "name": "Popular Products",
       "settings": {
         "background_color": "#fcfbf9",
-        "title": "Damesgeuren",
+        "title": "Women’s Fragrances",
         "description": "",
         "collection": "women",
-        "button_text": "View all",
+        "button_text": "View All",
         "button_link": "shopify://collections/women",
         "padding_top": 36,
         "padding_bottom": 36
@@ -237,7 +237,7 @@
           "type": "category",
           "settings": {
             "image": "shopify://shop_images/website_bundle.webp",
-            "text": "Bundel & bespaar",
+            "text": "Bundle & Save",
             "link": "shopify://collections/bundle-save"
           }
         },
@@ -245,7 +245,7 @@
           "type": "category",
           "settings": {
             "image": "shopify://shop_images/tryscent_male_02.png",
-            "text": "Herengeuren",
+            "text": "Men’s Fragrances",
             "link": "shopify://collections/men"
           }
         },
@@ -253,7 +253,7 @@
           "type": "category",
           "settings": {
             "image": "shopify://shop_images/ugc12.png",
-            "text": "Damesgeuren",
+            "text": "Women’s Fragrances",
             "link": "shopify://collections/women"
           }
         },
@@ -261,7 +261,7 @@
           "type": "category",
           "settings": {
             "image": "shopify://shop_images/website_unisex_1.webp",
-            "text": "Unisexgeuren",
+            "text": "Unisex Fragrances",
             "link": "shopify://collections/unisex"
           }
         }
@@ -896,9 +896,9 @@
       ],
       "settings": {
         "background_color": "#fcfbf9",
-        "heading": "Trusted by 10,000+ customers.",
-        "review_text": "★★★★★ 4.9 / 5 — more than 10,000 reviews",
-        "button_text": "See more reviews",
+        "heading": "Trusted by 10,000+ Customers",
+        "review_text": "Rated 4.9/5 from over 10,000 reviews",
+        "button_text": "Meer beoordelingen bekijken",
         "button_link": "#",
         "padding_top": 60,
         "padding_bottom": 72
