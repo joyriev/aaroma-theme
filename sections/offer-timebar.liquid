@@ -169,7 +169,7 @@
             </div>
             <div class="flex items-center gap-2">
               <div id="flipdown-ends-label" style="color: {{ section.settings.primary_color }};" class="text-sm md:text-base font-bold leading-none md:hidden">
-                Endet in
+                Ends in
               </div>
               <div id="flipdown" class="flipdown"></div>
             </div>
@@ -245,8 +245,9 @@
 
     const deadline = getCountdownDeadline();
 
-    // Timebar labels per Weglot language (falls back to "nl")
+    // Timebar labels per Weglot language (falls back to "en")
     const timebarLabels = {
+      en: { headings: ["Day", "Hrs", "Min", "Sec"], endsIn: "Ends in" },
       nl: { headings: ["Dag", "Uur", "Min", "Sec"], endsIn: "Eindigt over" },
       fr: { headings: ["Jour", "Hrs", "Min", "Sec"], endsIn: "Se termine dans" },
       de: { headings: ["Tag", "Std", "Min", "Sek"], endsIn: "Endet in" },
@@ -256,7 +257,7 @@
     const endsLabelEl = document.getElementById('flipdown-ends-label');
 
     function buildFlipdown(lang) {
-      const labels = timebarLabels[lang] || timebarLabels.nl;
+      const labels = timebarLabels[lang] || timebarLabels.en;
 
       if (endsLabelEl) {
         endsLabelEl.textContent = labels.endsIn;
@@ -276,7 +277,7 @@
         });
     }
 
-    const currentLang = (window.Weglot && typeof Weglot.getCurrentLang === 'function' && Weglot.getCurrentLang()) || 'nl';
+    const currentLang = (window.Weglot && typeof Weglot.getCurrentLang === 'function' && Weglot.getCurrentLang()) || 'en';
     buildFlipdown(currentLang);
 
     if (window.Weglot && typeof Weglot.on === 'function') {
