@@ -285,8 +285,8 @@
         "review_MKcdVw": {
           "type": "review",
           "settings": {
-            "heading": "Zeker een aanrader.",
-            "content": "<p>\"Ik droeg Nr. 079 naar een etentje en drie mensen vroegen welk parfum ik op had. Een van hen dacht dat het Chanel was.\"</p>",
+            "heading": "Highly recommended.",
+            "content": "<p>“I wore No. 079 out to dinner, and three people asked what perfume I was wearing. One of them thought it was Chanel.”</p>",
             "author": "Sanne V., Rotterdam",
             "date": "2 days ago",
             "rating": 5,
@@ -297,8 +297,8 @@
         "review_kCUEm4": {
           "type": "review",
           "settings": {
-            "heading": "Perfect aangekomen.",
-            "content": "<p>\"Na twaalf uur werken ruik ik hem nog steeds. Dat lukt mijn flesje van 120 euro niet eens. Deze blijft. Dat flesje niet.\"</p>",
+            "heading": "Arrived in perfect condition.",
+            "content": "<p>“After a twelve-hour workday, I can still smell it. Even my €120 perfume doesn’t last that long. This one lasts. That one doesn’t.”</p>",
             "author": "Daan M., Utrecht",
             "date": "2 days ago",
             "rating": 5,
@@ -309,8 +309,8 @@
         "review_EbFNac": {
           "type": "review",
           "settings": {
-            "heading": "Uitstekende prijs-kwaliteit.",
-            "content": "<p>\"Ik was echt onder de indruk van de kwaliteit. De geur blijft lang hangen en is te vergelijken met veel duurdere merken.\"</p>",
+            "heading": "Great quality, great price.",
+            "content": "<p><br/>“I was really impressed with the quality. The scent lasts a long time and is comparable to much more expensive brands.”</p>",
             "author": "Santosh K.",
             "date": "2 days ago",
             "rating": 5,
