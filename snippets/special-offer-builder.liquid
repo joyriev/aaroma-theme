@@ -215,7 +215,7 @@
         // Add each selected product as a separate property
         this.selectedProducts.forEach((product, index) => {
           properties[`Fles ${index + 1}`] = 
-            `${product.name} Geïnspireerd door ${product.inspiration_name} - ${product.variant.title}`;
+            `${product.name} Inspired by ${product.inspiration_name} - ${product.variant.title}`;
         });
         // Prepare cart items
         const items = {
