@@ -221,7 +221,7 @@
       "name": "You May Like",
       "settings": {
         "background_color": "#faf9f6",
-        "title": "Others also bought",
+        "title": "You May Also Like",
         "description": "",
         "collection": "bestsellers",
         "button_text": "View all",
