@@ -207,10 +207,10 @@
       "name": "Popular Products",
       "settings": {
         "background_color": "#fcfbf9",
-        "title": "Herengeuren",
+        "title": "Men’s Fragrances",
         "description": "",
         "collection": "men",
-        "button_text": "Bekijk alles",
+        "button_text": "View All",
         "button_link": "shopify://collections/men",
         "padding_top": 36,
         "padding_bottom": 36
@@ -221,10 +221,10 @@
       "name": "Popular Products",
       "settings": {
         "background_color": "#fcfbf9",
-        "title": "Damesgeuren",
+        "title": "Women’s Fragrances",
         "description": "",
         "collection": "women",
-        "button_text": "Bekijk alles",
+        "button_text": "View All",
         "button_link": "shopify://collections/women",
         "padding_top": 36,
         "padding_bottom": 36
