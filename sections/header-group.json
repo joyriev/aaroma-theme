@@ -193,8 +193,8 @@
         "menu_item_MKM3K6": {
           "type": "menu_item",
           "settings": {
-            "label": "Value Bundle",
-            "url": "shopify://products/3x-100ml-perfume-bottles"
+            "label": "Bundle & Save",
+            "url": "shopify://collections/bundle-save"
           }
         },
         "menu_item_9iAMA9": {
