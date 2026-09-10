@@ -2038,7 +2038,7 @@ window.fcToggleZoeken = function() {
       <div class="fc-offer-left">
         <span class="fc-offer-icon">🎁</span>
         <div class="fc-offer-text">
-          <strong>BUY 3 GET 1 FREE</strong>
+          <strong>BUY 2 GET 1 FREE</strong>
           <span id="fcOfferSubtext">Add 3 items for a free gift</span>
         </div>
       </div>
