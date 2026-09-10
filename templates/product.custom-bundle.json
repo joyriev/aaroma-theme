@@ -241,47 +241,47 @@
       "disabled": true,
       "settings": {}
     },
-    "feature_highlights_TMTJXK": {
+    "feature_highlights_BiHtmC": {
       "type": "feature-highlights",
       "blocks": {
-        "perks_PBmdFH": {
+        "perks_DEWL7c": {
           "type": "perks",
           "settings": {
-            "perk_image": "shopify://shop_images/icons_eu.png",
-            "perk_title": "Made in the EU",
-            "perk_content": "Vegan and cruelty-free, made in Europe."
+            "perk_image": "shopify://shop_images/shipping.png",
+            "perk_title": "Free Shipping",
+            "perk_content": "On orders €55+. Shipped within 48 hours, with tracking."
           }
         },
-        "perks_aUgYmM": {
+        "perks_rgQxfM": {
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/icons_quality.png",
-            "perk_title": "Designer-grade quality",
-            "perk_content": "Crafted with the same attention to detail as designer brands."
+            "perk_title": "60-Day Money-Back Guarantee",
+            "perk_content": "Not happy? Get your money back. No hassle."
           }
         },
-        "perks_kBPq4e": {
+        "perks_BNpRGb": {
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/icons_guarantee.png",
-            "perk_title": "60-day money-back guarantee",
-            "perk_content": "Not the one? Return it within 60 days for a full refund."
+            "perk_title": "Made in Europe",
+            "perk_content": "Produced in certified European facilities."
           }
         },
-        "perks_6GRd88": {
+        "perks_CJQkx7": {
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/icons_time.png",
-            "perk_title": "Long-lasting wear",
-            "perk_content": "12+ hours of wear \u2014 often longer."
+            "perk_title": "12+ Hours of Wear",
+            "perk_content": "Enjoy your scent all day long."
           }
         }
       },
       "block_order": [
-        "perks_PBmdFH",
-        "perks_aUgYmM",
-        "perks_kBPq4e",
-        "perks_6GRd88"
+        "perks_DEWL7c",
+        "perks_rgQxfM",
+        "perks_BNpRGb",
+        "perks_CJQkx7"
       ],
       "name": "Feature Highlights",
       "settings": {
@@ -413,7 +413,7 @@
         "text_nb9PHi": {
           "type": "text",
           "settings": {
-            "content": "<ul><li>Produced in European facilities</li><li>Ingredients and formulas according to IFRA guidelines</li><li>No compromises, no grey market or questionable blends</li></ul><p>Developed to the strict European cosmetics regulations \u2014 the toughest in the world.</p>",
+            "content": "<ul><li>Produced in European facilities</li><li>Ingredients and formulas according to IFRA guidelines</li><li>No compromises, no grey market or questionable blends</li></ul><p>Developed to the strict European cosmetics regulations — the toughest in the world.</p>",
             "mobile_content": "",
             "font_size": 18
           }
@@ -1250,7 +1250,7 @@
   "order": [
     "main",
     "pdp_bundle_builder",
-    "feature_highlights_TMTJXK",
+    "feature_highlights_BiHtmC",
     "stacks_up_KpgiHt",
     "cupid-video-reviews",
     "scent_breakdown_rG4H3T",
