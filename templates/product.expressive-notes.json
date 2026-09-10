@@ -235,47 +235,47 @@
       "disabled": true,
       "settings": {}
     },
-    "feature_highlights_TMTJXK": {
+    "feature_highlights_t7kmPE": {
       "type": "feature-highlights",
       "blocks": {
-        "perks_PBmdFH": {
+        "perks_DCcPG9": {
           "type": "perks",
           "settings": {
-            "perk_image": "shopify://shop_images/icons_eu.png",
-            "perk_title": "Free delivery From €55",
-            "perk_content": "shipped within 48 hours, with tracking."
+            "perk_image": "shopify://shop_images/shipping.png",
+            "perk_title": "Free Shipping",
+            "perk_content": "On orders €55+. Shipped within 48 hours, with tracking."
           }
         },
-        "perks_aUgYmM": {
+        "perks_348qpb": {
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/icons_quality.png",
-            "perk_title": "60-day guarantee",
-            "perk_content": "Not satisfied? Money back. No hassle."
+            "perk_title": "60-Day Money-Back Guarantee",
+            "perk_content": "Not happy? Get your money back. No hassle."
           }
         },
-        "perks_kBPq4e": {
+        "perks_7QeJPy": {
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/icons_guarantee.png",
-            "perk_title": "EU-certified",
-            "perk_content": "Made in certified European factories."
+            "perk_title": "Made in Europe",
+            "perk_content": "Produced in certified European facilities."
           }
         },
-        "perks_6GRd88": {
+        "perks_79pDni": {
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/icons_time.png",
-            "perk_title": "12+ hours of wear",
-            "perk_content": "Lasts all day."
+            "perk_title": "12+ Hours of Wear",
+            "perk_content": "Enjoy your scent all day long."
           }
         }
       },
       "block_order": [
-        "perks_PBmdFH",
-        "perks_aUgYmM",
-        "perks_kBPq4e",
-        "perks_6GRd88"
+        "perks_DCcPG9",
+        "perks_348qpb",
+        "perks_7QeJPy",
+        "perks_79pDni"
       ],
       "name": "Feature Highlights",
       "settings": {
@@ -1245,7 +1245,7 @@
     "main",
     "you_may_like_8Qi8X8",
     "pdp_bundle_builder",
-    "feature_highlights_TMTJXK",
+    "feature_highlights_t7kmPE",
     "cupid-video-reviews",
     "scent_breakdown_rG4H3T",
     "features_section_4U8qxa",
