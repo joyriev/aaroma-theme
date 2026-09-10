@@ -160,7 +160,6 @@
         "step_eCyHxX",
         "step_yYVfT7"
       ],
-      "disabled": true,
       "name": "Collection Header",
       "settings": {
         "background_color": "#242833",
@@ -179,6 +178,7 @@
     },
     "blocky_image_embedded_cEwD7H": {
       "type": "blocky-image-embedded",
+      "disabled": true,
       "name": "Blocky Image Embed",
       "settings": {
         "image": "shopify://shop_images/PaydayDeal_Header_-_Magic_Perfume_-_NL.webp",
